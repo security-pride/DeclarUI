@@ -1,0 +1,20 @@
+Given the following set of UI design images:
+[Image Set]
+
+And the formal definition of a Page Transition Graph (PTG):
+A page navigation graph is a directed graph G = (N, E), where:
+
+N is the set of nodes representing the various interfaces (pages) in the App. Each node n ∈ N represents a specific interface and has the following attributes:
+- id: The unique identifier of the node, typically a string or integer.
+- name: The name of the interface, used for readability and code generation.
+- type: The type of the interface, such as "login page", "list page", "detail page", etc., used to guide code generation.
+- props: Additional attributes of the interface, such as element layout, styles, etc., used to describe the interface in detail.
+
+E is the set of directed edges representing the navigation relationships between interfaces. Each edge e = (n1, n2, c) ∈ E represents a navigation from interface n1 to interface n2 and has the following attributes:
+- id: The unique identifier of the edge.
+- from: The id of the starting node n1.
+- to: The id of the target node n2.
+- conditions: The conditions c that trigger this navigation, typically a boolean expression.
+- actions: The actions to be executed during the navigation, such as data transfer, state updates, etc.
+
+Where the Node id is one of the following list: {node_id_list}. Please analyze the UI design images and generate a complete Page Transition Graph (PTG) that captures all pages, their elements, and the possible transitions between them. Ensure that you include both page-specific transitions and global transitions where applicable.
