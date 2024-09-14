@@ -1,0 +1,120 @@
+{
+  "N": [
+    {
+      "id": "CreateAccount",
+      "name": "Sign Up Page",
+      "type": "registration",
+      "props": {
+        "layout": "vertical",
+        "fields": ["email", "password"],
+        "socialLogin": ["Google", "Apple", "Facebook"]
+      }
+    },
+    {
+      "id": "Home",
+      "name": "GoBook Home",
+      "type": "booking",
+      "props": {
+        "layout": "vertical",
+        "bookingOptions": ["Flight", "Bus", "Train", "Launch"],
+        "tripType": ["One Way", "Round Way", "Multi City"]
+      }
+    },
+    {
+      "id": "Login",
+      "name": "Sign In Page",
+      "type": "login",
+      "props": {
+        "layout": "vertical",
+        "fields": ["email", "password"],
+        "socialLogin": ["Google", "Apple", "Facebook"]
+      }
+    },
+    {
+      "id": "Notification",
+      "name": "Notification Page",
+      "type": "list",
+      "props": {
+        "layout": "vertical",
+        "itemType": "notification"
+      }
+    },
+    {
+      "id": "Profile",
+      "name": "User Profile",
+      "type": "profile",
+      "props": {
+        "layout": "vertical",
+        "sections": ["Edit Profile", "Notification", "Payment Method", "Bookmarks", "Security", "Settings"]
+      }
+    },
+    {
+      "id": "SearchResult",
+      "name": "Search Results",
+      "type": "list",
+      "props": {
+        "layout": "vertical",
+        "itemType": "searchResult"
+      }
+    },
+    {
+      "id": "Setting",
+      "name": "Settings Page",
+      "type": "settings",
+      "props": {
+        "layout": "vertical"
+      }
+    }
+  ],
+  "E": [
+    {
+      "id": "CreateAccount->Home",
+      "from": "CreateAccount",
+      "to": "Home",
+      "conditions": "accountCreated",
+      "actions": "loginUser"
+    },
+    {
+      "id": "Login->Home",
+      "from": "Login",
+      "to": "Home",
+      "conditions": "validCredentials",
+      "actions": "loginUser"
+    },
+    {
+      "id": "Home->Search",
+      "from": "Home",
+      "to": "SearchResult",
+      "conditions": "searchPerformed",
+      "actions": "performSearch"
+    },
+    {
+      "id": "Home->Notification",
+      "from": "Home",
+      "to": "Notification",
+      "conditions": "notificationTabClicked",
+      "actions": "loadNotifications"
+    },
+    {
+      "id": "Home->Profile",
+      "from": "Home",
+      "to": "Profile",
+      "conditions": "profileTabClicked",
+      "actions": "loadUserProfile"
+    },
+    {
+      "id": "Profile->Setting",
+      "from": "Profile",
+      "to": "Setting",
+      "conditions": "settingsOptionSelected",
+      "actions": "openSettings"
+    },
+    {
+      "id": "Notification->Home",
+      "from": "Notification",
+      "to": "Home",
+      "conditions": "homeTabClicked",
+      "actions": "returnToHome"
+    }
+  ]
+}

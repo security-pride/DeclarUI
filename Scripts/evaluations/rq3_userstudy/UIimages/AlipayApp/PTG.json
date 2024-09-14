@@ -1,0 +1,115 @@
+{
+    "N": [
+      {
+        "id": "Home",
+        "name": "首页",
+        "type": "main",
+        "props": {
+          "layout": "grid",
+          "features": ["扫一扫", "收付款", "出行", "卡包"],
+          "quickAccess": ["饿了么", "口碑团购", "市民中心", "淘票票", "转账"],
+          "bottomBar": ["首页", "理财", "视频", "消息", "我的"]
+        }
+      },
+      {
+        "id": "Profile",
+        "name": "用户中心",
+        "type": "profile",
+        "props": {
+          "layout": "list",
+          "features": ["支付宝会员", "商家服务", "账单", "总资产", "余额", "余额宝", "花呗", "银行卡"],
+          "bottomBar": ["首页", "理财", "视频", "消息", "我的"]
+        }
+      },
+      {
+        "id": "Tickets",
+        "name": "淘票票",
+        "type": "ticketing",
+        "props": {
+          "layout": "vertical",
+          "categories": ["电影/影院", "脱口秀", "展览休闲", "剧场演出", "音乐现场"],
+          "featuredSection": "暑期超级夏令营",
+          "movieList": ["热映影片", "新热预告"],
+          "bottomBar": ["首页", "想看", "会员", "票夹", "我的"]
+        }
+      },
+      {
+        "id": "Trade",
+        "name": "收付款",
+        "type": "payment",
+        "props": {
+          "layout": "vertical",
+          "paymentMethods": ["向商家付款", "收钱", "分期付款", "转账"],
+          "defaultPayment": "招商银行储蓄卡 (7616)"
+        }
+      },
+      {
+        "id": "UtilityBills",
+        "name": "生活缴费",
+        "type": "utility",
+        "props": {
+          "layout": "grid",
+          "billTypes": ["电费", "水费", "燃气费", "暖气费", "有线电视", "宽带", "手机", "固话", "物业费", "转供缴费"],
+          "features": ["极速到账", "出账通知", "随时可缴"]
+        }
+      }
+    ],
+    "E": [
+      {
+        "id": "Home->Profile",
+        "from": "Home",
+        "to": "Profile",
+        "conditions": "userTapsBottomProfileIcon",
+        "actions": "loadUserData"
+      },
+      {
+        "id": "Profile->Home",
+        "from": "Profile",
+        "to": "Home",
+        "conditions": "userTapsBottomHomeIcon",
+        "actions": "refreshHomeScreen"
+      },
+      {
+        "id": "Home->Tickets",
+        "from": "Home",
+        "to": "Tickets",
+        "conditions": "userTapsTicketsIcon",
+        "actions": "loadTicketingPage"
+      },
+      {
+        "id": "Tickets->Home",
+        "from": "Tickets",
+        "to": "Home",
+        "conditions": "userTapsTopRightHomeIcon",
+        "actions": "refreshHomeScreen"
+      },
+      {
+        "id": "Home->Trade",
+        "from": "Home",
+        "to": "Trade",
+        "conditions": "userTapsTradeIcon",
+        "actions": "initializePaymentScreen"
+      },
+      {
+        "id": "Trade->Home",
+        "from": "Trade",
+        "to": "Home",
+        "conditions": "userCompletesOrCancelsTransaction",
+        "actions": "refreshHomeScreen"
+      },
+      {
+        "id": "Home->UtilityBills",
+        "from": "Home",
+        "to": "UtilityBills",
+        "conditions": "userTapsUtilityBillsIcon",
+        "actions": "loadUtilityBillsPage"
+      },
+      {
+        "id": "UtilityBills->Home",
+        "from": "UtilityBills",
+        "to": "Home",
+        "conditions": "userCompletesOrCancelsBillPayment",
+        "actions": "refreshHomeScreen"
+      }
+    ]
+  }

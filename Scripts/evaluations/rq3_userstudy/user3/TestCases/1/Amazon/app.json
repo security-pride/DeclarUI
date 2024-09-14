@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "7amazon",
+    "slug": "snack-923d065a-f54c-42b6-9e12-9a2ef7b8237e",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.ztt98.snack923d065af54c42b69e129a2ef7b8237e"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "406e88e5-ef3a-481b-a347-074ef5583ffe"
+      }
+    }
+  }
+}

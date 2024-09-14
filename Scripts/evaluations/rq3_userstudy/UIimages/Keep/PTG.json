@@ -1,0 +1,119 @@
+{
+    "N": [
+      {
+        "id": "Store",
+        "name": "商城页面",
+        "type": "list",
+        "props": {
+          "layout": "grid",
+          "sections": ["全部", "运动必备"],
+          "categories": ["运动奖品", "全身燃脂", "身体数据", "运动装备", "家用智能", "Keep周边", "健康食品", "女子服饰", "男子服饰", "全部分类"],
+          "searchBar": true
+        }
+      },
+      {
+        "id": "Home",
+        "name": "首页",
+        "type": "dashboard",
+        "props": {
+          "layout": "vertical",
+          "sections": ["关注", "发现", "活动"],
+          "quickAccess": ["跟练", "同城", "心火已燃", "城市K车"],
+          "bottomNav": ["首页", "课程", "运动", "商城", "我的"]
+        }
+      },
+      {
+        "id": "Profile",
+        "name": "个人资料页",
+        "type": "profile",
+        "props": {
+          "layout": "vertical",
+          "sections": ["我的动态", "收藏与加油", "我的课程", "我的活动", "我的饮食", "订单与钱包"],
+          "userStats": ["关注", "粉丝", "加油"]
+        }
+      },
+      {
+        "id": "SearchSports",
+        "name": "运动类型选择页",
+        "type": "list",
+        "props": {
+          "layout": "list",
+          "title": "选择运动类别",
+          "options": ["运动日历", "户外跑步", "户外行走", "跳绳", "室内骑行", "户外骑行", "室内跑步", "室内行走", "爬楼梯"],
+          "managementOption": true
+        }
+      },
+      {
+        "id": "Sports",
+        "name": "运动页面",
+        "type": "action",
+        "props": {
+          "layout": "vertical",
+          "title": "为你推荐更适合的跑步方式",
+          "customizationOption": "开始定制",
+          "sections": ["轻松跑", "目标跑", "自由跑", "课程跑", "自定义"],
+          "tags": ["高效减脂", "不窒气", "轻松跑更远"],
+          "actions": ["路线", "GO", "跑鞋"],
+          "bottomNav": ["运动日历", "户外跑步", "户外行走", "跳绳"]
+        }
+      }
+    ],
+    "E": [
+      {
+        "id": "Home->Store",
+        "from": "Home",
+        "to": "Store",
+        "conditions": "userClicksStoreTab == true",
+        "actions": "loadStoreContent(), updateBottomNavSelection('商城')"
+      },
+      {
+        "id": "Store->Home",
+        "from": "Store",
+        "to": "Home",
+        "conditions": "userClicksHomeTab == true",
+        "actions": "loadHomeContent(), updateBottomNavSelection('首页')"
+      },
+      {
+        "id": "Home->Profile",
+        "from": "Home",
+        "to": "Profile",
+        "conditions": "userClicksProfileTab == true",
+        "actions": "loadUserProfile(), updateBottomNavSelection('我的')"
+      },
+      {
+        "id": "Profile->Home",
+        "from": "Profile",
+        "to": "Home",
+        "conditions": "userClicksHomeTab == true",
+        "actions": "loadHomeContent(), updateBottomNavSelection('首页')"
+      },
+      {
+        "id": "Home->SearchSports",
+        "from": "Home",
+        "to": "SearchSports",
+        "conditions": "userSelectsSportType == true",
+        "actions": "loadSelectedSportPage(selectedType), updateBottomNav(selectedType)"
+      },
+      {
+        "id": "Sports->Home",
+        "from": "Sports",
+        "to": "Home",
+        "conditions": "userClicksHomeTab == true",
+        "actions": "loadHomeContent(), updateBottomNavSelection('首页')"
+      },
+      {
+        "id": "Sports->SearchSports",
+        "from": "Sports",
+        "to": "SearchSports",
+        "conditions": "userClicksChangeSportType == true",
+        "actions": "loadSportTypes(), preserveCurrentSportSelection()"
+      },
+      {
+        "id": "SearchSports->Sports",
+        "from": "SearchSports",
+        "to": "Sports",
+        "conditions": "userSelectsNewSportType == true",
+        "actions": "loadSelectedSportPage(newSelectedType), updateBottomNav(newSelectedType)"
+      }
+    ]
+  }

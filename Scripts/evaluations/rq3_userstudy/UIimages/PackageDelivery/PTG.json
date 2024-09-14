@@ -1,0 +1,88 @@
+{
+  "N": [
+    {
+      "id": "Home_Top_drawer_open",
+      "name": "Home Page with Open Drawer",
+      "type": "list",
+      "props": {
+        "layout": "vertical",
+        "itemType": "parcel",
+        "drawerState": "open"
+      }
+    },
+    {
+      "id": "Home_Top_drawer_close",
+      "name": "Home Page with Closed Drawer",
+      "type": "search",
+      "props": {
+        "searchBarPlaceholder": "tracking number",
+        "hasQRScanner": true
+      }
+    },
+    {
+      "id": "SendParcel_Delivery_method",
+      "name": "Send Parcel - Delivery Method",
+      "type": "form",
+      "props": {
+        "deliveryOptions": ["From door to parcel center", "From door to door"],
+        "recipientInfoFields": ["Name", "Email", "Phone number", "Address"]
+      }
+    },
+    {
+      "id": "SendParcel_Parcel_size",
+      "name": "Send Parcel - Parcel Size",
+      "type": "selection",
+      "props": {
+        "sizeOptions": ["Small", "Medium", "Large", "Custom"],
+        "maxWeight": "30kg",
+        "maxDimension": "300cm"
+      }
+    },
+    {
+      "id": "Parcel_center",
+      "name": "Parcel Centers",
+      "type": "map",
+      "props": {
+        "showsList": true,
+        "listItems": ["address", "availability", "occupancy"]
+      }
+    }
+  ],
+  "E": [
+    {
+      "id": "open_drawer",
+      "from": "Home_Top_drawer_close",
+      "to": "Home_Top_drawer_open",
+      "conditions": "userTapsDrawerIcon",
+      "actions": "openDrawer"
+    },
+    {
+      "id": "close_drawer",
+      "from": "Home_Top_drawer_open",
+      "to": "Home_Top_drawer_close",
+      "conditions": "userTapsCloseDrawer",
+      "actions": "closeDrawer"
+    },
+    {
+      "id": "go_to_send_parcel",
+      "from": "Home_Top_drawer_open",
+      "to": "SendParcel_Delivery_method",
+      "conditions": "userSelectsSendParcel",
+      "actions": "navigateToSendParcel"
+    },
+    {
+      "id": "select_parcel_size",
+      "from": "SendParcel_Delivery_method",
+      "to": "SendParcel_Parcel_size",
+      "conditions": "userCompletesDeliveryMethod",
+      "actions": "saveDeliveryMethod"
+    },
+    {
+      "id": "view_parcel_centers",
+      "from": "Home_Top_drawer_open",
+      "to": "Parcel_center",
+      "conditions": "userSelectsParcelCenter",
+      "actions": "loadParcelCenters"
+    }
+  ]
+}

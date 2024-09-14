@@ -1,0 +1,105 @@
+{
+    "N": [
+    {
+        "id": "Details",
+        "name": "Weather Details",
+        "type": "detail",
+        "props": {
+          "additional_info": ["precipitation", "humidity", "wind chill", "dew point", "cloud cover", "pressure", "moon phases", "ultraviolet index", "wind direction", "wind speed"]
+        }
+      },
+      {
+        "id": "Setting",
+        "name": "Settings",
+        "type": "settings",
+        "props": {
+          "features": ["Manage location", "Temperature", "Lock screen", "Notification", "Status bar", "Weather radar", "Weather widgets", "Unit setting", "Feedback and Suggestion", "Report problem", "Share"]
+        }
+      },
+     {
+        "id": "Home",
+        "name": "Home",
+        "type": "home",
+        "props": {
+          "location": "Mountain View, CA 94043, USA",
+          "date": "Mon Jul 15, 2024",
+          "weather_forecast": "24 hours next",
+          "additional_elements": ["Lock screen", "Max/Min temperature", "Wind direction and speed", "Hourly forecast"]
+        }
+      },
+      {
+        "id": "AddLocations",
+        "name": "Add Location",
+        "type": "list",
+        "props": {
+          "action": "Click to add location"
+        }
+      },
+       {
+        "id": "EditLocation",
+        "name": "Edit Location",
+        "type": "list",
+        "props": {
+          "options": ["Current location", "Automatic detection", "Add location by searching city name"]
+        }
+      }
+    ],
+    "E": [
+     {
+        "id": "Home->Setting",
+        "from": "Home",
+        "to": "Setting",
+        "conditions": "user_presses_settings_button",
+        "actions": "navigate_to_settings_page"
+      },
+      {
+        "id": "Setting->Home",
+        "from": "Setting",
+        "to": "Home",
+        "conditions": "user_presses_back_button",
+        "actions": "return_to_home_page"
+      },
+     {
+        "id": "Home->Details",
+        "from": "Home",
+        "to": "Details",
+        "conditions": "user_clicks_more_details",
+        "actions": "show_weather_details"
+      },
+     {
+        "id": "Details->Home",
+        "from": "Details",
+        "to": "Home",
+        "conditions": "user_presses_back_button",
+        "actions": "return_to_home_page_from_details"
+      },
+       {
+        "id": "Home->AddLocations",
+        "from": "Home",
+        "to": "AddLocations",
+        "conditions": "user_clicks_location_icon",
+        "actions": "open_add_location_interface"
+      },
+      {
+        "id": "AddLocations->Home",
+        "from": "AddLocations",
+        "to": "Home",
+        "conditions": "user_presses_back_button",
+        "actions": "return_to_home_page_after_adding_location"
+      },
+       {
+        "id": "Setting->EditLocation",
+        "from": "Setting",
+        "to": "EditLocation",
+        "conditions": "user_clicks_manage_location",
+        "actions": "navigate_to_edit_location_page"
+      },
+       {
+        "id": "EditLocation->Setting",
+        "from": "EditLocation",
+        "to": "Setting",
+        "conditions": "user_presses_back_button",
+        "actions": "return_to_settings_page"
+      }
+    ]
+  }

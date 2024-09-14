@@ -1,0 +1,188 @@
+{
+  "N": [
+    {
+      "id": "Home",
+      "name": "Home Screen",
+      "type": "Feed",
+      "props": {
+        "header": {
+          "title": "Hots now"
+        },
+        "sections": [
+          {
+            "title": "Hots now",
+            "playlists": [
+              {"name": "Summer Vibes", "followers": "1,300,231"},
+              {"name": "Rap Zone", "followers": "650,231"}
+            ]
+          },
+          {
+            "title": "Mood",
+            "playlists": [
+              {"name": "Shower Time", "followers": "1,300,231"},
+              {"name": "Old School", "followers": "300,231"}
+            ]
+          },
+          {
+            "title": "Popular artists",
+            "artists": ["Ed Sheeran", "Rita Ora", "Eminem", "Dua Lipa"]
+          }
+        ],
+        "nowPlaying": {
+          "song": "All Mine",
+          "artist": "Kanye West"
+        },
+        "bottomNav": ["Home", "Listen", "Search", "Profile"]
+      }
+    },
+    {
+      "id": "Listen",
+      "name": "Listen Screen",
+      "type": "Explore",
+      "props": {
+        "header": {
+          "title": "Hots now"
+        },
+        "featuredPlaylists": [
+          {"name": "Summer Vibes", "followers": "1,300,231"},
+          {"name": "Monday Party", "followers": "650,231"}
+        ],
+        "recentCategories": [
+          {"name": "Ranking", "isNew": true},
+          {"name": "Weekly featured"},
+          {"name": "Podcast"},
+          {"name": "Live"},
+          {"name": "Concerts"}
+        ],
+        "nowPlaying": {
+          "song": "All Mine",
+          "artist": "Kanye West"
+        },
+        "bottomNav": ["Home", "Listen", "Search", "Profile"]
+      }
+    },
+    {
+      "id": "Player",
+      "name": "Player Screen",
+      "type": "Player",
+      "props": {
+        "song": {
+          "title": "All Mine",
+          "artist": "Kanye West",
+          "cover": true
+        },
+        "controls": ["shuffle", "previous", "play", "next", "repeat"],
+        "progress": "01:30 / 03:00",
+        "shareButton": {
+          "text": "Share the sound!",
+          "description": "Let your friends know what are you listening! Share this song"
+        }
+      }
+    },
+    {
+      "id": "Profile",
+      "name": "Profile Screen",
+      "type": "Profile",
+      "props": {
+        "header": {
+          "premiumBanner": {
+            "title": "SoundCloud Premium",
+            "description": "Remove boring advs, create infinite playlists and so much"
+          }
+        },
+        "userInfo": {
+          "name": "Kimberly Evans",
+          "avatar": true,
+          "editProfileButton": true,
+          "accountType": "Free User"
+        },
+        "menuItems": [
+          "My SoundCloud",
+          "Music quality",
+          "Help"
+        ],
+        "playlists": [
+          {"name": "Summer Vibes", "followers": "1,300,231"},
+          {"name": "Rap Zone", "followers": "650,231"},
+          {"name": "Music Mix", "followers": "50,231"}
+        ],
+        "nowPlaying": {
+          "song": "All Mine",
+          "artist": "Kanye West"
+        },
+        "bottomNav": ["Home", "Listen", "Search", "Profile"]
+      }
+    },
+    {
+      "id": "Search",
+      "name": "Search Screen",
+      "type": "Search",
+      "props": {
+        "searchBar": {
+          "placeholder": "Search that song!",
+          "voiceSearchButton": true
+        },
+        "recentSearches": [
+          {"song": "Better Now", "artist": "Post Malone"},
+          {"song": "Kimberly Evans", "artist": "Calvin Harris, Dua Lipa"},
+          {"song": "I Like It", "artist": "Cardi B, Bad Bunny, J Balvin"},
+          {"song": "Girls Like You (feat Cardi B)", "artist": "Maroon 5"},
+          {"song": "Back To You", "artist": "Selena Gomez"},
+          {"song": "Lucid Dreams", "artist": "Juice WRLD"},
+          {"song": "No Tears Left To Cry", "artist": "Ariana Grande"},
+          {"song": "Nice For What", "artist": "Drake"},
+          {"song": "Youngblood", "artist": "5 Seconds of Summer"}
+        ],
+        "nowPlaying": {
+          "song": "All Mine",
+          "artist": "Kanye West"
+        },
+        "bottomNav": ["Home", "Listen", "Search", "Profile"]
+      }
+    }
+  ],
+  "E": [
+    {
+      "id": "Home->Listen",
+      "from": "Home",
+      "to": "Listen",
+      "conditions": "User taps Listen in bottom nav",
+      "actions": "Navigate to listen screen"
+    },
+    {
+      "id": "Home->Search",
+      "from": "Home",
+      "to": "Search",
+      "conditions": "User taps Search in bottom nav",
+      "actions": "Navigate to search screen"
+    },
+    {
+      "id": "Home->Profile",
+      "from": "Home",
+      "to": "Profile",
+      "conditions": "User taps Profile in bottom nav",
+      "actions": "Navigate to profile screen"
+    },
+    {
+      "id": "Home->Player",
+      "from": "Home",
+      "to": "Player",
+      "conditions": "User taps on now playing bar",
+      "actions": "Open full player screen"
+    },
+    {
+      "id": "any->Player",
+      "from": "any",
+      "to": "Player",
+      "conditions": "User taps on now playing bar",
+      "actions": "Open full player screen"
+    },
+    {
+      "id": "any->Home",
+      "from": "any",
+      "to": "Home",
+      "conditions": "User taps Home in bottom nav",
+      "actions": "Navigate to home screen"
+    }
+  ]
+}
