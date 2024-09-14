@@ -1,0 +1,170 @@
+{
+  "N": [
+    {
+      "id": "Home",
+      "name": "Home Screen",
+      "type": "Feed",
+      "props": {
+        "tabs": ["Following", "For You"],
+        "videoContent": {
+          "user": "@craig_love",
+          "caption": "The most satisfying Job #fyp #satisfying #roadmarking",
+          "music": "Roddy Roundich - The Rou",
+          "likes": "328.7K",
+          "comments": "578",
+          "shareButton": true
+        },
+        "bottomNav": ["Home", "Discover", "Create", "Inbox", "Me"]
+      }
+    },
+    {
+      "id": "Inbox",
+      "name": "Inbox Screen",
+      "type": "Notifications",
+      "props": {
+        "header": {
+          "title": "All activity",
+          "dropdown": true,
+          "sendButton": true
+        },
+        "content": {
+          "emptyState": {
+            "icon": "message",
+            "title": "Notifications aren't available",
+            "description": "Notifications about your account will appear here"
+          }
+        },
+        "bottomNav": ["Home", "Discover", "Create", "Inbox", "Me"]
+      }
+    },
+    {
+      "id": "Comments",
+      "name": "Comments Screen",
+      "type": "Modal",
+      "props": {
+        "header": {
+          "title": "579 comments",
+          "closeButton": true
+        },
+        "commentList": [
+          {
+            "user": "martini_rond",
+            "comment": "How neatly I write the date in my book",
+            "time": "22h",
+            "likes": "8098",
+            "replies": "4"
+          },
+          {
+            "user": "maxjacobson",
+            "comment": "Now that's a skill very talented",
+            "time": "22h",
+            "likes": "8098",
+            "replies": "1"
+          }
+        ],
+        "addCommentInput": true
+      }
+    },
+    {
+      "id": "Share",
+      "name": "Share Screen",
+      "type": "Modal",
+      "props": {
+        "shareOptions": [
+          "WhatsApp",
+          "WhatsApp status",
+          "Message",
+          "SMS",
+          "Messenger",
+          "Instagram"
+        ],
+        "actionOptions": [
+          "Report",
+          "Not interested",
+          "Save video",
+          "Duet",
+          "React",
+          "Add to Favorites"
+        ]
+      }
+    },
+    {
+      "id": "Profile",
+      "name": "Profile Screen",
+      "type": "Profile",
+      "props": {
+        "header": {
+          "addFriendButton": true,
+          "username": "Jacob West",
+          "settings": true
+        },
+        "userInfo": {
+          "handle": "@jacob_w",
+          "avatar": true,
+          "stats": {
+            "following": "14",
+            "followers": "38",
+            "likes": "91"
+          },
+          "editProfileButton": true,
+          "bookmarkButton": true
+        },
+        "content": {
+          "tabs": ["Posts", "Liked"],
+          "posts": [
+            {"type": "image", "thumbnail": true},
+            {"type": "image", "thumbnail": true},
+            {"type": "image", "thumbnail": true},
+            {"type": "image", "thumbnail": true},
+            {"type": "createNew", "text": "Tap to create a new video"}
+          ]
+        },
+        "bottomNav": ["Home", "Discover", "Create", "Inbox", "Me"]
+      }
+    }
+  ],
+  "E": [
+    {
+      "id": "Home->Comments",
+      "from": "Home",
+      "to": "Comments",
+      "conditions": "User taps comment button",
+      "actions": "Open comments modal"
+    },
+    {
+      "id": "Home->Share",
+      "from": "Home",
+      "to": "Share",
+      "conditions": "User taps share button",
+      "actions": "Open share modal"
+    },
+    {
+      "id": "Home->Inbox",
+      "from": "Home",
+      "to": "Inbox",
+      "conditions": "User taps Inbox in bottom nav",
+      "actions": "Navigate to inbox screen"
+    },
+    {
+      "id": "Home->Profile",
+      "from": "Home",
+      "to": "Profile",
+      "conditions": "User taps Me in bottom nav",
+      "actions": "Navigate to profile screen"
+    },
+    {
+      "id": "Inbox->Home",
+      "from": "Inbox",
+      "to": "Home",
+      "conditions": "User taps Home in bottom nav",
+      "actions": "Navigate to home feed"
+    },
+    {
+      "id": "Comments->Home",
+      "from": "Comments",
+      "to": "Home",
+      "conditions": "User Click the video section at the top of the screen",
+      "actions": "Navigate to home feed"
+    }
+  ]
+}

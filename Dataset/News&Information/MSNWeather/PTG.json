@@ -1,0 +1,174 @@
+{
+  "N": [
+    {
+      "id": "Apps",
+      "name": "Apps",
+      "type": "home",
+      "props": {
+        "layout": "made_of_buttons",
+        "features": [
+          "Sign in to earn daily points",
+          "Microsoft Rewards",
+          "Interests",
+          "Bookmarks",
+          "History",
+          "Settings",
+          "Pinned",
+          "Explore",
+          "Rewards",
+          "Apps"
+        ]
+      }
+    },
+    {
+      "id": "Home",
+      "name": "Home",
+      "type": "home",
+      "props": {
+        "features": [
+          "Deals",
+          "Ask me anything",
+          "Weather",
+          "Chat",
+          "Tabs",
+          "Apps"
+        ]
+      }
+    },
+    {
+      "id": "Settings",
+      "name": "Settings",
+      "type": "settings",
+      "props": {
+        "features": [
+          "Accounts",
+          "General",
+          "Privacy",
+          "Region and language",
+          "Permissions",
+          "Preferences",
+          "Homepage",
+          "Notifications",
+          "Theme",
+          "Search",
+          "Rewards"
+        ]
+      }
+    },
+    {
+      "id": "PersonalCentral",
+      "name": "Personal Central",
+      "type": "profile",
+      "props": {
+        "features": [
+          "Notifications",
+          "Settings",
+          "Interests",
+          "History",
+          "Bookmarks and saves"
+        ]
+      }
+    },
+    {
+      "id": "News",
+      "name": "News",
+      "type": "content",
+      "props": {
+        "features": [
+          "Search news",
+          "For You",
+          "Local",
+          "Top Stories",
+          "US",
+          "Headlines"
+        ]
+      }
+    }
+  ],
+  "E": [
+    {
+      "id": "Home->Apps",
+      "from": "Home",
+      "to": "Apps",
+      "conditions": "user_clicks_on_Apps_button",
+      "actions": "navigate_to_Apps_page"
+    },
+    {
+      "id": "Apps->News",
+      "from": "Apps",
+      "to": "News",
+      "conditions": "user_clicks_on_News_button",
+      "actions": "navigate_to_News_page"
+    },
+    {
+      "id": "Apps->PersonalCentral",
+      "from": "Apps",
+      "to": "PersonalCentral",
+      "conditions": "user_clicks_on_avatar",
+      "actions": "navigate_to_PersonalCentral_page"
+    },
+    {
+      "id": "PersonalCentral->Settings",
+      "from": "PersonalCentral",
+      "to": "Settings",
+      "conditions": "user_selects_Settings_option",
+      "actions": "navigate_to_Settings_page"
+    },
+    {
+      "id": "Settings->PersonalCentral",
+      "from": "Settings",
+      "to": "PersonalCentral",
+      "conditions": "user_presses_back_button",
+      "actions": "navigate_back_to_PersonalCentral_page"
+    },
+    {
+      "id": "PersonalCentral->Apps",
+      "from": "PersonalCentral",
+      "to": "Apps",
+      "conditions": "user_presses_back_button",
+      "actions": "navigate_back_to_Apps_page"
+    },
+    {
+      "id": "Apps->Home",
+      "from": "Apps",
+      "to": "Home",
+      "conditions": "user_clicks_on_Home_button",
+      "actions": "navigate_to_Home_page"
+    },
+    {
+      "id": "PersonalCentral->Home",
+      "from": "PersonalCentral",
+      "to": "Home",
+      "conditions": "user_clicks_on_Home_button",
+      "actions": "navigate_to_Home_page"
+    },
+    {
+      "id": "Settings->Home",
+      "from": "Settings",
+      "to": "Home",
+      "conditions": "user_clicks_on_Home_button",
+      "actions": "navigate_to_Home_page"
+    },
+    {
+      "id": "News->Home",
+      "from": "News",
+      "to": "Home",
+      "conditions": "user_clicks_on_Home_button",
+      "actions": "navigate_to_Home_page"
+    },
+    {
+      "id": "News->Apps",
+      "from": "News",
+      "to": "Apps",
+      "conditions": "user_presses_back_button",
+      "actions": "navigate_back_to_Apps_page"
+    },
+    {
+      "id": "Apps->Settings",
+      "from": "Apps",
+      "to": "Settings",
+      "conditions": "user_clicks_on_Settings_button",
+      "actions": "navigate_to_Settings_page"
+    }
+  ]
+}

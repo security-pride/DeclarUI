@@ -1,0 +1,104 @@
+{
+  "N": [
+    {
+      "id": "Cleaner",
+      "name": "Cleaner Page",
+      "type": "dashboard",
+      "props": {
+        "storageUsage": "66%",
+        "totalStorage": "128 GB",
+        "usedStorage": "85 GB"
+      }
+    },
+    {
+      "id": "CloudStorage",
+      "name": "Cloud Storage Page",
+      "type": "list",
+      "props": {
+        "layout": "grid",
+        "itemType": "cloudStorage"
+      }
+    },
+    {
+      "id": "CloudStorage-ListView",
+      "name": "Cloud Storage List View",
+      "type": "list",
+      "props": {
+        "layout": "vertical",
+        "itemType": "cloudStorage"
+      }
+    },
+    {
+      "id": "Files",
+      "name": "Internal Storage Page",
+      "type": "list",
+      "props": {
+        "layout": "vertical",
+        "itemType": "folder"
+      }
+    },
+    {
+      "id": "HomePage",
+      "name": "File Manager Home",
+      "type": "dashboard",
+      "props": {
+        "internalStorageUsage": "66%",
+        "cloudStorageUsage": "37%",
+        "favorites": ["Download", "Canva"]
+      }
+    },
+    {
+      "id": "StorageDetails",
+      "name": "Storage Details Page",
+      "type": "detail",
+      "props": {
+        "showUnusedApps": true,
+        "showDuplicateFiles": true
+      }
+    }
+  ],
+  "E": [
+    {
+      "id": "HomePage->Cleaner",
+      "from": "HomePage",
+      "to": "Cleaner",
+      "conditions": "userTapsCleanButton",
+      "actions": "navigateToCleanerPage"
+    },
+    {
+      "id": "HomePage->CloudStorage",
+      "from": "HomePage",
+      "to": "CloudStorage",
+      "conditions": "userTapsCloudStorageOption",
+      "actions": "loadCloudStorageData"
+    },
+    {
+      "id": "CloudStorage->CloudStorage-ListView",
+      "from": "CloudStorage",
+      "to": "CloudStorage-ListView",
+      "conditions": "userTapsListViewIcon",
+      "actions": "switchToListView"
+    },
+    {
+      "id": "HomePage->Files",
+      "from": "HomePage",
+      "to": "Files",
+      "conditions": "userTapsFilesTab",
+      "actions": "loadInternalStorageData"
+    },
+    {
+      "id": "Cleaner->StorageDetails",
+      "from": "Cleaner",
+      "to": "StorageDetails",
+      "conditions": "userTapsViewDetails",
+      "actions": "loadStorageDetailsData"
+    },
+    {
+      "id": "HomePage->StorageDetails",
+      "from": "HomePage",
+      "to": "StorageDetails",
+      "conditions": "userTapsViewDetailsOnInternalStorage",
+      "actions": "loadInternalStorageDetails"
+    }
+  ]
+}

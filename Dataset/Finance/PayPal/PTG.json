@@ -1,0 +1,261 @@
+{
+    "N": [
+      {
+        "id": "Bitcoin",
+        "name": "Bitcoin Detail",
+        "type": "detail",
+        "props": {
+          "title": "Bitcoin",
+          "currentPrice": "£ 49,283.16",
+          "priceChange": {
+            "amount": "£ 311.81",
+            "percentage": "0.62%",
+            "direction": "down",
+            "period": "过去24小时"
+          },
+          "chart": {
+            "type": "line",
+            "color": "red",
+            "timeRange": ["24小时", "1周", "1月", "1年", "所有时间"]
+          },
+          "quickBuyOptions": ["$ 20", "$ 50", "$ 100", "$ 500"],
+          "buyButton": {
+            "text": "购物",
+            "color": "blue"
+          },
+          "bottomNavBar": {
+            "items": [
+              {"name": "Home", "icon": "home"},
+              {"name": "Crypto", "icon": "chart", "isActive": true},
+              {"name": "Payments", "icon": "pound"},
+              {"name": "Wallet", "icon": "wallet"}
+            ]
+          }
+        }
+      },
+      {
+        "id": "Crypto",
+        "name": "Crypto Overview",
+        "type": "list",
+        "props": {
+          "notice": {
+            "text": "PayPal's crypto purchasing service is temporarily paused while we update our system to comply with new UK regulations. You can continue to hold your crypto, or you may sell if you choose.",
+            "type": "info"
+          },
+          "sectionTitle": "买卖并持有加密货币",
+          "cryptoList": [
+            {
+              "name": "Bitcoin",
+              "symbol": "BTC",
+              "price": "£ 49,339.33/BTC",
+              "icon": "bitcoin"
+            },
+            {
+              "name": "Ethereum",
+              "symbol": "ETH",
+              "price": "£ 2,611.73/ETH",
+              "icon": "ethereum"
+            },
+            {
+              "name": "Litecoin",
+              "symbol": "LTC",
+              "price": "£ 55.24/LTC",
+              "icon": "litecoin"
+            },
+            {
+              "name": "Bitcoin Cash",
+              "symbol": "BCH",
+              "price": "£ 287.75/BCH",
+              "icon": "bitcoinCash"
+            }
+          ],
+          "disclaimer": "这些条款仅提供一般信息，不构成财务、投资或税务方面的建议。",
+          "bottomNavBar": {
+            "items": [
+              {"name": "Home", "icon": "home"},
+              {"name": "Crypto", "icon": "chart", "isActive": true},
+              {"name": "Payments", "icon": "pound"},
+              {"name": "Wallet", "icon": "wallet"}
+            ]
+          }
+        }
+      },
+      {
+        "id": "Home",
+        "name": "Home",
+        "type": "dashboard",
+        "props": {
+          "balance": {
+            "amount": "£0.00",
+            "label": "PayPal balance"
+          },
+          "sendAgain": {
+            "title": "Send again",
+            "contacts": [
+              {
+                "name": "Zhou Fang",
+                "initials": "ZF",
+                "color": "purple"
+              },
+              {
+                "name": "Search",
+                "icon": "search",
+                "color": "purple"
+              }
+            ]
+          },
+          "referralPromo": {
+            "title": "Let's go! Refer a friend to earn a £10 reward.",
+            "details": "Max 10 friends. Min spend £5 within 30 days. Ends 31/12/24. Terms apply.",
+            "actionButton": {
+              "text": "Invite friends",
+              "color": "blue"
+            }
+          },
+          "actionButtons": [
+            {
+              "text": "Send",
+              "color": "blue"
+            },
+            {
+              "text": "Request",
+              "color": "blue",
+              "variant": "outline"
+            }
+          ],
+          "bottomNavBar": {
+            "items": [
+              {"name": "Home", "icon": "home", "isActive": true},
+              {"name": "Crypto", "icon": "chart"},
+              {"name": "Payments", "icon": "pound"},
+              {"name": "Wallet", "icon": "wallet"}
+            ]
+          }
+        }
+      },
+      {
+        "id": "Send",
+        "name": "Send Money",
+        "type": "form",
+        "props": {
+          "searchBar": {
+            "placeholder": "姓名、用户名、邮箱地址、手机号码"
+          },
+          "quickAction": {
+            "icon": "plane",
+            "text": "跨境汇款至银行账户、现金领取点等"
+          },
+          "suggestedContacts": [
+            {
+              "name": "Fang Zhou",
+              "initials": "ZF",
+              "color": "purple"
+            },
+            {
+              "name": "CURVE UK LIMITED",
+              "icon": "company",
+              "color": "black"
+            }
+          ],
+          "actionButton": {
+            "text": "启用您的联系人",
+            "icon": "contacts"
+          }
+        }
+      },
+      {
+        "id": "Wallet",
+        "name": "Wallet",
+        "type": "wallet",
+        "props": {
+          "tabs": ["Wallet", "Rewards", "Activity"],
+          "paypalBalance": {
+            "amount": "£0.00",
+            "icon": "paypal"
+          },
+          "totalBalance": "£0.00",
+          "bankAccounts": {
+            "title": "Bank accounts and cards",
+            "addNewButton": {
+              "text": "Add new",
+              "icon": "rightArrow"
+            },
+            "linkedAccounts": [
+              {
+                "bank": "BARCLAYS",
+                "type": "VISA",
+                "cardNumber": "••5871",
+                "icon": "barclays"
+              }
+            ]
+          },
+          "bottomNavBar": {
+            "items": [
+              {"name": "Home", "icon": "home"},
+              {"name": "Crypto", "icon": "chart"},
+              {"name": "Payments", "icon": "pound"},
+              {"name": "Wallet", "icon": "wallet", "isActive": true}
+            ]
+          }
+        }
+      }
+    ],
+    "E": [
+      {
+        "id": "Home->Wallet",
+        "from": "Home",
+        "to": "Wallet",
+        "conditions": "userTapsWalletTab",
+        "actions": "loadWalletData"
+      },
+      {
+        "id": "Wallet->Home",
+        "from": "Wallet",
+        "to": "Home",
+        "conditions": "userTapsHomeTab",
+        "actions": "loadHomeData"
+      },
+      {
+        "id": "Home->Crypto",
+        "from": "Home",
+        "to": "Crypto",
+        "conditions": "userTapsCryptoTab",
+        "actions": "loadCryptoOverview"
+      },
+      {
+        "id": "Crypto->Home",
+        "from": "Crypto",
+        "to": "Home",
+        "conditions": "userTapsHomeTab",
+        "actions": "loadHomeData"
+      },
+      {
+        "id": "Crypto->Bitcoin",
+        "from": "Crypto",
+        "to": "Bitcoin",
+        "conditions": "userTapsBitcoinListItem",
+        "actions": "loadBitcoinDetails"
+      },
+      {
+        "id": "Bitcoin->Crypto",
+        "from": "Bitcoin",
+        "to": "Crypto",
+        "conditions": "userTapsBackButton",
+        "actions": "returnToCryptoOverview"
+      },
+      {
+        "id": "Home->Send",
+        "from": "Home",
+        "to": "Send",
+        "conditions": "userTapsSendButton",
+        "actions": "openSendMoneyForm"
+      },
+      {
+        "id": "Send->Home",
+        "from": "Send",
+        "to": "Home",
+        "conditions": "userTapsBackButton",
+        "actions": "returnToHome"
+      }
+    ]
+  }

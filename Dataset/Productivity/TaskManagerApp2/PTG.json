@@ -1,0 +1,225 @@
+{
+  "N": [
+    {
+      "id": "Home",
+      "name": "Home Screen",
+      "type": "Dashboard",
+      "props": {
+        "header": {
+          "greeting": "Hi, Steven",
+          "subtitle": "Let's make this day productive",
+          "userAvatar": true
+        },
+        "taskOverview": [
+          {"title": "Completed Task", "count": 8},
+          {"title": "Pending Task", "count": 1},
+          {"title": "Canceled Task", "count": 1},
+          {"title": "On Going Task", "count": 67}
+        ],
+        "todayTasks": [
+          {
+            "title": "Cleaning Clothes",
+            "time": "07:00 - 07:15",
+            "tags": ["Urgent", "Home"]
+          }
+        ],
+        "bottomNav": ["home", "list", "add", "chart", "profile"]
+      }
+    },
+    {
+      "id": "AddTask",
+      "name": "Add Task Screen",
+      "type": "Form",
+      "props": {
+        "header": {
+          "title": "Add Task",
+          "backButton": true
+        },
+        "form": [
+          {
+            "label": "Title",
+            "value": "Plan for a month"
+          },
+          {
+            "label": "Date",
+            "value": "4 August 2021"
+          },
+          {
+            "label": "Time",
+            "startTime": "07:00 AM",
+            "endTime": "07:30 AM"
+          },
+          {
+            "label": "Description",
+            "value": "Creating this month's work plan"
+          },
+          {
+            "label": "Type",
+            "options": ["Personal", "Private", "Secret"],
+            "selected": "Personal"
+          },
+          {
+            "label": "Tags",
+            "tags": ["Office", "Home", "Urgent", "Work"]
+          }
+        ],
+        "submitButton": "Create"
+      }
+    },
+    {
+      "id": "Statistics",
+      "name": "Statistics Screen",
+      "type": "Chart",
+      "props": {
+        "header": {
+          "title": "Graphic"
+        },
+        "priorityChart": {
+          "title": "Priority",
+          "subtitle": "Task Perday",
+          "types": ["Personal", "Private", "Secret"],
+          "data": {
+            "days": ["Mo", "Tu", "We", "Th", "Fr", "Sa", "Su"],
+            "tasks": [10, 8, 6, 4, 2]
+          }
+        },
+        "activityChart": {
+          "title": "Your Activity",
+          "month": "April 2021",
+          "data": [
+            {"personal": 2, "work": 1},
+            {"personal": 3, "work": 2},
+            {"personal": 1, "work": 3},
+            {"personal": 4, "work": 2},
+            {"personal": 2, "work": 4},
+            {"personal": 3, "work": 1},
+            {"personal": 2, "work": 1}
+          ]
+        },
+        "bottomNav": ["home", "list", "add", "chart", "profile"]
+      }
+    },
+    {
+      "id": "Profile",
+      "name": "Profile Screen",
+      "type": "Profile",
+      "props": {
+        "header": {
+          "userAvatar": true,
+          "userName": "Steve Job",
+          "userEmail": "SteveJob@gmail.com",
+          "moreOptions": true
+        },
+        "taskCategories": [
+          {"name": "Personal", "count": 6},
+          {"name": "Work", "count": 8},
+          {"name": "Private", "count": 3},
+          {"name": "Meeting", "count": 4},
+          {"name": "Events", "count": 4}
+        ],
+        "createBoard": true,
+        "bottomNav": ["home", "list", "add", "chart", "profile"]
+      }
+    },
+    {
+      "id": "Calendar",
+      "name": "Calendar Screen",
+      "type": "Calendar",
+      "props": {
+        "header": {
+          "searchBar": true,
+          "month": "August 2021"
+        },
+        "weekView": {
+          "days": ["MO", "TU", "WE", "TH", "FR", "SA", "SU"],
+          "dates": [12, 13, 14, 15, 16, 17, 18],
+          "selectedDate": 14
+        },
+        "dailyTasks": [
+          {
+            "time": "07:00",
+            "tasks": [
+              {
+                "title": "Cleaning Clothes",
+                "time": "07:00 - 07:15",
+                "tags": ["Urgent", "Home"]
+              },
+              {
+                "title": "Cleaning",
+                "time": "07:15 - 07:30",
+                "tags": ["Urgent"]
+              }
+            ]
+          },
+          {
+            "time": "08:00",
+            "tasks": [
+              {
+                "title": "Cleaning Clothes",
+                "time": "08:00 - 08:35",
+                "tags": ["Urgent", "Home"]
+              },
+              {
+                "title": "Cleaning",
+                "time": "08:00 - 08:15",
+                "tags": ["Urgent"]
+              }
+            ]
+          }
+        ],
+        "bottomNav": ["home", "list", "add", "chart", "profile"]
+      }
+    }
+  ],
+  "E": [
+    {
+      "id": "Home->AddTask",
+      "from": "Home",
+      "to": "AddTask",
+      "conditions": "User taps + button in bottom nav",
+      "actions": "Open Add Task screen"
+    },
+    {
+      "id": "Home->Statistics",
+      "from": "Home",
+      "to": "Statistics",
+      "conditions": "User taps chart icon in bottom nav",
+      "actions": "Open Statistics screen"
+    },
+    {
+      "id": "Home->Profile",
+      "from": "Home",
+      "to": "Profile",
+      "conditions": "User taps profile icon in bottom nav",
+      "actions": "Open Profile screen"
+    },
+    {
+      "id": "Home->Calendar",
+      "from": "Home",
+      "to": "Calendar",
+      "conditions": "User taps list icon in bottom nav",
+      "actions": "Open Calendar screen"
+    },
+    {
+      "id": "AddTask->Home",
+      "from": "AddTask",
+      "to": "Home",
+      "conditions": "User taps Create button",
+      "actions": "Save task and return to Home screen"
+    },
+    {
+      "id": "any->AddTask",
+      "from": "any",
+      "to": "AddTask",
+      "conditions": "User taps + Add or + button in bottom nav",
+      "actions": "Open Add Task screen"
+    },
+    {
+      "id": "any->Home",
+      "from": "any",
+      "to": "Home",
+      "conditions": "User taps home icon in bottom nav",
+      "actions": "Open home screen"
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+    "N": [
+      {
+        "id": "Discovery",
+        "name": "发现页",
+        "type": "dashboard",
+        "props": {
+          "layout": "vertical",
+          "sections": [
+            {
+              "name": "特色",
+              "type": "featured",
+              "items": [
+                {
+                  "title": "Nature rain on leaves",
+                  "duration": "45 MIN",
+                  "type": "premium",
+                  "thumbnail": "rain_leaves_image.jpg"
+                }
+              ]
+            },
+            {
+              "name": "锻炼",
+              "type": "workout",
+              "items": [
+                {
+                  "title": "Total body barre: bodyweight",
+                  "duration": "27 MIN",
+                  "language": "英语",
+                  "type": "premium",
+                  "thumbnail": "barre_workout_image.jpg"
+                },
+                {
+                  "title": "Cardio groove dance",
+                  "duration": "16 MIN",
+                  "language": "英语",
+                  "thumbnail": "cardio_dance_image.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "EnvironmentSimulation",
+        "name": "环境模拟页",
+        "type": "media",
+        "props": {
+          "title": "Nature rain on leaves",
+          "subtitle": "用心",
+          "description": "Relax with ease to the sounds of rain on leaves.",
+          "duration": "45 分钟",
+          "mediaType": "audio",
+          "category": "Calm"
+        }
+      },
+      {
+        "id": "FindFriend",
+        "name": "寻找朋友页",
+        "type": "search",
+        "props": {
+          "searchMethods": [
+            {
+              "name": "通讯录",
+              "icon": "contacts"
+            },
+            {
+              "name": "电子邮箱",
+              "icon": "email"
+            },
+            {
+              "name": "Username",
+              "icon": "user"
+            }
+          ],
+          "instructionText": "利用您的电话号码查找好友！",
+          "actionButton": {
+            "text": "连接通讯录",
+            "color": "pink"
+          }
+        }
+      },
+      {
+        "id": "Friends",
+        "name": "好友页",
+        "type": "social",
+        "props": {
+          "emptyStateImage": "fox_seesaw.png",
+          "emptyStateText": "和朋友一起继续向前！",
+          "emptyStateDescription": "记录进度、发送鼓励，并通过友好竞赛让自己更有活力。",
+          "addFriendButton": {
+            "text": "添加好友",
+            "icon": "add_person"
+          }
+        }
+      },
+      {
+        "id": "Home",
+        "name": "主页",
+        "type": "dashboard",
+        "props": {
+          "appName": "fitbit",
+          "dailyStats": [
+            {
+              "name": "步数",
+              "value": 0,
+              "icon": "footstep"
+            },
+            {
+              "name": "距离",
+              "value": 0,
+              "unit": "公里",
+              "icon": "map_pin"
+            },
+            {
+              "name": "卡路里",
+              "value": 12,
+              "unit": "卡",
+              "icon": "flame"
+            }
+          ],
+          "challenges": [
+            {
+              "name": "追踪您的正念",
+              "description": "本周剩 5 天",
+              "icon": "brain"
+            },
+            {
+              "name": "追踪锻炼情况",
+              "description": "本周剩 5 天",
+              "icon": "running"
+            },
+            {
+              "name": "经期健康",
+              "description": "记录与趋势",
+              "icon": "drop"
+            }
+          ]
+        }
+      }
+    ],
+    "E": [
+      {
+        "id": "Home->Discovery",
+        "from": "Home",
+        "to": "Discovery",
+        "conditions": "userTapsDiscoveryTab == true",
+        "actions": "loadDiscoveryContent(), updateActiveTab('Discovery')"
+      },
+      {
+        "id": "Discovery->Home",
+        "from": "Discovery",
+        "to": "Home",
+        "conditions": "userTapsHomeTab == true",
+        "actions": "loadHomeContent(), updateActiveTab('Home')"
+      },
+      {
+        "id": "Home->Friends",
+        "from": "Home",
+        "to": "Friends",
+        "conditions": "userTapsFriendsTab == true",
+        "actions": "loadFriendsContent(), updateActiveTab('Friends')"
+      },
+      {
+        "id": "Friends->Home",
+        "from": "Friends",
+        "to": "Home",
+        "conditions": "userTapsHomeTab == true",
+        "actions": "loadHomeContent(), updateActiveTab('Home')"
+      },
+      {
+        "id": "Friends->FindFriend",
+        "from": "Friends",
+        "to": "FindFriend",
+        "conditions": "userTapsAddFriendButton == true",
+        "actions": "openFindFriendPage()"
+      },
+      {
+        "id": "FindFriend->Friends",
+        "from": "FindFriend",
+        "to": "Friends",
+        "conditions": "userTapsBackButton == true || userCompletesAddingFriend == true",
+        "actions": "closeFindFriendPage(), refreshFriendsList()"
+      },
+      {
+        "id": "Discovery->EnvironmentSimulation",
+        "from": "Discovery",
+        "to": "EnvironmentSimulation",
+        "conditions": "userSelectsEnvironmentSimulation == true",
+        "actions": "loadEnvironmentSimulation(selectedSimulationId)"
+      },
+      {
+        "id": "EnvironmentSimulation->Discovery",
+        "from": "EnvironmentSimulation",
+        "to": "Discovery",
+        "conditions": "userExitsEnvironmentSimulation == true",
+        "actions": "closeEnvironmentSimulation(), returnToDiscoveryPage()"
+      }
+    ]
+  }

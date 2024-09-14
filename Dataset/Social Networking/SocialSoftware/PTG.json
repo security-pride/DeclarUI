@@ -1,0 +1,207 @@
+{
+  "N": [
+    {
+      "id": "Activity",
+      "name": "Activity Screen",
+      "type": "List",
+      "props": {
+        "header": {
+          "title": "Activity"
+        },
+        "tabs": ["All", "Answers", "Mentions", "Verifi"],
+        "activityList": [
+          {"name": "thomas", "action": "Started following you", "followButton": true},
+          {"name": "mike", "action": "Started following you", "followButton": true},
+          {"name": "michael", "action": "Started following you", "followButton": true},
+          {"name": "willie", "action": "Started following you", "followButton": true},
+          {"name": "peter", "action": "Started following you", "followButton": true},
+          {"name": "angela", "action": "Started following you", "followButton": true},
+          {"name": "devon", "action": "Started following you", "followButton": true},
+          {"name": "col", "action": "Started following you", "followButton": true},
+          {"name": "templeton", "action": "Started following you", "followButton": true},
+          {"name": "willie", "action": "Started following you", "followButton": true},
+          {"name": "dori", "action": "Started following you", "followButton": true}
+        ],
+        "bottomNav": ["Home", "Search", "Create", "Likes", "Profile"]
+      }
+    },
+    {
+      "id": "Feed",
+      "name": "Feed Screen",
+      "type": "Feed",
+      "props": {
+        "header": {
+          "logo": true,
+          "menuButton": true
+        },
+        "posts": [
+          {
+            "user": "arochinski",
+            "content": "Tempor dolor proident duis incididunt et. Cillum incididunt irure nisi excepteur sit ad ipsum consectetur proident deserunt sint",
+            "image": true,
+            "stats": {
+              "answers": 7,
+              "likes": 59
+            },
+            "timeAgo": "2 min"
+          },
+          {
+            "user": "arochinski",
+            "content": "Tempor dolor proident duis incididunt et. Cillum incididunt irure nisi excepteur sit ad ipsum consectetur proident deserunt sint",
+            "stats": {
+              "answers": 7,
+              "likes": 59
+            },
+            "timeAgo": "2 min"
+          },
+          {
+            "user": "aura",
+            "content": "Tempor dolor proident duis incididunt et. Cillum incididunt irure nisi excepteur sit ad ipsum consectetur proident deserunt sint",
+            "timeAgo": "1min"
+          }
+        ],
+        "bottomNav": ["Home", "Search", "Create", "Likes", "Profile"]
+      }
+    },
+    {
+      "id": "Profile",
+      "name": "Profile Screen",
+      "type": "Profile",
+      "props": {
+        "header": {
+          "languageSelector": true,
+          "instagramLink": true,
+          "menuButton": true
+        },
+        "userInfo": {
+          "name": "Alisson Rochinski",
+          "username": "arochinski",
+          "website": "threads.net",
+          "bio": "UI Designer | Let's redesign the world",
+          "email": "alisson.rochinski@gmail.com",
+          "followers": 2957,
+          "profilePicture": true
+        },
+        "actionButtons": ["Editar perfil", "Compartilhar Perfil"],
+        "tabs": ["Chirps", "Answers"],
+        "posts": [
+          {
+            "content": "Tempor dolor proident duis incididunt et. Cillum incididunt irure nisi excepteur sit ad ipsum consectetur proident deserunt sint",
+            "stats": {
+              "answers": 7,
+              "likes": 59
+            },
+            "timeAgo": "2 min"
+          }
+        ],
+        "bottomNav": ["Home", "Search", "Create", "Likes", "Profile"]
+      }
+    },
+    {
+      "id": "Search",
+      "name": "Search Screen",
+      "type": "Search",
+      "props": {
+        "header": {
+          "title": "Search",
+          "searchBar": true
+        },
+        "results": [
+          {"name": "aura", "fullName": "Aura Brown", "followers": "500 mil", "followButton": true},
+          {"name": "rick", "fullName": "Rick Wright", "followers": "500 mil", "followButton": true},
+          {"name": "mike", "fullName": "Mike Torello", "followers": "500 mil", "followButton": true},
+          {"name": "theodore", "fullName": "Theodore T.C. Calvin", "followers": "500 mil", "followButton": true},
+          {"name": "kate", "fullName": "Kate Tanner", "followers": "500 mil", "followButton": true},
+          {"name": "thomas", "fullName": "Thomas Magnum", "followers": "500 mil", "followButton": true},
+          {"name": "april", "fullName": "April Curtis", "followers": "500 mil", "followButton": true}
+        ],
+        "bottomNav": ["Home", "Search", "Create", "Likes", "Profile"]
+      }
+    },
+    {
+      "id": "UserProfile",
+      "name": "User Profile Screen",
+      "type": "Profile",
+      "props": {
+        "header": {
+          "backButton": true,
+          "instagramLink": true,
+          "menuButton": true
+        },
+        "userInfo": {
+          "name": "Alisson Rochinski",
+          "username": "arochinski",
+          "website": "threads.net",
+          "bio": "UI Designer | Let's redesign the world",
+          "email": "alisson.rochinski@gmail.com",
+          "followers": 2957,
+          "profilePicture": true
+        },
+        "actionButton": "Follow",
+        "tabs": ["Chirps", "Answers"],
+        "posts": [
+          {
+            "content": "Tempor dolor proident duis incididunt et. Cillum incididunt irure nisi excepteur sit ad ipsum consectetur proident deserunt sint",
+            "stats": {
+              "answers": 7,
+              "likes": 59
+            },
+            "timeAgo": "2 min"
+          }
+        ],
+        "bottomNav": ["Home", "Search", "Create", "Likes", "Profile"]
+      }
+    }
+  ],
+  "E": [
+    {
+      "id": "Activity->UserProfile",
+      "from": "Activity",
+      "to": "UserProfile",
+      "conditions": "User taps on a username in activity list",
+      "actions": "Open user profile"
+    },
+    {
+      "id": "Feed->UserProfile",
+      "from": "Feed",
+      "to": "UserProfile",
+      "conditions": "User taps on a username in feed",
+      "actions": "Open user profile"
+    },
+    {
+      "id": "Feed->Profile",
+      "from": "Feed",
+      "to": "Profile",
+      "conditions": "User taps profile icon in bottom nav",
+      "actions": "Open own profile"
+    },
+    {
+      "id": "Search->UserProfile",
+      "from": "Search",
+      "to": "UserProfile",
+      "conditions": "User taps on a search result",
+      "actions": "Open user profile"
+    },
+    {
+      "id": "any->Search",
+      "from": "any",
+      "to": "Search",
+      "conditions": "User taps search icon in bottom nav",
+      "actions": "Open search screen"
+    },
+    {
+      "id": "any->Activity",
+      "from": "any",
+      "to": "Activity",
+      "conditions": "User taps notification icon",
+      "actions": "Open activity screen"
+    },
+    {
+      "id": "any->Feed",
+      "from": "any",
+      "to": "Feed",
+      "conditions": "User taps home icon in bottom nav",
+      "actions": "Open feed screen"
+    }
+  ]
+}

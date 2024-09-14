@@ -1,0 +1,203 @@
+{
+    "N": [
+      {
+        "id": "Details",
+        "name": "酒店详情页",
+        "type": "detail",
+        "props": {
+          "hotelName": "烟台南山皇冠假日酒店",
+          "rating": 8.6,
+          "reviewCount": 29,
+          "address": "莱山区, 烟台",
+          "distance": "10千米",
+          "price": "707元",
+          "roomType": "1间酒店客房: 2张床",
+          "amenities": ["免费停车", "室内游泳池", "餐厅", "Spa及健康中心", "免费无线网络连接"],
+          "images": ["酒店外观", "客房内部", "其他设施"],
+          "checkIn": "7月18日 周四",
+          "checkOut": "7月19日 周五",
+          "guests": "1间房 · 2位成人 · 无儿童"
+        }
+      },
+      {
+        "id": "Reservation",
+        "name": "预订页",
+        "type": "booking",
+        "props": {
+          "roomNumber": 1,
+          "roomOptions": [
+            {
+              "type": "标准间",
+              "bedOptions": ["无偏好", "2张单人床", "1张超大号双人床"],
+              "price": "707元"
+            }
+          ],
+          "action": "确认"
+        }
+      },
+      {
+        "id": "Search",
+        "name": "搜索页",
+        "type": "search",
+        "props": {
+          "searchBar": {
+            "placeholder": "周围地区",
+            "date": "7月18日 - 7月19日",
+            "guests": "1间房 · 2位成人 · 无儿童"
+          },
+          "quickAccess": "临时起意？",
+          "bottomNavigation": ["搜索", "已保存", "订单", "账户资料"]
+        }
+      },
+      {
+        "id": "Surroundings",
+        "name": "周边地区搜索页",
+        "type": "locationSearch",
+        "props": {
+          "searchBar": {
+            "placeholder": "周围地区",
+            "date": "7月18日 - 7月19日",
+            "guests": "1间房 · 2位成人 · 无儿童"
+          },
+          "sortOptions": ["排序", "筛选", "地图"],
+          "resultCount": "24家住宿",
+          "hotels": [
+            {
+              "name": "烟台南山皇冠假日酒店",
+              "rating": 8.6,
+              "reviewCount": 29,
+              "location": "莱山区, 烟台",
+              "distance": "10千米",
+              "price": "707元",
+              "roomInfo": "1间酒店客房: 2张床",
+              "specialOffer": "该价格在Booking.com上仅剩2间",
+              "paymentOption": "无需预付"
+            },
+            {
+              "name": "烟台世茂希尔顿酒店",
+              "rating": 8.9,
+              "reviewCount": 40,
+              "location": "烟台",
+              "distance": "750米",
+              "price": "908元",
+              "sustainabilityCertified": true
+            }
+          ]
+        }
+      },
+      {
+        "id": "TypeDetails",
+        "name": "房型详情页",
+        "type": "roomTypeDetail",
+        "props": {
+          "hotelName": "烟台南山皇冠假日酒店",
+          "roomType": "标准间",
+          "guestCount": {
+            "default": 1,
+            "options": [1, 2, 3]
+          },
+          "bedOptions": [
+            {
+              "label": "无偏好",
+              "selected": true
+            },
+            {
+              "label": "2张单人床",
+              "selected": false
+            },
+            {
+              "label": "1张超大号双人床",
+              "selected": false
+            }
+          ],
+          "price": "707元",
+          "dateRange": "7月18日 - 7月19日",
+          "features": [
+            "不可退款",
+            "无需预付 - 到店付款",
+            "2位成人的入住价格",
+            "客房面积: 46平方米",
+            "提供早餐 (到店付款)",
+            "免费无线网络",
+            "享有风景",
+            "空调",
+            "独立浴室",
+            "平板电视",
+            "迷你吧"
+          ]
+        }
+      }
+    ],
+    "E": [
+      {
+        "id": "Surroundings->Search",
+        "from": "Surroundings",
+        "to": "Search",
+        "conditions": "userSelectsLocation",
+        "actions": "updateSearchResults"
+      },
+      {
+        "id": "Search->Surroundings",
+        "from": "Search",
+        "to": "Surroundings",
+        "conditions": "userTapsLocationSearch",
+        "actions": "openLocationSearch"
+      },
+      {
+        "id": "Search->Details",
+        "from": "Search",
+        "to": "Details",
+        "conditions": "userSelectsHotel",
+        "actions": "loadHotelDetails"
+      },
+      {
+        "id": "Details->Search",
+        "from": "Details",
+        "to": "Search",
+        "conditions": "userTapsBackButton",
+        "actions": "returnToSearchResults"
+      },
+      {
+        "id": "Surroundings->Details",
+        "from": "Surroundings",
+        "to": "Details",
+        "conditions": "userSelectsHotel",
+        "actions": "loadHotelDetails"
+      },
+      {
+        "id": "Details->Surroundings",
+        "from": "Details",
+        "to": "Surroundings",
+        "conditions": "userTapsBackButton",
+        "actions": "returnToSurroundingsResults"
+      },
+      {
+        "id": "Details->TypeDetails",
+        "from": "Details",
+        "to": "TypeDetails",
+        "conditions": "userSelectsRoomType",
+        "actions": "loadRoomTypeDetails"
+      },
+      {
+        "id": "TypeDetails->Details",
+        "from": "TypeDetails",
+        "to": "Details",
+        "conditions": "userTapsBackButton",
+        "actions": "returnToHotelDetails"
+      },
+      {
+        "id": "TypeDetails->Reservation",
+        "from": "TypeDetails",
+        "to": "Reservation",
+        "conditions": "userConfirmsRoomType",
+        "actions": "initiateBookingProcess"
+      },
+      {
+        "id": "Reservation->TypeDetails",
+        "from": "Reservation",
+        "to": "TypeDetails",
+        "conditions": "userModifiesRoomSelection",
+        "actions": "returnToRoomTypeSelection"
+      }
+    ]
+  }

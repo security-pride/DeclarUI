@@ -1,0 +1,257 @@
+{
+    "N": [
+      {
+        "id": "CalmMethods",
+        "name": "Calming Everyday Anxiety",
+        "type": "list",
+        "props": {
+          "title": "Calming Everyday Anxiety",
+          "description": "Get in-the-moment support for anxious thinking, plus expert guidance for cultivating a calmer mind every day.",
+          "sections": [
+            {
+              "title": "SOS for Anxious Moments",
+              "items": [
+                {
+                  "title": "Feeling Overwhelmed SOS",
+                  "type": "Meditation",
+                  "duration": "3-4 min",
+                  "description": "Give yourself room to breathe."
+                },
+                {
+                  "title": "Panicking SOS",
+                  "type": "Meditation",
+                  "duration": "3 min",
+                  "description": "Anchor your mind and body in the present."
+                },
+                {
+                  "title": "Breathe",
+                  "type": "Meditation",
+                  "duration": "1-3 min",
+                  "description": "Add a sense of spaciousness to your day."
+                },
+                {
+                  "title": "Reset",
+                  "type": "Meditation",
+                  "duration": "3-10 min",
+                  "description": "Find some focus and relaxation during a busy day."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "Explore",
+        "name": "Explore",
+        "type": "dashboard",
+        "props": {
+          "searchBar": {
+            "placeholder": "Search exercises"
+          },
+          "categories": [
+            {"name": "Meditate", "color": "orange"},
+            {"name": "Sleep", "color": "purple"},
+            {"name": "Move", "color": "pink"},
+            {"name": "Music", "color": "blue"},
+            {"name": "Podcasts", "color": "yellow"}
+          ],
+          "promoSection": {
+            "title": "Unlock the Headspace Library",
+            "actionButton": "Start My Free Trial"
+          },
+          "featuredContent": [
+            {
+              "title": "Politics Without Panic",
+              "type": "Course",
+              "backgroundColor": "pink"
+            },
+            {
+              "title": "Calming Everyday Anxiety",
+              "type": "Course",
+              "backgroundColor": "blue"
+            }
+          ],
+          "bottomNavBar": {
+            "items": [
+              {"name": "Today", "icon": "home"},
+              {"name": "Explore", "icon": "compass", "isActive": true},
+              {"name": "Profile", "icon": "user"}
+            ]
+          }
+        }
+      },
+      {
+        "id": "Home",
+        "name": "Today",
+        "type": "dashboard",
+        "props": {
+          "greeting": {
+            "text": "Good Evening, 子骆",
+            "icons": ["heart", "history"]
+          },
+          "startYourDay": {
+            "title": "Start your day",
+            "items": [
+              {
+                "title": "How to Headspace",
+                "type": "Video",
+                "duration": "2 min",
+                "image": "headspace_app_preview.jpg"
+              },
+              {
+                "title": "Rooted in the Present",
+                "type": "Mindful Activity",
+                "duration": "2 min",
+                "image": "tree_landscape.jpg"
+              },
+              {
+                "title": "Enjoying the Unknown",
+                "type": "Today's Meditation",
+                "duration": "3-20 min",
+                "image": "meditation_icon.jpg",
+                "meditatingCount": 327
+              }
+            ]
+          },
+          "afternoonLift": {
+            "title": "Your afternoon lift"
+          },
+          "bottomNavBar": {
+            "items": [
+              {"name": "Today", "icon": "home", "isActive": true},
+              {"name": "Explore", "icon": "compass"},
+              {"name": "Profile", "icon": "user"}
+            ]
+          }
+        }
+      },
+      {
+        "id": "Move",
+        "name": "Move",
+        "type": "list",
+        "props": {
+          "featuredWorkout": {
+            "title": "Easy Evening Stretch",
+            "type": "Workout",
+            "duration": "9 min",
+            "image": "evening_stretch.jpg",
+            "actionButton": "Play"
+          },
+          "tabs": ["Recent", "Featured"],
+          "workouts": [
+            {
+              "title": "Stress Release",
+              "type": "Workout",
+              "duration": "29 min",
+              "image": "stress_release.jpg"
+            },
+            {
+              "title": "Day 1",
+              "type": "Workout",
+              "duration": "22 min",
+              "image": "day_1.jpg"
+            }
+          ],
+          "bottomNavBar": {
+            "items": [
+              {"name": "Today", "icon": "home"},
+              {"name": "Explore", "icon": "compass"},
+              {"name": "Profile", "icon": "user"}
+            ]
+          }
+        }
+      },
+      {
+        "id": "Profile",
+        "name": "Profile",
+        "type": "profile",
+        "props": {
+          "userInfo": {
+            "name": "子骄 薛",
+            "avatar": "user_avatar.jpg",
+            "joinDate": "Joined in 2024"
+          },
+          "welcome": {
+            "title": "Welcome!"
+          },
+          "beginnerCourse": {
+            "title": "Beginning meditation",
+            "description": "Learn the fundamental techniques of meditation."
+          },
+          "guestPass": {
+            "title": "Headspace 30-Day Guest Pass",
+            "description": "Bring friends along the journey",
+            "actionText": "Send free access to new members"
+          },
+          "progress": {
+            "title": "My progress"
+          },
+          "bottomNavBar": {
+            "items": [
+              {"name": "Today", "icon": "home"},
+              {"name": "Explore", "icon": "compass"},
+              {"name": "Profile", "icon": "user", "isActive": true}
+            ]
+          }
+        }
+      }
+    ],
+    "E": [
+      {
+        "id": "Home->Explore",
+        "from": "Home",
+        "to": "Explore",
+        "conditions": "userTapsExploreTab",
+        "actions": "loadExploreContent"
+      },
+      {
+        "id": "Explore->Home",
+        "from": "Explore",
+        "to": "Home",
+        "conditions": "userTapsTodayTab",
+        "actions": "loadTodayContent"
+      },
+      {
+        "id": "Home->Profile",
+        "from": "Home",
+        "to": "Profile",
+        "conditions": "userTapsProfileTab",
+        "actions": "loadUserProfile"
+      },
+      {
+        "id": "Profile->Home",
+        "from": "Profile",
+        "to": "Home",
+        "conditions": "userTapsTodayTab",
+        "actions": "loadTodayContent"
+      },
+      {
+        "id": "Explore->Move",
+        "from": "Explore",
+        "to": "Move",
+        "conditions": "userSelectsMoveCategory",
+        "actions": "loadMoveContent"
+      },
+      {
+        "id": "Move->Explore",
+        "from": "Move",
+        "to": "Explore",
+        "conditions": "userTapsBackButton",
+        "actions": "returnToExplore"
+      },
+      {
+        "id": "Explore->CalmMethods",
+        "from": "Explore",
+        "to": "CalmMethods",
+        "conditions": "userSelectsCalmingAnxietyCourse",
+        "actions": "loadCalmingAnxietyContent"
+      },
+      {
+        "id": "CalmMethods->Explore",
+        "from": "CalmMethods",
+        "to": "Explore",
+        "conditions": "userTapsBackButton",
+        "actions": "returnToExplore"
+      }
+    ]
+  }

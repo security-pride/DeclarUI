@@ -1,0 +1,117 @@
+{
+  "N": [
+    {
+      "id": "CreateAccont",
+      "name": "Create Account",
+      "type": "signup",
+      "props": {
+        "layout": "form",
+        "elements": [
+          "email",
+          "password",
+          "signup_button",
+          "google_login"
+        ]
+      }
+    },
+    {
+      "id": "LogIn",
+      "name": "Login",
+      "type": "login",
+      "props": {
+        "layout": "form",
+        "elements": [
+          "email",
+          "password",
+          "login_button",
+          "forgot_password",
+          "google_login"
+        ]
+      }
+    },
+    {
+      "id": "Elections",
+      "name": "Elections News",
+      "type": "news",
+      "props": {
+        "layout": "list",
+        "content": "Elections news articles"
+      }
+    },
+    {
+      "id": "Home",
+      "name": "Home",
+      "type": "home",
+      "props": {
+        "layout": "grid",
+        "content": "Top news, sections"
+      }
+    },
+   {
+      "id": "Settings",
+      "name": "Settings",
+      "type": "settings",
+      "props": {
+        "layout": "settings"
+      }
+    }
+  ],
+  "E":  [
+    {
+      "id": "Home->Elections",
+      "from": "Home",
+      "to": "Elections",
+      "conditions": "user selects 'Elections' from the home page",
+      "actions": "navigate to elections news page"
+    },
+    {
+      "id": "Home->Settings",
+      "from": "Home",
+      "to": "Settings",
+      "conditions": "user selects 'Settings' from the home page",
+      "actions": "navigate to settings page"
+    },
+   {
+      "id": "Elections->Home",
+      "from": "Elections",
+      "to": "Home",
+      "conditions": "user selects 'Home' from the home page",
+      "actions": "return to home page"
+    },
+   {
+      "id": "Settings->Home",
+      "from": "Settings",
+      "to": "Home",
+      "conditions": "user selects 'Home' from the home page",
+      "actions": "return to home page"
+    },
+    {
+      "id": "Settings->LogIn",
+      "from": "Settings",
+      "to": "LogIn",
+      "conditions": "user selects 'Log In To Your CNN Accont' from the settings page",
+      "actions": "navigate to login page"
+    },
+    {
+      "id": "Settings->CreateAccont",
+      "from": "Settings",
+      "to": "CreateAccont",
+      "conditions": "user selects 'Create CNN Accont' from the settings page",
+      "actions": "navigate to create account page"
+    },
+    {
+      "id": "LogIn->Settings",
+      "from": "LogIn",
+      "to": "Settings",
+      "conditions": "user navigates back from login page",
+      "actions": "return to settings page"
+    },
+    {
+      "id": "CreateAccont->Settings",
+      "from": "CreateAccont",
+      "to": "Settings",
+      "conditions": "user navigates back from create account page",
+      "actions": "return to settings page"
+    }
+  ]
+}

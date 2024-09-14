@@ -1,0 +1,191 @@
+{
+    "N": [
+      {
+        "id": "Search",
+        "name": "搜索页",
+        "type": "search",
+        "props": {
+          "searchBar": {
+            "placeholder": "任何地方",
+            "additionalFilters": ["添加日期", "添加人数"]
+          },
+          "categories": ["海景民宿", "魅力泳池", "湖区", "近滑雪场", "OMG妙屋"],
+          "toggleSwitch": "显示总价",
+          "featuredListings": [
+            {
+              "type": "房客推荐",
+              "location": "英国 多塞特(Dorset)",
+              "name": "Man O'War海滩",
+              "date": "9月2日至7日",
+              "price": "¥2,424/晚",
+              "rating": 4.8
+            }
+          ],
+          "bottomNavigation": ["探索", "心愿单", "行程", "消息", "我的"]
+        }
+      },
+      {
+        "id": "SearchCategory",
+        "name": "分类搜索页",
+        "type": "categorySearch",
+        "props": {
+          "categories": ["王牌", "小木屋", "海景民宿", "魅力泳池", "湖区"],
+          "featuredExperience": {
+            "title": "在X学院参加训练",
+            "host": "Jubilee",
+            "status": "预订通道已关闭"
+          },
+          "bottomNavigation": ["探索", "心愿单", "行程", "消息", "我的"]
+        }
+      },
+      {
+        "id": "Details",
+        "name": "房源详情页",
+        "type": "detail",
+        "props": {
+          "title": "Pitch 24 Creek Caravan Park Ringstead狗友好",
+          "location": "英国英格兰多塞特(Dorset)的整套小木屋",
+          "capacity": "6位房客 · 2间卧室 · 3张床 · 1.5个卫生间",
+          "rating": 4.80,
+          "reviewCount": 5,
+          "features": ["海景民宿", "超赞房东", "位置极佳", "入住便捷", "无线网络"],
+          "pricePerNight": "¥2,424",
+          "dateRange": "9月2日至7日",
+          "specialNote": "这个房源很抢手"
+        }
+      },
+      {
+        "id": "Comments",
+        "name": "评价页",
+        "type": "reviews",
+        "props": {
+          "overallRating": 4.80,
+          "recommendationStatus": "房客推荐",
+          "totalScore": {
+            "cleanliness": 5.0,
+            "accuracy": 4.8
+          },
+          "reviewCount": 5,
+          "reviewCategories": [
+            {"name": "环境安静", "count": 3},
+            {"name": "位置优越", "count": 2},
+            {"name": "推荐入住", "count": 2},
+            {"name": "干净卫生", "count": 1},
+            {"name": "房东热情", "count": 1},
+            {"name": "设施齐全", "count": 1}
+          ],
+          "featuredReview": {
+            "reviewer": "David",
+            "usage": "使用爱彼迎8年",
+            "date": "2024年4月",
+            "content": "宁静而风景如画-我在这里住得非常愉快。大篷车就在海滩旁边，设备齐全，很舒适。公园很安静，是探索南海岸小径的好基地，同时距离韦茅斯也很近。房东很友好，善于沟通，感谢他们愿意回答问题，为当地的酒吧和散步提出建议。我肯定会再次入住这里，并推荐给任何寻找安静休息的人。"
+          }
+        }
+      },
+      {
+        "id": "Reservation",
+        "name": "预订页",
+        "type": "booking",
+        "props": {
+          "propertyInfo": {
+            "name": "整套小木屋",
+            "location": "Pitch 24 Creek Caravan Park Ringstead狗友好",
+            "rating": 4.80,
+            "reviewCount": 5,
+            "superhost": true
+          },
+          "bookingDetails": {
+            "dateRange": "9月2日至7日",
+            "guestCount": "1位房客"
+          },
+          "cancellationPolicy": "8月3日前可免费取消订单。旅行规划有变，可获全额退款。",
+          "paymentOptions": [
+            {
+              "type": "立即支付",
+              "amount": "¥12,120.95"
+            },
+            {
+              "type": "分期付款",
+              "initialPayment": "¥6,060.48",
+              "finalPayment": {
+                "amount": "¥6,060.47",
+                "dueDate": "2024年8月18日"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "E": [
+      {
+        "id": "Search->SearchCategory",
+        "from": "Search",
+        "to": "SearchCategory",
+        "conditions": "userSelectsCategory",
+        "actions": "loadCategorySearchPage"
+      },
+      {
+        "id": "SearchCategory->Search",
+        "from": "SearchCategory",
+        "to": "Search",
+        "conditions": "userSelectsCategory",
+        "actions": "loadCategoryPage"
+      },
+      {
+        "id": "SearchCategory->Details",
+        "from": "SearchCategory",
+        "to": "Details",
+        "conditions": "userSelectsListing",
+        "actions": "loadListingDetails"
+      },
+      {
+        "id": "Search->Details",
+        "from": "Search",
+        "to": "Details",
+        "conditions": "userSelectsListing",
+        "actions": "loadListingDetails"
+      },
+      {
+        "id": "Details->Search",
+        "from": "Details",
+        "to": "Search",
+        "conditions": "userTapsBackButton",
+        "actions": "returnToSearchResults"
+      },
+      {
+        "id": "Details->SearchCategory",
+        "from": "Details",
+        "to": "SearchCategory",
+        "conditions": "userTapsBackButton",
+        "actions": "returnToSearchCategoryResults"
+      },
+      {
+        "id": "Details->Comments",
+        "from": "Details",
+        "to": "Comments",
+        "conditions": "userTapsReviewsSection",
+        "actions": "loadReviewsPage"
+      },
+      {
+        "id": "Comments->Details",
+        "from": "Comments",
+        "to": "Details",
+        "conditions": "userTapsBackButton",
+        "actions": "returnToListingDetails"
+      },
+      {
+        "id": "Details->Reservation",
+        "from": "Details",
+        "to": "Reservation",
+        "conditions": "userTapsReserveButton",
+        "actions": "initiateBookingProcess"
+      },
+      {
+        "id": "Reservation->Details",
+        "from": "Reservation",
+        "to": "Details",
+        "conditions": "userCancelsReservation",
+        "actions": "returnToListingDetails"
+      }
+    ]
+  }

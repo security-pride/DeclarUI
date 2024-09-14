@@ -1,0 +1,329 @@
+{
+  "N": [
+    {
+      "id": "Cards",
+      "name": "Student Additions Card Details",
+      "type": "detail",
+      "props": {
+        "cardType": "Personal debit",
+        "cardProvider": "BARCLAYS",
+        "cardNumber": "**** **** **** 4011",
+        "cardStatus": "Active",
+        "walletStatus": "Added to Apple Wallet",
+        "actions": [
+          {
+            "icon": "exclamation-mark",
+            "text": "Report damaged, lost or stolen"
+          },
+          {
+            "icon": "snowflake",
+            "text": "Temporary freeze"
+          },
+          {
+            "icon": "eye",
+            "text": "View card details & PIN"
+          }
+        ],
+        "travelMoney": {
+          "action": "Create travel wallet"
+        },
+        "spendingControls": {
+          "contactlessLimit": "£100"
+        },
+        "bottomNavBar": {
+          "items": ["Accounts", "Products", "Pay & Transfer", "Help", "More"]
+        }
+      }
+    },
+    {
+      "id": "Help",
+      "name": "Help Center",
+      "type": "list",
+      "props": {
+        "searchBar": {
+          "placeholder": "Search or ask a question"
+        },
+        "quickLinks": [
+          {
+            "icon": "exclamation-mark",
+            "text": "Report fraud"
+          },
+          {
+            "icon": "card",
+            "text": "Cards"
+          },
+          {
+            "icon": "document",
+            "text": "Statements"
+          }
+        ],
+        "helpTopics": [
+          {
+            "icon": "question-mark",
+            "text": "Browse all topics",
+            "description": "Check how to manage Direct Debits, pay in a cheque and more."
+          }
+        ],
+        "moreHelp": [
+          {
+            "icon": "pound",
+            "text": "Money worries and support"
+          },
+          {
+            "icon": "accessibility",
+            "text": "Accessible services"
+          },
+          {
+            "icon": "graph",
+            "text": "Our service status"
+          },
+          {
+            "icon": "play",
+            "text": "Tour the app"
+          }
+        ],
+        "bottomNavBar": {
+          "items": ["Accounts", "Products", "Pay & Transfer", "Help", "More"]
+        }
+      }
+    },
+    {
+      "id": "Home",
+      "name": "Account Overview",
+      "type": "dashboard",
+      "props": {
+        "userName": "Miss Muyi Li",
+        "accountType": "STUDENT ADDITIONS",
+        "balance": "£3,760.06",
+        "accountDetails": {
+          "availableBalance": "£3,760.06",
+          "accountNumber": "90427500",
+          "sortCode": "20-25-24"
+        },
+        "promotions": [
+          {
+            "title": "Dreaming of your first home?",
+            "description": "You could buy with a 5% deposit. Tap to get started. T&Cs apply."
+          }
+        ],
+        "quickActions": [
+          {
+            "icon": "card",
+            "text": "Your cards"
+          },
+          {
+            "icon": "gift",
+            "text": "Your rewards"
+          },
+          {
+            "icon": "wallet",
+            "text": "Spending"
+          },
+          {
+            "icon": "mobile",
+            "text": "Mobile PINsentry"
+          }
+        ],
+        "sustainabilitySection": {
+          "title": "Living more sustainably",
+          "image": "father-and-daughter-with-solar-panel.jpg"
+        },
+        "bottomNavBar": {
+          "items": ["Accounts", "Products", "Pay & Transfer", "Help", "More"]
+        }
+      }
+    },
+    {
+      "id": "More",
+      "name": "More Options",
+      "type": "menu",
+      "props": {
+        "menuItems": [
+          {
+            "icon": "document",
+            "text": "Statements and documents"
+          },
+          {
+            "icon": "card",
+            "text": "Cards"
+          },
+          {
+            "icon": "sliders",
+            "text": "Manage accounts"
+          },
+          {
+            "icon": "refresh",
+            "text": "Subscriptions"
+          },
+          {
+            "icon": "wallet",
+            "text": "Spending"
+          },
+          {
+            "icon": "gift",
+            "text": "Rewards"
+          },
+          {
+            "icon": "mobile",
+            "text": "Mobile PINsentry"
+          },
+          {
+            "icon": "gear",
+            "text": "Settings"
+          }
+        ],
+        "lastLogin": {
+          "time": "21:28",
+          "date": "10th Jul 2024"
+        },
+        "surveyLink": "Independent service quality survey results",
+        "logoutButton": "Logout",
+        "bottomNavBar": {
+          "items": ["Accounts", "Products", "Pay & Transfer", "Help", "More"]
+        }
+      }
+    },
+    {
+      "id": "StatementsandDocuments",
+      "name": "Statements and Documents",
+      "type": "list",
+      "props": {
+        "accountNumber": "20-25-24 90427500",
+        "tabs": ["Statements", "Documents"],
+        "statements": [
+          {
+            "date": "11 Jul",
+            "description": "Statement 11-JUL-24 AC 90427500 13043626"
+          },
+          {
+            "date": "11 Jun",
+            "description": "Statement 11-JUN-24 AC 90427500 13043605"
+          },
+          {
+            "date": "10 May",
+            "description": "Statement 10-MAY-24 AC 90427500 13053150"
+          },
+          {
+            "date": "11 Apr",
+            "description": "Statement 11-APR-24 AC 90427500 15105508"
+          },
+          {
+            "date": "11 Mar",
+            "description": "Statement 11-MAR-24 AC 90427500 13050608"
+          },
+          {
+            "date": "09 Feb",
+            "description": "Statement 09-FEB-24 AC 90427500 11043935"
+          },
+          {
+            "date": "11 Jan",
+            "description": "Statement 11-JAN-24 AC 90427500 13043928"
+          }
+        ],
+        "bottomNavBar": {
+          "items": ["Accounts", "Products", "Pay & Transfer", "Help", "More"]
+        }
+      }
+    }
+  ],
+  "E": [
+    {
+      "id": "Home->Help",
+      "from": "Home",
+      "to": "Help",
+      "conditions": "userTapsHelpTab",
+      "actions": "loadHelpCenter"
+    },
+    {
+      "id": "Help->Home",
+      "from": "Help",
+      "to": "Home",
+      "conditions": "userTapsHomeTab",
+      "actions": "loadAccountOverview"
+    },
+    {
+      "id": "Home->More",
+      "from": "Home",
+      "to": "More",
+      "conditions": "userTapsMoreTab",
+      "actions": "loadMoreOptions"
+    },
+    {
+      "id": "More->Home",
+      "from": "More",
+      "to": "Home",
+      "conditions": "userTapsHomeTab",
+      "actions": "loadAccountOverview"
+    },
+    {
+      "id": "More->StatementsandDocuments",
+      "from": "More",
+      "to": "StatementsandDocuments",
+      "conditions": "userTapsStatementsAndDocuments",
+      "actions": "loadStatementsAndDocuments"
+    },
+    {
+      "id": "StatementsandDocuments->More",
+      "from": "StatementsandDocuments",
+      "to": "More",
+      "conditions": "userTapsBackButton",
+      "actions": "returnToMoreOptions"
+    },
+    {
+      "id": "More->Cards",
+      "from": "More",
+      "to": "Cards",
+      "conditions": "userTapsCardsOption",
+      "actions": "loadCardDetails"
+    },
+    {
+      "id": "Cards->More",
+      "from": "Cards",
+      "to": "More",
+      "conditions": "userTapsBackButton",
+      "actions": "returnToMoreOptions"
+    },
+    {
+      "id": "StatementsandDocuments->Help",
+      "from": "StatementsandDocuments",
+      "to": "Help",
+      "conditions": "userTapsHelpIcon",
+      "actions": "loadHelpCenter"
+    },
+    {
+      "id": "Help->StatementsandDocuments",
+      "from": "Help",
+      "to": "StatementsandDocuments",
+      "conditions": "userTapsBackButton",
+      "actions": "returnToStatementsAndDocuments"
+    },
+    {
+      "id": "Cards->Help",
+      "from": "Cards",
+      "to": "Help",
+      "conditions": "userTapsHelpTab",
+      "actions": "loadHelpCenter"
+    },
+    {
+      "id": "Help->Cards",
+      "from": "Help",
+      "to": "Cards",
+      "conditions": "userTapsCardQuickLink",
+      "actions": "loadCardDetails"
+    },
+    {
+      "id": "More->Help",
+      "from": "More",
+      "to": "Help",
+      "conditions": "userTapsHelpTab",
+      "actions": "loadHelpCenter"
+    },
+    {
+      "id": "Help->More",
+      "from": "Help",
+      "to": "More",
+      "conditions": "userTapsMoreTab",
+      "actions": "loadMoreOptions"
+    }
+  ]
+}

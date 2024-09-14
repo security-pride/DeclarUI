@@ -1,0 +1,269 @@
+{
+  "N": [
+    {
+      "id": "Home",
+      "name": "HomePage",
+      "type": "home",
+      "props": {
+        "header": {
+          "greeting": "Hello, Daniel !",
+          "search_bar": true,
+          "notification_icon": true,
+          "favorites_icon": true
+        },
+        "promotion_section": {
+          "title": "Promotion",
+          "see_all_link": true,
+          "featured_course": {
+            "title": "3D Design Fundamentals",
+            "image": true,
+            "cta_button": "Small Button"
+          }
+        },
+        "awesome_courses_section": {
+          "title": "Awesome Courses",
+          "see_all_link": true,
+          "filter_tabs": ["Medium", "Popular", "Medium"],
+          "course_list": [
+            {
+              "title": "3D Design Basic",
+              "lessons_count": 24,
+              "rating": 4.9,
+              "price": "$24.99",
+              "image": true
+            },
+            {
+              "title": "Characters Animation",
+              "lessons_count": 22,
+              "rating": 4.8,
+              "price": "$22.69",
+              "image": true
+            }
+          ]
+        },
+        "bottom_nav": ["Home", "Course", "Chat", "Profile"]
+      }
+    },
+    {
+      "id": "EnrolledCourses",
+      "name": "EnrolledCoursesPage",
+      "type": "course_list",
+      "props": {
+        "header": {
+          "title": "My Enrolled Courses",
+          "filter_tabs": ["Medium", "Medium", "Medium"]
+        },
+        "course_list": [
+          {
+            "title": "3D Design Basic",
+            "lessons_count": 24,
+            "progress": 25,
+            "image": true
+          },
+          {
+            "title": "3D Abstract Design",
+            "lessons_count": 18,
+            "progress": 50,
+            "image": true
+          },
+          {
+            "title": "Characters Animation",
+            "lessons_count": 22,
+            "progress": 75,
+            "image": true
+          },
+          {
+            "title": "Game Design",
+            "lessons_count": 25,
+            "progress": 100,
+            "image": true
+          },
+          {
+            "title": "Product Design",
+            "lessons_count": 23,
+            "progress": 100,
+            "image": true
+          }
+        ],
+        "bottom_nav": ["Home", "Course", "Chat", "Profile"]
+      }
+    },
+    {
+      "id": "CourseDetail",
+      "name": "CourseDetailPage",
+      "type": "course_detail",
+      "props": {
+        "header": {
+          "back_button": true,
+          "title": "3D Design Basic"
+        },
+        "course_image": true,
+        "course_info": {
+          "students_count": 4569,
+          "rating": 4.9,
+          "badge": "Best Seller"
+        },
+        "course_description": "In this course you will learn how to build a space to a 3-dimensional product. There are 24 premium learning videos for you.",
+        "lessons_info": {
+          "count": 24,
+          "duration": "20 hours",
+          "see_all_link": true
+        },
+        "first_lesson": {
+          "title": "Introduction to 3D",
+          "duration": "20 mins",
+          "completed": true,
+          "image": true
+        },
+        "cta_button": "Large Button"
+      }
+    },
+    {
+      "id": "AwesomeCourses",
+      "name": "AwesomeCoursesPage",
+      "type": "course_list",
+      "props": {
+        "header": {
+          "back_button": true,
+          "title": "Awesome Courses",
+          "filter_tabs": ["Medium", "Medium", "Medium"]
+        },
+        "course_list": [
+          {
+            "title": "3D Design Basic",
+            "lessons_count": 24,
+            "rating": 4.9,
+            "price": "$24.99",
+            "image": true
+          },
+          {
+            "title": "Characters Animation",
+            "lessons_count": 22,
+            "rating": 4.8,
+            "price": "$22.69",
+            "image": true
+          },
+          {
+            "title": "3D Abstract Design",
+            "lessons_count": 18,
+            "rating": 4.7,
+            "price": "$19.29",
+            "image": true
+          },
+          {
+            "title": "Product Design",
+            "lessons_count": 23,
+            "rating": 4.8,
+            "price": "$25.79",
+            "image": true
+          },
+          {
+            "title": "Game Design",
+            "lessons_count": 25,
+            "rating": 4.9,
+            "price": "$26.39",
+            "image": true
+          }
+        ],
+        "bottom_nav": ["Home", "Course", "Chat", "Profile"]
+      }
+    },
+    {
+      "id": "Search",
+      "name": "SearchPage",
+      "type": "search",
+      "props": {
+        "header": {
+          "back_button": true,
+          "search_bar": {
+            "placeholder": "3Di",
+            "filter_button": true
+          }
+        },
+        "results_title": "Results",
+        "course_list": [
+          {
+            "title": "3D Design Basic",
+            "lessons_count": 24,
+            "rating": 4.9,
+            "price": "$24.99",
+            "image": true
+          },
+          {
+            "title": "Characters Animation",
+            "lessons_count": 22,
+            "rating": 4.8,
+            "price": "$22.69",
+            "image": true
+          },
+          {
+            "title": "3D Abstract Design",
+            "lessons_count": 18,
+            "rating": 4.7,
+            "price": "$19.29",
+            "image": true
+          },
+          {
+            "title": "Product Design",
+            "lessons_count": 23,
+            "rating": 4.8,
+            "price": "$25.79",
+            "image": true
+          }
+        ],
+        "keyboard": true
+      }
+    }
+  ],
+  "E": [
+    {
+      "id": "Home->EnrolledCourses",
+      "from": "Home",
+      "to": "EnrolledCourses",
+      "conditions": "User taps on Course in bottom navigation",
+      "actions": "Load Enrolled Courses page"
+    },
+    {
+      "id": "Home->CourseDetail",
+      "from": "Home",
+      "to": "CourseDetail",
+      "conditions": "User taps on a course in Awesome Courses section",
+      "actions": "Load Course Detail page"
+    },
+    {
+      "id": "Home->AwesomeCourses",
+      "from": "Home",
+      "to": "AwesomeCourses",
+      "conditions": "User taps on 'See all' in Awesome Courses section",
+      "actions": "Load Awesome Courses page"
+    },
+    {
+      "id": "Home->Search",
+      "from": "Home",
+      "to": "Search",
+      "conditions": "User taps on search bar",
+      "actions": "Load Search page"
+    },
+    {
+      "id": "EnrolledCourses->CourseDetail",
+      "from": "EnrolledCourses",
+      "to": "CourseDetail",
+      "conditions": "User taps on an enrolled course",
+      "actions": "Load Course Detail page"
+    },
+    {
+      "id": "AwesomeCourses->CourseDetail",
+      "from": "AwesomeCourses",
+      "to": "CourseDetail",
+      "conditions": "User taps on a course",
+      "actions": "Load Course Detail page"
+    },
+    {
+      "id": "Search->CourseDetail",
+      "from": "Search",
+      "to": "CourseDetail",
+      "conditions": "User taps on a course in search results",
+      "actions": "Load Course Detail page"
+    }
+  ]
+}

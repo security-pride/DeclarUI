@@ -1,0 +1,361 @@
+{
+    "N": [
+      {
+        "id": "Cart",
+        "name": "购物车页",
+        "type": "cart",
+        "props": {
+          "header": {
+            "title": "购物车(18)",
+            "actions": ["搜索", "管理"]
+          },
+          "filters": ["降价", "常购"],
+          "cartItems": [
+            {
+              "store": "淘宝马克思主义MKSZY",
+              "discount": "每300减30,可跨店",
+              "product": {
+                "name": "MKSZY 复古水洗做旧短袖T恤",
+                "image": "product_image.jpg",
+                "price": "¥298",
+                "details": "EVA绫波丽[现货秒发];S",
+                "promotions": ["每300减30", "3期免息", "库存紧张"]
+              }
+            },
+            {
+              "store": "天猫NITORI家居官方旗舰店",
+              "product": {
+                "name": "NITORI圆形舒柔质感抱枕",
+                "image": "pillow_image.jpg",
+                "promotions": ["假一赔四", "极速退款", "7天无理由退换"],
+                "action": "重选"
+              }
+            }
+          ],
+          "recommendations": {
+            "store": "淘宝MEDM",
+            "product": {
+              "image": "product_image.jpg",
+              "price": "¥749",
+              "state": "商品下架",
+              "similarProducts": [
+                {"price": "¥218"},
+                {"price": "¥128"},
+                {"price": "更多 >"}
+              ]
+            }
+          },
+          "bottomNavBar": ["首页", "逛逛", "消息", "购物车", "我的淘宝"]
+        }
+      },
+      {
+        "id": "Home",
+        "name": "首页",
+        "type": "home",
+        "props": {
+          "header": {
+            "searchBar": "team wang联名",
+            "actions": ["相机", "搜索"]
+          },
+          "categories": ["关注", "推荐", "小时达", "狂暑季", "穿搭", "居家", "数码", "……"],
+          "quickAccess": [
+            {"name": "飞猪旅行", "icon": "travel_icon.png"},
+            {"name": "百亿补贴", "icon": "subsidy_icon.png"},
+            {"name": "饿了么", "icon": "eleme_icon.png"},
+            {"name": "芭芭农场", "icon": "farm_icon.png"},
+            {"name": "天猫国际", "icon": "tmall_icon.png"}
+          ],
+          "liveStreams": {
+            "title": "淘宝直播",
+            "subtitle": "爆款抽免单",
+            "streams": [
+              {"streamer": "觅橘官方", "image": "streamer1.jpg"},
+              {"streamer": "吉杰", "image": "streamer2.jpg"},
+              {"streamer": "李宁官方", "image": "streamer3.jpg"}
+            ]
+          },
+          "flashSale": {
+            "title": "淘宝秒杀",
+            "timeRemaining": "22:35:11",
+            "products": [
+              {"name": "小竹", "price": "¥2.01", "image": "product1.jpg"},
+              {"name": "不锈钢清洁球", "price": "¥2.96", "image": "product2.jpg"},
+              {"name": "湿厕纸", "price": "¥1.42", "image": "product3.jpg"}
+            ]
+          },
+          "featuredProducts": [
+            {
+              "name": "明日香EVA动漫水洗做旧",
+              "price": "¥536",
+              "salesCount": "87人付款",
+              "image": "featured_product1.jpg"
+            },
+            {
+              "name": "MEDMXEVA联名",
+              "price": "¥279",
+              "promotion": "每300减30",
+              "tag": "潮流男装 热卖好店上新",
+              "image": "featured_product2.jpg"
+            }
+          ],
+          "bottomNavBar": ["首页", "逛逛", "消息", "购物车", "我的淘宝"]
+        }
+      },
+      {
+        "id": "Logistics",
+        "name": "物流信息页",
+        "type": "logistics",
+        "props": {
+          "header": {
+            "title": "通知",
+            "backButton": true,
+            "actions": ["设置"]
+          },
+          "categories": ["物流", "售后", "提醒", "互动", "赞评", "优惠", "其他"],
+          "trackingInfo": [
+            {
+              "title": "查快递",
+              "action": "暂无快递更新"
+            },
+            {
+              "store": "romoss旗舰店",
+              "date": "24/07/10",
+              "status": "即将确认收货",
+              "logistics": {
+                "company": "申通快递",
+                "deliveryTime": "2024年07月02日 12:27"
+              },
+              "action": "延长收货"
+            },
+            {
+              "title": "订单物流消息",
+              "date": "24/07/06",
+              "status": "即将自动确认收货",
+              "address": "关山街道珞瑜路1037号华中科技大学东11舍407",
+              "action": "查看详情"
+            },
+            {
+              "store": "菜鸟",
+              "date": "24/04/25",
+              "status": "包裹签收通知",
+              "logistics": {
+                "company": "韵达快递",
+                "info": "包裹已被签收，点击查看签收详情>>"
+              },
+              "action": "查看详情"
+            }
+          ]
+        }
+      },
+      {
+        "id": "Message",
+        "name": "消息页",
+        "type": "message",
+        "props": {
+          "header": {
+            "title": "消息",
+            "actions": ["编辑", "搜索", "新建"]
+          },
+          "categories": [
+            {"name": "交易物流", "icon": "logistics_icon.png"},
+            {"name": "售后", "icon": "aftersales_icon.png"},
+            {"name": "提醒", "icon": "reminder_icon.png"},
+            {"name": "互动", "icon": "interaction_icon.png"}
+          ],
+          "banner": {
+            "title": "热门活动抢先看",
+            "subtitle": "更多优惠尽在掌握",
+            "date": "6.1-8.31",
+            "image": "banner_image.png"
+          },
+          "recentMessages": [
+            {
+              "store": "romoss旗舰店",
+              "date": "24/07/03",
+              "content": "商品使用说明",
+              "unreadCount": 4
+            },
+            {
+              "title": "订阅号消息",
+              "date": "24/06/13",
+              "content": "COURTMAN野球帝:新品揭晓，所有等待都值得。"
+            },
+            {
+              "store": "jELLYCAT海外旗舰店",
+              "date": "24/04/03",
+              "content": "Jellycat 2024新生系列焕新上市！会员臻享...",
+              "unreadCount": 3
+            },
+            {
+              "store": "YOMIK",
+              "date": "24/03/25",
+              "content": "亲，对藕香抹微云、的服务满意吗？",
+              "unreadCount": 1
+            },
+            {
+              "store": "Starbucks星巴克官方旗舰店",
+              "date": "24/03/19",
+              "content": "亲爱的，你感兴趣的宝贝降价啦，不要错过限...",
+              "unreadCount": 4
+            },
+            {
+              "store": "良品铺子旗舰店",
+              "date": "24/03/13",
+              "content": "周三会员福利日！千万别错过！",
+              "unreadCount": 5
+            },
+            {
+              "store": "jELLYCAT旗舰店",
+              "date": "24/02/22",
+              "content": "龙腾新岁，开工大吉！入会臻享爆品优先购。",
+              "unreadCount": 2
+            }
+          ],
+          "bottomNavBar": ["首页", "逛逛", "消息", "购物车", "我的淘宝"]
+        }
+      },
+      {
+        "id": "Profile",
+        "name": "个人主页",
+        "type": "profile",
+        "props": {
+          "header": {
+            "avatar": "user_avatar.png",
+            "username": "不吃不吃不吃Orz",
+            "membershipDuration": "淘龄5年",
+            "actions": ["官方客服", "设置"]
+          },
+          "memberInfo": {
+            "savingsAmount": "¥781",
+            "points": 990,
+            "redPacket": "¥0.00",
+            "coupons": 0,
+            "vipStatus": "88VIP"
+          },
+          "orderStatus": [
+            {"name": "待付款", "icon": "payment_icon.png"},
+            {"name": "待发货", "icon": "shipping_icon.png"},
+            {"name": "待收货", "icon": "receiving_icon.png"},
+            {"name": "待评价", "icon": "review_icon.png"},
+            {"name": "退款/售后", "icon": "refund_icon.png"}
+          ],
+          "quickAccess": [
+            {
+              "title": "快递",
+              "actions": ["查取件", "查寄件"]
+            },
+            {
+              "title": "收藏",
+              "content": "暂无推荐",
+              "action": "去逛逛更多宝贝"
+            },
+            {
+              "title": "足迹",
+              "actions": ["我的足迹", "红包签到", "摇现金"]
+            }
+          ],
+          "bottomNavBar": ["首页", "逛逛", "消息", "购物车", "我的淘宝"]
+        }
+      }
+    ],
+    "E": [
+      {
+        "id": "Home->Cart",
+        "from": "Home",
+        "to": "Cart",
+        "conditions": "userTapsCartIcon",
+        "actions": "loadCartItems"
+      },
+      {
+        "id": "Cart->Home",
+        "from": "Cart",
+        "to": "Home",
+        "conditions": "userTapsHomeIcon",
+        "actions": "loadHomePage"
+      },
+      {
+        "id": "Home->Profile",
+        "from": "Home",
+        "to": "Profile",
+        "conditions": "userTapsProfileIcon",
+        "actions": "loadUserProfile"
+      },
+      {
+        "id": "Profile->Home",
+        "from": "Profile",
+        "to": "Home",
+        "conditions": "userTapsHomeIcon",
+        "actions": "loadHomePage"
+      },
+      {
+        "id": "Home->Message",
+        "from": "Home",
+        "to": "Message",
+        "conditions": "userTapsMessageIcon",
+        "actions": "loadMessageCenter"
+      },
+      {
+        "id": "Message->Home",
+        "from": "Message",
+        "to": "Home",
+        "conditions": "userTapsHomeIcon",
+        "actions": "loadHomePage"
+      },
+      {
+        "id": "Message->Logistics",
+        "from": "Message",
+        "to": "Logistics",
+        "conditions": "userTapsLogisticsNotification",
+        "actions": "loadLogisticsDetails"
+      },
+      {
+        "id": "Logistics->Message",
+        "from": "Logistics",
+        "to": "Message",
+        "conditions": "userTapsBackButton",
+        "actions": "returnToMessageCenter"
+      },
+      {
+        "id": "Cart->Message",
+        "from": "Cart",
+        "to": "Message",
+        "conditions": "userTapsMessageIcon",
+        "actions": "loadMessageCenter"
+      },
+      {
+        "id": "Message->Cart",
+        "from": "Message",
+        "to": "Cart",
+        "conditions": "userTapsCartIcon",
+        "actions": "loadCartItems"
+      },
+      {
+        "id": "Cart->Profile",
+        "from": "Cart",
+        "to": "Profile",
+        "conditions": "userTapsProfileIcon",
+        "actions": "loadUserProfile"
+      },
+      {
+        "id": "Profile->Cart",
+        "from": "Profile",
+        "to": "Cart",
+        "conditions": "userTapsCartIcon",
+        "actions": "loadCartItems"
+      },
+      {
+        "id": "Message->Profile",
+        "from": "Message",
+        "to": "Profile",
+        "conditions": "userTapsProfileIcon",
+        "actions": "loadUserProfile"
+      },
+      {
+        "id": "Profile->Message",
+        "from": "Profile",
+        "to": "Message",
+        "conditions": "userTapsMessageIcon",
+        "actions": "loadMessageCenter"
+      }
+    ]
+  }

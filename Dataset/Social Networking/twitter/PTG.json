@@ -1,0 +1,119 @@
+{
+  "N": [
+    {
+      "id": "Home",
+      "name": "Home Timeline",
+      "type": "Feed",
+      "props": {
+        "header": "Twitter logo",
+        "tweetFeed": true,
+        "bottomNavigation": ["Home", "Search", "Notifications", "Messages"]
+      }
+    },
+    {
+      "id": "Menu",
+      "name": "Profile Menu",
+      "type": "Menu",
+      "props": {
+        "profileInfo": {
+          "name": "Pixsellz",
+          "handle": "@pixsellz",
+          "followingCount": 216,
+          "followerCount": 117
+        },
+        "menuItems": ["Profile", "Lists", "Topics", "Bookmarks", "Moments"],
+        "settingsOption": "Settings and privacy",
+        "helpOption": "Help Center"
+      }
+    },
+    {
+      "id": "Profile",
+      "name": "User Profile",
+      "type": "Profile",
+      "props": {
+        "header": "Digital Goodies Team",
+        "profileInfo": {
+          "name": "Pixsellz",
+          "handle": "@pixsellz",
+          "bio": "Digital Goodies Team - Web & Mobile UI/UX development; Graphics; Illustrations",
+          "website": "pixsellz.io",
+          "joinDate": "Joined September 2018",
+          "followingCount": 217,
+          "followerCount": 118
+        },
+        "tabs": ["Tweets", "Tweets & replies", "Media", "Likes"],
+        "pinnedTweet": true
+      }
+    },
+    {
+      "id": "Search",
+      "name": "Search",
+      "type": "Search",
+      "props": {
+        "searchBar": true,
+        "recentSearches": [
+          {"name": "Sab Khasanov", "handle": "@s_khasanov"},
+          {"name": "Martha Craig", "handle": "@craig_love"},
+          {"name": "Tabitha Potter", "handle": "@mis_potter", "verified": true},
+          {"name": "Figma", "handle": "@figmadesign"},
+          {"name": "Figma", "handle": "@figma"}
+        ],
+        "keyboard": true
+      }
+    },
+    {
+      "id": "Trends",
+      "name": "Trends",
+      "type": "Trends",
+      "props": {
+        "header": "Trends for you",
+        "noTrendsMessage": "No new trends for you",
+        "changeLocationButton": true
+      }
+    }
+  ],
+  "E": [
+    {
+      "id": "Home->Menu",
+      "from": "Home",
+      "to": "Menu",
+      "conditions": "User taps profile icon in top-left corner",
+      "actions": "Open profile menu"
+    },
+    {
+      "id": "Menu->Profile",
+      "from": "Menu",
+      "to": "Profile",
+      "conditions": "User taps 'Profile' option",
+      "actions": "Load user profile page"
+    },
+    {
+      "id": "Home->Trends",
+      "from": "Home",
+      "to": "Trends",
+      "conditions": "User taps search icon in bottom navigation",
+      "actions": "Open trends page"
+    },
+    {
+      "id": "Trends->Search",
+      "from": "Trends",
+      "to": "Search",
+      "conditions": "Click the search box at the top",
+      "actions": "Show search section"
+    },
+    {
+      "id": "Search->Trends",
+      "from": "Search",
+      "to": "Trends",
+      "conditions": "User scrolls down on search page",
+      "actions": "Show trends section"
+    },
+    {
+      "id": "Home->Profile",
+      "from": "Home",
+      "to": "Profile",
+      "conditions": "User taps on their own tweet or profile picture",
+      "actions": "Load user profile page"
+    }
+  ]
+}

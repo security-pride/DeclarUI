@@ -1,0 +1,232 @@
+{
+    "N": [
+      {
+        "id": "Account",
+        "name": "账户页",
+        "type": "profile",
+        "props": {
+          "header": "Tailor your offers and access exciting rewards",
+          "signInButton": true,
+          "menuItems": [
+            {"icon": "person", "title": "Personal details"},
+            {"icon": "heart", "title": "Favourite brands"},
+            {"icon": "envelope", "title": "Communication preferences"},
+            {"icon": "star", "title": "VIP rewards tracker", "badge": "New"},
+            {"icon": "money", "title": "Track transaction status"},
+            {"icon": "gift", "title": "Gift card wallet"},
+            {"icon": "code", "title": "Submit a code"}
+          ],
+          "bottomNavBar": ["Discover", "Search", "VIP", "Account"]
+        }
+      },
+      {
+        "id": "Details",
+        "name": "奖励详情页",
+        "type": "detail",
+        "props": {
+          "header": {
+            "backButton": true,
+            "title": "MOBILES.CO.UK"
+          },
+          "offer": {
+            "title": "Exclusive Free £50 Currys Voucher with Vodafone Pay Monthly Contracts",
+            "subtitle": "Use with Code VC10OFF for £10 off Upfront Cost of Handsets",
+            "type": "Online Reward",
+            "expiryDate": "Ends 20 Jul"
+          },
+          "vipInfo": "This is a VIP retailer! VIPs get a £5 gift card for every two shops with any VIP retailer",
+          "signInButton": "Sign In to Get Reward",
+          "bottomNavBar": ["Discover", "Search", "VIP", "Account"]
+        }
+      },
+      {
+        "id": "More",
+        "name": "更多奖励列表页",
+        "type": "list",
+        "props": {
+          "header": {
+            "backButton": true,
+            "title": "Reward Offers"
+          },
+          "rewardList": [
+            {
+              "logo": "amazon.co.uk",
+              "title": "Exclusive Great Savings with Prime Day Deals Plus a £3...",
+              "type": "Online Reward",
+              "expiryDate": "Ends 22 Jul"
+            },
+            {
+              "logo": "currys",
+              "title": "Exclusive Free £10 Currys Voucher with Orders Over £...",
+              "type": "Online Reward",
+              "expiryDate": "Ends 1 Aug"
+            },
+            {
+              "logo": "just eat",
+              "title": "Exclusive Free £3 Amazon Voucher with Orders Over £...",
+              "type": "Online Reward",
+              "expiryDate": "Ends today"
+            },
+            {
+              "logo": "Booking.com",
+              "title": "Exclusive 15% off Selected Hotel Bookings: Free £5 A...",
+              "type": "Online Reward",
+              "expiryDate": "Ends 1 Aug"
+            }
+          ],
+          "bottomNavBar": ["Discover", "Search", "VIP", "Account"]
+        }
+      },
+      {
+        "id": "Search",
+        "name": "搜索页",
+        "type": "search",
+        "props": {
+          "searchBar": {
+            "placeholder": "Start searching"
+          },
+          "rewardOffers": {
+            "title": "Reward Offers",
+            "viewMoreButton": true,
+            "list": [
+              {
+                "logo": "MOBILES.CO.UK",
+                "title": "Free £50 Currys Voucher with Vodafone Pa...",
+                "type": "Online Reward",
+                "expiryDate": "Ends 20 Jul"
+              },
+              {
+                "logo": "DUNELM",
+                "title": "Free £5 Amazon Voucher with Orders Over...",
+                "type": "Online Reward",
+                "expiryDate": "Ends today"
+              },
+              {
+                "logo": "EBAY",
+                "title": "Free £5 Groceries Voucher with Orders Ove...",
+                "type": "Online Reward",
+                "expiryDate": "Ends 21 Jul"
+              },
+              {
+                "logo": "LG",
+                "title": "Free £40 Amazon Voucher with Orders Ove...",
+                "type": "Online Reward",
+                "expiryDate": "Ends 1 Aug"
+              },
+              {
+                "logo": "ADIDAS",
+                "title": "Free £10 Amazon Voucher with Orders Ove...",
+                "type": "Online Reward",
+                "expiryDate": "Ends today"
+              }
+            ]
+          },
+          "trendingNow": {
+            "title": "Trending Now",
+            "viewMoreButton": true,
+            "items": [
+              {
+                "image": "London Zoo",
+                "title": "2 for 1 Entry with National Rail"
+              }
+            ]
+          },
+          "bottomNavBar": ["Discover", "Search", "VIP", "Account"]
+        }
+      },
+      {
+        "id": "Terms",
+        "name": "条款和条件页",
+        "type": "text",
+        "props": {
+          "header": {
+            "backButton": true,
+            "title": "Terms and Conditions"
+          },
+          "content": [
+            "Valid on Vodafone pay monthly contracts only.……"
+          ],
+          "bottomNavBar": ["Discover", "Search", "VIP", "Account"]
+        }
+      }
+    ],
+    "E": [
+      {
+        "id": "Search->Details",
+        "from": "Search",
+        "to": "Details",
+        "conditions": "userSelectsReward",
+        "actions": "loadRewardDetails"
+      },
+      {
+        "id": "Details->Search",
+        "from": "Details",
+        "to": "Search",
+        "conditions": "userTapsBackButton",
+        "actions": "returnToSearch"
+      },
+      {
+        "id": "Search->More",
+        "from": "Search",
+        "to": "More",
+        "conditions": "userTapsViewMore",
+        "actions": "loadAllRewards"
+      },
+      {
+        "id": "More->Search",
+        "from": "More",
+        "to": "Search",
+        "conditions": "userTapsBackButton",
+        "actions": "returnToSearch"
+      },
+      {
+        "id": "Details->Terms",
+        "from": "Details",
+        "to": "Terms",
+        "conditions": "userTapsTermsAndConditions",
+        "actions": "loadTermsAndConditions"
+      },
+      {
+        "id": "Terms->Details",
+        "from": "Terms",
+        "to": "Details",
+        "conditions": "userTapsBackButton",
+        "actions": "returnToRewardDetails"
+      },
+      {
+        "id": "Search->Account",
+        "from": "Search",
+        "to": "Account",
+        "conditions": "userTapsAccountIcon",
+        "actions": "loadAccountPage"
+      },
+      {
+        "id": "Account->Search",
+        "from": "Account",
+        "to": "Search",
+        "conditions": "userTapsSearchIcon",
+        "actions": "loadSearchPage"
+      },
+      {
+        "id": "Details->Account",
+        "from": "Details",
+        "to": "Account",
+        "conditions": "userTapsAccountIcon",
+        "actions": "loadAccountPage"
+      },
+      {
+        "id": "More->Account",
+        "from": "More",
+        "to": "Account",
+        "conditions": "userTapsAccountIcon",
+        "actions": "loadAccountPage"
+      },
+      {
+        "id": "Terms->Account",
+        "from": "Terms",
+        "to": "Account",
+        "conditions": "userTapsAccountIcon",
+        "actions": "loadAccountPage"
+      }
+    ]
+  }

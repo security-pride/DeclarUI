@@ -1,0 +1,232 @@
+{
+  "N": [
+    {
+      "id": "Home",
+      "name": "Home Screen",
+      "type": "Dashboard",
+      "props": {
+        "header": {
+          "userInfo": "Linda C. Ng",
+          "date": "18 Feb 2022",
+          "searchButton": true
+        },
+        "dailyProgress": {
+          "text": "Your daily task almost done!",
+          "percentage": 95
+        },
+        "todayTasks": [
+          {
+            "title": "User experience design",
+            "progress": 40
+          },
+          {
+            "title": "Meeting with designer",
+            "progress": 60
+          }
+        ],
+        "upcomingTasks": [
+          {
+            "title": "Website Design",
+            "date": "23 Feb 2022"
+          }
+        ],
+        "bottomNav": ["home", "calendar", "add", "notifications", "settings"]
+      }
+    },
+    {
+      "id": "AddTask",
+      "name": "Add New Task Screen",
+      "type": "Form",
+      "props": {
+        "header": {
+          "title": "Add New Task",
+          "userAvatar": true
+        },
+        "calendar": {
+          "month": "February 2022",
+          "selectedDate": "18"
+        },
+        "form": [
+          {
+            "label": "Task title",
+            "value": "Website redesign"
+          },
+          {
+            "label": "Task type",
+            "options": ["Important", "Personal"]
+          },
+          {
+            "label": "Choose date & time",
+            "date": "18-02-2022",
+            "time": "9:00 AM-12:00 PM"
+          },
+          {
+            "label": "Get alert for this task",
+            "type": "toggle",
+            "value": true
+          }
+        ],
+        "submitButton": "Done"
+      }
+    },
+    {
+      "id": "AllTasks",
+      "name": "All Tasks Screen",
+      "type": "List",
+      "props": {
+        "header": {
+          "title": "All tasks",
+          "backButton": true,
+          "searchButton": true
+        },
+        "sections": [
+          {
+            "title": "Todays task",
+            "tasks": [
+              {
+                "title": "Meeting with designer",
+                "status": "Running",
+                "time": "09AM-10AM",
+                "participants": 4,
+                "progress": 60
+              },
+              {
+                "title": "Grocery app design",
+                "status": "Ongoing",
+                "time": "10AM-11AM",
+                "participants": 5,
+                "progress": 95
+              },
+              {
+                "title": "Dashboard redesign",
+                "status": "Running",
+                "time": "02PM-03PM",
+                "participants": 3,
+                "progress": 50
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "TaskDetails",
+      "name": "Task Details Screen",
+      "type": "Detail",
+      "props": {
+        "header": {
+          "title": "Task Details",
+          "backButton": true
+        },
+        "taskInfo": {
+          "title": "User experience design",
+          "date": "18-02-2022",
+          "time": "9:00 AM-12:00 PM"
+        },
+        "progressChart": {
+          "finishOnTime": 40,
+          "pastDeadline": 40,
+          "stillOngoing": 20
+        },
+        "description": "Task management is the process which is monitoring your fast project's tasks through their various stages from start......See more",
+        "subTasks": [
+          {
+            "title": "Website Redesign",
+            "date": "18 Feb 2022",
+            "completed": true
+          },
+          {
+            "title": "Website Design",
+            "date": "19 Feb 2022",
+            "completed": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "Calendar",
+      "name": "Calendar Screen",
+      "type": "Calendar",
+      "props": {
+        "header": {
+          "title": "Today's Task",
+          "userAvatar": true
+        },
+        "calendar": {
+          "month": "February 2022",
+          "selectedDate": "18"
+        },
+        "filters": ["All", "Ongoing", "Completed"],
+        "tasks": [
+          {
+            "title": "Landing page design",
+            "time": "09AM-11AM",
+            "progress": 100
+          },
+          {
+            "title": "Dashboard redesign",
+            "time": "11AM-01PM",
+            "progress": 55
+          },
+          {
+            "title": "Education app design",
+            "time": "02PM-03PM",
+            "progress": 30
+          }
+        ],
+        "bottomNav": ["home", "calendar", "add", "notifications", "settings"]
+      }
+    }
+  ],
+  "E": [
+    {
+      "id": "Home->AddTask",
+      "from": "Home",
+      "to": "AddTask",
+      "conditions": "User taps + button in bottom nav",
+      "actions": "Open Add New Task screen"
+    },
+    {
+      "id": "Home->AllTasks",
+      "from": "Home",
+      "to": "AllTasks",
+      "conditions": "User taps 'See All' next to Today's Task",
+      "actions": "Open All Tasks screen"
+    },
+    {
+      "id": "Home->TaskDetails",
+      "from": "Home",
+      "to": "TaskDetails",
+      "conditions": "User taps on a specific task",
+      "actions": "Open Task Details screen"
+    },
+    {
+      "id": "Home->Calendar",
+      "from": "Home",
+      "to": "Calendar",
+      "conditions": "User taps calendar icon in bottom nav",
+      "actions": "Open Calendar screen"
+    },
+    {
+      "id": "AllTasks->TaskDetails",
+      "from": "AllTasks",
+      "to": "TaskDetails",
+      "conditions": "User taps on a specific task",
+      "actions": "Open Task Details screen"
+    },
+    {
+      "id": "Calendar->AddTask",
+      "from": "Calendar",
+      "to": "AddTask",
+      "conditions": "User taps + button in bottom nav",
+      "actions": "Open Add New Task screen"
+    },
+    {
+      "id": "Calendar->TaskDetails",
+      "from": "Calendar",
+      "to": "TaskDetails",
+      "conditions": "User taps on a specific task",
+      "actions": "Open Task Details screens"
+    }
+  ]
+}

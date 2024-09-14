@@ -1,0 +1,249 @@
+{
+  "N": [
+    {
+      "id": "CourseDetail",
+      "name": "Course Detail Screen",
+      "type": "Detail",
+      "props": {
+        "header": {
+          "backButton": true,
+          "moreOptions": true
+        },
+        "image": {
+          "tag": "UI Design",
+          "favoriteButton": true
+        },
+        "courseInfo": {
+          "title": "Expert Wireframing for Webiste Design theme food",
+          "instructor": {
+            "name": "Jerremy Mamika",
+            "avatar": true
+          },
+          "rating": 4.6
+        },
+        "aboutCourse": {
+          "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+        },
+        "stats": [
+          {"label": "Lessons", "value": "30+"},
+          {"label": "Rating", "value": "4.5"},
+          {"label": "Student", "value": "1.4K"}
+        ],
+        "price": "$129",
+        "buyButton": "Buy Now"
+      }
+    },
+    {
+      "id": "Discover",
+      "name": "Discover Screen",
+      "type": "List",
+      "props": {
+        "header": {
+          "title": "Dicover",
+          "menuButton": true,
+          "notificationButton": true
+        },
+        "heroSection": {
+          "title": "Study what you want anytime anywhere"
+        },
+        "featuredCourse": {
+          "title": "User interface for beginners",
+          "category": "Interface Design",
+          "rating": 4.7,
+          "reviewCount": 1242,
+          "progress": 48,
+          "image": true
+        },
+        "popularCourses": [
+          {
+            "title": "Expert Wireframing for Mobile Design",
+            "category": "Graphic Design",
+            "instructor": "Jerremy Mamika",
+            "price": "$48",
+            "image": true,
+            "favoriteButton": true
+          },
+          {
+            "title": "Bootstrapping Principles",
+            "category": "Development",
+            "instructor": "Alexander Be",
+            "image": true
+          }
+        ],
+        "bottomNav": ["Home", "Statistic", "Favorites", "Profile"]
+      }
+    },
+    {
+      "id": "Favorites",
+      "name": "Favorites Screen",
+      "type": "List",
+      "props": {
+        "header": {
+          "title": "Favorite",
+          "notificationButton": true
+        },
+        "searchBar": {
+          "placeholder": "Search...",
+          "filterButton": true
+        },
+        "categoryTabs": ["All Course", "UX Design", "UI Design", "3D Anima"],
+        "favoriteCourses": [
+          {
+            "date": "May 12, 2023",
+            "courses": [
+              {
+                "title": "Expert Wireframing for Mobile Design",
+                "category": "Graphic Design",
+                "instructor": "Jerremy Mamika",
+                "price": "$48",
+                "image": true,
+                "favoriteButton": true
+              },
+              {
+                "title": "Bootstrapping Principles",
+                "category": "Development",
+                "instructor": "Alexander Be",
+                "image": true
+              }
+            ]
+          },
+          {
+            "date": "May 08, 2023",
+            "courses": [
+              {
+                "title": "Expert Wireframing for Mobile Design",
+                "category": "Graphic Design",
+                "instructor": "Jerremy Mamika",
+                "price": "$48",
+                "image": true,
+                "favoriteButton": true
+              }
+            ]
+          }
+        ],
+        "bottomNav": ["Home", "Statistic", "Favorites", "Profile"]
+      }
+    },
+    {
+      "id": "Notifications",
+      "name": "Notifications Screen",
+      "type": "List",
+      "props": {
+        "header": {
+          "title": "Notification",
+          "backButton": true,
+          "settingsButton": true
+        },
+        "notificationList": [
+          {
+            "type": "Purchase",
+            "title": "Purchase Completed!",
+            "description": "You already bought a class from Jerremy Mamika. Enjoy the class! 👋",
+            "time": "2 m ago"
+          },
+          {
+            "type": "Message",
+            "title": "Jerremy Send You a Message",
+            "description": "Hi Magdalena, I've seen your challenge...",
+            "action": "Reply the message",
+            "time": "2 m ago"
+          },
+          {
+            "type": "Promotion",
+            "title": "Ramadhan Flash Sale!",
+            "description": "Get 20% discount for first transaction in this month!😍😍",
+            "time": "2 m ago"
+          },
+          {
+            "type": "Achievement",
+            "title": "Challange Completed",
+            "description": "Congratulation! you have completed course by Jerremy Mamika",
+            "time": "10 m ago"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Statistics",
+      "name": "Statistics Screen",
+      "type": "Dashboard",
+      "props": {
+        "header": {
+          "title": "Statistic",
+          "notificationButton": true
+        },
+        "learningProgress": {
+          "title": "Learning Progress",
+          "timeFrame": "Weekly",
+          "chart": {
+            "type": "Bar",
+            "data": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
+          }
+        },
+        "courseProgress": {
+          "title": "Course Progress (4)",
+          "courses": [
+            {
+              "title": "Bootstrapping Fundamental Principles",
+              "category": "Programing",
+              "rating": 4.7,
+              "reviewCount": 1242,
+              "progress": 74,
+              "image": true
+            },
+            {
+              "title": "User interface for beginners",
+              "category": "Interface Design",
+              "image": true
+            }
+          ]
+        },
+        "bottomNav": ["Home", "Statistic", "Favorites", "Profile"]
+      }
+    }
+  ],
+  "E": [
+    {
+      "id": "Discover->CourseDetail",
+      "from": "Discover",
+      "to": "CourseDetail",
+      "conditions": "User taps on a course",
+      "actions": "Navigate to Course Detail screen"
+    },
+    {
+      "id": "Discover->Notifications",
+      "from": "Discover",
+      "to": "Notifications",
+      "conditions": "User taps notification button",
+      "actions": "Navigate to Notifications screen"
+    },
+    {
+      "id": "Discover->Favorites",
+      "from": "Discover",
+      "to": "Favorites",
+      "conditions": "User taps Favorites in bottom nav",
+      "actions": "Navigate to Favorites screen"
+    },
+    {
+      "id": "Discover->Statistics",
+      "from": "Discover",
+      "to": "Statistics",
+      "conditions": "User taps Statistic in bottom nav",
+      "actions": "Navigate to Statistics screen"
+    },
+    {
+      "id": "Favorites->CourseDetail",
+      "from": "Favorites",
+      "to": "CourseDetail",
+      "conditions": "User taps on a favorite course",
+      "actions": "Navigate to Course Detail screen"
+    },
+    {
+      "id": "Favorites->Notifications",
+      "from": "Favorites",
+      "to": "Notifications",
+      "conditions": "User taps notification button",
+      "actions": "Navigate to Notifications screen"
+    }
+     ]
+}

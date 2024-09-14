@@ -1,0 +1,242 @@
+{
+    "N": [
+      {
+        "id": "DiseaseDetail",
+        "name": "疾病详情页",
+        "type": "detail",
+        "props": {
+          "layout": "vertical",
+          "sections": ["简介", "症状", "病因", "诊断", "治疗", "生活"],
+          "headerInfo": {
+            "title": "口腔溃疡",
+            "department": "口腔科",
+            "experts": [
+              {
+                "name": "苗冬青",
+                "title": "词条作者",
+                "hospital": "东海县人民医院口腔科"
+              },
+              {
+                "name": "李恒",
+                "title": "审核专家",
+                "hospital": "复旦大学附属口腔医院"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "Home",
+        "name": "首页",
+        "type": "dashboard",
+        "props": {
+          "layout": "vertical",
+          "quickAccess": ["每日辟谣", "免费导诊", "痔疮", "甲状腺结节", "寻麻疹", "痛风"],
+          "features": [
+            {
+              "id": "askDoctor",
+              "name": "问医生",
+              "description": "全国三甲医生"
+            },
+            {
+              "id": "checkDisease",
+              "name": "查疾病",
+              "description": "权威疾病百科"
+            },
+            {
+              "id": "checkMedicine",
+              "name": "查药品",
+              "description": "7万药品说明书"
+            }
+          ],
+          "freeConsultation": {
+            "title": "免费导诊",
+            "description": "描述问题，精准推荐医生",
+            "isOnline": true,
+            "onlineTime": "24小时在线"
+          },
+          "videoConsultation": {
+            "title": "视频问诊",
+            "description": "面对面更安心"
+          },
+          "newUserConsultation": {
+            "title": "新人义诊",
+            "price": "9.9元起问医生"
+          },
+          "departments": ["皮肤科", "儿科", "妇产科", "消化内科", "更多科室"]
+        }
+      },
+      {
+        "id": "Profile",
+        "name": "个人主页",
+        "type": "profile",
+        "props": {
+          "layout": "vertical",
+          "userInfo": {
+            "avatar": "default",
+            "stats": [
+              {"name": "收藏", "value": 0},
+              {"name": "关注", "value": 0},
+              {"name": "医生卡", "value": 0},
+              {"name": "优惠券", "value": 0}
+            ]
+          },
+          "orders": [
+            {"name": "我的问诊", "icon": "chat"},
+            {"name": "我的处方", "icon": "prescription"},
+            {"name": "药品订单", "icon": "medicine"}
+          ],
+          "additionalFeatures": [
+            {"name": "患者信息", "icon": "user"},
+            {"name": "医师讲堂", "icon": "video"},
+            {"name": "成长测评", "icon": "chart"},
+            {"name": "设置", "icon": "settings"},
+            {"name": "在线客服", "icon": "headset"}
+          ]
+        }
+      },
+      {
+        "id": "Search",
+        "name": "搜索页",
+        "type": "search",
+        "props": {
+          "layout": "vertical",
+          "searchBar": {
+            "placeholder": "搜索"
+          },
+          "recommendations": [
+            {
+              "title": "免费导诊",
+              "description": "为你量身推荐专家",
+              "icon": "clipboard",
+              "color": "green"
+            },
+            {
+              "title": "新人问医生 9.9 元起",
+              "description": "立即咨询",
+              "icon": "doctor-bag",
+              "color": "orange"
+            },
+            {
+              "title": "直播课件",
+              "description": "直播内容文字版 持续更新",
+              "icon": "live",
+              "color": "blue"
+            },
+            {
+              "title": "视频问医生",
+              "description": "面对面问诊 更安心",
+              "icon": "video-chat",
+              "color": "orange"
+            }
+          ],
+          "hotSearches": ["痔疮", "湿疹", "甲状腺结节", "寻麻疹", "痛风", "前列腺炎"]
+        }
+      },
+      {
+        "id": "SearchMedicineDisease",
+        "name": "查疾病药品页",
+        "type": "encyclopedia",
+        "props": {
+          "layout": "vertical",
+          "searchBar": {
+            "placeholder": "搜一搜：疾病/症状/药品/健康问题"
+          },
+          "hotTopics": [
+            {
+              "title": "登革热防范手册",
+              "description": "蚊虫叮咬传播，注意预防",
+              "icon": "mosquito"
+            },
+            {
+              "title": "了解左氧氟沙星",
+              "description": "使用抗生素，务必遵医嘱",
+              "icon": "lungs"
+            },
+            {
+              "title": "流感应对手册",
+              "description": "流感高发，助你科学应对",
+              "icon": "shield"
+            },
+            {
+              "title": "了解司美格鲁肽",
+              "description": "合理用药，健康科学减肥",
+              "icon": "weight-scale"
+            }
+          ],
+          "diseaseCategories": [
+            {"name": "痔疮", "icon": "hemorrhoids"},
+            {"name": "湿疹", "icon": "rash"},
+            {"name": "带状疱疹", "icon": "shingles"},
+            {"name": "口腔溃疡", "icon": "mouth"},
+            {"name": "足癣", "icon": "foot"},
+            {"name": "高血压", "icon": "heart"},
+            {"name": "糖尿病", "icon": "diabetes"},
+            {"name": "甲状腺结节", "icon": "thyroid"}
+          ],
+          "medicineCategories": [
+            {"name": "奥司他韦", "tag": "HOT"},
+            {"name": "布洛芬混悬液"}
+          ]
+        }
+      }
+    ],
+    "E": [
+      {
+        "id": "Home->Search",
+        "from": "Home",
+        "to": "Search",
+        "conditions": "userTapsSearchBar == true",
+        "actions": "openSearchPage(), setSearchFocus()"
+      },
+      {
+        "id": "Search->Home",
+        "from": "Search",
+        "to": "Home",
+        "conditions": "userTapsBackButton == true",
+        "actions": "closeSearchPage(), refreshHomeContent()"
+      },
+      {
+        "id": "Home->Profile",
+        "from": "Home",
+        "to": "Profile",
+        "conditions": "userTapsProfileTab == true",
+        "actions": "loadUserProfile(), updateBottomNavSelection('我的')"
+      },
+      {
+        "id": "Profile->Home",
+        "from": "Profile",
+        "to": "Home",
+        "conditions": "userTapsHomeTab == true",
+        "actions": "loadHomeContent(), updateBottomNavSelection('首页')"
+      },
+      {
+        "id": "Home->SearchMedicineDisease",
+        "from": "Home",
+        "to": "SearchMedicineDisease",
+        "conditions": "userTapsCheckDiseaseOrMedicine == true",
+        "actions": "loadSearchMedicineDiseaseContent(), updateCurrentView('查病查药')"
+      },
+      {
+        "id": "SearchMedicineDisease->Home",
+        "from": "SearchMedicineDisease",
+        "to": "Home",
+        "conditions": "userTapsHomeTab == true",
+        "actions": "loadHomeContent(), updateBottomNavSelection('首页')"
+      },
+      {
+        "id": "SearchMedicineDisease->DiseaseDetail",
+        "from": "SearchMedicineDisease",
+        "to": "DiseaseDetail",
+        "conditions": "userSelectsDisease == true",
+        "actions": "loadDiseaseDetails(selectedDisease), updateBreadcrumb()"
+      },
+      {
+        "id": "DiseaseDetail->SearchMedicineDisease",
+        "from": "DiseaseDetail",
+        "to": "SearchMedicineDisease",
+        "conditions": "userTapsBackButton == true",
+        "actions": "returnToSearchMedicineDisease(), clearDiseaseDetails()"
+      }
+    ]
+  }

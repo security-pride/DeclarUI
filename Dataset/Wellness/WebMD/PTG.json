@@ -1,0 +1,210 @@
+{
+        "N": [
+          {
+            "id": "Home",
+            "name": "主页",
+            "type": "dashboard",
+            "props": {
+              "searchBar": {
+                "placeholder": "Search drugs, conditions, news..."
+              },
+              "features": [
+                {"name": "Symptom Checker", "icon": "target"},
+                {"name": "Med Reminders", "icon": "pill-clock"},
+                {"name": "Prescription Discounts", "icon": "rx"},
+                {"name": "Drug Interactions", "icon": "molecule"},
+                {"name": "Pill Identifier", "icon": "magnifying-glass-pill"},
+                {"name": "Track Symptoms", "icon": "chart-line"}
+              ],
+              "adBanners": [
+                {
+                  "title": "WebMDRx",
+                  "description": "Save up to 80% on prescriptions",
+                  "actionButton": "Compare prices"
+                }
+              ],
+              "topNews": [
+                {
+                  "title": "The Summer COVID Wave Is Spreading",
+                  "description": "The summertime spread of COVID-19 is nowhere near ending, according to newly published"
+                }
+              ],
+              "bottomNavBar": {
+                "items": [
+                  {"name": "Home", "icon": "home", "isActive": true},
+                  {"name": "Doctor Finder", "icon": "stethoscope"},
+                  {"name": "Profile", "icon": "user"}
+                ]
+              }
+            }
+          },
+          {
+            "id": "IdentifyResult",
+            "name": "药品识别结果页",
+            "type": "list",
+            "props": {
+              "title": "Search Results",
+              "results": [
+                {
+                  "name": "Abilify",
+                  "description": "This medicine is a pink, round, tablet imprinted with \"A-011 30\".",
+                  "image": "abilify_pink_pill.jpg"
+                },
+                {
+                  "name": "Abilify",
+                  "description": "This medicine is a white, round, tablet imprinted with \"A-010 20\".",
+                  "image": "abilify_white_pill.jpg"
+                },
+                {
+                  "name": "Abilify",
+                  "description": "This medicine is a yellow, round, tablet imprinted with \"A-009 15\".",
+                  "image": "abilify_yellow_pill.jpg"
+                },
+                {
+                  "name": "acamprosate CALCIUM",
+                  "description": "This medicine is a white, round, enteric-coated, tablet imprinted with \"435\".",
+                  "image": "acamprosate_435_pill.jpg"
+                }
+              ]
+            }
+          },
+          {
+            "id": "PillIdentifier",
+            "name": "药品识别页",
+            "type": "form",
+            "props": {
+              "title": "Pill Identifier",
+              "searchBar": {
+                "placeholder": "Text or imprint on pill"
+              },
+              "shapeSelector": {
+                "title": "Shape",
+                "options": ["Round", "Oblong", "3 Sided", "Square", "Rectangle", "Diamond", "5 Sided", "6 Sided", "7 Sided", "8 Sided", "Other"]
+              },
+              "colorSelector": {
+                "title": "Color"
+              },
+              "submitButton": {
+                "text": "View Results"
+              }
+            }
+          },
+          {
+            "id": "Reminder",
+            "name": "用药提醒编辑页",
+            "type": "form",
+            "props": {
+              "title": "Edit Reminder",
+              "medicationInfo": {
+                "name": "Abilify",
+                "icon": "pill_icon.png"
+              },
+              "fields": [
+                {
+                  "name": "Dosage",
+                  "type": "select",
+                  "placeholder": "Select Dosage"
+                },
+                {
+                  "name": "Time",
+                  "type": "time",
+                  "value": "00:27"
+                },
+                {
+                  "name": "Add Another Time",
+                  "type": "time",
+                  "placeholder": "Enter Time"
+                }
+              ],
+              "submitButton": {
+                "text": "Done"
+              }
+            }
+          },
+          {
+            "id": "ResultDetail",
+            "name": "药品详情页",
+            "type": "detail",
+            "props": {
+              "title": "Abilify",
+              "tabs": ["Uses", "Side Effects", "Precautions"],
+              "image": "abilify_blue_pills.jpg",
+              "genericName": "aripiprazole",
+              "brandNames": ["Abilify"],
+              "rating": {
+                "score": 3,
+                "reviewCount": 1888
+              },
+              "description": "This medication is used to treat certain mental/mood disorders (such as bipolar disorder, schizophrenia, Tourette's syndrome, and irritability associated with autistic disorder). It may also be used in combination with other medication to treat depression. Aripiprazole belongs to a class of drugs known as atypical antipsychotics. It works by helping to restore the balance of certain natural substances in the brain.",
+              "actions": [
+                {
+                  "text": "Add Med Reminder",
+                  "type": "primary"
+                },
+                {
+                  "text": "Search Drug Prices",
+                  "type": "secondary"
+                }
+              ]
+            }
+          }
+        ],
+    "E": [
+      {
+        "id": "Home->PillIdentifier",
+        "from": "Home",
+        "to": "PillIdentifier",
+        "conditions": "userTapsPillIdentifier == true",
+        "actions": "openPillIdentifierPage()"
+      },
+      {
+        "id": "PillIdentifier->Home",
+        "from": "PillIdentifier",
+        "to": "Home",
+        "conditions": "userTapsBackButton == true",
+        "actions": "returnToHomePage()"
+      },
+      {
+        "id": "PillIdentifier->IdentifyResult",
+        "from": "PillIdentifier",
+        "to": "IdentifyResult",
+        "conditions": "userSubmitsPillInfo == true",
+        "actions": "searchPillDatabase(pillInfo), displayResults()"
+      },
+      {
+        "id": "IdentifyResult->PillIdentifier",
+        "from": "IdentifyResult",
+        "to": "PillIdentifier",
+        "conditions": "userTapsBackButton == true",
+        "actions": "clearSearchResults(), returnToPillIdentifierPage()"
+      },
+      {
+        "id": "IdentifyResult->ResultDetail",
+        "from": "IdentifyResult",
+        "to": "ResultDetail",
+        "conditions": "userSelectsPillResult == true",
+        "actions": "loadPillDetails(selectedPillId)"
+      },
+      {
+        "id": "ResultDetail->IdentifyResult",
+        "from": "ResultDetail",
+        "to": "IdentifyResult",
+        "conditions": "userTapsBackButton == true",
+        "actions": "returnToSearchResults()"
+      },
+      {
+        "id": "ResultDetail->Reminder",
+        "from": "ResultDetail",
+        "to": "Reminder",
+        "conditions": "userTapsAddMedReminder == true",
+        "actions": "openReminderPage(selectedPillId)"
+      },
+      {
+        "id": "Reminder->ResultDetail",
+        "from": "Reminder",
+        "to": "ResultDetail",
+        "conditions": "userSavesReminder == true || userCancelsReminder == true",
+        "actions": "saveReminder(), returnToPillDetails()"
+      }
+    ]
+  }

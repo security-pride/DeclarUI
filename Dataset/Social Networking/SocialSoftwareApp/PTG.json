@@ -1,0 +1,196 @@
+{
+  "N": [
+    {
+      "id": "Chats",
+      "name": "Chats List",
+      "type": "List",
+      "props": {
+        "header": {
+          "title": "Chats",
+          "profilePicture": true,
+          "cameraButton": true,
+          "newMessageButton": true
+        },
+        "searchBar": true,
+        "stories": [
+          {"name": "Your story", "add": true},
+          {"name": "Joshua", "active": true},
+          {"name": "Martin", "active": true},
+          {"name": "Karen", "active": true},
+          {"name": "Martha", "active": true}
+        ],
+        "chatList": [
+          {"name": "Martin Randolph", "lastMessage": "You: What's man!", "time": "9:40 AM"},
+          {"name": "Andrew Parker", "lastMessage": "You: Ok, thanks!", "time": "9:25 AM", "read": true},
+          {"name": "Karen Castillo", "lastMessage": "You: Ok, See you in To...", "time": "Fri", "read": true},
+          {"name": "Maisy Humphrey", "lastMessage": "Have a good day, Maisy!", "time": "Fri", "read": true},
+          {"name": "Joshua Lawrence", "lastMessage": "The business plan loo...", "time": "Thu", "read": true}
+        ],
+        "ad": {
+          "name": "Pixsellz",
+          "message": "Make design process easier...",
+          "action": "View More"
+        },
+        "bottomNav": ["Chats", "People", "Discover"]
+      }
+    },
+    {
+      "id": "Intro",
+      "name": "Individual Chat",
+      "type": "Conversation",
+      "props": {
+        "header": {
+          "backButton": true,
+          "name": "Martha Craig",
+          "subtitle": "Messenger",
+          "audioCallButton": true,
+          "videoCallButton": true
+        },
+        "messages": [
+          {"type": "system", "content": "You're friends on Facebook"},
+          {"type": "system", "content": "Say hi to your new Facebook friend, Martha."},
+          {"type": "received", "content": "👋", "time": "21:32"},
+          {"type": "sent", "content": "Hello, Jacob!", "time": "16:44"},
+          {"type": "received", "content": "How are you doing?", "time": "16:44"}
+        ],
+        "inputBar": {
+          "attachmentButton": true,
+          "cameraButton": true,
+          "microphoneButton": true,
+          "textInput": true,
+          "emojiButton": true,
+          "likeButton": true
+        }
+      }
+    },
+    {
+      "id": "NewMessage",
+      "name": "New Message",
+      "type": "Contacts",
+      "props": {
+        "header": {
+          "cancelButton": true,
+          "title": "New message"
+        },
+        "toField": true,
+        "createGroupOption": true,
+        "contactList": [
+          {"name": "Martha Craig"},
+          {"name": "Kieron Dotson"},
+          {"name": "Zack John"},
+          {"name": "Jamie Franco"},
+          {"name": "Tabitha Potter"}
+        ],
+        "keyboard": true
+      }
+    },
+    {
+      "id": "People",
+      "name": "People",
+      "type": "List",
+      "props": {
+        "header": {
+          "title": "People",
+          "newMessageButton": true,
+          "addPersonButton": true
+        },
+        "searchBar": true,
+        "addStoryOption": {
+          "text": "Your story",
+          "subtext": "Add to your story"
+        },
+        "activeList": [
+          {"name": "Martha Craig", "active": true},
+          {"name": "Kieron Dotson", "lastActive": "8 min"},
+          {"name": "Zack John", "lastActive": "10 min"},
+          {"name": "Jamie Franco", "active": true},
+          {"name": "Tabitha Potter", "lastActive": "19 min"}
+        ],
+        "recentlyActiveSection": {
+          "title": "RECENTLY ACTIVE",
+          "items": [
+            {"name": "Albert Lasker", "lastActive": "39 min"}
+          ]
+        },
+        "bottomNav": ["Chats", "People", "Discover"]
+      }
+    },
+    {
+      "id": "Profile",
+      "name": "Chat Settings",
+      "type": "Settings",
+      "props": {
+        "header": {
+          "backButton": true,
+          "profilePicture": true,
+          "name": "Martha Craig",
+          "subtitle": "Messenger"
+        },
+        "actions": [
+          {"icon": "phone", "label": "Audio"},
+          {"icon": "video", "label": "Video"},
+          {"icon": "profile", "label": "Profile"},
+          {"icon": "bell", "label": "Mute"}
+        ],
+        "settings": [
+          {"label": "Color", "type": "toggle", "value": true},
+          {"label": "Emoji", "type": "option"},
+          {"label": "Nicknames", "type": "option"}
+        ],
+        "moreActions": [
+          {"label": "Search in Conversation", "icon": "search"},
+          {"label": "Create group", "icon": "group"}
+        ],
+        "privacySettings": [
+          {"label": "Notifications", "value": "On", "type": "option"},
+          {"label": "Ignore Messages", "icon": "ignore"},
+          {"label": "Block", "icon": "block"}
+        ]
+      }
+    }
+  ],
+  "E": [
+    {
+      "id": "Chats->Intro",
+      "from": "Chats",
+      "to": "Intro",
+      "conditions": "User taps on a chat thread",
+      "actions": "Open individual chat screen"
+    },
+    {
+      "id": "Chats->NewMessage",
+      "from": "Chats",
+      "to": "NewMessage",
+      "conditions": "User Click the edit button at the top",
+      "actions": "Open new message screen"
+    },
+    {
+      "id": "Chats->People",
+      "from": "Chats",
+      "to": "People",
+      "conditions": "User taps People in bottom navigation",
+      "actions": "Switch to People screen"
+    },
+    {
+      "id": "Intro->Profile",
+      "from": "Intro",
+      "to": "Profile",
+      "conditions": "User taps on chat header",
+      "actions": "Open chat settings screen"
+    },
+    {
+      "id": "People->Chats",
+      "from": "People",
+      "to": "Chats",
+      "conditions": "User taps on a hello button",
+      "actions": "Open individual chat screen"
+    },
+    {
+      "id": "People->Intro",
+      "from": "People",
+      "to": "Intro",
+      "conditions": "User taps on a person",
+      "actions": "Open individual chat screen"
+    }
+  ]
+}

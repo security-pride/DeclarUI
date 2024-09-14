@@ -1,0 +1,267 @@
+{
+  "N": [
+    {
+      "id": "Connections",
+      "name": "Connections Screen",
+      "type": "List",
+      "props": {
+        "header": {
+          "title": "Connections",
+          "backButton": true
+        },
+        "sections": [
+          {
+            "title": "From Computer",
+            "items": [
+              {
+                "icon": "computer",
+                "text": "Connect computer via address bar"
+              }
+            ]
+          },
+          {
+            "title": "Import from cloud storage",
+            "items": [
+              {
+                "icon": "dropbox",
+                "text": "Dropbox"
+              },
+              {
+                "icon": "google-drive",
+                "text": "Google Drive"
+              }
+            ]
+          },
+          {
+            "title": "Add Connection",
+            "items": [
+              {
+                "icon": "box",
+                "text": "Box"
+              },
+              {
+                "icon": "onedrive",
+                "text": "OneDrive"
+              },
+              {
+                "icon": "ftp",
+                "text": "FTP Server"
+              },
+              {
+                "icon": "sftp",
+                "text": "SFTP Server"
+              },
+              {
+                "icon": "windows",
+                "text": "Windows SMB"
+              }
+            ]
+          }
+        ],
+        "bottomNav": ["home", "recent", "add", "wifi", "stats"]
+      }
+    },
+    {
+      "id": "ConnectToComputer",
+      "name": "Connect to Computer Screen",
+      "type": "Loading",
+      "props": {
+        "header": {
+          "title": "Connect to Computer",
+          "backButton": true
+        },
+        "loadingIndicator": {
+          "type": "circular",
+          "text": "Waiting..."
+        },
+        "instructions": "Open your computer browser and enter below",
+        "address": "http://john-312-ru"
+      }
+    },
+    {
+      "id": "HomeGrid",
+      "name": "Home Screen (Grid View)",
+      "type": "Grid",
+      "props": {
+        "header": {
+          "title": "Home",
+          "settingsButton": true,
+          "viewToggle": ["grid", "list", "name"],
+          "searchButton": true
+        },
+        "items": [
+          {
+            "icon": "folder-red",
+            "text": "Photos & videos",
+            "count": "3471 items"
+          },
+          {
+            "icon": "play-blue",
+            "text": "Favourite videos",
+            "count": "13 items"
+          },
+          {
+            "icon": "itunes",
+            "text": "iTunes",
+            "count": "27 items"
+          },
+          {
+            "icon": "folder-black",
+            "text": "Recently deleted",
+            "count": "13 items"
+          },
+          {
+            "icon": "image",
+            "text": "Plant photoshoot",
+            "date": "25.Feb 2020"
+          }
+        ],
+        "bottomNav": ["home", "recent", "add", "wifi", "stats"]
+      }
+    },
+    {
+      "id": "HomeList",
+      "name": "Home Screen (List View)",
+      "type": "List",
+      "props": {
+        "header": {
+          "title": "Home",
+          "settingsButton": true,
+          "viewToggle": ["grid", "list", "name"],
+          "searchButton": true
+        },
+        "items": [
+          {
+            "icon": "folder-red",
+            "text": "Photos & video",
+            "count": "3471 items"
+          },
+          {
+            "icon": "play-blue",
+            "text": "Recent videos",
+            "count": "13 items"
+          },
+          {
+            "icon": "itunes",
+            "text": "iTunes",
+            "count": "27 items"
+          },
+          {
+            "icon": "folder-black",
+            "text": "Recently deleted",
+            "count": "13 items"
+          },
+          {
+            "icon": "album-cover",
+            "text": "The Chainsmoker Closer",
+            "date": "28.Feb 2020"
+          },
+          {
+            "icon": "plant-image",
+            "text": "Plant photoshoot",
+            "date": "25.Feb 2020"
+          },
+          {
+            "icon": "text",
+            "text": "Quotes",
+            "date": "25.Feb 2020"
+          },
+          {
+            "icon": "pdf",
+            "text": "Business management",
+            "date": "25.Feb 2020"
+          }
+        ],
+        "bottomNav": ["home", "recent", "add", "wifi", "stats"]
+      }
+    },
+    {
+      "id": "Recents",
+      "name": "Recents Screen",
+      "type": "Grid",
+      "props": {
+        "header": {
+          "title": "Recents",
+          "viewToggle": ["list", "select"]
+        },
+        "items": [
+          {
+            "type": "image",
+            "src": "flamingo.jpg",
+            "text": "Ricardo",
+            "date": "15.Feb 2020"
+          },
+          {
+            "type": "video",
+            "src": "sand-pot.mp4",
+            "text": "Sand pot",
+            "date": "25.Feb 2020"
+          },
+          {
+            "type": "image",
+            "src": "dog-beach.jpg",
+            "text": "Subramani",
+            "date": "15.Feb 2020"
+          },
+          {
+            "type": "image",
+            "src": "dragonfly.jpg",
+            "text": "Ricardo",
+            "date": "15.Feb 2020"
+          },
+          {
+            "type": "image",
+            "src": "woman-cafe.jpg",
+            "text": "Unknown",
+            "date": "Unknown"
+          }
+        ],
+        "bottomNav": ["home", "recent", "add", "wifi", "stats"]
+      }
+    }
+  ],
+  "E": [
+    {
+      "id": "Connections->ConnectToComputer",
+      "from": "Connections",
+      "to": "ConnectToComputer",
+      "conditions": "User taps 'Connect computer via address bar'",
+      "actions": "Navigate to Connect to Computer screen"
+    },
+    {
+      "id": "any->Connections",
+      "from": "*",
+      "to": "Connections",
+      "conditions": "User taps WiFi icon in bottom nav",
+      "actions": "Navigate to Connections screen"
+    },
+    {
+      "id": "any->HomeGrid",
+      "from": "*",
+      "to": "HomeGrid",
+      "conditions": "User taps Home icon in bottom nav",
+      "actions": "Navigate to Home screen (Grid View)"
+    },
+    {
+      "id": "HomeGrid->HomeList",
+      "from": "HomeGrid",
+      "to": "HomeList",
+      "conditions": "User toggles to List view",
+      "actions": "Switch to List View of Home screen"
+    },
+    {
+      "id": "HomeList->HomeGrid",
+      "from": "HomeList",
+      "to": "HomeGrid",
+      "conditions": "User toggles to Grid view",
+      "actions": "Switch to Grid View of Home screen"
+    },
+    {
+      "id": "any->Recents",
+      "from": "*",
+      "to": "Recents",
+      "conditions": "User taps Recent icon in bottom nav",
+      "actions": "Navigate to Recents screen"
+    }
+  ]
+}

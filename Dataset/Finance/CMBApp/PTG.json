@@ -1,0 +1,191 @@
+{
+    "N": [
+      {
+        "id": "CreditCard",
+        "name": "信用卡页面",
+        "type": "detail",
+        "props": {
+          "accountType": "个人消费账户",
+          "balance": "¥0.00",
+          "nextBillingDate": "8月14日(27天后)出账",
+          "availableCredit": "¥0.00",
+          "repaymentOptions": ["分期还款", "还款"],
+          "quickActions": ["卡片管家", "我的积分", "绑卡支付", "推荐有礼", "i车一族"],
+          "loanOptions": ["预借现金", "专享消费额度"],
+          "borrowMoney": {
+            "items": ["预借现金", "专享消费额度", "e招贷"]
+          }
+        }
+      },
+      {
+        "id": "CustomService",
+        "name": "客服页面",
+        "type": "service",
+        "props": {
+          "avatar": "小招头像",
+          "greeting": "您好，我是小招",
+          "quickActions": [
+            "卡号查询", "支出限额查询", "查询余额", "查找网点",
+            "转账限额", "开户行查询", "证件更新", "我要表扬", "咨询与投诉"
+          ],
+          "commonQuestions": {
+            "categories": ["贷款", "账户管理", "理财", "信用卡"],
+            "hotTopics": ["闪电贷介绍", "助学贷款怎么续贷", "装修贷款介绍", "手机银行如何申请闪电贷", "车贷查询"]
+          }
+        }
+      },
+      {
+        "id": "Home",
+        "name": "首页",
+        "type": "home",
+        "props": {
+          "search": "信用卡全家福",
+          "quickActions": ["朝朝宝", "借钱", "转账", "账户总览"],
+          "services": [
+            "信用卡", "收支明细", "他行卡转入", "城市服务", "热门活动",
+            "养老金融", "M+会员", "外汇购汇", "银行卡", "全部"
+          ],
+          "notifications": ["小招有财: 您有一份2元现金红包待领取"],
+          "financialProducts": [
+            {
+              "name": "T+1到账",
+              "type": "日添利1号A",
+              "annualizedReturn": "2.92%",
+              "period": "7日年化"
+            },
+            {
+              "name": "每季可赎",
+              "type": "季季宝",
+              "annualizedReturn": "3.25%",
+              "period": "成立以来年化"
+            }
+          ],
+          "bottomNavBar": {
+            "items": ["首页", "一周回顾", "财富", "生活", "我的"]
+          }
+        }
+      },
+      {
+        "id": "Repayment",
+        "name": "还款页面",
+        "type": "payment",
+        "props": {
+          "accountType": "个人消费账户",
+          "repaymentStatus": "无需还款",
+          "nextBillingDate": "8月14日(27天后)出账",
+          "repaymentAmount": "请输入金额",
+          "repaymentButton": "立即还款",
+          "additionalOptions": ["还款说明", "填写推荐人"],
+          "addCardOption": "添加他人/他行卡"
+        }
+      },
+      {
+        "id": "SearchBranch",
+        "name": "网点搜索页面",
+        "type": "search",
+        "props": {
+          "searchBar": "请输入网点名称、区划或街道搜索",
+          "location": "烟台",
+          "dateSelector": ["今天", "明天", "周六", "周日", "周一", "周二", "周三"],
+          "currentDate": "07-18",
+          "branchList": [
+            {
+              "name": "烟台滨海支行",
+              "address": "烟台市芝罘区滨海景区47号",
+              "distance": "685m",
+              "status": "今日营业"
+            },
+            {
+              "name": "烟台南大街支行",
+              "address": "烟台市芝罘区南大街303号国贸大厦1楼",
+              "distance": "864m",
+              "status": "今日营业"
+            },
+            {
+              "name": "烟台海港路支行",
+              "address": "烟台市芝罘区海港路25-4（阳光10...",
+              "distance": "2.63km",
+              "status": "今日营业"
+            },
+            {
+              "name": "烟台幸福路支行",
+              "address": "烟台市芝罘区幸福路46-1号",
+              "distance": "6.00km",
+              "status": "今日营业"
+            },
+            {
+              "name": "烟台莱山支行",
+              "address": "山东省烟台市莱山区迎春大街133号",
+              "distance": "8.01km",
+              "status": "今日营业"
+            }
+          ]
+        }
+      }
+    ],
+    "E": [
+      {
+        "id": "Home->CreditCard",
+        "from": "Home",
+        "to": "CreditCard",
+        "conditions": "userTapsCreditCardOption",
+        "actions": "loadCreditCardDetails"
+      },
+      {
+        "id": "CreditCard->Home",
+        "from": "CreditCard",
+        "to": "Home",
+        "conditions": "userTapsHomeTab",
+        "actions": "loadHomePage"
+      },
+      {
+        "id": "Home->CustomService",
+        "from": "Home",
+        "to": "CustomService",
+        "conditions": "userTapsEarphoneIcon",
+        "actions": "loadCustomerServicePage"
+      },
+      {
+        "id": "CustomService->Home",
+        "from": "CustomService",
+        "to": "Home",
+        "conditions": "userTapsBackButton",
+        "actions": "returnToHomePage"
+      },
+      {
+        "id": "CreditCard->Repayment",
+        "from": "CreditCard",
+        "to": "Repayment",
+        "conditions": "userTapsRepaymentButton",
+        "actions": "loadRepaymentPage"
+      },
+      {
+        "id": "Repayment->CreditCard",
+        "from": "Repayment",
+        "to": "CreditCard",
+        "conditions": "userTapsBackButton",
+        "actions": "returnToCreditCardPage"
+      },
+      {
+        "id": "Repayment->CustomService",
+        "from": "Repayment",
+        "to": "CustomService",
+        "conditions": "userTapsEarphoneIcon",
+        "actions": "loadCustomerServicePage"
+      },
+      {
+        "id": "CustomService->SearchBranch",
+        "from": "CustomService",
+        "to": "SearchBranch",
+        "conditions": "userSelectsSearchBranchOption",
+        "actions": "loadBranchSearchPage"
+      },
+      {
+        "id": "SearchBranch->CustomService",
+        "from": "SearchBranch",
+        "to": "CustomService",
+        "conditions": "userTapsBackButton",
+        "actions": "returnToCustomerServicePage"
+      }
+    ]
+  }

@@ -1,0 +1,103 @@
+{
+  "N": [
+    {
+      "id": "Explore",
+      "name": "Explore Page",
+      "type": "list",
+      "props": {
+        "sections": ["Recommended for you", "Recent Played", "New Released", "Popular Artist", "Genres & Moods"],
+        "layout": "vertical"
+      }
+    },
+    {
+      "id": "NowPlaying",
+      "name": "Now Playing Page",
+      "type": "player",
+      "props": {
+        "layout": "vertical",
+        "controls": ["play/pause", "previous", "next", "like", "shuffle", "repeat"]
+      }
+    },
+    {
+      "id": "Playlist",
+      "name": "Playlist Page",
+      "type": "list",
+      "props": {
+        "layout": "vertical",
+        "headerInfo": ["playlist name", "genre", "total songs", "author"],
+        "listType": "numbered"
+      }
+    },
+    {
+      "id": "Search",
+      "name": "Search Page",
+      "type": "search",
+      "props": {
+        "searchBar": true,
+        "sections": ["Most Popular", "Songs", "Albums", "Artists"],
+        "layout": "vertical"
+      }
+    },
+    {
+      "id": "Trending",
+      "name": "Trending Page",
+      "type": "list",
+      "props": {
+        "filters": ["genre", "year"],
+        "sections": ["Trending Songs", "Trending Albums"],
+        "layout": "vertical"
+      }
+    }
+  ],
+  "E": [
+    {
+      "id": "Explore->NowPlaying",
+      "from": "Explore",
+      "to": "NowPlaying",
+      "conditions": "userTapsSong",
+      "actions": "playSong"
+    },
+    {
+      "id": "Explore->Search",
+      "from": "Explore",
+      "to": "Search",
+      "conditions": "userTapsSearchIcon",
+      "actions": "openSearchPage"
+    },
+    {
+      "id": "NowPlaying->Playlist",
+      "from": "NowPlaying",
+      "to": "Playlist",
+      "conditions": "userTapsPlaylistName",
+      "actions": "openPlaylist"
+    },
+    {
+      "id": "Playlist->NowPlaying",
+      "from": "Playlist",
+      "to": "NowPlaying",
+      "conditions": "userTapsSong",
+      "actions": "playSong"
+    },
+    {
+      "id": "Search->NowPlaying",
+      "from": "Search",
+      "to": "NowPlaying",
+      "conditions": "userTapsSongInSearchResults",
+      "actions": "playSong"
+    },
+    {
+      "id": "Trending->NowPlaying",
+      "from": "Trending",
+      "to": "NowPlaying",
+      "conditions": "userTapsTrendingSong",
+      "actions": "playSong"
+    },
+    {
+      "id": "Explore->Trending",
+      "from": "Explore",
+      "to": "Trending",
+      "conditions": "userTapsTrendingTab",
+      "actions": "openTrendingPage"
+    }
+  ]
+}

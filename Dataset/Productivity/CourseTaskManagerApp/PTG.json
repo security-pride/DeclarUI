@@ -1,0 +1,200 @@
+{
+  "N": [
+    {
+      "id": "Home",
+      "name": "Home Screen",
+      "type": "Dashboard",
+      "props": {
+        "header": {
+          "greeting": "Hello Liana",
+          "title": "You've got 4 tasks today",
+          "userAvatar": true
+        },
+        "courses": [
+          {"name": "Mathematics", "color": "pink"},
+          {"name": "Chemistry", "color": "orange"}
+        ],
+        "schedule": [
+          {
+            "subject": "Physics",
+            "chapter": "Chapter 3: Force",
+            "time": "09:30",
+            "instructor": "Alex Jesus",
+            "platform": "Google Meet"
+          }
+        ],
+        "bottomNav": ["Home", "Tasks", "Classroom", "Discuss"]
+      }
+    },
+    {
+      "id": "AddTask",
+      "name": "Add Task Screen",
+      "type": "Form",
+      "props": {
+        "header": {
+          "title": "Add a task",
+          "userAvatar": true
+        },
+        "categories": ["Class", "Exam", "Lab", "Assignment", "Presentation"],
+        "form": [
+          {"type": "select", "label": "Subject", "value": "Biology"},
+          {"type": "text", "label": "Topic / Chapter Name"},
+          {"type": "date", "value": "Fri 25 September, 2020"},
+          {"type": "time", "value": "09:30 AM"}
+        ],
+        "submitButton": "Add Task",
+        "bottomNav": ["Home", "Tasks", "Classroom", "Chat"]
+      }
+    },
+    {
+      "id": "Classroom",
+      "name": "Classroom Screen",
+      "type": "Detail",
+      "props": {
+        "header": {
+          "date": "Today, 17 Sept",
+          "title": "Classroom",
+          "addButton": "Add Class"
+        },
+        "class": {
+          "subject": "Physics",
+          "chapter": "Chapter 3: Force",
+          "instructor": "Alex Jesus",
+          "students": "45 enrolled"
+        },
+        "tabs": ["Description", "Discussion", "Resources"],
+        "description": "About this class\nForce: The push or pull on an object with mass that causes it to change its velocity.\n\nForce is a vector quantity capable of changing the state of rest or motion of a particular body.\nIt has a magnitude and a direction. The direction in which the force is applied is known as the direction of the force and the application of force is in a point where force is applied.",
+        "bottomNav": ["Home", "Tasks", "Classroom", "Chat"]
+      }
+    },
+    {
+      "id": "Discussion",
+      "name": "Discussion Screen",
+      "type": "Chat",
+      "props": {
+        "header": {
+          "title": "Physics",
+          "callButton": true,
+          "videoButton": true,
+          "infoButton": true
+        },
+        "messages": [
+          {
+            "user": "Maya",
+            "content": "Here are the resource files of todays' physics class",
+            "files": [
+              "Introduction to force",
+              "Work and energy"
+            ]
+          },
+          {
+            "user": "Liana",
+            "content": "Thanks a lot Maya\nIs anyone please share your class notes of this lecture."
+          },
+          {
+            "user": "Vishal",
+            "content": "I didn't write down class note of this lecture. But I have made powerpoint presentation on force, energy and work.",
+            "files": [
+              "Force, Energy & Work"
+            ]
+          }
+        ],
+        "inputField": "Type something",
+        "attachmentOptions": ["image", "camera"],
+        "bottomNav": ["Home", "Tasks", "Classroom", "Chat"]
+      }
+    },
+    {
+      "id": "Calendar",
+      "name": "Calendar Screen",
+      "type": "Calendar",
+      "props": {
+        "header": {
+          "date": "17 September",
+          "title": "Today",
+          "addButton": "Add Task"
+        },
+        "calendar": {
+          "month": "September",
+          "year": "2020",
+          "selectedDate": "17"
+        },
+        "schedule": [
+          {
+            "time": "9:30",
+            "subject": "Physics",
+            "chapter": "Chapter 3: Force",
+            "instructor": "Alex Jesus",
+            "platform": "Google Meet"
+          },
+          {
+            "time": "11:00",
+            "subject": "Geography",
+            "chapter": "Chapter 12: Soil Profile",
+            "instructor": "Jennifer Clark",
+            "platform": "Zoom"
+          },
+          {
+            "time": "12:20",
+            "subject": "Assignment",
+            "title": "World Regional Pattern",
+            "instructor": "Alexia Tenorio",
+            "platform": "Google Docs"
+          }
+        ],
+        "bottomNav": ["Home", "Tasks", "Classroom", "Discuss"]
+      }
+    }
+  ],
+  "E": [
+    {
+      "id": "Home->Calendar",
+      "from": "Home",
+      "to": "Calendar",
+      "conditions": "User taps Tasks in bottom nav",
+      "actions": "Navigate to calendar screen"
+    },
+    {
+      "id": "Home->Classroom",
+      "from": "Home",
+      "to": "Classroom",
+      "conditions": "User taps Classroom in bottom nav or selects a class from schedule",
+      "actions": "Navigate to Classroom screen"
+    },
+    {
+      "id": "Home->Discussion",
+      "from": "Home",
+      "to": "Discussion",
+      "conditions": "User taps discussion in bottom nav",
+      "actions": "Navigate to discussion screen"
+    },
+    {
+      "id": "Classroom->Discussion",
+      "from": "Classroom",
+      "to": "Discussion",
+      "conditions": "User taps Discussion tab",
+      "actions": "Navigate to Discussion screen"
+    },
+    {
+      "id": "Home->Calendar",
+      "from": "Home",
+      "to": "Calendar",
+      "conditions": "User taps tasks in bottom nav",
+      "actions": "Navigate to Calendar screen"
+    },
+    {
+      "id": "Calendar->AddTask",
+      "from": "Calendar",
+      "to": "AddTask",
+      "conditions": "User taps + Add Task in top right area",
+      "actions": "Navigate to addTask screen"
+    },
+    {
+      "id": "any->Home",
+      "from": "any",
+      "to": "Home",
+      "conditions": "User taps Home in bottom nav",
+      "actions": "Navigate to Home screen"
+    }
+  ]
+}

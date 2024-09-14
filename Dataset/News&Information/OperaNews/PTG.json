@@ -1,0 +1,116 @@
+{
+    "N":[
+     {
+        "id": "OfflineReading",
+        "name": "Offline Reading",
+        "type": "settings",
+        "props": {
+          "features": ["Automatic download on WiFi", "Download articles", "Download the latest news in 10 seconds"]
+        }
+      },
+      {
+        "id": "NewOptions",
+        "name": "News Options",
+        "type": "settings",
+        "props": {
+          "features": ["Country & Language", "My Channels", "For You", "Recommended"]
+        }
+      },
+      {
+        "id": "Home",
+        "name": "Home",
+        "type": "home",
+        "props": {
+          "features": ["For You", "Connection failed message", "Me button"]
+        }
+      },
+      {
+        "id": "Me",
+        "name": "Me",
+        "type": "profile",
+        "props": {
+          "features": ["Offline reading", "Read news without the internet", "Read it later", "Blocked users", "Country & Language", "Dark mode", "Automatic"]
+        }
+      },
+      {
+        "id": "Settings",
+        "name": "Settings",
+        "type": "settings",
+        "props": {
+          "features": ["News notification", "Message", "Reader mode", "Clear cache", "Data Saving", "Pictureless Mode", "Terms", "End-user license agreement", "Privacy statement", "Delete my data"]
+        }
+      }
+    ],
+    "E": [ 
+     {
+        "id": "Home->Me",
+        "from": "Home",
+        "to": "Me",
+        "conditions": "user_clicks_on_Me",
+        "actions": "navigate_to_Me_profile"
+      },
+      {
+        "id": "Me->Home",
+        "from": "Me",
+        "to": "Home",
+        "conditions": "user_clicks_on_Home",
+        "actions": "navigate_to_Home_page"
+      },
+     {
+        "id": "Me->OfflineReading",
+        "from": "Me",
+        "to": "OfflineReading",
+        "conditions": "user_selects_Offline_reading",
+        "actions": "navigate_to_Offline_reading_settings"
+      },
+     {
+        "id": "OfflineReading->Home",
+        "from": "OfflineReading",
+        "to": "Home",
+        "conditions": "user_clicks_on_Home",
+        "actions": "navigate_back_to_Home_page"
+      },
+      {
+        "id": "OfflineReading->Me",
+        "from": "OfflineReading",
+        "to": "Me",
+        "conditions": "user_presses_back_button",
+        "actions": "navigate_back_to_Me_profile"
+      },
+     {
+        "id": "Me->Settings",
+        "from": "Me",
+        "to": "Settings",
+        "conditions": "user_selects_Settings",
+        "actions": "navigate_to_Settings_page"
+      },
+     {
+        "id": "Settings->Me",
+        "from": "Settings",
+        "to": "Me",
+        "conditions": "user_presses_back_button",
+        "actions": "navigate_back_to_Me_profile"
+      },
+      {
+        "id": "Settings->Home",
+        "from": "Settings",
+        "to": "Home",
+        "conditions": "user_selects_Home",
+        "actions": "navigate_to_Home_page"
+      },
+     {
+        "id": "Home->NewOptions",
+        "from": "Home",
+        "to": "NewOptions",
+        "conditions": "user_clicks_on_app_logo_in_top_left_corner",
+        "actions": "navigate_to_New_Options_page"
+      },
+      {
+        "id": "NewOptions->Home",
+        "from": "NewOptions",
+        "to": "Home",
+        "conditions": "user_presses_back_button",
+        "actions": "navigate_back_to_Home_page"
+      }
+    ]
+  }

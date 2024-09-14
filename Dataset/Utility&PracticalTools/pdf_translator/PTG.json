@@ -1,0 +1,112 @@
+{
+  "N": [
+    {
+      "id": "home",
+      "name": "PDF File List",
+      "type": "list",
+      "props": {
+        "layout": "vertical",
+        "itemType": "pdfFile",
+        "showFileDetails": true,
+        "showAddButton": true
+      }
+    },
+    {
+      "id": "more",
+      "name": "File Options",
+      "type": "modal",
+      "props": {
+        "options": ["Share", "Rename", "Delete"]
+      }
+    },
+    {
+      "id": "search",
+      "name": "Search Files",
+      "type": "search",
+      "props": {
+        "placeholder": "Search your files"
+      }
+    },
+    {
+      "id": "select",
+      "name": "File Conversion",
+      "type": "modal",
+      "props": {
+        "options": ["DOC TO PDF", "IMG TO PDF"]
+      }
+    },
+    {
+      "id": "sort",
+      "name": "Sort Options",
+      "type": "modal",
+      "props": {
+        "options": [
+          "Date (new to old)",
+          "Date (old to new)",
+          "Size (large to small)",
+          "Size (small to large)",
+          "Name (from A to Z)",
+          "Name (from Z to A)"
+        ]
+      }
+    }
+  ],
+  "E": [
+    {
+      "id": "home->more",
+      "from": "home",
+      "to": "more",
+      "conditions": "userTapsFileOptionsButton",
+      "actions": "showFileOptions"
+    },
+    {
+      "id": "home->search",
+      "from": "home",
+      "to": "search",
+      "conditions": "userTapsSearchBar",
+      "actions": "activateSearchMode"
+    },
+    {
+      "id": "home->select",
+      "from": "home",
+      "to": "select",
+      "conditions": "userTapsAddButton",
+      "actions": "showConversionOptions"
+    },
+    {
+      "id": "home->sort",
+      "from": "home",
+      "to": "sort",
+      "conditions": "userTapsSortButton",
+      "actions": "showSortOptions"
+    },
+    {
+      "id": "more->home",
+      "from": "more",
+      "to": "home",
+      "conditions": "userSelectsOption",
+      "actions": "performSelectedAction"
+    },
+    {
+      "id": "search->home",
+      "from": "search",
+      "to": "home",
+      "conditions": "userFinishesSearch",
+      "actions": "updateFileList"
+    },
+    {
+      "id": "select->home",
+      "from": "select",
+      "to": "home",
+      "conditions": "userSelectsConversionOption",
+      "actions": "initiateFileConversion"
+    },
+    {
+      "id": "sort->home",
+      "from": "sort",
+      "to": "home",
+      "conditions": "userSelectsSortOption",
+      "actions": "applySortingToFileList"
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+    "N": [
+      {
+        "id": "Account",
+        "name": "Account Page",
+        "type": "account",
+        "props": {
+          "layout": "list",
+          "sections": ["Orders", "Payments", "Customer Service", "Account Settings"],
+          "orderOptions": ["Your Orders", "Your Subscribe & Save", "Your Amazon Day"],
+          "paymentOptions": ["Payments and transactions", "Manage gift card balance", "Shop with Points", "Top up account", "In-Store Promo Wallet"],
+          "customerServiceOption": "Contact Us",
+          "bottomBar": ["Home", "Profile", "Cart", "Menu"]
+        }
+      },
+      {
+        "id": "Filter",
+        "name": "Order Filter Page",
+        "type": "filter",
+        "props": {
+          "layout": "list",
+          "filterSections": [
+            {
+              "name": "FILTER BY ORDER TYPE",
+              "options": ["Orders", "Not Yet Dispatched", "Local shops", "Cancelled"]
+            },
+            {
+              "name": "FILTER BY ORDER DATE",
+              "options": ["Last 30 days", "Last 3 months", "2024", "2023", "2022", "2021"]
+            }
+          ],
+          "applyButton": true,
+          "bottomBar": ["Home", "Profile", "Cart", "Menu"]
+        }
+      },
+      {
+        "id": "Home",
+        "name": "Home Page",
+        "type": "home",
+        "props": {
+          "layout": "scroll",
+          "searchBar": true,
+          "topMenu": ["Prime", "Video", "Music"],
+          "deliveryAddress": "Deliver to Muyi - St. Andrews KY16 9",
+          "featuredSection": {
+            "title": "Shop Electronics today",
+            "image": "electronics_image"
+          },
+          "recommendedDeals": [
+            {
+              "title": "Recommended deal for you",
+              "image": "air_fryer_image"
+            },
+            {
+              "title": "4+ star deal for you",
+              "image": "dual_air_fryer_image"
+            },
+            {
+              "title": "Sports & Outdoors",
+              "image": "sports_icon"
+            }
+          ],
+          "primeDayCategories": ["Bags & Luggage", "Office", "Automotive", "Jewellery & Watches"],
+          "bottomBar": ["Home", "Profile", "Cart", "Menu"]
+        }
+      },
+      {
+        "id": "Orders",
+        "name": "Your Orders Page",
+        "type": "orderList",
+        "props": {
+          "layout": "list",
+          "searchBar": "Search all orders",
+          "filterOption": true,
+          "buyAgainSection": {
+            "title": "Buy again",
+            "items": ["Highland Spring water", "Disposable gloves", "King pot noodles", "Rice"]
+          },
+          "orderList": [
+            {
+              "title": "SmithPackaging Large Bubble Wrap Roll 300mm x 5m - Sm...",
+              "deliveryDate": "Delivered 10 June",
+              "image": "bubble_wrap_image"
+            },
+            {
+              "title": "AYhome Travel Pillow, Memory Foam Neck Pillow for Travel,...",
+              "deliveryDate": "Delivered 10 June",
+              "image": "travel_pillow_image"
+            },
+            {
+              "title": "Toyama Koshihikari 1kg",
+              "deliveryDate": "Delivered 28 May",
+              "image": "rice_image"
+            }
+          ],
+          "bottomBar": ["Home", "Profile", "Cart", "Menu"]
+        }
+      },
+      {
+        "id": "Profile",
+        "name": "Profile Page",
+        "type": "profile",
+        "props": {
+          "layout": "scroll",
+          "userGreeting": "Hello, ml296",
+          "languageSelector": "EN",
+          "quickAccess": ["Your Orders", "Buy Again", "Your Account", "Your Lists"],
+          "recentOrders": [
+            {
+              "image": "bubble_wrap_image",
+              "title": "SmithPackaging Large Bubble Wrap Roll"
+            },
+            {
+              "image": "travel_pillow_image",
+              "title": "AYhome Travel Pillow"
+            }
+          ],
+          "buyAgainSection": {
+            "title": "Buy again",
+            "items": ["Highland Spring water", "Disposable gloves", "King pot noodles", "Toyama Koshihikari rice", "Jin Ramen", "Andrex toilet paper"]
+          },
+          "bottomBar": ["Home", "Profile", "Cart", "Menu"]
+        }
+      }
+    ],
+    "E": [
+      {
+        "id": "Home->Profile",
+        "from": "Home",
+        "to": "Profile",
+        "conditions": "userTapsProfileIcon",
+        "actions": "loadUserProfile"
+      },
+      {
+        "id": "Profile->Home",
+        "from": "Profile",
+        "to": "Home",
+        "conditions": "userTapsHomeIcon",
+        "actions": "loadHomePage"
+      },
+      {
+        "id": "Profile->Orders",
+        "from": "Profile",
+        "to": "Orders",
+        "conditions": "userTapsYourOrdersButton",
+        "actions": "loadOrdersPage"
+      },
+      {
+        "id": "Orders->Profile",
+        "from": "Orders",
+        "to": "Profile",
+        "conditions": "userTapsBackButton",
+        "actions": "loadUserProfile"
+      },
+      {
+        "id": "Orders->Filter",
+        "from": "Orders",
+        "to": "Filter",
+        "conditions": "userTapsFilterButton",
+        "actions": "showFilterOptions"
+      },
+      {
+        "id": "Filter->Orders",
+        "from": "Filter",
+        "to": "Orders",
+        "conditions": "userAppliesFilter",
+        "actions": "applyFilterToOrders"
+      },
+      {
+        "id": "Profile->Account",
+        "from": "Profile",
+        "to": "Account",
+        "conditions": "userTapsYourAccountButton",
+        "actions": "loadAccountPage"
+      },
+      {
+        "id": "Account->Profile",
+        "from": "Account",
+        "to": "Profile",
+        "conditions": "userTapsBackButton",
+        "actions": "loadUserProfile"
+      },
+      {
+        "id": "Account->Orders",
+        "from": "Account",
+        "to": "Orders",
+        "conditions": "userTapsYourOrdersOption",
+        "actions": "loadOrdersPage"
+      },
+      {
+        "id": "Orders->Home",
+        "from": "Orders",
+        "to": "Home",
+        "conditions": "userTapsHomeIcon",
+        "actions": "loadHomePage"
+      },
+      {
+        "id": "Filter->Home",
+        "from": "Filter",
+        "to": "Home",
+        "conditions": "userTapsHomeIcon",
+        "actions": "loadHomePage"
+      },
+      {
+        "id": "Account->Home",
+        "from": "Account",
+        "to": "Home",
+        "conditions": "userTapsHomeIcon",
+        "actions": "loadHomePage"
+      }
+    ]
+  }

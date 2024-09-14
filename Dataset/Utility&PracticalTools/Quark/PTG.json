@@ -1,0 +1,108 @@
+{
+  "N": [
+    {
+      "id": "Select",
+      "name": "Select页面",
+      "type": "list",
+      "props": {
+        "layout": "grid",
+        "sections": ["常用", "今日新发现", "夸克宝藏功能", "全网热点实时更新"]
+      }
+    },
+    {
+      "id": "News",
+      "name": "News页面",
+      "type": "news",
+      "props": {
+        "layout": "vertical",
+        "sections": ["早报", "热搜榜"]
+      }
+    },
+    {
+      "id": "Scanner",
+      "name": "Scanner页面",
+      "type": "tool",
+      "props": {
+        "layout": "grid",
+        "features": ["万能扫描", "提取文字", "转Word", "拍照翻译"]
+      }
+    },
+    {
+      "id": "OnlineStorage",
+      "name": "OnlineStorage页面",
+      "type": "cloud_storage",
+      "props": {
+        "layout": "vertical",
+        "sections": ["文件类型", "功能区", "设备"]
+      }
+    },
+    {
+      "id": "Home",
+      "name": "QuarkHome",
+      "type": "home",
+      "props": {
+        "layout": "vertical",
+        "searchBar": true,
+        "quickAccess": ["News", "Select", "夸克学习", "Scanner", "OnlineStorage"]
+      }
+    }
+  ],
+  "E": [
+    {
+      "id": "Home->Select",
+      "from": "Home",
+      "to": "Select",
+      "conditions": "用户点击Select图标",
+      "actions": "加载Select内容"
+    },
+    {
+      "id": "Home->News",
+      "from": "Home",
+      "to": "News",
+      "conditions": "用户点击News图标",
+      "actions": "加载最新日报内容"
+    },
+    {
+      "id": "Home->Scanner",
+      "from": "Home",
+      "to": "Scanner",
+      "conditions": "用户点击Scanner图标",
+      "actions": "初始化扫描功能"
+    },
+    {
+      "id": "Home->OnlineStorage",
+      "from": "Home",
+      "to": "OnlineStorage",
+      "conditions": "用户点击OnlineStorage图标",
+      "actions": "加载用户网盘内容"
+    },
+    {
+      "id": "Select->Home",
+      "from": "Select",
+      "to": "Home",
+      "conditions": "用户点击返回按钮",
+      "actions": "返回Home"
+    },
+    {
+      "id": "News->Home",
+      "from": "News",
+      "to": "Home",
+      "conditions": "用户点击返回按钮",
+      "actions": "返回Home"
+    },
+    {
+      "id": "Scanner->Home",
+      "from": "Scanner",
+      "to": "Home",
+      "conditions": "用户点击返回按钮",
+      "actions": "返回Home"
+    },
+    {
+      "id": "OnlineStorage->Home",
+      "from": "OnlineStorage",
+      "to": "Home",
+      "conditions": "用户点击返回按钮",
+      "actions": "返回Home"
+    }
+  ]
+}

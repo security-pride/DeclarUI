@@ -1,0 +1,194 @@
+{
+  "N": [
+    {
+      "id": "AddTask",
+      "name": "Add Task Screen",
+      "type": "Form",
+      "props": {
+        "header": {
+          "title": "Add Task",
+          "backButton": true
+        },
+        "form": {
+          "fields": [
+            {"type": "text", "label": "TASK NAME"},
+            {"type": "multiSelect", "label": "TEAM MEMBER", "options": ["John", "Ranak", "Parkao", "Mahmud"]},
+            {"type": "date", "label": "DATE", "value": "May 01, 2020"},
+            {"type": "time", "label": "START TIME", "value": "10:00 AM"},
+            {"type": "time", "label": "END TIME", "value": "01:00 PM"},
+            {"type": "textarea", "label": "DESCRIPTION"},
+            {"type": "select", "label": "BOARD", "options": ["URGENT", "RUNNING", "ONGOING"]}
+          ],
+          "submitButton": "Done"
+        }
+      }
+    },
+    {
+      "id": "Board",
+      "name": "Board Screen",
+      "type": "Grid",
+      "props": {
+        "header": {
+          "title": "Board",
+          "userAvatar": true
+        },
+        "boards": [
+          {"name": "Personal", "icon": "person", "tasks": 17},
+          {"name": "Work", "icon": "briefcase", "tasks": 10},
+          {"name": "Private", "icon": "lock", "tasks": 2},
+          {"name": "Meeting", "icon": "people", "tasks": 5},
+          {"name": "Events", "icon": "calendar", "tasks": 3},
+          {"name": "Create Board", "icon": "plus"}
+        ],
+        "bottomNav": ["grid", "checkmark", "plus", "document", "chat"]
+      }
+    },
+    {
+      "id": "Dashboard",
+      "name": "Dashboard Screen",
+      "type": "Analytics",
+      "props": {
+        "header": {
+          "title": "Dashboard",
+          "userAvatar": true
+        },
+        "chart": {
+          "type": "donut",
+          "data": [
+            {"value": 15, "color": "coral"},
+            {"value": 13, "color": "purple"},
+            {"value": 28, "color": "teal"}
+          ]
+        },
+        "stats": [
+          {"label": "Total task", "value": 55, "icon": "folder"},
+          {"label": "Completed", "value": 13, "icon": "checkmark"},
+          {"label": "Working on", "value": 25, "icon": "activity"},
+          {"label": "Pending", "value": 17, "icon": "plus"}
+        ],
+        "bottomNav": ["grid", "checkmark", "plus", "document", "chat"]
+      }
+    },
+    {
+      "id": "Message",
+      "name": "Message Screen",
+      "type": "List",
+      "props": {
+        "header": {
+          "title": "Message",
+          "userAvatar": true
+        },
+        "searchBar": {
+          "placeholder": "Search ..."
+        },
+        "conversations": [
+          {"name": "Jonathan D. Dye", "message": "Hello", "time": "Now"},
+          {"name": "Charles L. Wenner", "message": "Its need urgently", "time": "10:00 am"},
+          {"name": "Luther K. Cusack", "message": "Check this design", "time": "04:00 pm"},
+          {"name": "Devignedge UI Design T.", "message": "Hello, Manik are you there?", "time": "Yesterday"},
+          {"name": "Gloria G. Johnson", "message": "Hi Nik", "time": "3 day"},
+          {"name": "Madge T. Crews", "message": "Check it", "time": "04 Sep"},
+          {"name": "Rosemary J. Strickland", "message": "", "time": "03 Sep"}
+        ],
+        "bottomNav": ["grid", "checkmark", "plus", "document", "chat"]
+      }
+    },
+    {
+      "id": "Task",
+      "name": "Task Screen",
+      "type": "List",
+      "props": {
+        "header": {
+          "title": "Task",
+          "userAvatar": true,
+          "addTaskButton": true
+        },
+        "date": "May 01, 2020",
+        "today": "Today",
+        "weekView": ["MON", "TUE", "WED", "THU", "FRI", "SAT", "SUN"],
+        "tasks": [
+          {
+            "status": "URGENT",
+            "title": "New Web UI Design Project",
+            "description": "Website UI Design for $500",
+            "time": "10 - 11 AM",
+            "participants": 2
+          },
+          {
+            "status": "RUNNING",
+            "title": "Application Design Meeting",
+            "description": "Website UI Design for $500",
+            "time": "10 - 11 AM",
+            "participants": 2
+          },
+          {
+            "status": "ONGOING",
+            "title": "Web Design Meeting",
+            "description": "",
+            "time": "",
+            "participants": 0
+          }
+        ],
+        "bottomNav": ["grid", "checkmark", "plus", "document", "chat"]
+      }
+    }
+  ],
+  "E": [
+    {
+      "id": "Board->AddTask",
+      "from": "Board",
+      "to": "AddTask",
+      "conditions": "User taps + button in bottom nav",
+      "actions": "Open Add Task screen"
+    },
+    {
+      "id": "Dashboard->AddTask",
+      "from": "Dashboard",
+      "to": "AddTask",
+      "conditions": "User taps + button in bottom nav",
+      "actions": "Open Add Task screen"
+    },
+    {
+      "id": "Message->AddTask",
+      "from": "Message",
+      "to": "AddTask",
+      "conditions": "User taps + button in bottom nav",
+      "actions": "Open Add Task screen"
+    },
+    {
+      "id": "Task->AddTask",
+      "from": "Task",
+      "to": "AddTask",
+      "conditions": "User taps Add Task button or + button in bottom nav",
+      "actions": "Open Add Task screen"
+    },
+    {
+      "id": "any->Board",
+      "from": "*",
+      "to": "Board",
+      "conditions": "User taps grid icon in bottom nav",
+      "actions": "Navigate to Board screen"
+    },
+    {
+      "id": "any->Dashboard",
+      "from": "*",
+      "to": "Dashboard",
+      "conditions": "User taps checkmark icon in bottom nav",
+      "actions": "Navigate to Dashboard screen"
+    },
+    {
+      "id": "any->Task",
+      "from": "*",
+      "to": "Task",
+      "conditions": "User taps document icon in bottom nav",
+      "actions": "Navigate to Task screen"
+    },
+    {
+      "id": "any->Message",
+      "from": "*",
+      "to": "Message",
+      "conditions": "User taps chat icon in bottom nav",
+      "actions": "Navigate to Message screen"
+    }
+  ]
+}

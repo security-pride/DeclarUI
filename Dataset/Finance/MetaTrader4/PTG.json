@@ -1,0 +1,160 @@
+{
+    "N": [
+      {
+        "id": "Charts",
+        "name": "Currency Chart",
+        "type": "chart",
+        "props": {
+          "currencyPair": "EURUSD",
+          "timeframe": "H1",
+          "chartType": "candlestick",
+          "indicators": ["RSI"],
+          "tools": ["crosshair", "fibonacci", "trendline"],
+          "bottomNavBar": {
+            "items": ["Quotes", "Chart", "Trade", "History", "Settings"]
+          }
+        }
+      },
+      {
+        "id": "Objects",
+        "name": "Chart Objects",
+        "type": "list",
+        "props": {
+          "addObjectButton": {
+            "text": "Add Object"
+          },
+          "objectTypes": ["vertical line", "horizontal line", "trendline", "angle", "fibonacci", "arrow"],
+          "instructions": "Long tap the object on the chart to edit or delete it",
+          "backButton": true
+        }
+      },
+      {
+        "id": "QuoteAdvanced",
+        "name": "Advanced Quote View",
+        "type": "list",
+        "props": {
+          "mode": "Advanced",
+          "currencyPairs": [
+            "EURUSD", "GBPUSD", "USDJPY", "USDCAD", "USDCHF",
+            "NZDUSD", "AUDUSD", "AUDNZD", "AUDCAD"
+          ],
+          "columns": ["Symbol", "Bid", "Ask", "Spread", "Low", "High"],
+          "updateFrequency": "realtime",
+          "bottomNavBar": {
+            "items": ["Quotes", "Chart", "Trade", "History", "Settings"]
+          }
+        }
+      },
+      {
+        "id": "QuoteSimple",
+        "name": "Simple Quote View",
+        "type": "list",
+        "props": {
+          "mode": "Simple",
+          "currencyPairs": [
+            "EURUSD", "GBPUSD", "USDJPY", "USDCAD", "USDCHF",
+            "NZDUSD", "AUDUSD", "AUDNZD", "AUDCAD"
+          ],
+          "columns": ["Symbol", "Bid", "Ask"],
+          "updateFrequency": "realtime",
+          "bottomNavBar": {
+            "items": ["Quotes", "Chart", "Trade", "History", "Settings"]
+          }
+        }
+      },
+      {
+        "id": "Settings",
+        "name": "Application Settings",
+        "type": "menu",
+        "props": {
+          "accountInfo": {
+            "deviceType": "iPhone",
+            "software": "MetaQuotes Software Corp.",
+            "accountNumber": "152932025",
+            "accountType": "MetaQuotes-Demo"
+          },
+          "menuItems": [
+            {"icon": "user-plus", "text": "New Account"},
+            {"icon": "envelope", "text": "Mailbox", "description": "Built-in Virtual Hosting — trading robots and signals"},
+            {"icon": "book", "text": "News", "description": "UAE is poised to hit its oil capacity a year earlier t..."},
+            {"icon": "calendar", "text": "Tradays", "description": "Economic calendar"},
+            {"icon": "comments", "text": "Chat and Messages", "description": "Sign in to MQL5.community!"},
+            {"icon": "users", "text": "Traders Community"},
+            {"icon": "chart-line", "text": "MQL5 Algo Trading"},
+            {"icon": "key", "text": "OTP", "description": "One-time password generator"},
+            {"icon": "language", "text": "Interface", "description": "English"},
+            {"icon": "chart-bar", "text": "Charts"},
+            {"icon": "book", "text": "Journal"}
+          ],
+          "bottomNavBar": {
+            "items": ["Quotes", "Chart", "Trade", "History", "Settings"]
+          }
+        }
+      }
+    ],
+    "E": [
+      {
+        "id": "Settings->Charts",
+        "from": "Settings",
+        "to": "Charts",
+        "conditions": "userTapsChartTab",
+        "actions": "loadChartView"
+      },
+      {
+        "id": "Charts->Settings",
+        "from": "Charts",
+        "to": "Settings",
+        "conditions": "userTapsSettingsTab",
+        "actions": "loadSettingsMenu"
+      },
+      {
+        "id": "Settings->QuoteSimple",
+        "from": "Settings",
+        "to": "QuoteSimple",
+        "conditions": "userTapsQuotesTab",
+        "actions": "loadSimpleQuoteView"
+      },
+      {
+        "id": "QuoteSimple->Settings",
+        "from": "QuoteSimple",
+        "to": "Settings",
+        "conditions": "userTapsSettingsTab",
+        "actions": "loadSettingsMenu"
+      },
+      {
+        "id": "QuoteSimple->QuoteAdvanced",
+        "from": "QuoteSimple",
+        "to": "QuoteAdvanced",
+        "conditions": "userTapsAdvancedTab",
+        "actions": "switchToAdvancedView"
+      },
+      {
+        "id": "QuoteAdvanced->QuoteSimple",
+        "from": "QuoteAdvanced",
+        "to": "QuoteSimple",
+        "conditions": "userTapsSimpleTab",
+        "actions": "switchToSimpleView"
+      },
+      {
+        "id": "Charts->Objects",
+        "from": "Charts",
+        "to": "Objects",
+        "conditions": "userTapsObjectsButton",
+        "actions": "openObjectsMenu"
+      },
+      {
+        "id": "Objects->Charts",
+        "from": "Objects",
+        "to": "Charts",
+        "conditions": "userTapsBackButton",
+        "actions": "returnToChartView"
+      },
+      {
+        "id": "QuoteAdvanced->Settings",
+        "from": "QuoteAdvanced",
+        "to": "Settings",
+        "conditions": "userTapsSettingsTab",
+        "actions": "loadSettingsMenu"
+      }
+    ]
+  }

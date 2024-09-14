@@ -1,0 +1,152 @@
+{
+  "N": [
+    {
+      "id": "Albums",
+      "name": "Albums Page",
+      "type": "List View",
+      "props": {
+        "header": "Songs",
+        "tabs": ["All Songs", "Playlists", "Albums", "Artists", "Genre"],
+        "albumGrid": [
+          {"name": "History", "artist": "Michael Jackson", "songs": 10},
+          {"name": "Thriller", "artist": "Michael Jackson", "songs": 10},
+          {"name": "It Won't Be Soon..", "artist": "Maroon 5", "songs": 10},
+          {"name": "I Am... Yours", "artist": "Beyonce", "songs": 10}
+        ],
+        "menuButton": true,
+        "searchButton": true,
+        "nowPlayingBar": true
+      }
+    },
+    {
+      "id": "AlbumsDetails",
+      "name": "Album Details Page",
+      "type": "Detail View",
+      "props": {
+        "albumCover": "History by Michael Jackson",
+        "albumInfo": {
+          "title": "History",
+          "artist": "Michael Jackson",
+          "year": 1996,
+          "songCount": 18,
+          "duration": "64 min"
+        },
+        "actions": ["Play", "Share", "Add to Favorites"],
+        "trackList": [
+          "Billie Jean", "The way you make..", "She is out of my life",
+          "Thriller", "Beat It", "Bad", "Man in the mirror", "Scream"
+        ],
+        "backButton": true,
+        "searchButton": true
+      }
+    },
+    {
+      "id": "Home",
+      "name": "Home Page",
+      "type": "Dashboard",
+      "props": {
+        "searchBar": "Search album song",
+        "sections": [
+          {
+            "title": "Hot Recommended",
+            "items": [
+              {"name": "Sound of Sky", "artist": "Dilon Bruce"},
+              {"name": "Girl on Fire", "artist": "Alecia Keys"}
+            ]
+          },
+          {
+            "title": "Playlist",
+            "items": ["Classic Playlist", "Summer Playlist", "Pop Music"]
+          },
+          {
+            "title": "Recently Played",
+            "items": [
+              "Billie Jean", "Earth Song", "Mirror", "Remember the Time"
+            ]
+          }
+        ],
+        "menuButton": true,
+        "bottomNav": ["Home", "Songs", "Settings"]
+      }
+    },
+    {
+      "id": "PlaySong",
+      "name": "Now Playing Page",
+      "type": "Player",
+      "props": {
+        "albumArt": "Michael Jackson ONE",
+        "songInfo": {
+          "title": "Black or White",
+          "artist": "Michael Jackson",
+          "album": "Dangerous"
+        },
+        "progress": {"current": "3:15", "total": "4:26"},
+        "controls": ["Previous", "Play/Pause", "Next"],
+        "additionalControls": ["Playlist", "Shuffle", "Repeat", "EQ", "Favourites"],
+        "backButton": true,
+        "moreOptionsButton": true
+      }
+    },
+    {
+      "id": "Songs",
+      "name": "All Songs Page",
+      "type": "List View",
+      "props": {
+        "header": "Songs",
+        "tabs": ["All Songs", "Playlists", "Albums", "Artists", "Genre"],
+        "songList": [
+          "Billie Jean", "Be the girl", "Countryman", "Do you feel loveliness",
+          "Earth song", "Smooth criminal", "The way you make me feel",
+          "Somebody that I used to know", "Wild Thoughts"
+        ],
+        "menuButton": true,
+        "searchButton": true,
+        "nowPlayingBar": true
+      }
+    }
+  ],
+  "E": [
+    {
+      "id": "Albums->AlbumsDetails",
+      "from": "Albums",
+      "to": "AlbumsDetails",
+      "conditions": "User taps on an album",
+      "actions": "Load album details"
+    },
+    {
+      "id": "AlbumsDetails->PlaySong",
+      "from": "AlbumsDetails",
+      "to": "PlaySong",
+      "conditions": "User taps play on a song",
+      "actions": "Start playing song and open now playing screen"
+    },
+    {
+      "id": "Home->PlaySong",
+      "from": "Home",
+      "to": "PlaySong",
+      "conditions": "User taps on a recently played song",
+      "actions": "Open now playing screen with selected song"
+    },
+    {
+      "id": "Home->Songs",
+      "from": "Home",
+      "to": "Songs",
+      "conditions": "User taps on 'Songs' in bottom navigation",
+      "actions": "Navigate to All Songs page"
+    },
+    {
+      "id": "Songs->Albums",
+      "from": "Songs",
+      "to": "Albums",
+      "conditions": "User taps on 'Albums' in top navigation",
+      "actions": "Navigate to Albums page"
+    },
+    {
+      "id": "Songs->PlaySong",
+      "from": "Songs",
+      "to": "PlaySong",
+      "conditions": "User taps on a song",
+      "actions": "Start playing song and open now playing screen"
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "N": [
+    {
+      "id": "Login",
+      "name": "Login Screen",
+      "type": "Auth",
+      "props": {
+        "logo": "CutG",
+        "welcomeMessage": "Welcome!",
+        "description": "Discover interesting short videos. Share your moments with the CutG community",
+        "signInButton": "Sign in",
+        "socialLoginOptions": ["Apple", "Facebook", "Google"]
+      }
+    },
+    {
+      "id": "Home",
+      "name": "Home Screen",
+      "type": "Feed",
+      "props": {
+        "header": {
+          "tabs": ["For You", "Following", "Live"]
+        },
+        "content": {
+          "video": true,
+          "userInfo": {
+            "name": "RomeoSmile",
+            "followButton": true
+          },
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fringilla ac a eu eras. Et augue amet id",
+          "musicInfo": "eyes blue like the atlantic",
+          "interactions": {
+            "likes": 4231,
+            "comments": 644
+          }
+        },
+        "bottomNav": ["Home", "Discover", "Create", "Activity", "Profile"]
+      }
+    },
+    {
+      "id": "Discover",
+      "name": "Discover Screen",
+      "type": "Explore",
+      "props": {
+        "searchBar": true,
+        "banner": {
+          "title": "Camp day",
+          "cta": "Join now"
+        },
+        "categories": ["All", "Challenge", "Entertainment", "Dance"],
+        "sections": [
+          {
+            "title": "Hot",
+            "videos": [
+              {"views": "420.8K"},
+              {"views": "316.0K"},
+              {"views": "180.6K"}
+            ]
+          },
+          {
+            "title": "Featured",
+            "videos": [
+              {},
+              {},
+              {}
+            ]
+          }
+        ],
+        "bottomNav": ["Home", "Discover", "Create", "Activity", "Profile"]
+      }
+    },
+    {
+      "id": "Comments",
+      "name": "Comments Screen",
+      "type": "List",
+      "props": {
+        "header": {
+          "title": "4231 Comments",
+          "addCommentButton": true
+        },
+        "commentList": [
+          {
+            "user": "Babayaga",
+            "comment": "Lorem ipsum dolor sit amet, elit poo consectetur adipiscing elit. Aenean sit.",
+            "likes": "1.2k",
+            "replies": 12
+          },
+          {
+            "user": "LilKittt",
+            "comment": "Lorem ipsum dolor sit amet, elit poo consectetur adipiscing elit.",
+            "likes": "1.8k",
+            "replies": 12
+          },
+          {
+            "user": "Spiderman",
+            "comment": "Lorem ipsum dolor sit amet, elit poo consectetur adipiscing elit.",
+            "likes": "1.8k",
+            "replies": 12
+          },
+          {
+            "user": "Badli",
+            "comment": "Lorem ipsum dolor sit amet, elit poo consectetur adipiscing elit.",
+            "likes": "1.8k",
+            "replies": 12
+          },
+          {
+            "user": "Tung Tran",
+            "comment": "Lorem ipsum dolor sit amet, elit poo consectetur adipiscing elit.",
+            "likes": "1.8k",
+            "replies": 12
+          }
+        ],
+        "addCommentInput": "Add Comment..."
+      }
+    },
+    {
+      "id": "Search",
+      "name": "Search Screen",
+      "type": "Search",
+      "props": {
+        "searchBar": true,
+        "backButton": true,
+        "topSearches": [
+          "Camp day",
+          "Halloween",
+          "Candy Challenge",
+          "Dancing",
+          "Christmas"
+        ]
+      }
+    }
+  ],
+  "E": [
+    {
+      "id": "Login->Home",
+      "from": "Login",
+      "to": "Home",
+      "conditions": "User signs in successfully",
+      "actions": "Navigate to home feed"
+    },
+    {
+      "id": "Home->Discover",
+      "from": "Home",
+      "to": "Discover",
+      "conditions": "User taps Discover in bottom nav",
+      "actions": "Show discover screen"
+    },
+    {
+      "id": "Home->Comments",
+      "from": "Home",
+      "to": "Comments",
+      "conditions": "User taps comment icon on video",
+      "actions": "Show comments for the video"
+    },
+    {
+      "id": "Discover->Search",
+      "from": "Discover",
+      "to": "Search",
+      "conditions": "User taps search bar",
+      "actions": "Show search screen with top searches"
+    },
+    {
+      "id": "Discover->Home",
+      "from": "Discover",
+      "to": "Home",
+      "conditions": "User taps Home in bottom nav",
+      "actions": "Return to home feed"
+    },
+    {
+      "id": "Search->Home",
+      "from": "Search",
+      "to": "Home",
+      "conditions": "User taps back at top left area",
+      "actions": "Return to home feed"
+    }
+  ]
+}

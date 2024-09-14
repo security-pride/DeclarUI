@@ -1,0 +1,167 @@
+{
+  "N": [
+    {
+      "id": "Chat",
+      "name": "Chat Screen",
+      "type": "Conversation",
+      "props": {
+        "header": {
+          "backButton": true,
+          "contactName": "Antonio Banderas",
+          "contactStatus": "Online",
+          "optionsButton": true
+        },
+        "messageList": [
+          {"text": "Hi! Your last shot was really good!", "time": "9:30", "sender": "user"},
+          {"type": "audio", "duration": "1.35", "time": "9:32", "sender": "contact"},
+          {"text": "What tools do you use?", "time": "9:34", "sender": "user"},
+          {"text": "Figma, for prototype i use Principle", "time": "9:35", "sender": "contact"},
+          {"text": "Cool! Your designs inspire me a lot bro. Keep posting!", "time": "9:36", "sender": "user"},
+          {"text": "Thank u so much Antonio! Glad to hear that :)", "time": "9:37", "sender": "contact"},
+          {"text": "You're welcome!", "time": "9:39", "sender": "user"}
+        ],
+        "inputField": {
+          "emojiButton": true,
+          "placeholder": "Type a message",
+          "attachmentButton": true
+        }
+      }
+    },
+    {
+      "id": "Contacts",
+      "name": "Contacts List",
+      "type": "List",
+      "props": {
+        "header": "Contacts",
+        "actions": [
+          {"text": "Invite friends", "icon": "plus"},
+          {"text": "Find people nearby", "icon": "location"}
+        ],
+        "contactList": [
+          {"name": "Antonio Banderas", "status": "Online", "initials": "AB"},
+          {"name": "Billie Eilish", "status": "Online", "initials": "BE"},
+          {"name": "Chris Evans", "status": "Last seen today at 8:40", "initials": "CE"},
+          {"name": "Dasha Taran", "initials": "DT"},
+          {"name": "Dwayne Johnson", "status": "Last seen today at 6:02", "initials": "DJ"},
+          {"name": "Emily Blunt", "status": "Last seen today at 8:33", "initials": "EB"}
+        ],
+        "bottomNav": ["Messages", "Contacts", "Calls", "Profile"]
+      }
+    },
+    {
+      "id": "Messages",
+      "name": "Messages List",
+      "type": "List",
+      "props": {
+        "header": "Messages",
+        "messageList": [
+          {"name": "Antonio Banderas", "lastMessage": "You're welcome", "time": "9:39", "status": "Online", "initials": "AB"},
+          {"name": "Chris Evans", "lastMessage": "Hello there?", "time": "8:45", "initials": "CE"},
+          {"name": "Scarlett Johansson", "lastMessage": "Thanks ray!", "time": "8:30", "unreadCount": 2, "status": "Online", "initials": "AB"},
+          {"name": "Billie Eilish", "lastMessage": "Okay thank you billie", "time": "7:55", "status": "Online", "initials": "AB"},
+          {"name": "Dasha Taran", "lastMessage": "Photo", "time": "6:00", "unreadCount": 2, "initials": "DT"},
+          {"name": "Ilay Serah", "lastMessage": "Video", "time": "Yesterday", "unreadCount": 2, "initials": "IS"},
+          {"name": "Emily Blunt", "lastMessage": "Audio", "time": "Yesterday", "initials": "EB"},
+          {"name": "Johnny Deep", "lastMessage": "Cool!", "time": "Yesterday", "initials": "JD"}
+        ],
+        "bottomNav": ["Messages", "Contacts", "Calls", "Profile"]
+      }
+    },
+    {
+      "id": "Profile",
+      "name": "Contact Info",
+      "type": "Profile",
+      "props": {
+        "header": {
+          "backButton": true,
+          "optionsButton": true
+        },
+        "contactInfo": {
+          "name": "Antonio Banderas",
+          "status": "Online",
+          "initials": "AB"
+        },
+        "settings": [
+          {"name": "Mute notifications", "type": "toggle", "value": true},
+          {"name": "Custom notifications", "type": "option"},
+          {"name": "Bio and phone number", "type": "info", "bio": "UI Design enthusiast", "date": "June 24, 2020", "phone": "+62 009 1212 3131"}
+        ],
+        "actions": [
+          {"icon": "phone", "type": "call"},
+          {"icon": "video", "type": "video-call"}
+        ],
+        "mediaCategories": ["Media", "Documents", "Links", "Groups"]
+      }
+    },
+    {
+      "id": "Search",
+      "name": "Search Screen",
+      "type": "Search",
+      "props": {
+        "searchBar": {
+          "placeholder": "Search...",
+          "keyboard": true
+        },
+        "filters": ["Chats", "Photos", "Videos"],
+        "recentSearches": [
+          "Designers",
+          "Dasha Taran",
+          "Billie Eilish"
+        ],
+        "clearAllOption": true,
+        "inputMethods": ["emoji", "voice"]
+      }
+    }
+  ],
+  "E": [
+    {
+      "id": "Messages->Chat",
+      "from": "Messages",
+      "to": "Chat",
+      "conditions": "User taps on a message thread",
+      "actions": "Open chat screen"
+    },
+    {
+      "id": "Contacts->Chat",
+      "from": "Contacts",
+      "to": "Chat",
+      "conditions": "User taps on a contact",
+      "actions": "Open chat screen"
+    },
+    {
+      "id": "Messages->Contacts",
+      "from": "Messages",
+      "to": "Contacts",
+      "conditions": "User taps Contacts in bottom navigation",
+      "actions": "Switch to contacts list"
+    },
+    {
+      "id": "Contacts->Messages",
+      "from": "Contacts",
+      "to": "Messages",
+      "conditions": "User taps Messages in bottom navigation",
+      "actions": "Switch to messages list"
+    },
+    {
+      "id": "Chat->Profile",
+      "from": "Chat",
+      "to": "Profile",
+      "conditions": "User taps contact name in chat header",
+      "actions": "Open contact info screen"
+    },
+    {
+      "id": "Messages->Search",
+      "from": "Messages",
+      "to": "Search",
+      "conditions": "User taps search bar",
+      "actions": "Open search screen"
+    },
+    {
+      "id": "Messages->Profile",
+      "from": "Messages",
+      "to": "Profile",
+      "conditions": "User taps Profile in bottom navigation",
+      "actions": "Open profile screen"
+    }
+  ]
+}

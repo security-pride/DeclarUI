@@ -1,0 +1,213 @@
+{
+    "N": [
+      {
+        "id": "History",
+        "name": "购买记录页",
+        "type": "list",
+        "props": {
+          "layout": "vertical",
+          "searchBar": true,
+          "filterButton": "缩小搜索范围",
+          "itemList": [
+            {
+              "title": "Pack of 5 | Ottogi Jin Ramen Noodle (Mild) 120g (Pack of 5)",
+              "price": "GBP 14.99",
+              "date": "2022年10月8日",
+              "status": "已送达",
+              "action": "购买相似物品"
+            },
+            {
+              "title": "Knife Sharpening Steel Rod Sharpener Honing Stick chef tool high quality",
+              "price": "GBP 3.99",
+              "date": "2022年1月13日",
+              "status": "已发货",
+              "action": "再次购买"
+            },
+            {
+              "title": "Large Lightweight Wheeled Shopping Trolley Push Cart Luggage Bag with...",
+              "price": "GBP 9.16",
+              "date": "2021年11月20日",
+              "status": "已送达",
+              "action": "购买相似物品"
+            }
+          ],
+          "bottomBar": ["主页", "我的eBay", "搜索", "通知", "出售物品"]
+        }
+      },
+      {
+        "id": "Home",
+        "name": "主页",
+        "type": "home",
+        "props": {
+          "layout": "scroll",
+          "searchBar": {
+            "placeholder": "搜索任何物品",
+            "cameraButton": true
+          },
+          "quickLinks": ["已保存", "时尚", "探索（全新！）"],
+          "promotionBanner": {
+            "title": "Join the party with 15% off",
+            "subtitle": "Celebrate eBay UK with big deals on brands from selected sellers.",
+            "promoCode": "SIZZLE15",
+            "terms": "Ends 21 July. Min spend £9.99. Max £75 off. T&Cs."
+          },
+          "recentlyViewedSection": {
+            "title": "您最近浏览的物品",
+            "viewAllLink": true,
+            "items": [
+              {
+                "title": "Ottogi Jin Ramen Mild Noodles (Pack of 20)",
+                "price": "GBP 22.99",
+                "image": "jin_ramen_image"
+              },
+              {
+                "title": "Spiderman Push Pop for it Bubble Fidget T...",
+                "price": "GBP 4.10",
+                "image": "spiderman_toy_image"
+              }
+            ]
+          },
+          "bottomBar": ["主页", "我的eBay", "搜索", "通知", "出售物品"]
+        }
+      },
+      {
+        "id": "Item",
+        "name": "商品详情页",
+        "type": "detail",
+        "props": {
+          "layout": "scroll",
+          "title": "Ottogi Jin Ramen Mild Noodles (Pack of 20)",
+          "price": "GBP 22.99",
+          "seller": {
+            "name": "Wa Na Hong Oriental Supermarket (25024)",
+            "rating": "99.3% 好评率"
+          },
+          "shipping": "Free 3 day postage",
+          "estimatedDelivery": "预计在7月19日，星期五至7月20日，星期六之间送达",
+          "imageGallery": true,
+          "favoriteButton": {
+            "count": 65
+          },
+          "bottomBar": ["主页", "我的eBay", "搜索", "通知", "出售物品"]
+        }
+      },
+      {
+        "id": "Profile",
+        "name": "个人资料页",
+        "type": "profile",
+        "props": {
+          "layout": "list",
+          "userInfo": {
+            "avatar": "M",
+            "username": "mu_447895",
+            "registrationYear": 2021
+          },
+          "menuItems": [
+            {"icon": "heart", "title": "追踪列表", "description": "密切关注追踪物品"},
+            {"icon": "bookmark", "title": "已保存", "description": "搜索、卖家、动态消息"},
+            {"icon": "refresh", "title": "再次购买", "description": "购买已购买过的物品"},
+            {"icon": "package", "title": "购买记录", "description": "您的订购历史记录"},
+            {"icon": "gavel", "title": "出价和议价", "description": "进行中的拍卖和卖家议价"},
+            {"icon": "clock", "title": "最近浏览", "description": "您最近浏览的物品"},
+            {"icon": "ruler", "title": "我的尺码", "description": "查看您保存的偏好设置"}
+          ],
+          "quickAccess": {
+            "title": "快捷方式",
+            "items": ["出售记录"]
+          },
+          "bottomBar": ["主页", "我的eBay", "搜索", "通知", "出售物品"]
+        }
+      },
+      {
+        "id": "Search",
+        "name": "搜索页",
+        "type": "search",
+        "props": {
+          "layout": "vertical",
+          "searchBar": {
+            "placeholder": "搜索任何物品",
+            "cameraButton": true
+          },
+          "tabs": ["最近", "已保存"],
+          "emptyState": {
+            "icon": "magnifyingGlass",
+            "message": "搜索 eBay",
+            "description": "发现下一件您最喜爱的物品。"
+          },
+          "bottomBar": ["主页", "我的eBay", "搜索", "通知", "出售物品"]
+        }
+      }
+    ],
+    "E": [
+      {
+        "id": "Home->Item",
+        "from": "Home",
+        "to": "Item",
+        "conditions": "userTapsOnProductInRecentlyViewed",
+        "actions": "loadProductDetails"
+      },
+      {
+        "id": "Item->Home",
+        "from": "Item",
+        "to": "Home",
+        "conditions": "userTapsHomeIcon",
+        "actions": "loadHomePage"
+      },
+      {
+        "id": "Home->Profile",
+        "from": "Home",
+        "to": "Profile",
+        "conditions": "userTapsMyEbayIcon",
+        "actions": "loadUserProfile"
+      },
+      {
+        "id": "Profile->Home",
+        "from": "Profile",
+        "to": "Home",
+        "conditions": "userTapsHomeIcon",
+        "actions": "loadHomePage"
+      },
+      {
+        "id": "Home->Search",
+        "from": "Home",
+        "to": "Search",
+        "conditions": "userTapsSearchBar",
+        "actions": "openSearchInterface"
+      },
+      {
+        "id": "Search->Home",
+        "from": "Search",
+        "to": "Home",
+        "conditions": "userTapsHomeIcon",
+        "actions": "loadHomePage"
+      },
+      {
+        "id": "Profile->History",
+        "from": "Profile",
+        "to": "History",
+        "conditions": "userTapsPurchaseHistory",
+        "actions": "loadPurchaseHistory"
+      },
+      {
+        "id": "History->Profile",
+        "from": "History",
+        "to": "Profile",
+        "conditions": "userTapsBackButton",
+        "actions": "loadProfilePage"
+      },
+      {
+        "id": "History->Home",
+        "from": "History",
+        "to": "Home",
+        "conditions": "userTapsHomeIcon",
+        "actions": "loadHomePage"
+      },
+      {
+        "id": "History->Item",
+        "from": "History",
+        "to": "Item",
+        "conditions": "userTapsBuyAgainOrSimilarItem",
+        "actions": "loadProductDetails"
+      }
+    ]
+  }

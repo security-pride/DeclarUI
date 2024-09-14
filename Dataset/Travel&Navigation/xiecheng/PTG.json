@@ -1,0 +1,167 @@
+{
+    "N": [
+      {
+        "id": "Travel",
+        "name": "Travel Homepage",
+        "type": "main",
+        "props": {
+          "searchBar": {
+            "location": "烟台出发",
+            "placeholder": "目的地/关键词"
+          },
+          "tabs": ["精选", "国内游", "出境游"],
+          "categories":["跟团游", "私家团", "当地参团", "邮轮", "自由行", "定制旅行", "包车游"],
+          "popularDestinations": {
+            "国内游": ["烟台", "威海", "山东", "新疆"],
+            "国外游": ["日本", "韩国", "仙本那", "泰国"]
+          },
+          "bottomNavBar": {
+            "items": ["跟团首页", "目的地", "浏览历史", "我的收藏", "我的订单"]
+          }
+        }
+      },
+      {
+        "id": "GroupDetails",
+        "name": "Group Tour Details",
+        "type": "detail",
+        "props": {
+          "title": "烟台+蓬莱区2日1晚拼小团",
+          "price": "¥965/人起",
+          "description": "6人MiniGroup帆船出海/黄渤海分界线/投喂海鸥/养马岛/中国四大名楼-蓬莱阁/专业司兼导/宝藏机位/千与千寻同款入海轨道/烟台古城",
+          "reviews": {
+            "rating": "5.0分",
+            "comments": "酒店很舒服"
+          },
+          "availability": ["07-19", "07-20", "07-21"],
+          "services": ["放心游", "无购物", "成团保障", "提前2天免费退"],
+          "actions": ["立即预订"],
+          "bottomNavBar": {
+            "items": ["店铺", "收藏", "客服"]
+          }
+        }
+      },
+      {
+        "id": "GroupTravel",
+        "name": "Group Travel Homepage",
+        "type": "list",
+        "props": {
+          "tabs": ["国内跟团游", "国际跟团游"],
+          "popularDestinations": ["烟台", "西安", "大连", "上海", "成都", "南京"],
+          "userInfo": {
+            "adults": 2,
+            "children": 0
+          },
+          "filters": ["热门目的地", "游玩天数", "出发日期", "人数"],
+          "bottomNavBar": {
+            "items": ["跟团首页", "目的地", "浏览历史", "我的收藏", "我的订单"]
+          }
+        }
+      },
+      {
+        "id": "GroupTravelSearchResult",
+        "name": "Group Travel Search Result",
+        "type": "searchResults",
+        "props": {
+          "searchQuery": "烟台出发",
+          "filters": ["天数", "人数", "线路玩法", "筛选"],
+          "results": [
+            {
+              "title": "烟台+蓬莱区2日1晚",
+              "price": "¥965起",
+              "rating": "5.0分",
+              "description": "纯玩无购物，全程3钻酒店",
+              "image": "group_tour_image_1.jpg"
+            },
+            {
+              "title": "烟台+威海3日2晚",
+              "price": "¥1699起",
+              "rating": "5.0分",
+              "description": "纯玩无购物，全程3钻酒店",
+              "image": "group_tour_image_2.jpg"
+            }
+          ]
+        }
+      },
+      {
+        "id": "Home",
+        "name": "Home Page",
+        "type": "main",
+        "props": {
+          "searchBar": {
+            "placeholder": "搜索"
+          },
+          "categories": ["酒店", "机票", "火车票", "旅游", "攻略/景点"],
+          "specialOffers": ["特价专区", "直播团购", "口碑榜", "旅行热点"],
+          "currentTrip": {
+            "action": "更多",
+            "details": {
+                "name": "烟台百纳瑞汀酒店",
+                "icon": "map"
+            }
+          },
+          "bottomNavBar": {
+            "items": ["首页", "社区", "消息", "行程", "我的"]
+          }
+        }
+      }
+    ],
+    "E": [
+      {
+        "id": "Travel->Home",
+        "from": "Travel",
+        "to": "Home",
+        "conditions": "userTapsBackButton",
+        "actions": "loadHomePage"
+      },
+      {
+        "id": "Travel->GroupTravel",
+        "from": "Travel",
+        "to": "GroupTravel",
+        "conditions": "userTapsGroupTravelTab",
+        "actions": "loadGroupTravelPage"
+      },
+      {
+        "id": "GroupTravel->GroupTravelSearchResult",
+        "from": "GroupTravel",
+        "to": "GroupTravelSearchResult",
+        "conditions": "userSearchesGroupTravel",
+        "actions": "loadGroupTravelSearchResults"
+      },
+      {
+        "id": "GroupTravelSearchResult->GroupDetails",
+        "from": "GroupTravelSearchResult",
+        "to": "GroupDetails",
+        "conditions": "userSelectsGroupTour",
+        "actions": "loadGroupTourDetails"
+      },
+      {
+        "id": "GroupDetails->GroupTravelSearchResult",
+        "from": "GroupDetails",
+        "to": "GroupTravelSearchResult",
+        "conditions": "userTapsBackButton",
+        "actions": "returnToGroupTravelSearchResults"
+      },
+      {
+        "id": "GroupTravelSearchResult->GroupTravel",
+        "from": "GroupTravelSearchResult",
+        "to": "GroupTravel",
+        "conditions": "userTapsBackButton",
+        "actions": "returnToGroupTravelPage"
+      },
+      {
+        "id": "GroupTravel->Travel",
+        "from": "GroupTravel",
+        "to": "Travel",
+        "conditions": "userTapsBackButton",
+        "actions": "loadTravelPage"
+      },
+      {
+        "id": "Home->Travel",
+        "from": "Home",
+        "to": "Travel",
+        "conditions": "userTapsTravelTab",
+        "actions": "loadTravelPage"
+      }
+    ]
+  }
+  

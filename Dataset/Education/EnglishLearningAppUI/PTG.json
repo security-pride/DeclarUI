@@ -1,0 +1,217 @@
+{
+  "N": [
+    {
+      "id": "Home",
+      "name": "HomePage",
+      "type": "feed",
+      "props": {
+        "header": {
+          "greeting": "Hi, Steven!",
+          "subtitle": "Learn new sentences right away"
+        },
+        "tabs": ["NEW FEED", "SUBSCRIPTION"],
+        "notification_icon": {
+          "count": 3
+        },
+        "feed_items": [
+          {
+            "author": "Charlie Herrera",
+            "content": {
+              "type": "lesson",
+              "title": "ENGLISH TOURISM",
+              "subtitle": "Through the airport security door",
+              "cta_button": "LEARN FREE NOW"
+            }
+          },
+          {
+            "title": "When get hurt",
+            "author": "Ellen Jacobs",
+            "content": {
+              "type": "video",
+              "duration": "0:17"
+            }
+          }
+        ],
+        "bottom_nav": ["Home", "Search", "Speak", "Word", "Profile"]
+      }
+    },
+    {
+      "id": "LessonDetail",
+      "name": "LessonDetailPage",
+      "type": "lesson",
+      "props": {
+        "header": {
+          "back_button": true,
+          "language_toggle": "EN/VN"
+        },
+        "video_player": true,
+        "sentence": {
+          "original": "NBD, let's keep going.",
+          "translation": "Không có gì to tát cả, tiếp tục nào.",
+          "explanation": "NBD: (no big deal) không có gì to tát cả."
+        },
+        "controls": {
+          "bookmark": true,
+          "share": true,
+          "more": true
+        },
+        "author": {
+          "name": "Ellen Jacobs",
+          "subscribers": "3.7k Subscriber",
+          "subscribe_button": "Subscribed"
+        },
+        "practice_section": {
+          "title": "Practice Speaking !",
+          "sentence": "It's just a scratch.",
+          "translation": "Chỉ xước nhẹ thôi ý mà.",
+          "speak_button": true
+        }
+      }
+    },
+    {
+      "id": "Search",
+      "name": "SearchPage",
+      "type": "search",
+      "props": {
+        "search_bar": {
+          "placeholder": "Find anything!"
+        },
+        "category_selector": {
+          "options": ["Sentence", "Speak"]
+        },
+        "categories": [
+          {
+            "name": "Movie",
+            "icon": true
+          },
+          {
+            "name": "Travel",
+            "icon": true
+          },
+          {
+            "name": "Music",
+            "icon": true
+          }
+        ],
+        "channels": [
+          {
+            "name": "Cornelia Gordon",
+            "subscribers": "129k subscribers"
+          },
+          {
+            "name": "Chase Bailey",
+            "subscribers": "129k subscribers"
+          }
+        ],
+        "bottom_nav": ["Home", "Search", "Speak", "Vocabulary", "Profile"]
+      }
+    },
+    {
+      "id": "Speak",
+      "name": "SpeakingCoursePage",
+      "type": "course_list",
+      "props": {
+        "header": {
+          "title": "Speaking Course",
+          "subtitle": "Improve your speak skill with many courses"
+        },
+        "featured_course": {
+          "title": "English REAL TALK",
+          "level": "Intermediate",
+          "description": "Is speak English as easy but rigid as a textbook? No no! You're wrong! ...",
+          "image": true
+        },
+        "course_tabs": ["All", "Beginner", "Intermediate", "Advanced"],
+        "courses": [
+          {
+            "title": "Basic communication English",
+            "level": "Primary",
+            "lessons_count": 12,
+            "image": true
+          },
+          {
+            "title": "Essential Structures",
+            "level": "Primary",
+            "lessons_count": 6,
+            "image": true
+          }
+        ],
+        "bottom_nav": ["Home", "Search", "Speak", "Vocabulary", "Profile"]
+      }
+    },
+    {
+      "id": "Conversation",
+      "name": "ConversationPracticePage",
+      "type": "conversation",
+      "props": {
+        "header": {
+          "back_button": true,
+          "title": "When taking a taxi"
+        },
+        "conversation": [
+          {
+            "speaker": "Ellen",
+            "text": "Hey there",
+            "translation": "Xin chào"
+          },
+          {
+            "speaker": "Taxi Driver",
+            "text": "Hey,where are you going today?",
+            "translation": "Chào cô, hôm nay cô sẽ đi đâu"
+          },
+          {
+            "speaker": "Ellen",
+            "text": "25 Gerhold Valley, please.",
+            "translation": "Cho tôi tới 25 Gerhold Valley."
+          },
+          {
+            "speaker": "Taxi Driver",
+            "text": "No problem.",
+            "translation": "Không vấn đề."
+          }
+        ],
+        "controls": {
+          "listen_button": true,
+          "speaking_button": true
+        }
+      }
+    }
+  ],
+  "E": [
+    {
+      "id": "Home->LessonDetail",
+      "from": "Home",
+      "to": "LessonDetail",
+      "conditions": "User taps on a lesson in the feed",
+      "actions": "Load lesson details"
+    },
+    {
+      "id": "Home->Search",
+      "from": "Home",
+      "to": "Search",
+      "conditions": "User taps on Search in bottom navigation",
+      "actions": "Load search page"
+    },
+    {
+      "id": "Home->Speak",
+      "from": "Home",
+      "to": "Speak",
+      "conditions": "User taps on Speak in bottom navigation",
+      "actions": "Load speaking course page"
+    },
+    {
+      "id": "Speak->Conversation",
+      "from": "Speak",
+      "to": "Conversation",
+      "conditions": "User selects a speaking practice lesson",
+      "actions": "Load conversation practice page"
+    },
+    {
+      "id": "Search->LessonDetail",
+      "from": "Search",
+      "to": "LessonDetail",
+      "conditions": "User selects a lesson from search results",
+      "actions": "Load lesson details"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+    "N": [
+       {
+        "id": "MoreDetails",
+        "name": "More Details",
+        "type": "details",
+        "props": {
+          "layout" : "list",
+          "sections": ["设置", "同城", "我的话题", "已收藏的新闻", "消息", "公告", "分享应用", "隐私政策", "支持我们", "退出应用"]
+        }
+      },
+      {
+        "id": "Notice",
+        "name": "Notice",
+        "type": "notification",
+        "props": {
+          "options": ["立即解锁新闻提醒", "我确定我想要", "暂时不需要"]
+        }
+      },
+      {
+        "id": "LogIn",
+        "name": "Login",
+        "type": "login",
+        "props": {
+          "input_method": "电话号码",
+          "keyboard": "ABC, DEF, GHI, JKL, MNO, PQRS, TUV, WXYZ, 数字和符号"
+        }
+      },
+      {
+        "id": "Settings",
+        "name": "Settings",
+        "type": "settings",
+        "props": {
+          "options": ["注册", "登录并加入该社群", "内容", "改变国家", "话题", "来源管理", "消息", "通知声音", "震动提醒", "消息带图", "通知管理"]
+        }
+      },
+      {
+        "id": "Home",
+        "name": "Home",
+        "type": "home",
+        "props": {
+          "features": ["发新闻", "突发新闻", "猜你喜欢", "热门", "视频", "同城", "选择您的城市"]
+        }
+      }
+    ],
+    "E": [
+      {
+        "id": "Notice->Home",
+        "from": "Notice",
+        "to": "Home",
+        "conditions": "user_selects_i_want_it",
+        "actions": "navigate_to_home_page"
+      },
+      {
+        "id": "Home->MoreDetails",
+        "from": "Home",
+        "to": "MoreDetails",
+        "conditions": "user_selects_more",
+        "actions": "navigate_to_more_details_page"
+      },
+      {
+        "id": "MoreDetails->Home",
+        "from": "MoreDetails",
+        "to": "Home",
+        "conditions": "user_selects_home",
+        "actions": "navigate_back_to_home_page"
+      },
+      {
+        "id": "MoreDetails->Settings",
+        "from": "MoreDetails",
+        "to": "Settings",
+        "conditions": "user_selects_settings",
+        "actions": "navigate_to_settings_page"
+      },
+      {
+        "id": "Settings->LogIn",
+        "from": "Settings",
+        "to": "LogIn",
+        "conditions": "user_selects_login",
+        "actions": "navigate_to_login_page"
+      },
+      {
+        "id": "Settings->MoreDetails",
+        "from": "Settings",
+        "to": "MoreDetails",
+        "conditions": "user_selects_exit_button",
+        "actions": "navigate_back_to_more_details_page"
+      },
+      {
+        "id": "LogIn->Settings",
+        "from": "LogIn",
+        "to": "Settings",
+        "conditions": "user_presses_back_button",
+        "actions": "navigate_back_to_settings_page"
+      },
+      {
+        "id":"Home->Notice",
+        "from":"Home",
+        "to":"Notice",
+        "conditions":"user_selects_notice",
+        "actions":"navigate_to_notice_page"
+      },
+      {
+        "id":"MoreDetails->Notice",
+        "from":"MoreDetails",
+        "to":"Notice",
+        "conditions":"user_selects_notice",
+        "actions":"navigate_to_notice_page"
+      }
+    ]
+  }

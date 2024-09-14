@@ -1,0 +1,316 @@
+ {
+  "N": [
+    {
+      "id": "Home",
+      "name": "HomePage",
+      "type": "home",
+      "props": {
+        "header": {
+          "greeting": "Welcome Back",
+          "user_name": "Nicolas Doflamingo",
+          "user_avatar": true,
+          "notification_icon": {
+            "count": 1
+          }
+        },
+        "best_courses_section": {
+          "title": "Best courses that suits to you",
+          "see_all_link": true
+        },
+        "my_courses_section": {
+          "title": "My Courses",
+          "see_all_link": true,
+          "course_list": [
+            {
+              "title": "How to make modern poster for Beginner",
+              "type": "GRAPHICS DESIGN",
+              "instructor": "Nicola Tesla",
+              "progress": 82,
+              "sessions": "7 / 15",
+              "image": true
+            },
+            {
+              "title": "How to make D system in easy",
+              "type": "UI/UX DESIGN",
+              "instructor": "Dwi Gunawan",
+              "progress": 82,
+              "sessions": "7 / 15",
+              "image": true
+            }
+          ]
+        },
+        "mentor_section": {
+          "title": "Mentor of The Weeks",
+          "see_all_link": true,
+          "mentors": [
+            {
+              "name": "Nicola Tesla",
+              "rating": 4.9,
+              "reviews_count": 1435,
+              "avatar": true
+            },
+            {
+              "name": "Galileo Galilei",
+              "rating": 4.9,
+              "reviews_count": 1435,
+              "avatar": true
+            }
+          ]
+        },
+        "bottom_nav": ["Home", "Discover", "My Courses", "Profile"]
+      }
+    },
+    {
+      "id": "Discover",
+      "name": "DiscoverPage",
+      "type": "discover",
+      "props": {
+        "header": {
+          "title": "Discover the best course that suits to you",
+          "notification_icon": {
+            "count": 1
+          }
+        },
+        "search_bar": {
+          "placeholder": "Search course...",
+          "filter_button": true
+        },
+        "course_of_the_weeks": {
+          "title": "Course of the weeks",
+          "see_all_link": true,
+          "course_list": [
+            {
+              "title": "How to make modern poster for Beginner",
+              "type": "GRAPHICS DESIGN",
+              "rating": 4.9,
+              "price": "$12.00",
+              "image": true
+            },
+            {
+              "title": "How to make Design system in easy waen",
+              "type": "UI/UX DESIGN",
+              "rating": 4.9,
+              "price": "$12.00",
+              "image": true
+            }
+          ]
+        },
+        "suits_to_you": {
+          "title": "Suits to you",
+          "see_all_link": true,
+          "course_list": [
+            {
+              "title": "How to make modern poster",
+              "type": "GRAPHICS DESIGN",
+              "rating": 4.9,
+              "image": true
+            },
+            {
+              "title": "How to make Design system",
+              "type": "UI/UX DESIGN",
+              "rating": 4.9,
+              "image": true
+            }
+          ]
+        },
+        "bottom_nav": ["Home", "Discover", "My Courses", "Profile"]
+      }
+    },
+    {
+      "id": "CourseDetail",
+      "name": "CourseDetailPage",
+      "type": "course_detail",
+      "props": {
+        "header": {
+          "back_button": true,
+          "title": "Details Course",
+          "options_menu": true
+        },
+        "course_banner": {
+          "type": "GRAPICS DESIGN",
+          "image": true
+        },
+        "course_title": "How to make modern design for Beginner",
+        "instructor": {
+          "name": "Nicola Tesla",
+          "avatar": true
+        },
+        "rating": {
+          "score": 4.9,
+          "reviews_count": "1.2k"
+        },
+        "description": "Lorem ipsum dolor sit amet consectetur. Mattis amet accumsan tellus sapien amet tempus elit feugiat. Elementum vulputate arcu urna.",
+        "tabs": ["Lessons", "Reviews"],
+        "lessons": [
+          {
+            "title": "Graphics Design Introduction",
+            "duration": "12:34",
+            "status": "unlocked"
+          },
+          {
+            "title": "Shape & Line",
+            "duration": "12:34",
+            "status": "locked"
+          }
+        ],
+        "buy_button": {
+          "price": "$23.00",
+          "action": "Buy"
+        }
+      }
+    },
+    {
+      "id": "MyCourses",
+      "name": "MyCoursesPage",
+      "type": "course_list",
+      "props": {
+        "header": {
+          "title": "My Courses",
+          "notification_icon": {
+            "count": 1
+          }
+        },
+        "tabs": ["Ongoing", "Completed"],
+        "course_list": [
+          {
+            "title": "Graphics Designer for Beginner",
+            "type": "GRAPHICS DESIGN",
+            "instructor": "Nicola Tesla",
+            "rating": 4.9,
+            "reviews_count": 1435,
+            "progress": 82,
+            "sessions": "7 / 15",
+            "image": true
+          },
+          {
+            "title": "Graphics Designer for Beginner",
+            "type": "GRAPHICS DESIGN",
+            "instructor": "Nicola Tesla",
+            "rating": 4.9,
+            "reviews_count": 1435,
+            "progress": 82,
+            "sessions": "7 / 15",
+            "image": true
+          },
+          {
+            "title": "Graphics Designer for Beginner",
+            "type": "GRAPHICS DESIGN",
+            "instructor": "Nicola Tesla",
+            "rating": 4.9,
+            "reviews_count": 1435,
+            "progress": 82,
+            "sessions": "7 / 15",
+            "image": true
+          }
+        ],
+        "bottom_nav": ["Home", "Discover", "My Courses", "Profile"]
+      }
+    },
+    {
+      "id": "Search",
+      "name": "SearchPage",
+      "type": "search",
+      "props": {
+        "header": {
+          "title": "Discover",
+          "notification_icon": {
+            "count": 1
+          }
+        },
+        "search_bar": {
+          "placeholder": "Design",
+          "filter_button": {
+            "notification": {
+              "count": 1
+            }
+          }
+        },
+        "category_tags": ["UI/UX DESIGN", "GRAPHICS DESIGN", "INTERACTION"],
+        "search_results": {
+          "count": 32,
+          "course_list": [
+            {
+              "title": "How to make modern poster for Beginner",
+              "type": "GRAPHICS DESIGN",
+              "rating": 4.9,
+              "price": "$12.00",
+              "image": true
+            },
+            {
+              "title": "How to make Design system in easy waen",
+              "type": "UI/UX DESIGN",
+              "rating": 4.9,
+              "price": "$23.99",
+              "image": true
+            },
+            {
+              "title": "How to make modern poster for Beginner",
+              "type": "INTERACTION DESIGN",
+              "rating": 4.9,
+              "price": "$15.45",
+              "image": true
+            },
+            {
+              "title": "How to make Design system in easy waen",
+              "type": "PHOTO EDITOR",
+              "rating": 4.9,
+              "price": "$16.13",
+              "image": true
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "E": [
+    {
+      "id": "Home->Discover",
+      "from": "Home",
+      "to": "Discover",
+      "conditions": "User taps on Discover in bottom navigation",
+      "actions": "Load Discover page"
+    },
+    {
+      "id": "Home->MyCourses",
+      "from": "Home",
+      "to": "MyCourses",
+      "conditions": "User taps on My Courses in bottom navigation or 'See all' in My Courses section",
+      "actions": "Load My Courses page"
+    },
+    {
+      "id": "Home->CourseDetail",
+      "from": "Home",
+      "to": "CourseDetail",
+      "conditions": "User taps on a course in My Courses section",
+      "actions": "Load Course Detail page"
+    },
+    {
+      "id": "Discover->Search",
+      "from": "Discover",
+      "to": "Search",
+      "conditions": "User enters text in search bar",
+      "actions": "Load Search page with results"
+    },
+    {
+      "id": "Discover->CourseDetail",
+      "from": "Discover",
+      "to": "CourseDetail",
+      "conditions": "User taps on a course",
+      "actions": "Load Course Detail page"
+    },
+    {
+      "id": "MyCourses->CourseDetail",
+      "from": "MyCourses",
+      "to": "CourseDetail",
+      "conditions": "User taps on a course",
+      "actions": "Load Course Detail page"
+    },
+    {
+      "id": "Search->CourseDetail",
+      "from": "Search",
+      "to": "CourseDetail",
+      "conditions": "User taps on a course in search results",
+      "actions": "Load Course Detail page"
+    }
+  ]
+}

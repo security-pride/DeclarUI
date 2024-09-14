@@ -1,0 +1,224 @@
+{
+  "N": [
+    {
+      "id": "CourseDetail",
+      "name": "CourseDetailPage",
+      "type": "course_detail",
+      "props": {
+        "header": {
+          "back_button": true,
+          "options_menu": true
+        },
+        "instructor_info": {
+          "name": "John Wiseberg",
+          "title": "Teach Advertising and Creativity",
+          "avatar": true
+        },
+        "tabs": ["About", "Lessons"],
+        "about_section": {
+          "title": "Create the big ideas",
+          "description": "Mauris dignissim semper mattis...",
+          "play_lesson_button": true
+        }
+      }
+    },
+    {
+      "id": "Lessons",
+      "name": "LessonsPage",
+      "type": "lesson_list",
+      "props": {
+        "header": {
+          "title": "Lessons",
+          "back_button": true,
+          "options_menu": true
+        },
+        "lesson_list": {
+          "items": [
+            {
+              "title": "What is Advertising",
+              "duration": "08:12",
+              "thumbnail": true,
+              "download_button": true
+            },
+            {
+              "title": "Working With Brands",
+              "duration": "14:10",
+              "thumbnail": true,
+              "download_button": true
+            },
+            {
+              "title": "10 things you shouldn't do!",
+              "duration": "13:20",
+              "thumbnail": true,
+              "download_button": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "Downloads",
+      "name": "DownloadsPage",
+      "type": "downloads_list",
+      "props": {
+        "header": {
+          "title": "Downloads",
+          "user_avatar": true
+        },
+        "download_list": {
+          "items": [
+            {
+              "title": "Gift yourself this UI Kit and enjoy!",
+              "instructor": "John Wiseberg",
+              "duration": "08:12",
+              "thumbnail": true
+            },
+            {
+              "title": "Make your Mess Your Message",
+              "instructor": "Mendy Santiago",
+              "duration": "12:38",
+              "thumbnail": true
+            },
+            {
+              "title": "Meet Your Dreams and Make It Real",
+              "instructor": "Maria Trofimova",
+              "duration": "09:46",
+              "thumbnail": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "Home",
+      "name": "HomePage",
+      "type": "home",
+      "props": {
+        "header": {
+          "title": "Home",
+          "user_avatar": true
+        },
+        "tabs": ["Home", "My List"],
+        "new_courses": {
+          "items": [
+            {
+              "instructor": "Mendy Santiago",
+              "title": "Teach Effective and Authentic Communication",
+              "thumbnail": true
+            },
+            {
+              "instructor": "John Wiseberg",
+              "title": "Teach Advertising and Creativity",
+              "thumbnail": true
+            }
+          ]
+        },
+        "popular_courses": {
+          "items": [
+            {
+              "instructor": "Masood El Toure",
+              "title": "Teaches Creativity and Songwriting",
+              "thumbnail": true
+            },
+            {
+              "instructor": "Sophie Asveld",
+              "title": "Teaches Screenwriting",
+              "thumbnail": true
+            },
+            {
+              "instructor": "Maria Trofimova",
+              "title": "Building a Digital Brand",
+              "thumbnail": true
+            },
+            {
+              "instructor": "Lucy Miller",
+              "title": "",
+              "thumbnail": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "MyList",
+      "name": "MyListPage",
+      "type": "my_list",
+      "props": {
+        "header": {
+          "title": "My List",
+          "user_avatar": true
+        },
+        "tabs": ["Home", "My List"],
+        "instructors": {
+          "items": [
+            {
+              "name": "Boniface Esanji",
+              "title": "Teaches Guitar",
+              "avatar": true
+            }
+          ]
+        },
+        "lessons": {
+          "items": [
+            {
+              "title": "Gift yourself this UI Kit and enjoy!",
+              "instructor": "John Wiseberg",
+              "duration": "08:12",
+              "thumbnail": true
+            },
+            {
+              "title": "Make your Mess Your Message",
+              "instructor": "Mendy Santiago",
+              "duration": "12:38",
+              "thumbnail": true
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "E": [
+    {
+      "id": "Home->CourseDetail",
+      "from": "Home",
+      "to": "CourseDetail",
+      "conditions": "User taps on a course",
+      "actions": "Load course detail page"
+    },
+    {
+      "id": "CourseDetail->Lessons",
+      "from": "CourseDetail",
+      "to": "Lessons",
+      "conditions": "User taps on 'Lessons' tab",
+      "actions": "Load lessons list"
+    },
+    {
+      "id": "Home->Downloads",
+      "from": "Home",
+      "to": "Downloads",
+      "conditions": "User taps on Downloads tab in bottom navigation",
+      "actions": "Load downloads page"
+    },
+    {
+      "id": "Home->MyList",
+      "from": "Home",
+      "to": "MyList",
+      "conditions": "User taps on 'My List' tab",
+      "actions": "Load My List page"
+    },
+    {
+      "id": "MyList->CourseDetail",
+      "from": "MyList",
+      "to": "CourseDetail",
+      "conditions": "User taps on a saved course or lesson",
+      "actions": "Load course detail page"
+    },
+    {
+      "id": "Downloads->CourseDetail",
+      "from": "Downloads",
+      "to": "CourseDetail",
+      "conditions": "User taps on a saved course or lesson",
+      "actions": "Load course detail page"
+    }
+  ]
+}

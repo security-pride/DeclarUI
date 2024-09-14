@@ -1,0 +1,170 @@
+{
+  "N": [
+    {
+      "id": "Homepage",
+      "name": "Home Screen",
+      "type": "Feed",
+      "props": {
+        "header": {
+          "menuButton": true,
+          "title": "Forging New Bonds and Friendships",
+          "notificationButton": true,
+          "settingsButton": true
+        },
+        "stories": [
+          {"name": "My Story", "add": true},
+          {"name": "Hasley"},
+          {"name": "Javier"},
+          {"name": "Natalie"}
+        ],
+        "SearchResultsBar": {
+          "placeholder": "Search for a friend or partners"
+        },
+        "categories": ["All", "Photography", "Outdoor", "Anime"],
+        "recommendations": [
+          {
+            "name": "Klee Gracia",
+            "age": 24,
+            "bio": "Hi there! I'm Gracia ✨, a fun-loving adventurer looking for great connections.",
+            "interests": ["Running", "Outdoor", "Anime"],
+            "potentialMatch": true
+          }
+        ],
+        "bottomNav": ["Discover", "Likes", "Messages", "Profile"]
+      }
+    },
+    {
+      "id": "Profile",
+      "name": "User Profile",
+      "type": "Profile",
+      "props": {
+        "header": {
+          "backButton": true,
+          "potentialMatchBadge": true
+        },
+        "userInfo": {
+          "name": "Klee Gracia",
+          "age": 24,
+          "verified": true,
+          "bio": "Hi there! I'm Gracia ✨, a fun-loving adventurer looking for great connections.",
+          "interests": ["Running", "Outdoor", "Anime"]
+        },
+        "actions": [
+          {"icon": "close", "action": "Dismiss"},
+          {"icon": "Messages", "label": "Start Conversation"},
+          {"icon": "heart", "action": "Like"}
+        ]
+      }
+    },
+    {
+      "id": "Messages",
+      "name": "Chat Screen",
+      "type": "Conversation",
+      "props": {
+        "header": {
+          "backButton": true,
+          "name": "Hasley Junior",
+          "status": "Online",
+          "videoCallButton": true,
+          "audioCallButton": true
+        },
+        "messages": [
+          {"text": "How are you?", "sender": "other", "time": "8:43 AM"},
+          {"text": "Hi Hasley, I am good. How are you?", "sender": "user", "time": "8:43 AM"},
+          {"type": "audio", "sender": "other", "time": "8:43 AM"},
+          {"type": "image", "sender": "other", "time": "8:43 AM"},
+          {"text": "Omg! you're so beautiful!!", "sender": "user", "time": "8:43 AM"}
+        ],
+        "inputField": {
+          "placeholder": "Type here...",
+          "sendButton": true
+        }
+      }
+    },
+    {
+      "id": "Onboarding",
+      "name": "Login Screen",
+      "type": "Auth",
+      "props": {
+        "logo": "heact",
+        "title": "Effortlessly Discover Your Ideal Match",
+        "subtitle": "Experience a seamless journey uncovering the ideal match that aligns with your preferences and aspirations",
+        "OnboardingOptions": [
+          {"type": "apple", "label": "Continue with Apple"},
+          {"type": "facebook", "label": "Continue with Facebook"},
+          {"type": "phone", "label": "Use Phone Number"}
+        ]
+      }
+    },
+    {
+      "id": "SearchResult",
+      "name": "Search Results",
+      "type": "Search",
+      "props": {
+        "searchBar": {
+          "backButton": true,
+          "placeholder": "Gracia"
+        },
+        "results": [
+          {
+            "name": "Klee Gracia",
+            "age": 24,
+            "bio": "Hi there! I'm Gracia ✨, a fun-loving adventurer looking for great connections.",
+            "interests": ["Running", "Outdoor", "Anime"],
+            "potentialMatch": true
+          }
+        ],
+        "relatedProfiles": [
+          {"name": "Mika Gracia", "age": 18, "location": "Bali, Indonesia", "matchPercentage": 98},
+          {"name": "Gracy Logan", "age": 28, "location": "Jakarta, Indonesia", "matchPercentage": 98},
+          {"name": "R.O Gracia", "age": 17, "location": "Bekasi, Indonesia", "matchPercentage": 93},
+          {"name": "Audrey Gracia", "age": 17, "location": "Bali, Indonesia", "matchPercentage": 93}
+        ]
+      }
+    }
+  ],
+  "E": [
+    {
+      "id": "Homepage->Profile",
+      "from": "Homepage",
+      "to": "Profile",
+      "conditions": "User taps on a recommended profile",
+      "actions": "Open user profile"
+    },
+    {
+      "id": "Homepage->Messages",
+      "from": "Homepage",
+      "to": "Messages",
+      "conditions": "User taps on Messages tab or a Messages thread",
+      "actions": "Open Messages screen"
+    },
+    {
+      "id": "Profile->Messages",
+      "from": "Profile",
+      "to": "Messages",
+      "conditions": "User taps 'Start Conversation' button",
+      "actions": "Open Messages screen with selected user"
+    },
+    {
+      "id": "Onboarding->Homepage",
+      "from": "Onboarding",
+      "to": "Homepage",
+      "conditions": "User successfully logs in",
+      "actions": "Navigate to Homepage screen"
+    },
+    {
+      "id": "Homepage->SearchResult",
+      "from": "Homepage",
+      "to": "SearchResult",
+      "conditions": "User enters SearchResults query",
+      "actions": "Show SearchResults results"
+    },
+    {
+      "id": "SearchResult->Profile",
+      "from": "SearchResult",
+      "to": "Profile",
+      "conditions": "User taps on a SearchResults result",
+      "actions": "Open user profile"
+    }
+  ]
+}

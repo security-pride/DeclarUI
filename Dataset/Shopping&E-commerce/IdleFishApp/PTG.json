@@ -1,0 +1,136 @@
+{
+    "N": [
+      {
+        "id": "Categories",
+        "name": "分类页",
+        "type": "category",
+        "props": {
+          "layout": "list",
+          "categories": ["游戏装备", "数码", "模玩动漫", "企业", "文玩玉翠", "家居生活", "优惠券码", "美容彩妆", "母婴", "运动户外", "服饰鞋帽", "技能服务", "家用电器", "宠物花卉"],
+          "recommendedServices": ["闲鱼帮卖", "闲鱼鱼币", "手机严选", "文玩珠宝", "潮玩盲盒", "奢侈品帮卖", "闲鱼租房", "闲鱼游戏", "免费送", "明星玩家", "免费鉴定", "卡券", "手机回收", "卡券回收", "省心卖", "二手车", "图书回收", "卖闲置", "旧衣回收", "大件回收"]
+        }
+      },
+      {
+        "id": "Home",
+        "name": "主页",
+        "type": "home",
+        "props": {
+          "location": "武汉",
+          "searchBar": true,
+          "access": "分类",
+          "quickAccessButtons": ["人才市场", "手机", "省钱神券", "充值中心", "奢品"],
+          "promotions": ["闲鱼特卖超低价", "极速回收", "闲鱼直播"],
+          "bottomNavigation": ["闲鱼", "游戏", "+", "消息", "我的"]
+        }
+      },
+      {
+        "id": "JewelryCategory",
+        "name": "钱币珠宝类目页",
+        "type": "category",
+        "props": {
+          "categoryTitle": "钱币宝藏 依控漏",
+          "guarantee": "真品保障 质量问题包退",
+          "promotions": ["新品凹历 市价3折抢!", "热门纪念币市场价75折起"],
+          "featuredItems": [
+            {"name": "清 康熙通宝", "price": "¥260", "change": "+13.0%"},
+            {"name": "清 咸丰通宝、重", "price": "¥549", "change": "-10.1%"},
+            {"name": "清 乾隆通宝", "price": "¥318", "change": "+6.0%"}
+          ],
+          "filters": ["爱藏评级", "保粹评级", "金盾评级"]
+        }
+      },
+      {
+        "id": "Sell",
+        "name": "卖闲置页面",
+        "type": "sell",
+        "props": {
+          "title": "来闲鱼，搞点钱！",
+          "subtitle": "3亿人在闲鱼赚钱",
+          "sellOptions": [
+            {"name": "发闲置", "description": "30s发布宝贝，啥都能换钱"},
+            {"name": "一键转卖", "description": "2年前买的期刊杂志还能卖30元"},
+            {"name": "高价帮卖", "description": "支持自己定价卖"},
+            {"name": "闲鱼回收", "description": "免费上门回收"},
+            {"name": "晒好物", "description": "只晒不卖的宝贝"}
+          ],
+          "partTimeJob": {
+            "title": "搞副业",
+            "description": "闲暇时间能换钱",
+            "participants": "15万人在这赚钱"
+          }
+        }
+      },
+      {
+        "id": "Upload",
+        "name": "发布页面",
+        "type": "upload",
+        "props": {
+          "title": "发闲置",
+          "action": "发布",
+          "description": "描述一下宝贝的品牌型号、货品来源...",
+          "locationTag": "烟台 芝罘区",
+          "priceField": "¥0.00",
+          "shippingMethod": "包邮",
+          "addImageButton": "添加优质首图更吸引人~"
+        }
+      }
+    ],
+    "E": [
+    {
+      "id": "Home->Categories",
+      "from": "Home",
+      "to": "Categories",
+      "conditions": "userTapsClassificationButton",
+      "actions": "loadCategoryList"
+    },
+    {
+      "id": "Categories->Home",
+      "from": "Categories",
+      "to": "Home",
+      "conditions": "userTapsBackButton",
+      "actions": "returnToHomePage"
+    },
+    {
+      "id": "Categories->JewelryCategory",
+      "from": "Categories",
+      "to": "JewelryCategory",
+      "conditions": "userSelectsJewelryCategory",
+      "actions": "loadJewelryCategoryPage"
+    },
+    {
+      "id": "JewelryCategory->Categories",
+      "from": "JewelryCategory",
+      "to": "Categories",
+      "conditions": "userTapsBackButton",
+      "actions": "returnToCategoriesPage"
+    },
+    {
+      "id": "Home->Sell",
+      "from": "Home",
+      "to": "Sell",
+      "conditions": "userTapsPlusButtonInBottomNavigation",
+      "actions": "openSellPage"
+    },
+    {
+      "id": "Sell->Home",
+      "from": "Sell",
+      "to": "Home",
+      "conditions": "userTapsBackButton",
+      "actions": "returnToHomePage"
+    },
+    {
+      "id": "Sell->Upload",
+      "from": "Sell",
+      "to": "Upload",
+      "conditions": "userSelectsPostItemOption",
+      "actions": "openUploadPage"
+    },
+    {
+      "id": "Upload->Sell",
+      "from": "Upload",
+      "to": "Sell",
+      "conditions": "userTapsBackButtonOrCancelsUpload",
+      "actions": "returnToSellPage"
+    }
+  ]
+  }

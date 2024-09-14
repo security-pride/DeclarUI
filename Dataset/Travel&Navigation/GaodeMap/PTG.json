@@ -1,0 +1,396 @@
+{
+    "N": [
+      {
+        "id": "GasInformation",
+        "name": "加油信息页",
+        "type": "list",
+        "props": {
+          "header": {
+            "title": "高德车服·加油",
+            "backButton": true,
+            "searchButton": true
+          },
+          "quickAccessButtons": [
+            {"name": "新人专享", "icon": "gift"},
+            {"name": "调价补贴", "icon": "tag", "badge": "热"},
+            {"name": "领券中心", "icon": "ticket"},
+            {"name": "分享油礼", "icon": "share"},
+            {"name": "油惠卡", "icon": "card", "badge": "省"}
+          ],
+          "promoSection": {
+            "title": "天天'油'惠",
+            "subtitle": "单回本，单单省！",
+            "actionButton": "立即查看"
+          },
+          "mainContent": {
+            "title": "高德车服·加油",
+            "subtitle": "站超多 巨划算",
+            "promoTag": "高德红包 满200减8",
+            "filterOptions": ["推荐排序", "92#", "全部品牌"],
+            "gasStationList": [
+              {
+                "name": "供销石油加油站",
+                "distance": "3km",
+                "price": "¥7.56/L",
+                "originalPrice": "¥7.87/L",
+                "discount": "加200省8",
+                "actionButton": "立即加油"
+              },
+              {
+                "name": "烟台交运石油二马路金沟寨加油站",
+                "distance": "1.4公里",
+                "price": "¥7.56/L",
+                "originalPrice": "¥8.07/L",
+                "discount": "加200省13",
+                "actionButton": "立即加油"
+              },
+              {
+                "name": "中化石油安顺加油站(安顺站)",
+                "distance": "7.1公里",
+                "price": "¥6.86/L",
+                "originalPrice": "¥7.97/L",
+                "discount": "加200省28",
+                "actionButton": "立即加油"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "GasStationDetails",
+        "name": "加油站详情页",
+        "type": "detail",
+        "props": {
+          "header": {
+            "backButton": true,
+            "searchButton": true,
+            "moreOptionsButton": true
+          },
+          "stationInfo": {
+            "name": "供销石油加油站",
+            "type": "加油站",
+            "gallery": {
+              "imageCount": 51,
+              "currentImage": 1
+            }
+          },
+          "operatingHours": "周一至周日 00:00-24:00",
+          "location": {
+            "distance": "距你2.5公里",
+            "drivingTime": "驾车6分钟",
+            "area": "芝罘区",
+            "address": "芝罘区二马路3号2单元内四号东山名郡路南",
+            "mapButton": true,
+            "phoneButton": true
+          },
+          "pricing": {
+            "discountPrice": "¥7.56/L",
+            "stationPrice": "¥7.87/L",
+            "standardPrice": "¥8.07/L",
+            "infoIcon": true
+          },
+          "fuelSelection": {
+            "selectedFuel": "92#",
+            "dropdown": true
+          },
+          "paymentSection": {
+            "instruction": "先加油后付款 输入金额计算优惠",
+            "amountOptions": [
+              {"amount": 100, "savings": "约 ¥ 3.93"},
+              {"amount": 200, "savings": "约 ¥ 7.87"},
+              {"amount": 300, "savings": "约 ¥ 11.81"}
+            ],
+            "customAmountInput": true,
+            "discountButton": "立减优惠",
+            "couponButton": "优惠券"
+          },
+          "termsAndConditions": "阅读并同意《信息服务用户服务条款》《汽车服务个人信息处理规则》",
+          "feedbackSection": {
+            "title": "油站印象",
+            "instruction": "加完油后，可以在订单详情页内留下你的感受哦~"
+          },
+          "bottomNavigation": {
+            "nearbyButton": "周边",
+            "favoriteButton": "收藏",
+            "shareButton": "分享",
+            "navigationButton": "导航",
+            "routeButton": "路线"
+          }
+        }
+      },
+      {
+        "id": "Home",
+        "name": "首页",
+        "type": "home",
+        "props": {
+          "header": {
+            "searchBar": {
+              "placeholder": "在此处搜索",
+              "voiceInputEnabled": true,
+              "userProfileIcon": true
+            }
+          },
+          "quickAccessButtons": [
+            {"name": "设置住址", "icon": "home"},
+            {"name": "餐馆", "icon": "restaurant"},
+            {"name": "酒店", "icon": "hotel"},
+            {"name": "景点", "icon": "landmark"},
+            {"name": "加油站", "icon": "gas-pump"}
+          ],
+          "mapView": "map.gif",
+          "bottomToolbar": [
+            {"name": "驾车", "icon": "car"},
+            {"name": "公交", "icon": "bus"},
+            {"name": "优惠加油", "icon": "gas-station"},
+            {"name": "打车", "icon": "taxi"},
+            {"name": "订酒店", "icon": "hotel"},
+            {"name": "火车票机票", "icon": "ticket"},
+            {"name": "代驾", "icon": "steering-wheel"},
+            {"name": "步行", "icon": "walking"},
+            {"name": "实时公交", "icon": "bus-clock"},
+            {"name": "更多工具", "icon": "more"}
+          ],
+          "quickActions": [
+            {"name": "回家", "icon": "home"},
+            {"name": "去单位", "icon": "briefcase"}
+          ],
+          "bottomNavigation": ["首页", "附近", "消息", "打车", "我的"]
+        }
+      },
+      {
+        "id": "TicketSearchResult",
+        "name": "车票搜索结果页",
+        "type": "searchResult",
+        "props": {
+          "header": {
+            "backButton": true,
+            "title": "威海市 — 武汉市",
+            "calendarIcon": true
+          },
+          "dateSelection": {
+            "selectedDate": "明天",
+            "selectedDateValue": "7.19",
+            "dateOptions": ["今天", "明天", "后天", "周日", "周一", "周二", "周三"],
+            "calendarIcon": true
+          },
+          "transportModes": [
+            {"name": "火车", "selected": true},
+            {"name": "客车", "price": "¥350起"},
+            {"name": "飞机", "price": "¥620起"}
+          ],
+          "filterOptions": [
+            "只看有票",
+            "只看高铁动车",
+            "威海站",
+            "武汉站",
+            "上午出发"
+          ],
+          "promoOffer": {
+            "type": "高德红包",
+            "description": "满50减1",
+            "status": "已领取"
+          },
+          "loginPrompt": {
+            "text": "登录12306 官方出票无忧保障",
+            "loginButton": "登录"
+          },
+          "alternativeTransport": {
+            "type": "飞机直达推荐",
+            "duration": "4时15分",
+            "comparisonText": "比火车省69元",
+            "price": "¥620起"
+          },
+          "ticketAvailabilityInfo": "15:34前无直达班次，推荐2个有票方案",
+          "ticketOptions": [
+            {
+              "departureTime": "09:31",
+              "arrivalTime": "18:00",
+              "duration": "共8时29分",
+              "stations": {
+                "departure": "威海站",
+                "transfer": "郑州东",
+                "arrival": "武汉站"
+              },
+              "transferInfo": "同站换乘21分",
+              "trainNumbers": ["G2148", "G339"],
+              "ticketTypes": ["二等", "二等"],
+              "availableTickets": [2, 6],
+              "price": "¥745起",
+              "remainingTickets": "仅剩3张"
+            },
+            {
+              "departureTime": "12:38",
+              "arrivalTime": "22:38",
+              "duration": "共10时",
+              "stations": {
+                "departure": "威海站",
+                "transfer": "合肥南",
+                "arrival": "汉口站"
+              },
+              "transferInfo": "同站换乘19分",
+              "trainNumbers": ["D2150", "G3247"],
+              "ticketTypes": ["二等", "二等"],
+              "availableTickets": [1, "有票"],
+              "price": "¥531起",
+              "remainingTickets": "仅剩1张"
+            },
+            {
+              "departureTime": "15:34",
+              "arrivalTime": "23:11",
+              "duration": "7时37分",
+              "stations": {
+                "departure": "威海站",
+                "arrival": "武汉站"
+              },
+              "trainNumber": "G2084",
+              "price": "¥688起",
+              "originalPrice": "¥689",
+              "discount": "高德红包 | 共减1"
+            }
+          ],
+          "sortOptions": ["推荐排序", "价格", "耗时"],
+          "filterButton": "筛选"
+        }
+      },
+      {
+        "id": "TicketService",
+        "name": "车票服务页",
+        "type": "service",
+        "props": {
+          "header": {
+            "backButton": true,
+            "title": "高德·火车票"
+          },
+          "banner": {
+            "title": "夏日周末狂欢",
+            "subtitle": "吃喝玩乐 全城低价",
+            "actionButton": "查看"
+          },
+          "tabMenu": [
+            {"name": "机票", "selected": false},
+            {"name": "火车票", "selected": true},
+            {"name": "汽车票", "selected": false}
+          ],
+          "searchForm": {
+            "departure": {
+              "name": "威海市",
+              "icon": "train"
+            },
+            "destination": {
+              "name": "武汉市",
+              "icon": "train"
+            },
+            "date": {
+              "value": "7月19日",
+              "day": "明天"
+            },
+            "options": [
+              {"name": "学生票", "type": "checkbox"},
+              {"name": "高铁动车", "type": "checkbox"}
+            ],
+            "searchButton": {
+              "text": "查询",
+              "badge": "暑期百亿补贴"
+            }
+          },
+          "recentSearches": [
+            "武汉市-国家网络安全...",
+            "东湖生态旅游...-金色港湾"
+          ],
+          "additionalServices": [
+            {
+              "name": "订票保障",
+              "description": "安心出行",
+              "icon": "shield"
+            },
+            {
+              "name": "酒店预订",
+              "description": "便宜便捷",
+              "icon": "hotel"
+            },
+            {
+              "name": "领券中心",
+              "description": "抢5折券",
+              "icon": "ticket"
+            }
+          ],
+          "promotedTicket": {
+            "route": "威海市 — 武汉市",
+            "departureDate": "07.19出发",
+            "duration": "约7时11分到达",
+            "price": "¥742起",
+            "actionButton": "立即购票"
+          },
+          "calendar": {
+            "currentDate": "7.15",
+            "dates": ["7.19", "7.20", "7.21", "7.22"],
+            "labels": ["周五", "周六", "周日", "周一"]
+          },
+          "loginPrompt": {
+            "text": "登录12306 官方出票无忧保障",
+            "description": "极速出票 一键填写 出票成功率高",
+            "loginButton": "登录",
+            "closeButton": true
+          }
+        }
+      }
+    ],
+    "E": [
+      {
+        "id": "Home->GasInformation",
+        "from": "Home",
+        "to": "GasInformation",
+        "conditions": "userTapsGasStationButton",
+        "actions": "loadGasStationList"
+      },
+      {
+        "id": "GasInformation->Home",
+        "from": "GasInformation",
+        "to": "Home",
+        "conditions": "userTapsBackButton",
+        "actions": "returnToHomeMap"
+      },
+      {
+        "id": "GasInformation->GasStationDetails",
+        "from": "GasInformation",
+        "to": "GasStationDetails",
+        "conditions": "userSelectsGasStation",
+        "actions": "loadGasStationDetails"
+      },
+      {
+        "id": "GasStationDetails->GasInformation",
+        "from": "GasStationDetails",
+        "to": "GasInformation",
+        "conditions": "userTapsBackButton",
+        "actions": "returnToGasStationList"
+      },
+      {
+        "id": "Home->TicketService",
+        "from": "Home",
+        "to": "TicketService",
+        "conditions": "userTapsTrainTicketButton",
+        "actions": "openTicketServicePage"
+      },
+      {
+        "id": "TicketService->Home",
+        "from": "TicketService",
+        "to": "Home",
+        "conditions": "userTapsBackButton",
+        "actions": "returnToHomeScreen"
+      },
+      {
+        "id": "TicketService->TicketSearchResult",
+        "from": "TicketService",
+        "to": "TicketSearchResult",
+        "conditions": "userSubmitsSearchQuery",
+        "actions": "performTicketSearch"
+      },
+      {
+        "id": "TicketSearchResult->TicketService",
+        "from": "TicketSearchResult",
+        "to": "TicketService",
+        "conditions": "userTapsBackButton",
+        "actions": "ReturnToTicketServicePage"
+      }
+    ]
+    }
