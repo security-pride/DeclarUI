@@ -1,0 +1,24 @@
+The information I am providing to you now is about the page with Node id {node_id}. 
+# Component Types and Function Description
+{component_type}
+
+# Page Transition Graph (PTG)
+{PTG}
+
+# Complete App UI screenshot
+
+Note:
+Pay attention to the characteristics of declarative UI in the code:
+- Declarative Description: Describe the result of UI component rendering in the build function;
+- State-Driven View Update: Define state data with decorators like @State / @Link, use these state data for data rendering in UI components, and once the state data changes, the build function is re-invoked for rendering;
+During development, developers do not directly manipulate UI components but change the rendering state of UI components by modifying state data.
+- Pay attention to the proper inclusion of event methods in the code: Components can set the response logic for multiple events through chain calls, such as onClick() following a Button.
+- Please reflect appropriate instant effects in the code based on the function descriptions of each component, such as the camera icon corresponding to the action of opening the camera upon click.
+- If you need to use template strings in your code, please pay attention to the syntax of template strings: template literals are enclosed with backticks (`), not double quotes (") or single quotes ('). In addition to regular strings, template literals can also contain placeholders—embedded expressions delimited by a dollar sign and curly braces: ${{expression}}. The strings and placeholders are passed to a function (either the default function or a custom function). The default function (when no custom function is provided) simply performs string interpolation to replace the placeholders, and then concatenates these parts into a single string.
+To escape a backtick (`) within a template literal, you need to precede the backtick with a backslash (\).
+- Pay attention to the rational layout, and you can appropriately optimize the code to make the logic smoother.
+- Do not include NavigationContainer or any navigator setup, as these have already been defined in App.js.
+- Use React Native's built-in components and APIs wherever possible. Do not use any packages related to Expo. If you need to use the @expo/vector-icons package, please use the react-native-vector-icons package instead.
+- Use `StyleSheet.create` to define styles, rather than `StyleSheet.com.create` or any other variants.
+
+This component should be defined as `const {node_id}Screen` and exported at the end of the file using `export default {node_id}Screen`. You must consider the transition logic between pages based on the PTG. When navigating to another page in the code, ensure that the page name matches the node ID in the PTG. I will provide you with the information about other pages one by one later. You should return to me a piece of {UItype} code that implements component type descriptions and the transition logic between pages based on the PTG.Please strictly adhere to the component types and PTG to write a standardized {UItype} code.And the images within are represented by `../assets/snack-icon.png`.Imports an image using `require('../assets/snack-icon.png')` instead of `{{ uri: '../assets/snack-icon.png' }}`.Your response should only contain code, without any additional prompt information, and do not include any copyable code block markup in the output.

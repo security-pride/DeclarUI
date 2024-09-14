@@ -1,0 +1,45 @@
+Based on the provided Page Transition Graph (PTG), please create a main.dart file for a {UItype} application. The file should do the following:
+
+1. Import necessary packages and your screen files (HomeScreen.dart etc.).
+2. Define a main() function as the entry point of the application.
+3. Create a MyApp class that extends StatelessWidget.
+4. In the build method, return a MaterialApp widget, which is the root widget of the {UItype} application.
+5. Set basic properties like the app's title and theme.
+6. Set the home property to your home screen (HomeScreen()).
+
+Use the following structure as a guide:
+
+```dart
+import 'package:flutter/material.dart';
+import 'screens/HomeScreen.dart';
+import 'screens/Example1Screen.dart';
+import 'screens/Example2Screen.dart';
+
+void main() {{
+  runApp(MyApp());
+}}
+
+class MyApp extends StatelessWidget {{
+  @override
+  Widget build(BuildContext context) {{
+    return MaterialApp(
+      title: 'Your App Name',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      initialRoute:'HomeScreen',
+      routes:{{
+      'Example1': (context) => Example1Screen(),
+      'Example2': (context) => Example2Screen(),
+    }}
+    );
+  }}
+}}
+```
+
+Replace 'Your App Name' with an appropriate name for the application. The HomeScreen class should correspond to the initial page node in the PTG, and the HomeScreen.dart file should be located in a subdirectory (e.g., 'lib/screens/').
+
+Here's the PTG：
+{PTG}
+
+Your response should only contain the main.dart code, without any additional prompt information, and do not use code block markup. Ensure that the home screen set in the MaterialApp widget corresponds to the initial page in the PTG.

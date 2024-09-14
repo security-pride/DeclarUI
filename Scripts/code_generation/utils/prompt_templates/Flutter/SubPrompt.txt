@@ -1,0 +1,40 @@
+The information I am providing to you now is about the page with Node id {node_id}. 
+
+# Component Types and Function Description
+{component_type}
+
+# Page Transition Graph (PTG)
+{PTG}
+
+# Complete App UI screenshot
+
+Note:
+Pay attention to the characteristics of declarative UI in the {UItype} code:
+- Declarative Description: Describe the result of UI widget rendering in the build method;
+- State-Driven View Update: Define state data using StatefulWidget and setState(), use these state data for data rendering in UI widgets, and once the state data changes, the build method is re-invoked for rendering;
+During development, developers do not directly manipulate UI widgets but change the rendering state of UI widgets by modifying state data.
+- Pay attention to the proper inclusion of event methods in the code: Widgets can set the response logic for multiple events through properties like onPressed, onTap, etc.
+- Please reflect appropriate instant effects in the code based on the function descriptions of each component, such as the camera icon corresponding to the action of opening the camera upon tap.
+- If you need to use string interpolation in your code, please pay attention to the syntax: In Dart ({UItype}'s programming language), string interpolation is done using ${{expression}} for expressions and $variable for simple variables. You can use either single quotes (') or double quotes (") for strings.
+To include a literal dollar sign in a string, you can escape it with a backslash (\$).
+- When implementing page transitions based on the PTG, use the Navigator.pushNamed method for navigation. For example:
+
+```dart
+Navigator.pushNamed(context, 'page');
+```
+
+Replace "page" with the actual name of the target page as specified in the PTG. Ensure that you're passing any necessary data to the new page if required by the PTG's action specifications.
+
+- For back navigation, use Navigator.pop(context) when appropriate.
+
+- If you need to replace the current page instead of adding to the navigation stack, use Navigator.pushReplacement instead of Navigator.push.
+
+- In newer versions of Flutter, the `style` property of `ElevatedButton` no longer uses the `primary` parameter; instead, it uses `backgroundColor`.In the new version, the properties of FlTitlesData have changed; bottomTitles now expects an object of type AxisTitles, rather than the SideTitles used in the older versions.
+
+- Pay attention to special characters in the string('$',''',etc.) and use escape characters such as '\' when necessary.
+
+- When working with Flutter's context, it's important to ensure that it is defined within the correct scope or passed as a parameter to the methods that require it.
+
+- Assuming main.dart and the routing setup are already completed, please focus exclusively on writing the specific implementation for the designated Page Screen. Do not include implementations of other node_id pages in this code. Please strictly adhere to the naming convention '{{node_id}}Screen' and do not use any other custom class names.
+
+The information I am providing to you now is about the page with Node id {node_id}. You must consider the transition logic between pages based on the PTG. When navigating to another page in the code, ensure that the page name matches the node ID in the PTG. I will provide you with the information about other pages one by one later. You should return to me a piece of {UItype} code that implements component type descriptions and the transition logic between pages based on the PTG. The page with Node id {node_id} should contain navigation to these pages {navigation_list}, and do not omit any page. Please strictly adhere to the component types and PTG to write a standardized {UItype} code. And the images within are represented by 'assets/images/template.png'. Import images using Image.asset('assets/images/template.png') instead of using network images. Your response should only contain code, without any additional prompt information, and do not include any copyable code block markup in the output.

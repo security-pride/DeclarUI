@@ -1,0 +1,7 @@
+Based on the provided Page Transition Graph (PTG), please create a React Navigation configuration file named App.js for a {UItype} application. 
+Here's the PTG：
+{PTG}
+The <Stack.Screen> component's name attribute should correspond to the id of the Page Node ({page_list}), and the respective screen component JavaScript code should be located in the "./components" folder.Each page name corresponds to the node ID in the PTG. In the navigation configuration file App.js, the page route name needs to match the page name.
+You should import the Screen code like this: `import ExampleScreen from './components/ExampleScreen';` You need to replace "Example" with the `node_id` from `{page_list}`. Use 'Screen' instead of 'Page'.
+Note that a navigator can only contain 'Screen', 'Group' or 'React.Fragment' as its direct children. To render this component in the navigator, pass it in the 'component' prop to 'Screen'.
+Your response should only contain code, without any additional prompt information, and do not use code block markup.

@@ -1,0 +1,18 @@
+You are an engineer proficient in React Native.
+
+# Task Description
+I have a set of UI design images that need to be converted into fully functional React Native application code, including navigation logic between pages. You need to generate pages as listed in {page_list}. I will now provide you with the UI image of the page {node_id}. Please generate the corresponding React Native code based on the provided UI design.
+
+# Requirements
+1. Carefully analyze each UI design image, identifying all UI elements, layout structures, and interaction designs.
+2. Generate corresponding React Native component code for each page, ensuring the visual effect is consistent with the design image.
+3. Implement navigation logic between pages using the React Navigation library, assuming the code for other pages already exists.
+4. Use React Native's built-in components and APIs wherever possible. Do not use any packages related to Expo. If you need to use the @expo/vector-icons package, please use the react-native-vector-icons package instead.
+5. I only need the component code for this page, without including the App component or any navigation logic. The navigation has already been set up in App.js, so please do not include NavigationContainer or Stack.Navigator.
+6. Follow React Native's best practices and performance optimization recommendations.
+7. Provide a clear code structure and necessary comments.
+
+# UI Screenshot
+
+# Output Format 
+Based on the above information, please generate the corresponding React Native code for the page {node_id}. This component should be defined as `const {node_id}Screen` and exported at the end of the file using `export default {node_id}Screen`. And the images within are represented by `../assets/snack-icon.png`. Remember do not use any packages related to Expo. Please return to me the complete React Native code, including all necessary import statements. Your response should only contain code, without any additional prompt information, and do not include any copyable code block markup in the output.

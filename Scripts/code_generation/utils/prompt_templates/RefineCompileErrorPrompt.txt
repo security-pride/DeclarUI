@@ -1,0 +1,10 @@
+The code you provided in our previous conversation encountered some errors during execution, with the error messages as follows: 
+{compile_error_log}
+
+Here's the code for page {error_filename}:
+
+{error_code}
+
+The file with errors is {error_filename}, please focus on fixing this file. Please note that when fixing errors, make minimal changes, only modifying the necessary parts, and ensure that all previously implemented navigation logic and functionalities are preserved.
+
+Your output should start with @@@{error_filename}@@@ as the first line, followed by the modified code starting from the second line.Your response should only include the relevant code WITHOUT ANY ADDITIONAL PROMPT INFORMATION, and do not include any copyable code block markup in the output.
