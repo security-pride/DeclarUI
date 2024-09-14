@@ -1,0 +1,171 @@
+Component Keyword:
+This icon represents the "All Tools" section of the app, possibly leading to a comprehensive list of available features.
+@@@Icon@@@
+
+Component Keyword:
+This is likely a floating action button with a camera icon, allowing users to take a new photo or scan a document directly.
+@@@FloatingActionButton@@@
+
+Component Keyword:
+The text translates to "Quickly start scanning," indicating a prompt or guide for users to initiate a scanning action quickly.
+@@@Text@@@
+
+Component Keyword:
+This number is possibly a badge or counter, which could display notification counts or feature updates.
+@@@Container@@@
+
+Component Keyword:
+The icon with text "图片转TXT" translates to "Image to TXT," indicating a feature that converts images to text files.
+@@@Column@@@
+
+Component Keyword:
+This appears to be an avatar or profile picture placeholder, likely used for user identification or login sections.
+@@@CircleAvatar@@@
+
+Component Keyword:
+The icon with text "转Word" translates to "Convert to Word," suggesting a feature for converting documents to Word format.
+@@@Column@@@
+
+Component Keyword:
+This icon with text "首页" translates to "Home." It is part of the navigation bar, acting as a button to go back to the home screen.
+@@@BottomNavigationBarItem@@@
+
+Component Keyword:
+The text translates to "Login to view scans," serving as a prompt or button for login authentication, encouraging users to view or manage their scans.
+@@@Text@@@
+
+Component Keyword:
+An icon with a magnifying glass and text below it says "万物识别"
+This is an icon widget with a magnifying glass symbol followed by a text widget below it that reads "万物识别" (Translation: "Object Recognition"). This likely represents a button or shortcut that invokes an object recognition feature.
+@@@Column@@@
+
+Component Keyword:
+An icon with a yellow graphic related to images and text below it says "图像矫正"
+This component consists of an icon widget with an image-related illustration followed by a text widget below it that reads "图像矫正" (Translation: "Image Correction"). This is likely a button or feature for correcting images.
+@@@Column@@@
+
+Component Keyword:
+Unreadable grey text
+This is unreadable grey text that appears to be a text widget displaying supplementary information or instructions. Since the text is unreadable, its exact context cannot be ascertained.
+@@@Text@@@
+
+Component Keyword:
+An icon with a conference note and a pen, along with text saying "会议记录"
+This component comprises an icon widget with a graphic representing conference notes and a text widget below it that reads "会议记录" (Translation: "Meeting Minutes"). This is likely a shortcut to access features related to meeting records.
+@@@Column@@@
+
+Component Keyword:
+An icon with an "A" and translation arrows, accompanied by text saying "取词翻译"
+This component comprises an icon widget featuring an "A" with translation arrows and a text widget below it that says "取词翻译" (Translation: "Word Translation"). This is likely a button or shortcut that initiates a translation feature.
+@@@Column@@@
+
+Component Keyword:
+An icon of a folder with text next to it saying "文件管理"
+This is an icon widget with a folder graphic, followed by a text widget that reads "文件管理" (Translation: "File Management"). This can be used as a shortcut to access file management features.
+@@@Row@@@
+
+Component Keyword:
+A date and time in grey text, followed by file size
+This is a row of text widgets displaying the date and time in grey, followed by the file size. This can be part of a file information display.
+@@@Row@@@
+
+Component Keyword:
+Text in Chinese characters
+This is a text widget displaying Chinese characters. The exact content of the text cannot be determined from the image, but it likely represents a label or information text.
+@@@Text@@@
+
+Note: In these cases where icons and text are stacked or aligned, the most appropriate Flutter widget would typically be a `Column` if they are vertically stacked or a `Row` if they are horizontally aligned. Text widgets are used solely for displaying text content.
+Component Keyword:
+This is a button likely designed to initiate photo translation functionality within the app.
+@@@ElevatedButton@@@
+
+Component Function Description:
+This is an image widget displaying a thumbnail with the number of images in a badge, typically used to show a recent item with a count.
+@@@Stack@@@
+
+Component Keyword:
+This is a button representing a versatile scanning feature, likely providing multiple options for scanning documents or images.
+@@@ElevatedButton@@@
+
+Component Keyword:
+This is a button designed to import documents, typically allowing users to access files stored on their device.
+@@@OutlinedButton@@@
+
+Component Keyword:
+This is a button allowing users to take an ID photo, providing functionality for capturing and possibly processing identification images.
+@@@ElevatedButton@@@
+
+Component Keyword:
+This is a button to scan ID documents, likely providing functionality for capturing and processing identity documents.
+@@@ElevatedButton@@@
+
+Component Keyword:
+This is a button representing the WeChat import functionality, allowing users to import files or information directly from the WeChat app.
+@@@OutlinedButton@@@
+
+Component Keyword:
+This is a button for changing the background color of a photo to a specific standard, often used for processing ID photos.
+@@@ElevatedButton@@@
+
+Component Keyword:
+This is most likely a text label indicating the "Recent Use" section, providing a heading for recently used features or documents.
+@@@Text@@@
+Component Keyword:
+图片转PDF (Convert Image to PDF)
+This component likely represents a feature that allows users to convert images into PDF format.
+@@@Column@@@
+
+Component Keyword:
+相册导入 (Import from Album)
+This button allows users to import pictures from their photo albums.
+@@@TextButton@@@
+
+Component Keyword:
+去手写 (Remove Handwriting)
+This icon represents a feature that removes handwriting from images or documents.
+@@@Column@@@
+
+Component Keyword:
+提取表格 (Extract Table)
+This component is a feature that extracts tables from documents or images.
+@@@Column@@@
+
+Component Keyword:
+选择导入方式 (Choose Import Method)
+This text label indicates to users that they can select their preferred method for importing data.
+@@@Text@@@
+
+Component Keyword:
+文档变高清 (Enhance Document)
+This feature enhances document quality, possibly increasing clarity or resolution.
+@@@Column@@@
+
+Component Keyword:
+立即登录 (Log in Now)
+This button prompts users to log in or sign into the app.
+@@@ElevatedButton@@@
+
+Component Keyword:
+扫描会员 (Scan Member)
+This is a label indicating features related to members who can scan documents with additional privileges.
+@@@Column@@@
+
+Component Keyword:
+Refresh and Close buttons
+These icons likely function as refresh and close actions within the app.
+@@@Row@@@
+Component Keyword:
+This displays the app name in a large font, likely serving as the app title or logo.
+@@@Text@@@
+
+Component Keyword:
+This appears to be an icon label for "提取文字" which translates to "Extract Text," indicating a button for text extraction functionality.
+@@@Column@@@
+
+Component Keyword:
+This component consists of an icon and text "图片转Excel," which translates to "Image to Excel." It likely represents a button to perform image conversion to Excel files.
+@@@Column@@@
+
+Component Keyword:
+This displays an icon with text "记录屏幕," which translates to "Record Screen." This suggests a button to initiate screen recording.
+@@@Column@@@

@@ -1,0 +1,74 @@
+Exam button:
+This appears to be an option button indicating a category type for a task. Its background color and rounded corners suggest it is a customizable button.
+@@@ElevatedButton@@@
+
+Topic / Chapter Name entry:
+This is likely an entry field where users can input the topic or chapter name for a task.
+@@@TextField@@@
+
+Calendar icon:
+This serves as an icon to open a date picker or display a calendar.
+@@@Icon@@@
+
+Profile picture:
+This shows the user's profile picture which might be wrapped in a circular frame or similar widget.
+@@@CircleAvatar@@@
+
+Date label:
+This label shows the selected date for the task.
+@@@Text@@@
+
+Lab button:
+This appears to be an option button indicating another category type for a task with custom styling.
+@@@ElevatedButton@@@
+
+Add a task label:
+This is a text widget serving as the primary header of this screen.
+@@@Text@@@
+
+Category label:
+This is a text widget serving as a sub-header or label for the task categories section.
+@@@Text@@@
+Biology text:
+This component appears to be a row with an icon and text indicating a selected category or topic.
+@@@ListTile@@@
+
+Presentation button:
+This is a button that allows users to select the "Presentation" category, indicated by its color and label.
+@@@ElevatedButton@@@
+
+Class button:
+This is a button that allows users to select the "Class" category, indicated by its color and label with an icon.
+@@@ElevatedButton@@@
+
+Assignment button:
+This is a button that allows users to select the "Assignment" category, indicated by its color and label.
+@@@ElevatedButton@@@
+
+Clock icon:
+This is an icon likely indicating a time input or display component.
+@@@Icon@@@
+
+Lab button:
+This is a button that allows users to select the "Lab" category, indicated by its color and label.
+@@@ElevatedButton@@@
+
+Add Task button:
+This is a button that allows users to add a task, indicated by its label and prominent placement at the bottom.
+@@@ElevatedButton@@@
+
+Hello Liana text:
+This is a text widget welcoming the user, likely placed as part of a greeting at the top of the screen.
+@@@Text@@@
+
+Class button with check icon:
+This is a button that allows users to select the "Class" category, indicated by its color and label with a check icon.
+@@@ElevatedButton@@@
+
+Home, Tasks, Classroom, Chat icons:
+These are tab navigation items that switch the view to different sections of the app such as Home, Tasks, Classroom, and Chat.
+@@@BottomNavigationBar@@@
+
+09:30 AM:
+This is a time display, which could be part of a DateTime picker or just a label. It displays a specific time set by the user.
+@@@Text@@@

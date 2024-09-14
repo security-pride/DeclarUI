@@ -1,0 +1,93 @@
+Star rating and "4.80" text:
+This is a `Text` component. It displays the overall rating of the accommodation.
+@@@Text Functional Component@@@
+
+"房客推荐" (Recommended by Guests) icon:
+This is a `View` component. It encapsulates the recommended by guests textual description and the corresponding icon.
+@@@View Function Component@@@
+
+"5 条评价" (5 Reviews) text:
+This is a `Text` component. It indicates the number of reviews received.
+@@@Text Functional Component@@@
+
+"这个房源很抢手" (This property is in high demand) text:
+This is a `Text` component. It emphasizes that the property is popular among users.
+@@@Text Functional Component@@@
+
+"无线网络" (WiFi) text:
+This is a `Text` component. It mentions one of the amenities available at the property.
+@@@Text Functional Component@@@
+
+Back arrow icon:
+This is a `Button` component. It allows users to navigate back to the previous screen.
+@@@Button@@@
+
+Price and dates text:
+This is a `Text` component. It shows the cost per night and the available booking dates.
+@@@Text Functional Component@@@
+
+"预订" (Book) button: 
+This is a `Button` component. It enables users to book the accommodation.
+@@@Button@@@
+
+Upload icon:
+This is a `Button` component. It likely allows users to share the accommodation listing.
+@@@Button@@@
+
+"入住便捷" (Convenient check-in) text:
+This is a `Text` component. It summarizes a significant feature of the accommodation.
+@@@Text Functional Component@@@
+Medal icon:
+This is an Image component. It represents an icon, possibly for an award or achievement.
+@@@Function Component@@@
+
+Image count label "1/52":
+This is a Text component. It shows the current image index out of the total number of images in a gallery.
+@@@Text Functional Component@@@
+
+Gem icon:
+This is an Image component. It indicates a premium or special offer.
+@@@Function Component@@@
+
+Cancellation policy text:
+This is a Text component. It shows the cancellation policy for the booking.
+@@@Text Functional Component@@@
+
+Heart icon:
+This is a Button component. It might be used to add the item to a favorites list.
+@@@Button@@@
+
+Listing title:
+This is a Text component. It displays the title of the listing.
+@@@Text Functional Component@@@
+
+Calendar icon:
+This is an Image component. It represents an icon for dates or a calendar.
+@@@Function Component@@@
+
+Wi-Fi icon:
+This is an Image component. It represents an icon for Wi-Fi availability.
+@@@Function Component@@@
+
+Sea view accommodation text:
+This is a Text component. It provides details about the type of accommodation (sea view).
+@@@Text Functional Component@@@
+位置极佳 (Excellent Location):
+This is a Text component. It likely indicates that the location of the accommodation is highly rated or has an excellent location.
+@@@Text Functional Component@@@
+
+Location icon:
+This is an Image Function Component. It serves as an icon to visually represent the location feature.
+@@@Function Component@@@
+
+Seaview lodging icon:
+This is an Image Function Component. It visually indicates that the lodging offers a view of the sea.
+@@@Function Component@@@
+
+Key icon:
+This is an Image Function Component. It likely symbolizes the ease of check-in or the key amenities provided.
+@@@Function Component@@@
+
+超赞房东 (Superhost):
+This is a Text component. It indicates that the host has received excellent reviews and is recognized as a Superhost.
+@@@Text Functional Component@@@

@@ -1,0 +1,108 @@
+Component Keyword:
+This text translates to "Notification Management", indicating a section in the app for managing notifications.
+@@@arkTSText@@@
+
+Component Keyword:
+A right chevron button commonly used in apps to indicate navigation to another screen or detailed view.
+@@@arkTSIcon@@@
+
+Component Keyword:
+This text translates to "Log in and join the community", likely a prompt for users to log in to access community features.
+@@@arkTSText@@@
+
+Component Keyword:
+An icon depicting a mobile phone, probably related to settings or notifications for the mobile device.
+@@@arkTSIcon@@@
+
+Component Keyword:
+This text translates to "Notification with Image", indicating a feature for enabling or managing notifications that include images.
+@@@arkTSText@@@
+
+Component Keyword:
+This text translates to "Vibration Alert", indicating a setting for enabling or managing vibration alerts.
+@@@arkTSText@@@
+
+Component Keyword:
+A right chevron button commonly used in apps to indicate navigation to another screen or detailed view.
+@@@arkTSIcon@@@
+
+Component Keyword:
+An icon of a bell indicating a notification or alert feature.
+@@@arkTSIcon@@@
+
+Component Keyword:
+An icon commonly used for translation or language settings.
+@@@arkTSIcon@@@
+Back arrow:
+This component acts as a navigation button, allowing users to go back to the previous screen.
+@@@arkTSButton@@@
+
+"话题" (Topic) label:
+This is a text label indicating a section related to topics.
+@@@arkTSText@@@
+
+"改变国家" (Change Country) label:
+This is a text label that likely represents a menu item for changing the country setting.
+@@@arkTSText@@@
+
+"设置" (Settings) label:
+This text label indicates the settings section of the app.
+@@@arkTSText@@@
+
+"通知声音" (Notification Sound) label:
+This text label indicates a settings option related to notification sounds.
+@@@arkTSText@@@
+
+Right arrow:
+This component likely represents a navigational arrow button, guiding users to more information or detail.
+@@@arkTSButton@@@
+
+Profile placeholder:
+This image serves as a placeholder or default icon for a user profile picture.
+@@@arkTSImage@@@
+
+"来源管理" (Source Management) label:
+This is a text label indicating a section for managing sources.
+@@@arkTSText@@@
+
+"3G" indicator:
+This text indicator shows the network connectivity status of the device.
+@@@arkTSText@@@
+Component Keyword:
+This is a section header that likely indicates a category of content.
+@@@arkTSText@@@
+
+Component Keyword:
+This is an icon that likely represents an external storage option, such as a memory card.
+@@@arkTSIcon@@@
+
+Component Keyword:
+This is a bell icon, likely used for notifications or alerts.
+@@@arkTSIcon@@@
+
+Component Keyword:
+This is a horizontal divider line, often used to separate sections.
+@@@arkTSDivider@@@
+
+Component Keyword:
+This is a section header that likely indicates a category for messages.
+@@@arkTSText@@@
+
+Component Keyword:
+This is an icon possibly representing a network or sources management feature.
+@@@arkTSIcon@@@
+
+Component Keyword:
+This is a time display, which shows the current time.
+@@@arkTSText@@@
+
+Component Keyword:
+This is a navigation arrow, commonly used to indicate more details or to proceed.
+@@@arkTSButton@@@
+
+Component Keyword:
+This is a toggle switch, used to enable or disable a setting.
+@@@arkTSSwitch@@@
+Register button:
+This is a clickable button that likely allows the user to register an account or sign up within the app.
+@@@arkTSButton@@@

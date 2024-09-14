@@ -1,0 +1,39 @@
+组件关键词:
+"持续时间" (Duration) 标签:
+This is a Text Functional Component. It's a label that indicates the duration of the sound or session.
+@@@Text Functional Component@@@
+
+锁图标:
+This is a Button component. It's likely a button representing premium or locked content that requires user action to unlock.
+@@@Button@@@
+
+"试用 PREMIUM" (Try Premium) 按钮:
+This is a TouchableOpacity Function Component. It's a clickable button that likely initiates a free trial or subscription for premium features.
+@@@TouchableOpacity Function Component@@@
+
+"leaves." 文字:
+This is a Text Functional Component. It's a part of the descriptive text providing details about the content.
+@@@Text Functional Component@@@
+
+"用心" (Mindful) 标签:
+This is a Text Functional Component. It describes the category or intention behind the content.
+@@@Text Functional Component@@@
+
+Calm 图标:
+This is an Image component. It likely serves as a logo or branding element for the application.
+@@@Function Component@@@
+
+描述性文字 ("Relax with ease..."):
+This is a Text Functional Component. It provides additional information or description about the content.
+@@@Text Functional Component@@@
+
+"Nature rain on leaves" 标题:
+This is a Text Functional Component. It serves as the title or header for the content displayed.
+@@@Text Functional Component@@@
+
+"45" 数字:
+This is a Text Functional Component. It displays the duration of the content, indicating "45 minutes."
+@@@Text Functional Component@@@
+Clock icon:
+This is a Function Component. It's likely used to represent the duration or time-related functionality in the app, such as the duration of the rain sound.
+@@@Function Component@@@

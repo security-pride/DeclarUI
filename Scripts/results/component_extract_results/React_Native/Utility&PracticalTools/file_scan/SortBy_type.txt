@@ -1,0 +1,140 @@
+9:41 AM:
+This is a Text component. It displays the current system time.
+@@@Text Functional Component@@@
+
+Signal strength icon:
+This is an Image component. It represents the signal strength of the mobile network.
+@@@Function Component@@@
+
+Wi-Fi icon:
+This is an Image component. It indicates the Wi-Fi connection status.
+@@@Function Component@@@
+
+Battery icon:
+This is an Image component. It represents the battery status of the device.
+@@@Function Component@@@
+
+"scany" logo:
+This is an Image component. It shows the logo of the application.
+@@@Function Component@@@
+
+Search bar:
+This is a TextInput component. It allows users to enter text to search for files.
+@@@TextInput@@@
+
+Folder icons:
+These are Image components. They represent different folders or categories of scanned documents.
+@@@Function Component@@@
+
+"See All" link:
+This is a Pressable component. It allows users to navigate to a screen where they can see all their scanned documents.
+@@@Pressable@@@
+
+"Personal", "Official", "Others" labels:
+These are Text components. They label the different categories of scanned documents.
+@@@Text Functional Component@@@
+
+Number of items in each category:
+These are Text components. They display the number of items in each category of scanned documents.
+@@@Text Functional Component@@@
+
+Document preview image:
+This is an Image component. It provides a preview of a scanned document.
+@@@Function Component@@@
+
+"Address proof" label:
+This is a Text component. It labels the specific scanned document.
+@@@Text Functional Component@@@
+
+Date and time of scan:
+These are Text components. They display the date and time when a document was scanned.
+@@@Text Functional Component@@@
+
+Sort options:
+These are Text components. They represent different sorting options for the scanned documents.
+@@@Text Functional Component@@@
+
+Sort radio buttons:
+These are Pressable components. They allow users to select a sorting option.
+@@@Pressable@@@
+
+Sort modal:
+This is a Modal component. It provides a user interface for sorting the scanned documents.
+@@@Modal@@@
+Official folder icon:
+This is a Function Component. It is used to represent a folder category within the app.
+@@@Function Component@@@
+
+Recent scans label:
+This is a Text Functional Component. It describes the section where recent scans are displayed.
+@@@Text Functional Component@@@
+
+Radio button:
+This is a Button component. It enables the user to select an option within the sorting functionality.
+@@@Button@@@
+
+Document thumbnail:
+This is an ImageBackground component. It displays a thumbnail of a scanned document.
+@@@ImageBackground@@@
+
+Official label:
+This is a Text Functional Component. It describes the folder category as "Official."
+@@@Text Functional Component@@@
+
+Scaney logo:
+This is a Function Component. It represents the app's branding logo at the top of the screen.
+@@@Function Component@@@
+
+Folder and refresh icons:
+This is a Button component. The folder icon is likely for file operations, and the refresh icon for reloading content.
+@@@Button@@@
+
+Blue folder icon:
+This is a Function Component. It visually represents a subcategory or a specific type of folder.
+@@@Function Component@@@
+
+Hamburger menu icon:
+This is a Button component. It opens the navigation drawer or menu when pressed.
+@@@Button@@@
+Document image:
+This is a Function Component. It likely displays a preview or thumbnail of a document that has been scanned.
+@@@Function Component@@@
+
+Search bar:
+This is a TextInput component. It allows users to type in queries to search for their files.
+@@@TextInput@@@
+
+"By name A - Z" label:
+This is a Text Functional Component. It indicates one of the sorting options in the sort menu, allowing users to sort items from A to Z.
+@@@Text Functional Component@@@
+
+"See All" label:
+This is a Text Functional Component. It likely serves as a button to view all items in a given category.
+@@@Text Functional Component@@@
+
+"12:21 PM" label:
+This is a Text Functional Component. It likely displays the timestamp of when a document was scanned or added.
+@@@Text Functional Component@@@
+
+Folder icon:
+This is a Function Component. It depicts a folder and is likely used to represent different categories of scanned documents.
+@@@Function Component@@@
+
+"Others" label:
+This is a Text Functional Component. It labels the folder or section that contains various types of scanned documents.
+@@@Text Functional Component@@@
+
+Folder icon (Personal):
+This is a Function Component. It depicts a folder and is likely used to represent the Personal category of scanned documents.
+@@@Function Component@@@
+
+"By name Z - A" label:
+This is a Text Functional Component. It indicates one of the sorting options in the sort menu, allowing users to sort items from Z to A.
+@@@Text Functional Component@@@
+My Scans:
+This is a Text Functional Component. It is a header that presents the section for the user's scanned documents.
+@@@Text Functional Component@@@
+
+Folder icon:
+This is likely an Image Functional Component. It represents a folder containing the user's categorized scans.
+@@@Function Component@@@

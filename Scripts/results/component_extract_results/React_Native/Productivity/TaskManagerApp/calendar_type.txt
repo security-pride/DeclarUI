@@ -1,0 +1,112 @@
+Component Keyword:
+"02:00 PM" label:
+This is a Text Functional Component. It denotes the time for an event.
+@@@Text Functional Component@@@
+
+Component Keyword:
+"Dashboard redesign" task card:
+This is a View Function Component. It displays a task with its scheduled time, progress, and a menu option.
+@@@View Function Component@@@
+
+Component Keyword:
+"03:00 PM" label:
+This is a Text Functional Component. It denotes the time for an event.
+@@@Text Functional Component@@@
+
+Component Keyword:
+"February 2022" calendar:
+This is a View Function Component. It shows a calendar month view, allowing users to select dates.
+@@@View Function Component@@@
+
+Component Keyword:
+Profile image:
+This is an Image component. It displays the user's profile picture.
+@@@Function Component@@@
+
+Component Keyword:
+"11AM-01PM" task time and progress bar:
+This is a View Function Component. It displays the task timing and a progress bar representing task completion.
+@@@View Function Component@@@
+
+Component Keyword:
+"All" tab with options for "Ongoing" and "Completed":
+This is a Button component. It likely allows users to filter tasks based on their status.
+@@@Button@@@
+
+Component Keyword:
+"9:41" time indicator:
+This is a Text Functional Component. It shows the current time, usually in the status bar.
+@@@Text Functional Component@@@
+
+
+Component Keyword:
+"01:00 PM" image:
+This is a Text functional component. It represents the displayed time for a schedule item.
+@@@Text Functional Component@@@
+
+Component Keyword:
+"Today" image:
+This is a Text functional component. It is used to display the current day for the tasks.
+@@@Text Functional Component@@@
+
+Component Keyword:
+Date in the calendar image:
+This is a Text functional component. It displays the current selected date in the calendar view.
+@@@Text Functional Component@@@
+
+Component Keyword:
+Calendar icon image:
+This is a Function Component. It represents a calendar icon, likely used for navigating or interacting with the calendar.
+@@@Function Component@@@
+
+Component Keyword:
+Wi-Fi icon image:
+This is a Function Component. It represents the Wi-Fi status in the status bar.
+@@@Function Component@@@
+
+Component Keyword:
+"s Task" image:
+This is a Text functional component. It displays part of the screen title for user's tasks.
+@@@Text Functional Component@@@
+
+Component Keyword:
+Home icon image:
+This is a Function Component. It is used to navigate to the home view within the app.
+@@@Function Component@@@
+
+Component Keyword:
+Bell icon image:
+This is a Function Component. It is likely used to show notifications.
+@@@Function Component@@@
+
+Component Keyword:
+Plus icon image:
+This is a Button. It is used as a primary action button, possibly for adding a new task.
+@@@Button@@@
+10:00 AM:
+This is a Text component that displays the time for a scheduled task or event.
+@@@Text Functional Component@@@
+
+Signal strength icon:
+This is an Image component that likely indicates the signal strength of the device's network connection.
+@@@Function Component@@@
+
+11:00 AM:
+This is a Text component that displays the time for a scheduled task or event.
+@@@Text Functional Component@@@
+
+Settings gear icon:
+This is an Image component representing a settings icon. It likely allows users to navigate to the settings menu.
+@@@Function Component@@@
+
+Landing page design task card:
+This is a View Function Component that displays task information, including the task name, time, and completion status.
+@@@View Function Component@@@
+
+Education app design task card:
+This is a View Function Component that displays task information, including the task name, time, and completion status.
+@@@View Function Component@@@
+
+09:00 AM:
+This is a Text component that displays the time for a scheduled task or event.
+@@@Text Functional Component@@@

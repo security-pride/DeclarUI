@@ -1,0 +1,101 @@
+消息 (message) icon:
+This is a Button component. It provides navigation to the messaging or chat section of the app, likely to read and send messages.
+@@@Button@@@
+
+狂暑季 MEDMXEVA 联名 label with price:
+This is a Text Functional Component. It displays details about a specific product, including its name, promotional price, and discount information.
+@@@Text Functional Component@@@
+
+Black t-shirt image:
+This is an Image Function Component. It displays a visual representation of a product, in this case, a T-shirt.
+@@@Function Component@@@
+
+Category icons with text labels:
+This is a View Function Component. It groups and displays different category icons along with their labels for navigation purposes within the application.
+@@@View Function Component@@@
+
+居家 label:
+This is a Text component. It represents a category label, likely used for filtering products related to home needs.
+@@@Text Functional Component@@@
+
+Search bar with camera icon and 搜索 button:
+This is a View Function Component. It represents the search bar, including a TextInput for entering search queries, a Button for initiating the search, and an icon button for additional search functionalities.
+@@@View Function Component@@@
+
+Multiple product images with prices and discount timer:
+This is a View Function Component. It displays multiple product images along with their prices and a countdown timer for limited-time deals.
+@@@View Function Component@@@
+
+推荐 (recommend) label:
+This is a Text Functional Component. It represents a category or section header to highlight recommended items for the user.
+@@@Text Functional Component@@@
+
+数码 (digital) label:
+This is a Text Functional Component. It indicates the category for digital products.
+@@@Text Functional Component@@@
+Scan icon:
+This is an Image component likely used as a button for initiating a barcode or QR code scan feature.
+@@@Function Component@@@
+
+Product image with phone case:
+This is an Image component displaying a product image, likely used to showcase items for sale.
+@@@Function Component@@@
+
+"穿搭" label:
+This is a Text component, representing a category or filter in the app, which could be related to fashion.
+@@@Text Functional Component@@@
+
+"淘宝直播" section:
+This is a View component containing various elements and options related to Taobao Live, a streaming feature.
+@@@View Function Component@@@
+
+Video play icon with "逛逛" label:
+This is a View component containing a play icon and text, likely used to navigate to a page with videos or media content.
+@@@View Function Component@@@
+
+Product image of a black T-shirt:
+This is an Image component displaying a product image, likely used to showcase items for sale.
+@@@Function Component@@@
+
+Product image of a white long sleeve:
+This is an Image component displaying a product image, likely used to showcase items for sale.
+@@@Function Component@@@
+
+"狂暑季" label:
+This is a Text component used to label a category or event in the app, which might be related to a sales event.
+@@@Text Functional Component@@@
+
+"关注" label:
+This is a Text component, likely indicating a follow or subscription feature within the app.
+@@@Text Functional Component@@@
+潮流男装 热卖好店上新:
+This is a Text Functional Component. It indicates that the clothing item shown is part of a trendy men's fashion collection currently popular in the store.
+@@@Text Functional Component@@@
+
+Sweatshirt with robot design:
+This is an Image Function Component. It displays the product image for a sweatshirt featuring a robot design, helping users to visualize the item they may want to purchase.
+@@@Function Component@@@
+
+"明日香EVA动漫水洗做 ¥536":
+This is a Text Functional Component. It provides information about the product, including the name, price, and the number of people who have purchased it.
+@@@Text Functional Component@@@
+
+"小时达":
+This is a Text Functional Component. It appears to be part of the app's menu or category listing, likely representing a feature or service related to fast delivery.
+@@@Text Functional Component@@@
+
+"Sandal with 'zettarang' label":
+This is an Image Function Component. It shows the product image for a sandal with a 'zettarang' label, likely used to attract the user's interest in this footwear item.
+@@@Function Component@@@
+
+淘宝 (Taobao) icon:
+This is an Image Function Component. The blue circular icon with Chinese character likely represents a link to the main Taobao homepage or tab.
+@@@Function Component@@@
+
+"Sandal product image":
+This is an Image Function Component. It displays a product image for a sandal being held, allowing users to have a closer look at the product details.
+@@@Function Component@@@
+
+Cart, Message, and Home Icons:
+These are likely Pressable components. These icons are part of the app's bottom navigation bar, enabling users to quickly access messaging, their shopping cart, and the home screen.
+@@@Pressable@@@

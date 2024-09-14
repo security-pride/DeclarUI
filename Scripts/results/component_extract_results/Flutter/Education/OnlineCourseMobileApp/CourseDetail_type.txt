@@ -1,0 +1,162 @@
+Lock icon button:
+This is an icon button that likely serves as a lock feature, indicating the lesson is locked.
+@@@IconButton@@@
+
+Calendar icon:
+This appears to be an icon representing a calendar, indicating the date and time of the lesson.
+@@@Icon@@@
+
+Clock text:
+This shows the current time in text form.
+@@@Text@@@
+
+Lesson title text:
+This is a text label indicating the title and name of the lesson.
+@@@Text@@@
+
+Network bar:
+This represents the network signal strength indicator.
+@@@Icon@@@
+
+Instructor name and rating:
+This part displays both the instructor's name and their rating for the course.
+@@@Row@@@
+
+Course title text:
+This is the course title displayed at the top of the page.
+@@@Text@@@
+
+Wi-Fi icon:
+This icon indicates the Wi-Fi connection signal strength.
+@@@Icon@@@
+
+Course banner with label:
+This is an image with a textual label describing the course, likely using a combination of Image and Text widgets.
+@@@Stack@@@
+GRAPICS DESIGN banner:
+This is a container with a background image and text displaying the course title "GRAPICS DESIGN".
+@@@Container@@@
+
+Graphics Design Introduction item:
+This list item contains a title, time duration, and an action button, indicating it represents a lesson item within a list.
+@@@ListTile@@@
+
+Reviews label:
+This is a text element serving as a tab label for navigating to the reviews section.
+@@@Text@@@
+
+Rating value:
+This is a text element displaying the rating value and the number of reviews, likely located beside a star icon.
+@@@Text@@@
+
+Lessons label:
+This is a text element serving as a tab label for navigating to the lessons section.
+@@@Text@@@
+
+Buy button:
+This is a button that allows users to purchase the course.
+@@@ElevatedButton@@@
+
+Signal strength icon:
+This is an icon indicating the signal strength of the network connection.
+@@@Icon@@@
+
+Player control icon:
+This is an icon indicating controls like play/pause for media.
+@@@Icon@@@
+
+Time label:
+This is a text element displaying the time "12:34".
+@@@Text@@@
+## Component Images & Descriptions
+
+### Component 1
+![Component 1](https://i.imgur.com/xFrxVRA.png)
+Component Function Description:
+This is an icon of a helmet, potentially representing a category or feature related to graphics design.
+@@@Icon@@@
+
+### Component 2
+![Component 2](https://i.imgur.com/eYkxRPv.png)
+Component Function Description:
+This is a label for "GRAPICS DESIGN," indicating the category or subject of the course.
+@@@Text@@@
+
+### Component 3
+![Component 3](https://i.imgur.com/Z68koZZ.png)
+Component Function Description:
+This text represents the title of the course, providing users with the name and topic of the course.
+@@@Text@@@
+
+### Component 4
+![Component 4](https://i.imgur.com/sd0KxVz.png)
+Component Function Description:
+This is the back arrow icon used to navigate to the previous screen.
+@@@IconButton@@@
+
+### Component 5
+![Component 5](https://i.imgur.com/FswPfhF.png)
+Component Function Description:
+This is a vertical ellipsis icon often used to indicate additional options or settings.
+@@@IconButton@@@
+
+### Component 6
+![Component 6](https://i.imgur.com/DuHHltu.png)
+Component Function Description:
+This represents the instructor's profile picture, providing visual identification for the user.
+@@@CircleAvatar@@@
+
+### Component 7
+![Component 7](https://i.imgur.com/9yuBeS9.png)
+Component Function Description:
+This text displays the instructor's name.
+@@@Text@@@
+
+### Component 8
+![Component 8](https://i.imgur.com/6Q5INGS.png)
+Component Function Description:
+This is a star icon typically used to indicate the rating of the course.
+@@@Icon@@@
+
+### Component 9
+![Component 9](https://i.imgur.com/2JTi7lf.png)
+Component Function Description:
+This text shows the rating and the number of reviews or ratings the course has received.
+@@@Text@@@
+
+### Component 10
+![Component 10](https://i.imgur.com/BHHp7ig.png)
+Component Function Description:
+This is the play icon button, which usually indicates the ability to start or play a lesson within the course.
+@@@IconButton@@@
+
+### Component 11
+![Component 11](https://i.imgur.com/80y6uSm.png)
+Component Function Description:
+This is a clock icon, typically used to show the duration or time associated with a lesson.
+@@@Icon@@@
+
+### Component 12
+![Component 12](https://i.imgur.com/cH1p8CZ.png)
+Component Function Description:
+This is the lock icon, likely indicating that the lesson is locked or not yet accessible.
+@@@Icon@@@
+
+### Component 13
+![Component 13](https://i.imgur.com/N0hOVHd.png)
+Component Function Description:
+This text displays the title of a lesson within the course, in this case, "Graphics Design Introduction."
+@@@Text@@@
+
+### Component 14
+![Component 14](https://i.imgur.com/UvQ82Wp.png)
+Component Function Description:
+This text shows the duration of the lesson.
+@@@Text@@@
+
+### Component 15
+![Component 15](https://i.imgur.com/CgektKa.png)
+Component Function Description:
+This is the "Buy" button, allowing users to purchase the course. It includes a label and an arrow icon to indicate action.
+@@@ElevatedButton@@@
+

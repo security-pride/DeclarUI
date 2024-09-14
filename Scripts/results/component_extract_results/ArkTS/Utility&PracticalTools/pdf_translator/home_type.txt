@@ -1,0 +1,66 @@
+Clock display:
+This is a digital clock display showing the current time on the mobile device.
+@@@arkTSClock@@@
+
+File list item:
+This component represents a list item displaying a file icon, file name, date, and size. It is used in lists showing available files.
+@@@arkTSListItem@@@
+
+Menu icon:
+This component depicts a menu icon often used to open a navigation drawer or menu with various options.
+@@@arkTSIcon@@@
+
+Add button:
+This floating action button (FAB) is used for adding new items, such as uploading new files or creating new documents.
+@@@arkTSFAB@@@
+
+Single file list item:
+This is the same as the previous file list item and represents a list item displaying a file with details such as its icon, name, date, and size.
+@@@arkTSListItem@@@
+
+Header with search and menu:
+A header displaying the app title ("PDF file management") along with search and menu icons. The search icon typically opens a search bar, and the menu icon opens a menu.
+@@@arkTSAppBar@@@
+
+App title:
+This component displays the title of the app section, indicating the purpose of the screen (e.g., "PDF file management").
+@@@arkTSTitle@@@
+
+Action menu icon:
+This icon generally provides an option to show more actions related to a specific item, typically displayed as three vertical dots.
+@@@arkTSIcon@@@
+
+Single file list item:
+This is a repetition of the file list item displaying a file icon, file name, date, and size.
+@@@arkTSListItem@@@
+PDF file item:
+This component represents a list item depicting a PDF file with its name, date, size, and an options menu for further actions.
+@@@arkTSListItem@@@
+
+Add PDF button:
+This is a floating action button with a plus sign. It likely allows users to add a new PDF to the list.
+@@@arkTSFAB@@@
+
+Search icon:
+This is a search icon, presumably to allow users to search for specific PDF files within the app.
+@@@arkTSIcon@@@
+
+Options menu icon:
+This is an options menu icon with three vertical dots, allowing users to perform additional actions or settings for a file.
+@@@arkTSIcon@@@
+
+PDF label:
+This is a PDF label indicating the type of file. It is likely an icon that visually represents the file type.
+@@@arkTSImage@@@
+
+File name and date:
+This is a text label displaying the name of the file, the date it was added, and the file size.
+@@@arkTSText@@@
+
+Header text:
+This is the header text "PDF file management" which indicates the section or purpose of the screen.
+@@@arkTSText@@@
+
+Menu icon:
+This is a menu icon with three horizontal lines, typically used to open a navigation drawer or settings menu.
+@@@arkTSIcon@@@

@@ -1,0 +1,86 @@
+Person icon in a circle:
+This is an Image component. It likely represents a graphical icon within the app, potentially indicating a user profile or account section.
+@@@Function Component@@@
+
+Person icon outline:
+This is an Image component. It serves as a minimalistic, outlined person icon, possibly used for representing user information or profiles.
+@@@Function Component@@@
+
+Dreaming of your first home? label:
+This is a Text component. It's likely used to provide users with a promotional message or important information relating to a service or product offered by the app.
+@@@Text Functional Component@@@
+
+Wallet icon in a circle:
+This is an Image component. It represents finance-related actions or information, such as accessing monetary transactions or wallet.
+@@@Function Component@@@
+
+Mobile PINsentry icon:
+This is an Image component. It is probably used to represent a security feature for secure mobile login or transaction verification.
+@@@Function Component@@@
+
+Student Additions label:
+This is a Text component. It's likely used to describe a category or product specifically designed for students within the app.
+@@@Text Functional Component@@@
+
+Pay & Transfer icon:
+This is an Image component. It indicates a section of the app where users can make payments or transfer money.
+@@@Function Component@@@
+
+Help icon:
+This is an Image component. It represents the help section where users can find assistance or support for the app.
+@@@Function Component@@@
+
+Accounts icon:
+This is an Image component. It signifies an accounts section, possibly where users can view and manage their bank accounts.
+@@@Function Component@@@
+
+Miss Muyi Li:
+This is a Text functional component. It displays the name of the user.
+@@@Text Functional Component@@@
+
+Card icon:
+This is an Image component. It represents an icon for the "Your cards" feature.
+@@@Function Component@@@
+
+Your cards label:
+This is a Text functional component. It labels the "Your cards" icon.
+@@@Text Functional Component@@@
+
+Living more sustainably:
+This is a Text functional component. It serves as a section header to introduce content related to sustainable living.
+@@@Text Functional Component@@@
+
+Help icon:
+This is an Image component. It represents a help feature that users can tap to get assistance.
+@@@Function Component@@@
+
+More label:
+This is a Text functional component. It labels the "More" icon which likely opens additional options.
+@@@Text Functional Component@@@
+
+PINsentry icon:
+This is an Image component. It represents the "Mobile PINsentry" feature.
+@@@Function Component@@@
+
+Available balance:
+This is a Text functional component. It displays the available bank balance details.
+@@@Text Functional Component@@@
+
+Spending icon:
+This is an Image component. It represents the "Spending" feature.
+@@@Function Component@@@
+Arrow icon:
+This is a Pressable component. It likely allows users to navigate to more detailed information regarding the content it's associated with, in this case, a promotional banner or additional details.
+@@@Pressable@@@
+
+Circle with person icon:
+This is an ImageBackground component. It visually represents the user rewards or profile feature within the app.
+@@@ImageBackground@@@
+
+Notification bell icon:
+This is an Image component. It indicates the notifications feature in the app, where users can view messages or alerts.
+@@@Function Component@@@
+
+Products icon:
+This is an ImageBackground component. It visually represents the products section in the bottom navigation bar of the app.
+@@@ImageBackground@@@

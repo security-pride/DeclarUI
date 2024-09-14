@@ -1,0 +1,89 @@
+Medium button (filled orange):
+This indicates a selected or active category tag, likely used for filtering content.
+@@@arkTSButton@@@
+
+Battery icon:
+This likely represents the device's current battery status, commonly found in the status bar.
+@@@arkTSIcon@@@
+
+Popular button (outlined orange):
+An unselected category tag used for filtering different sets of items.
+@@@arkTSButton@@@
+
+Signal strength icon:
+This icon typically indicates the current level of network connectivity.
+@@@arkTSIcon@@@
+
+3D Design Fundamentals card:
+This promotional card highlights specific content, and includes a call-to-action button.
+@@@arkTSCard@@@
+
+Home button (text):
+A navigation button, usually used to return to the main screen of the app.
+@@@arkTSButton@@@
+
+Search text:
+This serves as a label or prompt for a search input field, encouraging users to enter search terms.
+@@@arkTSText@@@
+
+Medium button (outlined orange):
+An unselected category tag, used for filtering or sorting content in the app.
+@@@arkTSButton@@@
+
+Characters Animation text:
+This is a label indicating the title of a specific item or course within the app.
+@@@arkTSText@@@
+See all:
+This is a text link that likely navigates the user to another screen displaying more items or content.
+@@@arkTSButton@@@
+
+Hello, Daniel !:
+This is a personalized greeting label showing the user's name and welcoming them to the app.
+@@@arkTSText@@@
+
+Profile icon with text:
+This is an icon alongside a text label, likely representing the user profile section.
+@@@arkTSIcon@@@
+
+Promotion:
+This is a text label heading indicating a section that likely displays special offers or promotions.
+@@@arkTSText@@@
+
+Favorite icon (heart):
+This is an icon used for marking items as favorites or to like them.
+@@@arkTSIcon@@@
+
+Course card (Characters Animation):
+This is a card component displaying course information, including the title, number of lessons, rating, and price.
+@@@arkTSCard@@@
+
+Filter icon:
+This is an icon representing filtering options, likely used to sort or filter items shown.
+@@@arkTSIcon@@@
+
+Awesome Courses:
+This is a text label indicating a section that lists featured or highlighted courses.
+@@@arkTSText@@@
+Component Keyword:
+This component shows specific course details such as the course name, number of lessons, rating, and price.
+@@@arkTSCard@@@
+
+Navigation bar:
+This is a navigation bar with different icons representing different sections of the app such as Home, List, Messages, and Profile.
+@@@arkTSNavigationBar@@@
+
+Category button "Medium":
+This is a button used for filtering or selecting a category of items or courses labeled as "Medium".
+@@@arkTSButton@@@
+
+Notification icon:
+This icon likely triggers a navigation to a notifications section or displays unread notifications.
+@@@arkTSButtonIcon@@@
+
+Status bar - WiFi icon:
+This is part of the status bar, indicating the strength of the WiFi connection.
+@@@arkTSStatusBar@@@
+
+Status bar - Time display (9:41):
+This is part of the status bar, showing the current time.
+@@@arkTSStatusBar@@@

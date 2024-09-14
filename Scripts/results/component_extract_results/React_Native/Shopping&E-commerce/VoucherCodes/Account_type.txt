@@ -1,0 +1,58 @@
+Search label:
+This is a Text Functional Component. It likely represents a tab or button within the bottom navigation, allowing users to access the search functionality of the app.
+@@@Text Functional Component@@@
+
+Favourite brands label:
+This is a Text Functional Component. It is used to label the section where users can view and interact with their favorite brands.
+@@@Text Functional Component@@@
+
+VIP label:
+This is a Text Functional Component. It likely labels a tab or button in the bottom navigation for accessing VIP features or rewards.
+@@@Text Functional Component@@@
+
+Account icon:
+This is a Function Component. It represents the account or profile tab in the bottom navigation, allowing users to access their account details.
+@@@Function Component@@@
+
+Personal details label:
+This is a Text Functional Component. It is used to label the section where users can view or edit their personal details.
+@@@Text Functional Component@@@
+
+Discover icon:
+This is a Function Component. It likely represents a "Discover" tab in the bottom navigation, offering users various new or recommended content to explore.
+@@@Function Component@@@
+
+Heart icon:
+This is a Function Component. It is used as an icon next to the "Favourite brands" label, visually indicating the functionality related to favorite brands.
+@@@Function Component@@@
+
+VIP rewards tracker section:
+This is a View Function Component. It includes text, an icon, and a "New" badge, serving as a complete section for the VIP rewards tracker feature.
+@@@View Function Component@@@
+
+Track transaction status label:
+This is a Text Functional Component. It labels the section where users can view the status of their transactions.
+@@@Text Functional Component@@@
+Personal details icon:
+This is a Function Component. It likely represents a user's account or profile section within the mobile app.
+@@@Function Component@@@
+
+"Tailor your offers and access exciting rewards" text:
+This is a Text Functional Component. It provides a brief description or welcome message to the user about the app's offerings and rewards program.
+@@@Text Functional Component@@@
+
+Sign In button:
+This is a Button. It allows the user to sign in to their account to access personalized offers and rewards.
+@@@Button@@@
+
+Gift card wallet icon:
+This is a Function Component. It represents the section of the app where users can manage their gift cards.
+@@@Function Component@@@
+
+Communication preferences icon:
+This is a Function Component. It represents the section where users can set their communication preferences.
+@@@Function Component@@@
+
+"Submit a code" text:
+This is a Text Functional Component. It likely indicates a section or functionality within the app where users can submit promotional or discount codes.
+@@@Text Functional Component@@@

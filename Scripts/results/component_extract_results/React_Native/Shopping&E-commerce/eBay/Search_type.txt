@@ -1,0 +1,46 @@
+Search icon with label:
+This is a combination of an Image component and a Text component. It is used in the bottom navigation bar for the search functionality, allowing users to access the search feature.
+@@@Function Component, Text Functional Component@@@
+
+Home icon with label:
+This is a combination of an Image component and a Text component. It is used in the bottom navigation bar for the home functionality, allowing users to navigate back to the home screen.
+@@@Function Component, Text Functional Component@@@
+
+Sell icon with label:
+This is a combination of an Image component and a Text component. It is used in the bottom navigation bar for the selling functionality, allowing users to list items for sale.
+@@@Function Component, Text Functional Component@@@
+
+Search bar:
+This is a combination of a TextInput component for entering search queries, Image components for the search and camera icons, and possibly a View component to contain these elements. It allows users to input search terms and use the camera for image-based searches.
+@@@TextInput, Function Component, View Function Component@@@
+
+Notification icon with label:
+This is a combination of an Image component and a Text component. It is used in the bottom navigation bar for the notification functionality, allowing users to view notifications.
+@@@Function Component, Text Functional Component@@@
+
+Cart icon:
+This is an Image component. It is used to represent the shopping cart functionality, allowing users to view items they intend to purchase.
+@@@Function Component@@@
+
+Recently tab:
+This is a combination of a Text component and a View component. The Text component is used to display the "Recently" label, indicating recently viewed items or actions.
+@@@Text Functional Component, View Function Component@@@
+
+Description text:
+This is a Text component. It is used to provide descriptive information to the users, likely encouraging them to search for items on the platform.
+@@@Text Functional Component@@@
+
+Profile icon with label:
+This is a combination of an Image component and a Text component. It is used in the bottom navigation bar for the profile functionality, allowing users to view and manage their profile.
+@@@Function Component, Text Functional Component@@@
+发现下一件您最喜爱的物品。 (Discover the next item you love.) label:
+This is a Text Functional Component. It serves as a helpful user prompt to encourage the discovery of new items on the platform.
+@@@Text Functional Component@@@
+
+已保存 (Saved) label:
+This is a Text Functional Component. It indicates to the user that the item has been saved or marked as a favorite.
+@@@Text Functional Component@@@
+
+搜索 eBay (Search eBay) label:
+This is a Text Functional Component. It notifies users that they can search for items on eBay using the search function.
+@@@Text Functional Component@@@

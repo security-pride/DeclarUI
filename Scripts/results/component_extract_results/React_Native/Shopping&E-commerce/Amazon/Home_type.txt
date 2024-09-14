@@ -1,0 +1,94 @@
+Sports & Outdoors icon:
+This is a Function Component. It represents the "Sports & Outdoors" category likely used to navigate users to a specific section within the app dealing with sports and outdoor products.
+@@@Function Component@@@
+
+Video label:
+This is a Text Functional Component. It serves as a label or tab to navigate users to the video section within the app.
+@@@Text Functional Component@@@
+
+Jewellery & Watches icon:
+This is a Function Component. It represents the "Jewellery & Watches" category likely used to navigate users to a specific section within the app dealing with jewellery and watch products.
+@@@Function Component@@@
+
+Bags & Luggage icon and label:
+This is a Function Component. It showcases the "Bags & Luggage" category and includes a Text component to navigate users to the respective section within the app.
+@@@Function Component@@@
+@@@Text Functional Component@@@
+
+Partial Books icon:
+This is a Function Component. It represents part of the "Books" category, likely used to navigate users to the books section.
+@@@Function Component@@@
+
+Recommended deal for you:
+This is likely a View Function Component combined with an Image Function Component and a Text Functional Component. It displays recommended products for users based on their browsing or purchase history.
+@@@View Function Component@@@
+@@@Function Component@@@
+@@@Text Functional Component@@@
+
+Automotive icon and label:
+This is a Function Component. It displays the "Automotive" category and includes a Text component, likely used for navigating users to the automotive section within the app.
+@@@Function Component@@@
+@@@Text Functional Component@@@
+
+Shop Electronics today text:
+This is a Text Functional Component. It serves as a promotional message indicating a section of the app where users can shop for electronics.
+@@@Text Functional Component@@@
+
+Bottom navigation bar:
+The bottom navigation contains several Function Components for different icons, likely used for navigating users to various sections such as home, user profile, cart, etc.
+@@@Function Component@@@
+@@@Function Component@@@
+@@@Function Component@@@
+@@@Function Component@@@
+
+
+Search bar icon:
+This is a Button component. It is likely part of the search functionality, allowing users to search for products.
+@@@Button@@@
+
+Office category icon:
+This is a Function Component. It represents the "Office" category icon, giving users access to office-related products.
+@@@Function Component@@@
+
+Automotive category icon:
+This is a Function Component. This icon represents the "Automotive" category, directing users to automotive products.
+@@@Function Component@@@
+
+Jewellery & Watches category icon:
+This is a Function Component. This icon represents the "Jewellery & Watches" category, directing users to related products.
+@@@Function Component@@@
+
+Music label:
+This is a Text Functional Component. This label is part of a navigation or menu bar, likely providing access to music-related content.
+@@@Text Functional Component@@@
+
+Bags & Luggage category icon:
+This is a Function Component. This icon represents the "Bags & Luggage" category, directing users to products in this category.
+@@@Function Component@@@
+
+4+ star deal card:
+This is a View Function Component. It displays a product with a high rating, likely part of a list of recommended deals.
+@@@View Function Component@@@
+
+Recommended deal card:
+This is a View Function Component. It shows a suggested product, likely based on user preferences or deals.
+@@@View Function Component@@@
+
+Sports & Outdoors label:
+This is a Text Functional Component. It labels a category for navigating to sports and outdoors-related products.
+@@@Text Functional Component@@@
+Search Amazon.co.uk bar:
+This is a TextInput component. It is used to allow users to input text to search for products on the Amazon app.
+@@@TextInput@@@
+
+Deliver to Muyi - St. Andrews KY16 9:
+This is a Text Functional Component. It displays the delivery address for the logged-in user.
+@@@Text Functional Component@@@
+
+Orange printer icon:
+This is an Image component. It represents the "Office" category in the app.
+@@@Function Component@@@
+
+Prime text:
+This is a Text Functional Component. It represents a selectable tab or category label in the app's interface.
+@@@Text Functional Component@@@

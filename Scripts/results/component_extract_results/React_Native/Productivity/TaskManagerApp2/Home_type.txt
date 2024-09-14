@@ -1,0 +1,66 @@
+Urgent label:
+This is a Text functional component. It indicates the priority level of the task, helping users to quickly identify urgent tasks.
+@@@Text Functional Component@@@
+
+Pendin g Task card:
+This is a View Function Component. It represents a task card displaying tasks that are pending along with their respective icon, task count, and some metadata.
+@@@View Function Component@@@
+
+On Going Task card:
+This is a View Function Component. It represents a task card displaying tasks that are currently ongoing along with their respective icon, task count, and some metadata.
+@@@View Function Component@@@
+
+Complete Task card:
+This is a View Function Component. It represents a task card displaying tasks that are complete along with their respective icon, task count, and some metadata.
+@@@View Function Component@@@
+
+Navigation Bar:
+This is a View Function Component. It represents a navigation bar likely found at the bottom of the application, allowing users to navigate between different sections of the app.
+@@@View Function Component@@@
+
+Home label:
+This is a Text functional component. It acts as a label to indicate the 'Home' section of the app.
+@@@Text Functional Component@@@
+
+Cancele d Task card:
+This is a View Function Component. It represents a task card displaying tasks that are canceled along with their respective icon, task count, and some metadata.
+@@@View Function Component@@@
+
+Avatar icon:
+This is an Image component. It displays the user's avatar or profile picture.
+@@@Function Component@@@
+
+Task title:
+This is a Text functional component. It displays the title of a task, helping the user to quickly identify what the task is about.
+@@@Text Functional Component@@@
+Complete task card:
+This is a View Function Component. It presents detailed information about the user's completed tasks, including an image, the status (Complete), and the number of tasks (86).
+@@@View Function Component@@@
+
+Canceled task card:
+This is a View Function Component. It shows information about tasks that have been canceled, including an icon, the status (Canceled), and the number of tasks (15).
+@@@View Function Component@@@
+
+Pending task card:
+This is a View Function Component. It represents tasks that are currently pending, with a relevant icon, status (Pending), and number of tasks (15).
+@@@View Function Component@@@
+
+Ongoing task card:
+This is a View Function Component. It indicates tasks that are ongoing, displaying an image, the status (Ongoing), and the number of tasks (67).
+@@@View Function Component@@@
+
+Canceled task card (duplicate):
+This is a View Function Component. It shows information about tasks that have been canceled, including an icon, the status (Canceled), and the number of tasks (15).
+@@@View Function Component@@@
+
+Greeting text:
+This is a Text Functional Component. It displays a greeting message to the user, encouraging productivity.
+@@@Text Functional Component@@@
+
+"My Task" label:
+This is a Text Functional Component. It labels the section that displays various task statuses.
+@@@Text Functional Component@@@
+
+Yet another Canceled task card:
+This is a View Function Component. It shows information about tasks that have been canceled, including an icon, the status (Canceled), and the number of tasks (15).
+@@@View Function Component@@@

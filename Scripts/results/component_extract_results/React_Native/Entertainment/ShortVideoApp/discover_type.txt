@@ -1,0 +1,89 @@
+Camp day image:
+This is a View Function Component. It's a header section with a background image and text overlay to describe an event or campaign.
+@@@View Function Component@@@
+
+Cinema image:
+This is a Function Component. It displays an image of the cinema, likely part of a gallery or a list item.
+@@@Function Component@@@
+
+Join now button:
+This is a Button component. It provides an actionable element for users to join or subscribe.
+@@@Button@@@
+
+Lake window view image:
+This is a Function Component. It displays an image as part of a gallery or a list item, emphasizing a scenic view.
+@@@Function Component@@@
+
+Video count label:
+This is a Text Functional Component. It shows the view count of a video.
+@@@Text Functional Component@@@
+
+Home icon:
+This is an Image component. It represents a navigation element to go to the home screen of the app.
+@@@Function Component@@@
+
+Activity image:
+This is a Function Component. It displays an image related to an activity, part of a gallery or a list with additional functionality.
+@@@Function Component@@@
+
+Dance tag:
+This is a Text Functional Component. It represents a category label, used for filtering content by different tags or themes.
+@@@Text Functional Component@@@
+
+WiFi signal icon:
+This is an Image component. It indicates the status of the network connection.
+@@@Function Component@@@
+Search bar with magnifying glass icon:
+This is a TextInput component combined with an Image component for the magnifying glass icon. It allows users to enter search queries.
+@@@TextInput@@@
+
+Image of a subway platform:
+This is an Image component displaying an image from the subway.
+@@@Function Component@@@
+
+Search text with magnifying glass icon:
+This is a Text Functional Component with an Image component for the magnifying glass icon. It displays the placeholder text "Search" inside the search bar.
+@@@Text Functional Component@@@
+
+User profile image:
+This is an Image component for a user profile picture.
+@@@Function Component@@@
+
+Image of a city street at night with views count:
+This is an Image component displaying the thumbnail of a video or an image in the "Hot" section, with an overlay Text component for the view count.
+@@@Function Component@@@
+
+"Hot" label text:
+This is a Text Functional Component. It indicates that the section displays trending or popular content.
+@@@Text Functional Component@@@
+
+Image of a ferris wheel with views count:
+This is an Image component displaying the thumbnail of a video or an image in the "Hot" section, with an overlay Text component for the view count.
+@@@Function Component@@@
+
+Magnifying glass icon:
+This is an Image component that typically represents a search function.
+@@@Function Component@@@
+
+Image of a city street at night with views count:
+This is an Image component displaying the thumbnail of a video or an image in the "Featured" section, with an overlay Text component for the view count.
+@@@Function Component@@@
+
+"Featured" label text:
+This is a Text Functional Component. It indicates that the section displays highlighted or specially curated content.
+@@@Text Functional Component@@@
+9:41 time display:
+This Text Functional Component displays the current time on the status bar for the mobile application.
+@@@Text Functional Component@@@
+
+"Discover" text:
+This Text Functional Component likely serves as a label indicating that the user is currently viewing the Discover section of the application.
+@@@Text Functional Component@@@
+
+Signal strength icon:
+This is an Image Function Component that displays the current signal strength of the mobile network or Wi-Fi connectivity status.
+@@@Function Component@@@
+
+Image with "420.8K" text:
+This View Function Component wraps the image and text elements. It typically displays the number of views or likes for the image or video content.
+@@@View Function Component@@@

@@ -1,0 +1,93 @@
+Caravan park name with icon:
+This is a Text Functional Component. It displays the name of the caravan park along with a small icon, indicating some related text.
+@@@Text Functional Component@@@
+
+Calendar icon:
+This is a Function Component. It likely represents a button or clickable area to select dates or access a calendar.
+@@@Function Component@@@
+
+Refund policy text:
+This is a Text Functional Component. It describes the refund policy, providing important information regarding cancellations.
+@@@Text Functional Component@@@
+
+Payment method selection title:
+This is a Text Functional Component. It displays the title for the payment method selection section.
+@@@Text Functional Component@@@
+
+Caravan image:
+This is an Image component. It displays an image of the caravan or property.
+@@@Image@@@
+
+Star rating and review count:
+This is a Text Functional Component. It shows the rating (with a star icon) and the number of reviews.
+@@@Text Functional Component@@@
+
+Edit button label:
+This is a Text Functional Component. It indicates an action to edit a particular section, such as dates or guests.
+@@@Text Functional Component@@@
+
+Trip dates text:
+This is a Text Functional Component. It displays the dates of the trip.
+@@@Text Functional Component@@@
+
+Trip itinerary title:
+This is a Text Functional Component. It provides the title for the trip itinerary section.
+@@@Text Functional Component@@@
+房客人数 (Number of Guests):
+This is a Text component. It states the number of guests in the booking.
+@@@Text Functional Component@@@
+
+编辑 (Edit):
+This is a Pressable component. Users can click this to edit details associated with their itinerary.
+@@@Pressable@@@
+
+旅行规划有 (Travel Plans Available):
+This is a Text component. It specifies that there are travel plans available for the user to review or make use of.
+@@@Text Functional Component@@@
+
+Image of the house:
+This is an Image component. It displays the photo of the house being booked for clear visualization of the property.
+@@@Function Component@@@
+
+旅行规划有 (Travel Plans Available):
+This is a Text component. It further emphasizes that the travel plans are available.
+@@@Text Functional Component@@@
+
+超赞房东 (Highly Rated Host):
+This is a Text component. It indicates that the host for the booked property is highly rated.
+@@@Text Functional Component@@@
+
+Radio button:
+This is a TouchableOpacity component. Users can interact with it to select different payment options.
+@@@TouchableOpacity Function Component@@@
+
+确认并付款 (Confirm and Pay):
+This is a Text component. It labels the section where the user is supposed to confirm their booking and make a payment.
+@@@Text Functional Component@@@
+
+现在支付部分费用 (Pay Partially Now):
+This is a Text component. It instructs users about the option to partially pay the booking fee now.
+@@@Text Functional Component@@@
+整套小木屋 (Entire Cabin) label:
+This is a Text Functional Component. It describes the type of accommodation being displayed.
+@@@Text Functional Component@@@
+
+立即支付 ￥12,120.95 (Pay Now ¥12,120.95) label:
+This is a Text Functional Component. It indicates the amount to be paid immediately by the user.
+@@@Text Functional Component@@@
+
+今天需支付 ￥6,060.48, 2024年8月18日支付 ￥6,060.47。无需支付额外费用。更多信息 (Pay ¥6,060.48 today, ¥6,060.47 on 18 August 2024, No extra cost. More Information) label:
+This is a Text Functional Component. It provides detailed payment information to the user about the amount to be paid in installments.
+@@@Text Functional Component@@@
+
+稍后再支付剩余的 (Pay remaining amount later) label:
+This is a Text Functional Component. It informs users about the option to pay the remaining amount at a later date.
+@@@Text Functional Component@@@
+
+1位房客 (1 guest) label:
+This is a Text Functional Component. It specifies the number of guests that the booking is for.
+@@@Text Functional Component@@@
+
+日期 (Date) label:
+This is a Text Functional Component. It indicates the date range for the reservation, displaying the relevant date details to the user.
+@@@Text Functional Component@@@

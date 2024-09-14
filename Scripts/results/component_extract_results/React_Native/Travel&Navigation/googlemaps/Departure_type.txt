@@ -1,0 +1,179 @@
+Clock icon:
+This is a Function Component. It is part of the list item, representing a recent search or frequently used location.
+@@@Function Component@@@
+
+Backspace icon:
+This is a Function Component. It is part of the keyboard, allowing users to delete characters.
+@@@Function Component@@@
+
+Clock icon:
+This is a Function Component. It is part of the list item, representing a recent search or frequently used location.
+@@@Function Component@@@
+
+Search bar with text input:
+This is a combination of View Function Component and TextInput. It provides a text input field for users to enter their location search query with a microphone icon for voice search.
+@@@View Function Component, TextInput@@@
+
+S key:
+This is a Text component within the keyboard, representing the 'S' key for user input.
+@@@Text Functional Component@@@
+
+L key:
+This is a Text component within the keyboard, representing the 'L' key for user input.
+@@@Text Functional Component@@@
+
+T key:
+This is a Text component within the keyboard, representing the 'T' key for user input.
+@@@Text Functional Component@@@
+
+W key:
+This is a Text component within the keyboard, representing the 'W' key for user input.
+@@@Text Functional Component@@@
+您的位置 (Your location) label:
+This is a Text component. It indicates the user's current location.
+@@@Text Functional Component@@@
+
+J key:
+This is a Button component. It's a key from the keyboard for the letter "J".
+@@@Button@@@
+
+放置图钉 (Place Pin) label:
+This is a Text component. It suggests placing a pin on the map.
+@@@Text Functional Component@@@
+
+酒店 (Hotel) label:
+This is a Text component. It represents one of the options listed in the search results related to hotels.
+@@@Text Functional Component@@@
+
+C key:
+This is a Button component. It's a key from the keyboard for the letter "C".
+@@@Button@@@
+
+D key:
+This is a Button component. It's a key from the keyboard for the letter "D".
+@@@Button@@@
+
+Q key:
+This is a Button component. It's a key from the keyboard for the letter "Q".
+@@@Button@@@
+
+123 key:
+This is a Button component. It's used for toggling between numerical and alphabetical keyboards.
+@@@Button@@@
+
+Clock icon:
+This is an Image component. It's used to symbolize time-related functions or recent searches.
+@@@Function Component@@@
+"h" key:
+This is a Text component. It is part of a keyboard, allowing users to input the letter "h".
+@@@TextFunctionalComponent@@@
+
+Emoji key:
+This is a Button component. It is part of a keyboard, allowing users to select and input emojis.
+@@@Button@@@
+
+"o" key:
+This is a Text component. It is part of a keyboard, allowing users to input the letter "o".
+@@@TextFunctionalComponent@@@
+
+"景点" (Scenic Spots) label:
+This is a Text component. It indicates a category or option in the list of places.
+@@@TextFunctionalComponent@@@
+
+"v" key:
+This is a Text component. It is part of a keyboard, allowing users to input the letter "v".
+@@@TextFunctionalComponent@@@
+
+"p" key:
+This is a Text component. It is part of a keyboard, allowing users to input the letter "p".
+@@@TextFunctionalComponent@@@
+
+"前往" (Go) button:
+This is a Button component. It is part of the keyboard, allowing users to submit or confirm their typing input.
+@@@Button@@@
+
+"z" key:
+This is a Text component. It is part of a keyboard, allowing users to input the letter "z".
+@@@TextFunctionalComponent@@@
+
+"i" key:
+This is a Text component. It is part of a keyboard, allowing users to input the letter "i".
+@@@TextFunctionalComponent@@@
+Smiley face icon:
+This is a Button component. It's likely part of the keyboard, allowing users to insert emojis into their text input.
+@@@Button@@@
+
+Letter "u" key:
+This is a Text component. It represents a letter key on the keyboard for text input.
+@@@Text@@@
+
+"空格" (space) key:
+This is a Text component. It represents the space bar on the keyboard.
+@@@Text@@@
+
+Letter "e" key:
+This is a Text component. It represents a letter key on the keyboard for text input.
+@@@Text@@@
+
+"今天" (Today) label:
+This is a Text component. It is likely a header or category label indicating today's date or context.
+@@@Text@@@
+
+Letter "r" key:
+This is a Text component. It represents a letter key on the keyboard for text input.
+@@@Text@@@
+
+Shift key icon:
+This is a Button component. It typically allows users to switch between lowercase and uppercase letters on the keyboard.
+@@@Button@@@
+
+Microphone icon:
+This is a Button component. It likely allows users to use voice input for text entry.
+@@@Button@@@
+
+Letter "X" key:
+This is a Text component. It represents a letter key on the keyboard for text input.
+@@@Text@@@
+'b' key:
+This is a pressable key from the keyboard, which allows users to input the letter 'b'.
+@@@TouchableOpacity Function Component@@@
+
+'m' key:
+This is a pressable key from the keyboard, which allows users to input the letter 'm'.
+@@@TouchableOpacity Function Component@@@
+
+'g' key:
+This is a pressable key from the keyboard, which allows users to input the letter 'g'.
+@@@TouchableOpacity Function Component@@@
+
+"在地图上选择" label:
+This is a text component that instructs users to choose a location on the map.
+@@@Text Functional Component@@@
+
+Globe icon:
+This is a button component that likely toggles the keyboard language or input method.
+@@@Button@@@
+
+'k' key:
+This is a pressable key from the keyboard, which allows users to input the letter 'k'.
+@@@TouchableOpacity Function Component@@@
+
+'f' key:
+This is a pressable key from the keyboard, which allows users to input the letter 'f'.
+@@@TouchableOpacity Function Component@@@
+
+'y' key:
+This is a pressable key from the keyboard, which allows users to input the letter 'y'.
+@@@TouchableOpacity Function Component@@@
+
+'a' key:
+This is a pressable key from the keyboard, which allows users to input the letter 'a'.
+@@@TouchableOpacity Function Component@@@
+Restaurant label:
+This is a Text component. It represents a label for the list items, indicating that the user can select a restaurant as a destination.
+@@@Text Functional Component@@@
+
+Clock icon:
+This is an Image component. It is used as an icon to represent the historical records or recent selections within the list items.
+@@@Function Component@@@
+

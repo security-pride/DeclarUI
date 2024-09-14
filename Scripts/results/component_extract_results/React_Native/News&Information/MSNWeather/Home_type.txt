@@ -1,0 +1,67 @@
+Camera icon:
+This is a ButtonWithChildComponent. It's part of the search bar and likely allows users to take or upload a picture for image-based searches or document scanning.
+@@@Button@@@
+
+"Ask me anything..." area:
+This is a TextInput component. It's likely a search bar where users can type their queries or input data.
+@@@TextInput@@@
+
+Microphone icon:
+This is a ButtonWithChildComponent. It's part of the search bar and likely allows users to perform voice searches or send voice commands.
+@@@Button@@@
+
+Weather widget (Mountain View, CA 60°F):
+This is a View Function Component. It displays weather information for the user's location, including temperature and additional weather conditions.
+@@@View Function Component@@@
+
+Microsoft Rewards card:
+This is a View Function Component. It displays information about Microsoft Rewards, encouraging users to earn points by searching.
+@@@View Function Component@@@
+
+Stock widget:
+This is a View Function Component. It displays stock information for various companies, such as DJI, AAPL, AMZN, and TSLA.
+@@@View Function Component@@@
+
+"Chat" tab icon:
+This is an Image Function Component. It represents the chat feature within the app.
+@@@Function Component@@@
+
+"3G Deals" icon:
+This is a View Function Component. It likely notifies users about ongoing deals and special offers.
+@@@View Function Component@@@
+
+Black circle placeholder:
+This is an Image Function Component. It could be a placeholder for a profile picture or avatar.
+@@@Function Component@@@
+
+Navigation bar (Home, Weather, Chat, Tabs, Apps):
+This is a View Function Component. It provides navigation to different sections of the app, allowing users to switch between home, weather, chat, and other features.
+@@@View Function Component@@@
+Component Keyword:
+Camera icon:
+This is a TouchableOpacity Function Component. It likely allows users to activate the device's camera functionality for image capture within the app.
+@@@TouchableOpacity Function Component@@@
+
+"Ask me anything..." label:
+This is a TextInput component. This text input field allows users to input their queries or commands.
+@@@TextInput@@@
+
+Microphone icon:
+This is a TouchableOpacity Function Component. It likely allows users to initiate voice input or voice search functionality within the app.
+@@@TouchableOpacity Function Component@@@
+
+Weather widget:
+This widget is composed of a View Function Component that contains multiple Text Functional Components displaying the location, temperature, low UV index, and humidity information.
+@@@View Function Component@@@
+
+Rewards widget:
+This is a View Function Component that includes other components like Text Functional Components describing how users can earn rewards by searching.
+@@@View Function Component@@@
+
+Deals icon with tag image:
+This is a TouchableOpacity Function Component containing an ImageBackground component. It likely provides quick access to deals.
+@@@TouchableOpacity Function Component@@@
+
+Navigation bar with Home, Weather, Chat, Tabs, and Apps icons:
+These are all TouchableOpacity Function Components. They serve as navigation buttons, allowing users to switch between different sections of the app.
+@@@TouchableOpacity Function Component@@@

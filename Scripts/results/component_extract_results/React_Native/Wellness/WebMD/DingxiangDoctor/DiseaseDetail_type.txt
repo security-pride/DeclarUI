@@ -1,0 +1,91 @@
+"收藏" (Save) label:
+This is a Text component. It provides a label for a feature allowing users to save content for later reference.
+@@@Text Functional Component@@@
+
+"黏膜" (Mucosa):
+This is a Text component. It describes a scientific term related to the content in the app.
+@@@Text Functional Component@@@
+
+"口腔溃疡是什么？" (What are mouth ulcers?):
+This is a Text component. It represents a title or headline introducing the section that explains what mouth ulcers are.
+@@@Text Functional Component@@@
+
+Profile with "李晖" (Li Hui):
+This is a View component. It contains a profile picture, the name "李晖," and a brief description, likely describing a professional or author related to the content.
+@@@View Function Component@@@
+
+"因表层坏" (Due to surface damage):
+This is a Text component. It represents a specific part of the article, describing causes or related symptoms.
+@@@Text Functional Component@@@
+
+"复旦大学附属口腔医" (Fudan University Affiliated Stomatological Hospital):
+This is a Text component. It provides detailed information about the author's professional affiliation.
+@@@Text Functional Component@@@
+
+"OVERVIEW":
+This is a Text component. It serves as an English subtitle or overview, contributing to the introductory section of the content.
+@@@Text Functional Component@@@
+
+"健康百科" (Health Encyclopedia) label:
+This is an Image component. It likely serves as a visual header or emblem to represent a section or feature in the app related to health information.
+@@@Image@@@
+
+"就诊科室" (Clinic Department):
+This is a Text component. It indicates the specific department or clinic related to the topic being discussed in the app.
+@@@Text Functional Component@@@
+"三甲医生专业编审·丁香医生官方出品":
+This is a Text Functional Component. It likely contains text that indicates the source or credibility of the medical information provided in the app.
+@@@Text Functional Component@@@
+
+"口腔科":
+This is a Text Functional Component. It's a label that identifies the medical department related to the content.
+@@@Text Functional Component@@@
+
+Upward Arrow Icon:
+This is a Pressable component. It's likely a button that allows users to expand or share content.
+@@@Pressable@@@
+
+"的上皮完整性发生连续性缺损或破坏,":
+This is a Text Functional Component. It represents a part of the detailed description of the medical condition.
+@@@Text Functional Component@@@
+
+Exclamation Mark with Speech Bubble Icon and "评价反馈":
+This is a Button component. It allows users to provide feedback or leave a review.
+@@@Button@@@
+
+"诊断":
+This is a Text Functional Component. It likely represents a tab or section label related to diagnosis.
+@@@Text Functional Component@@@
+
+"口腔溃疡":
+This is a Text Functional Component. It serves as the title or heading of the content about oral ulcers.
+@@@Text Functional Component@@@
+
+"简介":
+This is a Text Functional Component. It serves as a section header or tab label related to an overview.
+@@@Text Functional Component@@@
+
+Doctor's Profile and Text:
+This is an ImageBackground component. It presents a profile image of a doctor along with text providing additional context or special consultation options.
+@@@ImageBackground@@@
+
+Component Keyword:
+This is a Text component. It displays a detailed explanation of the mouth disease mentioned in the app.
+@@@Text Functional Component@@@
+
+Component Keyword:
+This is a Text component. It provides information about the die-off process in oral mucosa leading to concavities.
+@@@Text Functional Component@@@
+
+Component Keyword:
+This is a Text component. It highlights specific areas targeted by the oral disease.
+@@@Text Functional Component@@@
+
+Component Keyword:
+This is a Text component. It represents the symptom tab that users can select to read more about the symptoms.
+@@@Text Functional Component@@@
+
+Component Keyword:
+This is a View component. It encapsulates image and text to represent user details such as name, role, and brief information.
+@@@View Function Component@@@
+

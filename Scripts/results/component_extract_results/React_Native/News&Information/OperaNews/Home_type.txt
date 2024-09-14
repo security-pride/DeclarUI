@@ -1,0 +1,58 @@
+Component Keyword:
+This is an Image component. It likely serves as part of the error illustration on the screen.
+@@@Function Component@@@
+
+Component Keyword:
+This is an Image component. It might be used as an icon or image within the app, potentially indicating storage or files.
+@@@Function Component@@@
+
+Component Keyword:
+This is a Button component. It allows users to retry the connection or refresh the screen.
+@@@Button@@@
+
+Component Keyword:
+This is an Image component. It is likely used as an icon for downloading or related functionalities.
+@@@Function Component@@@
+
+Component Keyword:
+This is a Text component. It provides feedback to the user, indicating that the connection has failed.
+@@@Text Functional Component@@@
+
+Component Keyword:
+This is an Image component. It might be the app's logo or an icon related to app branding.
+@@@Function Component@@@
+
+Component Keyword:
+This is an Image component. It is part of the background illustration, enhancing the visual appeal of the error message.
+@@@Function Component@@@
+
+Component Keyword:
+This is an Image component. It is presumably used as a decorative part of the error message.
+@@@Function Component@@@
+
+Component Keyword:
+This is an Image component. It could signify loading or something similar in the user's feedback.
+@@@Function Component@@@
+
+Component Keyword:
+This is a Text component. This text is likely part of the bottom navigation bar, providing quick access to refresh functionality.
+@@@Text Functional Component@@@
+Me Icon:
+This is an Image Functional Component. It is used as a tab icon to navigate to the user's profile section.
+@@@Function Component@@@
+
+Troubleshooting Icon:
+This is an Image Functional Component. It visually represents a troubleshooting or error state.
+@@@Function Component@@@
+
+Cactus Icon:
+This is an Image Functional Component. It serves as a decorative element, likely to emphasize the "desert" or "empty" state.
+@@@Function Component@@@
+
+Menu Icon:
+This is an Image Functional Component. It typically opens a navigation drawer or menu.
+@@@Function Component@@@
+
+Time Display:
+This is a Text Functional Component. It displays the current time on the status bar.
+@@@Text Functional Component@@@

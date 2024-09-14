@@ -1,0 +1,137 @@
+加油站 label:
+This is a Text component. It indicates the place where the action or information is related to a gas station.
+@@@Text Functional Component@@@
+
+地图 icon with label:
+This is an Image component combined with a Text component. It is likely a navigational aid or button that, when pressed, will open a map application or page.
+@@@Image@@@
+@@@Text Functional Component@@@
+
+油站印象 label:
+This is a Text component. It describes the impression or feedback section about the gas station.
+@@@Text Functional Component@@@
+
+请选择油枪 button:
+This is a Button component. It interacts with users to let them choose a fuel nozzle type.
+@@@Button@@@
+
+导航 button:
+This is a Button component. It is likely used to navigate or provide directions.
+@@@Button@@@
+
+立减优惠 label:
+This is a Text component. It describes an instant discount feature where users can enter an amount to view the associated discount.
+@@@Text Functional Component@@@
+
+More options icon:
+This is a Button component. It usually opens a menu or more options when clicked.
+@@@Button@@@
+
+刚刚浏览 label:
+This is a Text component. It indicates that the user has just viewed this.
+@@@Text Functional Component@@@
+
+路线 button:
+This is a Button component. It is likely used to provide a route or direction to a location.
+@@@Button@@@
+1. Image showing 1/51 with a picture icon: 
+   This is a Button component. It likely allows users to see the next image in a gallery or slideshow.
+   @@@Button@@@
+
+2. Image of a button with "导航" text:
+   This is a TouchableOpacity Function Component. It allows users to initiate navigation to a location.
+   @@@TouchableOpacity Function Component@@@
+
+3. Image of a magnifying glass icon in a black circle:
+   This is a Button component. It's likely used to open the search functionality.
+   @@@Button@@@
+
+4. Image of a map icon with "地图" text:
+   This is a Button component. This likely allows users to view the map.
+   @@@Button@@@
+
+5. Image of a price tag with "￥300 立减约 ￥11.81":
+   This is a Text component. It's used to display the price and discount information.
+   @@@Text Functional Component@@@
+
+6. Image of a three-dot menu icon in a black circle:
+   This is a Button component. It's likely used for more options or actions.
+   @@@Button@@@
+
+7. Image of text "优惠加油" with a question mark in a grey circle:
+   This is a Text component. It's likely a label for a special offer or discounted gas, where the question mark could provide more information.
+   @@@Text Functional Component@@@
+
+8. Image of text "营业时间 周一至周日 00:00-24:00":
+   This is a Text component. It displays the operating hours of the gas station.
+   @@@Text Functional Component@@@
+
+9. Image of text "优惠券":
+   This is a Text component. It indicates the section for coupons.
+   @@@Text Functional Component@@@
+反馈 (Feedback) icon:
+This is a Button component. It appears to be used to allow users to provide feedback on the app.
+@@@Button@@@
+
+周边 (Nearby) label:
+This is a Text component. It describes the functionality to explore nearby locations or features.
+@@@Text Functional Component@@@
+
+订单 (Order) icon:
+This is a Button component. It's likely used to navigate to the user's order history or order details page.
+@@@Button@@@
+
+搜索 (Search) icon:
+This is a Button component. It allows users to search for items using a query.
+@@@Button@@@
+
+¥200 立减约 ¥7.87 (¥200 Immediate Discount around ¥7.87) label:
+This is a Text component. It displays the price along with the immediate discount available for the specified value.
+@@@Text Functional Component@@@
+
+收藏 (Collect) icon:
+This is a Button component. It likely allows users to save or bookmark a page or item.
+@@@Button@@@
+
+¥7.56/L price label:
+This is a Text component. It displays the cost of fuel per liter.
+@@@Text Functional Component@@@
+
+电话 (Telephone) icon:
+This is a Button component. It allows users to initiate a call to the service or business.
+@@@Button@@@
+
+¥ 先加油后付款 输入金额计算优惠 label:
+This is a Text component. It provides instructions or information regarding prepayment and discounts.
+@@@Text Functional Component@@@
+1. "油站价 ¥7.87/L" (Fuel price ¥7.87/L) text:
+This is a Text component. It displays the current fuel price at the station.
+@@@Text Functional Component@@@
+
+2. "输入金额后查看可用优惠券" (Enter amount to check available coupons) text:
+This is a Text component. It instructs the user to enter an amount to view the available coupons.
+@@@Text Functional Component@@@
+
+3. "路线" (Route) button:
+This is a Button component. It likely provides navigation or directions to the route specified.
+@@@Button@@@
+
+4. "阅读并同意《信息服务用户服务条款》" (Read and agree to the "Information Service User Terms") text:
+This is a Text component. It indicates acknowledgement of the information service user terms.
+@@@Text Functional Component@@@
+
+5. "距离 2.5 公里 驾车 6 分钟 芝罘区" (Distance 2.5 km, Driving 6 min, Zhifu district) text:
+This is a Text component. It provides details about the distance and estimated driving time to the location.
+@@@Text Functional Component@@@
+
+6. "¥100 立减约 ¥3.93" (¥100, save approximately ¥3.93) button:
+This is a combination of Button and Text components. It represents a discount option where users can save a specific amount.
+@@@Button@@@
+
+7. "供销石油加油站" (Supply and Marketing Petroleum Gas Station) text:
+This is a Text component. It displays the name of the gas station.
+@@@Text Functional Component@@@
+
+8. "92#" button:
+This is a Button component. It likely allows users to select the fuel type.
+@@@Button@@@

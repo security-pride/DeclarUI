@@ -1,0 +1,110 @@
+Personal Text Label:
+This is a Text Functional Component. It represents a category tag indicating that the current task is marked as personal.
+@@@Text Functional Component@@@
+
+Add Task Text Label:
+This is a Text Functional Component. It serves as the header or title of the screen where a user can add a new task.
+@@@Text Functional Component@@@
+
+Unchecked Checkbox Button:
+This is a Button component. It likely represents an option that users can check to select a specific task type or category.
+@@@Button@@@
+
+Unchecked Checkbox Button:
+This is a Button component. It likely represents an option that users can check to select a specific task type or category.
+@@@Button@@@
+
+Back Arrow Icon:
+This is a Button component. It functions as a navigation element allowing users to go back to the previous screen.
+@@@Button@@@
+
+Back Arrow in Header:
+This is a View Function Component that contains the back arrow button as part of the app's navigation header.
+@@@View Function Component@@@
+
+Private Text Label:
+This is a Text Functional Component. It represents a category tag indicating that the current task is marked as private.
+@@@Text Functional Component@@@
+
++ Add new tag Text Label:
+This is a Text Functional Component. It allows users to add a new custom tag for categorizing the task.
+@@@Text Functional Component@@@
+
+Secret Text Label:
+This is a Text Functional Component. It represents a category tag indicating that the current task is marked as secret.
+@@@Text Functional Component@@@
+
+
+Tags label:
+This is a Text component. It's a label that denotes the category for different tags available or can be assigned to the task.
+@@@Text Functional Component@@@
+
+07:30 time text:
+This is a Text component. It displays the selected ending time for the task.
+@@@Text Functional Component@@@
+
+AM indicator:
+This is a Text component. It specifies the time period (AM) for the ending time.
+@@@Text Functional Component@@@
+
+Date text:
+This is a Text component. It indicates the selected date for the task.
+@@@Text Functional Component@@@
+
+AM indication for start time:
+This is a Text component. It specifies the time period (AM) for the starting time.
+@@@Text Functional Component@@@
+
+Task title:
+This is a Text component. It displays the title of the task.
+@@@Text Functional Component@@@
+
+Office tag:
+This is a Button component. It represents a selectable tag labeled "Office" that a user can assign to the task.
+@@@Button@@@
+
+Home tag:
+This is a Button component. It represents a selectable tag labeled "Home" that a user can assign to the task.
+@@@Button@@@
+
+Type label:
+This is a Text component. It's a label that denotes the category for different types of task visibility (e.g., Personal, Private, Secret).
+@@@Text Functional Component@@@
+Urgent label:
+This is a Text Functional Component. It's used to label a task as "Urgent" in the app.
+@@@Text Functional Component@@@
+
+Work label:
+This is a Text Functional Component. It labels a task as "Work" in the app.
+@@@Text Functional Component@@@
+
+Office label:
+This is a Text Functional Component. It labels a task as "Office" in the app.
+@@@Text Functional Component@@@
+
+Creating this month's work plan label:
+This is a Text Functional Component. It describes the content of the task's description field.
+@@@Text Functional Component@@@
+
+Create button:
+This is a Button. It likely submits or creates a new task when pressed.
+@@@Button@@@
+
+Description label:
+This is a Text Functional Component. It labels the field where the user inputs the task description.
+@@@Text Functional Component@@@
+
+Home label:
+This is a Text Functional Component. It labels a task as "Home" in the app.
+@@@Text Functional Component@@@
+
+Calendar icon:
+This is an Image component. It likely represents the calendar or date picker functionality in the app.
+@@@Function Component@@@
+
+07:00 AM time label:
+This is a Text Functional Component. It shows the start time for the task.
+@@@Text Functional Component@@@
+Time label:
+This is a Text Functional Component. It labels the section where users can input time details for the task.
+@@@Text Functional Component@@@

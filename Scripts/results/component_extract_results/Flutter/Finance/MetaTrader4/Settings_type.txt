@@ -1,0 +1,130 @@
+Journal:
+This is a text that represents the label for the "Journal" section in the app.
+@@@Text@@@
+
+Interface:
+This component includes "Interface" as the main label and "English" as the sublabel, indicating language settings.
+@@@ListTile@@@
+
+Candlestick icon:
+This icon represents a feature related to charts or trading data visualization.
+@@@Icon@@@
+
+One-time password generator:
+This text explains the functionality related to generating one-time passwords.
+@@@Text@@@
+
+Mail icon:
+This is an icon representing the Mailbox section of the app.
+@@@Icon@@@
+
+Trade icon:
+This icon likely represents the trade section or functionality within the app.
+@@@Icon@@@
+
+Account details:
+This text provides information about the account logged into the app.
+@@@Text@@@
+
+MQL5 icon:
+This icon represents the MQL5 community or related services.
+@@@Icon@@@
+
+History icon:
+This icon is likely used as a part of a navigation element to view the history section of the app.
+@@@Icon@@@
+### Component Matching
+
+**1. Tradays Component:**
+Description: This component displays the name "Tradays" with a subtitle "Economic calendar". It's likely a clickable item directing users to a detailed section on the economic calendar.
+@@@ListTile@@@
+
+**2. Chat and Messages Component:**
+Description: This component shows "Chat and Messages" with a prompt to sign in to MQL5.community. It functions as an interactive list item for user engagement or sign-in actions.
+@@@ListTile@@@
+
+**3. News Component:**
+Description: This component features the title "News" with a snippet of the latest news. It serves as a preview for navigating to a full news section.
+@@@ListTile@@@
+
+**4. Quotes Icon:**
+Description: This component has a visual icon with the label "Quotes". It is likely a part of the app's navigation, enabling users to view market quotes.
+@@@BottomNavigationBarItem@@@
+
+**5. Calendar Icon:**
+Description: This icon represents a calendar or schedule view, possibly tied to the "Tradays" feature.
+@@@Icon@@@
+
+**6. Interface Icon:**
+Description: The icon shows a representation of language or translation settings, related to interface customization.
+@@@Icon@@@
+
+**7. Settings Icon with Text:**
+Description: Displays a settings gear icon with the label "Settings". It likely acts as a navigation control for accessing the settings menu.
+@@@BottomNavigationBarItem@@@
+
+**8. Hand Icon:**
+Description: The icon suggests interaction or guide, likely used for user education or tutorial features.
+@@@Icon@@@
+
+**9. Settings Text:**
+Description: This text likely serves as a page header indicating that the current view is for settings control.
+@@@Text@@@
+Component Keyword:
+This is a rectangular button with horizontal lines that likely represents a menu or list feature. It is possibly used for navigation or displaying items.
+@@@IconButton@@@
+
+Component Keyword:
+This is a label displaying the text "Traders Community". It likely represents a section header or option within a settings or navigation menu.
+@@@Text@@@
+
+Component Keyword:
+This icon depicts a paper plane, often associated with messaging or sending features. It is used for navigation or action initiators.
+@@@IconButton@@@
+
+Component Keyword:
+This is a label displaying two lines of text, "Interface" and "English", indicating a selectable option with a description or current setting.
+@@@Column@@@
+
+Component Keyword:
+This label displays the word "Chart", which likely indicates a navigation tab or button associated with chart-related features.
+@@@Text@@@
+
+Component Keyword:
+This icon illustrates a person with a plus sign, suggesting a feature to add a new account or user. It is used for navigation or action initiators.
+@@@IconButton@@@
+
+Component Keyword:
+This is a label displaying the word "Demo" on a ribbon, possibly indicating the demo status or mode of the application.
+@@@Text@@@
+
+Component Keyword:
+This label displays the word "Charts", indicating a selectable option or section related to chart features.
+@@@Text@@@
+
+Component Keyword:
+This icon represents a keyhole, typically used for security or authentication features, likely for a one-time password generator.
+@@@IconButton@@@
+Candlestick icon on orange background:
+This is an icon likely used in a financial or trading context to represent candlestick charts.
+@@@Image@@@
+
+"New Account" label:
+This is a text widget displaying a label that signifies the function to create a new account.
+@@@Text@@@
+
+"Mailbox" label with description:
+This is a vertical arrangement of text widgets, where the main label indicates "Mailbox" and the secondary smaller label describes the functionality of this feature.
+@@@Column@@@
+
+Open book icon on blue background:
+This is an icon that likely represents news or a reading section within the app.
+@@@Image@@@
+
+"MQL5 Algo Trading" label:
+This is a text widget displaying a label related to MQL5 algorithmic trading features.
+@@@Text@@@
+
+Partial circular green icon:
+This is part of an image or icon, likely used as a visual indicator or button related to settings or profile.
+@@@Image@@@

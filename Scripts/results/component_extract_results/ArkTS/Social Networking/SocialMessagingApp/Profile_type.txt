@@ -1,0 +1,81 @@
+Toggle switch:
+This is a UI component used to switch between two states, typically ON and OFF.
+@@@arkTSSwitch@@@
+
+Custom notifications label:
+This is a text label indicating a specific setting or option available, namely custom notifications.
+@@@arkTSText@@@
+
+Media tab:
+This is a text label within a tab navigation component that allows users to switch to the "Media" section.
+@@@arkTSTabBarItem@@@
+
+Mobile label:
+This is a text label indicating the phone number's type or category (Mobile in this case).
+@@@arkTSText@@@
+
+Date label:
+This is a text label showing a date, indicating when something happened or was last modified.
+@@@arkTSText@@@
+
+Video call icon:
+This is an icon representing a video call action or function.
+@@@arkTSIcon@@@
+
+Phone number:
+This is a text label displaying a phone number.
+@@@arkTSText@@@
+
+UI Design enthusiast label:
+This is a text label that likely represents a title or description of the user’s profession or hobby.
+@@@arkTSText@@@
+
+Toggle switch (green):
+This is a UI component showing the state is ON, typically used to switch settings on or off.
+@@@arkTSSwitch@@@
+1. **Wi-Fi signal icon:**
+   This icon represents the Wi-Fi connectivity status of the device.
+   @@@arkTSImage@@@
+
+2. **Profile section:**
+   Displays user information including name, status, and back navigation.
+   @@@arkTSFlex@@@
+
+3. **Profile picture initials:**
+   This is likely a circular placeholder displaying the initials of a user.
+   @@@arkTSImage@@@
+
+4. **"Links" tab text:**
+   Represents a tab option for viewing links shared in the app.
+   @@@arkTSText@@@
+
+5. **Blank grid placeholder:**
+   An empty placeholder possibly indicating unavailable or loading content.
+   @@@arkTSGrid@@@
+
+6. **"Antonio Banderas" name:**
+   Represents a text field for the user's name.
+   @@@arkTSText@@@
+
+7. **Phone icon:**
+   An icon likely used to initiate a call when tapped.
+   @@@arkTSIcon@@@
+
+8. **"Documents" tab text:**
+   Represents a tab option for accessing shared documents.
+   @@@arkTSText@@@
+
+9. **Signal strength icon:**
+   Displays the cellular signal strength of the device.
+   @@@arkTSImage@@@
+Bio and phone number label:
+This text label likely indicates a section within the app for displaying user bio and phone information.
+@@@arkTSText@@@
+
+Bottom navigation bar:
+This component acts as a navigation element allowing users to switch between different sections of the app.
+@@@arkTSNavbar@@@
+
+Time display (9:41):
+This shows the current time on the status bar of the mobile device.
+@@@arkTSTimeDisplay@@@

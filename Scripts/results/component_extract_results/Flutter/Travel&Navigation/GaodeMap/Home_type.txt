@@ -1,0 +1,155 @@
+优惠加油 (Discounted Fuel):
+This component likely represents a button with an icon and label for finding discounted fuel services.
+@@@Column with Icon and Text@@@
+
+Driving icon:
+This icon represents a driving-related service or feature, possibly to access driving navigation or car rentals.
+@@@Icon@@@
+
+航院社区 (Hangyuan Community):
+This text label appears to name a specific location on the map, providing information to the user about that area.
+@@@Text@@@
+
+大酒店 (Big Hotel):
+This text is likely a label indicating a hotel location on the map.
+@@@Text@@@
+
+附近 (Nearby):
+This component, featuring an icon and label, likely acts as a button to find nearby locations or services.
+@@@Column with Icon and Text@@@
+
+打车 (Ride Hailing):
+This component likely represents a button to access ride-hailing services, featuring an icon and text label.
+@@@Column with Icon and Text@@@
+
+Home icon:
+This icon represents a "Home" feature, often used for navigation or bookmarking home-related settings.
+@@@Icon@@@
+
+去单位 (Go to Unit):
+This text appears to label a navigation feature or button to direct users to a specific location, like their workplace.
+@@@Text@@@
+
+实时公交 (Real-time Transit):
+This component likely indicates a feature for accessing real-time transit information, represented by an icon and label.
+@@@Column with Icon and Text@@@
+去设置 (Go to Settings):
+This text widget appears to prompt users to navigate to the settings page.
+@@@Text@@@
+
+火车票机票 (Train and Plane Tickets):
+This is an icon with a label that allows users to book train or plane tickets.
+@@@Column@@@
+
+查找地点、公交、地铁 (Search Places, Public Transit, Metro):
+This is a search bar widget allowing users to search for various locations and transit options. It includes a text field and icons for search, scanning, and voice input.
+@@@Row@@@
+
+驾车 (Drive):
+This is an icon with a label for driving directions or services.
+@@@Column@@@
+
+订酒店 (Book Hotel):
+This is an icon with a label for booking hotel services.
+@@@Column@@@
+
+去设置 (Go to Settings):
+This text widget appears again, prompting users to navigate to the settings page.
+@@@Text@@@
+
+虹口大酒店 (Hongkou Hotel):
+This label appears to name or mark a hotel location on the map.
+@@@Text@@@
+
+步行 (Walk):
+This is an icon with a label for walking directions or services.
+@@@Column@@@
+
+虹口大厦 (Hongkou Building):
+This label appears to name or mark a building location on the map.
+@@@Text@@@
+Map pin with bed:
+This is likely a marker used to indicate a hotel or accommodation on a map.
+@@@Icon@@@
+
+"中国农业银行" label:
+This text widget identifies a location, specifically the Agricultural Bank of China.
+@@@Text@@@
+
+Steering wheel icon with "代驾" label:
+This component combines an icon representing driving services (代驾 translates to "driving service").
+@@@Column@@@
+
+Speech bubble icon:
+This is likely an icon button representing messaging or chat functionalities.
+@@@IconButton@@@
+
+Bus icon with "公交" label:
+This element combines an icon representing bus transportation with a label (公交 translates to "public transport").
+@@@Column@@@
+
+"高德地图" label:
+This text widget indicates the map service being used, specifically Gaode Map.
+@@@Text@@@
+
+Arrow with "路线" label:
+This component suggests a route function, indicated by an arrow icon and the label (路线 translates to "route").
+@@@Column@@@
+
+Person icon with "我的" label:
+This element combines an icon suggesting a user profile with a label (我的 translates to "mine" or "my").
+@@@Column@@@
+
+"教育学校" label:
+This text widget denotes a location related to educational institutions.
+@@@Text@@@
+烟台潇翔小学:
+This is likely a text widget displaying the name of a location on the map.
+@@@Text@@@
+
+滨海广场:
+This component displays the name of another location, potentially styled with a unique font or color.
+@@@Text@@@
+
+百纳瑞汀酒店:
+This text widget names a specific place, possibly a point of interest on the map.
+@@@Text@@@
+
+消息:
+This text label indicates a navigation or message feature, typically used in tabs or buttons.
+@@@Text@@@
+
+Orange Circle Icon:
+This icon is likely a button to represent a feature such as location or status, possibly with a decorative background shape.
+@@@IconButton@@@
+
+更多工具 (More Tools):
+This component is a combination of an icon and label. It likely serves as a navigation button for additional tools.
+@@@Column@@@
+
+通知 (Notification):
+This component is a button that represents a notification function, composed of an icon and text.
+@@@Column@@@
+
+反馈 (Feedback):
+This is a button with an icon and text, likely used for user feedback submissions.
+@@@Column@@@
+
+Briefcase Icon:
+This component is a standalone icon, possibly indicating an option related to work or professional tasks.
+@@@Icon@@@
+Component Keyword:
+This text reads "回家" (Go Home) and likely serves as a label for a button or link that redirects users to their home location or a similar personalized feature.
+@@@Text@@@
+
+Component Keyword:
+This icon represents a layered design and is coupled with the text "图层" (Layers), suggesting that it is a button that toggles map layers.
+@@@IconButton@@@
+
+Component Keyword:
+This text reads "旺林蓉菜小面馆" (Wanglin Rong Vegetables Small Noodle Restaurant) and appears as a label on the map to indicate a specific location.
+@@@Text@@@
+
+Component Keyword:
+This icon accompanied by the text "打车" (Taxi) is likely a button that allows users to access taxi-related services or features.
+@@@IconButton@@@

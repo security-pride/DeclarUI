@@ -1,0 +1,180 @@
+Component Keyword:
+Date card with "星期日" (Sunday)
+This component seems to display a specific date, possibly allowing users to select a date for scheduling or planning activities.
+@@@arkTSDateCard@@@
+
+Component Keyword:
+Text label with "导"
+This appears to be a text component, possibly serving as a label, title, or part of a navigational element.
+@@@arkTSText@@@
+
+Component Keyword:
+Share icon
+This is likely a button for sharing content from the app to other platforms or users.
+@@@arkTSIconButton@@@
+
+Component Keyword:
+Ellipsis menu with "16"
+This icon might open a menu with additional options or notifications, indicated by the number "16".
+@@@arkTSEllipsisMenu@@@
+
+Component Keyword:
+"立即预订" (Book Now) button
+This button is likely used to initiate a booking or reservation process within the app.
+@@@arkTSButton@@@
+
+Component Keyword:
+"客服" (Customer Service) icon
+This icon might be used to access customer service or support features within the app.
+@@@arkTSIconLabel@@@
+
+Component Keyword:
+"达人探线" (Expert Line) label
+This is likely a text label, possibly indicating a section or feature related to expert recommendations or tours.
+@@@arkTSText@@@
+
+Component Keyword:
+Rating label with "超棒" (Super)
+This text component is likely used to display a user rating or review for a product or service.
+@@@arkTSTextLabel@@@
+
+Component Keyword:
+Date card with "星期六" (Saturday)
+This component seems to display a specific date, possibly allowing users to select a date for scheduling or planning activities.
+@@@arkTSDateCard@@@
+Collect button:
+This button allows users to save or mark items as favorites for easy access later.
+@@@arkTSButton@@@
+
+"29项优惠" (29 Discounts) text with arrow:
+This text likely represents an interactive link or button that directs users to view more discounts or offers. Translation: "29 Discounts."
+@@@arkTSLink@@@
+
+Package title and badge:
+This is a text label with a badge indicating a product or package name and its status or feature. Translation: "Yantai + Laizhou District 2 Days 1 Night Mini Group."
+@@@arkTSTextWithBadge@@@
+
+Discount label:
+This might be a button or label that shows promotional offers, like a discount. Translation: "Installment Reduction."
+@@@arkTSBadge@@@
+
+Date display:
+This component shows date-related information, possibly for scheduling or booking. Translation: "Lowest price in 30 days, Friday 07-19."
+@@@arkTSDateDisplay@@@
+
+"拼小团" (Mini Group) label:
+This text label might be a category or feature name related to group buying or special travel packages. Translation: "Mini Group."
+@@@arkTSText@@@
+
+"放心游" (Travel with Confidence) label:
+This text denotes a feature or service guarantee aimed at reassuring customer confidence. Translation: "Travel with Confidence."
+@@@arkTSText@@@
+
+Menu button with notification:
+This is a button, often for opening a menu or options list, with a notification badge indicating unread messages or updates.
+@@@arkTSMenuButtonWithBadge@@@
+
+"自由灵活" (Flexible and Free) label:
+This is a text label that indicates an option or feature of flexibility and freedom in service or plans. Translation: "Flexible and Free."
+@@@arkTSText@@@
+人少体验好 (Fewer People, Better Experience):
+This is a text label that provides a description or slogan to entice users about a feature or service. 
+@@@arkTSText@@@
+
+店铺 (Shop) icon:
+This component is likely an icon that represents a shop or store, possibly used for navigation or to indicate shopping features.
+@@@arkTSIcon@@@
+
+优选 (Preferred) label:
+This is a badge or label indicating an item as preferred or recommended. It helps highlight specific content.
+@@@arkTSBadge@@@
+
+纯玩无购物 (Pure Play, No Shopping):
+This is a text label communicating a selling point or feature of a product or service, emphasizing the absence of shopping requirements.
+@@@arkTSText@@@
+
+Tour title and details:
+This component includes the tour title and some summary details like price or promotions, providing users with a quick overview of the offer.
+@@@arkTSCard@@@
+
+编号 4558775 (Serial Number 4558775):
+This text displays a unique identification number, useful for distinguishing or tracking a particular item or entry.
+@@@arkTSText@@@
+
+图片 1/4 (Image 1/4):
+This component is an indicator showing the current image count out of the total, often used in a gallery or slideshow.
+@@@arkTSIndicator@@@
+
+¥965/人起 (¥965 per person):
+This text element displays the starting price per person, offering essential pricing information to users.
+@@@arkTSText@@@
+
+无购物 (No Shopping):
+This is another text label that emphasizes a feature or characteristic of an offering, specifically the absence of shopping requirements.
+@@@arkTSText@@@
+"看每日行程" button:
+This component is likely a button that allows users to view the daily itinerary of an event or tour.
+@@@arkTSButton@@@
+
+"烟台出发" label:
+This is a text label that indicates a departure point, in this case, Yantai.
+@@@arkTSText@@@
+
+"钻石贵宾专享" badge:
+This appears to be a badge indicating exclusive content or offers for VIP members.
+@@@arkTSBadge@@@
+
+"5.0分" rating:
+This component shows a numerical rating, likely representing user reviews or satisfaction.
+@@@arkTSBadge@@@
+
+Date and Day ("星期一" "07-22"):
+This likely represents a date picker or calendar component showing specific days and dates for selection.
+@@@arkTSDatePicker@@@
+
+"特色体验" label:
+This is a text label highlighting special features or experiences.
+@@@arkTSText@@@
+
+"提前2天免费退" text:
+This is a text label that provides information about a refund policy, specifically a free cancellation notice.
+@@@arkTSText@@@
+
+"星期" and "全部班期" date components:
+These components likely represent a calendar or date selection, possibly showing schedules or tours.
+@@@arkTSDatePicker@@@
+
+"成团保障" guarantee label:
+This component is a text label indicating group formation guarantees.
+@@@arkTSText@@@
+Back button:
+This is a navigation button that allows users to return to the previous screen.
+@@@arkTSBackButton@@@
+
+"班期说" label:
+This is a text label indicating a section for scheduling information.
+@@@arkTSTextLabel@@@
+
+"暑期大促" button:
+This button likely initiates an action related to summer promotions.
+@@@arkTSButton@@@
+
+"卖点" badge:
+This badge highlights a key selling point or feature.
+@@@arkTSBadge@@@
+
+"服务" label:
+This label is used to indicate the services section.
+@@@arkTSTextLabel@@@
+
+"优惠" label:
+This label indicates offers or discounts available.
+@@@arkTSTextLabel@@@
+
+"烟台玩美国旅" badge:
+This badge likely represents a travel package or offering.
+@@@arkTSBadge@@@
+
+"帆船出海" button:
+This button likely offers an option related to sailing trips.
+@@@arkTSButton@@@

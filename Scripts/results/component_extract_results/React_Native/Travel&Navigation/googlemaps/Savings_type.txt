@@ -1,0 +1,93 @@
+Component Keyword: "不公开列表 · 0 个地点" (Not public list · 0 places)
+Component Function Description: This is a Text component displaying information about the list being private and having zero places.
+@@@Text Functional Component@@@
+
+Component Keyword: "已加标签" (Already tagged) and "不公开列表" (Not public list)
+Component Function Description: These are Text components. The first line indicates that the items are tagged, and the second line states that the list is not public.
+@@@Text Functional Component@@@
+
+Component Keyword: "已保存" (Saved)
+Component Function Description: This is a Text component indicating the title or main heading of the saved items.
+@@@Text Functional Component@@@
+
+Component Keyword: "探索" (Explore) icon
+Component Function Description: This is an Image component used as an icon for the 'Explore' tab or button.
+@@@Function Component@@@
+
+Component Keyword: "想去的地点" (Places to go) icon
+Component Function Description: This is an Image component functioning as an icon indicating the user's desired places.
+@@@Function Component@@@
+
+Component Keyword: "出行" (Travel) icon
+Component Function Description: This is an Image component used as an icon for the 'Travel' tab or button.
+@@@Function Component@@@
+
+Component Keyword: "+ 新建列表" (+ Create new list)
+Component Function Description: This is a Button component that enables users to create a new list.
+@@@Button@@@
+
+Component Keyword: "查找更多您在 Google 上保存的项目" (Find more items saved on Google)
+Component Function Description: This is a Text component prompting users to find more items saved on Google.
+@@@Text Functional Component@@@
+
+Component Keyword: "不公开列表" (Not public list)
+Component Function Description: This is a Text component indicating that the list is private.
+@@@Text Functional Component@@@
+不公开列表:
+This is a Text Functional Component. It indicates that the list is not public.
+@@@Text Functional Component@@@
+
+最新动态 icon:
+This is a Function Component. It is likely an icon image related to notifications.
+@@@Function Component@@@
+
+已加星标的地点:
+This is a Text Functional Component. It represents a list item that indicates locations that have been starred.
+@@@Text Functional Component@@@
+
+贡献 icon:
+This is a Function Component. It is likely an icon image representing the contribution section.
+@@@Function Component@@@
+
+地图 text:
+This is a Text Functional Component. It represents a label for the map section.
+@@@Text Functional Component@@@
+
+上升箭头 icon:
+This is a Function Component. It is likely an image representing an upward trend or analytics.
+@@@Function Component@@@
+
+旅行计划:
+This is a Text Functional Component. It represents a list item indicating a travel plan.
+@@@Text Functional Component@@@
+
+已关注 text:
+This is a Text Functional Component. It represents a label for the followed section.
+@@@Text Functional Component@@@
+
+查看您的集合:
+This is a Button component. It represents a call-to-action button that likely navigates to a collection view.
+@@@Button@@@
+不公开列表:
+This is a Text component. It likely serves as a label indicating that the list is private.
+@@@Text Functional Component@@@
+
+Icon of the graph:
+This is an Image component. It likely represents a graph or trend and is probably used to indicate a statistics or insights section.
+@@@Function Component@@@
+
+收藏的地点:
+This is a Text component. It likely serves as a label indicating a section for "Favorite Locations".
+@@@Text Functional Component@@@
+
+想去的地点:
+This is a Text component. It likely serves as a label indicating a section for "Places I Want to Visit".
+@@@Text Functional Component@@@
+
+Icon of the map:
+This is an Image component. It likely represents a map and is probably used to indicate a mapping or navigation feature.
+@@@Function Component@@@
+
+时间轴:
+This is a Text component. It likely serves as a label indicating a timeline feature.
+@@@Text Functional Component@@@

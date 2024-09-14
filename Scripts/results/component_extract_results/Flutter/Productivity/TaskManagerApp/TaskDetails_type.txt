@@ -1,0 +1,125 @@
+1. **Back icon:**
+   This is an icon inside a button, typically used for navigation purposes to go back to the previous screen.
+   @@@IconButton@@@
+
+2. **Task item with unchecked box:**
+   Represents a task with a date, possibly part of a to-do list. The checkbox indicates whether the task is completed.
+   @@@ListTile (with Checkbox and Text)@@@
+
+3. **Task item with checked box:**
+   Similar to the previous task item, but the checkbox is checked, indicating completion.
+   @@@ListTile (with Checkbox, Text, and Icon)@@@
+
+4. **Top section with task details:**
+   Displays a back button and the title of the task, typically forming the top bar.
+   @@@AppBar (with Row containing IconButton and Text)@@@
+
+5. **Time period label:**
+   Displays a time range, often used to show the duration of an event or task.
+   @@@Text@@@
+
+6. **Pie chart with legend:**
+   Displays a visual representation of data distribution, along with a key to describe the categories.
+   @@@Column (containing CircularProgressIndicator or CustomPaint with Text)@@@
+
+7. **Sub Task label:**
+   Simple text indicating a section heading for subtasks.
+   @@@Text@@@
+
+8. **Time display:**
+   Displays the current time, typically part of the system status bar.
+   @@@Text@@@
+
+9. **Date label:**
+   Displays a specific date, often used to indicate a deadline or task start date.
+   @@@Text@@@
+### Component 1
+
+Component Keyword:
+This is a button that likely allows users to go back to the previous screen. It typically uses an arrow icon to indicate navigation.
+@@@IconButton@@@
+
+
+### Component 2
+
+Component Keyword:
+This is a text widget that displays the title of the screen, which in this case is "Task Details".
+@@@Text@@@
+
+
+### Component 3
+
+Component Keyword:
+This is a text widget that displays a section title, "User experience design".
+@@@Text@@@
+
+
+### Component 4
+
+Component Keyword:
+This is a date picker or display component showing a selected date, "18-02-2022".
+@@@Text@@@
+
+
+### Component 5
+
+Component Keyword:
+This is a time picker or display component showing a selected time range, "9:00 AM-12:00 PM".
+@@@Text@@@
+
+
+### Component 6
+
+Component Keyword:
+This is a pie chart representation showing task statuses in different colors indicating various metrics like "Finish on time", "Past the deadline", and "Still ongoing".
+@@@CustomPaint@@@
+
+
+### Component 7
+
+Component Keyword:
+These are various status labels text widgets that correspond to the colors in the pie chart, describing what each color signifies.
+@@@Text@@@
+
+
+### Component 8
+
+Component Keyword:
+This is a text widget that displays a section title, "Description".
+@@@Text@@@
+
+
+### Component 9
+
+Component Keyword:
+This is a Text widget that displays a description of the task.
+@@@Text@@@
+
+
+### Component 10
+
+Component Keyword:
+This is a button or link text widget indicating there's more text to read, usually navigates to a detailed view, labeled "See more".
+@@@TextButton@@@
+
+
+### Component 11
+
+Component Keyword:
+This is a section title text widget, "Sub Task".
+@@@Text@@@
+
+
+### Component 12
+
+Component Keyword:
+This is a ListTile widget containing a checkbox, a description, and a trailing icon for more options, representing a sub task item labeled "Website Redesign" with a specific date "18 Feb 2022".
+@@@ListTile@@@
+
+
+### Component 13
+
+Component Keyword:
+This is a ListTile widget containing a checkbox, a description, and a trailing icon for more options, representing a sub task item labeled "Website Design" with a specific date "19 Feb 2022".
+@@@ListTile@@@
+

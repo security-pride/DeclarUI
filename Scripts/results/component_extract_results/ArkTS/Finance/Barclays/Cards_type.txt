@@ -1,0 +1,50 @@
+Component Keyword:
+This is a header that likely indicates the section or type of account being viewed.
+@@@arkTSText@@@
+
+Component Keyword:
+This appears to be an image representing a debit card.
+@@@arkTSImage@@@
+
+Component Keyword:
+This text indicates the status of the card, which is currently active.
+@@@arkTSText@@@
+
+Component Keyword:
+This text label indicates spending controls settings.
+@@@arkTSText@@@
+
+Component Keyword:
+This is a navigation bar with icons that allow users to quickly access different parts of the app such as Accounts, Products, Pay & Transfer, Help, and More.
+@@@arkTSNavigationBar@@@
+
+Component Keyword:
+This is a text and value pair that shows the contactless limit.
+@@@arkTSTextField@@@
+
+Component Keyword:
+This is a button that offers the functionality to create a travel wallet.
+@@@arkTSButton@@@
+
+Component Keyword:
+This text describes the type of card, in this case, a personal debit card.
+@@@arkTSText@@@
+
+Component Keyword:
+This label represents the section for travel-related money management.
+@@@arkTSText@@@
+Report damaged, lost or stolen (Button):
+This button allows users to report a card as damaged, lost, or stolen.
+@@@arkTSButton@@@
+
+Temporary freeze (Button):
+This button enables users to temporarily freeze their card.
+@@@arkTSButton@@@
+
+View card details & PIN (Button):
+This button lets users view their card details and PIN.
+@@@arkTSButton@@@
+
+Added to Apple Wallet label:
+This is a text label indicating that the card has been added to Apple Wallet.
+@@@arkTSText@@@

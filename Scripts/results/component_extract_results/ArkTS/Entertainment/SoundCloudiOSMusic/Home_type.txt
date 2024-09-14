@@ -1,0 +1,139 @@
+9:41 AM:
+This displays the current time at the top of the app.
+@@@arkTSText@@@
+
+Hots now:
+This is a text label that likely indicates a trending or popular section within the app.
+@@@arkTSText@@@
+
+Kanye West:
+This is a text label likely indicating the currently playing song by the artist Kanye West.
+@@@arkTSText@@@
+
+Dua Lipa:
+This is a text label functioning as an artist name below their image.
+@@@arkTSText@@@
+
+All Mine:
+This refers to the currently playing song title.
+@@@arkTSText@@@
+
+Image of a woman posing (Rita Ora):
+This image component likely represents an artist within the popular artists section.
+@@@arkTSImage@@@
+
+User profile icon:
+This icon likely navigates to the user's profile or settings screen.
+@@@arkTSImage@@@
+
+Image of a woman (Dua Lipa):
+This image component likely represents an artist within the popular artists section.
+@@@arkTSImage@@@
+
+Image of a man covering his mouth (Eminem):
+This image component likely represents an artist within the popular artists section.
+@@@arkTSImage@@@
+Old School image:
+This is likely an image component showing an album cover or a playlist theme with the text overlay of "Old School".
+@@@arkTSImage@@@
+
+Rita Ora image:
+This is an image component probably showing a popular artist's image.
+@@@arkTSImage@@@
+
+Ed Sheeran image:
+This is an image component likely showing a popular artist's image.
+@@@arkTSImage@@@
+
+Battery icon:
+This appears to be a status bar component showing the current battery status.
+@@@arkTSBatteryStatus@@@
+
+Summer Vibes image:
+This is an image component showing an album cover or a playlist theme with the text overlay of "Summer Vibes".
+@@@arkTSImage@@@
+
+Orange bar:
+This looks like a divider or separator, possibly used to section off different parts of the screen.
+@@@arkTSDivider@@@
+
+Rap Zone image:
+This is an image component showcasing an album cover or playlist theme with the text "Rap Zone".
+@@@arkTSImage@@@
+
+Shower Time image:
+This appears to be an image component showing an album cover or a playlist theme with the text overlay of "Shower Time".
+@@@arkTSImage@@@
+
+Ed Sheeran image:
+This is an image component likely showing a popular artist's image.
+@@@arkTSImage@@@
+Old School:
+This image represents a music category or playlist called "Old School."
+@@@arkTSPicture@@@
+
+Wi-Fi Icon:
+This icon usually indicates Wi-Fi connectivity status.
+@@@arkTSIcon@@@
+
+Shower Time:
+This image represents a music category or playlist called "Shower Time."
+@@@arkTSPicture@@@
+
+Dua Lipa Portrait:
+This is likely a circular image displaying a portrait of an artist, in this case, Dua Lipa.
+@@@arkTSRoundedPicture@@@
+
+Summer Vibes:
+This image represents a music category or playlist called "Summer Vibes."
+@@@arkTSPicture@@@
+
+Play Icon:
+This icon likely indicates a play button for starting the playback of a media item.
+@@@arkTSIcon@@@
+
+Rap Zone:
+This image represents a music category or playlist called "Rap Zone."
+@@@arkTSPicture@@@
+
+Eminem Portrait:
+This is likely a circular image displaying a portrait of an artist, in this case, Eminem.
+@@@arkTSRoundedPicture@@@
+
+Bottom Navigation Bar:
+These are icons representing a bottom navigation bar menu items including headphones and a search function.
+@@@arkTSBottomNav@@@
+### Component 1
+![Component 1](https://example.com/component1.png)
+
+Component Keyword:
+This is a text heading that likely indicates the current highlighted or featured section.
+@@@arkTSText@@@
+
+### Component 2
+![Component 2](https://example.com/component2.png)
+
+Component Keyword:
+This is a card displaying an image and associated text, probably representing a playlist or category in the app.
+@@@arkTSCard@@@
+
+### Component 3
+![Component 3](https://example.com/component3.png)
+
+Component Keyword:
+This is an image with text overlay that signifies a music category or playlist.
+@@@arkTSImage@@@
+
+### Component 4
+![Component 4](https://example.com/component4.png)
+
+Component Keyword:
+This is a bottom navigation bar with multiple interactive icons, allowing users to switch between different app sections.
+@@@arkTSBottomNavigationBar@@@
+
+### Component 5
+![Component 5](https://example.com/component5.png)
+
+Component Keyword:
+This is a text label below an image, describing the content above such as a music category title.
+@@@arkTSText@@@

@@ -1,0 +1,97 @@
+Your Orders button:
+This is a Button component. It's used to navigate the user to the "Your Orders" section where they can view their placed orders.
+@@@Button@@@
+
+Top navigation bar with logo, notification bell, and search icon:
+This is a View Function Component. It encompasses the app logo, a notification bell, and a search icon, representing the top navigation of the application.
+@@@View Function Component@@@
+
+Product image (bag of rice):
+This is an Image Functional Component. It represents a product item in the list of available items for the user to view and potentially purchase.
+@@@Function Component@@@
+
+Your Lists button:
+This is a Button component. It's used to navigate the user to the "Your Lists" section where they can view and manage their lists.
+@@@Button@@@
+
+Language flag icon:
+This is an Image Functional Component. It indicates the language setting of the app by displaying the selected country's flag.
+@@@Function Component@@@
+
+Product image (King Pot Noodle):
+This is an Image Functional Component. It represents a product item in the list of available items for the user to view and potentially purchase.
+@@@Function Component@@@
+
+Product image (travel pillow):
+This is an Image Functional Component. It represents a product item in the list of available items for the user to view and potentially purchase.
+@@@Function Component@@@
+
+Product image (Jin Ramen):
+This is an Image Functional Component. It represents a product item in the list of available items for the user to view and potentially purchase.
+@@@Function Component@@@
+Your Account button:
+This is a Button component. It's used to navigate users to the account management section of the app.
+@@@Button@@@
+
+See all label:
+This is a Text component. It suggests that users can view more items or sections by clicking on this label.
+@@@Text Functional Component@@@
+
+Avatar icon:
+This is an Image component, likely serving as a profile avatar placeholder for the user.
+@@@Function Component@@@
+
+Product image (Highland Spring water):
+This is an Image component. It displays a product that the user has previously ordered or may wish to repurchase.
+@@@Function Component@@@
+
+Shopping cart icon with quantity (2):
+This is an Image component, often used to display the shopping cart in the navigation bar along with the number of items in it.
+@@@Function Component@@@
+
+Product image (Gloveman gloves):
+This is an Image component. It shows another product in the list that can be repurchased.
+@@@Function Component@@@
+
+See all label:
+This is a Text component. It is a repetitive instance of the "See all" text used to suggest viewing more items.
+@@@Text Functional Component@@@
+
+Home icon:
+This is an Image component, likely used in the tab navigation for navigating to the home screen of the app.
+@@@Function Component@@@
+
+Product image (Bubble Wrap):
+This is an Image component. It displays another product that the user has viewed or ordered before.
+@@@Function Component@@@
+EN label:
+This is a Text component. It indicates the current language option in the app.
+@@@Text Functional Component@@@
+
+Buy Again button:
+This is a Button component. When clicked, it will allow users to view and purchase items again from their previous orders.
+@@@Button@@@
+
+Cart icon with number 2:
+This is an Image component. It represents the shopping cart with a badge of 2 items in it.
+@@@Function Component@@@
+
+Andrex product image:
+This is an Image component. It shows a specific product from the user's orders or recommendations.
+@@@Function Component@@@
+
+Buy again text:
+This is a Text component. It is a section header that categorizes items the user may want to purchase again.
+@@@Text Functional Component@@@
+
+User profile icon:
+This is an Image component. It represents the user profile section or a link to the user profile page.
+@@@Function Component@@@
+
+Hello, ml296 greeting:
+This is a Text component. It greets the user by their account name.
+@@@Text Functional Component@@@
+
+Your Orders text:
+This is a Text component. It is a section header that categorizes the user’s current or past orders.
+@@@Text Functional Component@@@

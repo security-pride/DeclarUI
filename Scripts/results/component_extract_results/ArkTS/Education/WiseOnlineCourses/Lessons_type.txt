@@ -1,0 +1,54 @@
+Video thumbnail with duration (08:12):
+This component is a thumbnail image for a video, with a duration displayed, indicating the length of the video.
+@@@arkTSImage@@@
+
+Download icon:
+This icon indicates a download action, likely to allow users to download content such as a video or document.
+@@@arkTSIcon@@@
+
+Lesson 1: What is Advertising with description:
+This component represents a lesson section which includes a thumbnail image, title, duration, and a short description of the lesson content.
+@@@arkTSCard@@@
+
+Video thumbnail with duration (13:20):
+This component is a thumbnail image for a video, with a duration displayed, indicating the length of the video.
+@@@arkTSImage@@@
+
+Lesson 3: 10 things you shouldn't do! with description:
+This component represents a lesson section which includes a thumbnail image, title, duration, and a short description of the lesson content.
+@@@arkTSCard@@@
+
+Tab label "About":
+This is a text label representing a tab or section within the app, likely used for navigation.
+@@@arkTSTab@@@
+
+Lesson 2: Working With Brands with description:
+This component represents a lesson section which includes a thumbnail image, title, duration, and a short description of the lesson content.
+@@@arkTSCard@@@
+
+Minus circle icon (blue):
+This component is a minus icon inside a circle, likely used for actions such as minimizing or collapsing a section.
+@@@arkTSIcon@@@
+
+Text label "DOWNLOAD":
+This text label, often associated with a button or interactive element, indicates an action to download content.
+@@@arkTSText@@@
+Component Keyword:
+This is a download icon that allows users to download content, such as lessons or resources, within the app.
+@@@arkTSIcon@@@
+
+Component Keyword:
+This is a button labeled "DOWNLOAD" that likely triggers a download action for the associated content item.
+@@@arkTSButton@@@
+
+Component Keyword:
+This is a download icon, likely used to visually indicate a download action, similar to the previous component.
+@@@arkTSIcon@@@
+
+Component Keyword:
+This text label says "Lessons," indicating the section name within the app where lessons are listed or accessed.
+@@@arkTSText@@@
+
+Component Keyword:
+This text label says "DOWNLOAD," likely indicating the action that will occur if the associated button is pressed.
+@@@arkTSText@@@

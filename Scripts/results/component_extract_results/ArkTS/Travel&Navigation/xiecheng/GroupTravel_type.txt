@@ -1,0 +1,153 @@
+Component Keyword:
+This indicates a city name. It's likely part of a UI component that lets users select a city option for travel.
+@@@arkTSText@@@
+
+Component Keyword:
+This label indicates domestic group tours. Such labels often help categorize sections in the app.
+@@@arkTSText@@@
+
+Component Keyword:
+These labels categorize travel options, possibly showing different types of tour packages or travel plans.
+@@@arkTSText@@@
+
+Component Keyword:
+This label indicates international group tours and provides further details (the part below the main text).
+@@@arkTSText@@@
+
+Component Keyword:
+This is a blurred image snippet showing a section probably related to travel content or promotion.
+@@@arkTSImage@@@
+
+Component Keyword:
+This label indicates the starting point of a journey, in this case, "Zhangjiagang Departure".
+@@@arkTSText@@@
+
+Component Keyword:
+This indicates the city "Beijing". It is likely a button users can click on to choose Beijing as their destination.
+@@@arkTSButton@@@
+
+Component Keyword:
+This indicates the city "Dalian" with a flame icon, suggesting it could be a popular or trending destination.
+@@@arkTSButton@@@
+
+Component Keyword:
+This indicates the city "Yunnan". It is likely another button users can click on to choose Yunnan as their destination.
+@@@arkTSButton@@@
+出发日期不限 (Departure Date Unlimited):
+This is a text label indicating that the departure date is not restricted. It serves as a filter option for selecting or displaying travel options.
+@@@arkTSText@@@
+
+四川 (Sichuan):
+This text label likely serves as a button or a selectable option for choosing Sichuan as a destination in the app.
+@@@arkTSButton@@@
+
+度假直播 (Vacation Live Streaming):
+This component could be a card or section label representing live-streaming content related to vacations. It may lead users to detailed guides or live streams when interacted with.
+@@@arkTSCard@@@
+
+新疆 (Xinjiang):
+This label likely functions as a button or selectable option for choosing Xinjiang as a destination.
+@@@arkTSButton@@@
+
+南京 (Nanjing):
+This component is likely a text label or button representing Nanjing as a selectable option in the app, probably for destination selection.
+@@@arkTSButton@@@
+
+烟台 (Yantai):
+This is a label similar to the others, likely functioning as a button for selecting Yantai as a destination. The clock icon suggests it might indicate time-related information.
+@@@arkTSButton@@@
+
+旅游广告横幅 (Travel Advertisement Banner):
+This is an image banner, likely promotional, for travel-related advertisements. It usually serves as a visual attraction or informational placeholder.
+@@@arkTSImage@@@
+
+人气榜 (Popularity List):
+This card possibly represents a section of the app dedicated to popular items or recommendations, with an option to explore more.
+@@@arkTSCard@@@
+
+精选 (Selection):
+This is a text label that may work as a button, possibly directing the user to a list of specially selected or curated content.
+@@@arkTSButton@@@
+Component Keyword: Mountain view with two pandas in costumes
+Component Function Description: This is likely to be an image component displaying a scenic view with two characters dressed as pandas, possibly part of a travel section showcasing destinations or attractions.
+@@@arkTSImage@@@
+
+Component Keyword: Woman in blue costume
+Component Function Description: This image component shows a woman in a blue costume, potentially part of a promotional banner or a cultural feature within the app.
+@@@arkTSImage@@@
+
+Component Keyword: 钻石贵宾 (Diamond VIP) label
+Component Function Description: This label indicates a VIP section or membership benefits, suggesting special promotions or discounts available for VIP members.
+@@@arkTSText@@@
+
+Component Keyword: 贵州 character text
+Component Function Description: This is a text label indicating "Guizhou," likely part of a list of destinations or categories within the app.
+@@@arkTSText@@@
+
+Component Keyword: Blue envelope with coins
+Component Function Description: This image component represents a blue envelope with coins, probably indicative of a financial feature or a promotional offer related to monetary rewards.
+@@@arkTSImage@@@
+
+Component Keyword: 成都 character text
+Component Function Description: This is a text label saying "Chengdu," likely used to categorize or highlight a specific destination.
+@@@arkTSText@@@
+
+Component Keyword: 会员专享价 (Member exclusive price) label
+Component Function Description: This label suggests that there are exclusive prices for members, indicating a membership program with special pricing.
+@@@arkTSText@@@
+
+Component Keyword: 游玩天数不限 (Unlimited play days) label
+Component Function Description: This label indicates that there are no limits on the number of days for which the experience or play is available, possibly part of a travel package description.
+@@@arkTSText@@@
+
+Component Keyword: 跟团首页 (Group tour homepage) label
+Component Function Description: This text label denotes the homepage for group tours, directing users to the main section for group travel options.
+@@@arkTSText@@@
+
+
+Component Keyword:
+This is a text label likely indicating the number of adults and children in a booking or selection.
+@@@arkTSText@@@
+
+Component Keyword:
+This is a button with a label indicating "Shanghai", possibly for selecting a location.
+@@@arkTSButton@@@
+
+Component Keyword:
+This is a text label providing more detailed information about the number of adults and children, suggesting it links to more details.
+@@@arkTSLabel@@@
+
+Component Keyword:
+This is a text label for the "Browsing History" section of the app.
+@@@arkTSText@@@
+
+Component Keyword:
+This is a text label that reads "Limited Time Offer".
+@@@arkTSText@@@
+
+Component Keyword:
+This is a button with the label "Search" allowing users to perform a search action.
+@@@arkTSButton@@@
+
+Component Keyword:
+This is a smaller button with the label "See More" to view additional content.
+@@@arkTSButton@@@
+
+Component Keyword:
+This is an image likely functioning as a thumbnail or preview for content.
+@@@arkTSImage@@@
+
+Component Keyword:
+This is a text label for the "My Orders" section of the app.
+@@@arkTSText@@@
+Component Keyword:
+"我的收藏" (My Collection) label
+Component Function Description:
+This is a text label indicating a section where users can view their saved or favorite items.
+@@@arkTSText@@@
+
+Component Keyword:
+"暑期大促·精选" (Summer Promotions: Selected) label
+Component Function Description:
+This text label suggests a section featuring special summer promotions and selected deals or offers.
+@@@arkTSText@@@

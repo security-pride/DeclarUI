@@ -1,0 +1,170 @@
+### Component Matching:
+
+1. 降价按钮 (Discount Button):
+   This component is likely a button that triggers a discount or sale-related action when tapped. The icon indicates a price drop.
+   @@@ElevatedButton@@@
+
+2. 重新选择按钮 (Reselect Button):
+   This component is a button allowing users to reselect or change their initial choice.
+   @@@OutlinedButton@@@
+
+3. 淘宝 马克思主义 MKSZY (Store Name Label):
+   This component displays the name of the store. The right arrow suggests it's a navigational link.
+   @@@Text@@@
+
+4. 精武路地址 (Location Label):
+   This component shows the address or a specific location, possibly indicating a delivery address.
+   @@@Text@@@
+
+5. 天猫 NITORI家居 (Store Name Label):
+   This component displays the name of another store, acting as a navigational link with a right arrow.
+   @@@Text@@@
+
+6. 价格波动 (Price Fluctuation Label):
+   This label indicates price variations for items, suggesting more details can be explored.
+   @@@Text@@@
+
+7. 产品卡片 (Product Card):
+   This component likely represents a product with an image and price. It might be tappable, directing users to product details.
+   @@@Card@@@
+
+8. 管理 (Manage Label):
+   This text component possibly indicates a management or settings section within the app.
+   @@@Text@@@
+
+9. 购物按钮 (Shopping Button):
+   This button presumably allows users to access their shopping cart or perform an action related to frequent purchases.
+   @@@ElevatedButton@@@
+即将售罄,34人抢购中:
+This is a text widget that indicates a product is almost sold out and the number of people currently purchasing it.
+@@@Text@@@
+
+结算 button:
+This is a button widget likely used to proceed to the checkout process. The text "结算" translates to "Settle" or "Checkout."
+@@@ElevatedButton@@@
+
+商品下架:
+This is an overlay label indicating that the product is no longer available. It appears over the product image.
+@@@Stack@@@
+
+跨店满减 label:
+This is a label indicating a cross-store discount promotion.
+@@@Container@@@
+
+Folder icon:
+This is an icon button likely representing a feature such as file management or folder navigation.
+@@@IconButton@@@
+
+消息:
+This is a text widget that translates to "Message." It is part of the navigation bar.
+@@@Text@@@
+
+NITORI圆形舒柔质感抱枕:
+This text represents the name of a product, specifically a round soft-textured cushion by NITORI.
+@@@Text@@@
+
+首页:
+This is a text widget on the bottom navigation bar indicating "Home."
+@@@Text@@@
+
+圆形靠垫 image:
+This is an image widget displaying a circular cushion.
+@@@Image@@@
+购物车:
+This is a text widget that displays the title or a label for the shopping cart page.
+@@@Text@@@
+
+合计:￥0:
+This text widget shows the total amount of the shopping cart. The blue color is likely added via a style property.
+@@@Text@@@
+
+T-shirt image:
+This is an image widget displaying a T-shirt. It could be loaded from a network URL or from assets.
+@@@Image@@@
+
+逛逛 (Discover) icon and label:
+This icon with a play button surrounded by a square and below text is likely a navigation button. The text means “Discover”.
+@@@Column@@@
+
+为你推荐更多同款:
+This is a text widget displaying a label for recommended similar items. The text translates to “Recommended more similar items for you”.
+@@@Text@@@
+
+假一赔四:
+This is a text widget with a guarantee label indicating authenticity. The text translates to “If fake, fourfold compensation”.
+@@@Text@@@
+
+Magnifying glass icon:
+This is an icon widget representing a search action.
+@@@Icon@@@
+
+Jacket image:
+This is an image widget displaying a jacket, part of the recommended items.
+@@@Image@@@
+
+购物车(18):
+This is a text widget showing the page title and a count of items in the shopping cart within parentheses.
+@@@Text@@@
+
+Certainly! Below are the matches for each component image along with their possible Flutter widget types and descriptions:
+
+1. **Black Jacket Image:**
+   This image shows a jacket, likely representing a product item in a shopping app.
+   @@@Image@@@
+
+2. **"每300减30,可跨店" Label:**
+   This text might indicate a promotional offer related to purchases above a specified amount. Translation: "Every 300 minus 30, can be cross-store."
+   @@@Text@@@
+
+3. **Blue Discount Policy Text:**
+   This text is styled in blue, possibly to emphasize a return or discount policy. Translation: "Fake one, lose four; quick refund; 7 days no reason to return."
+   @@@Text@@@
+
+4. **Product Title "MKSZY 复古水洗做旧短袖T恤":**
+   The title of a product, possibly displayed in a list or detailed view. Translation: "MKSZY Retro Washed Vintage Short Sleeve T-Shirt."
+   @@@Text@@@
+
+5. **"请重新选择商品规格" Label:**
+   This text suggests a prompt for users to reselect product specifications. Translation: "Please reselect product specifications."
+   @@@Text@@@
+
+6. **T-shirt Image:**
+   This shows a T-shirt as part of the product listing or detail page.
+   @@@Image@@@
+
+7. **Round Cushion Image:**
+   This image displays a round cushion, likely representing a product.
+   @@@Image@@@
+
+8. **Black Jacket Image (repeated):**
+   This image appears to be a repeat of the previously identified jacket product image.
+   @@@Image@@@
+
+9. **Quantity Indicator "x1":**
+   This is likely a counter or label displaying the quantity of the item selected.
+   @@@Text@@@
+EVA 绣波丽[现货秒发];S label:
+This is a text widget displaying additional details about a product, specifically its availability, shipping speed, and size.
+@@@Text@@@
+
+复古水洗做旧短袖T恤 label:
+This text widget describes the product name, likely serving as a title for the displayed item.
+@@@Text@@@
+
+Photo of person in jacket:
+This appears to be an image of a person modeling a jacket, likely used to display the product in use or to provide a visual reference for potential buyers.
+@@@Image@@@
+
+结算 button:
+This is a button widget labeled "结算" (Check out), which users can press to proceed with the purchase of selected items in their shopping cart.
+@@@ElevatedButton@@@
+
+商品下架 image:
+This is an image of a jacket with an overlay text "商品下架" (Product Unavailable), likely indicating that the product is no longer available for sale. Potentially combined with a Stack widget to overlay text on the image.
+@@@Stack@@@
+
+每 300 减 30 · 3 期免息 · 库存紧张 label:
+This is a text widget displaying promotional information, such as discounts and purchase benefits.
+@@@Text@@@
+
+

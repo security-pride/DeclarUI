@@ -1,0 +1,105 @@
+Like icon with "1.8k" text:
+This is a Button component. It likely acts as a like button for a comment, with the text displaying the number of likes received.
+@@@Button@@@
+
+Profile picture image:
+This is an Image component. It is used to display a user's profile picture in the comments section.
+@@@Function Component@@@
+
+Like icon with "1.2k" text:
+This is a Button component. It likely acts as a like button for a comment, with the text displaying the number of likes received.
+@@@Button@@@
+
+"Badli" name label:
+This is a Text component. It displays a user's name in the comments section.
+@@@Text Functional Component@@@
+
+"View replies (12)" action text:
+This is a Text component. It indicates that users can view the replies to a particular comment, along with the number of replies.
+@@@Text Functional Component@@@
+
+"Lorem ipsum dolor sit amet..." comment text:
+This is a Text component. It displays the content of a user's comment.
+@@@Text Functional Component@@@
+
+"Tung Tran" name label:
+This is a Text component. It displays a user's name in the comments section.
+@@@Text Functional Component@@@
+
+Profile picture image:
+This is an Image component. It is used to display a user's profile picture in the comments section.
+@@@Function Component@@@
+
+Like icon with "1.8k" text:
+This is a Button component. It likely acts as a like button for a comment, with the text displaying the number of likes received.
+@@@Button@@@
+
+
+4231 Comments:
+This is a Text Functional Component. It displays the total number of comments in the section.
+@@@Text Functional Component@@@
+
+View replies (12):
+This is a Text Functional Component. It indicates the option to view the replies to a comment.
+@@@Text Functional Component@@@
+
+1.8k Like Icon:
+This is an Image component. It displays the number of likes for a comment.
+@@@Function Component@@@
+
+User Profile Picture:
+This is an Image component. It displays the profile picture of a user who commented.
+@@@Function Component@@@
+
+Lorem ipsum comment text:
+This is a Text Functional Component. It displays the content of a user's comment.
+@@@Text Functional Component@@@
+
+LilKittt:
+This is a Text Functional Component. It displays the username of the user who commented.
+@@@Text Functional Component@@@
+
+Lorem ipsum detailed comment text:
+This is a Text Functional Component. It provides additional details or the full content of a user's comment.
+@@@Text Functional Component@@@
+Comment input and send button:
+This is a TextInput followed by a Button component. The TextInput allows users to type their comments and the Button allows users to send or submit their comments.
+@@@TextInput@@@
+@@@Button@@@
+
+User avatar:
+This is an Image component. It displays the user's avatar or profile picture in the comments section.
+@@@Function Component@@@
+
+View replies:
+This is a Button component. It allows users to expand and view the replies to a specific comment.
+@@@Button@@@
+
+Edit icon:
+This is a Button component. It allows users to edit their comments.
+@@@Button@@@
+
+Comment text:
+This is a Text component. It displays the contents of the comments made by a user.
+@@@Text Functional Component@@@
+
+Username:
+This is a Text component. It displays the username of the person who made the comment.
+@@@Text Functional Component@@@
+
+WiFi icon:
+This is an Image component. It might indicate network activity or status.
+@@@Function Component@@@
+
+Username:
+This is a Text component. It displays the username of the person who made the comment.
+@@@Text Functional Component@@@
+
+Comment text:
+This is a Text component. It displays the contents of the comments made by a user.
+@@@Text Functional Component@@@
+
+
+"View replies (12)":
+This is a Text Functional Component. It's likely used to indicate the option to view the replies to a particular comment, along with the number of replies available.
+@@@Text Functional Component@@@

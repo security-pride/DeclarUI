@@ -1,0 +1,116 @@
+Person icon with a plus:
+This is a Button component. It's likely used to add new friends or followers within the app.
+@@@Button@@@
+
+"70.0 公斤" text:
+This is a Text Functional Component. It displays the weight data of the user in kilograms.
+@@@Text Functional Component@@@
+
+"商城" text:
+This is a Text Functional Component. This indicates the "Shop" section of the app where users might purchase goods or services.
+@@@Text Functional Component@@@
+
+Star icon:
+This is an Image Function Component. It could be part of a button related to bookmarking or favorites.
+@@@Function Component@@@
+
+"我的数据" section:
+This is a View Function Component. It contains user activity data and other related details.
+@@@View Function Component@@@
+
+User profile icon:
+This is a Button component. It probably navigates to the user's profile for managing or viewing account details.
+@@@Button@@@
+
+"我的饮食" text:
+This is a Text Functional Component. It indicates the section that displays the user's dietary information.
+@@@Text Functional Component@@@
+
+"2016.07.07" date text:
+This is a Text Functional Component. It likely displays the date associated with a user's entry or significant event.
+@@@Text Functional Component@@@
+
+"Boots--2333" username text:
+This is a Text Functional Component. It displays the username of the account holder.
+@@@Text Functional Component@@@
+
+"条动态" text:
+This is a Text Functional Component. It represents the "Activities" section, specifying the number of activities or updates.
+@@@Text Functional Component@@@
+课程 label:
+This is a Text component. It appears to be a label for a button or section related to courses in the app.
+@@@Text Functional Component@@@
+
+我的动态 label:
+This is a Text component. It represents a section where user activities or status updates can be viewed.
+@@@Text Functional Component@@@
+
+keep 会员 banner:
+This is a View with nested Text and Text components. It represents a banner for promotions or advertisements related to membership.
+@@@View Function Component@@@
+
+体重数据信息:
+This is a View containing a nested Text component for weight data display. It shows the user's weight statistics over a period.
+@@@View Function Component@@@
+
+Y icon:
+This is an Image component. It likely represents a button or icon for accessing a specific part of the app's features.
+@@@Function Component@@@
+
+用户头像:
+This is an Image component. It displays the user's profile picture or avatar.
+@@@Function Component@@@
+
+新挑战标签:
+This is a View with nested Image and Text components. It shows badges or achievements along with a challenge label.
+@@@View Function Component@@@
+
+首页 label:
+This is a Text component. It likely denotes the label of the home section in the bottom navigation bar.
+@@@Text Functional Component@@@
+
+运动 tab:
+This is a Button with a nested Image and Text component. It represents a tab in the bottom navigation bar, likely leading to a section related to fitness activities.
+@@@TouchableOpacity Function Component@@@
+粉丝 (Fans):
+This is a Text component. It is likely used to display the number of fans or followers of the user.
+@@@Text Functional Component@@@
+
+Gear icon:
+This is a Function Component. It probably opens the settings menu where users can configure various options in the app.
+@@@Function Component@@@
+
+加油 (Come on):
+This is a Text component. It seems to be encouraging text related to the user's activities or goals.
+@@@Text Functional Component@@@
+
+Bell icon:
+This is a Function Component. It could be used to represent notifications or alerts within the app.
+@@@Function Component@@@
+
+Screen capture icon:
+This is a Function Component. It likely captures or scans something when clicked, potentially used for scanning QR codes or documents.
+@@@Function Component@@@
+
+订单与钱包 (Orders and Wallet):
+This is a Text component. It describes a section of the app where users can see their orders and wallet-related information.
+@@@Text Functional Component@@@
+
+我的活动 (My Activities):
+This is a Text component. It indicates the section of the app where users can view their activities.
+@@@Text Functional Component@@@
+
+Trophy icon:
+This is a Function Component. It likely represents achievements, rewards, or user goals.
+@@@Function Component@@@
+
+Kg 3 新升级! (Kg 3 New Upgrade!):
+This is a Text component. It shows the weight (Kg) and an encouragement message about a new upgrade or achievement.
+@@@Text Functional Component@@@
+"我的" (My) label:
+This is a Text component. It serves as a label indicating the section related to the user's personalized content, such as profile information, settings, or other personal data.
+@@@Text Functional Component@@@
+
+"收藏与加油" (Favorites and Refuel) label:
+This is a Text component. It describes the functionality of this menu item, suggesting that users can view their favorite items and potentially motivational content.
+@@@Text Functional Component@@@

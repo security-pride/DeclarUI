@@ -1,0 +1,56 @@
+Component Images and Descriptions:
+
+Component Keyword:
+This is a piece of text that highlights a warning within the app interface.
+@@@Text Functional Component@@@
+
+Component Keyword:
+This is an image of a medication used in the app to visually represent a drug.
+@@@Function Component@@@
+
+Component Keyword:
+This button is labeled "Search Drug Prices" and is likely used to allow users to search for the prices of drugs.
+@@@Button@@@
+
+Component Keyword:
+This icon appears to be a bookmark, used to save items.
+@@@Function Component@@@
+
+Component Keyword:
+This is the title of the medication being viewed in the app.
+@@@Text Functional Component@@@
+
+Component Keyword:
+This is an image of a medication with its name displayed below it.
+@@@Function Component@@@
+
+Component Keyword:
+This text is a tab label within the app navigation bar.
+@@@Text Functional Component@@@
+
+Component Keyword:
+This is an icon allowing the user to navigate back to the previous screen.
+@@@TouchableOpacity Function Component@@@
+
+Component Keyword:
+This is a review label in the app, likely used to display drug reviews.
+@@@Text Functional Component@@@
+Add Med Reminder button:
+This is a Button component. It allows users to add a reminder to take their medication.
+@@@Button@@@
+
+Side Effects label:
+This is a Text Functional Component. It labels the section that describes the side effects of the medication.
+@@@Text Functional Component@@@
+
+Show more label:
+This is a Text Functional Component. It indicates that users can view more information by interacting with it.
+@@@Text Functional Component@@@
+
+(1888) label:
+This is a Text Functional Component. It shows the number of reviews for the medication.
+@@@Text Functional Component@@@
+
+Generic: aripiprazole Common Brand(s) Abilify label:
+This is a Text Functional Component. It displays the generic name of the medication and its common brand names. 
+@@@Text Functional Component@@@

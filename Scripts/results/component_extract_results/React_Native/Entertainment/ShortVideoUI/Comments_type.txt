@@ -1,0 +1,202 @@
+Heart icon with number:
+This component displays a like count and a heart icon, which users can tap to like a comment or post.
+@@@TouchableOpacity Function Component@@@
+
+"View replies" text:
+This is a Text component. It serves as a label that lets users know they can view replies to comments by tapping.
+@@@Text Functional Component@@@
+
+"Now that’s a skill very talented" text:
+This is a Text component. It displays a user's comment.
+@@@Text Functional Component@@@
+
+"Use that on r air forces to whiten them" text:
+This is a Text component. It displays a user's comment.
+@@@Text Functional Component@@@
+
+"Sipul’d've used that on his forces" text:
+This is a Text component. It displays a user's comment.
+@@@Text Functional Component@@@
+
+"For You" tab:
+This is a Text component. It represents a tab that users can tap to switch to the "For You" feed.
+@@@Text Functional Component@@@
+
+"mis_potter" username:
+This is a Text component. It displays the username of the person who commented.
+@@@Text Functional Component@@@
+
+"My OCD couldn’t do it" text:
+This is a Text component. It displays a user's comment.
+@@@Text Functional Component@@@
+
+
+Component Keyword:
+"joshua_l" label:
+This is a Text Functional Component likely used to display usernames or handles within the comment section.
+@@@Text Functional Component@@@
+
+Component Keyword:
+Heart icon with count indicator:
+This is a Button likely used to represent a 'like' or 'favorite' action with a counter to show number of likes.
+@@@Button@@@
+
+Component Keyword:
+"No prressure" text:
+This is a Text Functional Component used to display the content of a user's comment.
+@@@Text Functional Component@@@
+
+Component Keyword:
+Heart icon with count indicator:
+This is a Button likely used to represent a 'like' or 'favorite' action with a counter to show number of likes.
+@@@Button@@@
+
+Component Keyword:
+"How neatly I write the date in my book" text:
+This is a Text Functional Component used to display the content of a user's comment.
+@@@Text Functional Component@@@
+
+Component Keyword:
+Wi-Fi connectivity icon:
+This is an Image component likely used to represent Wi-Fi status on the status bar.
+@@@Function Component@@@
+
+Component Keyword:
+Profile picture:
+This is an Image component that displays a user's profile picture or avatar in the comment section.
+@@@Function Component@@@
+
+Component Keyword:
+Heart icon with count indicator:
+This is a Button likely used to represent a 'like' or 'favorite' action with a counter to show number of likes.
+@@@Button@@@
+
+Component Keyword:
+"View replies" text:
+This is a Text Functional Component used to allow users to view replies to a comment, typically a clickable or touchable text.
+@@@Text Functional Component@@@
+
+
+Component Keyword:
+The text "zackjohn":
+This is a Text Functional Component. It displays the username of a commenter.
+@@@Text Functional Component@@@
+
+Component Keyword:
+Smile icon:
+This is an Image component. It is an icon used to display the facial expression.
+@@@Function Component@@@
+
+Component Keyword:
+Masked smile emoji:
+This is an Image component. It is an emoji used to display a facial expression.
+@@@Function Component@@@
+
+Component Keyword:
+The text "Doing this would make me so anxious 22h":
+This is a Text Functional Component. It shows the comment text and the time elapsed since the comment was posted.
+@@@Text Functional Component@@@
+
+Component Keyword:
+The text "13h":
+This is a Text Functional Component. It represents the time elapsed since the comment was posted.
+@@@Text Functional Component@@@
+
+Component Keyword:
+The text input field:
+This is a TextInput component. It allows the user to type and submit a comment.
+@@@TextInput@@@
+
+Component Keyword:
+The text "View replies":
+This is a Text Functional Component. It indicates the option to view replies to the comment.
+@@@Text Functional Component@@@
+
+Component Keyword:
+The heart icon with the number 8098:
+This is an Image component used as a button to like the comment, with a Text Functional Component to display the number of likes.
+@@@Function Component@@@
+@@@Text Functional Component@@@
+
+Component Keyword:
+The text "kiero_d":
+This is a Text Functional Component. It displays the username of a commenter.
+@@@Text Functional Component@@@
+Component Keyword:
+This is a status indicator icon, usually found in the status bar to show network signal strength.
+@@@StatusBar Android and iOS Component@@@
+
+Component Keyword:
+This is a text input field used for adding comments.
+@@@TextInput@@@
+
+Component Keyword:
+This is a user avatar image. Typically used to display the user's profile picture.
+@@@ImageBackground@@@
+
+Component Keyword:
+This is a label that displays the username.
+@@@Text Functional Component@@@
+
+Component Keyword:
+This is a text label that shows the number of comments.
+@@@Text Functional Component@@@
+
+Component Keyword:
+This is another user avatar image.
+@@@ImageBackground@@@
+
+Component Keyword:
+This is a button with an emoji/icon, possibly representing an emoticon or quick reaction.
+@@@Button@@@
+
+Component Keyword:
+This is a text label that displays a tab option, like 'Following'.
+@@@Text Functional Component@@@
+
+Component Keyword:
+This is a button, likely used to show the number of likes or hearts given to the comment.
+@@@Button@@@
+Component Keyword:
+This is text within the app capturing user comments or parts of comments.
+@@@Text Functional Component@@@
+
+Component Keyword:
+This is text within the app capturing user comments or parts of comments.
+@@@Text Functional Component@@@
+
+Component Keyword:
+This is an image likely used to display a user's avatar/profile picture within the comment section.
+@@@Function Component@@@
+
+Component Keyword:
+This is text within the app capturing user comments or parts of comments.
+@@@Text Functional Component@@@
+
+Component Keyword:
+This is an image likely used to display a user's avatar/profile picture within the comment section.
+@@@Function Component@@@
+
+Component Keyword:
+This is a button that likely allows users to mention or tag other users in comments.
+@@@TouchableOpacity Function Component@@@
+
+Component Keyword:
+This is text within the app capturing user comments or parts of comments.
+@@@Text Functional Component@@@
+
+Component Keyword:
+This is text that acts as a button, allowing users to view replies to a comment.
+@@@Text Functional Component@@@
+
+Component Keyword:
+This is text containing the username of a person who commented.
+@@@Text Functional Component@@@
+Profile picture:
+This is a Function Component typically used to render user profile pictures within a circular mask.
+@@@Function Component@@@
+
+Profile picture:
+This is a Function Component typically used to render user profile pictures within a circular mask.
+@@@Function Component@@@
+

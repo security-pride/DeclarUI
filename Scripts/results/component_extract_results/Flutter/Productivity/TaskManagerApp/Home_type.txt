@@ -1,0 +1,82 @@
+1. Component Keyword: "Your daily task almost done!" card
+   Component Function Description:
+   This is a card displaying task progress and status. It likely uses a combination of text, buttons, and a circular progress indicator.
+   @@@Card@@@
+
+2. Component Keyword: Bell icon
+   Component Function Description:
+   This icon likely represents a notification feature in the app that might be used to alert users of messages or updates.
+   @@@Icon@@@
+
+3. Component Keyword: "Meeting with designer" task card
+   Component Function Description:
+   This is a task card containing text and a progress indicator to show task completion status. It also includes an icon representing the task.
+   @@@Card@@@
+
+4. Component Keyword: Three dots menu icon
+   Component Function Description:
+   This icon typically represents a menu or settings related to the component it's in, allowing users to access more options.
+   @@@Icon@@@
+
+5. Component Keyword: WiFi icon
+   Component Function Description:
+   This icon might indicate connection status or provide options related to WiFi or network connectivity.
+   @@@Icon@@@
+
+6. Component Keyword: Search icon
+   Component Function Description:
+   This icon is likely a button that triggers a search function, typically used in app bars or input fields.
+   @@@IconButton@@@
+
+7. Component Keyword: "User experience design" task card
+   Component Function Description:
+   This is another task card showcasing task details and progress using text, an icon, and a linear progress indicator.
+   @@@Card@@@
+
+8. Component Keyword: Plus icon
+   Component Function Description:
+   This icon is commonly used to add new tasks, events, or items in an app. It usually functions as a button for addition actions.
+   @@@FloatingActionButton@@@
+
+9. Component Keyword: "Your daily task almost done!" card (another view)
+   Component Function Description:
+   Similar to the previous card, it displays task details with a progress indicator, likely utilizing a button for related actions.
+   @@@Card@@@
+User experience design card:
+This is a card that displays a task with a title, progress bar, and progress percentage. It likely holds a Task title and progress information.
+@@@Card@@@
+
+Meeting with designer card:
+This is another card widget showing details about a task with a progress bar. The Card includes an icon, task title, and progress details.
+@@@Card@@@
+
+Calendar icon:
+This seems to be an icon likely used in a button for navigation to a calendar screen.
+@@@Icon@@@
+
+Signal strength icon:
+This is an icon indicating network strength, likely part of the status bar.
+@@@Icon@@@
+
+Clock/text icon:
+This represents the time displayed in the status bar.
+@@@Text@@@
+
+Profile image:
+This displays a circular profile image of the user.
+@@@CircleAvatar@@@
+
+Home icon:
+This is an icon, likely used in the bottom navigation bar for the home screen.
+@@@Icon@@@
+
+User name label:
+This is a text widget displaying the user's name.
+@@@Text@@@
+
+Website Design task detail:
+This is a list item that displays a task along with its details like title, date, and possibly more options with the three-dot menu.
+@@@ListTile@@@
+Settings icon:
+This appears to be an icon used to navigate to the settings page of the app, allowing users to change preferences or account information.
+@@@IconButton@@@

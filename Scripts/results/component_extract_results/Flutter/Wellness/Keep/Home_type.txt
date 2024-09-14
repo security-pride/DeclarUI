@@ -1,0 +1,122 @@
+Map View with Controls:
+This appears to display a map with zoom and fullscreen controls, suitable for tracking routes or locations.
+@@@Stack@@@
+
+Search Bar with Placeholder:
+A search bar allowing users to input text queries with a placeholder text.
+@@@TextField@@@
+
+Like Button with Count:
+This is likely an icon button displaying a like feature, with a numeric counter showing the number of likes.
+@@@Row@@@
+
+App Icon:
+An icon representing the application's logo or a specific feature.
+@@@Image@@@
+
+Profile Picture:
+An image representing a user profile.
+@@@CircleAvatar@@@
+
+Activity Tab Button:
+This is a custom-styled button used for navigating to the activity tab.
+@@@GestureDetector@@@
+
+Map View:
+A visual representation of a map that can be used to display tracking information.
+@@@Container@@@
+
+Video Preview with Label:
+This displays a video preview with a label indicating its content or purpose.
+@@@Stack@@@
+
+Highlighted "Discover":
+Text that is emphasized to indicate the current tab is "Discover".
+@@@RichText@@@
+Component Keyword:
+This is a button containing an icon and text "心火已燃" (Hearts On Fire), used for navigation or triggering an event.
+@@@ElevatedButton@@@
+
+Component Keyword:
+This is a text widget labeled "课程" (Courses) that directs or identifies the current page/tab.
+@@@Text@@@
+
+Component Keyword:
+This is a button with an icon and text "跟练" (Follow Along), likely used for starting a workout or joining a session.
+@@@ElevatedButton@@@
+
+Component Keyword:
+This is a text widget labeled "公里" (Kilometers), indicating a unit of distance for a running or walking activity.
+@@@Text@@@
+
+Component Keyword:
+This is an icon symbolizing a person walking, commonly used for indicating a physical activity.
+@@@Icon@@@
+
+Component Keyword:
+This is a text widget labeled "户外跑步" (Outdoor Run), used to describe the type of activity being tracked.
+@@@Text@@@
+
+Component Keyword:
+This is a notification icon indicating that there are 13 unread messages or notifications.
+@@@Icon@@@
+
+Component Keyword:
+This is an image widget displaying an advertisement or promotional content with a button CTA "0元申领" (Free Claim).
+@@@Image@@@
+
+Component Keyword:
+This is a widget combining an image and a floating action button (FAB) with an icon symbolizing editing.
+@@@Stack@@@
+
+}
+Component Keyword:
+This is a text widget that represents a tab option, likely for navigating to a section related to following users or content.
+@@@Text@@@
+
+Component Keyword:
+This is a text widget representing the headline of a featured workout.
+@@@Text@@@
+
+Component Keyword:
+This is a text widget showing a performance time, likely for a completed activity or challenge.
+@@@Text@@@
+
+Component Keyword:
+This is a text widget representing the name of a user or instructor.
+@@@Text@@@
+
+Component Keyword:
+This is an image widget displayed on a tab or button, indicating a logo or insignia for a specific city or event.
+@@@Image@@@
+
+Component Keyword:
+This is an image widget showing a thumbnail of a workout video with an overlay icon indicating it's a video.
+@@@Stack@@@
+
+Component Keyword:
+This is a text widget that indicates a tab option, likely for navigating to a section related to activities.
+@@@Text@@@
+
+Component Keyword:
+This is a button with an icon widget, showing a rounded button with a location icon and a label for local content or events.
+@@@ElevatedButton@@@
+
+Component Keyword:
+This is a widget displaying a workout video with a clickable area to start or view the video.
+@@@Stack@@@
+Keep_活动:
+This text is likely a label or title indicating a specific event or activity within the app. The translation is "Keep Activity."
+@@@Text@@@
+
+Medal with "K" icon:
+This icon likely represents a reward or achievement feature in the app. The "K" could signify a brand or app-specific logo.
+@@@Icon@@@
+
+5 公里最快时间:
+This text likely displays a running record or achievement. The translation is "5 km fastest time."
+@@@Text@@@
+
+只送不卖！100份简爱轻食酸奶免费领:
+This text offers a promotional message, possibly advertising a giveaway. The translation is "Only given, not sold! 100 servings of Jane's light yogurt for free."
+@@@Text@@@

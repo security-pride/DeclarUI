@@ -1,0 +1,104 @@
+1. Course Card:
+This component likely represents a course summary card containing an icon for course type, title, instructor name, sessions count, and progress.
+@@@arkTSEntry@@@
+
+2. Course Icon:
+This small icon signifies that a particular course pertains to a specific category (e.g., UI/UX Design).
+@@@arkTSImage@@@
+
+3. Navigation Arrow:
+This arrow icon suggests the presence of navigation to a new page or a detailed view of a specific section, such as "See all."
+@@@arkTSIcon@@@
+
+4. Mentor Information:
+This component likely displays a mentor's rating information, inclusive of name, profile picture, and average rating.
+@@@arkTSListItem@@@
+
+5. Course Preview:
+Similar to the Course Card, this previews course details like title, sessions, and instructor.
+@@@arkTSEntry@@@
+
+6. Notification Button:
+This icon suggests an element for notifications or alerts within the app.
+@@@arkTSIcon@@@
+
+7. Welcome Section:
+This component includes a welcome message and user profile information, such as a profile picture and name.
+@@@arkTSFlex@@@
+
+8. See All Button:
+This text button implies an option to navigate to a section listing all relevant items, such as courses or mentors.
+@@@arkTSButton@@@
+1. Component Keyword:
+This component likely acts as an icon or identifier for a UI/UX design course, providing a visual cue for the type of content.
+@@@arkTSIcon@@@
+
+2. Component Keyword:
+This is a text label that provides a welcome message to the user, creating a personalized experience.
+@@@arkTSText@@@
+
+3. Component Keyword:
+This component indicates the Wi-Fi connectivity status, providing users with network connection information.
+@@@arkTSStatusIndicator@@@
+
+4. Component Keyword:
+This is a notification icon with a badge showing the number of new alerts, prompting the user to check notifications.
+@@@arkTSBadge@@@
+
+5. Component Keyword:
+This profile image component is likely used to display the user's avatar, adding a personal touch to the interface.
+@@@arkTSImage@@@
+
+6. Component Keyword:
+This component represents the mobile signal strength indicator, showing the quality of the cellular connection.
+@@@arkTSStatusIndicator@@@
+
+7. Component Keyword:
+This icon likely serves as a home button in the navigation bar, allowing users to return to the main screen.
+@@@arkTSNavigationIcon@@@
+
+8. Component Keyword:
+This text displays the current time, allowing users to keep track of time while using the app.
+@@@arkTSText@@@
+
+9. Component Keyword:
+This icon represents a library or reading section in the app, indicating available course or educational content.
+@@@arkTSNavigationIcon@@@
+Component Keyword:
+This section indicates the author's name and the number of completed sessions.
+@@@arkTSListItem@@@
+
+Component Keyword:
+This text indicates an option linked to viewing all items in a category.
+@@@arkTSButton@@@
+
+Component Keyword:
+This icon appears to be part of the app's navigation or a category representation.
+@@@arkTSIcon@@@
+
+Component Keyword:
+This text represents the app's ratings and reviews for courses or items.
+@@@arkTSText@@@
+
+Component Keyword:
+This section shows information about a specific course, including its category, course title, and course author.
+@@@arkTSText@@@
+
+Component Keyword:
+An emoji icon likely used to indicate status or emotion.
+@@@arkTSEmoji@@@
+
+Component Keyword:
+This element is part of a card-like component that categorizes specific sections by using icons and colors.
+@@@arkTSCard@@@
+
+Component Keyword:
+An emoji icon likely used to indicate status or emotion.
+@@@arkTSEmoji@@@
+
+Component Keyword:
+This component likely represents the name of a course author or mentor.
+@@@arkTSText@@@
+Profile and rating component:
+This component displays a user's profile picture, name, and a star rating along with review count. It is likely used for showing user information and their credibility or popularity based on ratings.
+@@@arkTSUserProfile@@@

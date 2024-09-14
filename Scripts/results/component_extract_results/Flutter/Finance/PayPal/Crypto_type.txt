@@ -1,0 +1,46 @@
+Payments icon:
+This is an icon used to represent the payments section of the app.
+@@@Icon@@@
+
+Wallet icon:
+This is an icon used to represent the wallet section of the app.
+@@@Icon@@@
+
+Crypto icon:
+This is an icon used to represent the crypto section of the app.
+@@@Icon@@@
+
+Bitcoin component:
+This appears to be a row containing an icon, the name of the cryptocurrency, and its current value.
+@@@Row@@@
+
+买卖并持有加密货币 (Buy, sell, and hold cryptocurrencies) label:
+This is a text widget providing a title or description relating to trading cryptocurrencies.
+@@@Text@@@
+
+Crypto label:
+This is a text widget that serves as a heading for the crypto section.
+@@@Text@@@
+
+Ethereum component:
+This appears to be a row containing an icon, the name of the cryptocurrency, and its current value.
+@@@Row@@@
+
+Bitcoin Cash component:
+This appears to be a row containing an icon, the name of the cryptocurrency, and its current value.
+@@@Row@@@
+
+Home icon:
+This is an icon used to represent the home section of the app.
+@@@Icon@@@
+Bitcoin Cash:
+This is a list item displaying information about the Bitcoin Cash cryptocurrency, including its name, symbol, and current value.
+@@@ListTile@@@
+
+Notification box:
+This is an information box with an icon and a message, used to notify users about the status of the service.
+@@@Container@@@
+
+Litecoin:
+This is a list item displaying information about the Litecoin cryptocurrency, including its name, symbol, and current value.
+@@@ListTile@@@

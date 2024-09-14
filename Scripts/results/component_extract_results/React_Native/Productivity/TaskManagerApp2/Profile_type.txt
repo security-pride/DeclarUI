@@ -1,0 +1,50 @@
+Ellipsis icon:
+This is a Pressable component. It's likely used to display additional options when pressed, functioning as a menu or settings icon.
+@@@Pressable@@@
+
+Create Board button:
+This is a TouchableOpacity Function Component. It allows users to create a new board when pressed.
+@@@TouchableOpacity Function Component@@@
+
+Avatar with name label:
+This is a View Function Component that likely combines an image and text components to display the user's avatar and name information.
+@@@View Function Component@@@
+
+Events icon:
+This is a Button component. It likely navigates the user to the Events section where they can see scheduled events.
+@@@Button@@@
+
+Work icon with task count:
+This is a View Function Component. It contains an icon and text components to show the work tasks count.
+@@@View Function Component@@@
+
+Private icon with task count:
+This is a View Function Component. It contains an icon and text components to show the private tasks count.
+@@@View Function Component@@@
+
+Bottom navigation bar:
+This is a View Function Component. It contains several buttons that each navigate to different parts of the app.
+@@@View Function Component@@@
+
+Meeting icon with task count:
+This is a View Function Component. It contains an icon and text components to show the meeting tasks count.
+@@@View Function Component@@@
+
+User Avatar:
+This is an Image Functional Component. It displays the user's avatar image.
+@@@Function Component@@@
+Personal icon with "Personal" and "6 Task" label:
+This is a View Function Component, which contains an icon and two Text Functional Components. The icon represents the category "Personal," and the texts below it display the number of tasks assigned to this category.
+@@@View Function Component@@@
+
+Events icon with "Events" and "4 Task" label:
+This is a View Function Component, which consists of an icon and two Text Functional Components. The icon represents the category "Events," and the texts below it show the number of tasks assigned to this category.
+@@@View Function Component@@@
+
+Personal icon with "Personal" and "6 Task" label (duplicate):
+This is a View Function Component, similar to the first one, combining an icon and two Text Functional Components. The icon depicts the "Personal" category, and the texts indicate the number of tasks in this category.
+@@@View Function Component@@@
+
+Work icon with "Work" and "8 Task" label and Meeting icon with "Meeting" and "4 Task" label:
+This is a composite of two View Function Components. Each component includes two Text Functional Components and an icon. The first component represents the "Work" category with the number of associated tasks, while the second represents the "Meeting" category and its tasks count.
+@@@View Function Component@@@

@@ -1,0 +1,82 @@
+77 1140 image:
+This image appears to be a picture of a pill, likely used to visually represent a specific type of medicine.
+@@@Image@@@
+
+MAC image:
+This image shows a pill with the imprint "MAC," likely used to represent a specific medication type.
+@@@Image@@@
+
+569 image:
+This is an image of a pill with an imprint of "569," used to identify a particular medicine visually.
+@@@Image@@@
+
+009 image:
+This image displays a pill with the imprint "009," serving as a visual representation for the identified medication.
+@@@Image@@@
+
+acamprosate CALCIUM text:
+This text describes a specific medication, providing details such as type, coating, and imprint. It likely serves to inform users about the medication characteristics.
+@@@Text@@@
+
+acamprosate CALCIUM duplicate text:
+This duplicate text also provides details about the drug type, coating, and imprint. It’s used to inform users visually alongside the pill image.
+@@@Text@@@
+
+MAC image:
+This is an image representing a pill, identified by the "MAC" imprint, used within a medical or pharmaceutical context.
+@@@Image@@@
+
+A-011 30 image:
+This image shows a pill with an imprint "A-011 30," indicating a particular medication visually.
+@@@Image@@@
+
+Abilify text:
+This text block describes a medication called Abilify with details like its appearance and imprint, informing users about the drug.
+@@@Text@@@
+Tablet image 435:
+This is an image widget displaying a pill, which likely represents the appearance of a specific medicine for users to visually identify.
+@@@Image@@@
+
+Tablet image A-010:
+This is an image widget displaying a pill with specific imprints, serving the purpose of allowing users to visually identify the medication.
+@@@Image@@@
+
+Back arrow:
+This is an icon button that allows users to navigate back to the previous screen.
+@@@IconButton@@@
+
+Medicine description (acamprosate CALCIUM):
+This is a text widget describing a specific medicine, including its name and description details.
+@@@Text@@@
+
+Section header (Search Results):
+This is a text widget acting as a section header for search results in the app.
+@@@Text@@@
+
+Medicine description (Abilify):
+This is a text widget describing a specific medicine, including its name and description details.
+@@@Text@@@
+
+Tablet image 435 (repeated):
+This is an image widget displaying a pill, which likely represents the appearance of a specific medicine for users to visually identify.
+@@@Image@@@
+
+Medicine description (acamprosate CALCIUM - repeated):
+This is a text widget describing a specific medicine, including its name and description details.
+@@@Text@@@
+
+Medicine description (Abilify - repeated): 
+This is a text widget describing a specific medicine, including its name and description details.
+@@@Text@@@
+
+Medicine description (Abilify - different variant):
+This is a text widget describing a specific medicine, including its name and description details for a different variant.
+@@@Text@@@
+
+Abilify image with A-010 imprint:
+This is an image component showing two pills, likely used to represent a specific medication visually.
+@@@Image@@@
+
+Abilify image with A-011 imprint:
+This is an image component showing two pills, likely used to represent a specific medication visually.
+@@@Image@@@

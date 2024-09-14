@@ -1,0 +1,155 @@
+更多 (More) label:  
+This is a text label indicating there are additional items or options available beyond what is currently displayed.  
+@@@arkTSText@@@
+
+广告图片 (Advertisement Image):  
+An image banner likely used to promote a product or offer. It may include a clickable button to lead users to more details about the promotion.  
+@@@arkTSImage@@@
+
+钱包图标 (Wallet Icon):  
+This icon is typically used for a feature related to finance or savings within the app.  
+@@@arkTSIcon@@@
+
+锁定票息 (Lock-in Yield) label:  
+This text component is used to describe a specific investment or financial option.  
+@@@arkTSText@@@
+
+首页 (Home) label:  
+This text label acts as a navigation indicator for the home screen of the app.  
+@@@arkTSText@@@
+
+信用卡图标 (Credit Card Icon):  
+An icon representing credit card-related services or features within the app.  
+@@@arkTSIcon@@@
+
+一周回顾 (Weekly Review) label:  
+This label describes a section of the app related to reviewing weekly activity or information.  
+@@@arkTSText@@@
+
+城市服务 (City Services) icon:  
+An icon representing services or information related to urban or city management.  
+@@@arkTSIcon@@@
+
+活钱理财 (Flexible Finance) label:  
+A text label indicating a section for flexible financial products or services.  
+@@@arkTSText@@@
+M+会员 (M+ Membership) button:
+This icon and label likely represent access to a member's area or special membership features.
+@@@arkTSButton@@@
+
+借钱 (Borrow Money) button:
+This component likely functions as a button for initiating a money borrowing process.
+@@@arkTSButton@@@
+
+财富 (Wealth) tab icon:
+This icon probably serves as a navigation item to access financial services or portfolio tracking within the app.
+@@@arkTSTabBar@@@
+
+生活 (Life) label:
+This text label likely designates a section related to lifestyle or personal interests.
+@@@arkTSText@@@
+
+养老金融 (Pension Finance) button:
+This component might offer access to financial services related to retirement planning.
+@@@arkTSButton@@@
+
+每季可赎 (Redeemable Quarterly) card:
+This card displays investment product information, likely offering options and performance statistics.
+@@@arkTSCard@@@
+
+Scan icon:
+This icon likely triggers a function to scan QR codes or barcodes.
+@@@arkTSIcon@@@
+
+热门活动 (Hot Activities) button:
+This button may direct users to a page with popular events or promotions.
+@@@arkTSButton@@@
+
+首页 (Home) tab icon:
+This icon most likely serves as a navigation item to bring users back to the home screen.
+@@@arkTSTabBar@@@
+Component Keyword:
+This is an envelope icon with the label "通知" (Notification), likely used to show a notification or message alert within the app.
+@@@arkTSNotification@@@
+
+Component Keyword:
+This is an icon and label indicating foreign exchange purchase ("外汇购汇") functionality, likely used to navigate to a currency exchange feature.
+@@@arkTSIconButton@@@
+
+Component Keyword:
+This is a headset icon, presumably for customer support or help desk functionality.
+@@@arkTSIcon@@@
+
+Component Keyword:
+This is a profile icon with the label "我的" (My), which is likely used to navigate to the user’s personal account or settings.
+@@@arkTSBottomTabBarItem@@@
+
+Component Keyword:
+This is an icon resembling a credit card, probably indicating the credit card section or related services.
+@@@arkTSIcon@@@
+
+Component Keyword:
+This is an icon and label for a bank card ("银行卡"), likely used to navigate to bank card management or related services.
+@@@arkTSIconButton@@@
+
+Component Keyword:
+This text displays a notification message. Translation: "招商有财: 您有一份2元现金红包待领取" ("China Merchants Bank: You have a 2 yuan cash red envelope to claim"). It is likely used to show notifications or alerts.
+@@@arkTSText@@@
+
+Component Keyword:
+This card displays investment account details, including a 2.92% annualized return rate. It is likely a component showing investment products.
+@@@arkTSCard@@@
+
+Component Keyword:
+This double arrow icon likely indicates a transfer function, allowing the user to initiate a transfer of funds.
+@@@arkTSIcon@@@
+Transfer button:
+This is a button that likely allows users to initiate money transfers.
+@@@arkTSButton@@@
+
+"财富精选" (Selected Wealth) label:
+This is a text label that likely highlights a section featuring selected financial products or services.
+@@@arkTSText@@@
+
+Payment details:
+This is an icon with a label that likely provides access to payment details and information.
+@@@arkTSIcon@@@
+
+Account overview:
+This is a button that likely provides a comprehensive view of the user's account summary and details.
+@@@arkTSButton@@@
+
+"全部" (All) label:
+This is a text label that likely indicates that the section provides access to all features or items.
+@@@arkTSText@@@
+
+Ticket icon:
+This is an icon that likely represents discount vouchers or coupons available to the user.
+@@@arkTSIcon@@@
+
+Chaobao:
+This is a button that likely gives access to a specific financial service or product named "Chaobao."
+@@@arkTSButton@@@
+
+Other card transfer:
+This is an icon with a label that indicates a feature for transferring money to another card.
+@@@arkTSIcon@@@
+
+Notification icon with counter:
+This is an icon that shows the number of unread notifications the user has.
+@@@arkTSIcon@@@
+M+ 会员 (M+ Members) label:
+This is a text label indicating a section related to a membership program or special group within the app.
+@@@arkTSText@@@
+
+Circular icon with segments:
+This appears to be an icon representing a progress indicator or circular menu. It could be used for loading, status updates, or navigating between options.
+@@@arkTSIcon@@@
+
+信用卡 (Credit Card) label:
+This is a text label likely identifying a section or feature related to credit cards, such as credit card services or offers.
+@@@arkTSText@@@
+
+Search bar with "信用卡全家福" (Credit Card Benefits) text:
+This is a search input field allowing users to enter text to search for specific content or benefits related to credit cards within the app.
+@@@arkTSSearch@@@

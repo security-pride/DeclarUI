@@ -1,0 +1,164 @@
+Component Keyword:
+This component appears to be a button that allows users to find fuel stations with discounts.
+@@@arkTSButton@@@
+
+Component Keyword:
+This component seems to be a button for car-related services, possibly navigation or car rental services.
+@@@arkTSButton@@@
+
+Component Keyword:
+This text label represents the name of a community area, specifically "航院社区" (Hangyuan Community).
+@@@arkTSText@@@
+
+Component Keyword:
+This text label represents the name of a hotel, specifically "大酒店" (Hotel).
+@@@arkTSText@@@
+
+Component Keyword:
+This component is likely a button for finding nearby amenities or places of interest.
+@@@arkTSButton@@@
+
+Component Keyword:
+This component looks like a button for taxi or ride-hailing services.
+@@@arkTSButton@@@
+
+Component Keyword:
+This button seems to represent a "Home" navigation option, typically taking the user to the main or initial app screen.
+@@@arkTSButton@@@
+
+Component Keyword:
+This text label indicates an option to go to a specific unit, translated as "去单位" (Go to Unit).
+@@@arkTSText@@@
+
+Component Keyword:
+This component likely represents a button for real-time public transit information.
+@@@arkTSButton@@@
+Component Keyword:
+"去设置" (Go to Settings) label
+This is a text label that likely indicates an option for navigating to the app's settings.
+@@@arkTSText@@@
+
+Component Keyword:
+"火车票机票" (Train and Flight Tickets) icon
+This is an icon with a label suggesting access to booking or viewing train and flight tickets.
+@@@arkTSButton@@@
+
+Component Keyword:
+Search bar
+This appears to be a search input field that allows users to enter text for searching locations, public transport, or subway information.
+@@@arkTSSearch@@@
+
+Component Keyword:
+"驾车" (Driving) icon
+This is an icon with a label indicating a feature related to driving directions or navigation.
+@@@arkTSButton@@@
+
+Component Keyword:
+"订酒店" (Book Hotel) icon
+This is an icon with a label suggesting a feature to book hotels.
+@@@arkTSButton@@@
+
+Component Keyword:
+"去设置" (Go to Settings) label
+This is a text label that likely indicates an option for navigating to the app's settings.
+@@@arkTSText@@@
+
+Component Keyword:
+"虹口大酒店" (Hongkou Grand Hotel) label
+This is a text label likely indicating the name of a hotel or point of interest on the map.
+@@@arkTSText@@@
+
+Component Keyword:
+"步行" (Walking) icon
+This is an icon with a label indicating a feature related to walking directions or navigation.
+@@@arkTSButton@@@
+
+Component Keyword:
+"虹口大厦" (Hongkou Building) label
+This is a text label likely indicating the name of a building or point of interest on the map.
+@@@arkTSText@@@
+1. Bed icon (Hotel marker):
+This icon indicates the location of a hotel on the map.
+@@@arkTSIcon@@@
+
+2. "中国农业银行" (Agricultural Bank of China) label:
+This is a text label marking the location of the Agricultural Bank of China on the map.
+@@@arkTSText@@@
+
+3. Steering wheel icon with "代驾" (Ride Service) label:
+This icon represents a ride or driver service option within the app.
+@@@arkTSIconButton@@@
+
+4. Comment bubble icon:
+This icon likely provides a way to open a feedback or chat feature.
+@@@arkTSIcon@@@
+
+5. Bus icon with "公交" (Public Transport) label:
+This icon represents a public transport option within the app.
+@@@arkTSIconButton@@@
+
+6. "高德地图" (Gaode Map) label:
+This is a text label identifying the map or map service being used.
+@@@arkTSText@@@
+
+7. Arrow icon with "路线" (Route) label:
+This icon is likely used to plan or view routes within the app.
+@@@arkTSIconButton@@@
+
+8. Person icon with "我的" (My Account) label:
+This icon is used for accessing the user's personal account or profile.
+@@@arkTSIconButton@@@
+
+9. "教育学校" (Educational School) label:
+This is a text label marking the location of a school on the map.
+@@@arkTSText@@@
+Yántái Wēnxiáng Xiǎoxué label:
+This is a text label indicating a specific location, Yantai Wenxiang Primary School, on the map.
+@@@arkTSText@@@
+
+Shēnhǎi Guǎngchǎng label:
+This text label displays a location name, Deep Sea Plaza, likely used to identify a specific point of interest on the map.
+@@@arkTSText@@@
+
+Bǎinà Ruǎn Yōujǐng Jiǔdiàn label:
+This label signifies the location of a hotel, the Vienna Advantage Hotel, on the map.
+@@@arkTSText@@@
+
+"消息" (Messages) icon:
+This component is an icon for the Messages section, where users might access conversations or notifications.
+@@@arkTSIcon@@@
+
+Orange circle icon:
+This circular icon could represent a marker or current location button on the map interface.
+@@@arkTSIcon@@@
+
+"更多工具" (More Tools) icon:
+This icon area likely allows access to additional features or tools within the app.
+@@@arkTSIcon@@@
+
+"通知" (Notifications) icon:
+An icon for accessing notifications within the app, often used to alert users of updates.
+@@@arkTSIcon@@@
+
+"反馈" (Feedback) icon:
+This icon likely serves as a button to provide feedback or report issues within the app.
+@@@arkTSIcon@@@
+
+Briefcase icon:
+This icon may represent a work or office-related functionality, possibly linking to an employment or tasks section.
+@@@arkTSIcon@@@
+"回家" (Go Home) label:
+This is a text label that likely indicates a button to navigate the user back home or to a home-related section. 
+@@@arkTSText@@@
+
+"图层" (Layers) button:
+This is likely a button that toggles the visibility of different map layers or information overlays in the app.
+@@@arkTSButton@@@
+
+"旺林蓬莱小面馆" (Wanglin Penglai Small Noodle Shop) label:
+This is a text label that indicates the name of a point of interest, specifically a restaurant, on the map.
+@@@arkTSText@@@
+
+"打车" (Taxi) button:
+This icon and label likely represent a button to order a taxi or access ride-hailing services.
+@@@arkTSButton@@@

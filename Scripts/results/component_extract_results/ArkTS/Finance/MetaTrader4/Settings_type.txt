@@ -1,0 +1,140 @@
+Journal:
+This is a text label providing a title or section name, likely to navigate to a journal or log screen in the app.
+@@@arkTSText@@@
+
+Interface:
+This is a combination of a title and subtitle that might be used to navigate to the interface settings of the app.
+@@@arkTSListItem@@@
+
+Candlestick chart icon:
+This icon is likely used to represent chart features within the app, specifically related to financial or trading charts.
+@@@arkTSIcon@@@
+
+One-time password generator:
+This is a text label indicating a one-time password generator feature, used for generating temporary passwords.
+@@@arkTSText@@@
+
+Mailbox icon:
+This icon represents the mailbox or email feature within the app, used for accessing email or messages.
+@@@arkTSImage@@@
+
+Trade icon:
+This icon is indicative of the trading section, allowing users to access trading functionalities within the app.
+@@@arkTSIcon@@@
+
+Account information:
+This text provides details about the device and account, likely for user settings and information display.
+@@@arkTSText@@@
+
+MQL5 icon:
+This icon represents the MQL5 community or features related to MQL5, often used in trading and algorithmic trading content.
+@@@arkTSImage@@@
+
+History icon:
+This icon represents the history section, allowing users to view historical data or records.
+@@@arkTSIcon@@@
+Tradays section:
+This section likely takes the user to an economic calendar feature of the app, enabling them to view and manage economic events.
+@@@arkTSListItem@@@
+
+Chat and Messages section:
+This section likely prompts the user to sign in to the MQL5 community for accessing chat and messaging features.
+@@@arkTSListItem@@@
+
+News section:
+This section seems to display news headlines related to trading or finance, providing the user with current updates.
+@@@arkTSListItem@@@
+
+Quotes tab icon:
+This icon might represent a tab for viewing various financial quotes within the app.
+@@@arkTSTabBarItem@@@
+
+Calendar icon:
+This icon probably indicates features related to schedules or events, potentially linking to an economic calendar.
+@@@arkTSImage@@@
+
+Interface icon:
+This icon likely stands for language or user interface settings, allowing the user to change language preferences.
+@@@arkTSImage@@@
+
+Settings tab icon:
+This icon represents the settings tab where users can configure the app's preferences.
+@@@arkTSTabBarItem@@@
+
+Messages icon:
+This icon likely denotes the messaging feature, directing users to their chat or message inbox.
+@@@arkTSImage@@@
+
+Settings label:
+This text label simply indicates that the user is in the settings menu, providing a clear indication of the current section.
+@@@arkTSText@@@
+Component Keyword:
+This icon represents a text document or journal entry within the app, likely indicating a section for user notes or logs.
+@@@arkTSIcon@@@
+
+Component Keyword:
+"Traders Community" serves as a text label for a section focused on community interactions or forums for traders.
+@@@arkTSText@@@
+
+Component Keyword:
+This icon resembles an arrow or paper plane, possibly indicating a messaging or sharing feature.
+@@@arkTSIcon@@@
+
+Component Keyword:
+"Interface English" is likely a text label that specifies the language and customization settings of the app interface.
+@@@arkTSText@@@
+
+Component Keyword:
+"Chart" is a text label, probably marking access to data or analytics visualizations within the app.
+@@@arkTSText@@@
+
+Component Keyword:
+This icon represents adding a new account or contact, indicated by a person silhouette with a plus sign.
+@@@arkTSIcon@@@
+
+Component Keyword:
+"Demo" appears to be a label used to indicate a demo or trial version of the app or section.
+@@@arkTSLabel@@@
+
+Component Keyword:
+"Charts" serves as a text label indicating where users can access graphic data representations.
+@@@arkTSText@@@
+
+Component Keyword:
+This icon with a keyhole suggests security settings or access to a one-time password generator.
+@@@arkTSIcon@@@
+Component Keyword:
+Icon with candlestick chart symbols
+Component Function Description:
+This is an icon representing financial charts. It likely serves as a visual indicator for a section of the app that deals with charting data, such as stock or forex chart analysis.
+@@@arkTSImage@@@
+
+Component Keyword:
+"New Account" text label
+Component Function Description:
+This is a text label that likely serves as a clickable option for creating a new account within the app.
+@@@arkTSText@@@
+
+Component Keyword:
+"Mailbox" with subtitle text
+Component Function Description:
+This is a combination of a main text label and a subtitle. It probably indicates a section related to emails or messages, providing additional context with the subtitle.
+@@@arkTSText@@@
+
+Component Keyword:
+Icon with an open book
+Component Function Description:
+This icon likely represents a section of the app related to news or reading material. It is used to visually signal content like articles or news updates.
+@@@arkTSImage@@@
+
+Component Keyword:
+"MQL5 Algo Trading" text label
+Component Function Description:
+This text label indicates a section of the app related to algorithmic trading using the MQL5 platform, providing access to trading algorithms.
+@@@arkTSText@@@
+
+Component Keyword:
+Rounded icon with a green character
+Component Function Description:
+This is likely an icon representing a user or contact section, part of a navigation bar indicating a user profile or account settings.
+@@@arkTSImage@@@

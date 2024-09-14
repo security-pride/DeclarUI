@@ -1,0 +1,62 @@
+Payments icon with label:
+This component combines an icon and text, likely used as a navigation item within a BottomNavigationBar.
+@@@BottomNavigationBarItem@@@
+
+Barclays card image:
+This is an image of a card, probably implemented as a visual representation within a user's bank account details.
+@@@Image@@@
+
+Crypto icon with label:
+Similar to the Payments component, this combines an icon and text for navigation purposes in a tab or bottom bar.
+@@@BottomNavigationBarItem@@@
+
+Barclays and VISA segment:
+This segment likely serves as part of a Card widget, displaying the brand logos atop a user's credit card details.
+@@@Card@@@
+
+"信用卡" (Credit Card) label:
+This text widget provides a label likely denoting the type of card presented below brand logos.
+@@@Text@@@
+
+Rewards tab label:
+This is a text label used as a tab item in a TabBar to switch between different views.
+@@@Tab@@@
+
+Card number "5871":
+This text widget partially obscures a credit card number for security, likely showing the last few digits.
+@@@Text@@@
+
+Wallet icon with label:
+Functions similarly to other icons with labels for navigation, part of a bottom navigation bar.
+@@@BottomNavigationBarItem@@@
+
+Bank accounts and cards label:
+This is a header text describing the section of the app where users can view and manage bank accounts.
+@@@Text@@@
+Wallet header:
+This is a text widget used to display the "Wallet" section header, indicating the current tab being viewed by the user.
+@@@Text@@@
+
+cards label:
+This text widget displays "cards," likely describing a section for bank cards.
+@@@Text@@@
+
+Add new label:
+This is a clickable text widget for adding new bank accounts or cards, suggesting functionality for user interaction.
+@@@TextButton@@@
+
+Home icon and label:
+Represents a navigation item in the bottom navigation bar to take users to the home screen.
+@@@BottomNavigationBarItem@@@
+
+Activity label:
+This text widget represents a tab switching option to view "Activity," likely used in a TabBar.
+@@@Text@@@
+
+PayPal balance card:
+This card widget represents the user's PayPal balance, likely using properties such as elevation and margin.
+@@@Card@@@
+
+Card number ending:
+This text widget displays masked card number details, usually seen in financial applications for security.
+@@@Text@@@

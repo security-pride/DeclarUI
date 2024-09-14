@@ -1,0 +1,195 @@
+F Icon:
+This is an Image component. It represents a profile picture or an icon associated with a user or a service.
+@@@Function Component@@@
+
+Recent searches label:
+This is a Text component. It serves as a header to indicate the list of recent searches made by the user.
+@@@Text Functional Component@@@
+
+V Icon:
+This is an Image component. It could represent another profile picture or a user icon.
+@@@Function Component@@@
+
+I Icon:
+This is an Image component. It might be another profile picture or icon.
+@@@Function Component@@@
+
+New file icon (battery level indicator):
+This is an Image component. It represents the battery level indicator in the status bar.
+@@@Function Component@@@
+
+E Icon:
+This is an Image component. It could be indicating more profile pictures or icons.
+@@@Function Component@@@
+
+Verified badge:
+This is an Image component. It shows a verified badge next to a user or entity indicating a verified account.
+@@@Function Component@@@
+
+Q Icon:
+This is an Image component. It might denote another profile picture or user icon.
+@@@Function Component@@@
+
+Figma icon with partial label:
+This is an Image component. It designates the icon and partial label of the Figma user or related service.
+@@@Function Component@@@
+Component Keyword:
+space button:
+This is a Button component. It represents a space character on the keyboard.
+@@@Button@@@
+
+Component Keyword:
+User profile picture:
+This is an Image component. It likely displays the profile picture of a user in the contacts or recent searches.
+@@@Function Component@@@
+
+Component Keyword:
+Search bar:
+This is a TextInput component. It allows users to enter text to search Twitter.
+@@@TextInput@@@
+
+Component Keyword:
+R button:
+This is a Button component. It represents the letter "R" on the keyboard for text input.
+@@@Button@@@
+
+Component Keyword:
+W button:
+This is a Button component. It represents the letter "W" on the keyboard for text input.
+@@@Button@@@
+
+Component Keyword:
+App icon (black puzzle):
+This is an Image component. It likely represents an icon for an application or feature.
+@@@Function Component@@@
+
+Component Keyword:
+User profile picture:
+This is an Image component. It likely displays the profile picture of a user in the contacts or recent searches.
+@@@Function Component@@@
+
+Component Keyword:
+L button:
+This is a Button component. It represents the letter "L" on the keyboard for text input.
+@@@Button@@@
+
+Component Keyword:
+S button:
+This is a Button component. It represents the letter "S" on the keyboard for text input.
+@@@Button@@@
+Cancel button:
+This is a Button component. It allows users to cancel the current action or exit from the current screen.
+@@@Button@@@
+
+'D' key on the keyboard:
+This is a TouchableOpacity Function Component. It serves as a key on the virtual keyboard to input the letter 'D'.
+@@@TouchableOpacity Function Component@@@
+
+'K' key on the keyboard:
+This is a TouchableOpacity Function Component. It serves as a key on the virtual keyboard to input the letter 'K'.
+@@@TouchableOpacity Function Component@@@
+
+Emoji/smiley face button:
+This is a Pressable component. It enables users to open the emoji keyboard or insert an emoji in the text input field.
+@@@Pressable@@@
+
+'123' key on the keyboard:
+This is a Button component. It toggles the keyboard layout to display numbers and special characters.
+@@@Button@@@
+
+'G' key on the keyboard:
+This is a TouchableOpacity Function Component. It serves as a key on the virtual keyboard to input the letter 'G'.
+@@@TouchableOpacity Function Component@@@
+
+'N' key on the keyboard:
+This is a TouchableOpacity Function Component. It serves as a key on the virtual keyboard to input the letter 'N'.
+@@@TouchableOpacity Function Component@@@
+
+'U' key on the keyboard:
+This is a TouchableOpacity Function Component. It serves as a key on the virtual keyboard to input the letter 'U'.
+@@@TouchableOpacity Function Component@@@
+
+'X' key on the keyboard:
+This is a TouchableOpacity Function Component. It serves as a key on the virtual keyboard to input the letter 'X'.
+@@@TouchableOpacity Function Component@@@
+"Search Twitter" placeholder text:
+This is a TextInput component. It's the search bar where users input their search queries.
+@@@TextInput@@@
+
+"0", "C", "Z", "H", and "A" keys:
+These are Text components within a keyboard. They represent the keys for input.
+@@@Text Functional Component@@@
+
+Profile picture and name (Sab Khasa):
+This is likely a View Function Component containing an image and text, representing a user suggestion or recent search.
+@@@View Function Component@@@
+
+Microphone icon:
+This is a Button component. It allows users to start voice input for their search queries.
+@@@Button@@@
+
+"Figma @figmadesi" label with a verified badge:
+This is a View Function Component containing text and an image, indicating a user's profile with a verified badge.
+@@@View Function Component@@@
+
+Black navigation bar at the bottom:
+This is a View Function Component, likely part of the app's navigation bar at the bottom of the screen.
+@@@View Function Component@@@
+M key:
+This is a Button component. It's part of the keyboard and represents the letter 'M', triggering input when pressed.
+@@@Button@@@
+
+Backspace icon:
+This is a Button component. It's part of the keyboard and allows users to delete the character to the left of the cursor when pressed.
+@@@Button@@@
+
+P key:
+This is a Button component. It's part of the keyboard and represents the letter 'P', triggering input when pressed.
+@@@Button@@@
+
+User profile image:
+This is a Function Component. It displays a user's profile image in a list of recent searches.
+@@@Function Component@@@
+
+J key:
+This is a Button component. It's part of the keyboard and represents the letter 'J', triggering input when pressed.
+@@@Button@@@
+
+Directional arrow:
+This is a Button component. It likely represents a function that the user can interact with for productivity or navigation.
+@@@Button@@@
+
+Go button:
+This is a Button component. It's part of the keyboard and typically used to submit or execute the search or input when pressed.
+@@@Button@@@
+
+Y key:
+This is a Button component. It's part of the keyboard and represents the letter 'Y', triggering input when pressed.
+@@@Button@@@
+
+B key:
+This is a Button component. It's part of the keyboard and represents the letter 'B', triggering input when pressed.
+@@@Button@@@
+Tibitha P. profile picture:
+This is a Function Component. It displays the profile picture of a user in the search results.
+@@@Function Component@@@
+
+'T' letter key:
+This is a TouchableOpacity Function Component. It's part of the keyboard and represents the 'T' key that users can tap on to input the letter T.
+@@@TouchableOpacity Function Component@@@
+
+Figma user label:
+This is a Text Functional Component. It shows the username and description of Figma in the search results.
+@@@Text Functional Component@@@
+
+Signal strength icon:
+This is a Function Component. It shows the network signal strength on the status bar.
+@@@Function Component@@@
+
+Upward arrow key:
+This is a TouchableOpacity Function Component. It represents the SHIFT key on the keyboard, allowing users to switch to uppercase letters.
+@@@TouchableOpacity Function Component@@@
+
+Time display (9:41):
+This is a Text Functional Component. It displays the current time on the status bar.
+@@@Text Functional Component@@@

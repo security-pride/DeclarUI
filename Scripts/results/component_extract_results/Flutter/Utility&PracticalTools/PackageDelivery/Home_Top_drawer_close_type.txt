@@ -1,0 +1,93 @@
+Barcode:
+This appears to be a piece of text displaying a parcel tracking number.
+@@@Text@@@
+
+Blue play icon:
+This appears to be an icon, likely representing a button for some interaction.
+@@@Icon@@@
+
+Rounded rectangle:
+This seems to be a container with rounded corners, possibly used as a Card or a list item.
+@@@Container@@@
+
+"In transit" label:
+This is a text widget indicating the current status of the parcel.
+@@@Text@@@
+
+Signal bars icon:
+This is an icon likely used to show signal strength.
+@@@Icon@@@
+
+AliExpress logo:
+This appears to be an image displaying the AliExpress logo.
+@@@Image@@@
+
+"Last update: 2 days ago" label:
+This is a text widget displaying the last update time of a parcel in a slightly muted color.
+@@@Text@@@
+
+Send parcel button:
+This is likely a button with an icon and text, used for sending a parcel.
+@@@IconButton@@@
+
+Progress bar:
+This is a linear progress indicator showing the tracking progress of a parcel.
+@@@LinearProgressIndicator@@@
+Details button:
+This is a button that likely navigates users to the detailed view of a particular parcel.
+@@@TextButton@@@
+
+My parcels heading:
+This is a text widget that serves as a section heading for the list of parcels.
+@@@Text@@@
+
+Amazon logo:
+This is an image widget displaying the logo of Amazon, indicating the source of the parcel.
+@@@Image@@@
+
+Parcel center icon and label:
+This is likely a combination of an icon and a text widget, typically seen in bottom navigation bars.
+@@@BottomNavigationBarItem@@@
+
+Time indicator (9:41):
+This is a text widget displaying the current time.
+@@@Text@@@
+
+My parcels icon and label:
+This is likely a combination of an icon and a text widget, typically seen in bottom navigation bars.
+@@@BottomNavigationBarItem@@@
+
+Tracking number:
+This is a text widget displaying the tracking number of a parcel.
+@@@Text@@@
+Delivered:
+This is a text widget that indicates the status of a parcel as delivered.
+@@@Text@@@
+
+zalando:
+This is likely to be an image widget that shows the logo of the company Zalando.
+@@@Image@@@
+
+Left the parcel center:
+This is a text widget that indicates the status of a parcel, stating it has left the parcel center.
+@@@Text@@@
+
+00806031378690077312:
+This is a text widget that displays the tracking number of a parcel.
+@@@Text@@@
+
+Left the parcel center (with update timestamp):
+This is a combination of text widgets, one indicating the status of the parcel ("Left the parcel center") and another showing the last update time ("Last update: 21 hours ago"). These could be wrapped in a Column widget.
+@@@Column@@@
+
+Wi-Fi icon:
+This is likely an icon widget representing a Wi-Fi signal.
+@@@Icon@@@
+
+Last update: 3 hours ago:
+This is a text widget that shows the last update time of the parcel status.
+@@@Text@@@
+
+Track parcel:
+This is a text widget that represents an instruction or title for tracking parcels.
+@@@Text@@@

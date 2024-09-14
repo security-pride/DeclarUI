@@ -1,0 +1,58 @@
+Sure, here is the analysis based on the components provided:
+
+### Google Sign-In Button
+
+Component Keyword:
+This is a button that allows users to sign in using their Google account.
+@@@arkTSButton@@@
+
+### Apple Sign-In Button
+
+Component Keyword:
+This is a button that allows users to sign in using their Apple account.
+@@@arkTSButton@@@
+
+### "Or continue with" Text Label
+
+Component Keyword:
+This is a text label indicating additional sign-in options.
+@@@arkTSText@@@
+
+### "Email" Placeholder
+
+Component Keyword:
+This is a placeholder label inside an input field for users to enter their email address.
+@@@arkTSText@@@
+
+### Facebook Sign-In Button
+
+Component Keyword:
+This is a button that allows users to sign in using their Facebook account.
+@@@arkTSButton@@@
+
+### Email Input Field
+
+Component Keyword:
+This is an input field where users can enter their email address for sign-in or sign-up.
+@@@arkTSTextInput@@@
+
+### Welcome Message
+
+Component Keyword:
+This is a welcome message with a brief introduction or guidance about the app or sign-in process.
+@@@arkTSText@@@
+
+### Continue with Email Button
+
+Component Keyword:
+This is a button that allows users to continue the sign-in process using their email address.
+@@@arkTSButton@@@
+
+### Facebook Sign-In Button
+
+Component Keyword:
+This is a button that allows users to sign in using their Facebook account.
+@@@arkTSButton@@@
+
+
+I'm unable to view component images separately from the complete app screenshot. If you provide individual component images from the app, I can help analyze them.

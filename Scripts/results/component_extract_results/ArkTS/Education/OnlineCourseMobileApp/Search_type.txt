@@ -1,0 +1,95 @@
+Component Keyword:
+Top left corner time display
+This is a time text display, typically showing the current time on a mobile interface.
+@@@arkTSText@@@
+
+Component Keyword:
+Design search bar
+This is a search input field that allows users to enter a query for searching design-related content within the app.
+@@@arkTSSearch@@@
+
+Component Keyword:
+UI/UX Design tab
+This is a tab label used for navigation, allowing users to filter content by UI/UX design category.
+@@@arkTSTab@@@
+
+Component Keyword:
+Interaction tab
+This is a tab label used for navigation, allowing users to filter content by interaction design category.
+@@@arkTSTab@@@
+
+Component Keyword:
+Search input
+This is a text input field with a search icon where users can enter search keywords.
+@@@arkTSSearch@@@
+
+Component Keyword:
+"32 Result" label
+A text label displaying the number of search results found, likely updating dynamically based on the search.
+@@@arkTSText@@@
+
+Component Keyword:
+Rating display
+This is a visual component showing a star icon and a numerical rating, often used to represent user reviews.
+@@@arkTSRating@@@
+
+Component Keyword:
+Design system card
+This card component likely presents a specific design course or item, including a title, image, rating, and price.
+@@@arkTSCustomCard@@@
+
+Component Keyword:
+Rating display
+This is a visual component showing a star icon and a numerical rating, often used to represent user reviews.
+@@@arkTSRating@@@
+
+Component Keyword:
+Rating display
+This is a visual component showing a star icon and a numerical rating, often used to represent user reviews.
+@@@arkTSRating@@@
+Signal icon:
+This seems to be an icon indicating signal strength, likely representing mobile network or Wi-Fi connectivity.
+@@@arkTSIcon@@@
+
+Notification bell with badge:
+This component appears to be a notification bell icon, with a badge indicating unread notifications.
+@@@arkTSBadge@@@
+
+Filter icon with badge:
+This is likely a filter button, including a badge showing the number of active filters or notifications related to filters.
+@@@arkTSButton@@@
+
+Design course card:
+This component represents a card item listing a design course with details like title, price, rating, and category.
+@@@arkTSCard@@@
+
+Navigation bar:
+This appears to be a part of the navigation bar indicating current view or sections of the app.
+@@@arkTSNavigationBar@@@
+
+Photo editor course card:
+Another card component, this one detailing a course in photo editing, complete with price, rating, and category.
+@@@arkTSCard@@@
+
+Rating star icon:
+This icon likely represents a rating feature, showing the course's average rating as a visual and numerical value.
+@@@arkTSRating@@@
+
+Category chip - UI/UX Design:
+This is a category chip or tag indicating that the content or section relates to UI/UX Design.
+@@@arkTSChip@@@
+
+Category chip - Graphics Design:
+This component indicates a category tag for Graphics Design content within the app.
+@@@arkTSChip@@@
+
+Wi-Fi icon:
+This appears to be an icon representing Wi-Fi connectivity status.
+@@@arkTSIcon@@@
+Component Keyword:
+This component displays details about a design course including its category, title, and price. It likely allows users to view and select specific courses.
+@@@arkTSCard@@@
+
+Component Keyword:
+This is a text label serving as a header or title, likely indicating the current section of the app as "Discover."
+@@@arkTSText@@@

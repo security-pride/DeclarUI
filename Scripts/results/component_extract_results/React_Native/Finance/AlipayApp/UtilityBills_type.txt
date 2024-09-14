@@ -1,0 +1,91 @@
+Back button with label:
+This is an Image component. It is used for navigation purposes, allowing users to go back to the previous screen.
+@@@Function Component@@@
+
+Telephone icon with "固话" (Fixed Phone) label:
+This is a View Function Component. It shows an icon and a label for the fixed phone service option.
+@@@View Function Component@@@
+
+"如何进行线上缴费" (How to pay online) header:
+This is a Text component. It serves as a heading to explain how to pay bills online.
+@@@Text Functional Component@@@
+
+"生活缴费" (Living Expenses) header:
+This is a Text component. It serves as the main title of the app section for various living expenses.
+@@@Text Functional Component@@@
+
+"水电燃气费得会员积分" (Utility bill payment can earn membership points) label:
+This is a Text component. It informs the users about the benefits of paying utility bills.
+@@@Text Functional Component@@@
+
+"出账通知" (Billing Notification) label:
+This is a Text component. It indicates a feature or functionality for receiving billing notifications.
+@@@Text Functional Component@@@
+
+Electricity bill item:
+This is a View Function Component. It displays the electricity bill option, with its icon, label, and a button to add the service.
+@@@View Function Component@@@
+
+Gas bill item:
+This is a View Function Component. It displays the gas bill option with its icon, label, and a button to add the service.
+@@@View Function Component@@@
+
+Property fee icon with "物业费" (Property Fee) label:
+This is a View Function Component. It shows an icon and a label for the property fee service.
+@@@View Function Component@@@
+Three dots and circle icon:
+This is a Button. It likely serves as a menu or options button, allowing users to access various settings or actions within the app.
+@@@Button@@@
+
+Instructional text:
+This is a Text Functional Component. It provides instructions to the user on selecting a type of utility and entering relevant details.
+@@@Text Functional Component@@@
+
+Checkmark icon:
+This is an Image Function Component. It is a simple visual indicator, possibly signifying a completed task or an option.
+@@@Function Component@@@
+
+Checkmark icon with text:
+This is a combination of Image Function Component and Text Functional Component. It signifies an option like "随时可缴" (Pay Anytime), providing both visual and textual information.
+@@@Function Component@@@ (for the icon)
+@@@Text Functional Component@@@ (for the text)
+
+Bill payment icon with text:
+This is a combination of Image Function Component and Text Functional Component. It likely represents functionalities related to bill payment for different utilities.
+@@@Function Component@@@ (for the icon)
+@@@Text Functional Component@@@ (for the text)
+
+Utility payment icon with text:
+This is a combination of Image Function Component and Text Functional Component. It represents the ability to add different types of utility payments such as "暖气费" (Heating Fees).
+@@@Function Component@@@ (for the icon)
+@@@Text Functional Component@@@ (for the text)
+
+Fast payment text:
+This is a Text Functional Component. It provides an option description, likely indicating "极速到账" (Instant Arrival).
+@@@Text Functional Component@@@
+
+Cable TV icon with text:
+This is a combination of Image Function Component and Text Functional Component. It represents options for adding services like "有线电视" (Cable TV).
+@@@Function Component@@@ (for the icon)
+@@@Text Functional Component@@@ (for the text)
+
+Blue icon:
+This is an Image Function Component. It appears to be an icon for a specific service or feature within the app.
+@@@Function Component@@@
+Broadband Icon:
+This is an Image component. It represents the broadband option in the utility services section.
+@@@Function Component@@@
+
+Step Marker "1":
+This is an Image component. It indicates the first step in a process or a list.
+@@@Function Component@@@
+
+Water Bill Entry:
+This consists of multiple components. The droplet icon is an Image component, the text "水费" (Water Fee) and "去添加" (Go to Add) are Text components, and the button "立即添加" (Add Now) is a Button component. Together, they allow users to navigate to the section to add their water bill details.
+@@@Function Component@@@ for the droplet icon.
+@@@Text Functional Component@@@ for the text "水费" and "去添加".
+@@@Button@@@ for the button "立即添加".
+
+Mobile Phone Icon:
+This is an Image component. It symbolizes the mobile phone service option in the list of utility services.
+@@@Function Component@@@

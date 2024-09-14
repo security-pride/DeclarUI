@@ -1,0 +1,74 @@
+Back button:
+This component is used to navigate back to the previous screen.
+@@@arkTSButton@@@
+
+Trash icon:
+This component likely represents a delete action to remove items.
+@@@arkTSIcon@@@
+
+Horizontal line icon:
+This component could be used to add a horizontal line to a chart or design.
+@@@arkTSIcon@@@
+
+Vertical line icon:
+This component could be used to add a vertical line to a chart or design.
+@@@arkTSIcon@@@
+
+Angle protractor icon:
+This component could be used to measure or add angles in a chart or design.
+@@@arkTSIcon@@@
+
+Objects header text:
+This is a text header representing the current screen or section.
+@@@arkTSText@@@
+
+Add Object text:
+This text label is likely an option to add a new object.
+@@@arkTSText@@@
+
+Up-right arrow icon:
+This component could indicate an action to move or scale objects up and to the right.
+@@@arkTSIcon@@@
+
+Vertical dots and lines icon:
+This component could represent a menu or a detailed view of chart elements.
+@@@arkTSIcon@@@
+
+Horizontal line icon (orange):
+This component, like the previous horizontal line icon, could be used to add a horizontal line to a chart or design, but is highlighted or selected due to its color change.
+@@@arkTSIcon@@@
+
+Protractor icon:
+This component is similar to the previous protractor icon, used to measure or add angles in a chart or design.
+@@@arkTSIcon@@@
+
+Horizontal dot-dash icon:
+This component could be used to add or represent a custom or dashed line in a chart or design.
+@@@arkTSIcon@@@
+Component Keyword: Back Button Icon
+Component Function Description: This is a back button icon used to navigate to the previous screen.
+@@@arkTSIcon@@@
+
+Component Keyword: Title Bar Text
+Component Function Description: This is a title bar text that displays the current screen's title, "Objects".
+@@@arkTSText@@@
+
+Component Keyword: Add Object Button
+Component Function Description: This button allows the user to add a new object to the list or chart.
+@@@arkTSButton@@@
+
+Component Keyword: Trash Can Icon
+Component Function Description: This is a trash can icon button used to delete an object.
+@@@arkTSIcon@@@
+
+Component Keyword: Instruction Text
+Component Function Description: This is a text component providing instructions to the user. It reads, "Long tap the object on the chart to edit or delete it."
+@@@arkTSText@@@
+
+Component Keyword: Arrow Icon
+Component Function Description: This arrow icon likely represents moving forward or navigating to another screen or function.
+@@@arkTSIcon@@@
+
+Component Keyword: Toolbar Icons
+Component Function Description: These icons (line, arrow, angle, etc.) on the toolbar provide different customization or editing tools for the objects.
+@@@arkTSToolbar@@@

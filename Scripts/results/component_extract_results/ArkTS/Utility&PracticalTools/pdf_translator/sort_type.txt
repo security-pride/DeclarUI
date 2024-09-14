@@ -1,0 +1,53 @@
+Component Keyword:
+Sort by dropdown menu:
+This dropdown menu allows users to select sorting options for files, such as date or size.
+@@@arkTSDropdown@@@
+
+Component Keyword:
+File item with PDF icon:
+This is a file item display, showing a PDF icon, file name, date, and size, commonly used in file management interfaces.
+@@@arkTSListItem@@@
+
+Component Keyword:
+Time display:
+This shows the current time at the top of the screen, typically part of a status bar.
+@@@arkTSText@@@
+
+Component Keyword:
+Wi-Fi status icon:
+This icon indicates the current Wi-Fi status, often found in the status bar.
+@@@arkTSIcon@@@
+
+Component Keyword:
+Floating action button:
+This button, often circular with a plus sign, is used to trigger a primary action, such as adding a new item.
+@@@arkTSFAB@@@
+
+Component Keyword:
+Battery status icon:
+This icon displays the current battery status, typically found in the status bar.
+@@@arkTSIcon@@@
+Component Keyword:
+Signal strength indicator:
+This component is likely used to display the network signal strength, typically in bars representing the level of connectivity.
+@@@arkTSIcon@@@
+
+Component Keyword:
+Sort options menu:
+This component provides a list of sorting options for the user, such as sorting by date or size.
+@@@arkTSMenu@@@
+
+Component Keyword:
+Header text "PDF file management":
+This is a text label indicating the section or main title of the screen the user is viewing.
+@@@arkTSText@@@
+
+Component Keyword:
+File list item:
+This represents a file item in the list, likely consisting of a file icon, name, date, and size.
+@@@arkTSListItem@@@
+
+Component Keyword:
+Search icon:
+This icon is typically used to initiate a search function within the app.
+@@@arkTSIcon@@@

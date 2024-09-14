@@ -1,0 +1,167 @@
+S35赛季特惠接单 image:
+This image is likely used to display promotional content within the app. It could represent a product or service advertisement.
+@@@Image@@@
+
+"物流公司" label:
+This is a text widget displaying the label "物流公司," which translates to "Logistics Company." It likely serves as a descriptor for the relevant section.
+@@@Text@@@
+
+"2024年07月02日 12:27" text:
+This text widget displays a specific date and time, likely indicating an appointment or delivery schedule.
+@@@Text@@@
+
+"提醒" label:
+This is a text widget displaying the word "提醒," which translates to "Reminder." It likely serves as a navigation or categorization option within the app.
+@@@Text@@@
+
+"其他" label:
+This is a text widget displaying the word "其他," which translates to "Others." It likely serves as a filter or categorization option to display additional content.
+@@@Text@@@
+
+"查看详情" button:
+This is a button widget with the text "查看详情," which translates to "View Details." It likely navigates to a detailed page when tapped.
+@@@TextButton@@@
+
+Power bank product image:
+This image likely represents a product being promoted or sold in the app, featuring quick charging cables.
+@@@Image@@@
+
+"互动" label:
+This is a text widget displaying the word "互动," which translates to "Interaction." It likely categorizes or filters content related to social features or engagement.
+@@@Text@@@
+
+Gear icon:
+This is an icon likely used as a settings button, allowing users to access configuration options within the app.
+@@@IconButton@@@
+1. Game advertisement image:
+This image likely serves as a visual advertisement for a game or an event within a game.
+@@@Image@@@
+
+2. ZTO logo:
+This image represents a logo that identifies the ZTO logistics company.
+@@@Image@@@
+
+3. 即将确认收货 (About to confirm receipt) label:
+This is a text widget that provides a status update, informing the user that they are about to confirm receipt of a package.
+@@@Text@@@
+
+4. 24/04/25 label:
+This is a text widget displaying a specific date, likely indicating when a transaction or event took place.
+@@@Text@@@
+
+5. 点击查看签收详情 (Click to see sign-in details) label:
+This is a text widget prompting the user to click to view more details about the receipt.
+@@@Text@@@
+
+6. ZTO logo (repeated):
+This image represents a logo that identifies the ZTO logistics company.
+@@@Image@@@
+
+7. Package logo:
+This circular icon likely represents a package delivery or handling service.
+@@@CircleAvatar@@@
+
+8. 包裹已被签收 (Parcel has been signed) label:
+This is a text widget indicating the status of a package, indicating it has been signed for.
+@@@Text@@@
+
+9. 赞评 (Praise) label:
+This is a text widget likely associated with a tab or button for giving feedback or praise.
+@@@Text@@@
+包裹签收通知 label:
+This is a text widget that describes the notification type indicating that a package has been signed for.
+@@@Text@@@
+
+延长收货 button:
+This appears to be a button that allows users to extend the receiving period for a package.
+@@@ElevatedButton@@@
+
+韵达 logo:
+This is an image widget displaying a logo, likely representing a logistics company.
+@@@Image@@@
+
+查快递 and 暂无快递更新 text:
+These are text widgets likely providing options for users to check logistics updates and indicating there are no current updates.
+@@@Text@@@
+
+通知 label:
+This is a text widget that serves as the title for the notifications section.
+@@@Text@@@
+
+24/07/06 date label:
+This is a text widget displaying a date, indicating when a particular notification was sent.
+@@@Text@@@
+
+物流 icon:
+This is an icon widget representing logistics, often used to indicate delivery-related notifications.
+@@@Icon@@@
+
+优惠 label:
+This is a text widget that serves as a category label for offers or promotions.
+@@@Text@@@
+
+订单物流消息 label:
+This is a text widget that describes the notification type, indicating an order's logistical information.
+@@@Text@@@
+快递信息:
+This is a text widget displaying the label "快递信息," which translates to "Express Information."
+@@@Text@@@
+
+即将自动确认收货:
+This text widget indicates status information, translating to "Automatic Confirmation of Receipt Imminent."
+@@@Text@@@
+
+查看详情 button:
+This button likely allows users to view more details about a delivery or notification. The label translates to "View Details."
+@@@OutlinedButton@@@
+
+24/04/25:
+This text widget displays a date, likely indicating when an event occurred or will occur.
+@@@Text@@@
+
+romoss旗舰店:
+This text widget displays the store name "romoss Flagship Store," a label identifying the source of a notification.
+@@@Text@@@
+
+11舍407:
+This text widget displays part of an address, "11 407," possibly indicating a building or room number.
+@@@Text@@@
+
+收货地址:
+This is a text widget labeling the address field, translating to "Delivery Address."
+@@@Text@@@
+
+申通快递:
+This is a text widget displaying the name of a logistics company, "Shentong Express."
+@@@Text@@@
+
+物流:
+This is a text widget representing a navigation or category tab labeled "Logistics."
+@@@Text@@@
+**Component 1: 韵达快递**
+This is a text widget displaying the name of a courier company.
+@@@Text@@@
+
+**Component 2: 关山街道珞瑜路1037号华中科技大学东11舍407**
+This text widget provides a specific address for delivery.
+@@@Text@@@
+
+**Component 3: Icon (Robot)**
+This icon likely represents a feature or category within the app, possibly related to notifications or messages from a courier.
+@@@Icon@@@
+
+**Component 4: 快递公司**
+This text widget indicates the label for the company involved in package delivery.
+@@@Text@@@
+
+**Component 5: 菜鸟**
+This text widget appears to be the name of a service or feature, possibly related to package tracking or delivery.
+@@@Text@@@
+
+**Component 6: 签收时间**
+This widget displays a label for the time a package was signed for. 
+@@@Text@@@
+
+**Component 7: 包裹签收通知**
+This widget seems to be a title or a header indicating a notification about package delivery.
+@@@Text@@@

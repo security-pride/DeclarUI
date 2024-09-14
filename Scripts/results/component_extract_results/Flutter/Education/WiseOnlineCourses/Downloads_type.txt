@@ -1,0 +1,55 @@
+Download icon:
+This is a button that probably allows users to download content within the app.
+@@@IconButton@@@
+
+Search icon:
+This icon represents a search functionality, likely enabling users to search within the app.
+@@@IconButton@@@
+
+"Mendy Santiago" label:
+This text displays the name "Mendy Santiago," possibly the author or speaker of the content.
+@@@Text@@@
+
+"Maria Trofimova" label:
+This text displays the name "Maria Trofimova," possibly the author or speaker of the content.
+@@@Text@@@
+
+"Make your Mess Your Message" label:
+This is a text widget that presents a title or description related to the content.
+@@@Text@@@
+
+Video thumbnail with duration "09:46":
+This image shows a video thumbnail with a duration label, likely serving as a preview for video content.
+@@@Container (with Image child and Text overlay)@@@
+
+Video thumbnail with duration "08:12":
+This image shows a video thumbnail with a duration label, likely serving as a preview for video content.
+@@@Container (with Image child and Text overlay)@@@
+Profile picture:
+A circular container likely used to display a profile picture of a user.
+@@@CircleAvatar@@@
+
+"Meet Your Dreams and Make It Real" label:
+A text widget displaying the title of a video or article.
+@@@Text@@@
+
+Video thumbnail (with timestamp):
+A container widget displaying a thumbnail image of a video with a child widget that shows the duration of the video.
+@@@Container@@@
+
+"Downloads" label:
+A text widget representing the title or header of the downloads page.
+@@@Text@@@
+
+Home icon:
+An icon button that likely takes the user to the home page when pressed.
+@@@IconButton@@@
+
+"John Wiseberg" label:
+A text widget showing the name of the author or creator of the content.
+@@@Text@@@
+
+"Gift yourself this UI Kit and enjoy!" label:
+A text widget displaying a subtitle or description of the video/content.
+@@@Text@@@
+

@@ -1,0 +1,59 @@
+Large Button:
+
+This is a button with an icon indicating a cloud download on the left and an arrow on the right, likely used to trigger a large action such as downloading content. It might have rounded corners and custom styling.
+@@@ElevatedButton@@@
+
+Introduction to 3D:
+
+This component includes an image thumbnail, a title, a subtitle indicating duration, and a selection icon. It likely represents a listed item, such as a video or course lesson, and allows interaction via selection.
+@@@ListTile@@@
+
+24 Lessons (20 hours):
+
+This text provides information about the number of lessons and total duration, likely serving as a heading for a section of content.
+@@@Text@@@
+
+Navigation Rectangle:
+
+This seems to be part of a swipe navigation or section indicator with rounded corners.
+@@@Container@@@
+
+Back Arrow:
+
+This is a back navigation button, probably used to allow users to return to the previous screen.
+@@@IconButton@@@
+
+Wi-Fi Icon:
+
+This icon likely represents the Wi-Fi signal status or connectivity state, commonly found in status indicators.
+@@@Icon@@@
+
+Main Image with Play Button:
+
+A large image with a play button overlay, typically used for video previews or playback.
+@@@Stack@@@
+
+Signal Icon:
+
+This icon shows network signal strength, usually part of a status bar or connectivity indicator.
+@@@Icon@@@
+
+See all:
+
+This is a text widget, likely a link or button, allowing users to view all items in a section or list.
+@@@TextButton@@@
+3D Design Basic label:
+This is a text widget that displays the title of the course being viewed.
+@@@Text@@@
+
+Course description text:
+This is a multiline text widget providing information about what the course will teach and the number of videos available.
+@@@Text@@@
+
+Time indicator:
+This is a text widget that displays the current time.
+@@@Text@@@
+
+Large Button:
+This appears to be a button widget with an icon and text. It likely performs an action when tapped.
+@@@ElevatedButton@@@

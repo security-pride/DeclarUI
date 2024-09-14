@@ -1,0 +1,91 @@
+"查看更多" (View More) label:
+This is a text widget that prompts users to see more items or information.
+@@@Text@@@
+
+"查疾病" (Disease Lookup) label:
+This is a text widget that helps to categorize or provide a title for disease-related information.
+@@@Text@@@
+
+"了解左氧氟沙星" (Understand Levofloxacin) card:
+A container widget that combines text and image, probably used to provide detailed information about the drug Levofloxacin.
+@@@Container@@@
+
+"健康百科" (Health Encyclopedia) label:
+This is a text widget which likely serves as the title or logo of the app, indicating it is a health-related application.
+@@@Text@@@
+
+"了解司美格鲁肽" (Understand Semaglutide) card:
+A container widget that combines text and image, likely delivering details about the drug Semaglutide.
+@@@Container@@@
+
+"丁香医生官方出品" (Official Product by Dingxiang Doctor) label:
+This is a text widget indicating that the app or information is officially produced by Dingxiang Doctor.
+@@@Text@@@
+
+"疾病/症状全了解" (Full Understanding of Diseases/Symptoms) label:
+This is a text widget that sets a category or section title, likely offering comprehensive information on diseases and symptoms.
+@@@Text@@@
+
+Disease Icons:
+A grid view containing multiple icons, each representing different diseases. Each icon is paired with a text label, making it easy for users to navigate.
+@@@GridView@@@
+
+"登革热防范手册" (Dengue Fever Prevention Manual) card:
+A container widget that combines text and image, offering information or a guide on preventing dengue fever.
+@@@Container@@@
+Home icon with "首页" (homepage):
+This is an icon representing the homepage and is likely used as a button or navigational item in the bottom navigation bar.
+@@@Icon@@@
+
+Doctor icon with "问医生" (Ask the Doctor):
+This is an icon representing a feature to ask questions to a doctor, likely a button in the bottom navigation bar.
+@@@Icon@@@
+
+File icon with "查病查药" (Check Disease/Medicine):
+This is an icon representing the feature to check information about diseases or medicines, likely a button in the bottom navigation bar.
+@@@Icon@@@
+
+Person icon with "我的" (Mine):
+This is an icon representing user profile or personal information section, likely a button in the bottom navigation bar.
+@@@Icon@@@
+
+Item "奥司他韦" with "HOT":
+This is a labeled text widget indicating that this item is hot or trending. 
+@@@Text@@@
+
+"健康百科" (Health Encyclopedia) label:
+This is a text widget that represents the main title or header displaying "健康百科" (Health Encyclopedia).
+@@@Text@@@
+
+"近期热点" (Recent Hotspots) label:
+This is a text widget that represents a subheader for the recent hotspots section.
+@@@Text@@@
+
+"流感应对手册" (Influenza Response Manual) item:
+This is a container housing text and an icon, representing a clickable item with a brief description.
+@@@Container@@@
+
+Envelope icon:
+This is an icon likely representing a messaging or notification feature.
+@@@Icon@@@
+
+"查药品" (Check Medicine) label:
+This is a text widget representing the title of the section for checking medicine.
+@@@Text@@@
+
+"查看更多" (See More) label:
+This is a text widget likely representing a button or link to load more content in a section.
+@@@Text@@@
+
+"药品说明随手查" (Check Drug Instructions Anytime) label:
+This is a text widget representing the description text for the medicine section.
+@@@Text@@@
+
+Note: The specific properties and decorations (such as padding, alignment, etc.) would be applied through their respective parent widgets or individual properties settings, but the core widget types have been identified as requested.
+Search bar with text:
+This appears to be a search bar where users can input text to search for diseases, symptoms, medications, or health questions. The search icon suggests the initiation of a query.
+@@@TextField@@@
+
+Search button:
+This seems to be a button that initiates the search action when pressed. The text on the button "搜索" translates to "Search."
+@@@TextButton@@@

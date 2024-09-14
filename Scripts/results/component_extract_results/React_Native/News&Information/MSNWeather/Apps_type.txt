@@ -1,0 +1,213 @@
+Rewards icon:
+This is a Button. It represents a "Rewards" button that navigates the user to a rewards section in the app.
+@@@Button@@@
+
+Unit Converter icon:
+This is a Button. It represents a "Unit Converter" button that navigates the user to unit conversion functionalities.
+@@@Button@@@
+
+Nearby icon:
+This is a Button. It represents a "Nearby" button that likely provides location-based services or nearby information.
+@@@Button@@@
+
+Deals icon:
+This is a Button. It represents a "Deals" button that navigates the user to a deals section in the app.
+@@@Button@@@
+
+Back arrow icon:
+This is a TouchableOpacity Function Component. It allows users to go back to the previous screen.
+@@@TouchableOpacity Function Component@@@
+
+Car with price tag icon:
+This is a Button. It represents a "Car Deals" button that navigates the user to car-related deals or services.
+@@@Button@@@
+
+Star icon:
+This is an Image. It’s a decorative icon likely used to represent favorite or important items.
+@@@Image@@@
+
+Home icon with "Home" label:
+This is a combination of Image and Text Functional Components. The icon is a button that navigates the user to the Home section.
+@@@Image@@@
+
+Cart icon:
+This is a Button. It represents a "Cart" button that navigates the user to the shopping cart or deals section.
+@@@Button@@@
+News icon:
+This is a Function Component. It's used to display the app's news section, which may show the latest news articles or updates.
+@@@Function Component@@@
+
+Images icon:
+This is a Function Component. It's used to navigate the user to a gallery or image browsing section of the app.
+@@@Function Component@@@
+
+Tabs icon:
+This is a Function Component. It's used to show the number of open tabs or windows within the app, helping users switch between different tabs.
+@@@Function Component@@@
+
+Translate icon:
+This is a Function Component. It's used to navigate to a translation feature where users can translate text from one language to another.
+@@@Function Component@@@
+
+News icon (duplicate):
+This is a Function Component. It's used to display the app's news section, which may show the latest news articles or updates.
+@@@Function Component@@@
+
+Math icon:
+This is a Function Component. It likely serves as a quick entry point to a math-related feature such as a calculator or a math-solving tool.
+@@@Function Component@@@
+
+Pin icon:
+This is a Function Component. It's likely to allow the user to pin frequently accessed features or items for quick access.
+@@@Function Component@@@
+
+Settings icon:
+This is a Function Component. It navigates to the settings page where users can modify app settings and preferences.
+@@@Function Component@@@
+Apps icon:
+This is a Button component. It likely navigates the user to an app menu or a section with more applications.
+@@@Button@@@
+
+Translator icon:
+This is a Function Component. It opens a translation feature or redirects to a translator page.
+@@@Function Component@@@
+
+"Join Microsoft Rewards to redeem free gifts!" label:
+This is a Text Functional Component. It's a description text guiding users to join or learn more about the Microsoft Rewards program.
+@@@Text Functional Component@@@
+
+Interests icon:
+This is a Function Component. It likely redirects the user to their interests section.
+@@@Function Component@@@
+
+Trending icon:
+This is a Function Component. It probably takes the user to a section displaying trending topics or popular items.
+@@@Function Component@@@
+
+Nearby icon:
+This is a Function Component. It probably redirects the user to a feature displaying nearby places or services.
+@@@Function Component@@@
+
+Profile icon:
+This is a Function Component. It likely opens the user's profile or account settings.
+@@@Function Component@@@
+
+Chat icon:
+This is a Function Component. It probably opens a chat feature or redirects to a chat application.
+@@@Function Component@@@
+EXPLORE:
+This is a Text component. It labels a section in the app where users can explore various options or features.
+@@@Text Functional Component@@@
+
+Sign in to earn daily points:
+This is a Text component. It likely displays an incentive or call to action for users to sign in and earn daily points.
+@@@Text Functional Component@@@
+
+History icon:
+This is an Image component. It visually represents the History section where users can view their past activity or actions.
+@@@Function Component@@@
+
+Money icon:
+This is an Image component. It represents the financial or money-related features where users can view or manage their finances.
+@@@Function Component@@@
+
+Wallpapers icon:
+This is an Image component. It represents the section where users can explore and possibly set wallpapers for their device.
+@@@Function Component@@@
+
+Games icon:
+This is an Image component. It visually represents the Games section where users can find and play various games.
+@@@Function Component@@@
+
+Games section icon:
+This is an Image component. It serves as an identifier for the games category within the app, allowing users to explore games.
+@@@Function Component@@@
+
+PINNED:
+This is a Text component. It labels a section where users can find pinned or favorite items for quick access.
+@@@Text Functional Component@@@
+
+Cart icon:
+This is an Image component. It represents a shopping cart, likely indicating a shopping or purchase-related feature within the app.
+@@@Function Component@@@
+Weather icon:
+This is a Pressable component. It represents a button for accessing the weather feature in the app, allowing users to check the weather.
+@@@Pressable@@@
+
+Profile icon:
+This is an Image component. It serves as a user profile image placeholder, indicating the user's profile settings or login section.
+@@@Function Component@@@
+
+Deals icon:
+This is a Pressable component. It links to the Deals section, likely showcasing discounts and special offers available to the user.
+@@@Pressable@@@
+
+Weather icon:
+This is a Pressable component. This button gives users access to weather updates and forecasts.
+@@@Pressable@@@
+
+Explore AI icon:
+This is a Pressable component. It navigates users to an AI exploration section, which might have features related to artificial intelligence applications.
+@@@Pressable@@@
+
+Bookmarks icon:
+This is a Pressable component. This button navigates users to their bookmarked contents.
+@@@Pressable@@@
+
+Interests icon:
+This is a Pressable component. It enables users to access and manage their interests.
+@@@Pressable@@@
+
+Unit Converter icon:
+This is a Pressable component. It navigates users to a unit conversion tool.
+@@@Pressable@@@
+
+Watch icon:
+This is a Pressable component. It provides access to the watch or video section where users can watch different media content.
+@@@Pressable@@@
+Orange stars icon:
+This is a Function Component. It represents the "Explore AI" feature, which likely allows users to discover AI-related content or tools.
+@@@Function Component@@@
+
+Yellow text icon:
+This is a Function Component. It represents the "Translator" feature, which likely allows users to translate text between different languages.
+@@@Function Component@@@
+
+Brown medal icon:
+This is a Function Component. It represents the "Rewards" feature, which likely allows users to view and redeem rewards or achievements.
+@@@Function Component@@@
+
+Green chart icon:
+This is a Function Component. It represents the "Money" feature, which likely provides financial tools or information.
+@@@Function Component@@@
+
+Blue image icon:
+This is a Function Component. It represents the "Images" feature, which likely allows users to browse or search for images.
+@@@Function Component@@@
+
+Purple play icon:
+This is a Function Component. It represents the "Watch" feature, which likely allows users to view videos or video content.
+@@@Function Component@@@
+
+Yellow square root icon:
+This is a Function Component. It represents the "Math" feature, which likely provides tools or information related to mathematics.
+@@@Function Component@@@
+
+Pink paintbrush and magnifying glass icons (Chat section):
+These are Function Components. They represent the "Chat" feature, where the pink paintbrush and the orange "b" likely indicate a chat with AI capabilities or a specific chat bot.
+@@@Function Component@@@
+
+Blue bar chart with star icon:
+This is a Function Component. It represents the "Trending" feature, which likely highlights popular or trending content.
+@@@Function Component@@@
+Bookmarks label:
+This is a Text Functional Component. It's a label indicating the Bookmarks section of the app.
+@@@Text Functional Component@@@
+
+Wallpapers icon:
+This is an Image Function Component. It visually represents the Wallpapers section, allowing users to customize their device's wallpaper.
+@@@Function Component@@@
+
+SD card icon:
+This is an Image Function Component. It likely represents downloadable content or storage settings within the app.
+@@@Function Component@@@

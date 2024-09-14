@@ -1,0 +1,54 @@
+Search text:
+This is a text label indicating a search feature in the app's navigation.
+@@@Text@@@
+
+Favourite brands text:
+This label suggests the section is for users to manage their preferred brands.
+@@@Text@@@
+
+VIP text:
+Indicates a VIP section or feature. It’s part of a navigation option.
+@@@Text@@@
+
+Account icon:
+This is an icon representing the user account section, often used in navigation bars.
+@@@Icon@@@
+
+Personal details text:
+This label indicates a section for users to manage their personal information.
+@@@Text@@@
+
+Discover icon:
+Represents the discovery or exploration feature, likely used in the app's navigation.
+@@@Icon@@@
+
+Heart icon:
+This is an icon likely used to represent favorites or liked items.
+@@@Icon@@@
+
+VIP rewards tracker component:
+This is a list item with an icon, text, and a new badge, indicating a feature for tracking VIP rewards.
+@@@ListTile@@@
+
+Track transaction status text:
+This label indicates a section for users to check the status of their transactions.
+@@@Text@@@
+Profile icon:
+This appears to be an icon representing the user's profile or account details.
+@@@Icon@@@
+
+Sign In button:
+This is a large button that likely allows users to sign in to their account.
+@@@ElevatedButton@@@
+
+Gift card wallet section:
+This is a list tile with an icon, text, and a trailing arrow, allowing users to access the gift card wallet.
+@@@ListTile@@@
+
+Communication preferences section:
+This is another list tile with an icon, text, and a trailing arrow, allowing users to manage their communication preferences.
+@@@ListTile@@@
+
+Submit a code text:
+This is a plain text widget displaying the label "Submit a code".
+@@@Text@@@

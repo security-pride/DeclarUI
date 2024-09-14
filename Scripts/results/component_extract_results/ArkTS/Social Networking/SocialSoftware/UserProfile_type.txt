@@ -1,0 +1,121 @@
+1. Component Keyword:
+Comment text:
+This displays a block of text, likely user-generated content, such as a comment or post.
+@@@arkTSText@@@
+
+2. Component Keyword:
+Like icon:
+This is an icon representing a "like" feature, allowing users to express appreciation or approval.
+@@@arkTSIcon@@@
+
+3. Component Keyword:
+Social media icon:
+This icon serves as a shortcut to a social media platform or feature related to sharing or connecting.
+@@@arkTSIcon@@@
+
+4. Component Keyword:
+Follow button:
+A button that allows a user to follow another user or account for updates.
+@@@arkTSButton@@@
+
+5. Component Keyword:
+Home icon:
+An icon that typically navigates the user back to the main or home screen of the app.
+@@@arkTSIcon@@@
+
+6. Component Keyword:
+Tag or label:
+This represents a tag or label, possibly indicating a category or platform name.
+@@@arkTSBadge@@@
+
+7. Component Keyword:
+Tab label:
+This is a label for a tab within a tab bar, allowing users to switch between different sections.
+@@@arkTSTab@@@
+
+8. Component Keyword:
+Follower count:
+This shows the number of followers a user has, providing social validation or reach.
+@@@arkTSText@@@
+
+9. Component Keyword:
+Analytics icon:
+This icon might represent analytics or insights, likely related to user data or statistics.
+@@@arkTSIcon@@@
+Alisson Rochinski text:
+This is a text label displaying the name of a user or profile.
+@@@arkTSText@@@
+
+Wi-Fi icon:
+This is an icon indicating the current Wi-Fi connection status.
+@@@arkTSIcon@@@
+
+Follow button:
+This is a button that allows users to follow a profile or user.
+@@@arkTSButton@@@
+
+Time display (9:41):
+This element shows the current time, typically found in a status bar.
+@@@arkTSText@@@
+
+Action icons (like, comment, etc.):
+These icons represent actions such as liking, commenting, or sharing a post.
+@@@arkTSIcon@@@
+
+Chirps label:
+This text label indicates a section or tab name within the app.
+@@@arkTSText@@@
+
+Profile picture (user avatar):
+This is the graphical representation of a user's profile image.
+@@@arkTSImage@@@
+
+Arochinski handle:
+This is a text label displaying the username or handle of a user.
+@@@arkTSText@@@
+
+Additional profile picture (circular avatar):
+This element represents a secondary avatar, possibly for additional user accounts or features.
+@@@arkTSImage@@@
+Heart icon:
+This is likely a "like" button that users can tap to express their approval of content.
+@@@arkTSButton@@@
+
+Paper plane icon:
+This icon typically represents a "send" or "share" function, allowing users to forward content to others.
+@@@arkTSButton@@@
+
+Profile picture with pie chart overlay:
+This component is commonly used to display a user's profile picture with a status indicator or a progress overlay, such as story progress.
+@@@arkTSAvatar@@@
+
+Clock icon with user outline:
+This icon might represent an activity or history log, showing recent actions or contributions made by the user.
+@@@arkTSIcon@@@
+
+Text: "UI Designer | Let's redesign the world"
+This is a text label displaying a user's role or a personal motto, typically found in a profile section.
+@@@arkTSText@@@
+
+Username: "arochinski"
+This is a text label indicating the username of a user, often used for identifying accounts.
+@@@arkTSText@@@
+
+Time indicator: "min"
+This text is a time indicator, showing the time elapsed since a post or activity happened.
+@@@arkTSText@@@
+
+Group of profile pictures:
+An image or component showing multiple user avatars, usually used to represent a group or list of users who have interacted with content.
+@@@arkTSAvatarGroup@@@
+
+Profile picture with partial circle overlay:
+This component likely denotes active engagement with a feature like a story or a poll, representing participation or progress.
+@@@arkTSProgressAvatar@@@
+Profile Picture with Badge:
+This icon represents a profile picture with a badge, likely indicating a verified account.
+@@@arkTSBadgeIcon@@@
+
+"Voltar" (Back) Button:
+This component is a back button, allowing users to navigate to the previous screen. "Voltar" translates to "Back."
+@@@arkTSBackButton@@@

@@ -1,0 +1,72 @@
+Component Keyword:
+This appears to be a purple card with rounded edges, possibly representing a subject category.
+@@@Container@@@
+
+Chemistry icon:
+This is likely an icon representing a chemistry class or course. The image suggests functionality for navigating to course details.
+@@@Icon@@@
+
+Physics card:
+A card widget displaying details about a physics class, including a chapter, time, and meeting platform. 
+@@@Card@@@
+
+Mathematics rectangle:
+This is a button or card for the Mathematics subject, used to navigate to or highlight more details.
+@@@Card@@@
+
+"4 tasks today" label:
+This is a text widget displaying the number of tasks the user has for the day.
+@@@Text@@@
+
+Mathematics subject:
+Similar to the previous Mathematics rectangle with an icon and text, likely navigational.
+@@@Card@@@
+
+"Your running subjects" label:
+This is a text widget indicating active subjects, likely serving as a section header.
+@@@Text@@@
+
+Mathematics icon:
+This is the mathematics subject icon used to represent mathematics within the app.
+@@@Icon@@@
+
+Bottom navigation bar:
+A bottom navigation bar widget with multiple icon buttons, allowing the user to switch between different sections of the app.
+@@@BottomNavigationBar@@@
+Profile picture:
+This is likely an image displayed to show the user’s profile picture.
+@@@CircleAvatar@@@
+
+Courses label:
+This is a text widget that indicates the section on the screen for different courses.
+@@@Text@@@
+
+Course icons and labels:
+These are icon and text widgets within containers that represent different courses.
+@@@Container@@@
+Child: Column
+Children:
+  @@@Icon@@@ (Icon representing the course)
+  @@@Text@@@ (Text representing the course name)
+
+Hello Liana:
+This is a static text widget used to greet the user with their name.
+@@@Text@@@
+
+Mathematics Course Card:
+This is a container with rounded corners, an icon, and text to represent a course.
+@@@Container@@@
+Decoration: BoxDecoration(borderRadius: BorderRadius.circular(12.0))
+Child: Column
+Children:
+  @@@Icon@@@ (Mathematics course icon)
+  @@@Text@@@ (Mathematics course text)
+
+Chemistry Course Card:
+This is a container with rounded corners, an icon, and text to represent a course.
+@@@Container@@@
+Decoration: BoxDecoration(borderRadius: BorderRadius.circular(12.0))
+Child: Column
+Children:
+  @@@Icon@@@ (Chemistry course icon)
+  @@@Text@@@ (Chemistry course text)

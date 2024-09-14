@@ -1,0 +1,62 @@
+Payments icon:
+This component likely serves as a navigation button to access the payments section of the app.
+@@@arkTSButton@@@
+
+Barclays card background:
+This component is probably a graphic element used to represent a bank card in the app, possibly linking to more detailed information about the account.
+@@@arkTSImage@@@
+
+Crypto icon:
+This component likely functions as a button to navigate to the cryptocurrency section of the app.
+@@@arkTSButton@@@
+
+Barclays and Visa logo:
+This component represents branding or card information, often used within a card component to provide details about the institution.
+@@@arkTSImage@@@
+
+"信用卡" (Credit Card) label:
+This is a text label likely indicating the type of card displayed, translating to "Credit Card."
+@@@arkTSText@@@
+
+Rewards label:
+This text component is used as part of a navigation tab or section header for rewards-related features.
+@@@arkTSText@@@
+
+Card number "5871":
+This text component probably displays the last four digits of a card number for identification purposes.
+@@@arkTSText@@@
+
+Wallet icon:
+This icon is used as a navigation button to access the wallet or main account section.
+@@@arkTSButton@@@
+
+Bank accounts and cards label:
+This text label serves as a header for a section listing bank accounts and cards linked to the app.
+@@@arkTSText@@@
+Wallet label:
+This is a text label indicating the current section of the app, which is "Wallet."
+@@@arkTSText@@@
+
+Cards label:
+This text label likely indicates a section related to financial cards within the app.
+@@@arkTSText@@@
+
+Add new button:
+This text with an implied button function likely allows users to add new bank accounts or cards.
+@@@arkTSButton@@@
+
+Home icon:
+This icon represents the home section of the app and typically brings users back to the main dashboard.
+@@@arkTSIcon@@@
+
+Activity label:
+This is a text label indicating the "Activity" section of the app, where users can view their recent transactions or actions.
+@@@arkTSText@@@
+
+PayPal balance card:
+This component displays the user's PayPal balance and is likely an interactive card showing account details.
+@@@arkTSCard@@@
+
+Card number obscured digits:
+This text component displays the last few digits of a card number for identification purposes.
+@@@arkTSText@@@

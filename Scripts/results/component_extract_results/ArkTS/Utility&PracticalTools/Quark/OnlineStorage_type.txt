@@ -1,0 +1,110 @@
+Component Keyword:
+Folder Icon:
+This is an icon representing folders, likely used as a button to navigate to a files section.
+@@@arkTSIcon@@@
+
+Component Keyword:
+"最近文件" (Recent Files) label:
+This label indicates a section displaying recently accessed or created files. The translation is "Recent Files."
+@@@arkTSText@@@
+
+Component Keyword:
+"文档" (Documents) icon:
+This icon, labeled "Documents," is used to access the documents section of the app. The translation is "Documents."
+@@@arkTSIcon@@@
+
+Component Keyword:
+"音频" (Audio) icon:
+This icon represents an audio section, likely for accessing audio files. The translation is "Audio."
+@@@arkTSIcon@@@
+
+Component Keyword:
+"压缩包" (Compressed Package) icon:
+This icon denotes a section for compressed files or archives. The translation is "Compressed Package."
+@@@arkTSIcon@@@
+
+Component Keyword:
+"PC" with "X" icon:
+This component appears to be an interactive toolbar item for connecting or disconnecting to a PC version or feature.
+@@@arkTSToolbarButton@@@
+
+Component Keyword:
+"暂无内容" (No Content) placeholder:
+This image is a placeholder indicating there is no content currently available in this section. The translation is "No Content."
+@@@arkTSPlaceholder@@@
+
+Component Keyword:
+Wi-Fi Icon:
+This icon suggests network connectivity status, specifically Wi-Fi signal strength.
+@@@arkTSIcon@@@
+
+Component Keyword:
+Signal Strength Icon:
+This icon represents cellular signal strength, often used in status bars.
+@@@arkTSIcon@@@
+Eye icon:
+This is an icon typically used to represent visibility or view actions, such as viewing details or toggling visibility of a section or item.
+@@@arkTSIcon@@@
+
+登录夸克网盘 (Login to Quark Cloud):
+This is a text label instructing users to log in to the Quark Cloud service, likely guiding them to a login screen or prompting a login dialogue.
+@@@arkTSText@@@
+
+夸克网盘 (Quark Cloud):
+This is a text label displaying the name of the app, Quark Cloud.
+@@@arkTSText@@@
+
+传输 (Transfer):
+This is a tab or button that likely takes the user to a transfer section of the app, probably used for managing file transfers.
+@@@arkTSTabBarItem@@@
+
+iPhone手机 (iPhone Device):
+This section seems to show information related to an iPhone device, including options for backup or accessing device-related services.
+@@@arkTSListItem@@@
+
+0元秒杀 免费领SVIP月卡 (0 Yuan Seckill; Free SVIP Month Card):
+This is a promotional banner inviting users to acquire a free SVIP month card for 0 cost.
+@@@arkTSBanner@@@
+
+登录后领取10G空间 (Get 10G space after login):
+This text label informs the user about the incentive of getting 10GB of space upon logging in.
+@@@arkTSText@@@
+
+相册 (Album):
+This icon and label combination indicates a shortcut to the album or gallery section of the app, probably for viewing and managing photos.
+@@@arkTSButton@@@
+
+Plus icon:
+This floating action button, typically represented by a plus (+) sign, is used for adding new items or creating new content within the app.
+@@@arkTSFloatingActionButton@@@
+Component Keyword:
+This is the battery icon that indicates the remaining battery life.
+@@@arkTSBattery@@@
+
+Component Keyword:
+"立即登录" ("Login Now") button:
+This is a button that prompts the user to log in to their account.
+@@@arkTSButton@@@
+
+Component Keyword:
+This section contains icon buttons for various functionalities such as cloud collection, encrypted space, PDF conversion, recycle bin, AI voice recording, and group chats.
+@@@arkTSIconButton@@@
+
+Component Keyword:
+"搜索网盘文件" ("Search Cloud Disk Files") search bar:
+This appears to be a search input field that allows users to enter text for searching content within the app.
+@@@arkTSSearch@@@
+
+Component Keyword:
+This is the home icon that likely takes users to the app's main screen.
+@@@arkTSIconButton@@@
+
+Component Keyword:
+"已经到底了" ("You've reached the end") text:
+This is a footer text indicating that the user has reached the end of the content list.
+@@@arkTSText@@@
+
+Component Keyword:
+"视频" ("Videos") section button:
+This is an icon button that likely navigates the user to the video content section.
+@@@arkTSIconButton@@@

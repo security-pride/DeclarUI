@@ -1,0 +1,36 @@
+Google continue button:
+This button allows users to sign in using their Google account credentials.
+@@@ElevatedButton@@@
+
+Apple continue button:
+This button allows users to sign in using their Apple account credentials.
+@@@ElevatedButton@@@
+
+Or continue with text:
+This is a text widget that indicates optional alternative sign-in methods aside from email.
+@@@Text@@@
+
+Email label:
+This is a text widget prompting the user to enter their email address.
+@@@Text@@@
+
+Facebook continue button:
+This button allows users to sign in using their Facebook account credentials.
+@@@ElevatedButton@@@
+
+Email input field:
+This is an input field where users can type their email address to sign in or sign up.
+@@@TextField@@@
+
+Welcome text section:
+This area consists of a title and subtitle text, welcoming the user and prompting them to sign up or log in.
+@@@Column@@@
+
+Email sign-in button:
+This button allows users to continue with email sign-in.
+@@@ElevatedButton@@@
+
+Facebook continue button (repeat):
+This button allows users to sign in using their Facebook account credentials.
+@@@ElevatedButton@@@
+I'm unable to see the component images you mentioned. Could you provide each one so I can analyze and describe it in detail?

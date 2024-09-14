@@ -1,0 +1,162 @@
+01:30 timestamp:
+This is a Text component. It indicates the current playback time of the audio or video that is being played.
+@@@Text Functional Component@@@
+
+Close (x) icon:
+This is a Button component. It likely serves the functionality to close the current view or modal that it is part of.
+@@@Button@@@
+
+03:00 timestamp:
+This is a Text component. It indicates the total duration of the audio or video that is being played.
+@@@Text Functional Component@@@
+
+Use the app button:
+This is a Button component. It likely serves the functionality to prompt users to use or download the app.
+@@@Button@@@
+
+Plus (+) icon:
+This is a Button component. It likely serves the functionality to add the current item (song, artist, etc.) to a list or favorites.
+@@@Button@@@
+
+Full-screen (diagonal arrows) icon:
+This is a Button component. It likely serves the functionality to toggle the full-screen view.
+@@@Button@@@
+
+Share the sound! text label:
+This is a Text component. It acts as a descriptive label for the sharing feature.
+@@@Text Functional Component@@@
+
+Instagram icon:
+This is an Image component. It is likely used to indicate the option to share content on Instagram.
+@@@Function Component@@@
+Heart icon:
+This is a Button component. It's likely used to add the current song to a list of favorites.
+@@@Button@@@
+
+Album art image:
+This is an Image component. It displays the album artwork for the currently playing song.
+@@@Function Component@@@
+
+“All Mine” label:
+This is a Text Functional Component. It's displaying the title of the currently playing song.
+@@@Text Functional Component@@@
+
+“Kanye West” label:
+This is a Text Functional Component. It's displaying the name of the artist for the currently playing song.
+@@@Text Functional Component@@@
+
+Play icon:
+This is a Button component. It's used to play or pause the current song.
+@@@Button@@@
+
+Repeat icon:
+This is a Button component. It's used to enable or disable the repeat mode for the currently playing song.
+@@@Button@@@
+
+Previous song icon:
+This is a Button component. It's used to skip back to the previous song.
+@@@Button@@@
+
+Next song icon:
+This is a Button component. It's used to skip to the next song.
+@@@Button@@@
+
+Shuffle icon:
+This is a Button component. It's used to enable or disable shuffle mode for the playlist.
+@@@Button@@@
+
+Wi-Fi signal icon:
+This is a StatusBar Android and iOS Component. It indicates the current Wi-Fi signal strength.
+@@@StatusBar Android and iOS Component@@@
+
+Battery icon:
+This is a StatusBar Android and iOS Component. It indicates the current battery level of the device.
+@@@StatusBar Android and iOS Component@@@
+
+Time label:
+This is a StatusBar Android and iOS Component. It displays the current time.
+@@@StatusBar Android and iOS Component@@@
+
+Progress bar:
+This is a View Function Component. It displays the progress of the currently playing song.
+@@@View Function Component@@@
+Component Keyword:
+This is a Button. It's an interactive element that users can press to initiate adding something, possibly adding a song to a favorite playlist.
+@@@Button@@@
+
+Component Keyword:
+This is a Text Functional Component. It likely shows the song's title.
+@@@Text Functional Component@@@
+
+Component Keyword:
+This is a Text Functional Component. Displays the artist's name.
+@@@Text Functional Component@@@
+
+Component Keyword:
+This is a Button. Users can press this to indicate that they like or favorite the current song.
+@@@Button@@@
+
+Component Keyword:
+This is a Button. Used for sharing or displaying share options within the app.
+@@@Button@@@
+
+Component Keyword:
+This is an Image Background. It displays the background image of the media content.
+@@@ImageBackground@@@
+
+Component Keyword:
+This is a Text Functional Component. It is the time marker, typically showing the elapsed time of the song.
+@@@Text Functional Component@@@
+
+Component Keyword:
+This is a Text Functional Component. It is the time marker, typically showing the total duration of the song.
+@@@Text Functional Component@@@
+
+Component Keyword:
+This is a Button. It represents the play/pause functionality.
+@@@Button@@@
+
+Component Keyword:
+This is a Button. It allows skipping to the next track.
+@@@Button@@@
+
+Component Keyword:
+This is a Button. It allows skipping to the previous track.
+@@@Button@@@
+
+Component Keyword:
+This is a Button. Represents the functionality of repeating the current track.
+@@@Button@@@
+
+Component Keyword:
+This is a Button. This indicates the shuffle functionality.
+@@@Button@@@
+
+Component Keyword:
+This is a Button. It allows for switching to a different view for viewing additional options or lyrics possibly, as indicated by the arrows pointing outwards.
+@@@Button@@@
+
+Component Keyword:
+This is a Text Function Component. It is the Label for advertisement or promotional text.
+@@@Text Functional Component@@@
+
+Component Keyword:
+This is a Button. It likely initiates actions related to advertisements, such as sharing or installing the app.
+@@@Button@@@
+
+Component Keyword:
+This is a Button. It allows the current ad to be dismissed by the user.
+@@@Button@@@
+
+Component Keyword:
+This is a View Function Component. It is the container providing structure for the layout of various elements within the screen.
+@@@View Function Component@@@
+
+Component Keyword:
+This is a TextInput. This may refer to the search bar or any text input area within the screen.
+@@@TextInput@@@
+
+Component Keyword:
+This is a Flatlist-simple. It refers to showing list items like song suggestions or playlist items.
+@@@flatlist-simple@@@
+

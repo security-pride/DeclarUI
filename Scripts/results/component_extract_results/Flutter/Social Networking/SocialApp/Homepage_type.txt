@@ -1,0 +1,90 @@
+Search bar:
+This search bar allows users to search for friends or partners within the app.
+@@@TextField@@@
+
+Wi-Fi icon:
+This is an icon that likely indicates the Wi-Fi status or connection strength.
+@@@Icon@@@
+
+Profile with text "Potential Match!":
+This component displays a user's profile picture along with an indicator that they are a potential match.
+@@@Stack@@@
+
+Outdoor button:
+This button allows users to filter the recommendations based on the "Outdoor" category.
+@@@TextButton@@@
+
+Profile pictures:
+These are profile pictures of users, potentially representing friends or other users to connect with.
+@@@CircleAvatar@@@
+
+All button:
+This button allows users to filter recommendations to show all categories.
+@@@TextButton@@@
+
+Arc edge of profile picture:
+This is part of a circular avatar profile image, indicating the presence of user profiles.
+@@@CircleAvatar@@@
+
+Forging New Bonds and Friendships text:
+This text provides information or a title, likely for the app's main feature or section.
+@@@Text@@@
+
+My Story profile picture:
+This component shows a user's profile picture, allowing access to their story or profile when clicked.
+@@@CircleAvatar@@@
+
+Menu icon:
+This icon likely opens a navigation drawer or menu when tapped.
+@@@IconButton@@@
+
+Filter icon:
+This icon is likely used to apply or modify filters in the app.
+@@@IconButton@@@
+
+Signal bars:
+These bars could indicate signal strength or connectivity status.
+@@@Icon@@@
+
+Hamburger menu:
+This icon probably opens a side menu or navigation drawer.
+@@@IconButton@@@
+
+Bottom navigation indicator:
+This indicates which tab is active in a bottom navigation bar.
+@@@Container@@@
+
+User stories:
+This displays user stories similar to social media platforms.
+@@@Row@@@
+
+All button:
+A button to filter recommendations by showing all categories.
+@@@TextButton@@@
+
+Anime button:
+A button to filter recommendations specifically for anime content.
+@@@OutlinedButton@@@
+
+Circular profile image:
+This widget displays a user's profile picture with a circular border.
+@@@CircleAvatar@@@
+Natalie profile picture:
+This is likely an avatar or profile image that displays a user's picture. It may be wrapped with a border indicating a status or action.
+@@@CircleAvatar@@@
+
+Bell icon:
+This represents a notification or alert button, often used to inform users about new messages or updates.
+@@@IconButton@@@
+
+9:41 text:
+This text shows the current time, commonly found on the status bar of mobile apps.
+@@@Text@@@
+
+Photography category button:
+This is a selectable button that likely filters or categorizes content based on the label "Photography."
+@@@OutlinedButton@@@
+
+Profile card:
+This component showcases a profile image, name, age, and possible match status. It combines text and image widgets in a styled container.
+@@@Card Widget with Column@@@

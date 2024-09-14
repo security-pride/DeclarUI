@@ -1,0 +1,66 @@
+Download icon:
+This is a Function Component. It is used to represent the download feature, possibly indicating completed downloads or allowing users to access their downloads.
+@@@Function Component@@@
+
+Search icon:
+This is a Function Component. It's used for initiating a search feature, allowing users to search for content within the app.
+@@@Function Component@@@
+
+"Mendy Santiago" label:
+This is a Text Functional Component. It's used to display the name of the person associated with the content.
+@@@Text Functional Component@@@
+
+"Maria Trofimova" label:
+This is a Text Functional Component. It's used to display the name of the person associated with the content.
+@@@Text Functional Component@@@
+
+"Make your Mess Your Message" text:
+This is a Text Functional Component. It's used to display the title or description of the associated video content.
+@@@Text Functional Component@@@
+
+Video thumbnail with "09:46":
+This is an ImageBackground component. It displays a thumbnail image of the video and the length of the video.
+@@@ImageBackground@@@
+
+Video thumbnail with "08:12":
+This is an ImageBackground component. It displays a thumbnail image of the video and the length of the video.
+@@@ImageBackground@@@
+
+Video thumbnail with "09:46":
+This is an ImageBackground component. It displays a thumbnail image of the video and the length of the video.
+@@@ImageBackground@@@
+
+Video thumbnail with "08:12":
+This is an ImageBackground component. It displays a thumbnail image of the video and the length of the video.
+@@@ImageBackground@@@
+Profile picture of a person:
+This is an Image component. It displays the profile picture of the user.
+@@@Function Component@@@
+
+"Meet Your Dreams and Make It Real" text:
+This is a Text component. It displays the title of the video content.
+@@@Text Functional Component@@@
+
+Video thumbnail with the duration "12:38":
+This is an Image component. It shows the thumbnail of the video along with the duration.
+@@@Function Component@@@
+
+"Downloads" title text:
+This is a Text component. It serves as the heading of the page indicating the section for downloaded content.
+@@@Text Functional Component@@@
+
+Home button icon:
+This is a Button component. It is likely used to navigate to the home screen of the app.
+@@@Button@@@
+
+"John Wiseberg" text:
+This is a Text component. It displays the name of the content creator or user associated with the video.
+@@@Text Functional Component@@@
+
+"Gift yourself this UI Kit and enjoy!" text:
+This is a Text component. It serves as a descriptive subtitle or summary related to the video content.
+@@@Text Functional Component@@@
+
+Video thumbnail with the duration "12:38":
+This is an Image component. It shows the thumbnail of the video along with the duration.
+@@@Function Component@@@

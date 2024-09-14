@@ -1,0 +1,134 @@
+Search bar:
+This appears to be a search input field that allows users to enter text for searching content within the app.
+@@@arkTSSearch@@@
+
+"Reward Offers" section label:
+This is a text label that likely indicates a section for listing available reward offers. 
+@@@arkTSText@@@
+
+"MOBILES.CO.UK" logo:
+This is an image component displaying the MOBILES.CO.UK logo.
+@@@arkTSImage@@@
+
+"View More" text:
+This is a clickable text that indicates there is more content to view in this section.
+@@@arkTSButton@@@
+
+"VIP" icon:
+This is an image component likely used as part of a tab bar or menu item.
+@@@arkTSImage@@@
+
+"LG" logo:
+This is an image component displaying the LG logo.
+@@@arkTSImage@@@
+
+"Discover" icon:
+This is an image component likely used as part of a tab bar or menu item to navigate to the discover section.
+@@@arkTSImage@@@
+
+"DUNELM" logo:
+This is an image component displaying the DUNELM logo.
+@@@arkTSImage@@@
+
+"ZSL LONDON ZOO" banner:
+This image component likely showcases a promotional banner for the ZSL London Zoo.
+@@@arkTSImage@@@
+
+"Trending Now" category:
+This is a text component likely used as a section header indicating trending content.
+@@@arkTSText@@@
+
+"ADIDAS" logo in list:
+This is an image component displaying the ADIDAS logo used within a list or offer.
+@@@arkTSImage@@@
+
+"adidas" logo in header:
+This is an image component displaying the adidas logo used as part of a header or banner.
+@@@arkTSImage@@@
+View More label:
+This text label likely indicates an option for users to see additional content or items within the app.
+@@@arkTSText@@@
+
+Reward Offers label:
+This is a text label that indicates a section dedicated to showcasing special offers or rewards in the app.
+@@@arkTSText@@@
+
+Deliveroo logo:
+This image represents the logo or icon for Deliveroo, used to visually identify the brand within the app.
+@@@arkTSImage@@@
+
+Search label:
+This text label is part of a navigation menu, likely indicating the search functionality to users.
+@@@arkTSText@@@
+
+eBay logo:
+This image is the eBay logo, serving as a visual identifier for the brand within the app.
+@@@arkTSImage@@@
+
+Offer description with expiry (DUNELM):
+A text component that describes a promotional offer including the details and expiration date.
+@@@arkTSText@@@
+
+Offer description with expiry (LG):
+Another promotional offer description, highlighting the offer details and end date.
+@@@arkTSText@@@
+Component Keyword:
+This image likely represents a logo or icon for the Dunelm brand, used to visually identify the offer source in a voucher list.
+@@@arkTSImage@@@
+
+Component Keyword:
+This image appears to be an icon linked to a promotional or offer section, identified by the Deliveroo logo on the card.
+@@@arkTSImage@@@
+
+Component Keyword:
+This is likely an icon representing the user account section, allowing users to view or edit their account details.
+@@@arkTSIcon@@@
+
+Component Keyword:
+This text represents a detailed voucher offer description, providing information about the offer, such as value and expiration date.
+@@@arkTSText@@@
+
+Component Keyword:
+Similar to the previous, this text contains detailed information about a voucher offer, including its value and expiration.
+@@@arkTSText@@@
+
+Component Keyword:
+This image is an LG logo used to visually identify the offer source in a voucher list.
+@@@arkTSImage@@@
+
+Component Keyword:
+This text represents a voucher offer description, detailing the offer's value and expiration date.
+@@@arkTSText@@@
+
+Component Keyword:
+This text represents a detailed voucher offer description, much like the previous elements, focusing on offer details.
+@@@arkTSText@@@
+
+Component Keyword:
+This text is a brand name label, used for identifying the company associated with the voucher offer.
+@@@arkTSText@@@
+I'm unable to view the individual component images directly, but I can help you identify and describe components from typical app screenshots.
+
+Given the complete app screenshot you provided, here are some possible component matches based on typical app UI elements:
+
+1. **Search bar:**
+   This appears to be a search input field that allows users to enter text for searching content within the app.
+   @@@arkTSSearch@@@
+
+2. **Label "Reward Offers":**
+   This is a text label that likely indicates a section for reward or promotional offers.
+   @@@arkTSText@@@
+
+3. **"View More" button:**
+   This seems to be a button allowing users to view additional content or details related to the section.
+   @@@arkTSButton@@@
+
+4. **List item with company logo and offer:**
+   This element represents a list item that includes an image, title, and description, usually tapping into a larger offer or reward.
+   @@@arkTSListItem@@@
+
+5. **Bottom navigation bar with icons:**
+   This component allows users to navigate to different sections of the app using icons on a bar.
+   @@@arkTSBottomNavigation@@@
+
+If you can describe or upload the component images individually, I can help provide more tailored information.

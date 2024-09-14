@@ -1,0 +1,114 @@
+Component Keyword:
+Cart icon with label "省钱集市" (translated: "Money Saving Market"):
+This is an icon button possibly leading to a screen that offers deals or discounts, complemented with a text label indicating its functionality.
+@@@Column@@@
+---</ Component 1 IMPLIED WIDGET TYPE>
+**IconButton** with an **Image** for the cart icon or an **AssetImage** with a **BoxDecoration** in a **Container** or **CircleAvatar**
+**Text** for the label "省钱集市"
+
+Component Keyword:
+Number "65" with two-color background:
+This appears to represent a numerical value, possibly a battery level or signal indicator, displayed with a background color.
+@@@Container@@@
+Container with **decoration** property for background color split and housed inside a **Text** widget for the numerical value.
+
+Component Keyword:
+Time "11:28":
+This is a text widget displaying the current time in hours and minutes format.
+@@@Text@@@
+
+Component Keyword:
+Cloud icon:
+This is an icon button, likely used for cloud-related functionalities like syncing or storage.
+@@@IconButton@@@
+
+Component Keyword:
+Circular arrow icon with star:
+This can be an icon button representing a refresh or reload action with additional star feature indicating updates or new content.
+@@@IconButton@@@
+
+Component Keyword:
+Group of four icons with label "AI工具" (translated: "AI Tools"):
+This is a column of a circular container with four different icons, each representing an AI tool, complemented by a text label.
+@@@Column@@@
+Column of **Container** with an **Image** or **AssetImage** for the icons
+**Text** for the label "AI工具"
+
+Component Keyword:
+Thumbs up icon with label "精选" (translated: "Selected"):
+This is an icon button with a thumbs-up symbol, indicating a selection or like feature, with a text label describing its action.
+@@@Column@@@
+Column of **IconButton** with a thumbs-up **Icon** or **Container** with **BoxDecoration** and an image, combined with a **Text** widget for the label "精选"
+
+Component Keyword:
+Signal bars icon:
+This likely represents signal strength, visually depicted using bars of increasing height.
+@@@Icon@@@
+
+Component Keyword:
+Folder icon with "DOC" label:
+This is an icon button representing access to documents, with a corresponding label.
+@@@Column@@@
+Column of **IconButton** with an **Image** or **AssetImage** for the folder icon, combined with a **Text** widget for the label "DOC"
+"夸克扫描王" label:
+This is a text widget that describes an app feature related to scanning documents. The translation is "Quark Scanner King."
+@@@Text@@@
+
+Icon with "夸克扫描王" label:
+This represents a feature within the app, likely for scanning purposes. It combines an icon with a label for navigation or functionality.
+@@@Column@@@
+
+"夸克日报" label:
+This is a text widget that describes a feature related to daily reports. The translation is "Quark Daily Report."
+@@@Text@@@
+
+Icon with "夸克日报" label:
+This represents a feature for viewing daily reports, using an icon and a label for navigation.
+@@@Column@@@
+
+Search field with icons:
+This is likely a combination of a `TextField` for input and `IconButton`s for microphone and camera functionalities. It may have decoration like borderRadius for the rounded edges.
+@@@Row with TextField and IconButton@@@
+
+Square icon with a number 1:
+This appears to be an icon with a badge showing a count. It likely notifies the user of an update or message.
+@@@Stack with Icon and Positioned for badge@@@
+
+"夸克网盘" label:
+This is a text widget describing a cloud storage feature. The translation is "Quark Cloud Disk."
+@@@Text@@@
+
+Icon with "夸克网盘" label:
+This represents cloud storage functionality, combining an icon with a label for navigation.
+@@@Column@@@
+
+"更多" label:
+This is a text widget indicating additional options. The translation is "More."
+@@@Text@@@
+
+Composite icon:
+This appears to be a collection of features or shortcuts grouped together for quick access.
+@@@Stack or Row@@@
+
+Open book icon:
+This represents an icon for a reading or book-related feature, like a library or e-reader.
+@@@Icon@@@
+
+"夸克学习" label:
+This is a text widget for an educational feature. The translation is "Quark Learning."
+@@@Text@@@
+
+Icon with "夸克学习" label:
+This represents an educational feature, using an icon and label for navigation.
+@@@Column@@@
+Wi-Fi icon:
+This appears to be an icon indicating Wi-Fi connectivity status.
+@@@Icon@@@
+
+Document with lines icon:
+This icon likely represents a feature such as "Notes" or "Content."
+@@@Icon@@@
+
+Grid of four app icons:
+This suggests a group of four functions or tools available within the app, likely organized in a grid layout.
+@@@GridView@@@

@@ -1,0 +1,128 @@
+Component Keyword:
+This appears to be an image component, likely showcasing a globe, which could be related to a course or topic on global studies.
+@@@arkTSImage@@@
+
+Component Keyword:
+This is a button component with an arrow icon, suggesting navigation to another screen or performing an action.
+@@@arkTSButton@@@
+
+Component Keyword:
+This is a text label providing additional information or a description, enhancing the context of a section.
+@@@arkTSText@@@
+
+Component Keyword:
+This is a badge or chip component indicating the difficulty level of a course, which can be selected or highlighted.
+@@@arkTSChip@@@
+
+Component Keyword:
+This is an icon component representing the search functionality within the app.
+@@@arkTSIcon@@@
+
+Component Keyword:
+This is a status bar icon, indicating a connected Wi-Fi network.
+@@@arkTSStatusIcon@@@
+
+Component Keyword:
+This is a text label, possibly the title of a course, providing a brief overview to the user.
+@@@arkTSText@@@
+
+Component Keyword:
+This is an image component, representing a cover image for a course or lesson.
+@@@arkTSImage@@@
+
+Component Keyword:
+This is an icon component representing the profile or user account section of the app.
+@@@arkTSIcon@@@
+All button:
+This is a filter button that likely allows users to view all available courses in the app.
+@@@arkTSButton@@@
+
+Vocabulary icon:
+This is likely an icon within a navigation bar that represents the vocabulary section of the app.
+@@@arkTSIcon@@@
+
+Home icon:
+This component is an icon typically used in the navigation bar to represent the Home section of the app.
+@@@arkTSIcon@@@
+
+Arrow button:
+This arrow button seems to be used for navigating to the next view or accessing more details about a course.
+@@@arkTSButton@@@
+
+Signal strength icon:
+This icon likely indicates the signal strength or connectivity status on the mobile device.
+@@@arkTSIcon@@@
+
+Profile icon:
+This icon is likely used in the navigation bar to represent the user’s profile section.
+@@@arkTSIcon@@@
+
+Advanced button:
+This is a filter button that filters courses based on the advanced difficulty level.
+@@@arkTSButton@@@
+
+Time display:
+This text component shows the current time on the device status bar.
+@@@arkTSText@@@
+
+Course image:
+This is an image component displaying a visual representation for a specific course offered in the app.
+@@@arkTSImage@@@
+Component Keyword:
+This image shows a section of a door or architectural feature, used likely as a background image for a course or module in the app.
+@@@arkTSImage@@@
+
+Component Keyword:
+This image contains an arrow icon, likely a button element for navigation to another screen or page within the app.
+@@@arkTSButton@@@
+
+Component Keyword:
+This image features a group of people, likely representing the content of a particular course or module in the app.
+@@@arkTSImage@@@
+
+Component Keyword:
+This text probably describes a course or its features within the app, providing additional information to the users.
+@@@arkTSText@@@
+
+Component Keyword:
+This label indicates the level or category of a course, here denoted as "Primary."
+@@@arkTSBadge@@@
+
+Component Keyword:
+This text denotes the number of lessons included in a particular course, providing additional details for the user.
+@@@arkTSText@@@
+
+Component Keyword:
+This image is a simplistic element, likely a divider or background for a button or label, to enhance UI structure.
+@@@arkTSBox@@@
+
+Component Keyword:
+This label signifies the level of a course, here indicated as "Intermediate."
+@@@arkTSBadge@@@
+
+Component Keyword:
+This text is likely the heading or title of the app's section, denoting the type of courses presented.
+@@@arkTSHeadline@@@
+Studying Course:
+This is a text label indicating a section or category in the app, probably dedicated to studying or courses.
+@@@arkTSText@@@
+
+English REAL TALK:
+This text label likely represents the name of a course or topic, providing users with an overview of the content.
+@@@arkTSText@@@
+
+Number "6":
+This numerical text likely indicates a quantity, such as the number of lessons in a course.
+@@@arkTSText@@@
+
+Primary badge:
+This badge is possibly used as a label to categorize or highlight content as primary or important.
+@@@arkTSBadge@@@
+
+Image with globe:
+This image likely serves as a visual representation or thumbnail for a course, adding a visual element to the content.
+@@@arkTSImage@@@
+
+Essential Structures:
+This is a text label probably used as a course title or section heading, signifying essential learning material.
+@@@arkTSText@@@

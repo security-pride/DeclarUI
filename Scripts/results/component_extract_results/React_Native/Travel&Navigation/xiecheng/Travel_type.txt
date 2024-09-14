@@ -1,0 +1,200 @@
+韩国 首尔 label:
+This is a Text component. It likely indicates the destination name and location description on the image.
+@@@Text Functional Component@@@
+
+烟台出发 label with location icon:
+This is a TextInput component. It allows users to enter their departure location for travel services.
+@@@TextInput@@@
+
+免签落地签 label:
+This is a Text component. It indicates the visa status of certain locations listed in the app.
+@@@Text Functional Component@@@
+
+烟台 莲莱阁 label:
+This is a Text component. It shows the name and location of a specific travel destination.
+@@@Text Functional Component@@@
+
+巴厘 label:
+This is a Text component. It likely indicates the name of a destination.
+@@@Text Functional Component@@@
+
+国内游 label:
+This is a Text component. It indicates a category of travel within the country.
+@@@Text Functional Component@@@
+
+周边 label:
+This is a Text component. It represents a subcategory of travel.
+@@@Text Functional Component@@@
+
+国内游 label with 更多 button:
+This is a combination of a Text and Button component. The Text component indicates a travel category, while the Button with the label "More" allows users to view additional options.
+@@@Text, TouchableOpacity Function Component@@@
+
+包车游 icon with label:
+This is a combination of an Image and Text components. The Image component represents an icon for car rentals, and the Text component describes this option.
+@@@Function Component, Text Functional Component@@@
+Component Keyword:
+This is a Text Functional Component. It's a label that allows users to see more travel options.
+@@@Text Functional Component@@@
+
+Component Keyword:
+This is a Function Component. It represents the destination feature or option allowing users to select or search for destinations.
+@@@Function Component@@@
+
+Component Keyword:
+This is a Function Component. It's likely a button that allows users to choose a custom travel plan.
+@@@Function Component@@@
+
+Component Keyword:
+This is a Function Component. It's likely a button that allows users to choose a private group tour.
+@@@Function Component@@@
+
+Component Keyword:
+This is a Function Component. This image represents a specific destination to travel to, possibly categorized under a section or clickable to navigate to more details.
+@@@Function Component@@@
+
+Component Keyword:
+This is a Text Functional Component. It’s a label that promotes company team-building trips.
+@@@Text Functional Component@@@
+
+Component Keyword:
+This is a Function Component. This image represents a specific destination like Thailand, allowing users to click on it for more details.
+@@@Function Component@@@
+
+Component Keyword:
+This is a Text Functional Component. It's a label that shows the browsing history section.
+@@@Text Functional Component@@@
+
+Component Keyword:
+This is a Function Component. This icon highlights the nearby travel shops.
+@@@Function Component@@@
+**Component Keyword:**
+"更多" (More) button:
+This is a Button component. It likely allows users to view more items in the current category.
+@@@Button@@@
+
+**Component Keyword:**
+"山东" (Shandong) image:
+This is a Function Component. It displays an image related to Shandong and probably directs users to more details about Shandong when interacted with.
+@@@Function Component@@@
+
+**Component Keyword:**
+"马尔代夫" (Maldives) label:
+This is a Text Functional Component. It serves as a label indicating Maldives as one of the selectable options.
+@@@Text Functional Component@@@
+
+**Component Keyword:**
+"目的地" (Destination) icon:
+This is a Function Component. It's an icon representing destinations and might take users to a screen where they can select or search for destinations.
+@@@Function Component@@@
+
+**Component Keyword:**
+"当地参团" (Local Group Tour) icon:
+This is a Function Component. It likely signifies local group tour options and directs users to relevant tours when interacted with.
+@@@Function Component@@@
+
+**Component Keyword:**
+"马来西亚" (Malaysia) label:
+This is a Text Functional Component. It serves as a label indicating Malaysia as one of the selectable options.
+@@@Text Functional Component@@@
+
+**Component Keyword:**
+"日本" (Japan) image with "东京" (Tokyo) label:
+This is a Function Component. It displays an image related to Japan with a label for Tokyo, probably directing users to more details about Japan and Tokyo.
+@@@Function Component@@@
+
+**Component Keyword:**
+Search bar:
+This is a combination of View and TextInput Functional Components. It allows users to type in a destination or keyword to search within the app.
+@@@View@@@ and @@@TextInput@@@
+
+**Component Keyword:**
+“最近距离您3.5km” (Nearest to You 3.5km) label:
+This is a Text Functional Component. It probably informs users about the nearest location relevant to the app's content.
+@@@Text Functional Component@@@
+老友精选 (Old Friends Selection) label:
+This is a Text component. It's a label that indicates a selection or category of items meant for old friends.
+@@@Text Functional Component@@@
+
+新疆 (Xinjiang) placard:
+This is an Image component. It represents a clickable or selectable item to view destinations or activities relating to Xinjiang.
+@@@Function Component@@@
+
+日本 (Japan) placard:
+This is an Image component. It represents a clickable or selectable item to view destinations or activities relating to Japan.
+@@@Function Component@@@
+
+高端游 (High-end Travel) label:
+This is a Text component. It's a label indicating a category or selection of high-end travel options.
+@@@Text Functional Component@@@
+
+跟团游 (Group Tour) and 自由行 (Free Travel) buttons:
+These are Button components. They are likely used to filter or navigate to sections for group tours and free travels respectively.
+@@@Button@@@
+
+威海 (Weihai) placard:
+This is an Image component. It represents a clickable or selectable item to view destinations or activities relating to Weihai.
+@@@Function Component@@@
+
+一日游 (One-day Tour) and 门票・玩乐 (Tickets・Entertainment) labels:
+These are Text components. They provide a description of the types of services offered.
+@@@Text Functional Component@@@
+
+Hi~ icon:
+This is an Image component. It's likely an icon indicating messages or notifications.
+@@@Function Component@@@
+
+山东 (Shandong) placard:
+This is an Image component. It represents a clickable or selectable item to view destinations or activities relating to Shandong.
+@@@Function Component@@@
+新加坡 label:
+This is a Text functional component. It's used to label a location or category, in this case, indicating "Singapore".
+@@@Text Functional Component@@@
+
+Banner with advertisement:
+This is an ImageBackground component. It serves as a promotional banner showcasing travel options and offers.
+@@@ImageBackground@@@
+
+邮轮 icon and label:
+This is a combination of an Image and Text functional component. It's used to represent a cruise tour category.
+@@@Function Component@@@
+@@@Text Functional Component@@@
+
+仙本那 scenic image:
+This is an Image functional component. It showcases a scenic area, in this case, Semporna.
+@@@Function Component@@@
+
+泰国 scenic image:
+This is an Image functional component. It showcases a scenic area, in this case, Thailand.
+@@@Function Component@@@
+
+亲子游 label:
+This is a Text functional component. It is label text indicating a category of family travel.
+@@@Text Functional Component@@@
+
+韩国 scenic image:
+This is an Image functional component. It showcases a scenic area, in this case, South Korea.
+@@@Function Component@@@
+
+附近有3家携程门店 text:
+This is a Text functional component. It indicates nearby store information.
+@@@Text Functional Component@@@
+出境游 label:
+This is a Text Functional Component. It denotes the "Outbound Travel" section of the app.
+@@@Text Functional Component@@@
+
+泰国 label:
+This is a Text Functional Component. It indicates the "Thailand" destination option in the visa-free destinations section.
+@@@Text Functional Component@@@
+
+精选 button:
+This is a Button exhibiting some travel category options, likely filtering or selecting a specific travel category.
+@@@Button@@@
+
+我的收藏 label:
+This is a Text Functional Component. It represents the "My Favorites" section where users can access their saved items.
+@@@Text Functional Component@@@
+
+国内游 label:
+This is a Text Functional Component. It defines the "Domestic Travel" section of the app.
+@@@Text Functional Component@@@

@@ -1,0 +1,140 @@
+
+Component Keyword:
+Back arrow icon
+
+Component Function Description:
+This is a back navigation button, typically used to navigate to the previous page or screen in the app.
+
+@@@IconButton@@@
+
+---
+
+Component Keyword:
+Search box with "Gracia"
+
+Component Function Description:
+This is a search input field where users can type a query. It likely includes a `TextField` with an `Icon` for the search function.
+
+@@@TextField@@@
+
+---
+
+Component Keyword:
+"Related Result" label
+
+Component Function Description:
+This text label serves as a section header, informing the user that the following content is related to their search or interest.
+
+@@@Text@@@
+
+---
+
+Component Keyword:
+Profile card with "Audrey Gracia, 17"
+
+Component Function Description:
+This card displays a profile image along with text, likely including a `Column` with an `Image` at the top and `Text` widgets for the name and location. It has rounded corners and may use a `Container` with decoration.
+
+@@@Card@@@
+
+---
+
+Component Keyword:
+"Var" text snippet
+
+Component Function Description:
+This partial text snippet likely represents part of a label or a tag indicating information related to the content. It should be a `Text` widget.
+
+@@@Text@@@
+
+---
+
+Component Keyword:
+Profile card with "Mika Gracia, 18"
+
+Component Function Description:
+Similar to the "Audrey Gracia, 17" card, this card displays a profile image with text. It uses a `Column` to organize the `Image` and `Text` widgets, and likely uses a `Container` or `Card` with rounded corners.
+
+@@@Card@@@
+
+---
+
+Component Keyword:
+Profile card with "Gracy Logan, 28"
+
+Component Function Description:
+This card shows a profile image with text details. It uses a combination of `Image`, `Text`, and `Column` widgets within a `Container` or `Card`, with rounded corners applied for styling.
+
+@@@Card@@@
+
+---
+
+Component Keyword:
+"Running" text snippet
+
+Component Function Description:
+This text likely represents a part of a list or a tag labeled under the personal interests section. It is a simple `Text` widget.
+
+@@@Text@@@
+
+---
+
+Component Keyword:
+Profile card with "Klee Gracia, 24"
+
+Component Function Description:
+This is an elaborate profile card displaying an image and multiple pieces of text, potentially using `Column` for layouting and `Row` for displaying the tags. It uses a `Container` or `Card` with rounded corners for design.
+
+@@@Card@@@
+Mika Gracia, 18:
+
+This is a card displaying user information with an image, name, location, and match percentage. The rounded corners suggest it could be a decorated Container.
+
+@@@Container@@@
+
+Running label:
+
+This is a label indicating a user interest or activity. It's likely a Text widget, potentially inside a Container for styling.
+
+@@@Text@@@
+
+R.O Gracia, 17:
+
+Similar to the previous card, this displays a user's image and information. It's likely created with a Container, with decoration for rounded corners.
+
+@@@Container@@@
+
+Battery and Signal Icons:
+
+These icons show the device’s status, such as battery life and signal. It's likely achieved using multiple Icon widgets, possibly in a Row.
+
+@@@Row@@@
+
+Klee Gracia, 24:
+
+This card includes an image, text, and a badge. It likely uses a Container with a Stack to overlay the badge.
+
+@@@Container@@@
+
+9:41:
+
+This is a digital clock display in the top bar of the phone. It’s typically implemented using a Text widget.
+
+@@@Text@@@
+
+More About Gracia label:
+
+This is a section label that provides context to the viewer. It's most likely a Text widget.
+
+@@@Text@@@
+Search bar:
+This is a search text field allowing users to input queries. The icon indicates a search action.
+@@@TextField@@@
+
+"Hi the" text:
+This is part of a text description or a post, possibly used inside a card or container to display user messages or descriptions.
+@@@Text@@@
+
+Card with rounded corners:
+This component is a card that contains a profile picture, name, age, location, and a match percentage. The rounded corners suggest customization for style.
+@@@Card@@@

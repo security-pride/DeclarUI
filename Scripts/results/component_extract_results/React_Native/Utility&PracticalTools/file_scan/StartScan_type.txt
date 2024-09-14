@@ -1,0 +1,55 @@
+Position photo within frame:
+This is a Text component. It guides the user to position their photo within the designated frame.
+@@@Text Functional Component@@@
+
+'3' symbol on blue circle:
+This is an Image component. It indicates the number of photos taken or steps to follow.
+@@@Function Component@@@
+
+Auto icon:
+This is a Button component. It likely toggles the automatic capture mode in the app.
+@@@Button@@@
+
+Flash icon:
+This is a Button component. It probably toggles the flash on or off during photo capture.
+@@@Button@@@
+
+Camera interface text and icons:
+This is a View component. It encapsulates multiple text and image elements displaying the captured document information and structural layout.
+@@@View Function Component@@@
+
+Lorem Ipsum text:
+This is a Text component. It serves as a placeholder for content, simulating where textual information will be displayed.
+@@@Text Functional Component@@@
+
+Import icon and label:
+This is a ButtonWithChildComponent. It allows the user to import images from the device.
+@@@ButtonWithChildComponent@@@
+
+Camera button:
+This is a Button component. It initiates the photo capture function in the app.
+@@@Button@@@
+
+Contact details text:
+This is a Text component. It provides placeholder contact information under a document header.
+@@@Text Functional Component@@@
+Lorem Ipsum Text:
+This is a Text Functional Component. It serves as a placeholder text commonly used in templates to show where content should be placed.
+@@@Text Functional Component@@@
+
+Headline and Paragraphs:
+This is a Text Functional Component. This component provides a section header and descriptive text, likely containing content and detailed information.
+@@@Text Functional Component@@@
+
+WiFi Icon:
+This is a Function Component. It serves as an icon to indicate the WiFi signal status or connectivity in the app.
+@@@Function Component@@@
+
+Cellular Signal Icon:
+This is a Function Component. It indicates the cellular signal strength status in the app.
+@@@Function Component@@@
+
+Creative Art Director Text:
+This is a Text Functional Component. It displays the title and contact information, serving as a business contact card.
+@@@Text Functional Component@@@
+

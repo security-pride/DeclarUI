@@ -1,0 +1,161 @@
+Component Keyword:
+This is a beautifully designed label with a blue gradient background and rounded corners, likely indicating a special offer or promotional event. The text appears to be in Chinese characters.
+@@@Container@@@
+
+Component Function Description:
+This is a text element displaying the name of the city "Weihai" in Chinese characters. 
+@@@Text@@@
+
+Component Function Description:
+This text element appears to be a part of a tag or label, providing additional information or description for the users.
+@@@Text@@@
+
+Component Function Description:
+This is a text element displaying the name of a railway station "Wuhan Station" in Chinese characters. 
+@@@Text@@@
+
+Component Function Description:
+This is a text element displaying the name of a railway station "Weihai Station" in Chinese characters.
+@@@Text@@@
+
+Component Function Description:
+This is a tab label with Chinese characters, indicating different categories or options for the user to choose from. Tabs typically switch views when selected.
+@@@Tab@@@
+
+Component Function Description:
+This is a button with a blue background and rounded corners. The text appears to indicate a date, suggesting functionality to order or book tickets for the specified date.
+@@@ElevatedButton@@@
+
+Component Function Description:
+An image of a high-speed train, likely used as an icon or thumbnail representing train tickets or services related to train travel.
+@@@Image@@@
+
+Component Function Description:
+This is a circular button with text in Chinese characters, likely indicating the action of buying tickets immediately. The blue gradient background suggests emphasis on immediate action.
+@@@ElevatedButton@@@
+
+订票保障:
+This section contains main and subtext to convey features or services related to ticket assurance.
+@@@Column@@@
+
+周五:
+This is a label with text representing "Friday".
+@@@Text@@@
+
+订当日:
+This is a button with text illustrating an action to book a ticket for the current day.
+@@@TextButton@@@
+
+明天:
+This is a label with text representing "Tomorrow".
+@@@Text@@@
+
+购票:
+This is a button labeled "Buy Tickets", likely used to initiate the ticket purchase process.
+@@@ElevatedButton@@@
+
+武汉市:
+This is a text label indicating the name of the city "Wuhan".
+@@@Text@@@
+
+吃喝玩乐:
+This is a text label promoting dining, drinking, and playing activities.
+@@@Text@@@
+
+酒店预订:
+This container features primary and secondary text to indicate hotel booking options with an icon.
+@@@Column@@@
+
+Train Image:
+This is an image of a train, possibly used as an icon or illustration in the app.
+@@@Image@@@
+7.21:
+This is a date text widget that likely indicates the date in a calendar or itinerary format.
+@@@Text@@@
+
+7月19日:
+This text appears to display a date in a Chinese format, used for selecting or displaying travel dates.
+@@@Text@@@
+
+业你哈芸:
+This is a text label, possibly a part of a promotional or informational message.
+@@@Text@@@
+
+高铁动车:
+This text indicates a specific option or category, in this context possibly referring to high-speed trains.
+@@@Text@@@
+
+威海市 -> 武汉市:
+This text shows a travel route or itinerary, indicating from where to where the journey is planned.
+@@@Text@@@
+
+19.1:
+This appears to be a textual representation, possibly related to time or price.
+@@@Text@@@
+
+查询:
+This is a text label on a button, the functionality being to search or query something when tapped.
+@@@TextButton@@@
+
+订当天:
+This text suggests a label for booking or reserving something for the day, likely present on a button or option selector.
+@@@TextButton@@@
+
+高德:
+This is a brand or header text component likely used in a section or tab title.
+@@@Text@@@
+Component 1:
+领取中心:
+This card component is likely a button for navigating to a section where users can redeem discounts or offers.
+@@@Card with ListTile@@@
+
+Component 2:
+20.11:
+This text displays a time or figure, likely representing a departure or arrival time.
+@@@Text@@@
+
+Component 3:
+¥1 领:
+This component represents a button for redeeming a coupon. It likely indicates the cost or discount and provides a call to action.
+@@@ElevatedButton@@@
+
+Component 4:
+登录12306官方出票无忧保障:
+This notification bar includes text and a call-to-action button, possibly for logging into a service.
+@@@Container with Row@@@
+
+Component 5:
+7.20 周六:
+This date selector component presents a specific date. It's likely a clickable item for selecting a date.
+@@@Container with Text@@@
+
+Component 6:
+暑期火车票优惠订:
+This label serves as a header for a section with promotional offers, focusing on train tickets.
+@@@Text@@@
+
+Component 7:
+火车票:
+This tab component indicates a selected section, probably related to train tickets.
+@@@TabBar@@@
+
+Component 8:
+订当日:
+This button is for selecting a specific date for booking, likely a part of a date selection interface.
+@@@TextButton@@@
+
+Component 9:
+学生票:
+This label indicates an option or filter for selecting student tickets.
+@@@Text@@@
+Train icon with circular arrows:
+This icon likely indicates some form of refresh or retry action for train information.
+@@@Icon@@@
+
+"武汉市-国家网络安全..." label:
+This is a text widget displaying a location with an ellipsis indicating that the text is too long to fit within the container, so it is truncated.
+@@@Text@@@
+
+"汽车票" (Bus Ticket) label:
+This text label represents a category of transportation available in the app, indicating the option to view and purchase bus tickets.
+@@@Text@@@

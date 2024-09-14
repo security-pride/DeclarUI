@@ -1,0 +1,108 @@
+Cloud icon:
+This displays a cloud graphic along with the label "Cloud," indicating a section or functionality related to cloud storage or services.
+@@@Column@@@
+
+Orange progress bar:
+This is a visual indicator of progress for used storage space, displayed as a colored bar.
+@@@LinearProgressIndicator@@@
+
+"Storage" label:
+This is a text widget that indicates the remaining or used storage on the device.
+@@@Text@@@
+
+"2 MB" label:
+This is a text widget that indicates the size of a file.
+@@@Text@@@
+
+"Clean Junk files" label:
+This is a text widget that suggests the functionality to clean junk files from the device.
+@@@Text@@@
+
+"Review files (1.2 GB)" label:
+This is a text widget that suggests reviewing files, including the total size of files available for review.
+@@@Text@@@
+
+Facebook with Icon:
+This is a container containing an icon and text indicating the Facebook app and its storage usage.
+@@@Column@@@
+
+Files icon:
+This displays an icon graphic along with the label "Files," indicating a section or functionality related to file management.
+@@@Column@@@
+
+"Unused Apps" label:
+This is a text widget indicating a section or functionality related to managing or viewing unused apps.
+@@@Text@@@
+See All button:
+This button allows users to navigate to a different screen or section to see all items in the specified category.
+@@@TextButton@@@
+
+1.2 GB label:
+This is a text widget displaying the storage usage of an application or file, formatted as "(1.2 GB)".
+@@@Text@@@
+
+Waze App Card:
+A container displaying app details including icon, name, and size. It likely allows user interaction for further actions like cleaning or uninstalling.
+@@@Container@@@
+
+Home icon and label:
+This appears to be a navigation bar item icon with a label "Home" describing the function of the navigation item.
+@@@BottomNavigationBarItem@@@
+
+Document Icon (Yellow):
+An icon representing a document, possibly used to identify file types or categories.
+@@@Icon@@@
+
+RKAKL2022.xlsx label:
+A text widget displaying the name of a file, specifically an Excel document.
+@@@Text@@@
+
+Clean icon and label:
+This is a navigation bar item icon with a label "Clean" indicating the function of the navigation item.
+@@@BottomNavigationBarItem@@@
+
+LinkedIn and Adobe Icons:
+Cards displaying app details including an icon, name, and size. These containers allow user interaction for actions like cleaning or uninstalling.
+@@@Container@@@
+
+66% label:
+A text widget displaying a percentage value, possibly indicating storage used or other relevant data.
+@@@Text@@@
+9:41:
+This is a text widget displaying the current time, positioned at the top of the screen.
+@@@Text@@@
+
+Adobe PDF app icon:
+This image represents an app icon for the Adobe PDF application.
+@@@Image@@@
+
+Usage progress bar:
+This widget shows the storage usage with a segmented progress bar.
+@@@LinearProgressIndicator@@@
+
+File icon:
+This is an icon representing a certain file type, likely related to the file listed next to it.
+@@@Icon@@@
+
+LinkedIn app icon:
+This image represents an app icon for the LinkedIn application.
+@@@Image@@@
+
+"Used" label:
+This text widget displays the word "Used" to indicate the usage of storage.
+@@@Text@@@
+
+"See All" link:
+This is a text button that likely allows the user to see all items in a certain category, such as all unused apps or duplicate files.
+@@@TextButton@@@
+
+"Cleaner" title:
+This text widget displays the title of the application or section, "Cleaner."
+@@@Text@@@
+
+File name (DSC2021084133.jpg):
+This text widget displays the name of a file, "DSC2021084133.jpg," likely indicating it is a duplicate file.
+@@@Text@@@
+Waze Icon with Text:
+This appears to be a section representing an unused app, providing information about the app name and storage used. It includes an icon of the app and corresponding text.
+@@@Column (containing an Image and Text widgets)@@@

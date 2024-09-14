@@ -1,0 +1,161 @@
+Component Keyword: 闲鱼帮卖 icon
+This appears to be an icon representing a feature where users can receive selling assistance.
+@@@Icon@@@
+
+Component Keyword: 文玩玉翠 label
+This is a text widget indicating a category for jade and jadeite products.
+@@@Text@@@
+
+Component Keyword: 推荐 label
+This is a text widget indicating recommendations or suggested items.
+@@@Text@@@
+
+Component Keyword: 大件回收 icon
+This appears to be an icon representing a feature for large item recycling.
+@@@Icon@@@
+
+Component Keyword: 热门推荐 label
+This is a text widget indicating popular recommendations or trending items.
+@@@Text@@@
+
+Component Keyword: 手机严选 icon
+This appears to be an icon representing a feature for rigorously selected mobile phones.
+@@@Icon@@@
+
+Component Keyword: 卖闲置 icon
+This appears to be an icon representing a feature for selling unused or secondhand items.
+@@@Icon@@@
+
+Component Keyword: 免费送 icon
+This appears to be an icon representing a feature for free giveaway items.
+@@@Icon@@@
+
+Component Keyword: 潮玩盲盒 icon
+This appears to be an icon representing a feature for trendy blind boxes or mystery boxes.
+@@@Icon@@@
+卖闲置 (Sell Unused Items) icon:
+This appears to be a button with an icon inside a circular container, likely used for navigating to a section of the app where users can sell their unused items.
+@@@IconButton@@@
+
+旧衣回收 (Recycle Old Clothes) icon:
+This is a button with an icon, indicating functionality for recycling old clothes, likely directing users to relevant features or information.
+@@@IconButton@@@
+
+奢侈品 (Luxury Goods) icon:
+This button contains an icon suggesting a section related to luxury goods, likely navigating or providing information in the app.
+@@@IconButton@@@
+
+卡券回收 (Recycle Coupons) icon:
+This button has an icon suggesting a recyclability theme, perhaps allowing users to recycle coupons through the app.
+@@@IconButton@@@
+
+优惠券码 (Coupon Code) label:
+This is a text widget representing a subtitle or section for entering or retrieving coupon codes, aiding the app’s promotion or discount system.
+@@@Text@@@
+
+免费鉴定 (Free Authentication) icon:
+This button includes an icon indicating a service for authenticating items for free, probably a feature-related navigation within the app.
+@@@IconButton@@@
+
+运动户外 (Sports and Outdoors) label:
+This text widget likely labels a section dedicated to sports and outdoor products or services, adding context to the app's content organization.
+@@@Text@@@
+
+服饰鞋帽 (Clothing and Accessories) label:
+This is a text widget labeling a segment for clothing and fashion accessories, facilitating user navigation in the app.
+@@@Text@@@
+
+icon (Green circle with diamond):
+This is likely part of a button or clickable area, used to direct users to a specific functionality or feature in the app.
+@@@IconButton@@@
+
+二手车 (Used Cars) icon:
+This button encompasses an icon indicating a section for used cars, likely aiding navigation or access to related content and features.
+@@@IconButton@@@
+Component Keyword:
+"家居生活" (Home Life) label
+This is a text widget that displays a category name in the menu.
+@@@Text@@@
+
+Component Keyword:
+"母婴" (Mother and Baby) label
+This is a text widget that displays a category name in the menu.
+@@@Text@@@
+
+Component Keyword:
+"闲鱼游戏" (Idle Fish Games) icon with label
+This component consists of an image (icon) and a label describing the activity, wrapped in a column.
+@@@Column@@@
+
+Component Keyword:
+"奢侈品帮卖" (Luxury Goods Consignment) icon with label
+This component consists of an image (icon) and a label describing the activity, wrapped in a column.
+@@@Column@@@
+
+Component Keyword:
+"家用电器" (Home Appliances) label
+This is a text widget that displays a category name in the menu.
+@@@Text@@@
+
+Component Keyword:
+"图书回收" (Book Recycling) icon with label
+This component consists of an image (icon) and a label describing the activity, wrapped in a column.
+@@@Column@@@
+
+Component Keyword:
+"美容彩妆" (Beauty and Cosmetics) label
+This is a text widget that displays a category name in the menu.
+@@@Text@@@
+
+Component Keyword:
+"明星玩家" (Celebrity Player) icon with label
+This component consists of an image (icon) and a label describing the activity, wrapped in a column.
+@@@Column@@@
+
+Component Keyword:
+卡券 icon
+This is an image widget displaying an icon.
+@@@Image@@@
+模玩动漫:
+This is a text widget displaying the category name "模玩动漫" (Model Toys & Anime).
+@@@Text@@@
+
+企业:
+This is a text widget displaying the category name "企业" (Business).
+@@@Text@@@
+
+Search bar:
+This widget is likely a TextField with a search icon situated at the start, used for entering search queries.
+@@@TextField@@@
+
+闲鱼租房 icon:
+This is an icon within a circular container, representing housing rentals.
+@@@Container@@@
+
+游戏装备:
+This is a text widget displaying the category name "游戏装备" (Gaming Equipment).
+@@@Text@@@
+
+数码:
+This is a text widget displaying the category name "数码" (Digital).
+@@@Text@@@
+
+Blue icon with white "拍" (Shoot) in the middle:
+This is an icon likely placed within a circular Container or an IconButton, indicating a shooting or camera feature.
+@@@IconButton@@@
+
+Blue circular icon with two arrows pointing at each other:
+This is an icon likely placed within a circular Container or an IconButton, indicating a refresh or sync feature.
+@@@IconButton@@@
+
+宠物花卉:
+This is a text widget displaying the category name "宠物花卉" (Pets & Flowers).
+@@@Text@@@
+Component Keyword:
+Heart with currency icon and text "省心卖" (Effortless Selling)
+This component appears to be an icon button with a heart and currency symbol, possibly used to trigger a feature related to selling items with ease.
+@@@Column@@@
+
+Component Function Description:
+The top part of this component is an icon representing selling, combined with a text label below it. The icon is likely rendered using an `Icon` widget, and the description text uses a `Text` widget. Together, they are placed in a vertical alignment.
+@@@Column@@@

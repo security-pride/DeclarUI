@@ -1,0 +1,54 @@
+Edit Profile:
+This is likely a navigation button or list item allowing users to access profile editing features.
+@@@arkTSButton@@@
+
+Payment Method:
+This component appears to be a list item that navigates to payment settings or information.
+@@@arkTSButton@@@
+
+Settings:
+This component likely serves as a navigation item to access application settings.
+@@@arkTSButton@@@
+
+Profile Picture with Edit Icon:
+This is likely an interactive profile picture component with an option to change the user's photo.
+@@@arkTSImageWithIcon@@@
+
+Bookmarks:
+This seems to be a list item for accessing saved or favorite items within the app.
+@@@arkTSButton@@@
+
+Back Arrow:
+This component acts as a back button, allowing users to navigate to the previous screen.
+@@@arkTSIconButton@@@
+
+Security:
+This component is a navigation item that leads to security settings or features.
+@@@arkTSButton@@@
+
+Edit Icon on Profile Picture:
+This is an icon embedded on the profile picture allowing users to edit or update their profile image.
+@@@arkTSImageWithIcon@@@
+
+Edit Profile (duplicate):
+This is likely a navigation button or list item allowing users to access profile editing features.
+@@@arkTSButton@@@
+Notification item:
+This component is a list item indicating the notification settings. It has an icon on the left and an arrow on the right, signifying navigation to another page or section.
+@@@arkTSListItem@@@
+
+Bottom navigation bar:
+This component is the bottom navigation bar with icons and labels for navigating through the main sections of the app, such as Home, Notification, Ticket, History, and Setting.
+@@@arkTSBottomNavigationBar@@@
+
+Profile label:
+This component is a text label that indicates the section or page title, likely used to display "Profile".
+@@@arkTSText@@@
+
+Settings icon:
+This component is an icon button used to access settings. It is typically located at the top of the screen and provides navigation to the settings page.
+@@@arkTSIconButton@@@
+
+Back arrow icon:
+This component is an icon button used for navigation, typically to go back to the previous screen.
+@@@arkTSIconButton@@@

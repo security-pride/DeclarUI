@@ -1,0 +1,27 @@
+Classroom label:
+This is a text widget displaying the title or name of the current screen or section within the app.
+@@@Text@@@
+
+Bottom navigation bar icons with labels:
+These are icons accompanied by text labels used in a bottom navigation bar for navigating between different sections of the app.
+@@@BottomNavigationBar@@@
+
++ Add Class button:
+This is a button that likely allows users to add or create a new class or event within the app.
+@@@ElevatedButton@@@
+
+Section with Physics and Chapter 3 labels, participant name, and enrolled count:
+This component includes text elements for displaying the subject, chapter, teacher's name, and the number of people enrolled. These could be structured within a row or column to organize the layout.
+@@@Column@@@
+
+Today, 17 Sept date label:
+This text widget displays the current date, possibly indicating when the content was last updated or is scheduled for.
+@@@Text@@@
+
+Tabs with Description, Discussion, Resources:
+These are tab widgets used for navigating between different content sections or topics within the screen.
+@@@TabBar@@@
+
+Video with overlay and Live indicator:
+This widget likely showcases a video or livestream, with an overlay indicating its live status. Could be a combination of multiple widgets like Stack, to overlay text or icons.
+@@@Stack@@@

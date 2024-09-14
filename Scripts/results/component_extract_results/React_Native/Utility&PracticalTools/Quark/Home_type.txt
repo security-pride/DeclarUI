@@ -1,0 +1,81 @@
+省钱集市 icon:
+This is a Button component. It's an interactive element that redirects users to a different screen or page related to the "省钱集市" (Money-saving Market) feature.
+@@@Button@@@
+
+Battery icon:
+This is a StatusBar Android and iOS Component. It indicates the battery level on the status bar of the device.
+@@@StatusBar Android and iOS Component@@@
+
+Digital clock:
+This is a Text Functional Component. It displays the current time on the device.
+@@@Text Functional Component@@@
+
+Cloud icon:
+This is a Button component. It likely redirects the user to a cloud-related feature or service.
+@@@Button@@@
+
+Refresh icon:
+This is a Button component. It likely refreshes the current screen or page.
+@@@Button@@@
+
+AI 工具 icon:
+This is a Button component. It redirects users to a screen with AI tools.
+@@@Button@@@
+
+精选 icon:
+This is a Button component. It redirects users to a curated selection of content or features.
+@@@Button@@@
+
+Signal icon:
+This is a StatusBar Android and iOS Component. It indicates the signal strength on the status bar of the device.
+@@@StatusBar Android and iOS Component@@@
+
+夸克文档 icon:
+This is a Button component. It redirects users to a document-related feature or service.
+@@@Button@@@
+Icon with document and label "夸克扫描王":
+This is an Image component. It's likely used to represent a feature that allows users to scan documents.
+@@@Function Component@@@
+
+Icon with newspaper and label "夸克日报":
+This is an Image component. It's likely used to represent a feature that shows daily news.
+@@@Function Component@@@
+
+Search bar with microphone and camera icon:
+This is a View Function Component. It's a container that holds the search bar, microphone icon, and camera icon, likely for initiating searches by voice or image.
+@@@View Function Component@@@
+
+Icon with a square and "1":
+This is an Image component. It could be an indicator for the number of new items or notifications.
+@@@Function Component@@@
+
+Icon with cloud and label "夸克网盘":
+This is an Image component. It's likely used to represent a feature for online cloud storage.
+@@@Function Component@@@
+
+Label "更多":
+This is a Text Functional Component. It likely functions as a label or link to provide more options or features.
+@@@Text Functional Component@@@
+
+Double icon with two app symbols:
+This is an Image component. It likely represents an aggregation of applications or features.
+@@@Function Component@@@
+
+Icon with a book:
+This is an Image component. It likely represents a feature related to reading or a bookshelf.
+@@@Function Component@@@
+
+Icon with a document and camera and label "夸克学习":
+This is an Image component. It's likely used to represent a feature for study aids and homework scanning.
+@@@Function Component@@@
+Wi-Fi icon:
+This is an Image component. It represents the Wi-Fi status icon, indicating whether the device is connected to a Wi-Fi network.
+@@@Function Component@@@
+
+Profile icon with four sub-icons:
+This is an Image component. It represents a composite icon, possibly opening a menu or feature that contains various tools or utilities.
+@@@Function Component@@@
+
+Chat icon:
+This is an Image component. It represents a chat or messaging feature, possibly used to initiate or access conversations or messages.
+@@@Function Component@@@

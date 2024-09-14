@@ -1,0 +1,132 @@
+Shield icon:
+This icon represents the "Privacy" setting, indicating security-related options.
+@@@arkTSIcon@@@
+
+SD card icon:
+This icon is likely used to represent storage settings or storage management functionality.
+@@@arkTSIcon@@@
+
+Palette icon:
+This icon symbolizes the "Theme" settings, allowing users to change the app’s visual theme.
+@@@arkTSIcon@@@
+
+User briefcase icon:
+This icon is related to the "Work or school account" settings, typically representing professional account settings.
+@@@arkTSIcon@@@
+
+Chat bubble icon:
+This is a "Chat" button that navigates to a chat or messaging feature within the app.
+@@@arkTSIcon@@@
+
+Home icon:
+This icon represents the "Homepage" setting, typically used for settings related to the home screen or main interface.
+@@@arkTSIcon@@@
+
+Privacy text:
+This text label indicates the section for privacy settings and options.
+@@@arkTSText@@@
+
+Settings header:
+This text component is the header displaying "Settings", representing the title of the current screen.
+@@@arkTSText@@@
+
+Permissions text:
+This text label marks the section of the app for managing various permissions.
+@@@arkTSText@@@
+User icon:
+This appears to be an icon used to represent a user or account-related feature in the app.
+@@@arkTSIcon@@@
+
+Notifications label:
+This is a text label likely indicating a section or menu for viewing app notifications.
+@@@arkTSText@@@
+
+Bottom navigation bar:
+This is a navigation component that allows users to switch between different sections of the app, such as Home, Weather, Chat, Tabs, and Apps.
+@@@arkTSBottomNavigation@@@
+
+Time display:
+This is a display component showing the current time, typically part of the device's status bar.
+@@@arkTSText@@@
+
+Preferences label:
+This is a text label that likely indicates a section for user preferences or settings within the app.
+@@@arkTSText@@@
+
+Sign in button:
+This is a button component that allows users to sign in to an account within the app.
+@@@arkTSButton@@@
+
+Search label:
+This is a text label likely indicating a section or feature for searching content within the app.
+@@@arkTSText@@@
+
+Rewards label:
+This is a text label likely indicating a section or feature related to rewards or points within the app.
+@@@arkTSText@@@
+
+Region and language label:
+This is a text label that likely specifies settings related to region and language preferences within the app.
+@@@arkTSText@@@
+Microsoft account:
+This is a text label indicating a Microsoft account option, which users can interact with to sign in or manage their account.
+@@@arkTSText@@@
+
+Back arrow:
+This is a back navigation button which allows users to return to the previous screen or menu.
+@@@arkTSButton@@@
+
+Accounts label:
+This is a section header label for the "Accounts" section, grouping related options under this category.
+@@@arkTSText@@@
+
+Work or school account:
+This component is a text label for the work or school account option, allowing users to sign in or manage their account.
+@@@arkTSText@@@
+
+Homepage:
+This is a text label indicating the "Homepage" option within the app, used to navigate to the main screen.
+@@@arkTSText@@@
+
+Rewards icon:
+This is an icon representing the rewards section, which likely indicates a section where users can view and manage rewards.
+@@@arkTSImage@@@
+
+3G:
+This text label indicates the network connection type, displaying current mobile network status as 3G.
+@@@arkTSText@@@
+
+Theme:
+This is a text label indicating the "Theme" option within the app settings, where users can customize the app's appearance.
+@@@arkTSText@@@
+
+Globe icon:
+This is an icon representing the "Region and language" settings, used to adjust location and language preferences.
+@@@arkTSImage@@@
+"Settings" title:
+This is a title text indicating the current screen is the Settings page of the app.
+@@@arkTSTitle@@@
+
+"Microsoft account" label:
+This is a text label indicating an option to sign in with a Microsoft account.
+@@@arkTSText@@@
+
+"Sign in" link:
+This is a text link that probably allows the user to sign in to the selected account.
+@@@arkTSButton@@@
+
+"Privacy" icon and label:
+This combination of an icon and text label denotes a privacy-related settings option.
+@@@arkTSListItem@@@
+
+"Region and language" icon and label:
+This is an icon and text label indicating options to configure regional and language settings.
+@@@arkTSListItem@@@
+
+"Homepage" icon and label:
+This combination of an icon and text label represents the homepage settings option.
+@@@arkTSListItem@@@
+
+Bottom navigation bar:
+This is a navigation bar at the bottom of the screen with multiple icons allowing users to switch between different sections of the app like Home, Weather, Chat, Tabs, and Apps.
+@@@arkTSBottomNav@@@

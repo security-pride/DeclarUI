@@ -1,0 +1,56 @@
+RomeoSmile text with Follow button:
+This is a View Function Component. It likely groups multiple elements together, like an avatar, username, optional follow button, and the short bio text.
+@@@View Function Component@@@
+
+4231 number:
+This is a Text Functional Component. It displays a count, most likely representing the number of likes.
+@@@Text Functional Component@@@
+
+Profile icon:
+This is an Image Function Component. It represents a profile picture or avatar.
+@@@Function Component@@@
+
+Follow button:
+This is a Button component. This button allows a user to follow another user by clicking on it.
+@@@Button@@@
+
+Home icon with "Home" label:
+This is a ButtonWithChildComponent. It likely navigates the user to the home screen of the app.
+@@@ButtonWithChildComponent@@@
+
+Add button:
+This is a Button component. It probably functions to add or create new content.
+@@@Button@@@
+
+644 number:
+This is a Text Functional Component. It displays a count, most likely representing the number of comments.
+@@@Text Functional Component@@@
+
+"COMMUNITY PLATE" text:
+This is a Text Functional Component. It's likely a label, probably the name of the community or section.
+@@@Text Functional Component@@@
+
+Music note with "eyes blue like the atlantic" text:
+This is a Text Functional Component. It displays the current music track or background audio being played.
+@@@Text Functional Component@@@
+Component Keyword:
+Discover icon:
+This is an Image component. It represents the Discover tab in the navigation bar, guiding users to discover new content.
+@@@Function Component@@@
+
+Component Keyword:
+Time display:
+This is a Text component. It shows the current time in the status bar.
+@@@Text Functional Component@@@
+
+Component Keyword:
+Activity icon:
+This is an Image component. It represents the Activity tab in the navigation bar, allowing users to check their activity feed.
+@@@Function Component@@@
+
+Component Keyword:
+Top navigation tabs:
+This is a View component containing Text components. It likely serves as the main navigation bar for switching between sections like "For You," "Following," and "Live."
+@@@View Function Component@@@
+
+

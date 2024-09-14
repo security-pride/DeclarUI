@@ -1,0 +1,63 @@
+Abilify label:
+This is a text label that displays the name of the medication.
+@@@arkTSText@@@
+
+Add Another Time:
+This text label suggests an option for users to add an additional time for a reminder.
+@@@arkTSText@@@
+
+00:27 Timer:
+This component shows a time value, possibly indicating the amount of time left for a reminder.
+@@@arkTSClock@@@
+
+Time label:
+This is a text label indicating the section or option related to time settings.
+@@@arkTSText@@@
+
+Clock icon:
+This is an icon representing time or a clock, likely used for time-related settings or reminders.
+@@@arkTSIcon@@@
+
+Done button:
+This button allows the user to confirm and save the reminder settings.
+@@@arkTSButton@@@
+
+Cancel button:
+This button allows the user to cancel the action or go back to the previous screen.
+@@@arkTSButton@@@
+
+Medication icon:
+This is an icon possibly representing the medication, used for visual identification in the reminder.
+@@@arkTSIcon@@@
+
+Second clock icon:
+This is an icon representing time or a clock, similar to the first clock icon, and is likely used for time-related settings or reminders.
+@@@arkTSIcon@@@
+
+Edit Reminder:
+This is a text label that likely serves as a header indicating the current screen allows users to edit a reminder.
+@@@arkTSText@@@
+
+Time:
+This is a label that indicates a section where the user can set or view the time associated with the reminder.
+@@@arkTSText@@@
+
+Dosage Icon:
+This icon represents dosage information. It is likely used to visually signify a section related to dosage settings.
+@@@arkTSIcon@@@
+
+Enter:
+This text likely indicates a prompt or a button to enter or set a time for a reminder.
+@@@arkTSButton@@@
+
+Pill Icon:
+This icon is a visual representation of medication and is likely used to symbolize a reminder for taking medication.
+@@@arkTSIcon@@@
+
+Select Dosage:
+This text suggests an interaction, likely a button or link that allows the user to select the dosage of the medication.
+@@@arkTSButton@@@
+
+Bottom Bar:
+This appears to be a navigation or status bar at the bottom of the screen, possibly indicating progress or providing a place for additional controls.
+@@@arkTSBottomBar@@@

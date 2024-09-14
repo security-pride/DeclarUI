@@ -1,0 +1,54 @@
+Lesson thumbnail with duration 08:12:
+This is an image component within a lesson item that likely indicates the visual representation of the lesson along with its duration.
+@@@Function Component@@@
+
+Download icon:
+This is likely a button component that allows users to download the lesson for offline viewing.
+@@@TouchableOpacity Function Component@@@
+
+Lesson 1 description:
+This text component provides details about Lesson 1 - What is Advertising.
+@@@Text Functional Component@@@
+
+Lesson thumbnail with duration 13:20:
+This is an image component within a lesson item that likely indicates the visual representation of Lesson 3 along with its duration.
+@@@Function Component@@@
+
+Lesson 3 description:
+This text component provides details about Lesson 3 - 10 things you shouldn't do!
+@@@Text Functional Component@@@
+
+About label:
+This is a text component that labels the section "About".
+@@@Text Functional Component@@@
+
+Lesson 2 description:
+This text component provides details about Lesson 2 - Working With Brands.
+@@@Text Functional Component@@@
+
+Minus circle icon:
+This is a button component that could be used for actions like minimizing or collapsing sections.
+@@@TouchableOpacity Function Component@@@
+
+Download label:
+This is a text component that labels the download action.
+@@@Text Functional Component@@@
+Component Keyword:
+This is an icon for downloading content. It is used to signify actions related to downloading lessons.
+@@@Function Component@@@
+
+Component Keyword:
+This is a label that indicates a button for downloading content.
+@@@Text Functional Component@@@
+
+Component Keyword:
+This is an icon for downloading content. It is used to signify actions related to downloading lessons.
+@@@Function Component@@@
+
+Component Keyword:
+This is the title of the section displaying lessons.
+@@@Text Functional Component@@@
+
+Component Keyword:
+This is a label that indicates a button for downloading content.
+@@@Text Functional Component@@@

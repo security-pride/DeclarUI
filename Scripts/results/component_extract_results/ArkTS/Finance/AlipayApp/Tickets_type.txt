@@ -1,0 +1,170 @@
+剧场演出 (Theater Performance):
+This icon likely represents a section for theater shows or performances within the app.
+@@@arkTSIcon@@@
+
+19.9元起优惠购票 (Discounted Tickets from 19.9 Yuan):
+This text is an advertisement for discounted ticket prices, indicating a promotional section.
+@@@arkTSText@@@
+
+落凡尘 (Descending Dust):
+This text is likely a title for a movie or show available on the platform.
+@@@arkTSText@@@
+
+新热预告 (New Hot Trailer):
+This text indicates a section for new and popular trailers, directing users to watch new previews.
+@@@arkTSText@@@
+
+默杀 (Silent Killing):
+This text is likely a title for a movie or show available on the platform.
+@@@arkTSText@@@
+
+立即加入 (Join Now):
+This button is likely a call-to-action for users to join or subscribe to a service.
+@@@arkTSButton@@@
+
+三周年 (Third Anniversary):
+This text probably highlights an anniversary event or celebration within the app.
+@@@arkTSText@@@
+
+搜索 (Search):
+This button appears to be for initiating a search query within the app.
+@@@arkTSButton@@@
+
+IMAX 2D 《封神》导演 (IMAX 2D 'The Investiture of the Gods' Director):
+This component likely represents movie information including its format and title.
+@@@arkTSImage@@@
+Component Keyword:
+This appears to be an image that can be tapped to reveal additional information about the associated content.
+@@@arkTSImage@@@
+
+Component Keyword:
+This is a text label that likely indicates the brand or app's name.
+@@@arkTSText@@@
+
+Component Keyword:
+This is a text label, translated as "Movies/Cinemas," likely used as a section header to categorize content related to movies or cinemas.
+@@@arkTSText@@@
+
+Component Keyword:
+This is an icon used to represent the ticket category within the navigation menu.
+@@@arkTSIcon@@@
+
+Component Keyword:
+This is a button allowing the user to purchase tickets. The text translates to "Buy tickets."
+@@@arkTSButton@@@
+
+Component Keyword:
+This is an image associated with a movie, providing a preview with title and rating information.
+@@@arkTSImage@@@
+
+Component Keyword:
+These are text labels used as category headers to organize different types of content or navigation options.
+@@@arkTSText@@@
+
+Component Keyword:
+This is an image that can be tapped to reveal additional information about the associated content, similar to a movie preview or poster.
+@@@arkTSImage@@@
+
+Component Keyword:
+This is a button allowing the user to purchase tickets. The text translates to "Buy tickets."
+@@@arkTSButton@@@
+
+Music Scene:
+This icon likely represents a section for exploring music-related events or content within the app.
+@@@arkTSIcon@@@
+
+Movie Poster with Rating (9.3):
+This component displays a movie poster with a rating, potentially allowing users to get more information or book tickets.
+@@@arkTSImage@@@
+
+Text "新休息宅":
+This text could be part of a description or title within the app.
+@@@arkTSText@@@
+
+Wishlist Icon:
+This icon likely represents a wishlist or the ability to mark items as favorites.
+@@@arkTSIcon@@@
+
+Minions Movie Poster:
+This component shows a movie poster for "Despicable Me 4" with its rating, allowing users to view details or book tickets.
+@@@arkTSImage@@@
+
+脱口秀 (Talk Show):
+This text likely represents a section or category for talk shows.
+@@@arkTSText@@@
+
+即将上映 (Coming Soon):
+This text likely indicates a section for movies that are about to be released.
+@@@arkTSText@@@
+
+Another Minions Movie Poster:
+This component again displays a movie poster for "Despicable Me 4" with its rating, similar to the previous one for viewing details or booking tickets.
+@@@arkTSImage@@@
+
+Button "购票" (Buy Tickets):
+This button is likely a call-to-action for users to purchase tickets.
+@@@arkTSButton@@@
+Component Keyword:
+This appears to be a graphic or cover image, possibly representing a specific movie or show.
+@@@arkTSImage@@@
+
+Component Keyword:
+This text translates to "抓娃娃," which means "Catch the doll." It is likely a label or title.
+@@@arkTSText@@@
+
+Component Keyword:
+This button translates to "购票," which means "Buy Ticket." It is a purchase button.
+@@@arkTSButton@@@
+
+Component Keyword:
+This translates to "全部," which means "All." It likely represents a filter or category option.
+@@@arkTSText@@@
+
+Component Keyword:
+This appears to represent a specific movie or show with its label and category information.
+@@@arkTSImage@@@
+
+Component Keyword:
+Icon and text representing "会员," which means "Member." It likely links to the membership section.
+@@@arkTSIcon@@@
+
+Component Keyword:
+This is a movie poster, likely a visual representation for a specific movie or show.
+@@@arkTSImage@@@
+
+Component Keyword:
+This translates to "热映影片," meaning "Hot Movies." It likely acts as a section heading.
+@@@arkTSText@@@
+
+Component Keyword:
+This translates to "全部," meaning "All." It appears to be a filter or navigation option.
+@@@arkTSText@@@
+
+
+新片想看榜 (New Movie Watchlist) label:
+This is a text label indicating a section for new movies or a watchlist for upcoming films. 
+@@@arkTSText@@@
+
+Movie cover art image:
+This is an image display component likely used for showing cover art or promotional images for a movie.
+@@@arkTSImage@@@
+
+Menu or Options icon:
+This component appears to be a button or an icon for accessing additional options or features within the app.
+@@@arkTSButton@@@
+
+Movie poster with rating:
+This component includes a poster image and possibly a rating overlay, useful for displaying movie details.
+@@@arkTSCard@@@
+
+Promotional banner:
+This is a large banner component used for highlighting promotions or important announcements within the app.
+@@@arkTSBanner@@@
+
+VIP Member section label:
+A text component likely used to indicate a VIP section or features for VIP members.
+@@@arkTSText@@@
+
+Another movie poster with rating:
+Similar to the previous movie poster component, showcasing another movie with image and rating details.
+@@@arkTSCard@@@

@@ -1,0 +1,124 @@
+Game Design course:
+This component represents a course entry displaying the course image, title, number of lessons, rating, and price.
+@@@arkTSListItem@@@
+
+3D Abstract Design course:
+This component represents another course entry displaying the course image, title, number of lessons, rating, and price. It includes a favorite icon.
+@@@arkTSListItem@@@
+
+Wi-Fi Icon:
+This icon indicates the Wi-Fi signal strength, typically displayed in the status bar.
+@@@arkTSIcon@@@
+
+Time Display:
+This component shows the current time on the device, typically displayed in the status bar.
+@@@arkTSText@@@
+
+Back Button:
+This button allows users to navigate back to the previous screen.
+@@@arkTSButton@@@
+
+Characters Animation course:
+This component represents another course entry displaying the course image, title, number of lessons, rating, and price. It includes a favorite icon.
+@@@arkTSListItem@@@
+
+3D Design Basic text:
+This text element shows the title and number of lessons for the "3D Design Basic" course.
+@@@arkTSText@@@
+
+Course Rating and Star:
+This component combination shows the rating of a course along with a star icon.
+@@@arkTSRating@@@
+
+Status bar battery indicator:
+This component displays the battery indicator, which shows the current battery level and status.
+@@@arkTSBatteryIndicator@@@
+Price and heart icon:
+This shows the price of a course and a heart icon for adding to favorites. It allows users to express interest.
+@@@arkTSTextWithIcon@@@
+
+Bottom navigation bar:
+This is a navigation bar that provides quick access to different sections of the app, such as Home and Profile.
+@@@arkTSBottomNavigation@@@
+
+Star rating with number:
+This indicates user rating for a course with a numeric value alongside a star symbol.
+@@@arkTSRating@@@
+
+Lessons count:
+Displays the number of lessons available in a course.
+@@@arkTSText@@@
+
+Course name and lessons:
+Shows the name of the course and the total number of lessons. This acts as a title and subtitle.
+@@@arkTSTitleSubtitle@@@
+
+Signal strength icon:
+Represents signal strength, commonly found in status bars.
+@@@arkTSStatusIcon@@@
+
+Home button:
+A button labeled "Home" used for navigating to the app's main page.
+@@@arkTSButton@@@
+
+Course image:
+An image representing the course visually, often used as a thumbnail.
+@@@arkTSImage@@@
+
+Filter button:
+A button labeled "Medium" likely used to filter or sort content based on difficulty.
+@@@arkTSButton@@@
+Characters Animation:
+This is likely a text label indicating the title or category of content related to character animation.
+@@@arkTSText@@@
+
+Product Design:
+This text label probably indicates the name of a course or item related to product design.
+@@@arkTSText@@@
+
+Price with heart icon ($25.79):
+This component seems to display the price along with a heart icon, possibly representing a favorite or like feature.
+@@@arkTSRow@@@
+
+"Medium" tag:
+This appears to be a badge or tag indicating a category, such as the difficulty level or size of the course.
+@@@arkTSTag@@@
+
+3D Abstract Design:
+This text is likely a label indicating the name of a course or section related to 3D abstract design.
+@@@arkTSText@@@
+
+Price with heart icon ($22.69):
+This component seems to display pricing information with a like or favorite icon, similar to a wishlist feature.
+@@@arkTSRow@@@
+
+Product Design card:
+This component is a course or product card displaying detailed information, including the name, lessons, rating, and price.
+@@@arkTSCard@@@
+
+Price with heart icon ($19.29):
+This component displays a price tag with an accompanying heart icon, indicating a wishlist or favorite option.
+@@@arkTSRow@@@
+
+Rating (4.9):
+This number likely represents a rating or review score for a course or product.
+@@@arkTSText@@@
+Component Keyword:
+This image appears to be a small visual element, likely used as a thumbnail or image preview for a course or item in a list.
+@@@arkTSImage@@@
+
+Component Keyword:
+This image resembles a progress indicator, such as a horizontal bar used to show loading or progress.
+@@@arkTSProgressBar@@@
+
+Component Keyword:
+This button label indicates a filter or tag option, likely for categorizing or filtering content.
+@@@arkTSTag@@@
+
+Component Keyword:
+This image looks like a rating component, likely displaying a star rating for a course or item.
+@@@arkTSRating@@@
+
+Component Keyword:
+This text label is likely the header or title of a section, indicating the content's main subject.
+@@@arkTSTitleText@@@

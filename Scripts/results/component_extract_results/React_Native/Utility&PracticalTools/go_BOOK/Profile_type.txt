@@ -1,0 +1,54 @@
+Payment Method:
+This is a Button component that takes the user to the payment method management screen.
+@@@Button@@@
+
+Settings:
+This is a Button component that takes the user to the settings screen.
+@@@Button@@@
+
+Profile Picture with Edit Icon:
+This is a View Function Component that combines an Image component with an overlayed edit button, allowing the user to update their profile picture.
+@@@View Function Component@@@
+
+Bookmarks:
+This is a Button component that takes the user to the bookmarks management screen.
+@@@Button@@@
+
+Back Arrow:
+This is a Button component that allows the user to navigate back to the previous screen.
+@@@Button@@@
+
+Security:
+This is a Button component that takes the user to the security settings screen.
+@@@Button@@@
+
+Profile Picture with Edit Icon:
+This is a View Function Component that combines an Image component with an overlayed edit button, allowing the user to update their profile picture.
+@@@View Function Component@@@
+
+Profile Picture Outline:
+This is an Image component representing the user's profile picture.
+@@@Function Component@@@
+
+Edit Profile:
+This is a Button component that takes the user to the profile editing screen.
+@@@Button@@@
+Notification row:
+This is a TouchableOpacity Function Component. It likely serves as a button to navigate to a notification settings screen when pressed.
+@@@TouchableOpacity Function Component@@@
+
+Bottom navigation bar:
+This is a View Function Component. It contains multiple icons and navigation buttons to different sections of the app such as Home, Notification, Ticket, History, and Setting.
+@@@View Function Component@@@
+
+Profile title:
+This is a Text Functional Component. It is used to display the static title "Profile" at the top of the screen.
+@@@Text Functional Component@@@
+
+Settings icon:
+This is a TouchableOpacity Function Component. It likely provides access to application settings when pressed.
+@@@TouchableOpacity Function Component@@@
+
+Back arrow icon:
+This is a TouchableOpacity Function Component. It likely serves as a back navigation button, returning the user to the previous screen when pressed.
+@@@TouchableOpacity Function Component@@@

@@ -1,0 +1,250 @@
+市民中心 icon:
+This is an icon along with a label representing a specific feature or section within the app. The combination of the icon and text suggests it serves as a navigational button.
+@@@Column@@@
+
+更多 (More) label:
+This text label indicates an option for viewing more content, likely within a menu or section. The translation of this text is "More".
+@@@Text@@@
+
+Brown icon inside a rounded square:
+This represents an icon inside a square container, commonly used for actionable buttons or menu options.
+@@@Container@@@
+
+卡包 icon with notification badge:
+This is an icon representing a wallet or card feature, accompanied by a notification badge indicating new or unread items.
+@@@Stack@@@
+
+芭芭农场 icon:
+This icon along with its label likely represents a feature within the app, probably related to agriculture or a farm. The combination represents a clickable element.
+@@@Column@@@
+
+Blue notification badge with "13":
+This badge indicates the number of unread notifications or messages. It is usually placed on top of another widget (like an icon).
+@@@Positioned@@@
+
+芝麻信用 label:
+This is a text widget representing a specific feature related to credit services. The translation of this text is "Sesame Credit".
+@@@Text@@@
+
+消息 icon with label:
+This is an icon with a label saying "Messages" beneath it, representing the messaging section of the app.
+@@@Column@@@
+
+高德打车 label:
+This text widget indicates a specific feature or service related to taxi or ride-hailing named "Gaode Taxi".
+@@@Text@@@
+1. Component Keyword: "11小时前" (11 hours ago) label:
+   Component Function Description: A text widget showing the time elapsed since the last event in the app.
+   @@@Text@@@
+
+2. Component Keyword: Orange droplet icon:
+   Component Function Description: Represents a feature or service in the app, likely with an onTap event to navigate or activate the service.
+   @@@InkWell@@@
+
+3. Component Keyword: Orange square icon with white 'e' inside:
+   Component Function Description: An icon inside a button, likely used to navigate to a specific section of the app.
+   @@@IconButton@@@
+
+4. Component Keyword: Four small icons in a rounded square:
+   Component Function Description: A composite widget showing a grid of icons as a part of a categorized menu or selection. 
+   @@@GridView@@@
+
+5. Component Keyword: Blue smiley face icon with text "口碑团购" (Group Buying Reviews):
+   Component Function Description: A combined icon and text representing a button that navigates to the group buying reviews section.
+   @@@Column@@@
+
+6. Component Keyword: Orange square with white character:
+   Component Function Description: An icon, likely used for quick access to a feature or service related to the character displayed.
+   @@@Icon@@@
+
+7. Component Keyword: "高德打车" (Gaode Taxi) text:
+   Component Function Description: A text widget labeled to indicate a taxi service provided by Gaode.
+   @@@Text@@@
+
+8. Component Keyword: Orange icon with overlay text "首页" (Home):
+   Component Function Description: Icon and text combined to represent a home button in the bottom navigation bar.
+   @@@Column@@@
+
+9. Component Keyword: Blue icon with sunglasses and text "淘票票" (Taopiaopiao Tickets):
+   Component Function Description: Combined icon and text widget pointing to the ticket booking service.
+   @@@Column@@@
+理财 icon with blue dot:
+This component represents a clickable icon with a badge, likely showing a notification or update related to financial services.
+@@@Stack@@@
+
+Orange paper plane icon:
+This is an icon, potentially used as a navigation or action button related to transportation or travel.
+@@@Icon@@@
+
+Plus icon in a circle:
+This is a button, probably for adding new items or functionalities.
+@@@IconButton@@@
+
+"200条新消息" text:
+This text element appears to indicate the number of new messages or notifications.
+@@@Text@@@
+
+Profile with "我的" label:
+This component likely represents a user's profile or account section.
+@@@Column@@@
+
+理好财 section with app icon:
+This section features an icon and two text descriptions, indicating a financial app or service. 
+@@@Column@@@
+
+付款 icon with "收付款" label:
+This component represents an action to make or receive payments.
+@@@Column@@@
+
+Scan icon with "扫一扫" label:
+This is likely an icon for a scanning function, such as QR code scanning.
+@@@Column@@@
+
+"7 小时前" text:
+This text indicates the time since an action or notification occurred.
+@@@Text@@@
+Credit Card Payment icon:
+This component likely represents an interactive element for managing credit card payments within the app, commonly using an icon and text.
+@@@Column@@@
+
+Utility Bills icon:
+This component represents an action related to utility bills payment, utilizing an icon with accompanying text.
+@@@Column@@@
+
+Shopping Banner:
+This component appears as a promotional card for shopping, featuring an image and text overlay, which could navigate to a detailed screen.
+@@@Card@@@
+
+Search Bar:
+This is an input field used for entering search queries, featuring an icon for the search action and a label with a button.
+@@@TextField@@@
+
+Yu’ebao icon:
+This component likely depicts a financial service feature, combining an icon with descriptive text.
+@@@Column@@@
+
+Payment Success text:
+Displays a confirmation message with details of a successful transaction, using formatted text.
+@@@Text@@@
+
+Taxi Service icon:
+Represents a button for taxi services, displaying an icon with text for user interaction.
+@@@Column@@@
+
+My Mini Program text:
+Displays a label for user navigation to their mini programs, as part of a menu or grid of options.
+@@@Text@@@
+
+Currency Symbol:
+Shows a currency symbol icon, possibly used within a button or status indicator for financial operations.
+@@@Icon@@@
+**Component Keyword:**
+Orange paper plane icon
+
+**Component Function Description:**
+This icon is likely used as a button to access specific app features, possibly related to navigation or communication.
+
+@@@IconButton@@@
+
+---
+
+**Component Keyword:**
+Travel section icon with "领油惠" badge
+
+**Component Function Description:**
+This component combines an icon and a text label, possibly indicating a feature related to travel or transport services. The badge might represent a special offer or promotion.
+
+@@@Stack@@@
+
+---
+
+**Component Keyword:**
+"任芝庚 名烟和" text
+
+**Component Function Description:**
+A text element, likely showing a username or item name in the app, used for labeling purposes.
+
+@@@Text@@@
+
+---
+
+**Component Keyword:**
+Milk tea promotional image
+
+**Component Function Description:**
+This component displays a promotional banner or advertisement likely using an image for visual appeal and textual elements for marketing.
+
+@@@Container@@@
+
+---
+
+**Component Keyword:**
+Train ticket icon
+
+**Component Function Description:**
+This section represents a feature related to booking or viewing train tickets, possibly using an icon and label for navigation.
+
+@@@Column@@@
+
+---
+
+**Component Keyword:**
+"视频" label
+
+**Component Function Description:**
+This is a text widget likely used as a label within a navigation bar or menu, indicating access to video content or a specific section in the app.
+
+@@@Text@@@
+
+---
+
+**Component Keyword:**
+"You have payment rewards waiting" text
+
+**Component Function Description:**
+A message displayed to inform users about pending rewards related to their transactions.
+
+@@@Text@@@
+
+---
+
+**Component Keyword:**
+"自动扣款成功￥12.30" text
+
+**Component Function Description:**
+Text that displays a transaction message, similar to a notification of a successful automatic deduction.
+
+@@@Text@@@
+
+---
+
+**Component Keyword:**
+Green ant forest icon
+
+**Component Function Description:**
+An icon representing an environmental or nature-related feature within the app, possibly linked to user actions related to sustainability.
+
+@@@Column@@@
+Component Keyword:
+This appears to be a notification or a card that informs the user about the location change, with a button to switch back to a previous location.
+@@@Container@@@
+
+Button for switching:
+This looks like a button that allows the user to switch back to a previous location.
+@@@TextButton@@@
+
+手机充值 (Mobile Recharge) icon:
+This icon represents the mobile recharge section of the app. 
+@@@Column@@@
+
+手机充值 label:
+This is a text widget that labels the mobile recharge section.
+@@@Text@@@
+
+火车票机票 (Train and Plane Tickets) icon:
+This icon represents the section for buying train and plane tickets.
+@@@Column@@@
+
+火车票机票 label:
+This is a text widget that labels the train and plane tickets section.
+@@@Text@@@

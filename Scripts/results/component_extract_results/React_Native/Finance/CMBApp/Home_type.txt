@@ -1,0 +1,156 @@
+Icon with text "更多" (More):
+This is a Text Functional Component. It is used to indicate that more options or information can be accessed.
+@@@Text Functional Component@@@
+
+Banner with "错过少3天收益" (Lose interest for 3 fewer days):
+This is a View Function Component. The banner displays promotional information.
+@@@View Function Component@@@
+
+Blue icon with a bag symbol:
+This is an Image Function Component. It is likely used as an icon representing a feature related to finance or savings.
+@@@Function Component@@@
+
+Text about "锁定票息" (Fixed interest rate):
+This is a Text Functional Component. It describes a financial product offering a fixed interest rate.
+@@@Text Functional Component@@@
+
+Icon with text "首页" (Home):
+This is a Text Functional Component. It indicates the home section of the app.
+@@@Text Functional Component@@@
+
+Icon with text "信用卡" (Credit Card):
+This is an Image Function Component. It represents the credit card feature on the app.
+@@@Function Component@@@
+
+Icon with text "一周回顾" (Weekly Review):
+This is an Image Function Component. It likely represents a feature related to reviewing weekly activities or financial summaries.
+@@@Function Component@@@
+
+Icon with text "城市服务" (City Services):
+This is an Image Function Component. It represents city-related services available through the app.
+@@@Function Component@@@
+
+Title text "活钱理财" (Active Money Management):
+This is a Text Functional Component. It is a title for a section related to financial management products.
+@@@Text Functional Component@@@
+M+会员 icon:
+This is an Image component with a Text Functional Component below it. The image serves as an icon representing the "M+ Member" feature, and the text below labels the icon.
+@@@Function Component and Text Functional Component@@@
+
+借钱 icon:
+This is an Image component with a Text Functional Component below it. The image serves as an icon representing the "Borrow Money" feature, and the text below labels the icon.
+@@@Function Component and Text Functional Component@@@
+
+财富 tab icon:
+This is an Image component used as an icon for the "Finance" tab in the navigation bar.
+@@@Function Component@@@
+
+生活 label:
+This is a Text Functional Component displaying the label "Life", likely part of a tab in the navigation bar.
+@@@Text Functional Component@@@
+
+养老金融 icon:
+This is an Image component with a Text Functional Component below it. The image serves as an icon representing the "Retirement Finance" feature, and the text below labels the icon.
+@@@Function Component and Text Functional Component@@@
+
+每季可赎 section:
+This is a combination of Text Functional Components and View Function Components. The text components display the details and percentage, while the view likely encompasses all the text and other elements as a container.
+@@@Text Functional Component and View Function Component@@@
+
+扫描 icon:
+This is an Image component serving as the icon for a scanning functionality, possibly to scan QR codes or documents.
+@@@Function Component@@@
+
+热门活动 icon:
+This is an Image component with a Text Functional Component below it. The image serves as an icon representing "Hot Activities" feature, and the text below labels the icon.
+@@@Function Component and Text Functional Component@@@
+
+首页 tab icon:
+This is an Image component used as an icon for the "Home" tab in the navigation bar.
+@@@Function Component@@@
+通知 (Notification) icon:
+This is a Button component. It is used to view notifications or messages.
+@@@Button@@@
+
+外汇购汇 (Foreign Exchange Purchase) icon:
+This is a Button component. It is used to navigate to the foreign exchange purchase page.
+@@@Button@@@
+
+Headset icon:
+This is a Button component. It provides access to customer service or help support.
+@@@Button@@@
+
+我的 (Mine/Profile) icon:
+This is a Button component. It navigates users to their profile page or personal settings.
+@@@Button@@@
+
+Card icon:
+This is a Button component. It likely represents a section related to bank cards or card management.
+@@@Button@@@
+
+银行卡 (Bank Card) icon:
+This is a Button component. It navigates users to the bank card management or details page.
+@@@Button@@@
+
+Text notification:
+This is a Text component. It displays a brief notification or announcement to the user.
+@@@Text Functional Component@@@
+
+Investment card:
+This is a View component. It encapsulates investment details and information for user interaction.
+@@@View Function Component@@@
+
+Transfer icon:
+This is a Button component. It provides functionality for transferring funds or making transactions.
+@@@Button@@@
+转账 icon with text:
+This is a Button component. It allows users to initiate a transfer operation within the app.
+@@@Button@@@
+
+财富精选 label:
+This is a Text Functional Component. It serves as a section header, highlighting specific financial products or opportunities.
+@@@Text Functional Component@@@
+
+收支明细 icon with text:
+This is a Button component. It allows users to access detailed records of their income and expenses.
+@@@Button@@@
+
+账户总览 icon with text:
+This is a Button component. It gives users a comprehensive overview of their account status.
+@@@Button@@@
+
+全部 label:
+This is a Text Functional Component. It indicates an option to view all available features or services.
+@@@Text Functional Component@@@
+
+Coupon/ticket icon:
+This is a Function Component. It likely represents coupons or tickets available for the user.
+@@@Function Component@@@
+
+朝朝宝 icon with text:
+This is a Button component. It represents a financial product or savings feature.
+@@@Button@@@
+
+他行卡转入 icon with text:
+This is a Button component. It enables users to transfer funds from other bank cards into their account.
+@@@Button@@@
+
+Notification indicator with "99":
+This is an ImageBackground component. It displays the number of unread notifications.
+@@@ImageBackground@@@
+M+会员 (M+ Membership) text:
+This is a Text component. It's a label for the "M+会员" feature, indicating the presence of a membership program.
+@@@Text Functional Component@@@
+
+Circular icon in gradient background:
+This is an Image component. It represents a loading or refresh icon within the mobile app.
+@@@Function Component@@@
+
+信用卡 (Credit Card) text:
+This is a Text component. It's a label that indicates the functionality related to credit cards within the app.
+@@@Text Functional Component@@@
+
+搜索框 (Search Bar) with text "信用卡全家福":
+This is a combination of TextInput and Image components. The TextInput component allows users to input search queries, while the Image component represents the search icon.
+@@@TextInput@@@
+@@@Function Component@@@

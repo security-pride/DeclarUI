@@ -1,0 +1,224 @@
+Martha Craig label:
+This is a text widget that displays the name "Martha Craig".
+@@@Text@@@
+
+User profile picture:
+This is an image widget displaying the user's profile picture in a circular shape.
+@@@CircleAvatar@@@
+
+Group chat icon:
+This appears to be an icon used to represent the option to create a new group.
+@@@Icon@@@
+
+To text field indicator:
+This is a cursor indicating an active text field where users can input text.
+@@@TextField@@@
+
+Keyboard button:
+This represents a single keyboard button used for typing.
+@@@Text@@@
+
+Microphone icon:
+This is an icon used to represent the functionality of recording or sending a voice message.
+@@@Icon@@@
+
+Russian label:
+This is a text widget that likely indicates the section of the contacts list in Russian, translated as "People".
+@@@Text@@@
+Up arrow key:
+This is an icon that represents an upward arrow, likely used for moving the cursor up in a text field or for navigation.
+@@@Icon@@@
+
+"Kieron Dotson" text:
+This is a text widget that displays the name "Kieron Dotson", likely representing a user in the contact list.
+@@@Text@@@
+
+T key:
+This is an icon that represents the letter "T", likely part of a keyboard layout.
+@@@Icon@@@
+
+P key:
+This is an icon that represents the letter "P", likely part of a keyboard layout.
+@@@Icon@@@
+
+Backspace key:
+This is an icon that represents a backspace, used to delete text in a text field.
+@@@Icon@@@
+
+R key:
+This is an icon that represents the letter "R", likely part of a keyboard layout.
+@@@Icon@@@
+
+H key:
+This is an icon that represents the letter "H", likely part of a keyboard layout.
+@@@Icon@@@
+
+Group icon:
+This is an icon that represents a group of people, likely used to create a new group in a messaging app.
+@@@Icon@@@
+
+J key:
+This is an icon that represents the letter "J", likely part of a keyboard layout.
+@@@Icon@@@
+Cancel button:
+This button seems to cancel the current action or close the current screen, returning the user to the previous page.
+@@@TextButton@@@
+
+Wi-Fi icon:
+This icon may indicate the status of the Wi-Fi connection. It could be used within a status bar or connectivity indicator.
+@@@Icon@@@
+
+Go button:
+This button is likely used to submit or confirm the current input, example to send a message or initiate a search.
+@@@ElevatedButton@@@
+
+Emoji button:
+This button probably opens an emoji selector for the user to input emojis in their message.
+@@@IconButton@@@
+
+Q button:
+This seems to be a single character key in a custom keyboard layout.
+@@@TextButton@@@
+
+Y button:
+This seems to be a single character key in a custom keyboard layout.
+@@@TextButton@@@
+
+123 button:
+This button likely switches between different keyboard layouts, such as from alphabetical to numerical input.
+@@@TextButton@@@
+
+Home indicator:
+This UI element is a visual cue that shows the user where to swipe up to go to the home screen or access multitasking. This is specific to the operating system.
+@@@Container@@@
+
+New message label:
+This label indicates the current action or screen, informing the user they are composing a new message.
+@@@Text@@@
+Cancel button:
+This appears to be a button that allows users to cancel the current action and go back to the previous screen.
+@@@TextButton@@@
+
+New message label:
+This is a text widget that indicates the user is on a screen to compose a new message.
+@@@Text@@@
+
+To: label:
+This is a text label indicating where users should input the recipient's information.
+@@@Text@@@
+
+Search Field:
+This is a text input field where users can enter the recipient's name or group name to start creating a message.
+@@@TextField@@@
+
+Create a New Group row:
+This row contains an icon and text and is used for creating a new group chat. It probably navigates the user to a new group creation screen.
+@@@ListTile@@@
+
+User list item with image and text (e.g., Martha Craig):
+This is a list item containing a user's profile picture and name, used to display contacts.
+@@@ListTile@@@
+
+Number key (e.g., 0 key):
+This is a button within the keyboard, allowing users to input numbers.
+@@@ElevatedButton@@@
+
+Alphabet key (e.g., V key, L key, K key):
+These are buttons within the keyboard, allowing users to input letters.
+@@@ElevatedButton@@@
+
+Action key (e.g., Go key):
+This is a special key within the keyboard, likely used to submit the input or perform an action.
+@@@ElevatedButton@@@
+
+Avatar images (e.g., profile pictures):
+These are circular images used to display user's profile pictures.
+@@@CircleAvatar@@@
+
+User name label (e.g., Jamie Franco, Tabitha Potter):
+These are text widgets displaying the names of users.
+@@@Text@@@
+
+Note: The above widgets can have additional properties and decorations as appropriate (e.g., padding, margin, shapes, etc.).
+Cancel button:
+This button likely allows users to cancel the current action or go back to the previous screen.
+@@@TextButton@@@
+
+New message label:
+This text indicates that the user is composing a new message.
+@@@Text@@@
+
+Recipient input field:
+This is where users can input the recipient's information.
+@@@TextField@@@
+
+Create a New Group button:
+This button likely navigates the user to a screen where they can create a new group.
+@@@ListTile@@@
+
+User avatar with name:
+Displays the user's avatar and name for selection.
+@@@ListTile@@@
+
+On-screen keyboard letters:
+These buttons allow users to type letters into text fields.
+@@@TextButton@@@
+
+On-screen keyboard space bar:
+This button inserts a space character in the text field.
+@@@TextButton@@@
+
+On-screen keyboard shift key:
+This button likely toggles between uppercase and lowercase letters.
+@@@IconButton@@@
+
+On-screen keyboard emojis key:
+This button likely switches the keyboard to an emoji picker.
+@@@IconButton@@@
+
+On-screen keyboard 'Go' key:
+This button executes the current action, such as sending a message or submitting a form.
+@@@TextButton@@@
+Cancel button:
+This is a clickable button, most likely used to cancel the current action or close the current screen.
+@@@TextButton@@@
+
+New message label:
+This static text indicates the purpose of the current screen, which is creating a new message.
+@@@Text@@@
+
+To field:
+This is the label text for the recipient input field where users type the names or addresses of message recipients.
+@@@Text@@@
+
+Create a New Group button:
+This is a clickable item, likely allowing users to create a new group for sending messages.
+@@@ListTile@@@
+
+'Zack John' text:
+This is the name of a contact in the list of recipients.
+@@@Text@@@
+
+Alphabet keys (e.g., 'S', 'C', 'N', 'M'):
+These are individual keys of the software keyboard which allow users to input text.
+@@@Text@@@
+
+Black status bar:
+This represents the status bar at the top of the screen displaying system information such as time, battery level, and signal strength.
+@@@Container@@@
+
+Contact image:
+This is a circular image representing the contact's profile picture.
+@@@CircleAvatar@@@
+
+Contact name (e.g., "Zack John"):
+This is the text displaying the name of a contact in the list.
+@@@Text@@@
+
+Divider line:
+This is a horizontal line used to separate different sections or items in the list.
+@@@Divider@@@
+
+Contact profile icons:
+These are circular icons representing individual contact profiles in the contact list.
+@@@CircleAvatar@@@

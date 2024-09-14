@@ -1,0 +1,38 @@
+Exclusive Free £50 Currys Voucher:
+This text provides promotional information, highlighting a special offer for users.
+@@@Text@@@
+
+This is a VIP retailer! VIPs get a £5 gift card for every two shops with any VIP retailer:
+This text explains the benefits of being a VIP retailer, offering a gift card incentive.
+@@@Text@@@
+
+Terms and Conditions:
+This text indicates a section or link to the terms and conditions related to the offer or app usage.
+@@@Text@@@
+
+VIP logo with text:
+This component includes an icon and a text label describing the VIP status and benefits.
+@@@ListTile@@@
+
+Mobiles.co.uk logo:
+This image represents the logo of the promotional company.
+@@@Image@@@
+
+Bottom navigation bar:
+This component displays icons for different navigation options at the bottom of the app, helping users switch between sections.
+@@@BottomNavigationBar@@@
+
+Sign In to Get Reward button:
+This button prompts users to sign in to receive their reward, indicating an interactive element.
+@@@ElevatedButton@@@
+
+Online Reward:
+This text label identifies the type of reward available, providing additional context.
+@@@Text@@@
+
+Magnifying glass search icon with text:
+This component combines a search icon and a text label, indicating a search functionality.
+@@@ListTile@@@
+Ends 20 Jul label:
+This is a text widget that indicates the end date of the offer.
+@@@Text@@@

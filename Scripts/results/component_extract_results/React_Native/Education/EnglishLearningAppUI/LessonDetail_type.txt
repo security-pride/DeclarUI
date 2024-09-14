@@ -1,0 +1,81 @@
+1. Back arrow icon:
+This is a Button component. It likely allows users to navigate back to the previous screen.
+@@@Button@@@
+
+2. "1x" label:
+This is a Text Functional component. It seems to display the current speed of the media playback.
+@@@Text Functional Component@@@
+
+3. WiFi-like icon:
+This is a Pressable component. It's likely used to represent or control a connection status or to access network-related options.
+@@@Pressable@@@
+
+4. "Tap to see word in dictionary" label:
+This is a Text Functional component. It's an instructional text likely indicating a feature where users can tap on words to see their meanings.
+@@@Text Functional Component@@@
+
+5. Avatar image:
+This is a Function Component. It displays the user's avatar in the app.
+@@@Function Component@@@
+
+6. Ellen Jacobs label with avatar:
+This is a View Function component and Text Functional components. It encapsulates the user's profile information like their name and subscriber count.
+@@@View Function Component@@@
+
+7. "Subscribed" checkbox:
+This is a Button component. It likely indicates and allows toggling the subscription status.
+@@@Button@@@
+Signal strength icon:
+This is an Image component. It is used to visually represent the signal strength in the app.
+@@@Function Component@@@
+
+Drill button:
+This is a Button component. It possibly starts a drill or exercise related to the content displayed.
+@@@Button@@@
+
+Bookmark icon with label:
+This is a ButtonWithChildComponent. It likely allows users to bookmark the current content for later reference.
+@@@Button@@@
+
+Share icon with label:
+This is a ButtonWithChildComponent. It likely provides sharing options for the current content.
+@@@Button@@@
+
+Dictionary icon:
+This is a Button component. It likely allows users to look up the meaning of words in the displayed content.
+@@@Button@@@
+
+Language switcher:
+This is a Button component. It allows users to switch between different languages.
+@@@Button@@@
+
+User profile image with name and subscription status:
+This is a View Function Component. It contains user information including profile picture and subscription status.
+@@@View Function Component@@@
+
+Text content:
+This is a Text Functional Component. It displays the content of the lesson or text passage.
+@@@Text Functional Component@@@
+
+Highlighted word:
+This is a Text Functional Component. It highlights specific word sections within the content for emphasis.
+@@@Text Functional Component@@@
+Component Keyword:
+This is a Text Functional Component. It shows the current slide number out of the total slides.
+@@@Text Functional Component@@@
+
+Component Keyword:
+This is a Text Functional Component. It displays a Vietnamese sentence, possibly a translation or subtitle.
+@@@Text Functional Component@@@
+
+Component Keyword:
+This is a Button. Likely a button to play audio.
+@@@Button@@@
+
+Component Keyword:
+This is a Button. Likely a button to repeat the action or restart something.
+@@@Button@@@
+
+Component Keyword:
+This is a Text Functional Component. It is part of the 'More' section, possibly leading to more options or details.
+@@@Text Functional Component@@@

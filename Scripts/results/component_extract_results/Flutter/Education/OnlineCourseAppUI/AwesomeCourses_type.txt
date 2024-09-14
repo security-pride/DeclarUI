@@ -1,0 +1,136 @@
+Game Design Course Card:
+This is a custom card widget displaying information about a course, including the course name, number of lessons, rating, and price.
+@@@Card@@@
+
+3D Abstract Design Course Card:
+This is another custom card widget displaying information about a different course, including the course name, number of lessons, rating, and price.
+@@@Card@@@
+
+Wi-Fi Icon:
+This icon likely indicates the Wi-Fi signal strength on the device.
+@@@Icon@@@
+
+Time Display:
+This text widget displays the current time.
+@@@Text@@@
+
+Back Button:
+This button likely allows the user to navigate back to the previous screen.
+@@@IconButton@@@
+
+Characters Animation Course Card:
+This is another custom card widget displaying information about a course, including the course name, number of lessons, rating, and price.
+@@@Card@@@
+
+Course Title and Lesson Count:
+This text widget displays the course title and the number of lessons available in the course.
+@@@Text@@@
+
+Star Rating:
+An icon followed by a small text indicating the course rating.
+@@@Row@@@
+
+Price of Course:
+This text widget displays the price of the course.
+@@@Text@@@
+
+Horizontal Ellipsis:
+This possibly represents additional options or settings indicated by dots.
+@@@Icon@@@
+
+Divider Line:
+This line likely serves as a separator between different content sections.
+@@@Divider@@@
+
+Battery Level:
+This custom-shaped container displays the current battery level.
+@@@Container@@@
+$24.99 price and heart icon:
+This component includes text for the price and an icon for a wishlist or favorite functionality.
+@@@Row@@@
+
+Bottom navigation bar with icons and labels:
+This component includes navigational icons and corresponding text labels.
+@@@BottomNavigationBar@@@
+
+Star icon and rating:
+This component shows a star icon next to a rating number, indicating customer or user ratings.
+@@@Row@@@
+
+"24 lessons" label:
+This component displays the number of lessons as a text.
+@@@Text@@@
+
+"Game Design" title and "25 lessons" description:
+This component includes a title text and description text for a course.
+@@@Column@@@
+
+Signal strength icon:
+This is a signal strength icon, typically used to show connectivity.
+@@@Icon@@@
+
+"Home" text with a background:
+This is a text widget with a background, used in a bottom navigation item.
+@@@Container@@@
+
+Red abstract image:
+This is an image that likely represents a course thumbnail or category.
+@@@Image@@@
+
+"Medium" button:
+This is a button that likely represents the difficulty level or category of the course.
+@@@OutlinedButton@@@
+Characters Animation:
+This text describes a course offering titled "Characters Animation" along with the number of lessons it contains.
+@@@Column@@@
+
+Product Design:
+This is the title of a course presented on the screen.
+@@@Text@@@
+
+$25.79 with heart icon:
+This displays the price of the course alongside a heart icon, likely a favorite button.
+@@@Row@@@
+
+Medium button:
+This appears to be a button for filtering or selecting the difficulty level of courses.
+@@@ElevatedButton@@@
+
+3D Abstract Design:
+This text shows the title of another course available on the platform.
+@@@Text@@@
+
+$22.69 with heart icon:
+Similar to the previous price and favorite combination, this groups the price with the favorite option.
+@@@Row@@@
+
+Course card with Product Design:
+This component shows a more detailed display of the course information, including an image, title, number of lessons, rating, and price.
+@@@Card@@@
+
+$19.29 with heart icon:
+This lines up the course price with the option to favorite it, reflecting another course offering.
+@@@Row@@@
+
+4.9 rating:
+Displays the course rating value.
+@@@Text@@@
+Component Keyword:
+This is an image that likely represents a course thumbnail or related visual content.
+@@@Image@@@
+
+Component Keyword:
+This component seems to be a navigation control, possibly part of a `BottomNavigationBar`.
+@@@Container@@@
+
+Component Keyword:
+This is a label for a difficulty level or category, presented as a button or chip with a border.
+@@@OutlinedButton@@@
+
+Component Keyword:
+This includes a rating with a star icon and number, likely indicating user reviews.
+@@@Row@@@
+
+Component Keyword:
+This is a text element displaying the title or name of a section or page within the app.
+@@@Text@@@

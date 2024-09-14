@@ -1,0 +1,196 @@
+9:41 AM:
+This is a Text component. It displays the current device time on the status bar.
+@@@Text Functional Component@@@
+
+Hots now:
+This is a Text component. It displays a section header indicating the current trending or popular items.
+@@@Text Functional Component@@@
+
+Kanye West:
+This is a Text component. It displays the name of the currently playing artist or track.
+@@@Text Functional Component@@@
+
+Dua Lipa:
+This is a Text component. It displays the name of one of the popular artists in the list.
+@@@Text Functional Component@@@
+
+All Mine:
+This is a Text component. It displays the currently playing song title.
+@@@Text Functional Component@@@
+
+Image of Rita Ora:
+This is a Function Component. It displays an image, likely of an artist, in the popular artists section.
+@@@Function Component@@@
+
+Person Icon:
+This is an ImageBackground component. It likely serves as an icon for navigating to the user's profile or account settings.
+@@@ImageBackground@@@
+
+Image of Dua Lipa:
+This is a Function Component. It displays an image, likely of an artist, in the popular artists section.
+@@@Function Component@@@
+
+Image of Eminem:
+This is a Function Component. It displays an image, likely of an artist, in the popular artists section.
+@@@Function Component@@@
+Old School section:
+This is an ImageBackground Function Component. It's used to display an image with text overlays representing a music section called "Old School".
+@@@ImageBackground@@@
+
+Rita Ora thumbnail:
+This is an Image Function Component. It's used to display the profile picture of a popular artist.
+@@@Function Component@@@
+
+Ed Sheeran thumbnail:
+This is an Image Function Component. It's used to display the profile picture of a popular artist.
+@@@Function Component@@@
+
+Battery indicator:
+This is a View Function Component. It's used to display the battery status indicator in the status bar.
+@@@View Function Component@@@
+
+Summer Vibes section:
+This is an ImageBackground Function Component. It's used to display an image with text overlays representing a music section called "Summer Vibes".
+@@@ImageBackground@@@
+
+Rap Zone section:
+This is an ImageBackground Function Component. It's used to display an image with text overlays representing a music section called "Rap Zone".
+@@@ImageBackground@@@
+
+Shower Time section:
+This is an ImageBackground Function Component. It's used to display an image with text overlays representing a music section called "Shower Time".
+@@@ImageBackground@@@
+
+Ed Sheeran thumbnail repeated:
+This is an Image Function Component. It's used to display the profile picture of a popular artist.
+@@@Function Component@@@
+Old School image:
+This is an Image component. It displays a specific image related to the "Old School" category of music.
+@@@Function Component@@@
+
+WiFi symbol:
+This is an Icon component. It is likely used to indicate wireless connectivity or a feature related to network settings.
+@@@Function Component@@@
+
+Shower Time image:
+This is an Image component. It displays a specific image related to the "Shower Time" category of music.
+@@@Function Component@@@
+
+Dua Lipa image:
+This is an Image component. It displays an artist image, likely for the "Popular artists" section.
+@@@Function Component@@@
+
+Summer Vibes image:
+This is an Image component. It displays a specific image related to the "Summer Vibes" category of music.
+@@@Function Component@@@
+
+Play symbol:
+This is a Button component. It is likely used to play music or start a media file.
+@@@Button@@@
+
+Rap Zone image:
+This is an Image component. It displays a specific image related to the "Rap Zone" category of music.
+@@@Function Component@@@
+
+Eminem image:
+This is an Image component. It displays an artist image, likely for the "Popular artists" section.
+@@@Function Component@@@
+
+Icons of headphones and magnifying glass:
+These are Button components. The headphone icon probably opens the music or audio section, while the magnifying glass icon is used for initiating a search.
+@@@Button@@@
+Hots now label:
+This is a Text component. It is likely a heading or section title for the “Hots now” section.
+@@@Text Functional Component@@@
+
+Summer Vibes text in image:
+This is a Text component. It is the title or name of the playlist or category depicted in the image.
+@@@Text Functional Component@@@
+
+Rap Zone text in image:
+This is a Text component. It is the title or name of the playlist or category depicted in the image.
+@@@Text Functional Component@@@
+
+Shower Time text in image:
+This is a Text component. It is the title or name of the playlist or category depicted in the image.
+@@@Text Functional Component@@@
+
+Old School text in image:
+This is a Text component. It is the title or name of the playlist or category depicted in the image.
+@@@Text Functional Component@@@
+
+All Mine Kanye West now playing label:
+This is a Text component. It likely displays the currently playing song and artist.
+@@@Text Functional Component@@@
+
+Popular Artists label:
+This is a Text component. It is likely a heading or section title for the “Popular artists” section.
+@@@Text Functional Component@@@
+
+Ed Sheeran name label:
+This is a Text component. It is the name of the artist shown in the image next to it.
+@@@Text Functional Component@@@
+
+Rita Ora name label:
+This is a Text component. It is the name of the artist shown in the image next to it.
+@@@Text Functional Component@@@
+
+Eminem name label:
+This is a Text component. It is the name of the artist shown in the image next to it.
+@@@Text Functional Component@@@
+
+Dua Lipa name label:
+This is a Text component. It is the name of the artist shown in the image next to it.
+@@@Text Functional Component@@@
+
+Lightning bolt icon:
+This is a TouchableOpacity Function Component. It is likely a button to navigate to a different part of the app, maybe a home or favorite section.
+@@@TouchableOpacity Function Component@@@
+
+Headphones icon:
+This is a TouchableOpacity Function Component. It is likely a button to navigate to the music library or currently playing music.
+@@@TouchableOpacity Function Component@@@
+
+Search icon:
+This is a TouchableOpacity Function Component. It is likely a button to open the search feature in the app.
+@@@TouchableOpacity Function Component@@@
+
+Profile icon:
+This is a TouchableOpacity Function Component. It is likely a button to navigate to the user profile or settings.
+@@@TouchableOpacity Function Component@@@
+
+Summer Vibes image:
+This is a Function Component. It is an image representing the “Summer Vibes” playlist or category.
+@@@Function Component@@@
+
+Rap Zone image:
+This is a Function Component. It is an image representing the “Rap Zone” playlist or category.
+@@@Function Component@@@
+
+Shower Time image:
+This is a Function Component. It is an image representing the “Shower Time” playlist or category.
+@@@Function Component@@@
+
+Old School image:
+This is a Function Component. It is an image representing the “Old School” playlist or category.
+@@@Function Component@@@
+
+Popular artist Ed Sheeran image:
+This is a Function Component. It is an image representing the artist, Ed Sheeran.
+@@@Function Component@@@
+
+Popular artist Rita Ora image:
+This is a Function Component. It is an image representing the artist, Rita Ora.
+@@@Function Component@@@
+
+Popular artist Eminem image:
+This is a Function Component. It is an image representing the artist, Eminem.
+@@@Function Component@@@
+
+Popular artist Dua Lipa image:
+This is a Function Component. It is an image representing the artist, Dua Lipa.
+@@@Function Component@@@
+
+Play button icon:
+This is a TouchableOpacity Function Component. It is likely a button to play the currently selected song.
+@@@TouchableOpacity Function Component@@@

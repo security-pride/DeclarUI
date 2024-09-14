@@ -1,0 +1,89 @@
+自由跑:
+This is a text label that likely indicates a type of running mode or feature in the app. The translation is "Free Run".
+@@@arkTSText@@@
+
+目标跑:
+This is a text label that likely indicates another type of running mode or feature in the app. The translation is "Target Run".
+@@@arkTSText@@@
+
+跳绳:
+This component appears to be an icon with a label that could represent a functionality related to jump rope exercises. 
+@@@arkTSIcon@@@
+
+帮你轻松面对:
+This is a text label likely used for motivating or guiding users. The translation is "Help you easily face".
+@@@arkTSText@@@
+
+跑鞋:
+This component is a combination of an icon and a label that likely represents a feature related to running shoes in the app.
+@@@arkTSButton@@@
+
+运动日历:
+This component appears to be an icon with a label that indicates a functionality related to an exercise calendar. The translation is "Exercise Calendar".
+@@@arkTSIcon@@@
+
+公里:
+This is a text label likely indicating a unit of distance measurement (kilometers). The translation is "Kilometers."
+@@@arkTSText@@@
+
+Hi~ 我是你的轻松跑教练:
+This is a text label intended to greet and introduce the user's running coach. The translation is "Hi~ I am your easy running coach."
+@@@arkTSText@@@
+
+户外跑步:
+This component is an icon with a label that indicates a functionality related to outdoor running. The translation is "Outdoor Running".
+@@@arkTSIcon@@@
+限时免费 (Limited Time Free):
+This text likely indicates a special offer or feature that is free for a limited time.
+@@@arkTSText@@@
+
+Icon with colorful gradient:
+This is likely a logo or icon representing the app or a specific feature of the app.
+@@@arkTSIcon@@@
+
+轻松跑 (Easy Run):
+This label indicates a section or mode related to an easy running activity.
+@@@arkTSText@@@
+
+户外行走 (Outdoor Walking) with icon:
+This component is probably a navigation button for an outdoor walking feature.
+@@@arkTSButton@@@
+
+GO button:
+This is an action button that likely starts a feature or process in the app.
+@@@arkTSButton@@@
+
+路线 (Route) with location icon:
+This is a route planning or map-related button, possibly for navigation or selecting a pathway.
+@@@arkTSButton@@@
+
+Grid icon:
+This icon likely represents a menu or organizational feature for viewing different options or modes.
+@@@arkTSIcon@@@
+
+剩余 3 次 (3 Remaining):
+This text indicates how many free trials or entries are left.
+@@@arkTSText@@@
+
+自定义 (Customize):
+This label likely refers to a feature allowing customization or personalized settings in the app.
+@@@arkTSText@@@
+为你推荐更合适的跑步方式:
+This is a text label that likely serves as a title or heading, suggesting it recommends a suitable running method.
+@@@arkTSText@@@
+
+Refresh button:
+This is an icon button, possibly for refreshing content or resetting settings within the app.
+@@@arkTSButton@@@
+
+"课程跑" (Course Run) text:
+This is a text label that indicates a specific type of running workout or session, labeled as "Course Run."
+@@@arkTSText@@@
+
+Hashtags:
+These text labels appear to serve as hashtags or keywords, likely for categorization or filtering of content.
+@@@arkTSText@@@
+
+"开始定制" (Start Customization) button:
+This is a button that likely initiates a customization process. It includes an icon, adding a visual cue.
+@@@arkTSButton@@@

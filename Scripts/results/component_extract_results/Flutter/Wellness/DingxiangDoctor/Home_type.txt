@@ -1,0 +1,106 @@
+新人义诊:
+This is a text widget displaying the label "新人义诊" which translates to "Newbie consultation." It indicates a feature, possibly related to medical consultations for new users.
+@@@Text@@@
+
+荨麻疹:
+This is a text widget displaying the condition "荨麻疹" which translates to "Urticaria." It likely represents a clickable tag related to the medical condition.
+@@@Text@@@
+
+查疾病:
+This section includes an icon depicting a virus or disease cell with text below it. The text "查疾病" translates to "Check Disease."
+@@@Column@@@
+
+首页:
+This is a text label "首页" translating to "Home." It's part of a bottom navigation bar indicating the current page.
+@@@Text@@@
+
+免费导诊:
+This is a text section that indicates "免费导诊" translating to "Free Consultation." It provides details about the free consulting service.
+@@@Column@@@
+
+三甲医生 双重审核 专业循证:
+This is a text section describing the level of certification: "三甲医生 双重审核 专业循证" translates to "Triple-A hospital doctors, double review, professional evidence-based verification."
+@@@Text@@@
+
+痛风:
+This is a text widget displaying the condition "痛风" which translates to "Gout." It likely represents a clickable tag related to the medical condition.
+@@@Text@@@
+
+视频问诊:
+This combined widget includes an icon of a video camera with text "视频问诊" that translates to "Video Consultation," indicating a feature for video consultations.
+@@@Row@@@
+
+查药品:
+This section includes an icon of a medicine bottle with text below it. The text "查药品" translates to "Check Drugs."
+@@@Column@@@
+皮肤科 (Dermatology):
+This icon appears to be a selectable item in a horizontal menu or grid to navigate to the dermatology section. It likely includes an icon above a text label.
+@@@Column@@@
+
+儿科 (Pediatrics):
+This icon, similar to the dermatology icon, is likely part of the same horizontal menu or grid and navigates to the pediatrics section. It includes an icon and a text label.
+@@@Column@@@
+
+妇产科 (Gynecology):
+This component is another selectable item, part of the horizontal menu or grid, for navigating to the gynecology section.
+@@@Column@@@
+
+消化内科 (Gastroenterology):
+This icon is likely part of a horizontal menu or grid to navigate to the gastroenterology section, containing an icon and a text label.
+@@@Column@@@
+
+更多科室 (More Departments):
+This is a selectable item in a horizontal menu or grid that opens up more medical departments. Contains an icon and a text label.
+@@@Column@@@
+
+问医生 (Ask Doctor):
+This icon within a circular background probably serves as a button to navigate to a section where users can ask doctors for advice.
+@@@Column@@@
+
+痤疮 (Acne):
+This is a text label likely contained within a rounded container, serving as a tag or button to filter by acne-related content.
+@@@Container@@@
+
+问医生 (Ask Doctor Black Icon):
+This icon and text combination likely serve as a button to navigate to a section to ask a doctor.
+@@@Column@@@
+
+缓解痛风的一个小习惯, 要坚持 (A Small Habit to Relieve Gout, Keep It Up):
+This container includes a headline and metadata, potentially clickable to navigate to detailed content. It may also include an action button.
+@@@Column@@@
+
+我的 (My):
+This icon likely navigates to the user's profile or settings section and is contained within the bottom navigation bar.
+@@@BottomNavigationBarItem@@@
+
+飞行员的眼力测试图 (Pilot's Eye Test Chart):
+This component is likely a list item that includes an image, text, and possibly a clickable action related to a pilot's vision test.
+@@@ListTile@@@
+
+甲状腺结节 (Thyroid Nodules):
+This is another text label likely inside a rounded container, possibly used as a tag or button for filtering by thyroid nodule content.
+@@@Container@@@
+
+每日辟谣 (Daily Rumor Debunking):
+This text within a container likely serves as a tag or button related to daily rumor debunking information.
+@@@Container@@@
+
+Envelope icon:
+This appears to be an icon likely used for navigating to messages or notifications within the app.
+@@@IconButton@@@
+
+"丁香医生" label:
+This is a text widget displaying the app's name. It provides branding and identification for the user.
+@@@Text@@@
+
+Search bar with "甲流发烧几天" text:
+This is a search input field that allows users to enter text queries, with a built-in search icon.
+@@@TextField@@@
+
+"免费导诊" label:
+This is a text widget indicating a free guide service, possibly for navigating health services.
+@@@Text@@@
+
+File with magnifying glass icon and "查病查药" label:
+This is a combination of an icon used for searching illnesses and medicines, along with text for explanation.
+@@@Column@@@

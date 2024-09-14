@@ -1,0 +1,111 @@
+Share icon:
+This is a Button component. It is likely used to allow users to share the selected PDF file.
+@@@Button@@@
+
+"Travel plan_America.pdf" label:
+This is a Text Functional Component. It displays the name of the PDF file.
+@@@Text Functional Component@@@
+
+Rename icon:
+This is a Button component. It is intended for renaming the selected PDF file.
+@@@Button@@@
+
+Time display (9:41):
+This is a Text component. It shows the current time on the device.
+@@@Text Functional Component@@@
+
+Search icon:
+This is a Button component. Its function is to allow users to search for specific PDF files in the file list.
+@@@Button@@@
+
+Menu icon (three horizontal lines):
+This is a Button component. It opens a menu or options panel.
+@@@Button@@@
+
+PDF icon:
+This is an Image component. It visually represents the file as a PDF.
+@@@Function Component@@@
+
+More options icon (three vertical dots):
+This is a Button component. It opens additional options or actions for the listed PDF file.
+@@@Button@@@
+
+Share button:
+This is a Button component. It is present in the modal and allows users to share the selected PDF file.
+@@@Button@@@
+
+
+Battery icon:
+This is a View Function Component. It's a part of the status bar, displaying the battery level of the device.
+@@@View Function Component@@@
+
+PDF file item with details:
+This is a View Function Component. It encapsulates file details such as name, size, and date, enabling users to interact with individual PDF files.
+@@@View Function Component@@@
+
+Signal icon:
+This is a View Function Component. It's a part of the status bar, showing the device's network signal strength.
+@@@View Function Component@@@
+
+Single PDF file item:
+This is a View Function Component. It represents a single PDF file with its name, date, and size, allowing users to select and manage the file.
+@@@View Function Component@@@
+
+Trash icon:
+This is a Button component. It's likely used to delete items, as indicated by its trash can design.
+@@@Button@@@
+
+"Delete" label:
+This is a Text Functional Component. It labels the adjacent delete button, providing clear functionality for users.
+@@@Text Functional Component@@@
+
+Single PDF file item with three dots:
+This is a View Function Component. It shows a file item with additional options accessible via the three dots (ellipsis) menu.
+@@@View Function Component@@@
+
+"PDF file management" title:
+This is a Text Functional Component. It displays the title of the page, indicating the purpose of the current screen.
+@@@Text Functional Component@@@
+
+WiFi icon:
+This is a View Function Component. It's a part of the status bar, showing the WiFi connection status of the device.
+@@@View Function Component@@@
+PDF file management ("PDF file management" text):
+This is a Text component. It's likely the main title of the screen indicating the purpose of this section.
+@@@Text Functional Component@@@
+
+Search icon:
+This is a Button component. It's typically used to allow the user to search through the PDF files.
+@@@Button@@@
+
+Filter icon (three horizontal lines):
+This is a Button component. It's generally used to open a filter menu to sort or categorize the PDF files.
+@@@Button@@@
+
+PDF icon and file name ("Travel plan_America.pdf"):
+This is a View Function Component. The View contains an Image (PDF icon) and a Text component (file name), combining them into one element for display.
+@@@View Function Component@@@
+
+Date and file size ("Oct 22, 2022    98KB"):
+This is a Text component. It provides additional information about the file, such as the date it was added or modified and its size.
+@@@Text Functional Component@@@
+
+Three vertical dots (more options icon):
+This is a Button component. It's typically used to display more options when tapped.
+@@@Button@@@
+
+Bottom sheet menu ("Share", "Rename", "Delete"):
+This is a View Function Component. The View contains a group of Button components designated for actions that a user can perform on the selected file.
+@@@View Function Component@@@
+
+Share icon and text ("Share"):
+This is a ButtonWithChildComponent. The button has an icon (Image) and a label (Text) to indicate that this is the sharing function.
+@@@Button@@@
+
+Rename icon and text ("Rename"):
+This is a ButtonWithChildComponent. The button has an icon (Image) and a label (Text) to indicate that this is the rename function.
+@@@Button@@@
+
+Delete icon and text ("Delete"):
+This is a ButtonWithChildComponent. The button has an icon (Image) and a label (Text) to indicate that this is the delete function.
+@@@Button@@@

@@ -1,0 +1,86 @@
+Feather pen icon button:
+This is a Button component. It serves as the action button for creating a new post or tweet.
+@@@Button@@@
+
+Feather pen icon button:
+This is a Button component. It serves as the action button for creating a new post or tweet.
+@@@Button@@@
+
+Sparkles icon:
+This is a Button component. It likely serves as a filter or settings option for adjusting the view or preferences of the feed.
+@@@Button@@@
+
+Profile image:
+This is an Image component. It displays the profile picture of a user.
+@@@Function Component@@@
+
+Header text: 'Kieron Dotson and Zack John liked...':
+This is a Text component. It provides details about user activity related to the post.
+@@@Text Functional Component@@@
+
+Separator line:
+This is a View component. It serves as a visual separator between different sections or items in the list.
+@@@View Function Component@@@
+
+Home icon button:
+This is a Button component. It serves as a navigation button to go to the user's home feed.
+@@@Button@@@
+
+Verified check mark:
+This is an Image component. It shows a verified badge next to a user's name.
+@@@Function Component@@@
+
+Notification dot:
+This is an Image component. It indicates a new notification or message.
+@@@Function Component@@@
+
+Woman with drinks image:
+This is likely an Image component used to display the profile picture of a user.
+@@@Function Component@@@
+
+WiFi icon:
+This is likely an Image component used to indicate the WiFi signal strength.
+@@@Function Component@@@
+
+Text in paragraph (He was an icon...):
+This is a Text component used to display a tweet's content.
+@@@Text Functional Component@@@
+
+Up arrow in crate:
+This is a Button component typically used to indicate an action like sharing or uploading.
+@@@Button@@@
+
+Show this thread:
+This is a Text component used as a clickable text for navigation purposes within the app to expand threads.
+@@@Text Functional Component@@@
+
+Bell icon:
+This is likely an Image component used to indicate the notification feature.
+@@@Function Component@@@
+
+Text in paragraph (But the end...):
+This is a Text component that displays additional content of a tweet.
+@@@Text Functional Component@@@
+
+Zack John liked karennne's tweet:
+This is a Text component indicating user interaction such as likes.
+@@@Text Functional Component@@@
+Profile picture of a user (first one):
+This is an Image component. It displays the profile picture of a user.
+@@@Function Component@@@
+
+Heart icon:
+This is a Button component. It likely allows users to like a tweet.
+@@@Button@@@
+
+Profile picture of a user (second one):
+This is an Image component. It displays the profile picture of a user.
+@@@Function Component@@@
+
+Search icon:
+This is a Button component. It is likely used for initiating a search action.
+@@@Button@@@
+
+Envelope icon:
+This is a Button component. It likely opens a direct messaging interface.
+@@@Button@@@

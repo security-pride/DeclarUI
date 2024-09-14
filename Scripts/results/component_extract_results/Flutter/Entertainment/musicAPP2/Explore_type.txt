@@ -1,0 +1,208 @@
+Hip Hop button:
+This is a button widget styled with a background color to represent a specific music genre filter.
+@@@ElevatedButton@@@
+
+Illegal Weapon 2.0 label:
+This is a text widget displaying the title of the currently playing track.
+@@@Text@@@
+
+9:41 time display:
+This is a text widget displaying the current time in the app.
+@@@Text@@@
+
+New Released label:
+This is a text widget indicating a section that shows newly released content.
+@@@Text@@@
+
+Image of a guitar:
+This is an image widget showing an album cover or related graphic content.
+@@@Image@@@
+
+Image of a band performance:
+This is an image widget showing a performance or event related to an album or artist.
+@@@Image@@@
+
+Library label:
+This is a text widget showing the label for the "Library" item in a bottom navigation bar or tab bar.
+@@@Text@@@
+
+Image of an artist (e.g., Justin Bieber):
+This is an image widget displaying a profile picture or a recognizable image of an artist.
+@@@Image@@@
+
+Image of another artist:
+This is an image widget displaying a profile picture or a recognizable image of another artist.
+@@@Image@@@
+
+Sam Smith label:
+This is a text widget that displays the artist's name.
+@@@Text@@@
+
+Music album image:
+This is an image widget that displays the cover photo of a music album.
+@@@Image@@@
+
+Search icon with label:
+This is a combination of an icon widget to represent the search functionality and a text widget to label it as “Search”.
+@@@Column@@@
+
+Baghi 3 and Various Artists label:
+This is a text widget that shows the title of the music (Baghi 3) and the artist's name (Various Artists).
+@@@Column@@@
+
+Musician performing image:
+This is an image widget displaying a musician performing on stage.
+@@@Image@@@
+
+Hindi T label:
+This is a text widget showing the label "Hindi T".
+@@@Text@@@
+
+Pop button:
+This is a button that allows users to select the Pop genre. It appears to have some styling, possibly an ElevatedButton or a TextButton with a container.
+@@@ElevatedButton@@@
+
+Drummer performing image:
+This is an image widget showing a drummer performing on stage.
+@@@Image@@@
+
+Black rounded rectangle:
+This appears to be a container with a black background and rounded corners, and is likely used as a placeholder or for decorative purposes.
+@@@Container@@@
+Component Keyword:
+"Recomanded for you" label
+This is a text widget displaying a section title, indicating personalized recommendations for the user.
+@@@Text@@@
+
+Component Keyword:
+Wireless icon
+This appears to be an icon indicating network status or connectivity, possibly a Wi-Fi status indicator.
+@@@Icon@@@
+
+Component Keyword:
+Singer image
+This component is likely a displayed image of an artist. The rounded corners suggest it is used for aesthetic purposes within a list or grid.
+@@@ClipRRect@@@
+
+Component Keyword:
+Guitar image
+This image likely represents an album or song cover, used in a list of music tracks. The rounding suggests usage within a grid or card.
+@@@ClipRRect@@@
+
+Component Keyword:
+Concert image
+This is a decorative banner or cover image, potentially for an event or concert. The aspect ratio and rounded corners imply a substantial UI component.
+@@@ClipRRect@@@
+
+Component Keyword:
+Fireworks image
+This image is likely used to depict a festival or celebration, with its rounded corners suggesting placement within a list or card.
+@@@ClipRRect@@@
+
+Component Keyword:
+Famous artist image
+This image component is likely used to represent a popular or featured artist. The rounded corners are typically styled within a grid or card format.
+@@@ClipRRect@@@
+
+Component Keyword:
+Pause button
+This is a button that allows users to pause media playback. The style suggests it's an interactable icon within a media control.
+@@@IconButton@@@
+
+Component Keyword:
+"No Time To Die" label
+This is a text widget showing the name of a track or media item, possibly part of a playlist or library feature.
+@@@Text@@@
+Sam Smith image:
+This is an image widget that likely displays the photo of a popular artist. It may be part of a grid or list in the app showing recommended or popular artists.
+@@@Image@@@
+
+Settings label:
+This is a text widget that represents a label for a settings option in a navigation bar or menu.
+@@@Text@@@
+
+Michael Jackson label:
+This is a text widget that displays the name of an artist. It might be part of an album, playlist, or artist list display.
+@@@Text@@@
+
+Trending ("Tredning") label:
+This is a text widget on the navigation bar which seems to denote a section or button for trending content, possibly misspelled.
+@@@Text@@@
+
+Fireworks image:
+This is an image widget that likely displays an event or album cover image, possibly used in a carousel or grid layout to showcase new releases or featured content.
+@@@Image@@@
+
+Signal icon:
+This likely represents an icon for signal strength or similar metric. It could be part of a status bar or informational display.
+@@@Icon@@@
+
+Justin Bieber label:
+This is a text widget displaying the name of an artist, part of a grid or list of popular artists.
+@@@Text@@@
+
+Baghi 3 and Various Artists label:
+This is a combination of text widgets displaying the name of a song or album along with the artists involved. It might be used in a list or grid layout.
+@@@Text@@@
+
+Recent Played label:
+This is a text widget indicating a section for recently played songs or albums, possibly used as a header in a list or grid view.
+@@@Text@@@
+Partyholics label:
+This is a text widget inside a button that allows users to filter or select a mood or genre.
+@@@TextButton@@@
+
+Loca label:
+This is a text widget that likely displays the name of a song.
+@@@Text@@@
+
+Image of a drummer:
+This is an image widget likely used to display an album cover or artist photo.
+@@@Image@@@
+
+Genres & Moods label:
+This is a text widget serving as a section header to categorize various genres and moods.
+@@@Text@@@
+
+Heart icon:
+This is an icon widget that likely serves as a button to add or remove items from favorites.
+@@@IconButton@@@
+
+Purple rounded rectangle:
+This appears to be a decorative background for a button.
+@@@Container@@@
+
+Illegal Weapon label:
+This is a text widget that likely displays the title of a song.
+@@@Text@@@
+
+Image of a singer with a microphone:
+This is an image widget likely used to display an artist or album cover.
+@@@Image@@@
+
+Home label:
+This is a text widget likely used as a label for a navigation icon.
+@@@Text@@@
+Various A:
+This is a text widget displaying part of the phrase "Various Artists".
+@@@Text@@@
+
+Image of a person:
+This is an image widget displaying a rounded image of a person.
+@@@ClipRRect@@@
+
+Baghi 3 - Various Artists:
+This is a text widget displaying the song or album title "Baghi 3" and the artist information "Various Artists".
+@@@Text@@@
+
+Person playing guitar:
+This is an image widget displaying a rounded image of a person playing the guitar.
+@@@ClipRRect@@@
+
+Popular Artist:
+This is a text widget displaying the section header "Popular Artist".
+@@@Text@@@
+
+Street Dancer 3D:
+This is a text widget displaying the song or album title "Street Dancer 3D".
+@@@Text@@@

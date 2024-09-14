@@ -1,0 +1,110 @@
+湖区 icon:
+This appears to be an icon coupled with a text label to represent activities or places related to lake areas.
+@@@Column@@@
+
+添加人数 label:
+This is a text widget that is used to guide users to add the number of people. Translation: "Add number of people".
+@@@Text@@@
+
+行程 icon:
+This icon likely represents the "Itinerary" section or feature of the app. 
+@@@Column@@@
+
+小木屋 icon:
+This icon likely represents the "Cabin" section or feature of the app.
+@@@Column@@@
+
+消息 icon:
+This icon, paired with the label "Messages", is likely used for navigating to the messages section of the app.
+@@@Column@@@
+
+Image with overlay text:
+This is a large image with descriptive text over it, probably representing some content or section of the app.
+@@@Stack@@@
+
+Search bar with action labels:
+This component appears to be a search bar with action labels, likely allowing users to input destination, dates, and number of people.
+@@@Row@@@
+
+王牌 icon:
+This icon likely represents the "Ace" section or feature of the app.
+@@@Column@@@
+
+我的 icon:
+This icon, paired with the label "My", is likely used for navigating to the user's personal section of the app.
+@@@Column@@@
+Search icon with "探索" label:
+This is a button that likely allows users to initiate a search within the app. The text label "探索" means "Explore".
+@@@IconButton@@@
+
+Heart icon with "心愿单" label:
+This is a button probably for saving items to a wishlist or favorites. The text label "心愿单" translates to "Wishlist".
+@@@IconButton@@@
+
+Journey icon with "行程" label:
+This button is likely used to navigate to a section that shows the user’s journeys or travel plans. The text label "行程" means "Itinerary".
+@@@IconButton@@@
+
+Message icon with "消息" label:
+This is a button that likely allows users to view their messages or notifications. The text label "消息" means "Messages".
+@@@IconButton@@@
+
+Profile icon with "我的" label:
+This button is probably for accessing the user’s profile or account settings. The text label "我的" translates to "My".
+@@@IconButton@@@
+
+House icon with "海景民宿" label:
+This is a button or icon representing the option to view sea-view vacation rentals. The text label "海景民宿" means "Sea View Homestay".
+@@@Icon@@@
+
+Swimming pool icon with "魅力泳池" label:
+This is a button or icon representing the option to view accommodations with charming swimming pools. The text label "魅力泳池" translates to "Charming Swimming Pools".
+@@@Icon@@@
+
+Landscape icon with "湖区" label:
+This is a button or icon representing the option to view lake district accommodations. 
+@@@Icon@@@
+
+Search bar:
+This is an input field where users can type in their search queries.
+@@@TextField@@@
+
+Date button with "添加日期" label:
+This button allows users to add a date to their search or itinerary. The text label "添加日期" means "Add Date".
+@@@TextButton@@@
+
+Number of people button with "添加人数" label:
+This button allows users to specify the number of people for a reservation. The text label "添加人数" means "Add People".
+@@@TextButton@@@
+
+Main image:
+This is an image widget displaying a picture related to the current selection or advertisement.
+@@@Image@@@
+
+Upload icon:
+This is a button that probably allows users to upload content or share the current selection.
+@@@IconButton@@@
+
+Text below main image:
+This is a text widget displaying additional information about the selected item or destination. It includes "在 X 学院参加训练" (Participating in training at X Academy), "房东: Jubilee" (Host: Jubilee), and "预订通道已关闭" (Booking channel closed).
+@@@Text@@@
+
+Page indicator:
+This is a widget indicating the current page in a set of pages, usually represented by dots.
+@@@Row@@@
+
+Tab icon with "小木屋" label:
+This is a button or icon representing the option for viewing cabin rentals. The text label "小木屋" means "Cabin".
+@@@Icon@@@
+
+Highlighted icon with star:
+This is a button or icon, likely highlighted to show the current selected option. It represents some prioritized or featured category.
+@@@Icon@@@
+
+Bottom navigation bar:
+This is a navigation bar allowing users to switch between different sections of the app.
+@@@BottomNavigationBar@@@
+
+Main container:
+This is the main pressing component of the app, which likely contains various child widgets.
+@@@Container@@@

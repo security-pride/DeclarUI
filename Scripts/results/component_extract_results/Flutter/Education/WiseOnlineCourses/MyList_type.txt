@@ -1,0 +1,81 @@
+Component Keyword:  
+This is a text widget displaying the word "Instructors" as a section title.  
+@@@Text@@@
+
+Component Keyword:  
+The text "Mendy Santiago" provides the name of an instructor or content creator.  
+@@@Text@@@
+
+Component Keyword:  
+This is likely an avatar image widget displaying a user's profile picture, potentially interacted with to view profile details.  
+@@@CircleAvatar@@@
+
+Component Keyword:  
+The search icon used for initiating a search query when tapped by the user.  
+@@@IconButton@@@
+
+Component Keyword:  
+This image appears to be a thumbnail for a video content item, with a duration overlay displaying "08:12".  
+@@@Stack@@@
+
+Component Keyword:  
+An image widget displaying a photo of a guitar instructor, possibly used within a list of instructors.  
+@@@ClipRRect@@@
+
+Component Keyword:  
+An icon representing downloads or notifications, placed on a navigation bar for user interaction.  
+@@@IconButton@@@
+
+Component Keyword:  
+The text "John Wiseberg" provides the name of a content creator or instructor associated with specific content.  
+@@@Text@@@
+
+Component Keyword:  
+The text "Boniface Esanji" indicates the name of an instructor, potentially clickable to view details.  
+@@@Text@@@
+Gift yourself this UI Kit and enjoy!:
+This text describes a lesson or feature in the app, likely serving as a title or subtitle for a course or video.
+@@@Text@@@
+
+Lessons:
+This is a header or section title used to categorize content related to lessons within the app.
+@@@Text@@@
+
+Image with timestamp (12:38):
+This component seems to include an image and a caption or overlay showing the duration or time left for a video lesson.
+@@@Stack@@@
+
+My List:
+This text likely represents a tab or menu item that indicates the "My List" section, possibly highlighted to show it is the active section.
+@@@Text@@@
+
+Image thumbnail with timestamp (12:38):
+Similar to the previous image, this component serves as a video thumbnail with a timestamp overlay, typically part of a list or grid.
+@@@Stack@@@
+
+Make your Mess Your Message:
+This is a title or description of a video lesson or article, likely placed next to an image or thumbnail.
+@@@Text@@@
+
+Home:
+This is a text indication for a navigation tab or section button, portraying a category such as "Home" for initial user navigation.
+@@@Text@@@
+
+House icon:
+This icon represents a home button, potentially placed in the bottom navigation bar for easy access to the main screen.
+@@@IconButton@@@
+
+Teaches Guitar:
+This is a subtitle or description under an instructor’s name, providing additional context about their expertise.
+@@@Text@@@
+Component Keyword:
+Image with duration overlay
+Component Function Description:
+This is an image widget displaying a thumbnail for a video lesson, with a duration label overlay in the bottom left corner, indicating the length of the video.
+@@@Stack@@@
+
+Component Keyword:
+Duration label
+Component Function Description:
+This is a text widget that shows the duration of the video lesson, overlaid on the image.
+@@@Text@@@

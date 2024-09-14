@@ -1,0 +1,50 @@
+Ellipsis button:
+This is a button that likely serves as an options button to reveal a dropdown menu or additional settings.
+@@@arkTSButton@@@
+
+Create Board button:
+This button likely allows users to create a new board or project.
+@@@arkTSButton@@@
+
+User profile name:
+This is a text element showing the user's name.
+@@@arkTSText@@@
+
+Events button:
+This button is likely used to navigate to or display events.
+@@@arkTSButton@@@
+
+Work task label:
+This text element displays a category and the number of tasks within that category.
+@@@arkTSText@@@
+
+Private task label:
+This text element displays a category and the number of tasks within that category.
+@@@arkTSText@@@
+
+Bottom navigation bar:
+This component likely serves as the main navigation bar at the bottom of the app, containing multiple navigation buttons.
+@@@arkTSNavigation@@@
+
+Meeting task label:
+This text element displays a category and the number of tasks within that category.
+@@@arkTSText@@@
+
+User profile image:
+This component displays the user's profile picture.
+@@@arkTSImage@@@
+Personal Category 1:
+This button is a category labeled "Personal" with an icon indicating it relates to personal tasks. The number of tasks in this category is shown below the text.
+@@@arkTSButton@@@
+
+Events Category:
+This button is a category labeled "Events" with an icon depicting a calendar to signify event-related tasks. It also shows the number of tasks, which is 4 in this case.
+@@@arkTSButton@@@
+
+Personal Category 2:
+This is another instance of the "Personal" category button, which includes an icon for personal tasks and the number of tasks it contains.
+@@@arkTSButton@@@
+
+Work and Meeting Categories:
+These are two category buttons. The "Work" button represents work-related tasks, indicated by a briefcase icon, and the "Meeting" button represents meeting tasks, indicated by a group icon. Both buttons display the number of tasks in each category.
+@@@arkTSButton@@@

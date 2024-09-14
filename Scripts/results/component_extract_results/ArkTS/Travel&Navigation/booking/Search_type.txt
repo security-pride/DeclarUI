@@ -1,0 +1,62 @@
+Component Keyword:
+This icon likely represents the user's account profile and provides access to account settings and personal information.
+@@@arkTSIcon@@@
+
+Component Keyword:
+This icon is a search button that allows users to initiate a search within the app.
+@@@arkTSIcon@@@
+
+Component Keyword:
+This is a search bar where users can input text to search for different locations or items within the app.
+@@@arkTSTextInput@@@
+
+Component Keyword:
+This is a text field showing the number of rooms and guests specified for a search.
+@@@arkTSText@@@
+
+Component Keyword:
+This icon likely represents saved items, such as favorites or bookmarks.
+@@@arkTSIcon@@@
+
+Component Keyword:
+This icon likely represents the user's booking history or orders.
+@@@arkTSIcon@@@
+
+Component Keyword:
+This text component displays location information and pricing details for a hotel.
+@@@arkTSText@@@
+
+Component Keyword:
+This icon likely represents notifications or alerts.
+@@@arkTSIcon@@@
+
+Component Keyword:
+This text label translates to "Last minute?" and likely introduces a section for last-minute deals or offers.
+@@@arkTSText@@@
+Search Button:
+This appears to be a search button that, when clicked, initiates a search action.
+@@@arkTSButton@@@
+
+Hotel Distance and Price Label:
+This is a text label displaying the distance of the hotel from the user's location and the price of the room.
+@@@arkTSText@@@
+
+Date Selector:
+This component is likely a date picker or calendar input that allows users to select dates.
+@@@arkTSDatePicker@@@
+
+Hotel Name and Distance Label:
+This text label displays the name of the hotel and the distance from the user's location.
+@@@arkTSText@@@
+
+App Logo:
+This is an image component displaying the app's logo.
+@@@arkTSImage@@@
+
+Hotel Exterior Image:
+This image component likely shows the exterior or facade of a hotel, used to give users a visual representation of the property.
+@@@arkTSImage@@@
+
+Hotel Exterior Image (Night View):
+This image component likely depicts a different view or exterior shot of a hotel, possibly at night, providing users with another visual representation of the property.
+@@@arkTSImage@@@

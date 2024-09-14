@@ -1,0 +1,84 @@
+My parcels label:
+This is a text widget that shows the section title where users can see their parcels.
+@@@Text@@@
+
+QR code icon:
+This appears to be a button that allows users to scan a QR code for tracking parcels.
+@@@IconButton@@@
+
+Tracking number placeholder:
+This is a text widget acting as a placeholder within a TextField, guiding the user to input the tracking number.
+@@@Text@@@
+
+Send parcel:
+This icon and text combination likely serves as a navigation item allowing users to send a parcel.
+@@@BottomNavigationBarItem@@@
+
+Track parcel label:
+This text widget serves as a heading, indicating to users that they can track their parcels in this section.
+@@@Text@@@
+
+Parcel center:
+This icon and text combination likely serves as a navigation item allowing users to visit the parcel center.
+@@@BottomNavigationBarItem@@@
+
+Wi-Fi icon:
+This likely represents the connectivity status of the mobile device.
+@@@Icon@@@
+
+My parcels (active):
+This icon and text combination, likely part of a bottom navigation bar, indicates the active page where users can view their parcels.
+@@@BottomNavigationBarItem@@@
+
+User avatar:
+This is an image widget that shows the user's avatar or profile picture, typically on the top-right corner of the screen.
+@@@CircleAvatar@@@
+
+
+Track parcel label:
+This text indicates the main function of the screen, which is to track parcels.
+@@@Text@@@
+
+Enter parcel number or scan QR code label:
+This text provides instructions to the user, prompting them to enter a parcel number or scan a QR code.
+@@@Text@@@
+
+Tracking number field:
+This is an input field where the user can enter the tracking number for their parcel.
+@@@TextField@@@
+
+QR code icon button:
+This button likely initiates a QR code scanner, allowing the user to scan the code to track their parcel.
+@@@IconButton@@@
+
+Track parcel button:
+This is a button that the user presses to initiate the parcel tracking process.
+@@@ElevatedButton@@@
+
+My parcels label:
+This text denotes a section of the app where the user’s tracked parcels are listed.
+@@@Text@@@
+
+Parcel status card:
+This component displays information about a specific parcel, including its tracking number, status, last update time, and associated brand (e.g., Amazon). It may contain multiple child widgets.
+@@@Card@@@
+
+Progress bar:
+This is a visual element indicating the progress of the parcel delivery.
+@@@LinearProgressIndicator@@@
+
+Details button:
+Allows the user to view more detailed information about the parcel.
+@@@TextButton@@@
+
+Bottom navigation bar:
+This component provides navigation to different sections of the app, such as "My parcels," "Send parcel," and "Parcel center."
+@@@BottomNavigationBar@@@
+
+Signal strength icon:
+Indicates the signal strength of the device.
+@@@Icon@@@
+
+Time display:
+Shows the current time.
+@@@Text@@@

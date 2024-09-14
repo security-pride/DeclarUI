@@ -1,0 +1,93 @@
+自由跑 (Free Run) label:
+This is a TextFunctionalComponent. It's likely a label for the Free Run option in the running app interface.
+@@@TextFunctionalComponent@@@
+
+目标跑 (Goal Run) label:
+This is a TextFunctionalComponent. It's likely a label for the Goal Run option in the running app interface.
+@@@TextFunctionalComponent@@@
+
+跳绳 (Jump Rope) label with icon:
+This is an Image component. It combines an icon representing jump rope with a text label for jump rope functionality in the fitness app.
+@@@FunctionComponent@@@
+
+帮你 轻松面对 (Help You Easily Face) label:
+This is a TextFunctionalComponent. It's a label that provides motivational text to the users.
+@@@TextFunctionalComponent@@@
+
+跑鞋 (Running Shoes) icon with label:
+This is a combination of Image and Text components. It could be a button that leads to a section regarding running shoes within the app.
+@@@FunctionComponent@@@
+
+运动日历 (Exercise Calendar) label with icon:
+This is an Image component. It combines an icon representing the exercise calendar with a text label for calendar functionality.
+@@@FunctionComponent@@@
+
+公里 (Kilometer) label:
+This is a TextFunctionalComponent. It provides information on distance metrics within the app interface.
+@@@TextFunctionalComponent@@@
+
+Hi~ 我是你的轻松跑教练 (Hi~ I'm your easy running coach) label:
+This is a TextFunctionalComponent. It is used to introduce the running coach feature to the users.
+@@@TextFunctionalComponent@@@
+
+户外跑步 (Outdoor Running) label with icon:
+This is an Image component. It combines an icon representing outdoor running with a text label for the outdoor running mode.
+@@@FunctionComponent@@@
+限时免费 label:
+This is a Text Functional Component. It indicates that there is a limited-time free offering available.
+@@@Text Functional Component@@@
+
+App logo:
+This is an ImageBackground component. It serves as the logo of the application.
+@@@ImageBackground@@@
+
+轻松跑 (Easy Run) label:
+This is a Text Functional Component. Indicates a selectable tab for an easy running option within the app.
+@@@Text Functional Component@@@
+
+户外行走 (Outdoor Walk) icon:
+This is a Function Component. It represents an icon for the outdoor walking feature in the app.
+@@@Function Component@@@
+
+GO button:
+This is a Button component. This button is likely used to start an action, such as beginning a run.
+@@@Button@@@
+
+路线 (Route) button:
+This is a Button component. It likely opens a feature related to route selection or route tracking.
+@@@Button@@@
+
+Dashboard icon:
+This is a Function Component. It represents an icon for the dashboard or a menu feature within the app.
+@@@Function Component@@@
+
+剩余3次 (3 Times Left) label:
+This is a Text Functional Component. It informs the user about the remaining count of a particular action or item.
+@@@Text Functional Component@@@
+
+自定义 (Custom) label:
+This is a Text Functional Component. Indicates a selectable tab for custom options within the app.
+@@@Text Functional Component@@@
+Component Keyword:
+This is a Text Functional Component. It appears at the top of the screen and likely provides a description or suggestion for a running method.
+@@@Text Functional Component@@@
+
+Component Keyword:
+This is a Button component. It features a light bulb icon and initiates a customization or setup process.
+@@@Button@@@
+
+Component Keyword:
+This is a Button component. It features circular arrows and is likely used to refresh or update the current view.
+@@@Button@@@
+
+Component Keyword:
+This is a Text Functional Component. It represents a tab or category titled "课程跑" which translates to "Course Run".
+@@@Text Functional Component@@@
+
+Component Keyword:
+This is a Text Functional Component. It represents hashtags that could be related to running benefits or categories like "#Efficient Fat Loss" and "#Breathe Easy".
+@@@Text Functional Component@@@
+
+Component Keyword:
+This is a Button component. It features a label "开始定制" ("Start Customization") and an icon indicating initiating a customization or setup process.
+@@@Button@@@

@@ -1,0 +1,214 @@
+Search bar:
+This appears to be a search input field that allows users to enter text for searching content within the app.
+@@@arkTSTextField@@@
+
+Profile Picture "F":
+This image represents a user's profile picture or icon within a list of suggestions.
+@@@arkTSImage@@@
+
+"Recent searches" label:
+This is a text label that indicates a section for the user's previous search queries.
+@@@arkTSText@@@
+
+Profile Picture "V":
+This image represents a user's profile picture or icon within a list of suggestions.
+@@@arkTSImage@@@
+
+Profile Picture "I":
+This image represents a user's profile picture or icon within a list of suggestions.
+@@@arkTSImage@@@
+
+Text input field:
+This component is an active text input field where users can type their search queries.
+@@@arkTSTextField@@@
+
+Profile Picture "E":
+This image represents a user's profile picture or icon within a list of suggestions.
+@@@arkTSImage@@@
+
+Verification badge:
+This is a badge indicating that the profile is verified, generally seen next to a profile picture or username.
+@@@arkTSImage@@@
+
+Profile Picture "Q":
+This image represents a user's profile picture or icon within a list of suggestions.
+@@@arkTSImage@@@
+
+Figma logo with text "Figma":
+This component represents an element which includes an image (possibly a logo) with corresponding text.
+@@@arkTSImage@@@
+Search bar:
+This appears to be a search input field that allows users to enter text for searching content within the app.
+@@@arkTSSearch@@@
+
+Space bar:
+This is a space button typically found on a virtual keyboard, used to insert a space between words in the text input field.
+@@@arkTSButton@@@
+
+User profile picture and name:
+This is an image combined with a text label, likely representing a user's profile picture and initials or partial name, used to identify a user.
+@@@arkTSImageText@@@
+
+Search Twitter:
+This is a placeholder text inside the search bar indicating what action can be taken, specifically to search within Twitter.
+@@@arkTSPlaceholder@@@
+
+Keyboard letter key:
+This is a key button on a virtual keyboard, specifically the letter "R".
+@@@arkTSKey@@@
+
+Keyboard letter key:
+This is a key button on a virtual keyboard, specifically the letter "W".
+@@@arkTSKey@@@
+
+Icon:
+This is a small puzzle piece icon, likely used to represent a specific function or identifier within the app.
+@@@arkTSIcon@@@
+
+User profile picture and name:
+This is an image combined with a text label, likely representing a user's profile picture and initials or partial name, used to identify a user.
+@@@arkTSImageText@@@
+
+Keyboard letter key:
+This is a key button on a virtual keyboard, specifically the letter "L".
+@@@arkTSKey@@@
+
+Keyboard letter key:
+This is a key button on a virtual keyboard, specifically the letter "S".
+@@@arkTSKey@@@
+Cancel button:
+This functions as a button to cancel or exit the current search or action.
+@@@arkTSButton@@@
+
+Keyboard letter "D":
+This is a keyboard key used to input the letter "D".
+@@@arkTSKey@@@
+
+Keyboard letter "K":
+This is a keyboard key used to input the letter "K".
+@@@arkTSKey@@@
+
+Emoji icon:
+This icon opens the emoji picker for adding emojis to text input.
+@@@arkTSIconButton@@@
+
+"123" key:
+This button shifts the keyboard input to numbers and symbols.
+@@@arkTSSwitchKey@@@
+
+Keyboard letter "G":
+This is a keyboard key used to input the letter "G".
+@@@arkTSKey@@@
+
+Keyboard letter "N":
+This is a keyboard key used to input the letter "N".
+@@@arkTSKey@@@
+
+Keyboard letter "U":
+This is a keyboard key used to input the letter "U".
+@@@arkTSKey@@@
+
+Keyboard letter "X":
+This is a keyboard key used to input the letter "X".
+@@@arkTSKey@@@
+Search bar:
+This appears to be a search input field that allows users to enter text for searching content within the app.
+@@@arkTSSearch@@@
+
+Key "0":
+This is a button representing the number zero, commonly part of a virtual keyboard or keypad.
+@@@arkTSButton@@@
+
+Key "C":
+This is a button representing the letter C, commonly part of a virtual keyboard.
+@@@arkTSButton@@@
+
+Key "Z":
+This is a button representing the letter Z, commonly part of a virtual keyboard.
+@@@arkTSButton@@@
+
+User profile with name and handle:
+This component is a user profile display typically showing a profile picture alongside the user's name and handle.
+@@@arkTSProfile@@@
+
+Microphone icon:
+This is an icon representing a microphone, likely used to initiate voice input or commands.
+@@@arkTSIcon@@@
+
+User profile with verified checkmark:
+This component is a user profile display that includes a verification badge next to the username and handle.
+@@@arkTSProfileVerified@@@
+
+Key "H":
+This is a button representing the letter H, commonly part of a virtual keyboard.
+@@@arkTSButton@@@
+
+Space bar:
+This component is the space bar button on a virtual keyboard, used to insert spaces between words.
+@@@arkTSSpaceBar@@@
+
+Key "A":
+This is a button representing the letter A, commonly part of a virtual keyboard.
+@@@arkTSButton@@@
+Search bar:
+This appears to be a search input field that allows users to enter text for searching content within the app.
+@@@arkTSSearch@@@
+
+M character:
+This is a keyboard key for entering the letter 'M' into the input field.
+@@@arkTSKeyboardKey@@@
+
+Backspace key:
+This is a keyboard key used to delete the character before the cursor in an input field.
+@@@arkTSKeyboardKey@@@
+
+P character:
+This is a keyboard key for entering the letter 'P' into the input field.
+@@@arkTSKeyboardKey@@@
+
+Profile picture:
+This component displays a user's profile picture, often used for user identification.
+@@@arkTSImage@@@
+
+J character:
+This is a keyboard key for entering the letter 'J' into the input field.
+@@@arkTSKeyboardKey@@@
+
+Cursor arrow:
+This indicates the cursor or selection movement within the application, often seen during typing or selection.
+@@@arkTSCursor@@@
+
+Go button:
+This is a button to submit or confirm an action, often accompanying a search or input field.
+@@@arkTSButton@@@
+
+Y character:
+This is a keyboard key for entering the letter 'Y' into the input field.
+@@@arkTSKeyboardKey@@@
+
+B character:
+This is a keyboard key for entering the letter 'B' into the input field.
+@@@arkTSKeyboardKey@@@
+Tibitha profile image:
+This component displays a user's profile picture along with their name and handle, providing a visual identity for users.
+@@@arkTSAvatar@@@
+
+Letter T:
+This is a single character text, possibly used for labeling or typographic purposes.
+@@@arkTSText@@@
+
+Figma username:
+This component shows a username with a possible verification badge, indicating the authenticity of the account.
+@@@arkTSBadge@@@
+
+Signal bars:
+These bars typically denote signal strength or connectivity status, often seen in status bars.
+@@@arkTSStatusIndicator@@@
+
+Up arrow:
+This symbol is usually a button that suggests an action, such as sending a message or submitting a form.
+@@@arkTSIconButton@@@
+
+Time display:
+A text component that shows the current time, commonly found in status bars.
+@@@arkTSText@@@

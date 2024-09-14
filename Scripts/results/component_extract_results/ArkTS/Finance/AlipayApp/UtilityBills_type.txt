@@ -1,0 +1,94 @@
+Component Keyword:
+Back and Location Text Label
+This component displays a back arrow and city name, likely allowing users to navigate to a previous screen or see their selected location.
+@@@arkTSText@@@
+
+Component Keyword:
+Telephone Icon and Label
+This component represents a service category icon with the text "固话" (Fixed Line), indicating options for fixed line telecommunication charges.
+@@@arkTSButton@@@
+
+Component Keyword:
+Section Header
+The component with the text "如何进行线上缴费" (How to Pay Online) is a header label for a section guiding the user.
+@@@arkTSText@@@
+
+Component Keyword:
+Main Title Label
+This text "生活缴费" (Utility Bills) is the main title for the application section, indicating the app's main functionality.
+@@@arkTSText@@@
+
+Component Keyword:
+Membership Points Information
+This text "水电燃气获得会员积分" (Earn Points with Utility Payments) provides information about the bonus for payments.
+@@@arkTSText@@@
+
+Component Keyword:
+Notification Icon and Text Label
+The "出账通知" (Billing Notification) is likely a label indicating notifications related to billing.
+@@@arkTSText@@@
+
+Component Keyword:
+Electricity Bill Component
+This component includes an electricity icon, charge information, and a button labeled "立即添加" (Add Now), likely for adding bill payments.
+@@@arkTSCard@@@
+
+Component Keyword:
+Gas Bill Component
+This component includes a gas icon and a button labeled "立即添加" (Add Now), for adding gas payments.
+@@@arkTSCard@@@
+
+Component Keyword:
+Property Fee Icon and Label
+This component represents a service category icon with the text "物业费" (Property Fee), indicating a category for property-related fees.
+@@@arkTSButton@@@
+Ellipsis and camera button:
+These are likely buttons for additional options (ellipsis) and accessing the camera (circle with dot).
+@@@arkTSButton@@@
+
+"选择缴费类型，输入缴费单位" (Choose payment type, input payment unit) text:
+This text provides instructions to the user on how to proceed with the payment.
+@@@arkTSText@@@
+
+Checkmark icon:
+Used to indicate a completed task or a selection.
+@@@arkTSIcon@@@
+
+"随时可缴" (Pay anytime) text with checkmark:
+Provides information or a status, indicating that payment can be done at any time.
+@@@arkTSText@@@
+
+"转供缴费" (Transfer Payment) button:
+A button for initiating the transfer payment process.
+@@@arkTSButton@@@
+
+"暖气费" (Heating Fee) button:
+A button for accessing or paying the heating fee.
+@@@arkTSButton@@@
+
+"极速到账" (Fast Arrival) text:
+Text indicating that the payment will be processed quickly.
+@@@arkTSText@@@
+
+"有线电视" (Cable TV) button:
+A button for accessing or paying the cable TV fee.
+@@@arkTSButton@@@
+
+Blue circular icon:
+Likely used to represent a specific feature or service within the app.
+@@@arkTSIcon@@@
+Broadband icon:
+This icon likely represents a category for broadband services. Users may interact with it to explore or manage broadband options.
+@@@arkTSIcon@@@
+
+Step marker "1":
+This component is an indicator used to display steps in a process, guiding the user through a series of actions.
+@@@arkTSStepIndicator@@@
+
+Water utility item:
+This component is a list item representing a water utility bill, with a button for immediate action such as adding or paying.
+@@@arkTSListItem@@@
+
+Mobile icon:
+This icon represents a mobile services category. It is used to navigate to options related to mobile service management.
+@@@arkTSIcon@@@

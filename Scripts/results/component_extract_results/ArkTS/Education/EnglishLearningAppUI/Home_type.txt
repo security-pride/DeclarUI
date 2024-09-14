@@ -1,0 +1,82 @@
+Component Keyword:
+Displays the current time in hours and minutes.
+@@@arkTSTime@@@
+
+Component Keyword:
+Represents a notification indicator showing an unread message count.
+@@@arkTSBadge@@@
+
+Component Keyword:
+Displays a thumbnail image representing a video with a timestamp overlay indicating its duration.
+@@@arkTSVideoThumbnail@@@
+
+Component Keyword:
+Displays a circular image, possibly representing a user profile picture.
+@@@arkTSAvatar@@@
+
+Component Keyword:
+A call-to-action button with text prompting users to start a free lesson.
+@@@arkTSButton@@@
+
+Component Keyword:
+A header greeting message text.
+@@@arkTSText@@@
+
+Component Keyword:
+A section header indicating the topic or title of a content block.
+@@@arkTSText@@@
+
+Component Keyword:
+A bottom navigation bar providing quick access to different sections of the app.
+@@@arkTSBottomBar@@@
+
+Component Keyword:
+A tab indicating a different section of an app, likely part of a navigation or menu.
+@@@arkTSTab@@@
+
+Component Keyword:
+This is an icon that likely represents notifications, with a badge indicating the number of unread alerts.
+@@@arkTSBadge@@@
+
+Component Keyword:
+This is a label indicating the active section or tab within the app, suggesting new content is available.
+@@@arkTSTab@@@
+
+Component Keyword:
+This is an avatar image, likely used to represent a user profile or contact within the app.
+@@@arkTSImage@@@
+
+Component Keyword:
+This appears to be an image or media card, possibly for displaying content like a photo or video within a feed.
+@@@arkTSImage@@@
+
+Component Keyword:
+This is a slider indicating the progression through a playlist, video, or audio content.
+@@@arkTSProgress@@@
+
+Component Keyword:
+This is a text label that indicates the username or contact name associated with a piece of content.
+@@@arkTSText@@@
+
+Component Keyword:
+This is a text label that indicates the username or contact name associated with a piece of content.
+@@@arkTSText@@@
+
+Component Keyword:
+This is an input field, possibly for user text input or form submission within the app.
+@@@arkTSInput@@@
+
+Component Keyword:
+These are signal strength indicators, likely used to display network connection strength.
+@@@arkTSIcon@@@
+Component Keyword:
+This appears to be a descriptive text label providing information or instructions within the app.
+@@@arkTSText@@@
+
+Component Keyword:
+This is a text label in a different language, likely providing localized content or instructions within the app.
+@@@arkTSText@@@
+
+Component Keyword:
+This is a clickable text label that directs users to another section of the app or an extended list of items.
+@@@arkTSButton@@@

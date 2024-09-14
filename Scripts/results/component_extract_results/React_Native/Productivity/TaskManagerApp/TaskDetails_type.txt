@@ -1,0 +1,182 @@
+Back arrow icon:
+This is a Button component. It likely serves as a navigation tool, allowing users to return to the previous screen or menu.
+@@@Button@@@
+
+Sub task list item (Website Design):
+This is a View Function Component used in conjunction with Text Functional Components. It displays a sub-task item with text and a checkbox for interaction.
+@@@View Function Component@@@
+
+Sub task list item (Website Redesign):
+This is a View Function Component used in conjunction with Text Functional Components. It displays a sub-task item with text and a checkbox for interaction.
+@@@View Function Component@@@
+
+Header with back arrow and title:
+This is a View Function Component used to display the navigation bar of the app, containing a back button and the title of the current screen.
+@@@View Function Component@@@
+
+Time duration:
+This is a Text Functional Component displaying the time for a task. It provides information on the task schedule.
+@@@Text Functional Component@@@
+
+Pie chart with legend:
+This is a View Function Component, possibly including an ImageBackground to represent a pie chart and Text Functional Components for the respective legend items. It provides a visual representation of task progress.
+@@@View Function Component@@@
+
+Sub Task label:
+This is a Text Functional Component. It serves as a section title, indicating the start of the sub-task items list.
+@@@Text Functional Component@@@
+
+Time display:
+This is a Text Functional Component that displays the current time in the status bar.
+@@@Text Functional Component@@@
+
+Date display for task:
+This is a Text Functional Component displaying the task date. It provides date information for a task.
+@@@Text Functional Component@@@
+### Component Images and Analysis
+
+1. Component Image:
+
+![Component 1](https://example.com/component1.png)
+
+    Component Keyword:
+    This is a back arrow icon, likely used for navigation to go back to the previous screen.
+    @@@Button@@@
+
+2. Component Image:
+
+![Component 2](https://example.com/component2.png)
+
+    Component Keyword:
+    This label reads "Task Details" and is the title text of the screen, indicating the section the user is currently viewing.
+    @@@Text Functional Component@@@
+
+3. Component Image:
+
+![Component 3](https://example.com/component3.png)
+
+    Component Keyword:
+    This label reads "User experience design," serving as a subheading for the section detailing the task's title.
+    @@@Text Functional Component@@@
+
+4. Component Image:
+
+![Component 4](https://example.com/component4.png)
+
+    Component Keyword:
+    This section displays the date "18-02-2022". It is for showing the date of the task.
+    @@@View Functional Component@@@
+
+5. Component Image:
+
+![Component 5](https://example.com/component5.png)
+
+    Component Keyword:
+    This section shows the time "9:00 AM-12:00 PM", indicating the scheduled time for the task.
+    @@@View Functional Component@@@
+
+6. Component Image:
+
+![Component 6](https://example.com/component6.png)
+
+    Component Keyword:
+    A pie chart representing different task statuses (Finish on time, Past the deadline, Still ongoing).
+    @@@ImageBackground@@@
+
+7. Component Image:
+
+![Component 7](https://example.com/component7.png)
+
+    Component Keyword:
+    These are text labels "Finish on time", "Past the deadline", and "Still ongoing" describing the statuses in the pie chart.
+    @@@Text Functional Component@@@
+
+8. Component Image:
+
+![Component 8](https://example.com/component8.png)
+
+    Component Keyword:
+    This label reads "Description", serving as a subheading for the description section of the task.
+    @@@Text Functional Component@@@
+
+9. Component Image:
+
+![Component 9](https://example.com/component9.png)
+
+    Component Keyword:
+    This is the task description text, outlining the details of the task.
+    @@@Text Functional Component@@@
+
+10. Component Image:
+
+![Component 10](https://example.com/component10.png)
+
+    Component Keyword:
+    This section contains the text "See more," likely a clickable text to expand the description.
+    @@@Text Functional Component@@@
+
+11. Component Image:
+
+![Component 11](https://example.com/component11.png)
+
+    Component Keyword:
+    This label reads "Sub Task", indicating the section where the subtasks related to the primary task are listed.
+    @@@Text Functional Component@@@
+
+12. Component Image:
+
+![Component 12](https://example.com/component12.png)
+
+    Component Keyword:
+    This is a checkbox for a subtask indicating its completion status.
+    @@@TouchableOpacity Function Component@@@
+
+13. Component Image:
+
+![Component 13](https://example.com/component13.png)
+
+    Component Keyword:
+    This subtask title reads "Website Redesign," showing the name of the subtask.
+    @@@Text Functional Component@@@
+
+14. Component Image:
+
+![Component 14](https://example.com/component14.png)
+
+    Component Keyword:
+    This is the date "18 Feb 2022" for the subtask, showing when the subtask is scheduled.
+    @@@Text Functional Component@@@
+
+15. Component Image:
+
+![Component 15](https://example.com/component15.png)
+
+    Component Keyword:
+    This is a three-dot menu icon likely used for additional options/actions for the subtask.
+    @@@TouchableOpacity Function Component@@@
+
+16. Component Image:
+
+![Component 16](https://example.com/component16.png)
+
+    Component Keyword:
+    This is a subtask title "Website Design", showing the name of another subtask.
+    @@@Text Functional Component@@@
+
+17. Component Image:
+
+![Component 17](https://example.com/component17.png)
+
+    Component Keyword:
+    This is the date "19 Feb 2022" for another subtask, showing when the subtask is scheduled.
+    @@@Text Functional Component@@@
+
+18. Component Image:
+
+![Component 18](https://example.com/component18.png)
+
+    Component Keyword:
+    This is another three-dot menu icon similar to the previous, used for additional options/actions for the subtask.
+    @@@TouchableOpacity Function Component@@@
+
+Please make sure to substitute the placeholder URLs (e.g., `https://example.com/component1.png`) with the actual URLs or paths provided.

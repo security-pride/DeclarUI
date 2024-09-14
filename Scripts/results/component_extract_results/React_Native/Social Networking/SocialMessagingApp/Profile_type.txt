@@ -1,0 +1,81 @@
+Muted notification switch:
+This is a Switch component. It allows users to enable or disable notifications.
+@@@Switch@@@
+
+Custom notifications label:
+This is a Text component. It labels the section for custom notification settings.
+@@@Text Functional Component@@@
+
+Media label:
+This is a Text component. It is the label for the "Media" tab, indicating a section for media-related content.
+@@@Text Functional Component@@@
+
+Mobile label:
+This is a Text component. It indicates that the associated phone number is a mobile number.
+@@@Text Functional Component@@@
+
+Date label:
+This is a Text component. It displays the date, likely indicating when the user's status was last updated or something similar.
+@@@Text Functional Component@@@
+
+Video call button:
+This is a Button component. It likely initiates a video call when pressed.
+@@@Button@@@
+
+Phone number label:
+This is a Text component. It displays the user's phone number.
+@@@Text Functional Component@@@
+
+Desciption label:
+This is a Text component. It shows the user's description or some additional information.
+@@@Text Functional Component@@@
+
+Muted notifications toggle:
+This is a Switch component. It allows users to toggle the mute notifications setting.
+@@@Switch@@@
+WiFi icon:
+This is an Image component. It represents the WiFi signal and indicates the network status.
+@@@Function Component@@@
+
+Profile section with avatar and status:
+This is a View component. It includes the user's avatar, name, and online status.
+@@@View Function Component@@@
+
+Avatar image:
+This is an Image component. It shows the user's profile picture or placeholder.
+@@@Function Component@@@
+
+Links tab label text:
+This is a Text component. It represents the "Links" section in the tab navigation.
+@@@Text Functional Component@@@
+
+Gray square placeholder:
+This is a View component. It serves as a placeholder for loading images or content.
+@@@View Function Component@@@
+
+Name text ("Antonio Banderas"):
+This is a Text component. It displays the user's name.
+@@@Text Functional Component@@@
+
+Phone icon:
+This is an Image component. It visually represents the phone call feature.
+@@@Function Component@@@
+
+Documents tab label text:
+This is a Text component. It represents the "Documents" section in the tab navigation.
+@@@Text Functional Component@@@
+
+Signal strength icon:
+This is an Image component. It indicates the mobile network signal strength.
+@@@Function Component@@@
+Bio and phone number:
+This is a Text Functional Component. It acts as a section header, informing the user about the content under this section related to bio and phone number.
+@@@Text Functional Component@@@
+
+Black bar:
+This is a View Function Component. It appears to be a visual divider or indicator between different sections or tabs within the app.
+@@@View Function Component@@@
+
+9:41:
+This is a Text Functional Component. It is displaying the time on the status bar.
+@@@Text Functional Component@@@

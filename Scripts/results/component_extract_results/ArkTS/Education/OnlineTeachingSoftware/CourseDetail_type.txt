@@ -1,0 +1,66 @@
+Network signal indicator:
+This represents the network signal strength, typically displayed in the status bar of a mobile application.
+@@@arkTSIcon@@@
+
+Time display:
+This is a text component used to show the current time on the device, usually located in the status bar.
+@@@arkTSText@@@
+
+Rating display:
+This component shows a numeric rating, in this case, a rating of 4.5. It is commonly used in conjunction with reviews or ratings.
+@@@arkTSRating@@@
+
+User profile and rating:
+This displays the user's name, profile picture, and rating. It serves to identify the user as well as show their rating.
+@@@arkTSProfile@@@
+
+WiFi signal indicator:
+This icon indicates the WiFi signal strength, typically displayed in the status bar of a mobile application.
+@@@arkTSIcon@@@
+
+About course text:
+This text block provides the description or details about the course, including a brief summary or introduction.
+@@@arkTSText@@@
+
+Back button:
+This is a back navigation button, typically used to return to the previous screen in the app.
+@@@arkTSButton@@@
+
+Course image with labels:
+This component displays an image related to the course with text labels for categorization and a favorite button.
+@@@arkTSImage@@@
+
+More options button:
+This is a button that reveals a menu with additional options. It is often represented by three vertical dots.
+@@@arkTSButton@@@
+Profile Picture:
+This is likely an avatar or profile picture component used to display the image of a user.
+@@@arkTSPicture@@@
+
+Status Bar:
+This is the status bar displaying battery level, network, and time. It's typically part of the system UI.
+@@@arkTSStatusBar@@@
+
+Buy Now Button:
+This is a button component likely used as a call-to-action for purchasing something.
+@@@arkTSButton@@@
+
+Lesson Count Label:
+This is a label indicating the number of lessons available in the course.
+@@@arkTSText@@@
+
+Course Title Text:
+This is a text component showing the title of the course.
+@@@arkTSText@@@
+
+Student Count Label:
+This is a label indicating the number of students enrolled in the course.
+@@@arkTSText@@@
+
+Price Text:
+This is a text component displaying the price of the course.
+@@@arkTSText@@@
+
+Price Value Text:
+This is a text component showing the actual price value of the course ($129).
+@@@arkTSText@@@

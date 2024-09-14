@@ -1,0 +1,102 @@
+My List:
+This text label likely represents a navigational tab or section heading within the app.
+@@@arkTSText@@@
+
+Download icon:
+This may represent a button or icon for downloading content or saving items offline.
+@@@arkTSIcon@@@
+
+Search icon:
+This icon likely allows users to initiate a search function within the app.
+@@@arkTSIcon@@@
+
+Profile picture of Mendy Santiago:
+This image is probably used as a profile picture or avatar to represent a user or course instructor.
+@@@arkTSImage@@@
+
+Profile picture in circle:
+This circular image is typically used for user profiles or avatars within the app.
+@@@arkTSImage@@@
+
+Profile picture of John Wisebe:
+This image appears to be part of a course listing or profile, showing the instructor.
+@@@arkTSImage@@@
+
+Lucy Miller:
+This text label likely refers to a user or course instructor’s name.
+@@@arkTSText@@@
+Home tab indicator:
+This is a tab label used to indicate the "Home" section of the app, likely part of a navigation bar.
+@@@arkTSTabBar@@@
+
+"New Courses" label:
+This is a text label that likely denotes a section displaying newly added courses on the app.
+@@@arkTSText@@@
+
+Mendy Santiago's course:
+This is an image element containing the picture and details of a course by Mendy Santiago, serving as a clickable item to navigate to the course details.
+@@@arkTSImage@@@
+
+Profile Picture:
+This is a user profile image, usually placed in the navigation bar or header, acting as a link to the user's profile or settings.
+@@@arkTSImage@@@
+
+"Popular Courses" label:
+This is a text label denoting a section for popular or frequently accessed courses.
+@@@arkTSText@@@
+
+Profile picture of course instructor:
+This is an image representing the course instructor, used to personalize the course listings.
+@@@arkTSImage@@@
+
+"Home" label:
+This is a text label within the navigation bar, indicating the Home section of the app.
+@@@arkTSText@@@
+
+Profile picture of a different course instructor:
+This is another image representing a course instructor, used to visually indicate who is teaching each course.
+@@@arkTSImage@@@
+
+Sophie Asveld's name:
+This is a text label displaying the name of a course instructor, typically paired with their photo and course details to identify the instructor.
+@@@arkTSText@@@
+
+John Wisebe's course:
+This is an image element showing the instructor and course details, similar to previous course listings.
+@@@arkTSImage@@@
+
+Maria Trofimova's name and course:
+This is a text label for a course listing, showing the instructor's name and a brief description of the course.
+@@@arkTSText@@@
+
+"New Courses" label:
+This is a text label likely indicating a section displaying newly added courses on the app.
+@@@arkTSText@@@
+
+"Popular Courses" label:
+This is a text label indicating a section displaying popular or frequently accessed courses on the app.
+@@@arkTSText@@@
+
+John Wisebe's course:
+This is an image element similar to other course listings, showing the instructor and course details.
+@@@arkTSImage@@@
+
+Masood El Toure label:
+This is a text label displaying the name of an instructor or course leader.
+@@@arkTSText@@@
+
+Teaches Creativity and Songwriting label:
+This is a text label describing the course focus or the instructor's specialty.
+@@@arkTSText@@@
+
+Home icon:
+This icon likely represents navigation to the home screen of the app.
+@@@arkTSIcon@@@
+
+Instructor profile image:
+This image might display a profile picture of an instructor, potentially used as a visual component in a list or header.
+@@@arkTSImage@@@
+
+Teaches Screenwriting label:
+This is a text label describing a course subject or the instructor's area of expertise.
+@@@arkTSText@@@

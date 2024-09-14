@@ -1,0 +1,120 @@
+Map image:
+This is an Image component. It displays a map of a running track, showing the route taken and the speed.
+@@@Function Component@@@
+
+Search bar:
+This is a TextInput component. It allows users to search for content within the app.
+@@@TextInput@@@
+
+"1373" with megaphone icon:
+This is a Text component. It likely displays the number of comments or notifications associated with the megaphone icon.
+@@@Text Functional Component@@@
+
+"K" logo:
+This is an Image component. It represents the logo or icon of the app.
+@@@Function Component@@@
+
+User avatar:
+This is an Image component. It likely displays the user's profile picture or avatar.
+@@@Function Component@@@
+
+"运动" (Sport) button:
+This is a Button component. It directs the user to the sports-related section of the app.
+@@@Button@@@
+
+Map image:
+This is an Image component. It displays a map of a running track, showing the route taken and the speed.
+@@@Function Component@@@
+
+Video player with "WARM UP" text:
+This is an ImageBackground component. It displays a video player interface with "WARM UP" text and a progress bar.
+@@@ImageBackground@@@
+
+“发现” text:
+This is a Text component. It displays the tab name "发现" (Discover).
+@@@Text Functional Component@@@
+心火已燃 icon and label:
+This is a Button component combined with an icon. It likely represents a selectable category or tag for filtering or navigating specific content within the app.
+@@@Button@@@
+
+课程 (Course) label:
+This is a Text component. It labels a tab or section within the app, likely directing users to various available courses.
+@@@Text Functional Component@@@
+
+跟练 icon and label:
+This is a Button component combined with an icon. Similar to heart-fire, it represents a category or tag for filtering or navigating a specific type of content within the app.
+@@@Button@@@
+
+公里 (Kilometer) label:
+This is a Text component. It represents a unit measure for distance in an activity tracker or workout log.
+@@@Text Functional Component@@@
+
+跑步 icon:
+This is an Image component. It represents an activity or category related to running within the app.
+@@@Function Component@@@
+
+户外跑步 (Outdoor Running) label:
+This is a Text component. It indicates a type of workout or activity, specifically outdoor running.
+@@@Text Functional Component@@@
+
+Envelope icon with notification badge:
+This is an Image component combined with a View component. The icon represents a messaging or notification feature, while the badge likely indicates unread messages or notifications.
+@@@Function Component@@@
+
+Green fitness advertisement with person:
+This is a Function Component used to display an advertisement or promotional content within the app. It likely includes clickable buttons for further actions such as signing up or making a purchase.
+@@@Function Component@@@
+
+Edit icon overlaid on video thumbnail:
+This is a Button component integrated with an image background. The edit icon implies functionality for editing content or navigating to a specific action related to the video.
+@@@Button@@@
+关注 label:
+This is a Text Functional Component. It's likely a label for the "Following" tab in the app.
+@@@Text Functional Component@@@
+
+急性子狠瘦全身 text:
+This is a Text Functional Component. It represents the title of a workout video.
+@@@Text Functional Component@@@
+
+成绩 00:22:30 label:
+This is a Text Functional Component. It displays the achievement time for an activity.
+@@@Text Functional Component@@@
+
+朱七七教授 label:
+This is a Text Functional Component. It indicates the username of a content creator.
+@@@Text Functional Component@@@
+
+城市 K MARS label:
+This is a Text Functional Component. It might be a label for a location-based feature in the app.
+@@@Text Functional Component@@@
+
+Image with pencil icon:
+This is likely an Image Function Component. It shows a video thumbnail with an edit icon, suggesting the functionality of editing the video's title or description.
+@@@Function Component@@@
+
+活动 label:
+This is a Text Functional Component. It's likely a label for the "Events" tab in the app.
+@@@Text Functional Component@@@
+
+同城 button:
+This is a TouchableOpacity Function Component. It represents a clickable button for city-based features.
+@@@TouchableOpacity Function Component@@@
+
+Workout video image:
+This is likely an Image Function Component. It represents a thumbnail for a workout video that users can follow along with.
+@@@Function Component@@@
+Keep_活动 label:
+This is a Text Functional Component. It acts as a label indicating the name of the event or category related to "Keep".
+@@@Text Functional Component@@@
+
+Medal icon:
+This is an Image component. It represents an icon or graphic, likely indicating some form of achievement or status within the app.
+@@@Function Component@@@
+
+"5 公里最快时间" (5 km best time) label:
+This is a Text Functional Component. It displays information about the best time for a 5 km run.
+@@@Text Functional Component@@@
+
+"只送不卖! 100份简爱轻食酸奶免费领" (Only give, not sell! 100 servings of Jian'ai light yogurt free to claim) label:
+This is a Text Functional Component. It serves as descriptive text advertising a promotional offer.
+@@@Text Functional Component@@@

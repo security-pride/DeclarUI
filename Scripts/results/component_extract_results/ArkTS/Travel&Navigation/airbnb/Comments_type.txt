@@ -1,0 +1,77 @@
+设施齐全 1:
+This is a tag that likely represents a feature or facility rating, rated as 1. The text translates to "Facilities Complete 1."
+@@@arkTag@@@
+
+总体评分:
+This appears to be a ratings bar showing the distribution of ratings from 1 to 5.
+@@@arkRatingBar@@@
+
+环境安静 3:
+This is a tag that likely represents a feature or facility rating, rated as 3. The text translates to "Quiet Environment 3."
+@@@arkTag@@@
+
+干净卫生 1:
+This is a tag that likely represents a feature or facility rating, rated as 1. The text translates to "Clean and Hygienic 1."
+@@@arkTag@@@
+
+房东热情 1:
+This is a tag that likely represents a feature or facility rating, rated as 1. The text translates to "Warm Host 1."
+@@@arkTag@@@
+
+根据评分:
+This is a text label that likely indicates something based on ratings. The text translates to "Based on Ratings."
+@@@arkTSText@@@
+
+Review paragraph text:
+This is a block of text possibly representing a user review or comment.
+@@@arkTSText@@@
+
+位置优越 2:
+This is a tag that likely represents a feature or facility rating, rated as 2. The text translates to "Great Location 2."
+@@@arkTag@@@
+
+Laurel icon:
+This appears to be an image of a laurel icon, which could be used to signify achievement or rating.
+@@@arkImage@@@
+如实描述 (As Described) label:
+This is a text label that likely indicates a section for accurate descriptions or user feedback consistency.
+@@@arkTSText@@@
+
+使用爱彼迎 8 年 (Using Airbnb for 8 years) label:
+This is a text label that indicates a user’s duration of usage, likely used in the user profile section.
+@@@arkTSText@@@
+
+最有帮助 (Most Helpful) filter button:
+This is a button that allows users to filter reviews based on their helpfulness.
+@@@arkTSButton@@@
+
+Laurel icon:
+This is a decorative image component, likely used to denote high ratings or awards.
+@@@arkTSImage@@@
+
+5条评价 (5 Reviews) label:
+This is a text label indicating the number of reviews in the review section.
+@@@arkTSText@@@
+
+Checkmark icon:
+This icon likely indicates verification or confirmation, especially in a ratings context.
+@@@arkTSPicture@@@
+
+推荐入住 2 (Recommended Stay 2) tag:
+This is a tag component indicating a specific feature or keyword within the reviews.
+@@@arkTSTag@@@
+
+房客推荐 (Guest Recommendation) label:
+This is a text label indicating a section for guest recommendations.
+@@@arkTSText@@@
+
+干净卫生 (Cleanliness) rating:
+This component indicates the cleanliness rating and includes both a text label and an icon representing cleanliness.
+@@@arkTSRating@@@
+1. Profile image:
+This is likely a user profile picture placeholder, typically used to represent a user in the app.
+@@@arkTSImage@@@
+
+2. Date label ("2024年4月"):
+This text label indicates the date "April 2024" and is used to show the date information in the app.
+@@@arkTSText@@@

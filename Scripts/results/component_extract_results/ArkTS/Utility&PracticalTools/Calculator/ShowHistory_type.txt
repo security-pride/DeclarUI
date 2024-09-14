@@ -1,0 +1,105 @@
+Component Keyword:
+This looks like a multiplication button.
+@@@arkTSButton@@@
+
+Component Keyword:
+This looks like a division button.
+@@@arkTSButton@@@
+
+Component Keyword:
+This looks like an equal button, used to perform calculations.
+@@@arkTSButton@@@
+
+Component Keyword:
+This looks like an addition button.
+@@@arkTSButton@@@
+
+Component Keyword:
+This looks like a history or recent calculations button.
+@@@arkTSIcon@@@
+
+Component Keyword:
+This is a text label showing the expression "45 x 24" which is likely the input being calculated.
+@@@arkTSText@@@
+
+Component Keyword:
+This looks like a subtraction button.
+@@@arkTSButton@@@
+
+Component Keyword:
+This is another equal button image.
+@@@arkTSButton@@@
+
+Component Keyword:
+This looks like a clear history button.
+@@@arkTSButton@@@
+Minus button:
+This button likely represents a subtraction operation in a calculator app.
+@@@arkTSButton@@@
+
+Calculation history display:
+This component displays previous calculations and their results, providing users with a history of operations performed.
+@@@arkTSContainer@@@
+
+Large number display:
+This is a large text display showing the result of a calculation, highlighting it for user visibility.
+@@@arkTSText@@@
+
+Number button (1080):
+This button likely allows the user to input the number "1080" in the calculator.
+@@@arkTSButton@@@
+
+Plus button:
+This button likely represents an addition operation in a calculator app.
+@@@arkTSButton@@@
+
+Clear button (with X):
+This button is likely used to clear an entry or reset the current operation.
+@@@arkTSButton@@@
+
+Compact calculation history display:
+Similar to the previous history component, this displays past calculations. It's likely a part of a scrollable list of past operations.
+@@@arkTSContainer@@@
+
+Number button (1080):
+This button allows the user to input the number "1080" in the calculator.
+@@@arkTSButton@@@
+
+Division button:
+This button likely represents a division operation in a calculator app.
+@@@arkTSButton@@@
+Switch to Dark label:
+This is a text label that indicates an option to switch the app theme to dark mode.
+@@@arkTSText@@@
+
+Switch toggle button:
+This is a toggle button that allows users to switch between light and dark modes.
+@@@arkTSSwitch@@@
+
+Close icon:
+This is a close icon button that is used to close or dismiss a window or dialog.
+@@@arkTSIconButton@@@
+
+Expand icon:
+This is an expand icon button that might be used to enter a full-screen mode or enlarge a component.
+@@@arkTSIconButton@@@
+
+Calculation result:
+This is a text element that displays the calculation result or mathematical expression.
+@@@arkTSText@@@
+
+Clear History button:
+This is a button that, when pressed, will clear the history of calculations.
+@@@arkTSButton@@@
+
+Number pad button (general representation):
+This is a button on the number pad used for entering digits or mathematical operations.
+@@@arkTSButton@@@
+
+Expanded view button:
+This is a button that could be used to expand or increase the window or result view for a better visual or functional experience.
+@@@arkTSButton@@@
+
+Time tracking icon:
+This is an icon button which may be used to track or display the time for calculation operations.
+@@@arkTSIconButton@@@

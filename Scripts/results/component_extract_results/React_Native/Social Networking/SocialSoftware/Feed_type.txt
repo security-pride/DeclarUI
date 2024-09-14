@@ -1,0 +1,99 @@
+Heart icon:  
+This is a Pressable component. It’s used to like a post, indicating user appreciation.  
+@@@Pressable@@@
+
+Reload icon:  
+This is a Pressable component. This icon allows users to reload the current feed or post.  
+@@@Pressable@@@
+
+Comment section:  
+This is a Text Functional Component. It shows the number of answers to the post and the number of likes.  
+@@@Text Functional Component@@@
+
+Username (aura) with the post:  
+This is a Text Functional Component. It displays the username of the person who posted the content along with the text of the post.  
+@@@Text Functional Component@@@
+
+Circular profile image:  
+This is an Image component. It displays the profile picture of the user who made the post in a circular format.  
+@@@Image@@@
+
+Circular reply image:  
+This is an Image component. It is used to display a small reply image beside the comment section.  
+@@@Image@@@
+
+Refresh arrow icon:  
+This is a TouchableOpacity Function Component. It allows users to refresh the page or content.  
+@@@TouchableOpacity Function Component@@@
+
+Circular icon with user:  
+This is an Image component. It shows the poster's profile image, providing visual identification.  
+@@@Image@@@
+
+Circular reply icon:  
+This is an Image component, serving as a visual marker for a new comment by a different user.  
+@@@Image@@@
+
+Component Keyword:
+Logo icon:
+This is a Function Component. It is likely used as an app logo or brand identifier within the application.
+@@@Function Component@@@
+
+Component Keyword:
+Magnifying glass icon:
+This is a TouchableOpacity Function Component. It acts as a search button, allowing users to initiate a search functionality.
+@@@TouchableOpacity Function Component@@@
+
+Component Keyword:
+User post with text:
+This is a View Function Component. It encapsulates and displays a user’s post content, including a username, post time, and post text.
+@@@View Function Component@@@
+
+Component Keyword:
+Clock with time display:
+This is a Text Functional Component. It represents the time displayed, which indicates the time when the post or activity occurred.
+@@@Text Functional Component@@@
+
+Component Keyword:
+Image within the user post:
+This is an Image component. It displays an image that the user has posted within their content.
+@@@Function Component@@@
+
+Component Keyword:
+Home icon:
+This is a TouchableOpacity Function Component. It acts as a button to navigate the user to the home screen of the application.
+@@@TouchableOpacity Function Component@@@
+
+Component Keyword:
+Profile picture in post:
+This is an Image component. It displays the profile picture of the user who made the post.
+@@@Function Component@@@
+
+Component Keyword:
+Heart icon and number:
+This is a View Function Component, comprising an icon and a text to show the number of likes a post has received.
+@@@View Function Component@@@
+
+Component Keyword:
+Profile picture in header:
+This is an Image component. It is used in the app’s header to display the user’s profile.
+@@@Function Component@@@
+Camera icon:
+This is a Button. It's part of the toolbar and likely allows users to upload or take pictures.
+@@@Button@@@
+
+Pencil icon:
+This is a Button. It's used for editing content or creating a new post.
+@@@Button@@@
+
+Send icon:
+This is a Button. It allows users to send content, perhaps a message or a post.
+@@@Button@@@
+
+Segmented image:
+This is an Image. It represents a user or content image, indicating the user profile photo or some graphical element in the app.
+@@@Function Component@@@
+
+Clock icon or user avatar with clock:
+This is a Button. It probably indicates a history or recent activities feature.
+@@@Button@@@

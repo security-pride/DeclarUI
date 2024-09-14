@@ -1,0 +1,81 @@
+Circular arrows icon:
+This appears to be an icon representing synchronization or refresh functionality.
+@@@Icon@@@
+
+Bottom navigation bar:
+This is a navigation bar at the bottom of the screen that allows users to switch between different sections of the app.
+@@@BottomNavigationBar@@@
+
+"More" label:
+This is a text widget that describes a tab in the bottom navigation bar.
+@@@Text@@@
+
+"Settings" label:
+This is a text widget that indicates a settings option in the app.
+@@@Text@@@
+
+Hyperlink-style text:
+This is a text widget that likely navigates to a service quality survey when tapped.
+@@@Text@@@
+
+Log-in information text:
+This is a text widget that displays the last log-in time of the user.
+@@@Text@@@
+
+Document icon:
+This appears to be an icon representing documents or statements.
+@@@Icon@@@
+
+"Spending" label:
+This is a text widget that describes a section related to user spending.
+@@@Text@@@
+
+"Statements and documents" label:
+This is a text widget that describes a section for viewing statements and documents.
+@@@Text@@@
+Rewards label:
+This text widget shows the label "Rewards," likely used to indicate a section or a button related to user rewards.
+@@@Text@@@
+
+Gear icon:
+This icon represents settings or options and is likely used as a button to navigate to the settings page.
+@@@Icon@@@
+
+Card icon:
+This icon represents a card, likely used for bank cards or credit cards, and is used within list items to navigate to card-related information.
+@@@Icon@@@
+
+Logout label:
+This text widget displays the "Logout" label, used as a button to log out the user from the app.
+@@@Text@@@
+
+Cards label:
+This text widget shows the label "Cards," indicating a section or a button related to user cards.
+@@@Text@@@
+
+Wallet icon:
+This icon represents spending or transactions related to a wallet, likely used within list items to navigate to spending information or transactions.
+@@@Icon@@@
+
+Subscriptions label:
+This text widget shows the label "Subscriptions," indicating a section or a button related to user subscriptions.
+@@@Text@@@
+
+PIN reader icon:
+This icon represents a device or mechanism for mobile PIN entry, likely used in a list item to navigate to a page related to PIN entry features.
+@@@Icon@@@
+
+Manage accounts label:
+This text widget shows the label "Manage accounts," indicating a section or a button related to managing user accounts.
+@@@Text@@@
+Gift icon:
+This is an icon that likely represents a rewards or gifts section in the application.
+@@@Icon@@@
+
+"Mobile PINsentry" label:
+This is a text widget that describes a feature for mobile PIN entry, presumably to enhance security for transactions.
+@@@Text@@@
+
+Logout:
+This is a button that allows the user to log out from the app. It’s usually styled text.
+@@@TextButton@@@

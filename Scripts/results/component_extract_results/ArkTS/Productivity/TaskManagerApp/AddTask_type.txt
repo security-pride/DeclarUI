@@ -1,0 +1,125 @@
+Component Keyword:
+This text label reminds users to set alerts for tasks.
+@@@arkTSText@@@
+
+Component Keyword:
+This text label indicates the page or form to add a new task.
+@@@arkTSText@@@
+
+Component Keyword:
+A rectangular button labeled "Important" indicating priority selection for a task.
+@@@arkTSButton@@@
+
+Component Keyword:
+This icon represents a signal strength indicator.
+@@@arkTSIcon@@@
+
+Component Keyword:
+A rectangular button labeled "Personal" indicating a category or type of task.
+@@@arkTSButton@@@
+
+Component Keyword:
+A profile avatar image, possibly representing the user.
+@@@arkTSImage@@@
+
+Component Keyword:
+This text label is used to prompt the user to choose a date and time.
+@@@arkTSText@@@
+
+Component Keyword:
+A time label displaying the time range the task is scheduled for.
+@@@arkTSText@@@
+
+Component Keyword:
+A calendar component showing the month view and allowing date selection.
+@@@arkTSCalendar@@@
+Component Keyword: Date Selection
+Component Function Description: This component allows the user to select a specific date. It is used to input the date for a task.
+@@@arkTSDatePicker@@@
+
+Component Keyword: Time Display
+Component Function Description: This displays the current time. It is part of the status bar that shows crucial system information like time, battery, and network status.
+@@@arkTSStatusBar@@@
+
+Component Keyword: Wi-Fi Status
+Component Function Description: This is an icon indicating whether the device is connected to a Wi-Fi network, commonly found in the status bar.
+@@@arkTSIcon@@@
+
+Component Keyword: Task Title Label
+Component Function Description: This is a text label indicating the field where users should input the task title.
+@@@arkTSText@@@
+
+Component Keyword: Task Title Input
+Component Function Description: This is an input field where the user can type the title or name of the task being created or edited.
+@@@arkTSTextInput@@@
+
+Component Keyword: Submit Button
+Component Function Description: This button is likely used to submit the task once all required information has been entered by the user.
+@@@arkTSButton@@@
+
+Component Keyword: Toggle Switch
+Component Function Description: This is a toggle switch component that can be used to turn a feature on or off, in this case, for setting an alert for the task.
+@@@arkTSSwitch@@@
+
+Component Keyword: Task Type Label
+Component Function Description: This text label indicates the type or category of the task.
+@@@arkTSText@@@
+
+Component Keyword: Selection Option
+Component Function Description: This is likely a selectable option button that allows users to choose between different categories for task type.
+@@@arkTSRadioButton@@@
+1. Component Keyword: Profile Picture
+   Component Function Description: This is an image component that likely displays the user's profile picture.
+   @@@arkTSImage@@@
+
+2. Component Keyword: Add New Task
+   Component Function Description: This text label indicates the section or title of the screen where the user can add a new task.
+   @@@arkTSText@@@
+
+3. Component Keyword: Calendar
+   Component Function Description: This is a calendar component that allows users to pick a date for scheduling a task.
+   @@@arkTSCalendar@@@
+
+4. Component Keyword: Task title
+   Component Function Description: This text label indicates the input field where the user can enter the title of the task.
+   @@@arkTSText@@@
+
+5. Component Keyword: Website redesign
+   Component Function Description: This is a text input field where users can enter the title or description of the task.
+   @@@arkTSInput@@@
+
+6. Component Keyword: Task type
+   Component Function Description: This text label indicates the section where the user can select the type of task.
+   @@@arkTSText@@@
+
+7. Component Keyword: Important
+   Component Function Description: This is a button that represents the "Important" task type selection.
+   @@@arkTSButton@@@
+
+8. Component Keyword: Personal
+   Component Function Description: This is a button that represents the "Personal" task type selection.
+   @@@arkTSButton@@@
+
+9. Component Keyword: Choose date & time
+   Component Function Description: This text label indicates the section where the user can choose the date and time for the task.
+   @@@arkTSText@@@
+
+10. Component Keyword: 18-02-2022
+    Component Function Description: This is a text label displaying the selected date for the task.
+    @@@arkTSText@@@
+
+11. Component Keyword: 9:00 AM-12:00 PM
+    Component Function Description: This is a text label displaying the selected time range for the task.
+    @@@arkTSText@@@
+
+12. Component Keyword: Get alert for this task
+    Component Function Description: This text label indicates the section where the user can enable or disable alerts for the task.
+    @@@arkTSText@@@
+
+13. Component Keyword: Toggle switch
+    Component Function Description: This is a toggle switch that allows the user to turn the alert for the task on or off.
+    @@@arkTSSwitch@@@
+
+14. Component Keyword: Done
+    Component Function Description: This is a button that allows the user to save the new task.
+    @@@arkTSButton@@@

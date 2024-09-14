@@ -1,0 +1,192 @@
+Add New Task:
+This is a Text Functional Component. It likely serves as the title of the current screen, indicating that the user is in the 'Add New Task' section.
+@@@Text Functional Component@@@
+
+Get alart for this task:
+This is a Text Functional Component. It serves as a label to indicate the purpose of the switch component next to it.
+@@@Text Functional Component@@@
+
+Important button:
+This is a Button. It is used to mark the task type as important.
+@@@Button@@@
+
+Personal button:
+This is a Button. It is used to mark the task type as personal.
+@@@Button@@@
+
+Choose date & time:
+This is a Text Functional Component. It serves as a label to inform the user that they can choose the date and time for the task.
+@@@Text Functional Component@@@
+
+9:00 AM-12:00 PM:
+This is a Text Functional Component. It shows the selected time range for the task.
+@@@Text Functional Component@@@
+
+Website redesign:
+This is a TextInput. It allows the user to input the task title.
+@@@TextInput@@@
+
+February 2022 calendar:
+This is an Image. It displays the calendar month view for selecting a date.
+@@@Image@@@
+
+Profile picture:
+This is an Image. It displays the user's profile picture or avatar.
+@@@Image@@@
+
+Signal strength icon:
+This is an Image. It shows the current cellular signal strength.
+@@@Image@@@
+
+Done button:
+This is a Button. It allows the user to confirm and save the new task.
+@@@Button@@@
+
+Switch:
+This is a Switch. It is used to toggle the alert on or off for the task.
+@@@Switch@@@
+Component Keyword:
+Date label:
+This is a Text Functional Component. This element displays the selected date for the task.
+@@@Text Functional Component@@@
+
+Component Keyword:
+Time display:
+This is a Text Functional Component. It shows the current time on the status bar.
+@@@Text Functional Component@@@
+
+Component Keyword:
+Wi-Fi signal icon:
+This is a View Function Component. It indicates the current status of the Wi-Fi signal.
+@@@View Function Component@@@
+
+Component Keyword:
+Task title label:
+This is a Text Functional Component. It labels the field for entering the task title.
+@@@Text Functional Component@@@
+
+Component Keyword:
+Website redesign input:
+This is a TextInput component. It allows the user to input the title of the task.
+@@@TextInput@@@
+
+Component Keyword:
+Done button:
+This is a Button component. Users can press this button to save or complete the task.
+@@@Button@@@
+
+Component Keyword:
+Switch button:
+This is a Switch component. It allows users to toggle a setting on or off.
+@@@Switch@@@
+
+Component Keyword:
+Task type label:
+This is a Text Functional Component. It labels the section where users can select the type of task.
+@@@Text Functional Component@@@
+
+Component Keyword:
+Category selection option:
+This is a TouchableOpacity Function Component. It allows users to select between different task categories by pressing.
+@@@TouchableOpacity Function Component@@@
+1. Component Keyword:
+Profile image icon
+Component Function Description:
+This is an ImageBackground component. It displays the profile image of the user in the task creation screen.
+@@@ImageBackground@@@
+
+2. Component Keyword:
+“February 2022” text
+Component Function Description:
+This is a Text Functional Component. It displays the current month and year in the task creation calendar.
+@@@Text Functional Component@@@
+
+3. Component Keyword:
+Left arrow icon
+Component Function Description:
+This is a Button. It allows users to navigate to the previous month in the calendar.
+@@@Button@@@
+
+4. Component Keyword:
+Right arrow icon
+Component Function Description:
+This is a Button. It allows users to navigate to the next month in the calendar.
+@@@Button@@@
+
+5. Component Keyword:
+Calendar dates (e.g., 14, 15, etc.)
+Component Function Description:
+These are Text Functional Components. They display the individual dates within the month for task selection.
+@@@Text Functional Component@@@
+
+6. Component Keyword:
+Calendar day of the week labels (e.g., M, T, W, etc.)
+Component Function Description:
+These are Text Functional Components. They display the days of the week in the calendar.
+@@@Text Functional Component@@@
+
+7. Component Keyword:
+“Task title” label
+Component Function Description:
+This is a Text Functional Component. It labels the input field where users can enter the title of the task.
+@@@Text Functional Component@@@
+
+8. Component Keyword:
+Task title input field
+Component Function Description:
+This is a TextInput component. It allows users to enter the title of the task.
+@@@TextInput@@@
+
+9. Component Keyword:
+“Task type” label
+Component Function Description:
+This is a Text Functional Component. It labels the section where users can select the type of task.
+@@@Text Functional Component@@@
+
+10. Component Keyword:
+Important button
+Component Function Description:
+This is a Button component. It allows users to select the task type as Important.
+@@@Button@@@
+
+11. Component Keyword:
+Personal button
+Component Function Description:
+This is a Button component. It allows users to select the task type as Personal.
+@@@Button@@@
+
+12. Component Keyword:
+“Choose date & time” label
+Component Function Description:
+This is a Text Functional Component. It labels the section where users can choose the date and time for the task.
+@@@Text Functional Component@@@
+
+13. Component Keyword:
+Date input field
+Component Function Description:
+This is a TextInput component. It allows users to enter or select the date for the task.
+@@@TextInput@@@
+
+14. Component Keyword:
+Time input field
+Component Function Description:
+This is a TextInput component. It allows users to enter or select the time for the task.
+@@@TextInput@@@
+
+15. Component Keyword:
+“Get alert for this task” label
+Component Function Description:
+This is a Text Functional Component. It labels the toggle switch button for task alerts.
+@@@Text Functional Component@@@
+
+16. Component Keyword:
+Alert switch button
+Component Function Description:
+This is a Switch component. It allows users to toggle alerts for the task on or off.
+@@@Switch@@@
+
+17. Component Keyword:
+Done button
+Component Function Description:
+This is a Button component. It allows users to finalize the task creation process.
+@@@Button@@@

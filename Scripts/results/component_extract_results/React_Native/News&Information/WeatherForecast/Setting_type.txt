@@ -1,0 +1,101 @@
+Manage location entry:
+This is a Text component. It indicates an option that allows users to manage their saved locations on the app.
+@@@Text Functional Component@@@
+
+No Ads icon:
+This is an Image component. It signifies an option to remove advertisements, likely through an in-app purchase or subscription.
+@@@Image Function Component@@@
+
+Feedback and Suggestion entry:
+This is a Text component. It allows users to provide feedback or suggestions regarding the app.
+@@@Text Functional Component@@@
+
+Temperature (27°):
+This is a Text component. It displays the current temperature in degrees Celsius.
+@@@Text Functional Component@@@
+
+Overcast clouds text:
+This is a Text component. It provides information about the current weather condition.
+@@@Text Functional Component@@@
+
+More details text:
+This is a Text component. It likely serves as a link or button that users can tap to view more detailed information.
+@@@Text Functional Component@@@
+
+Battery icon:
+This is an Image component. It likely displays the current battery status of the device.
+@@@Image Function Component@@@
+
+Memory card icon:
+This is an Image component. It likely shows the status of external storage, such as an SD card.
+@@@Image Function Component@@@
+
+Unit setting entry:
+This is a Text component. It allows users to configure various unit settings such as pressure, wind speed, and time format.
+@@@Text Functional Component@@@
+Share icon:
+This is an Icon component, likely used to represent the share functionality, allowing users to share content from the app.
+@@@Function Component@@@
+
+"Weather widgets" text:
+This is a Text component indicating a setting related to weather widgets, which can be shown on the home screen.
+@@@Text Functional Component@@@
+
+Notification switch:
+This is a Switch component, used to toggle the notification feature on or off.
+@@@Switch@@@
+
+"Weather radar" text:
+This is a Text component indicating a setting related to accessing or configuring the weather radar feature.
+@@@Text Functional Component@@@
+
+"Sun" button:
+This is a Button component used to perform an action related to the sun, possibly changing the display to show sunny weather information.
+@@@Button@@@
+
+"Hide background image" switch:
+This is a Switch component, used to toggle the setting for hiding or displaying the background image.
+@@@Switch@@@
+
+"Report problem" text:
+This is a Text component indicating a setting or feature to report a problem within the app.
+@@@Text Functional Component@@@
+
+"Home" text:
+This is a Text component representing the home menu option.
+@@@Text Functional Component@@@
+
+Time text:
+This is a Text component used to display the current time or time-related information.
+@@@Text Functional Component@@@
+Char text:
+This is a Text Functional Component. It likely displays a part of a title or label in the app.
+@@@Text Functional Component@@@
+
+Remove ads text:
+This is a Text Functional Component. It indicates an option for the user to remove ads by likely making an in-app purchase.
+@@@Text Functional Component@@@
+
+Temperature switch component:
+This is a View Function Component. It contains a text label and a toggle button to set the temperature unit between Fahrenheit and Celsius.
+@@@View Function Component@@@
+
+Lock screen switch component:
+This is a Switch. It allows the user to enable or disable the lock screen setting.
+@@@Switch@@@
+
+Status bar switch component:
+This is a Switch. It allows the user to toggle the visibility or settings of the status bar.
+@@@Switch@@@
+
+Home icon:
+This is an Image Function Component. It represents the home button that likely navigates the user to the main screen.
+@@@Function Component@@@
+
+Weather radar icon:
+This is an Image Function Component. It depicts weather radar functionality, possibly opening a detailed radar view.
+@@@Function Component@@@
+
+SETTING text:
+This is a Text Functional Component. It serves as a header or title for the settings screen.
+@@@Text Functional Component@@@

@@ -1,0 +1,78 @@
+Trash can icon:
+This component is an icon typically used to represent a delete function.
+@@@Icon@@@
+
+Back arrow icon:
+This component is an icon usually associated with navigation, allowing the user to go back to the previous screen.
+@@@Icon@@@
+
+Tool icons:
+These icons represent various tools that the user can select and use, likely involving different editing functionalities.
+@@@Icon@@@
+
+Three vertical dots icon:
+This component is an icon symbolizing more options or a menu. It typically triggers a dropdown or pop-up menu with additional actions.
+@@@Icon@@@
+
+Horizontal line icon:
+This component is an icon indicating a horizontal line, commonly used in drawing or editing functionalities.
+@@@Icon@@@
+
+"Objects" label:
+This is a text widget that serves as the title or header for the screen.
+@@@Text@@@
+
+"Add Object" label:
+This is a text widget that indicates a button or an option to add a new object to the list or canvas.
+@@@Text@@@
+
+Right upward arrow icon:
+This component is an icon indicating an action, potentially for applying or confirming changes.
+@@@Icon@@@
+
+Angle icon:
+This component is an icon representing an angle, possibly used for measurement or drawing purposes.
+@@@Icon@@@
+Component Keyword: Back button icon
+This is an icon likely used as a button to navigate back to the previous screen.
+@@@IconButton@@@
+
+Component Keyword: Title "Objects"
+This is a text widget used to display the title of the current screen.
+@@@Text@@@
+
+Component Keyword: Add Object button with chevron
+This appears to be a ListTile or a similar row-based widget where the user can tap to add a new object.
+@@@ListTile@@@
+
+Component Keyword: Info text "Long tap the object on the chart to edit or delete it"
+This is likely a text widget used to provide information or instructions to the user.
+@@@Text@@@
+
+Component Keyword: Line Tool Icon
+This is an icon within a toolbar allowing the user to select the line drawing tool.
+@@@Icon@@@
+
+Component Keyword: Rectangle Tool Icon
+This is an icon within a toolbar allowing the user to select the rectangle drawing tool.
+@@@Icon@@@
+
+Component Keyword: Arrow Tool Icon
+This is an icon within a toolbar allowing the user to select the arrow drawing tool.
+@@@Icon@@@
+
+Component Keyword: Triangle Tool Icon
+This is an icon within a toolbar allowing the user to select the triangle drawing tool.
+@@@Icon@@@
+
+Component Keyword: Multi-Tool Icon
+This is an icon within a toolbar allowing the user to select a multi-point tool or polyline tool.
+@@@Icon@@@
+
+Component Keyword: Move Tool Icon
+This is an icon within a toolbar that allows the user to select the move tool to reposition elements.
+@@@Icon@@@
+
+Component Keyword: Trash Icon
+This is an icon used as a button to delete an item or object.
+@@@IconButton@@@

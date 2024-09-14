@@ -1,0 +1,80 @@
+Back arrow icon:
+This is a Pressable component. It represents a button that allows users to navigate back to the previous screen.
+@@@Pressable@@@
+
+"You already bought a class from Jerremy":
+This is a Text Functional Component. It provides additional details about the purchase completed notification.
+@@@Text Functional Component@@@
+
+"Challange Completed" (label):
+This is a Text Functional Component. It represents the title of a notification indicating that a challenge has been completed.
+@@@Text Functional Component@@@
+
+Settings gear icon:
+This is a TouchableOpacity Function Component. It represents a button that likely opens a settings menu or screen.
+@@@TouchableOpacity Function Component@@@
+
+User image:
+This is a Function Component. It displays the user's profile picture or avatar.
+@@@Function Component@@@
+
+Current time (19:27):
+This is a Text Functional Component. It represents the current time displayed on the screen.
+@@@Text Functional Component@@@
+
+Discount tag icon:
+This is a Function Component. It represents an icon indicating a discount or a sale.
+@@@Function Component@@@
+
+"Jerremy Send You a Message":
+This is a Text Functional Component. It represents the title of a notification indicating that a message has been received.
+@@@Text Functional Component@@@
+
+
+Signal strength icon:
+This icon indicates the strength of the mobile network signal. 
+@@@ImageBackground@@@
+
+Battery icon:
+This icon displays the current battery level of the device.
+@@@ImageBackground@@@
+
+"2 m ago" label:
+This indicates the time elapsed since the activity or notification occurred.
+@@@Text Functional Component@@@
+
+Shopping cart icon:
+This denotes a notification related to a purchase, likely indicating a completed purchase or item added to a cart.
+@@@ImageBackground@@@
+
+"Jeremy Send You a Message" text with "Reply the message" link:
+This represents a message notification from a contact, with an interactive link to respond.
+@@@Text Functional Component@@@
+
+"10 m ago" label:
+This indicates the time elapsed since the activity or notification occurred.
+@@@Text Functional Component@@@
+
+Award icon:
+This icon signifies an achievement, such as completing a challenge or course.
+@@@ImageBackground@@@
+
+"Challange Completed" text:
+This text notifies the user of a completed challenge or achievement.
+@@@Text Functional Component@@@
+
+"Notification" title:
+This is the header or title of the notification screen, indicating the purpose of the screen.
+@@@Text Functional Component@@@
+Purchase Completed! text:
+This is a Text Functional Component. It serves as a heading or title for the notification, indicating that a purchase was successfully completed.
+@@@Text Functional Component@@@
+
+Left arrow icon:
+This is a Button component. It's used for navigation, allowing the user to return to the previous screen.
+@@@Button@@@
+
+Settings icon:
+This is a TouchableOpacity Function Component. It allows the user to access the settings page when pressed.
+@@@TouchableOpacity Function Component@@@
+

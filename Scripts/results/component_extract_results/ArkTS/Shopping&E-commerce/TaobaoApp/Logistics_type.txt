@@ -1,0 +1,173 @@
+Component Keyword:
+This is a graphical component that depicts various items or characters, possibly used as an illustration or advertisement within the app.
+@@@arkTSImage@@@
+
+Component Keyword:
+This is a text label that indicates the 'Logistics Company' section within the app. The text translates to 'Logistics Company.'
+@@@arkTSText@@@
+
+Component Keyword:
+This is a text label that displays a specific date and time, indicating a timestamp of an event.
+@@@arkTSText@@@
+
+Component Keyword:
+This is a text label used to denote the 'Reminders' section within the app. The text translates to 'Reminders.'
+@@@arkTSText@@@
+
+Component Keyword:
+This is a text label used to denote the 'Others' section within the app. The text translates to 'Others.'
+@@@arkTSText@@@
+
+Component Keyword:
+This is a button component that allows users to view more details. The text translates to 'View Details.'
+@@@arkTSButton@@@
+
+Component Keyword:
+This is an image component that likely represents a product advertisement, showcasing a specific item with details.
+@@@arkTSImage@@@
+
+Component Keyword:
+This is a text label used to denote the 'Interaction' section within the app. The text translates to 'Interaction.'
+@@@arkTSText@@@
+
+Component Keyword:
+This is an icon or image component that represents the settings or configuration action within the app, usually providing access to the app's settings.
+@@@arkTSIcon@@@
+S35赛季特惠接单 (S35 Season Special Orders) section:
+This appears to be an informational image or banner displaying special offers or promotions for the S35 season. It likely serves to attract user attention with colorful graphics and text.
+@@@arkTSImage@@@
+
+ZTO快递 (ZTO Express) logo:
+This is a logo image representing the ZTO Express company, possibly used for branding or identification within the app.
+@@@arkTSImage@@@
+
+即将确认收货 (About to Confirm Receipt) text:
+This is a text label indicating an action or status related to confirming receipt of a delivery.
+@@@arkTSText@@@
+
+24/04/25 (Date):
+This is a date label, likely indicating the date of an event or notification.
+@@@arkTSTimePicker@@@
+
+点击查看签收详情>> (Click to view receipt details):
+This is a text link prompting users to click for more details regarding package receipt.
+@@@arkTSLink@@@
+
+ZTO快递 (ZTO Express) logo (repeat):
+This is a logo image representing the ZTO Express company, possibly used for branding or identification within the app.
+@@@arkTSImage@@@
+
+菜鸟 logo:
+This is an image representing the logo of the Cainiao company, used for branding or identification purposes.
+@@@arkTSImage@@@
+
+包裹已被签收 (Package has been signed for):
+This is a text label providing status information about a package that has been successfully signed for.
+@@@arkTSText@@@
+
+赞评 (Praise and Comments) tab:
+This is a tab label for a section dedicated to user praise and comments, enabling navigation to that section.
+@@@arkTSTab@@@
+
+包裹签收通知 (Package Signing Notification) label:
+This is a text label indicating a notification about the signing of a package. The label informs the user about the receipt confirmation of their package.
+@@@arkTSText@@@
+
+延长收货 (Extend Receipt) button:
+This button likely allows the user to extend the receipt period for their package. It is interactive and provides a specific action for the user.
+@@@arkTSButton@@@
+
+驿达 icon:
+This appears to be an icon representing a company or service. It provides a visual representation and branding within the app.
+@@@arkTSImage@@@
+
+查快递 (Check Express) and 暂无快递更新 (No Express Updates) section:
+This section seems to be for checking express delivery status and indicates when there are no updates available. It may include interactive elements like a dropdown or a simple display area.
+@@@arkTSRow@@@
+
+通知 (Notifications) label:
+This is a text label for the notifications section, informing the user that they are in the notifications part of the app.
+@@@arkTSText@@@
+
+24/07/06 date:
+This is a text label displaying a date, likely indicating when a specific event occurred, such as a package delivery update.
+@@@arkTSText@@@
+
+Logistics truck icon:
+This icon represents logistics or delivery services and is part of a visual representation for better user understanding.
+@@@arkTSImage@@@
+
+优惠 (Discount) label:
+This is a text label indicating a section related to discounts or special offers in the app.
+@@@arkTSText@@@
+
+订单物流消息 (Order Logistics Information) label:
+This is a text label indicating a section related to order logistics information, providing details about the status of the user's orders.
+@@@arkTSText@@@
+Component Keyword:
+快递信息 (Express Information)
+This is a text label that likely provides details about shipment statuses or notifications.
+@@@arkTSText@@@
+
+Component Keyword:
+即将自动确认收货 (Automatic Delivery Confirmation Imminent)
+This is a heading text that explains a section about upcoming automatic delivery confirmations.
+@@@arkTSText@@@
+
+Component Keyword:
+查看详情 (View Details)
+This is a button that users can tap to see more detailed information about a notification or status.
+@@@arkTSButton@@@
+
+Component Keyword:
+24/04/25
+This is a date label, likely indicating when a specific event or status was updated or set.
+@@@arkTSText@@@
+
+Component Keyword:
+romoss旗舰店 24/07/10
+This is a combination of an icon, text label, and date. It provides branding or sender information along with a date.
+@@@arkTSListItem@@@
+
+Component Keyword:
+11舍407 (Building 11, Room 407)
+This text likely specifies a location or address detail for delivery or pickup.
+@@@arkTSText@@@
+
+Component Keyword:
+收货地址 (Shipping Address)
+This is a label indicating where a package is to be received.
+@@@arkTSText@@@
+
+Component Keyword:
+申通快递 (Shentong Express)
+This text denotes the name of a logistics company involved in delivering goods.
+@@@arkTSText@@@
+
+Component Keyword:
+物流 (Logistics)
+This is a menu or tab label associated with logistics or shipping information.
+@@@arkTSTab@@@
+快递公司 (Courier Company):
+This is a text label that represents the courier service’s name, typically used to identify the delivery provider.
+@@@arkTSText@@@
+
+关山街道烽烽路1037号华中科技大学东11舍407 (Guanshan Street Fengye Road 1037, East 11 Dormitory, Huazhong University of Science and Technology):
+This text indicates an address, possibly where a package is to be delivered or picked up.
+@@@arkTSText@@@
+
+Icon:
+This is an image component, likely used as an icon to represent a user, company, or type of notification.
+@@@arkTSImage@@@
+
+菜鸟 (Cainiao):
+This text label appears to be a brand name, identifying the section or company associated with the notification.
+@@@arkTSText@@@
+
+签收时间 (Receipt Time):
+This label indicates the time at which a package was signed for or received.
+@@@arkTSText@@@
+
+包裹签收通知 (Package Receipt Notification):
+This is a notification text that informs users about the receipt status of a package.
+@@@arkTSText@@@

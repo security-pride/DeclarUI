@@ -1,0 +1,227 @@
+Martha Craig:
+This is a Text Functional Component. It displays the name of a contact in the contact list.
+@@@Text Functional Component@@@
+
+Avatar image:
+This is a Function Component. It displays the avatar or profile picture of a contact.
+@@@Function Component@@@
+
+Group icon:
+This is a Function Component. It represents an icon for a group action or group creation feature.
+@@@Function Component@@@
+
+Microphone icon:
+This is a Function Component. It likely represents a button for voice input or voice message functionality.
+@@@Function Component@@@
+
+Letter "L" key:
+This is a Button component. It represents a key on the virtual keyboard.
+@@@Button@@@
+
+Letter "I" key:
+This is a Button component. It represents a key on the virtual keyboard.
+@@@Button@@@
+
+Letter "B" key:
+This is a Button component. It represents a key on the virtual keyboard.
+@@@Button@@@
+
+Letter "E" key:
+This is a Button component. It represents a key on the virtual keyboard.
+@@@Button@@@
+
+Text label:
+This is a Text Functional Component. It displays the label text "ЛЮДИ" which likely means "People" in Russian, indicating the section of the contact list.
+@@@Text Functional Component@@@
+Cancel text:
+This is a Text functional component. It indicates a command to cancel the current operation.
+@@@Text Functional Component@@@
+
+New message text:
+This is a Text functional component. It's likely a section header indicating the user is composing a new message.
+@@@Text Functional Component@@@
+
+Recipient (To:) input field:
+This is a TextInput component. It allows the user to input the recipient's details.
+@@@TextInput@@@
+
+Create a new group option with icon:
+This is a Button component. It allows the user to create a new group chat.
+@@@Button@@@
+
+Icon of multiple people:
+This is an Image component. It visually represents the option to create a new group.
+@@@Function Component@@@
+
+Contact name "Kieron Dotson":
+This is a Text functional component. It displays the contact's name.
+@@@Text Functional Component@@@
+
+Arrow icon next to "Create a new group":
+This is a Button component. It indicates that selecting this option will lead to another screen.
+@@@Button@@@
+
+Shift key (up arrow) on keyboard:
+This is a Button component. It allows the user to switch between lowercase and uppercase letters.
+@@@Button@@@
+
+Letter "T" key on keyboard:
+This is a Button component. It inputs the letter "T" when pressed.
+@@@Button@@@
+
+Letter "P" key on keyboard:
+This is a Button component. It inputs the letter "P" when pressed.
+@@@Button@@@
+
+Backspace key on keyboard:
+This is a Button component. It deletes the character to the left of the cursor.
+@@@Button@@@
+
+Letter "R" key on keyboard:
+This is a Button component. It inputs the letter "R" when pressed.
+@@@Button@@@
+
+Letter "H" key on keyboard:
+This is a Button component. It inputs the letter "H" when pressed.
+@@@Button@@@
+
+Group icon:
+This is an Image component. It visually indicates the option related to creating or managing groups.
+@@@Function Component@@@
+
+Letter "J" key on keyboard:
+This is a Button component. It inputs the letter "J" when pressed.
+@@@Button@@@
+X button:
+This is a Button component. It is likely used to clear the text input field or delete a typed character.
+@@@Button@@@
+
+Signal icon:
+This is an Image component. This icon represents the signal strength of the device.
+@@@Function Component@@@
+
+Go button:
+This is a Button component. It is used to send or confirm the entered message or input.
+@@@Button@@@
+
+Smiley icon:
+This is a Button component. It probably opens an emoji picker or related menu.
+@@@Button@@@
+
+Q key:
+This is a Button component. It represents an individual letter key on the virtual keyboard.
+@@@Button@@@
+
+Y key:
+This is a Button component. It represents an individual letter key on the virtual keyboard.
+@@@Button@@@
+
+123 key:
+This is a Button component. It switches the keyboard to a numerical layout.
+@@@Button@@@
+
+Battery icon:
+This is an Image component. It displays the battery level of the device.
+@@@Function Component@@@
+
+"New message" label:
+This is a Text component. It is a title that indicates the user is on a screen to create a new message.
+@@@Text Functional Component@@@
+Jamie Franco:
+This is a Text Functional Component. It displays the name of a contact or user.
+@@@Text Functional Component@@@
+
+Tabitha Potter:
+This is a Text Functional Component. It displays the name of a contact or user alongside their profile picture.
+@@@Text Functional Component@@@
+
+Character "0":
+This is a Text Functional Component. It represents the digit '0' as part of a numeric input or display.
+@@@Text Functional Component@@@
+
+Create a New Group:
+This is a Text Functional Component. It serves as an option for users to create a new group chat.
+@@@Text Functional Component@@@
+
+Character "V":
+This is a Text Functional Component. It represents the character 'V', possibly as part of a larger text input or button.
+@@@Text Functional Component@@@
+
+Character "L":
+This is a Text Functional Component. It represents the character 'L', possibly as part of a larger text input or button
+@@@Text Functional Component@@@
+
+Cancel:
+This is a Text Functional Component. It provides an option to cancel the current action or screen.
+@@@Text Functional Component@@@
+
+Profile Picture:
+This is a Function Component. It displays the profile picture of a contact or user.
+@@@Function Component@@@
+
+Character "K":
+This is a Text Functional Component. It represents the character 'K', possibly as part of a larger text input or button.
+@@@Text Functional Component@@@
+Cancel button:
+This is a Button component. It's used to cancel the current action and likely returns the user to the previous screen or action.
+@@@Button@@@
+
+New message label:
+This is a Text Functional Component. It indicates that the user is creating a new message.
+@@@Text Functional Component@@@
+
+To: label and text input field:
+This is a TextInput component. It allows the user to input the recipient's name or contact information.
+@@@TextInput@@@
+
+Create a New Group button with icon:
+This is a Button component with an icon. It allows the user to create a new group for messaging.
+@@@Button@@@
+
+List of contacts with images and names:
+This is a SectionList component. It displays a scrollable list of contacts including their images and names.
+@@@SectionList@@@
+
+Keyboard keys such as W, U, space, G, Z, A, D:
+These are Button components. They represent different keys on the on-screen keyboard used for typing.
+@@@Button@@@
+
+Status bar elements (time, signal strength, etc.):
+These are likely part of the StatusBar Android and iOS Component. They show essential system information such as time and signal strength.
+@@@StatusBar Android and iOS Component@@@
+
+Explanation:
+1. The Cancel button is clearly an interactive element meant to stop the current action.
+2. The New message label is static text providing context for the user.
+3. The To: label and input field are text input elements for the user to type information.
+4. Create a New Group button with icon combines text and an icon for interactive group creation.
+5. The list of contacts is a scrollable list, represented by the SectionList component.
+6. Keyboard keys are interactive buttons used for typing.
+7. The status bar elements provide system information and fulfill the role of the StatusBar Android and iOS Component.
+S key button:
+This is a TouchableOpacity Function Component. It is part of the keyboard allowing users to type the letter 'S'.
+@@@TouchableOpacity Function Component@@@
+
+Contact name "Zack John":
+This is a Text Functional Component. It displays the name of a contact in the chat application.
+@@@Text Functional Component@@@
+
+C key button:
+This is a TouchableOpacity Function Component. It is part of the keyboard allowing users to type the letter 'C'.
+@@@TouchableOpacity Function Component@@@
+
+N key button:
+This is a TouchableOpacity Function Component. It is part of the keyboard allowing users to type the letter 'N'.
+@@@TouchableOpacity Function Component@@@
+
+Horizontal line divider:
+This is a View Function Component. It is used to divide sections within the user interface for better visual organization.
+@@@View Function Component@@@
+
+M key button:
+This is a TouchableOpacity Function Component. It is part of the keyboard allowing users to type the letter 'M'.
+@@@TouchableOpacity Function Component@@@
+
+User profile picture:
+This is a Function Component. It displays the user's profile picture within the contact list.
+@@@Function Component@@@

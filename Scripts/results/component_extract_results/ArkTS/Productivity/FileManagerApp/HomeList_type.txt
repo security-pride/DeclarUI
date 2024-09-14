@@ -1,0 +1,133 @@
+Recently deleted:
+This component shows a text label, likely indicating an entry or section title with an additional description.
+@@@arkTSText@@@
+
+9:41:
+This is the clock component, displaying the current time on the mobile device.
+@@@arkTSDisplayTime@@@
+
+Image of a person:
+This likely represents an image component, displaying a visual element, possibly an avatar or a thumbnail.
+@@@arkTSImage@@@
+
+Select:
+This is a text label, possibly representing an action or selectable command.
+@@@arkTSText@@@
+
+Wi-Fi symbol:
+This represents an icon symbol, probably indicating a Wi-Fi connectivity status.
+@@@arkTSImage@@@
+
+Image of two people:
+This likely represents an image component, displaying a visual element, possibly an avatar or a thumbnail.
+@@@arkTSImage@@@
+
+File icon:
+This represents an icon, possibly indicating a file-related action or document type.
+@@@arkTSImage@@@
+
+The Chainsmoker Closer:
+This component shows a text label, indicating a section title or an item with a sub-description of date.
+@@@arkTSText@@@
+
+Signal bars:
+This is an icon that likely indicates the signal strength or connectivity status.
+@@@arkTSImage@@@
+Gear icon:
+This is typically used to indicate the settings option in the app, allowing users to configure various preferences and settings.
+@@@arkTSIcon@@@
+
+iTunes label:
+This is a text label representing a category or item named "iTunes" with an additional count of items.
+@@@arkTSText@@@
+
+Home icon:
+This icon likely represents the home or main screen of the app, allowing users to navigate back to the homepage.
+@@@arkTSIcon@@@
+
+Grid icon:
+This icon usually indicates a grid view option, enabling users to toggle between different layout views (e.g., list view, grid view).
+@@@arkTSIcon@@@
+
+Name dropdown label:
+This label with an accompanying icon suggests a dropdown or sorting feature, specifically for sorting items by name.
+@@@arkTSDropdown@@@
+
+Blue folder icon:
+This icon represents a folder in the app, possibly used to indicate a category or directory containing files or items.
+@@@arkTSIcon@@@
+
+Business management text:
+This text label represents an item or a category named "Business management" with an associated date.
+@@@arkTSText@@@
+
+Recent videos text:
+This is a text label indicating a section or folder named "Recent videos" with an additional count of items.
+@@@arkTSText@@@
+
+Circular image icon:
+This is a circular icon, likely representing a thumbnail image for an item or a folder in the app interface.
+@@@arkTSImage@@@
+Plant photoshoot:
+This is a text label that includes a title and a date, likely indicating an event or item entry.
+@@@arkTSText@@@
+
+Blue circle icon:
+This is an icon that likely represents a media file or application feature.
+@@@arkTSIcon@@@
+
+Black folder icon:
+This is an icon that represents a folder, suggesting an organization or storage feature.
+@@@arkTSFolder@@@
+
+Select icon and label:
+This component is a button with text, likely allowing users to make a selection within the app.
+@@@arkTSButton@@@
+
+WiFi icon:
+This icon likely indicates connectivity status or settings.
+@@@arkTSIcon@@@
+
+Leaf image icon:
+This is an image thumbnail that likely represents an item or category.
+@@@arkTSImage@@@
+
+Clock icon:
+This icon typically represents time-related features, possibly recent activity or history.
+@@@arkTSIcon@@@
+
+Statue image icon:
+This is an image thumbnail for an item or category.
+@@@arkTSImage@@@
+
+Plus icon in a square:
+This is a button that likely allows users to add new content or items.
+@@@arkTSButton@@@
+Search icon:
+This icon likely serves as a button to initiate a search function within the app, allowing users to find specific content.
+@@@arkTSImage@@@
+
+"Quotes" label:
+This text denotes a section titled "Quotes," followed by a date indicating when it was created or last modified.
+@@@arkTSText@@@
+
+Play button icon:
+This icon represents a play button, probably used to start video playback in a media-related section of the app.
+@@@arkTSImage@@@
+
+Text document icon:
+This icon seems to signify a document file, likely representing a text-based file within the app.
+@@@arkTSImage@@@
+
+"Home" label:
+This text label indicates the current section or homepage of the app, serving as a navigation identifier.
+@@@arkTSText@@@
+
+Menu icon:
+This icon appears to be a menu option, potentially used to access additional settings or actions for an item.
+@@@arkTSImage@@@
+
+"Photos & video" label:
+This text describes a section with photos and videos, including a count of the items available.
+@@@arkTSText@@@
+

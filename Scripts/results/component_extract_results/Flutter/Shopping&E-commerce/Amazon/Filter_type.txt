@@ -1,0 +1,106 @@
+Cancelled text:
+This is a text widget displaying the word "Cancelled," likely indicating an option representing cancelled orders.
+@@@Text@@@
+
+Back and Apply section:
+This consists of a back arrow and two text widgets, one for "Back" and one for "Apply." The back arrow likely allows the user to go back to the previous screen, while the "Apply" button submits the filter changes.
+Back arrow:
+This is a button or icon indicating a backward navigation action.
+@@@IconButton@@@
+
+"Back" text:
+This is a text widget displaying the label "Back," indicating a button to navigate back.
+@@@Text@@@
+
+"Apply" text:
+This is a button that likely applies the selected filters.
+@@@ElevatedButton@@@
+
+2024 text:
+This is a text widget displaying the year "2024," likely part of a filter option to filter orders by year.
+@@@Text@@@
+
+User icon:
+This is an icon widget representing the user profile section, likely used for navigating to the user profile screen.
+@@@Icon@@@
+
+Back arrow isolated:
+This is an arrow icon typically used for backward navigation.
+@@@Icon@@@
+
+Radio button (selected):
+This is a widget representing a selected radio button option, indicating the current active selection in a list of options.
+@@@Radio@@@
+
+FILTER BY ORDER DATE text:
+This is a text widget displaying the section label "FILTER BY ORDER DATE," indicating the start of filter options by date.
+@@@Text@@@
+
+Local shops text:
+This is a text widget displaying the option "Local shops," likely used to filter orders from local shops.
+@@@Text@@@
+
+Not Yet Dispatched option:
+This appears to be a radio button with a corresponding label "Not Yet Dispatched," used for filtering orders that are yet to be dispatched.
+Radio button:
+This is a widget representing a radio button option.
+@@@Radio@@@
+
+Not Yet Dispatched text:
+This is a text widget displaying the label "Not Yet Dispatched."
+@@@Text@@@
+
+Orders label:
+This is a text widget that displays the label "Orders".
+@@@Text@@@
+
+Radio button (unselected):
+This appears to be an unselected radio button used for single selection options.
+@@@Radio@@@
+
+Shopping cart icon with count:
+This is an icon that represents a shopping cart with an item count indicator.
+@@@Stack@@@
+
+Microphone icon:
+This appears to be an icon widget that represents a microphone, likely used for voice search.
+@@@Icon@@@
+
+2021 label:
+This is a text widget displaying the year "2021".
+@@@Text@@@
+
+Last 3 months label:
+This is a text widget displaying the time period "Last 3 months".
+@@@Text@@@
+
+Search bar:
+This is a search bar that allows users to enter a query. It contains a TextField widget for user input and icons for search, scanning, and voice actions.
+@@@Row@@@
+
+Filter by order type label:
+This is a text widget displaying the label "FILTER BY ORDER TYPE".
+@@@Text@@@
+
+Home icon:
+This is an icon that represents the home navigation item.
+@@@Icon@@@
+Circle:
+This appears to be a radio button used to select an option.
+@@@Radio@@@
+
+"Last 30 days" label:
+This is a text widget indicating the period filter option for viewing orders.
+@@@Text@@@
+
+"Apply" button:
+This is a button that, when pressed, applies the selected filters.
+@@@ElevatedButton@@@
+
+Menu icon (three horizontal lines):
+This is an icon button likely used to open a navigation drawer or menu.
+@@@IconButton@@@
+
+"2022" label:
+This is a text widget indicating the year filter option for viewing orders.
+@@@Text@@@

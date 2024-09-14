@@ -1,0 +1,204 @@
+Photo icon and label:
+This icon and text label indicates that a photo was shared in the message.
+@@@arkTSIcon@@@
+
+Check mark:
+This check mark icon indicates that the message has been read by the user.
+@@@arkTSIcon@@@
+
+Time label:
+This text shows the time when the message was sent or received.
+@@@arkTSText@@@
+
+Contact name:
+This text displays the name of the contact in the conversation list.
+@@@arkTSText@@@
+
+Time (9:41):
+This is the system time, usually shown at the top of the screen on mobile devices.
+@@@arkTSTime@@@
+
+Signal strength icon:
+This icon illustrates the current network signal strength.
+@@@arkTSIcon@@@
+
+Message preview:
+This small text below the contact name shows a preview of the latest message in the conversation.
+@@@arkTSText@@@
+
+Contact initials:
+The initials inside a circle represent the contact’s profile picture when an image is not provided.
+@@@arkTSAvatar@@@
+
+Contacts label:
+This text label is part of the navigation bar, indicating the Contacts section.
+@@@arkTSText@@@
+Ilay Serah entry:
+This entry displays a contact name with an additional media type icon, suggesting that it pertains to a message containing video content.
+@@@arkTSListItem@@@
+
+Thanks ray! text:
+This is a message preview text, allowing users to see a portion of the message content.
+@@@arkTSText@@@
+
+Media Icons (Photo and Video):
+These icons represent different types of media attachments within a message. They help indicate if a message contains a photo or video.
+@@@arkTSIcon@@@
+
+Scarlett Johansson name:
+This text represents a contact name or conversation title within the messaging app.
+@@@arkTSText@@@
+
+Profile icon (circle with initials):
+This circular component likely represents a user’s profile picture, using initials when no image is available.
+@@@arkTSAvatar@@@
+
+Okay thank you billie text:
+A preview of the latest message content, providing quick access to recent communication.
+@@@arkTSText@@@
+
+Yesterday label:
+This text indicates the date of a message, showing when the message was sent or received.
+@@@arkTSText@@@
+
+Messages label:
+This is a header or title, suggesting the current section or functionality (messages) of the app being viewed.
+@@@arkTSTitle@@@
+Component Keyword:
+8:30 timestamp
+Component Function Description:
+This is a text element that likely displays the time a message was sent or received.
+@@@arkTSText@@@
+
+Component Keyword:
+DT avatar
+Component Function Description:
+This circular image with initials likely represents a user avatar or contact profile picture.
+@@@arkTSImage@@@
+
+Component Keyword:
+AB avatar with green dot
+Component Function Description:
+This avatar with a green dot likely indicates the user is online or active.
+@@@arkTSImage@@@
+
+Component Keyword:
+2 message count
+Component Function Description:
+This is a badge element possibly used to show the number of unread messages or notifications.
+@@@arkTSBadge@@@
+
+Component Keyword:
+Messages title
+Component Function Description:
+This text element serves as the page or section title, indicating the current view within the app.
+@@@arkTSTitle@@@
+
+Component Keyword:
+Wi-Fi icon
+Component Function Description:
+This icon likely represents a Wi-Fi connection status or signal strength indicator.
+@@@arkTSIcon@@@
+
+Component Keyword:
+Antonio Banderas name
+Component Function Description:
+This text is likely the name of a contact or chat participant displayed in a list.
+@@@arkTSText@@@
+
+Component Keyword:
+CE avatar
+Component Function Description:
+This circular avatar with initials likely serves as a placeholder for a user profile image or contact picture.
+@@@arkTSImage@@@
+
+Component Keyword:
+2 notification badge
+Component Function Description:
+This badge indicates the count of unread messages or notifications associated with a specific chat or app feature.
+@@@arkTSBadge@@@
+Component Keyword:
+This is a check mark icon indicating that the message has been read or delivered.
+@@@arkTSIcon@@@
+
+Component Keyword:
+This is a text element showing the name "Johnny Deep". It represents the name of a contact or a user in the messaging app.
+@@@arkTSText@@@
+
+Component Keyword:
+This is a text element showing the name "Billie Eillish". It represents the name of a contact or a user in the messaging app.
+@@@arkTSText@@@
+
+Component Keyword:
+This is a part of a text bubble, specifically showing a gray, partial text message. It indicates a preview of the last message in a conversation.
+@@@arkTSText@@@
+
+Component Keyword:
+This is a user avatar icon with the initials "AB" and a green dot indicating the user is online or active.
+@@@arkTSAvatar@@@
+
+Component Keyword:
+This is a text label indicating an image attachment or file named "Photo".
+@@@arkTSText@@@
+
+Component Keyword:
+This is a section showing multiple text lines, specifically for the names and statuses of contacts in the app.
+@@@arkTSList@@@
+
+Component Keyword:
+This is a circular icon with the number “2”, indicating the count of unread messages or notifications.
+@@@arkTSBadge@@@
+
+Component Keyword:
+This is a horizontal separator line used to visually separate different sections or items in the app.
+@@@arkTSSeparator@@@
+JD initials badge:
+This appears to be an avatar icon representing a user with the initials "JD." It likely serves as a visual identifier in a list of contacts or messages.
+@@@arkTSBadge@@@
+
+AB initials with green dot:
+This component shows user initials along with a green dot, indicating the user's online status or availability.
+@@@arkTSBadgeWithStatus@@@
+
+Calls text:
+This is a text label that likely represents a navigation item, specifically for accessing the calls section of the app.
+@@@arkTSText@@@
+
+Yesterday text:
+This is a date label that likely indicates the time a message was last received or sent in the app.
+@@@arkTSTextTime@@@
+
+Black round button:
+This is a round button, possibly used for actions like sending a message or opening a menu.
+@@@arkTSButton@@@
+
+Chris Evans text:
+This text label likely displays a contact name or message sender's name in a list of messages.
+@@@arkTSText@@@
+
+Unread message count badge:
+This component displays a badge with a number indicating unread messages, often used in messaging apps or notifications.
+@@@arkTSBadge@@@
+
+IS initials badge:
+This is likely a user avatar icon displaying the initials "IS," serving as an identifier in the app's contact list.
+@@@arkTSBadge@@@
+
+AB initials with green dot:
+This is similar to the previous initials badge and indicates user status with a green dot.
+@@@arkTSBadgeWithStatus@@@
+Search bar icon:
+This is an icon typically used to represent the search functionality. It allows users to search for content within the application.
+@@@arkTSIcon@@@
+
+"You're welcome" text:
+This appears to be a text label representing part of a message conversation.
+@@@arkTSText@@@
+
+"Calls" label:
+This is a text label likely representing a navigation tab for calls within the application.
+@@@arkTSText@@@
+
+Magnifying glass icon:
+This icon is commonly used to signify the search functionality, enabling users to find specific content within the app.
+@@@arkTSIcon@@@

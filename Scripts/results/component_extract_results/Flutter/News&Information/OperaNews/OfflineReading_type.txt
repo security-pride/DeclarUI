@@ -1,0 +1,54 @@
+Download button:
+This is a button with text, likely used to initiate a download action when pressed.
+@@@ElevatedButton@@@
+
+Download icon circular:
+This is an icon that represents downloading, typically used to indicate a download option.
+@@@Icon@@@
+
+Offline reading header:
+This text serves as the title for a section or screen, providing context to the user.
+@@@Text@@@
+
+"Me" tab with icon:
+This is part of a navigation bar and represents the user/profile section.
+@@@BottomNavigationBarItem@@@
+
+Black circle:
+This is likely a decorative element or placeholder, displayed as a solid circle.
+@@@Container@@@
+
+Illustration with text:
+The image includes an icon and a caption, possibly meant to show loading status or instructions.
+@@@Column@@@
+
+Battery icon:
+This small icon is used to show battery status or indication in the app.
+@@@Icon@@@
+
+"Home" tab with icon:
+This is part of a navigation bar and represents the home section of the app.
+@@@BottomNavigationBarItem@@@
+
+Trash bin icon:
+This icon typically represents a delete option, often used in toolbars or actions.
+@@@IconButton@@@
+Back arrow icon:
+A navigational back button typically placed in the AppBar to return to the previous screen.
+@@@IconButton@@@
+
+Offline reading header:
+Displays the main title of the screen, indicating the purpose or feature of the current app screen.
+@@@Text@@@
+
+Automatic download on WiFi subheader:
+Provides additional information or context related to the main title, often used to explain a setting or feature.
+@@@Text@@@
+
+Time display (8:58):
+Displays the current time, generally part of the status bar.
+@@@Text@@@
+
+Download articles label:
+Prompts the user to perform an action, in this case, to download articles for offline reading.
+@@@Text@@@

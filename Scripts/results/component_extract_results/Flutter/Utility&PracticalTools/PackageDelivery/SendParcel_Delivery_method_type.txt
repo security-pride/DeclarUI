@@ -1,0 +1,91 @@
+Name label:
+
+This appears to be a label indicating the input field for entering a user's name.
+@@@Text@@@
+
+Empty text field:
+
+This is likely an input field where users can type text, such as a name or address.
+@@@TextField@@@
+
+Address label:
+
+This is a label indicating the input field for entering a user's address.
+@@@Text@@@
+
+Phone number label:
+
+This is a label indicating the input field for entering a user's phone number.
+@@@Text@@@
+
+Send parcel button:
+
+This component consists of an icon and label, functioning as a navigation or action button in a BottomNavigationBar.
+@@@BottomNavigationBarItem@@@
+
+Time display:
+
+This is a simple text widget displaying the current time, typically found in the app's status bar.
+@@@Text@@@
+
+Recipient info label:
+
+This indicates a section header, introducing the recipient's information input area.
+@@@Text@@@
+
+Filled email text field:
+
+This is an input field where users can type or edit their email address, with placeholder text and border styling.
+@@@TextField@@@
+
+Bottom navigation indicator:
+
+This is a visual indicator showing the selected item in a bottom navigation bar, styled as a rounded rectangle.
+@@@Container@@@
+Parcel center icon and label:
+This is an icon with a label typically used in the bottom navigation bar of an app to switch between different sections.
+@@@BottomNavigationBarItem@@@
+
+Outlined container:
+This appears to be a container used for wrapping text fields, providing a visual boundary.
+@@@Container@@@
+
+My parcels icon and label:
+This is an icon with a label typically used in the bottom navigation bar of an app to switch between different sections.
+@@@BottomNavigationBarItem@@@
+
+Send parcel label:
+This is a text widget displaying a label.
+@@@Text@@@
+
+Black rectangular bar:
+This element could be a progress indicator or a visual separator.
+@@@Container@@@
+
+Signal strength indicator:
+This is an icon representing signal strength, often used in the status bar.
+@@@Icon@@@
+
+Delivery method option:
+This is a container combining an image and text, used to represent selectable delivery methods.
+@@@Container@@@
+
+Delivery method label:
+This is a text widget displaying a label.
+@@@Text@@@
+
+Name field:
+This is a text form field used for entering the recipient’s name.
+@@@TextFormField@@@
+
+Component Keyword:
+This section displays a delivery method option with an icon, title, and descriptive text indicating the delivery timeframe.
+@@@ListTile@@@
+
+Component Keyword:
+This icon likely indicates the status of the WiFi or signal connectivity of the application.
+@@@Icon@@@
+
+Component Keyword:
+This is a label for an input field where the user can enter their email address.
+@@@Text@@@

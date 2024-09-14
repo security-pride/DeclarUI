@@ -1,0 +1,46 @@
+Inbox icon:
+This appears to be an icon that represents an inbox or notifications.
+@@@Icon@@@
+
+Upload icon:
+This is an icon that likely represents an action to upload or share content.
+@@@Icon@@@
+
+Fire icon with the number 12 below it:
+Shows a flame icon used to represent calories burned, with a numeric value indicating the number of calories.
+@@@Column@@@
+
+"追踪您的正念" component:
+This component includes an icon and text indicating a feature to track mindfulness over the past 5 days.
+@@@ListTile@@@
+
+"编辑" button:
+This is a button labeled "Edit" in Chinese, used to trigger an edit action.
+@@@TextButton@@@
+
+"好友" label:
+A text label indicating a section or tab for friends.
+@@@Text@@@
+
+"发现" section:
+This includes an icon of a compass and a label "Discover," representing a discover feature or tab.
+@@@Column@@@
+
+"经期健康" component:
+This component includes an icon and text indicating a feature for tracking menstrual health.
+@@@ListTile@@@
+
+"追踪锻炼情况" component:
+This component includes an icon and text indicating a feature to track workout status over the past 5 days.
+@@@ListTile@@@
+fitbit logo:
+This is an image widget displaying the logo of the app.
+@@@Image@@@
+
+Premium label:
+This is a text widget that likely indicates a section or feature of the app aimed at premium users.
+@@@Text@@@
+
+步数 (Step Count) circle with shoe icon:
+This is a container widget with an icon and text displaying the step count, often used for visual representation of data.
+@@@Container@@@

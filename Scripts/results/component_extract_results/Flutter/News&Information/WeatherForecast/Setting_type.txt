@@ -1,0 +1,101 @@
+Manage location icon and text:
+This component consists of an icon and a label, likely used for navigation or displaying a specific app function related to location management.
+@@@ListTile@@@
+
+Remove ads icon:
+This component shows an icon indicating the "remove ads" function, likely used in an app to highlight an ad-free option.
+@@@Icon@@@
+
+Feedback and Suggestion label:
+This component includes an icon and text indicating a section for user feedback and suggestions.
+@@@ListTile@@@
+
+Temperature text:
+This is a text widget displaying the current temperature, typically updated dynamically in weather apps.
+@@@Text@@@
+
+Overcast clouds text:
+This component displays a brief weather description, commonly updated based on real-time data.
+@@@Text@@@
+
+More details text:
+This component likely acts as a link or button, prompting users to access additional information.
+@@@TextButton@@@
+
+Battery icon:
+This component represents the battery level icon, often part of the app's status indicators.
+@@@Icon@@@
+
+Storage icon:
+This component likely represents storage status or memory usage, using an icon to convey information.
+@@@Icon@@@
+
+Unit setting icon and text:
+This component is used to display settings related to units, including pressure, wind speed, or time format.
+@@@ListTile@@@
+Share button:
+This component displays a share icon and label, typically used to invoke sharing features in an app.
+@@@ListTile@@@
+
+Weather widgets option:
+Displays an icon and label for weather widgets, suggesting a feature for displaying widgets on the phone screen.
+@@@ListTile@@@
+
+Notification toggle:
+Displays a bell icon with a label and a switch to enable or disable notifications.
+@@@SwitchListTile@@@
+
+Weather radar label:
+Represents a text label for a weather radar feature.
+@@@Text@@@
+
+Day label (SUN):
+Displays a day abbreviation likely part of a calendar or schedule.
+@@@Container@@@
+
+Hide background image toggle:
+Displays an icon with a label and a switch to hide or show the background image.
+@@@SwitchListTile@@@
+
+Report problem option:
+Displays an icon and label for reporting issues, likely opens a feedback form.
+@@@ListTile@@@
+
+Home label:
+Simple text label that indicates the home feature or screen.
+@@@Text@@@
+
+Time label:
+Displays text for times, possibly for weather forecasts or schedules.
+@@@Text@@@
+Char label:
+This is a part of the app's title or heading text.
+@@@Text@@@
+
+Remove ads label:
+This is a text label that indicates an option to remove advertisements from the app.
+@@@Text@@@
+
+Temperature component:
+This includes a label for temperature settings and a toggle switch to switch between Fahrenheit and Celsius.
+@@@Row@@@
+
+Lock screen component:
+This includes a label for the lock screen settings and a switch to enable or disable the lock screen feature.
+@@@Row@@@
+
+Status bar component:
+This includes a label for the status bar settings and a switch to enable or disable the display of the status bar.
+@@@Row@@@
+
+Home icon:
+This is an icon likely representing a navigation option to go to the home screen.
+@@@Icon@@@
+
+Weather radar icon:
+This is an icon likely representing a navigation option to view the weather radar.
+@@@Icon@@@
+
+Setting label:
+This is a header text indicating that the current screen is the settings screen.
+@@@Text@@@

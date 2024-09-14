@@ -1,0 +1,58 @@
+Humidity and dew point information:
+This section provides details about humidity, dew point, atmospheric pressure, UV index, and wind direction in a text format.
+@@@arkTSText@@@
+
+Moon phases information:
+This text indicates the current moon phase, which is "Waxing gibbous."
+@@@arkTSText@@@
+
+Time and temperature information:
+Displays the time, temperature, and a small weather icon indicating cloud type, along with precipitation data.
+@@@arkTSContainer@@@
+
+Humidity and dew point information (different values):
+Similar to the previous humidity details, this section provides weather-related information in text format.
+@@@arkTSText@@@
+
+Moon phases information (duplicate):
+Same as the previous moon phase text, this section indicates the current moon phase.
+@@@arkTSText@@@
+
+Details button:
+This is a text label styled as a clickable link, likely used to navigate to more detailed information about the weather.
+@@@arkTSButton@@@
+
+Status bar:
+Displays system information such as time, network, and battery status. Typically remains static and provides vital status details.
+@@@arkTSSystemStatusBar@@@
+
+Details button (duplicate):
+Another "Details" button styled similarly, providing navigation to more detailed weather information.
+@@@arkTSButton@@@
+
+Navigation bar with title:
+Displays the app's title and a back arrow, indicating a navbar used for navigation within the app.
+@@@arkTSNavigation@@@
+Humidity, Dew point, Pressure labels:
+These are text labels displaying weather-related data such as humidity, dew point, pressure, UV index, and wind direction.
+@@@arkTSText@@@
+
+Precipitation, Wind chill, Cloud cover labels:
+These are text labels showing specific weather metrics like precipitation, wind chill, cloud cover, moon phases, and wind speed.
+@@@arkTSText@@@
+
+"broken clouds" label:
+This is a text label indicating the weather condition, specifically the cloud coverage.
+@@@arkTSText@@@
+
+Time and temperature with icon:
+This component displays the time, temperature, and an icon representing the weather condition, providing a comprehensive weather summary for a specific hour.
+@@@arkTSRow@@@
+
+Precipitation, Wind chill, Cloud cover labels (with icon):
+These are text labels with an icon showing weather characteristics such as precipitation, wind chill, cloud cover, moon phases, and wind speed.
+@@@arkTSText@@@
+
+Precipitation, Wind chill, Cloud cover labels (full cloud cover):
+These text labels depict various weather details, including precipitation, wind chill, cloud cover, moon phases, and wind speed.
+@@@arkTSText@@@

@@ -1,0 +1,85 @@
+City Selector:
+This element likely allows the user to select their city from a dropdown or a navigational item.
+@@@DropdownButton@@@
+
+Landline Phone Icon with Label:
+This component represents a service, in this case, a landline phone bill. The icon is accompanied by a label for clarity.
+@@@Column@@@
+
+"如何进行线上缴费" (How to make online payments) label:
+This is a text widget that provides instructions or a heading in the app. When non-English text is present, provide a translation.
+@@@Text@@@
+
+"生活缴费" (Utility Payments) header:
+This text appears prominent and likely serves as a section header or title describing the main content area for utility payments.
+@@@Text@@@
+
+"水电燃气费得会员积分" (Water, electricity, and gas fees earn member points) label:
+This text provides additional information or incentives about the services offered.
+@@@Text@@@
+
+"出账通知" (Billing Notification) chip:
+This component is likely a label or a chip indicating a feature or status relating to billing notifications.
+@@@Chip@@@
+
+Electricity Fee Card:
+This card includes an icon, a few text labels, and a button. The icon represents electricity, and the text provides information along with a button to add the service.
+@@@Card@@@
+
+Gas Fee Card:
+Similar to the electricity fee card, this card includes an icon, text labels, and a button representing gas fees and allowing the user to add the service.
+@@@Card@@@
+
+Property Fee Icon with Label:
+This component represents a property service fee with an icon and a label for clarity, similar to other service tiles.
+@@@Column@@@
+Three dots and circle icon:
+This component likely functions as a navigation menu or settings option, represented by the three dots, and a button to access a specific feature or functionality, represented by the circle icon.
+@@@Row@@@
+
+Text instructions:
+This text block likely provides guidance or instructions to the user, detailing the steps required to proceed with a specific action in the app.
+@@@Column@@@
+
+Checkmark icon:
+This icon likely represents the completion or confirmation of an action, such as a task or a toggle setting being active.
+@@@Icon@@@
+
+Checkbox with label:
+The checkmark combined with the label indicates a selectable option or setting that, when active, shows a checkmark to represent selection.
+@@@CheckboxListTile@@@
+
+Transfer fee icon and label:
+This component is a button or tile representing a service related to transferring fees. The icon indicates the nature of the service.
+@@@Column@@@
+
+Heating fee icon and label:
+This component likely functions as a button or tile for managing heating-related fees, using icons and text to indicate the service offered.
+@@@Column@@@
+
+"极速到账" ("Instant arrival") label:
+This text widget describes or labels a feature, indicating a quick or instant service related to financial transactions.
+@@@Text@@@
+
+Cable TV fee icon and label:
+This component probably functions as a button or tile related to cable TV services, representing the service with an icon and accompanying text.
+@@@Column@@@
+
+Blue circular icon:
+This icon likely serves an ornamental or branding purpose, enhancing the visual identity of the app.
+@@@Icon@@@
+Component Keyword:
+The component displays an icon of a router symbolizing Internet services, with a label "宽带" (Broadband) below it.
+@@@Column@@@
+
+Component Keyword:
+A numbered marker, likely used as a step indicator or label in an instruction sequence.
+@@@CircleAvatar@@@
+
+Component Keyword:
+A bill item with an icon representing water, labeled "水费" (Water Bill) with an "去添加" (Add) label and an "立即添加" (Add Now) button.
+@@@Row@@@
+
+Component Keyword:
+The component displays an icon representing a mobile phone, with a label "手机" (Mobile) below it.
+@@@Column@@@

@@ -1,0 +1,72 @@
+#### Component 1
+
+Component Keyword:
+This is a keyword label for "甲状腺结节" (Thyroid Nodules). It is likely a clickable component that might filter or search for information related to thyroid nodules.
+@@@arkTSText@@@
+
+#### Component 2
+
+Component Keyword:
+This box component likely represents a card view with an image and text for "直播课件" (Live Courseware). It probably contains an option to access more details about live courseware contents.
+@@@arkTSCardView@@@
+
+#### Component 3
+
+Component Keyword:
+This is a keyword label for "湿疹" (Eczema). It is likely a clickable component that might filter or search for information related to eczema.
+@@@arkTSText@@@
+
+#### Component 4
+
+Component Keyword:
+This is a search bar component allowing users to enter keywords for searching content within the app.
+@@@arkTSSearch@@@
+
+#### Component 5
+
+Component Keyword:
+This is a keyword label for "荨麻疹" (Urticaria). It is another clickable component for filtering or searching information related to urticaria.
+@@@arkTSText@@@
+
+#### Component 6
+
+Component Keyword:
+This is a header component that contains a search icon and text for search functionality, followed by a section title "热门推荐" (Hot Recommendations).
+@@@arkTSHeader@@@
+
+#### Component 7
+
+Component Keyword:
+This box component likely represents a card view with an image and text for "视频问医生" (Video Consultation with Doctor). It probably allows users to access services for video consultations.
+@@@arkTSCardView@@@
+
+#### Component 8
+
+Component Keyword:
+This is an icon representation, possibly used within the same card component seen above for "直播课件" (Live Courseware). It visually represents the service or feature.
+@@@arkTSIcon@@@
+
+#### Component 9
+
+Component Keyword:
+This is a keyword label for "前列腺炎" (Prostatitis). It is another clickable component for filtering or searching information related to prostatitis.
+@@@arkTSText@@@
+Free Consultation (免费导诊):  
+This component appears to be a card that offers users a free consultation, likely providing information and a quick link to access specialist recommendations.  
+@@@arkTSCard@@@
+
+Cancel (取消):  
+This text component likely functions as a cancel button, allowing users to exit or dismiss a current search or action.  
+@@@arkTSText@@@
+
+Gout (痛风):  
+This component is a tag representing a keyword or category within a list of popular searches or conditions.  
+@@@arkTSTag@@@
+
+New Doctor Consultation From 9.9 Yuan (新人问医生 9.9 元起):  
+This component is a promotional card detailing a special offer for new users to consult a doctor, including a description and a call to action.  
+@@@arkTSCard@@@
+
+Acne (痤疮):  
+This component represents a tag or label used to denote popular topics or search terms within the app.  
+@@@arkTSTag@@@

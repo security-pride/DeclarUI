@@ -1,0 +1,124 @@
+Rewind button icon:
+This is a TouchableOpacity Function Component. It's likely used to allow users to skip to the previous track in a music player.
+@@@TouchableOpacity Function Component@@@
+
+Search icon:
+This is a Pressable component. It's part of the search bar and likely allows users to initiate a search for songs, albums, or artists.
+@@@Pressable@@@
+
+Circular image of Michael Jackson:
+This is an Image component, which is likely used to display album artwork or artist image in the bottom navigation panel.
+@@@Function Component@@@
+
+Album cover image:
+This is an Image component, likely used to display the album cover art in the album list section.
+@@@Function Component@@@
+
+"10 Songs" text:
+This is a Text Functional Component. It provides information about the number of songs in an album.
+@@@Text Functional Component@@@
+
+Album cover image:
+This is an Image component, likely used to display the album cover art in the album list section.
+@@@Function Component@@@
+
+"Albums" text:
+This is a Text Functional Component. It is used as a tab label to indicate the "Albums" section.
+@@@Text Functional Component@@@
+
+Album cover image:
+This is an Image component, likely used to display the album cover art in the album list section.
+@@@Function Component@@@
+
+Fast-forward button icon:
+This is a TouchableOpacity Function Component. It's likely used to allow users to skip to the next track in a music player.
+@@@TouchableOpacity Function Component@@@
+Genre label:
+This is a Text Functional Component. It displays navigational options for the user to view songs by genre.
+@@@Text Functional Component@@@
+
+Songs icon with label:
+This is a Function Component. It serves as the navigation tab for the "Songs" section in the app, allowing users to switch to the Songs view.
+@@@Function Component@@@
+
+Artists label:
+This is a Text Functional Component. It serves as a navigation option, enabling users to filter songs by artist.
+@@@Text Functional Component@@@
+
+Artist album image:
+This is a Function Component. It is used to display an album cover for the respective artist in the album list.
+@@@Function Component@@@
+
+Home label:
+This is a Text Functional Component. It serves as a navigation option to take the user back to the home screen.
+@@@Text Functional Component@@@
+
+Time display (09:41):
+This is a Text Functional Component. It shows the current time in the mobile app's header.
+@@@Text Functional Component@@@
+
+Unknown album image:
+This is a Function Component. It shows an album cover within the albums list.
+@@@Function Component@@@
+
+Wi-Fi icon:
+This is an ImageBackground component. It visually represents the Wi-Fi signal strength in the app's status bar.
+@@@ImageBackground@@@
+All Songs:
+This is a Text Functional Component. It represents the "All Songs" tab header in the app and allows users to switch to the view where all songs are displayed.
+@@@Text Functional Component@@@
+
+Maroon 5 album cover:
+This is an Image Function Component. It displays the album cover art for the Maroon 5 album.
+@@@Function Component@@@
+
+Michael Jackson album cover:
+This is an Image Function Component. It displays the album cover art for the Michael Jackson album "History".
+@@@Function Component@@@
+
+10 Songs label:
+This is a Text Functional Component. It informs the user that there are 10 songs in the album.
+@@@Text Functional Component@@@
+
+Queen album cover:
+This is an Image Function Component. It displays the album cover art for the Queen II album.
+@@@Function Component@@@
+
+Signal strength icon:
+This is an Image Function Component. It represents the signal strength indicator in the status bar.
+@@@Function Component@@@
+
+Beyoncé album cover:
+This is an Image Function Component. It displays the album cover art for the Beyoncé album.
+@@@Function Component@@@
+
+Battery icon:
+This is an Image Function Component. It represents the battery status indicator in the status bar.
+@@@Function Component@@@
+
+Songs:
+This is a Text Functional Component. It represents the "Songs" tab header in the app, indicating the currently selected tab.
+@@@Text Functional Component@@@
+Settings label:
+This is a Text Functional Component. It's the label for the "Settings" tab in the navigation bar, indicating that the user can go to the settings page.
+@@@Text Functional Component@@@
+
+Album cover image (Michael Jackson - HIStory):
+This is an Image Function Component. It visually represents the album cover of "HIStory" by Michael Jackson.
+@@@Function Component@@@
+
+Artistic cover image:
+This is an Image Function Component. It visually represents an artistic album cover.
+@@@Function Component@@@
+
+I Am... text:
+This is a Text Functional Component. It displays part of the title of an album or section.
+@@@Text Functional Component@@@
+
+Playlists label:
+This is a Text Functional Component. It's the label for the "Playlists" tab, allowing users to view their music playlists.
+@@@Text Functional Component@@@
+
+Queen II album cover image:
+This is an Image Function Component. It visually represents the album cover of "Queen II".
+@@@Function Component@@@

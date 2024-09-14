@@ -1,0 +1,58 @@
+Dianne Russell profile:
+This is a View Function Component that includes an image, text, and other elements to display the profile information for a mentor.
+@@@View Function Component@@@
+
+Search bar with "Adam":
+This is a TextInput component likely used for entering and searching text queries.
+@@@TextInput@@@
+
+Wi-Fi icon:
+This is part of the StatusBar Android and iOS Component, which displays network status information.
+@@@StatusBar Android and iOS Component@@@
+
+Kristin Watson profile:
+This is a View Function Component that includes an image, text, and other elements to display the profile information for a mentor.
+@@@View Function Component@@@
+
+Time display (19:27):
+This is part of the StatusBar Android and iOS Component, showing the current time.
+@@@StatusBar Android and iOS Component@@@
+
+Devon Lane profile:
+This is a View Function Component that includes an image, text, and other elements to display the profile information for a mentor.
+@@@View Function Component@@@
+
+Ronald Richards profile:
+This is a View Function Component that includes an image, text, and other elements to display the profile information for a mentor.
+@@@View Function Component@@@
+
+Adam Gruztav profile:
+This is a View Function Component that includes an image, text, and other elements to display the profile information for a mentor.
+@@@View Function Component@@@
+
+Network signal icon:
+This is part of the StatusBar Android and iOS Component, displaying the current network signal strength.
+@@@StatusBar Android and iOS Component@@@
+Back arrow icon:
+This is a Button component. It allows users to navigate back to the previous screen.
+@@@Button@@@
+
+Search heading:
+This is a Text Functional Component. It displays a heading to describe the purpose of the screen.
+@@@Text Functional Component@@@
+
+Menu dots icon:
+This is a Button component. It likely opens a contextual menu or additional options related to the screen.
+@@@Button@@@
+
+Search bar:
+This is a TextInput component. It allows users to enter text for searching within the app.
+@@@TextInput@@@
+
+Green verification icon:
+This is an Image (Function Component). It indicates that the user has been verified.
+@@@Function Component@@@
+
+Mentor card:
+This is a View Function Component. It displays the mentor's information including their name, mentor category, and profile picture.
+@@@View Function Component@@@

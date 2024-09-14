@@ -1,0 +1,66 @@
+Payments label:
+This is a text label that indicates the section for managing payments and financial transactions within the app.
+@@@arkTSText@@@
+
+Account Settings label:
+This is a text label that indicates the section for managing account-related settings and preferences in the app.
+@@@arkTSText@@@
+
+Payments and transactions item:
+This is a clickable list item that navigates the user to a screen where they can manage their payments and transaction history.
+@@@arkTSListItem@@@
+
+Your Amazon Day item:
+This is a clickable list item that leads the user to an interface to manage their designated Amazon delivery day.
+@@@arkTSListItem@@@
+
+Manage gift card balance item:
+This is a clickable list item that directs the user to manage and check their gift card balances.
+@@@arkTSListItem@@@
+
+Back Arrow:
+This is a back navigation button that allows the user to return to the previous screen.
+@@@arkTSButton@@@
+
+In-Store Promo Wallet item:
+This is a clickable list item that allows the user to manage their in-store promo wallet.
+@@@arkTSListItem@@@
+
+Your Subscribe & Save item:
+This is a clickable list item that directs the user to manage their subscriptions and savings plans.
+@@@arkTSListItem@@@
+
+Search bar and back arrow:
+This combined area includes a search bar allowing users to search content within the app, and a back arrow for navigation. The search bar is used for entering text queries.
+@@@arkTSSearchAndButton@@@
+
+Orders label:
+This is a text label indicating a section where users can manage their orders.
+@@@arkTSText@@@
+Search bar:
+This appears to be a search input field that allows users to enter text for searching content within the app.
+@@@arkTSSearch@@@
+
+Your Orders:
+This is a list item that navigates to the user's order history when clicked.
+@@@arkTSListItem@@@
+
+Contact Us:
+This is a list item that allows the user to contact customer service when selected.
+@@@arkTSListItem@@@
+
+Bottom Navigation Bar:
+This is a bottom navigation bar providing quick access to different sections like home, account, and cart.
+@@@arkTSBottomNavigationBar@@@
+
+Customer Service label:
+This is a text label indicating a section for customer service related options.
+@@@arkTSText@@@
+
+Top up account:
+This is a list item that allows the user to top up their account balance.
+@@@arkTSListItem@@@
+
+Shop with Points:
+This is a list item that displays options for shopping with points.
+@@@arkTSListItem@@@

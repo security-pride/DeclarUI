@@ -1,0 +1,50 @@
+Search icon with label "搜索":
+This icon along with the label likely represents a search tab or button where users can search for items.
+@@@arkTSTabBarItem@@@
+
+Home icon with label "主页":
+This icon along with the label likely represents the home tab, directing the user to the home screen of the app.
+@@@arkTSTabBarItem@@@
+
+Tag icon with label "出售物品":
+This icon along with the label likely represents a section where users can list items for sale.
+@@@arkTSTabBarItem@@@
+
+Search bar:
+This appears to be a search input field that allows users to enter text for searching content within the app.
+@@@arkTSSearch@@@
+
+Bell icon with label "通知":
+This icon along with the label likely represents a notifications tab where users can view their notifications.
+@@@arkTSTabBarItem@@@
+
+Shopping cart icon:
+This icon likely represents a shopping cart where users can view items they are planning to purchase.
+@@@arkTSTabBarItem@@@
+
+"最近" label:
+This label means "recent," and it likely represents a section displaying recently viewed or accessed items.
+@@@arkTSText@@@
+
+"发现下" label (partial text):
+This appears to be a part of a larger text, which may indicate finding or discovering something next.
+@@@arkTSText@@@
+
+Person icon with label "我的 eBay":
+This icon along with the label likely represents the user's profile or account section within the app.
+@@@arkTSTabBarItem@@@
+Search bar:
+This appears to be a search input field that allows users to enter text for searching content within the app.
+@@@arkTSSearch@@@
+
+"发现下一件您最喜爱的物品。":
+This text translates to "Discover the next item you love." It seems to be a small description under a search prompt.
+@@@arkTSText@@@
+
+"已保存":
+This text translates to "Saved." It likely indicates items or content that the user has saved.
+@@@arkTSText@@@
+
+"搜索 eBay":
+This text translates to "Search eBay." It encourages users to use the search functionality in the app.
+@@@arkTSText@@@

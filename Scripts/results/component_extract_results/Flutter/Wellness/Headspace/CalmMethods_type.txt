@@ -1,0 +1,89 @@
+Explore Icon:
+This appears to be an icon representing a section of the app related to exploration. It is likely clickable and used for navigation.
+@@@IconButton@@@
+
+SOS for Anxious Moments Label:
+This is a text label providing a section header for related content.
+@@@Text@@@
+
+Wi-Fi Signal Icon:
+This icon likely indicates some aspect of network connectivity or status.
+@@@Icon@@@
+
+Reset Card:
+This image appears to be part of a card component related to a "Reset" feature, providing a visual representation and title, possibly clickable.
+@@@Card@@@
+
+Meditation Time Description:
+This text gives details about the meditation, including the time duration and a brief description.
+@@@Text@@@
+
+Feeling Overwhelmed SOS Label:
+This is a text widget that serves as a title for a specific meditation or feature.
+@@@Text@@@
+
+Feeling Overwhelmed SOS Image:
+This image provides a visual representation related to the "Feeling Overwhelmed SOS" feature, likely contained within a card.
+@@@Image@@@
+
+Panicking SOS Feature Image:
+This image is related to the "Panicking SOS" feature, providing a visual indicative of the feature's content.
+@@@Image@@@
+
+Breathe Feature Description:
+This text gives details about the "Breathe" feature, including the title, description, and any pertinent icons.
+@@@Text@@@
+Breathe icon:
+This is an illustrative image likely used to represent a specific meditation or relaxation activity related to breathing.
+@@@Image@@@
+
+Support label:
+This is a text widget providing information and support for users about the app’s features focusing on anxiety relief.
+@@@Text@@@
+
+Timer label:
+This is a text widget showcasing a countdown timer, possibly used to show the duration of a meditation session.
+@@@Text@@@
+
+Signal icon:
+This appears to be an icon indicating network signal strength.
+@@@Icon@@@
+
+Battery indicator:
+This appears to be an icon indicating the current battery level of the device.
+@@@Icon@@@
+
+Bucket icon:
+This is an illustrative image likely representing a specific activity or theme in the app, possibly related to handling emotions.
+@@@Image@@@
+
+Eraser icon:
+This is an illustrative image likely indicating a reset or clean slate activity in the app.
+@@@Image@@@
+
+Main title:
+This is a text widget displaying the main title or heading of the current screen or section, focusing on calming everyday anxiety.
+@@@Text@@@
+
+Reset description:
+This is a text widget providing details on the Reset function, including the duration and a brief description of the meditation activity.
+@@@Text@@@
+Unlock the Headspace Library:
+This is a text element that serves as a clickable feature, indicating the section where users can access additional content.
+@@@Text@@@
+
+Panicking SOS Image:
+This component likely displays an image related to a specific meditation or feature within the app, serving as a visual cue for the user.
+@@@Image@@@
+
+Today Label:
+This is a textual label, likely part of a navigation bar, that indicates the current tab or section the user is viewing.
+@@@Text@@@
+
+Panicking SOS Description:
+This component combines text with icons to provide a description of the meditation feature, including duration and type. The lock icon indicates restricted content.
+@@@Column@@@
+
+Breathe Image:
+This component displays an image, probably representing the "Breathe" meditation or exercise, providing visual identification for the user.
+@@@Image@@@

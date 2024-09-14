@@ -1,0 +1,221 @@
+Cellist Image:
+This is an Image component. It is likely used to display artist images in the app interface.
+@@@Function Component@@@
+
+Search Bar:
+This is a TextInput component. It allows users to input and search for specific terms, such as song names, artist names, or albums.
+@@@TextInput@@@
+
+"Ashli Hip Hip" Title:
+This is a Text component. It represents a song title in the app.
+@@@Text Functional Component@@@
+
+Play Icon on Artist Image:
+This is an Image component. It is used to overlay a play icon on the artist image, indicating that the user can play the song or video.
+@@@Function Component@@@
+
+"Artists" Label:
+This is a Text component. It serves as a section header for the Artists section of the app.
+@@@Text Functional Component@@@
+
+"Song" Tag:
+This is a Text component. It is used to tag an item in the list as a song.
+@@@Text Functional Component@@@
+
+Play Icon on Album Image:
+This is an Image component. It functions similarly to the play icon on the artist image, allowing users to play songs or videos from the album.
+@@@Function Component@@@
+
+Play Icon on Song Image:
+This is an Image component. It is used to overlay a play icon on the song image, suggesting that the user can play the song or video.
+@@@Function Component@@@
+
+Cell Signal Strength Icon:
+This is an Image component. It likely indicates the cell signal strength on the mobile device.
+@@@Function Component@@@
+Tredning label:
+This is a "Text Functional Component". It's a label that signifies a section or category in the app, likely indicating a trending category for the user.
+@@@Text Functional Component@@@
+
+Blurred background image:
+This is an "ImageBackground" component. It's used as a background image, likely as part of the album, artist, or song display.
+@@@ImageBackground@@@
+
+Gully Boy Unlimi... label:
+This is a "Text Functional Component". It indicates the title of a musical album, truncated to fit the display properly.
+@@@Text Functional Component@@@
+
+Doori label:
+This is a "Text Functional Component". It signifies the title of the song "Doori".
+@@@Text Functional Component@@@
+
+Blurred background image:
+This is an "ImageBackground" component. It serves as a background image, likely for a music album or artist feature.
+@@@ImageBackground@@@
+
+Play icon over album image:
+This is an "Image" component. It indicates a play button overlay on album images to signify that the user can start playing a song or album by pressing this icon.
+@@@Function Component@@@
+
+Street Dancer 3D label:
+This is a "Text Functional Component". It indicates the name of the album or artist for the currently playing song.
+@@@Text Functional Component@@@
+
+Library tab icon:
+This is a "Function Component" or "Image" component. It signifies the "Library" tab in the bottom navigation of the app.
+@@@Function Component@@@
+
+Settings label:
+This is a "Text Functional Component". It signifies the "Settings" tab label in the bottom navigation of the app.
+@@@Text Functional Component@@@
+Album, 2019 label:
+This is a Text Functional Component. It serves as a label providing additional information about the album.
+@@@Text Functional Component@@@
+
+Search bar with "Gully Boy":
+This is a Text Functional Component within a View Function Component. It allows users to input search queries to find relevant content in the app.
+@@@Text Functional Component@@@
+
+Illegal Weapon 2.0 label:
+This is a Text Functional Component. It is a label indicating the currently playing song.
+@@@Text Functional Component@@@
+
+Show All label:
+This is a Text Functional Component. It serves as a clickable label that likely navigates to a view showing all items in a given category.
+@@@Text Functional Component@@@
+
+Image of musician:
+This is an Image Functional Component. It displays an image related to an album or artist.
+@@@Function Component@@@
+
+Image of concert:
+This is an Image Functional Component. It displays an image related to an album or artist.
+@@@Function Component@@@
+
+Gully Boy label:
+This is a Text Functional Component. It is a label displaying the title of the content.
+@@@Text Functional Component@@@
+
+Heart icon:
+This is a Button component. It is likely used for favoriting or liking a song.
+@@@Button@@@
+
+Home icon with label:
+This is a Button component with an icon and a Text Functional Component. It acts as a navigation button in the app to navigate to the home section.
+@@@Button@@@
+Pause icon:
+This is a Button. It likely pauses the currently playing song when pressed.
+@@@Button@@@
+
+"Mere Gully Mein" label:
+This is a Text component. It is likely used to display the title of the song.
+@@@Text Functional Component@@@
+
+"Songs" category with image:
+This is a View component that contains an Image and a Text component. The image likely represents a music category and the text describes the category.
+@@@View Function Component@@@
+
+Search bar with magnifying glass icon:
+This is a TextInput component. It allows users to enter text to search for songs, artists, or albums.
+@@@TextInput@@@
+
+"Apna Time Aayega" label:
+This is a Text component. It is likely used to display the title of the song.
+@@@Text Functional Component@@@
+
+Hip Gully Boy image:
+This is an Image component. It represents a visual element or cover art associated with a song or album.
+@@@Function Component@@@
+
+Play icon overlay on song image:
+This is an Image component that acts as a play button overlay on song images.
+@@@Function Component@@@
+
+Saxophones image (Albums section):
+This is an Image component. It represents a visual element or cover art associated with an album.
+@@@Function Component@@@
+
+Duplicate image of Saxophones:
+This is an Image component. It is identical to the previous saxophones image used in a different part of the interface.
+@@@Function Component@@@
+Gully Gully Mein Gully Boy:
+This is a Text Functional Component. This component displays the name of the song "Gully Gully Mein Gully Boy", making it clear to the user which song is being referred to.
+@@@Text Functional Component@@@
+
+Concert with lights and confetti:
+This is a Function Component. This component likely displays an image related to an album cover or an event, providing a visual cue for the user.
+@@@Function Component@@@
+
+Album, 2019 label:
+This is a Text Functional Component. This component provides additional information about an album, indicating the release year.
+@@@Text Functional Component@@@
+
+Guitarist image:
+This is a Function Component. This component displays an image of a performer, possibly representing an artist in the app.
+@@@Function Component@@@
+
+Guitarist image on stage:
+This is a Function Component. This component displays an image of a performer on stage, probably representing an artist from a concert.
+@@@Function Component@@@
+
+Gully Gully Mein Gully boy label:
+This is a Text Functional Component. This component shows the text "Gully Gully Mein Gully boy", probably related to a song or album in the app.
+@@@Text Functional Component@@@
+
+Album, 2019 label (duplicate):
+This is a Text Functional Component. This component provides details about an album, specifically the release year, similar to the previous "Album, 2019" label.
+@@@Text Functional Component@@@
+
+Song label:
+This is a Text Functional Component. This component indicates that the item is a song, giving context to the listing for the user.
+@@@Text Functional Component@@@
+
+Mere Gully Mein label:
+This is a Text Functional Component. This component displays the name of the song "Mere Gully Mein", informing the user about the song title.
+@@@Text Functional Component@@@
+Guitarist image:
+This is an Image component. It's used to display the album art or artist image.
+@@@Function Component@@@
+
+"9:41" text:
+This is a Text component. It likely displays the time on the device.
+@@@Text Functional Component@@@
+
+"Gully Boy" label in search:
+This is a Text component. It displays the user query or search text entered in the search bar.
+@@@Text Functional Component@@@
+
+Play icon over image of guitarist:
+This is an Image component used in conjunction with a button to indicate a playable media.
+@@@Function Component@@@
+
+Guitarist image repeated:
+This is an Image component. It's used to display the artist or album image.
+@@@Function Component@@@
+
+Play icon over image of guitarist on stage:
+This is an Image component used in conjunction with a button to indicate a playable media.
+@@@Function Component@@@
+
+"Gully Boy 2 Various Artists" text:
+This is a Text component. It displays the album title and artists.
+@@@Text Functional Component@@@
+
+"Gully Boy" label under image:
+This is a Text component. It indicates the song or album title.
+@@@Text Functional Component@@@
+
+Play icon over performance image:
+This is an Image component used in conjunction with a button to indicate a playable media.
+@@@Function Component@@@
+Search icon:
+This is a Function Component. It is part of the navigation bar and is likely used to open the search feature for the app.
+@@@Function Component@@@
+
+"Gully Boy" text:
+This is a Text Functional Component. It displays the name of the song within the search results.
+@@@Text Functional Component@@@
+
+"Song" text:
+This is a Text Functional Component. It provides additional information about the content type, specifying that it is a song.
+@@@Text Functional Component@@@

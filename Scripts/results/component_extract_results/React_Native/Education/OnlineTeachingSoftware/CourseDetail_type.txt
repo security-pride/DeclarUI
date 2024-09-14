@@ -1,0 +1,62 @@
+Signal icon:
+This is an Image component. It displays signal strength in the status bar.
+@@@Function Component@@@
+
+Time display (19:27):
+This is a Text component. It shows the current time.
+@@@Text Functional Component@@@
+
+Rating display (4.5 Rating):
+This is a combination of Text and View components. It shows the rating information for the course.
+@@@Text Functional Component@@@
+
+User information and rating (Jerremy Mamika, 4.6 star):
+This is a combination of Image and Text components. It shows the user information along with the rating.
+@@@Function Component@@@
+
+WiFi icon:
+This is an Image component. It displays the WiFi connection status in the status bar.
+@@@Function Component@@@
+
+Course description (About Course):
+This is a Text component. It provides a description of the course.
+@@@TextFunctional Component@@@
+
+Back button:
+This is a Pressable component. It navigates the user to the previous screen when pressed.
+@@@Pressable@@@
+
+Course image with description and favorite icon:
+This is a combination of Image and View components. It displays the course image, a small description label ("UI Design"), and a favorite icon (heart).
+@@@Function Component@@@
+
+More options icon (three dots):
+This is a TouchableOpacity component. It provides additional options or actions to the user when pressed.
+@@@TouchableOpacity Function Component@@@
+Profile Picture:
+This is an Image component. It displays the profile picture of the course instructor or relevant person.
+@@@Function Component@@@
+
+Buy Now button:
+This is a TouchableOpacity Function Component. It likely navigates the user to a purchase screen or adds the course to the cart.
+@@@TouchableOpacity Function Component@@@
+
+30+ Leason:
+This is a Text Functional Component. It displays the number of lessons included in the course.
+@@@Text Functional Component@@@
+
+Expert Wireframing for Webiste Design theme food:
+This is a Text Functional Component. It displays the title of the course.
+@@@Text Functional Component@@@
+
+1.4K Student:
+This is a Text Functional Component. It displays the number of students enrolled in the course.
+@@@Text Functional Component@@@
+
+Price:
+This is a Text Functional Component. It displays the label for the price of the course.
+@@@Text Functional Component@@@
+
+$129:
+This is a Text Functional Component. It displays the price of the course.
+@@@Text Functional Component@@@

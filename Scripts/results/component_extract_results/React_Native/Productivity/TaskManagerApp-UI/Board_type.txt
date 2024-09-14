@@ -1,0 +1,58 @@
+Component Keyword:
+Bottom navigation bar with plus button:
+This is a View Function Component. It represents a navigation bar that allows users to navigate between different sections of the app.
+@@@View Function Component@@@
+
+Component Keyword:
+"Board" Text:
+This is a Text Functional Component. It represents the heading or title of the current screen.
+@@@Text Functional Component@@@
+
+Component Keyword:
+Signal icon:
+This is a StatusBar Android and iOS Component. It represents the network signal strength indicator typically found in the device's status bar.
+@@@StatusBar Android and iOS Component@@@
+
+Component Keyword:
+Battery icon slot:
+This is a StatusBar Android and iOS Component. It represents the battery level indicator typically found in the device's status bar.
+@@@StatusBar Android and iOS Component@@@
+
+Component Keyword:
+Personal task card:
+This is a View Function Component. It is likely to represent a category or project for personal tasks within the app, displaying a count of tasks.
+@@@View Function Component@@@
+
+Component Keyword:
+Events task card:
+This is a View Function Component. It is likely to represent a category or project for event-related tasks within the app, displaying a count of tasks.
+@@@View Function Component@@@
+
+Component Keyword:
+Work task card:
+This is a View Function Component. It is likely to represent a category or project for work-related tasks within the app, displaying a count of tasks.
+@@@View Function Component@@@
+
+Component Keyword:
+Create Board task card:
+This is a View Function Component. It is likely to represent a button or option for creating new task boards within the app.
+@@@View Function Component@@@
+Meeting icon:
+This represents one of the board categories for tasks specifically related to meetings. It provides users with a visual cue and text description of how many tasks are in this category.
+@@@View Function Component@@@
+
+Clock display "9:41":
+This is a Text component indicating the current time on the user interface.
+@@@Text Functional Component@@@
+
+Personal icon:
+This represents one of the board categories for personal tasks. It provides users with a visual cue and text description of how many tasks are in this category.
+@@@View Function Component@@@
+
+Events icon:
+This represents one of the board categories for tasks specifically related to events. It provides users with a visual cue and text description of how many tasks are in this category.
+@@@View Function Component@@@
+
+Private icon:
+This represents one of the board categories for private tasks. It provides users with a visual cue and text description of how many tasks are in this category.
+@@@View Function Component@@@

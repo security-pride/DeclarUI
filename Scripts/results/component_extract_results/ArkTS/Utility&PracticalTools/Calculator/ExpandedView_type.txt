@@ -1,0 +1,234 @@
+sin button:
+This button likely represents the sine function, commonly used in scientific calculators to perform trigonometric calculations.
+@@@arkTSButton@@@
+
+4 button:
+This button likely represents the number 4, allowing users to input this digit in calculations.
+@@@arkTSButton@@@
+
+Backspace button:
+This button appears to be used for deleting the last entered character or number, similar to a backspace function.
+@@@arkTSButton@@@
+
+Toggle button:
+This button appears to indicate a toggling state, possibly for changing between different modes or views.
+@@@arkTSSwitch@@@
+
+Clock icon:
+This icon likely opens a feature related to time, such as a history of previous calculations or a timer.
+@@@arkTSIcon@@@
+
+0 button:
+This button likely represents the number 0, allowing users to input this digit in calculations.
+@@@arkTSButton@@@
+
+Equals button:
+This button is likely the equals button used to perform the calculation and show the result.
+@@@arkTSButton@@@
+
+Addition button:
+This button likely represents the addition operation, allowing users to add numbers.
+@@@arkTSButton@@@
+
+0 button:
+This button likely represents the number 0, allowing users to input this digit in calculations.
+@@@arkTSButton@@@
+Plus/Minus button:
+This button is used to toggle the sign of a number, switching it between positive and negative.
+@@@arkTSButton@@@
+
+Number 7 button:
+This button inputs the number 7 into the calculator.
+@@@arkTSButton@@@
+
+Absolute value button:
+This button inputs the absolute value function, which returns the positive magnitude of a number.
+@@@arkTSButton@@@
+
+Multiplication button:
+This button inputs the multiplication operation.
+@@@arkTSButton@@@
+
+Percentage button:
+This button inputs the percentage function, which returns the value as a percentage.
+@@@arkTSButton@@@
+
+Logarithm button:
+This button inputs the natural logarithm function, which returns the logarithm of a number to the base e.
+@@@arkTSButton@@@
+
+Logarithm (base 10) button:
+This button inputs the logarithm function with base 10.
+@@@arkTSButton@@@
+
+Cosine button:
+This button inputs the cosine function, which returns the cosine of an angle.
+@@@arkTSButton@@@
+
+Tangent button:
+This button inputs the tangent function, which returns the tangent of an angle.
+@@@arkTSButton@@@
+
+Toggle Switch:
+This appears to be a toggle switch that allows users to switch between two states, such as turning a setting on or off.
+@@@arkTSSwitch@@@
+
+Large Numeric Display:
+This component is used to display a large numeric value prominently within the app.
+@@@arkTSText@@@
+
+Close Button:
+This is a button used for closing a window or dialog within the app.
+@@@arkTSButton@@@
+
+Parentheses Button:
+This button allows users to insert parentheses, likely for grouping expressions in calculations.
+@@@arkTSButton@@@
+
+Backspace/Delete Button:
+This button is used to delete the last entered character or value.
+@@@arkTSButton@@@
+
+Number 9 Button:
+This button inputs the number 9 into the calculator or input field.
+@@@arkTSButton@@@
+
+Degree/Radian Switch:
+This button or toggle is used to switch between degree and radian modes in the calculator.
+@@@arkTSButton@@@
+
+Number 2 Button:
+This button inputs the number 2 into the calculator or input field.
+@@@arkTSButton@@@
+
+Clear Button:
+This button clears the current input or calculation from the display.
+@@@arkTSButton@@@
+C button:
+This is a button labeled "C," likely used to clear input or reset the current calculation.
+@@@arkTSButton@@@
+
+Switch toggle:
+This component is a toggle switch, probably for switching between dark and light modes in the app.
+@@@arkTSSwitch@@@
+
+3 button:
+This button labeled "3" is likely used to input the number three into the calculator.
+@@@arkTSButton@@@
+
+e button:
+This button labeled "e" is likely used to input the mathematical constant e into calculations.
+@@@arkTSButton@@@
+
+Addition button:
+This button with a plus sign is likely used to perform addition operations in the calculator.
+@@@arkTSButton@@@
+
+9 button:
+This button labeled "9" is likely used to input the number nine into the calculator.
+@@@arkTSButton@@@
+
+2 button:
+This button labeled "2" is likely used to input the number two into the calculator.
+@@@arkTSButton@@@
+
+en button:
+This button labeled "en" seems to indicate a function related to exponents, likely calculating powers of e.
+@@@arkTSButton@@@
+
+x² button:
+This button labeled "x²" is used for squaring numbers in the calculator.
+@@@arkTSButton@@@
+Component Keyword:
+This component appears to be a button or icon without any specific text or symbol. It might be used for a simple function, such as toggling a feature.
+@@@arkTSButton@@@
+
+Component Keyword:
+The number "8" suggests this is a button, likely part of a numerical keypad, used for entering the number 8.
+@@@arkTSButton@@@
+
+Component Keyword:
+The number "7" suggests this is a button, likely part of a numerical keypad, used for entering the number 7.
+@@@arkTSButton@@@
+
+Component Keyword:
+The number "6" suggests this is a button, likely part of a numerical keypad, used for entering the number 6.
+@@@arkTSButton@@@
+
+Component Keyword:
+The "1/x" symbol indicates this is a button for calculating the reciprocal of a number, often found on calculators.
+@@@arkTSButton@@@
+
+Component Keyword:
+The number "1" suggests this is a button, likely part of a numerical keypad, used for entering the number 1.
+@@@arkTSButton@@@
+
+Component Keyword:
+The number "3" suggests this is a button, likely part of a numerical keypad, used for entering the number 3.
+@@@arkTSButton@@@
+
+Component Keyword:
+The "π" symbol indicates this is a button for inserting the mathematical constant pi, commonly found on scientific calculators.
+@@@arkTSButton@@@
+
+Component Keyword:
+The number "5" suggests this is a button, likely part of a numerical keypad, used for entering the number 5.
+@@@arkTSButton@@@
+"()" button:
+This button likely allows users to add parentheses to their calculations, affecting the order of operations.
+@@@arkTSButton@@@
+
+Expand icon:
+This icon probably lets users expand the interface or view it in full screen mode.
+@@@arkTSIcon@@@
+
+"-" button:
+This button is used to perform subtraction operations in the calculator.
+@@@arkTSButton@@@
+
+"/" button:
+This button is used to perform division operations in the calculator.
+@@@arkTSButton@@@
+
+"45 × 24" text:
+This text seems to display the dimensions or result of a calculation, possibly showing multiplication.
+@@@arkTSText@@@
+
+"xⁿ" button:
+This button allows users to perform exponential operations, raising a number to a specified power.
+@@@arkTSButton@@@
+
+Clock icon:
+This icon may represent a history or time-related function, possibly storing previous calculations or accessing a clock feature.
+@@@arkTSIcon@@@
+
+"1" button:
+This button is used to input the number one into calculations.
+@@@arkTSButton@@@
+
+"5" button:
+This button is used to input the number five into calculations.
+@@@arkTSButton@@@
+Component Keyword: Absolute value button
+Component Function Description: This button is likely used to calculate the absolute value of a number.
+@@@arkTSButton@@@
+
+Component Keyword: Division button
+Component Function Description: This button is used to perform division operations.
+@@@arkTSButton@@@
+
+Component Keyword: Number four button
+Component Function Description: This button is used to input the number four.
+@@@arkTSButton@@@
+
+Component Keyword: Switch button
+Component Function Description: This button seems to execute a switch or toggle function, possibly for switching modes or directions.
+@@@arkTSButton@@@
+
+Component Keyword: Square root button
+Component Function Description: This button calculates the square root of a number.
+@@@arkTSButton@@@
+
+Component Keyword: Plus/Minus button
+Component Function Description: This button toggles the sign of a number between positive and negative.
+@@@arkTSButton@@@

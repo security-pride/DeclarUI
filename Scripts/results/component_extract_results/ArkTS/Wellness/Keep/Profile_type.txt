@@ -1,0 +1,148 @@
+Weight measurement:
+This is a text label that displays the user's current weight in kilograms.
+@@@arkTSText@@@
+
+商城 (Marketplace):
+This is a text label indicating a section for a marketplace or store within the app.
+@@@arkTSText@@@
+
+Star icon:
+This is an icon, likely used to represent favorites or a bookmark feature in the app.
+@@@arkTSImage@@@
+
+我的数据 (My Data):
+This component displays the user's data, likely including statistics or records of their activities.
+@@@arkTSRow@@@
+
+Add friend icon:
+This is an icon that likely allows users to add a friend or follow another user.
+@@@arkTSImage@@@
+
+我的饮食 (My Diet):
+This is a text label indicating a section for tracking or managing the user's diet.
+@@@arkTSText@@@
+
+Date component:
+This component displays a date, likely indicating when the user joined or another important date.
+@@@arkTSText@@@
+
+User nickname:
+This is a text label showing the user's nickname or username within the app.
+@@@arkTSText@@@
+
+条动态 (Activity count):
+This text label shows the count of user activities or posts within the app.
+@@@arkTSText@@@
+Component Keyword:
+The Chinese text "课程" (Curriculum) represents one of the navigation options, likely leading to the user's courses.
+
+Component Function Description:
+This text label is used for navigation to the part of the app that contains user courses.
+
+@@@arkTSText@@@
+
+Component Keyword:
+The Chinese text "我的动态" (My Activity) represents another navigation option, leading to the user's activity feed.
+
+Component Function Description:
+This text label leads to a section showing the user's recent activities and updates.
+
+@@@arkTSText@@@
+
+Component Keyword:
+The purple banner with multiple text labels and icons.
+
+Component Function Description:
+This banner likely represents a promotional offer or membership details. It contains multiple text labels and a call-to-action button ("立即开通" which translates to "Activate Now").
+
+@@@arkTSBanner@@@
+
+Component Keyword:
+The weight data section displaying "70.0 公斤" (Kilograms) as body weight over the last 12 months.
+
+Component Function Description:
+This label shows a data visualization section, specifically the user’s body weight data over the past 12 months.
+
+@@@arkTSLabel@@@
+
+Component Keyword:
+The hexagonal icon with a 'Y' shape inside.
+
+Component Function Description:
+This icon may represent a settings or a menu option within the app.
+
+@@@arkTSIcon@@@
+
+Component Keyword:
+The profile picture placeholder icon.
+
+Component Function Description:
+This component is used as a placeholder for the user's profile image.
+
+@@@arkTSAvatar@@@
+
+Component Keyword:
+The section showing some kind of badge or score with "新挑战" (New Challenge).
+
+Component Function Description:
+This component likely represents achievements or challenges the user can engage with.
+
+@@@arkTSBadge@@@
+
+Component Keyword:
+The Chinese text "首页" (Home) represents the home button in navigation.
+
+Component Function Description:
+This text label is used for navigating to the home screen of the app.
+
+@@@arkTSText@@@
+
+Component Keyword:
+The component with an icon and text "运动" (Exercise).
+
+Component Function Description:
+This component is a button for navigating to the exercise section of the app.
+
+@@@arkTSButton@@@
+Component Keyword:
+This is a text label that indicates the number of followers.
+@@@arkTSText@@@
+
+Component Keyword:
+This is an icon, likely represents settings or configuration options.
+@@@arkTSIcon@@@
+
+Component Keyword:
+This is a text label that indicates support or likes.
+@@@arkTSText@@@
+
+Component Keyword:
+This is an icon that appears to represent food or dining.
+@@@arkTSIcon@@@
+
+Component Keyword:
+This is an icon likely used for toggling a full-screen view or similar functionality.
+@@@arkTSIcon@@@
+
+Component Keyword:
+This is a text label that indicates orders and balances.
+@@@arkTSText@@@
+
+Component Keyword:
+This is a text label that indicates "My Activities".
+@@@arkTSText@@@
+
+Component Keyword:
+This is an icon symbolizing a trophy, likely awards or achievements.
+@@@arkTSIcon@@@
+
+Component Keyword:
+This is a badge or label indicating weight upgrade, with a call to action for upgrading.
+@@@arkTSBadge@@@
+我的 (My):
+This is a text label that likely represents a section or tab related to personal settings or information.
+@@@arkTSText@@@
+
+收藏与加油 (Favorites and Support):
+This is a text label probably indicating a section for saved items or motivational support.
+@@@arkTSText@@@

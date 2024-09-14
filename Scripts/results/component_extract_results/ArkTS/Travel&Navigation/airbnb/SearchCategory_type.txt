@@ -1,0 +1,79 @@
+Component Keyword:
+Icon representing settings or configuration options.
+@@@arkTSIcon@@@
+
+Component Keyword:
+Icon representing beach resort or sea view accommodation.
+@@@arkTSIcon@@@
+
+Component Keyword:
+An image showcasing property or location with a favorite or like button.
+@@@arkTSImage@@@
+
+Component Keyword:
+The word "漂亮" (Beautiful) indicating descriptive text or reviews.
+@@@arkTSText@@@
+
+Component Keyword:
+The word "探索" (Explore) indicating a tab or link for exploring options.
+@@@arkTSButton@@@
+
+Component Keyword:
+A user profile icon with the label "我的" (My).
+@@@arkTSIcon@@@
+
+Component Keyword:
+Search bar with placeholders for destination, date, and persons.
+@@@arkTSSearch@@@
+
+Component Keyword:
+An icon indicating messages or notifications.
+@@@arkTSIcon@@@
+
+Component Keyword:
+The word "OMG 妙" indicating a section for special or unique offers.
+@@@arkTSText@@@
+Component Keyword:
+This label reads "近滑雪场," which translates to "Near Ski Resort." It likely indicates a category for nearby ski resorts.
+@@@arkTSText@@@
+
+Component Keyword:
+This icon represents the "行程," which translates to "Itinerary," allowing users to access or manage their travel plans.
+@@@arkTSButton@@@
+
+Component Keyword:
+This button reads "地图," which translates to "Map," featuring an icon representing a map. It is likely used to navigate to a map view within the app.
+@@@arkTSButton@@@
+
+Component Keyword:
+This icon represents settings or filters in the app, allowing users to adjust various parameters.
+@@@arkTSIcon@@@
+
+Component Keyword:
+This switch component allows users to toggle an option related to showing the total price, which includes all fees before the tax.
+@@@arkTSSwitch@@@
+
+Component Keyword:
+This text provides detailed information about a listing, including location, dates, user reviews, and pricing.
+@@@arkTSText@@@
+
+Component Keyword:
+This label reads "心愿单," which translates to "Wishlist," allowing users to view or manage their saved items.
+@@@arkTSText@@@
+
+Component Keyword:
+This label reads "魅力泳池," which translates to "Charming Pool," indicating a category for accommodations with attractive swimming pools.
+@@@arkTSText@@@
+
+Component Keyword:
+This button reads "地图," which translates to "Map." It likely provides a function to switch to a map view in the app.
+@@@arkTSButton@@@
+
+Component Keyword:
+This icon represents a category related to skiing or winter sports. It might be used in the app to filter or navigate to activities and accommodations near ski resorts.
+@@@arkTSSvgIcon@@@
+
+Component Keyword:
+This text, "湖区" (Lake District), indicates a category or tab related to locations near lakes. It is likely used to filter or navigate to such areas.
+@@@arkTSText@@@
+

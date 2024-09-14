@@ -1,0 +1,89 @@
+8 Sided:
+This is likely a graphic representation of an eight-sided shape used for visual selection.
+@@@Container@@@
+
+Rectangle:
+This is likely a graphic depiction of a rectangular shape used for visual selection.
+@@@Container@@@
+
+6 Sided:
+This is likely a graphic depiction of a six-sided shape (hexagon) used for visual selection.
+@@@Container@@@
+
+5 Sided:
+This is likely a graphic depiction of a five-sided shape (pentagon) used for visual selection.
+@@@Container@@@
+
+Round:
+This is likely a graphic depiction of a circular shape used for visual selection.
+@@@Container@@@
+
+3 Sided:
+This is likely a graphic depiction of a three-sided shape (triangle) used for visual selection.
+@@@Container@@@
+
+Diamond:
+This is likely a graphic depiction of a diamond shape used for visual selection.
+@@@Container@@@
+
+7 Sided:
+This is a text label describing an option for a seven-sided shape.
+@@@Text@@@
+
+Round (labeled):
+This is a text label describing an option for a round shape.
+@@@Text@@@
+Shape label:
+This is a text widget displaying the string "Shape".
+@@@Text@@@
+
+Oblong shape with label:
+This is likely a combination of a column or a row containing an Icon (or Image) representing an oblong shape and a Text widget below it.
+@@@Column@@@
+
+Other shape with label:
+This includes a circular icon with a question mark and below it, the label "Other", likely implemented using a Column widget.
+@@@Column@@@
+
+Horizontal line:
+This represents a horizontal divider line.
+@@@Divider@@@
+
+Clear button:
+This is textual button labeled "Clear", likely implemented with a TextButton widget.
+@@@TextButton@@@
+
+Square shape label:
+This is a text widget displaying the string "Square".
+@@@Text@@@
+
+Square shape:
+This visual representation of a square is likely made using a Container widget with a shape defined within its decoration property.
+@@@Container@@@
+
+7 Sided shape with label:
+This includes a seven-sided polygon shape and its corresponding label "7 Sided", likely within a Column widget.
+@@@Column@@@
+
+Instruction label:
+This is a text widget containing the string: "Select the shape that best matches your prescription or OTC drug".
+@@@Text@@@
+Color:
+This appears to be a text label, likely used as a tab or section heading in the app.
+@@@Text@@@
+
+Oblong shape:
+This is likely an icon or a selectable shape button for choosing shapes. It may be a custom widget or a combination of `Container` or `Icon`.
+@@@Container@@@
+
+Search bar with "Text or imprint on pill":
+This component is likely a text field with a search icon used for entering text queries.
+@@@TextField@@@
+
+"View Results" button:
+This is a button likely used to submit the selected options and view results, probably an elevated button for emphasis.
+@@@ElevatedButton@@@
+
+Rectangle:
+This appears to be a text label, probably describing one of the shape options.
+@@@Text@@@

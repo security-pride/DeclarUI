@@ -1,0 +1,107 @@
+Alex Jesus + Google Meet:
+This component appears to be a combination of text and an icon, likely representing a user's name with a profile picture and an associated application icon for meeting links.
+@@@Row@@@
+
+Physics Card:
+This component is a card with text and an icon, representing a subject, chapter, tutor's name, and associated meeting platform.
+@@@Card@@@
+
+Mon 14:
+This component is a text widget displaying a day and date, used in a calendar.
+@@@Column@@@
+
+13:00:
+This component is a text widget indicating a time.
+@@@Text@@@
+
+Bottom Navigation Bar:
+This component contains icons and text to navigate through different sections of the application, such as Home, Tasks, Classroom, and Chat.
+@@@BottomNavigationBar@@@
+
+17 September Today:
+This component includes a date and a label indicating the current day or selected day. It provides context for the tasks or events listed for that day.
+@@@Column@@@
+
+Fri 18:
+This component is a text widget displaying a day and date, used in a calendar.
+@@@Column@@@
+
+Assignment + World Regional Pattern:
+This is a text widget displaying the title and description (or subtitle) of a task or assignment.
+@@@Column@@@
+
+Geography + Jenifer Clark:
+This component appears to be a combination of text widgets representing a subject, chapter, tutor's name, and associated application icon for meeting links.
+@@@Column@@@
+Component Keyword:
+"Sat 19" label
+Component Function Description:
+This text displays the day of the week and date, commonly used in calendars or schedules.
+@@@Text@@@
+
+Component Keyword:
+"11:00" time label
+Component Function Description:
+This text represents a specific time display, likely marking the start of an event or task.
+@@@Text@@@
+
+Component Keyword:
+"Tue 15" date label
+Component Function Description:
+This widget shows the day and date, part of a calendar or schedule view, used for navigation and reference.
+@@@Text@@@
+
+Component Keyword:
+"Thu 17" selected date label
+Component Function Description:
+This likely indicates the currently selected date, often highlighted to show active status.
+@@@Text@@@
+
+Component Keyword:
+"11:50" time label
+Component Function Description:
+This text represents a particular time, used to denote the end or transition between scheduled items.
+@@@Text@@@
+
+Component Keyword:
+"Sun 20" date label
+Component Function Description:
+Another example of a date display in calendar format, used for user navigation and planning.
+@@@Text@@@
+
+Component Keyword:
+Assignment card
+Component Function Description:
+This container seems to house details about an assignment, including title, description, and related icons. Likely used for organizing information in a visual card format.
+@@@Card@@@
+
+Component Keyword:
+Tasks icon
+Component Function Description:
+An icon button at the bottom navigation bar, typically used to navigate to a tasks or dashboard screen within an app.
+@@@IconButton@@@
+
+Component Keyword:
+"Wed 16" date label
+Component Function Description:
+Displays the day and date, likely part of a navigational calendar component.
+@@@Text@@@
+Geography Event Card:
+This component is a card-style container displaying event details such as title, chapter, teacher, and platform. It groups related information and may have a slight elevation/shadow to give a card-like appearance.
+@@@Card@@@
+
+Time Label "10:20":
+This is a text widget displaying the specific time in the event schedule.
+@@@Text@@@
+
+Time Label "9:30":
+This is a text widget displaying the specific time in the event schedule.
+@@@Text@@@
+
+Time Label "12:20":
+This is a text widget displaying the specific time in the event schedule.
+@@@Text@@@
+
+Add Task Button:
+This is a button styled with a "+" icon and a label "Add Task". It likely adds a new task when pressed.
+@@@ElevatedButton@@@

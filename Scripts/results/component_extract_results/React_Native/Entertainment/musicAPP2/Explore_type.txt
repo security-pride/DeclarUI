@@ -1,0 +1,198 @@
+Hip Hop button:
+This is a Button component. It appears to be part of a filter or category selection interface, allowing users to choose a genre or mood, in this case, "Hip Hop".
+@@@Button@@@
+
+Illegal Weapon 2.0 label:
+This is a Text Functional Component. It's the title of the currently playing item in the music player section.
+@@@Text Functional Component@@@
+
+Time display (9:41):
+This is a Text Functional Component displaying the current time on the status bar of the mobile device.
+@@@Text Functional Component@@@
+
+New Released label:
+This is a Text Functional Component. It serves as a header for the "New Released" section.
+@@@Text Functional Component@@@
+
+Music album image with guitar:
+This is an Image component showcasing the album cover of a recently played song.
+@@@Function Component@@@
+
+Music album image with concert:
+This is an Image component showcasing the album cover for a recommended song.
+@@@Function Component@@@
+
+Library text:
+This is a Text Functional Component indicating the Library section in the navigation bar.
+@@@Text Functional Component@@@
+
+Popular artist image (portrait of blue-faced person):
+This is an Image component showcasing the image of a popular artist in the "Popular Artist" section.
+@@@Function Component@@@
+
+Popular artist image (portrait of another blue-faced person):
+This is an Image component showcasing the image of another popular artist in the "Popular Artist" section.
+@@@Function Component@@@
+Sam Smith text:
+This is a Text Functional Component. It displays the name of an artist.
+@@@Text Functional Component@@@
+
+Guitarist image:
+This is an Image Function Component. It displays an image of a musician or artist.
+@@@Function Component@@@
+
+Search icon:
+This is an Image Function Component. It represents a search icon, typically used to navigate to a search functionality in the app.
+@@@Function Component@@@
+
+Baghi 3 label:
+This is a Text Functional Component. It displays the title of a music album or song along with the artist's name.
+@@@Text Functional Component@@@
+
+Singer image:
+This is an Image Function Component. It displays an image of a musician or artist.
+@@@Function Component@@@
+
+Hindi T text:
+This is a Text Functional Component. It seems to be part of a truncated label, possibly showing the title of a song or album.
+@@@Text Functional Component@@@
+
+Pop button:
+This is a Button component. It represents a category selection button, allowing users to filter music by genre.
+@@@Button@@@
+
+Drummer image:
+This is an Image Function Component. It displays an image of musicians or an album cover.
+@@@Function Component@@@
+
+Rectangle with black color:
+This is an Image Component. It functions as a placeholder or a background element in the UI.
+@@@Function Component@@@
+Recomanded for you text:
+This is a Text Functional Component. It serves as a header to categorize a section that recommends content for the user.
+@@@Text Functional Component@@@
+
+Wi-fi icon:
+This is an Image component. It is likely indicating the status of the wireless connection on the device.
+@@@Function Component@@@
+
+Singing artist image:
+This is an Image component. It is likely used to display a thumbnail or cover image representing a song or artist.
+@@@Function Component@@@
+
+Guitarist image:
+This is an Image component. It is likely used to display a thumbnail or cover image representing a song or artist.
+@@@Function Component@@@
+
+Concert image:
+This is an Image component. It is likely used to display a thumbnail or cover image representing a music event or song.
+@@@Function Component@@@
+
+Fireworks display image:
+This is an Image component. It is likely used to display a thumbnail or cover image representing a music event or song.
+@@@Function Component@@@
+
+Michael Jackson image:
+This is an Image component. It is likely used to display a thumbnail or cover image representative of a popular artist.
+@@@Function Component@@@
+
+Pause button icon:
+This is a Button component. It allows the user to pause the currently playing media.
+@@@Button@@@
+
+No Time To Die text:
+This is a Text Functional Component. It displays the title of the song currently being shown or played.
+@@@Text Functional Component@@@
+Sam Smith image:
+This is a Function Component. It's an image of an artist, used to visually represent the artist in the Popular Artist section.
+@@@Function Component@@@
+
+Settings text:
+This is a Text Functional Component. It represents the label for the Settings tab in the navigation bar.
+@@@Text Functional Component@@@
+
+Michael Jackson text:
+This is a Text Functional Component. It represents the name of an artist in the Popular Artist section.
+@@@Text Functional Component@@@
+
+Tredning text:
+This is a Text Functional Component. It represents the label for the Trending tab in the navigation bar, though it contains a typo.
+@@@Text Functional Component@@@
+
+Surma Surma image:
+This is a Function Component. It's an image of an album or song cover, used to visually represent the album/song in the Recommanded for you section.
+@@@Function Component@@@
+
+Signal strength icon:
+This is a StatusBar Android and iOS Component. It represents the signal strength in the status bar of the mobile app.
+@@@StatusBar Android and iOS Component@@@
+
+Justin Bieber text:
+This is a Text Functional Component. It represents the name of an artist in the Popular Artist section.
+@@@Text Functional Component@@@
+
+Baghi 3 - Various Artists text:
+This is a Text Functional Component. It represents the title and singer for the Baghi 3 album/song displayed in the New Released section.
+@@@Text Functional Component@@@
+
+Recent Played text:
+This is a Text Functional Component. It represents the heading for the section displaying recently played songs.
+@@@Text Functional Component@@@
+Partyholics button:
+This is a Button. It likely represents a genre or category that a user can select to explore music related to Partyholics.
+@@@Button@@@
+
+Loca text:
+This is a Text Functional Component. It represents the title of one of the recently played tracks.
+@@@Text Functional Component@@@
+
+Image of band playing:
+This is a Function Component. It signifies an image representing one of the recommended songs or albums.
+@@@Function Component@@@
+
+Genres & Moods text:
+This is a Text Functional Component. It serves as a section title indicating that the following buttons will allow users to select different music genres and moods.
+@@@Text Functional Component@@@
+
+Heart icon:
+This is a Button. Likely represents a favorite or like option in a media player for the currently playing song.
+@@@Button@@@
+
+Purple rectangle:
+This is a View Function Component. It likely acts as a background or a container for another component or text, possibly for highlighting the selected genre.
+@@@View Function Component@@@
+
+Illegal Weapon text:
+This is a Text Functional Component. It represents the title of the currently playing track displayed in the media player section.
+@@@Text Functional Component@@@
+
+Image of singer:
+This is a Function Component. It signifies an image representing a popular artist.
+@@@Function Component@@@
+
+Home text:
+This is a Text Functional Component. It is a label in the navigation bar indicating the home section of the app.
+@@@Text Functional Component@@@
+Various Artists (text):
+This is a Text Functional Component. It displays the name of the artist associated with a particular song or album.
+@@@Text Functional Component@@@
+
+Artist Image:
+This is an Image component. It displays the picture of an artist as part of the user interface.
+@@@Function Component@@@
+
+Baghi 3, Various Artists label:
+This is a Text Functional Component. It indicates the name of the song/album and the associated artists.
+@@@Text Functional Component@@@
+
+Singer with Guitar Image:
+This is an Image component. It displays the album cover or a promotional picture related to the music content.
+@@@Function Component@@@
+
+Popular Artist label:
+This is a Text Functional Component. It categorizes a section of the app that displays popular artists to the user.
+@@@Text Functional Component@@@
+
+Street Dancer 3D label:
+This is a Text Functional Component. It indicates the name of the currently playing song or album in the music player section.
+@@@Text Functional Component@@@

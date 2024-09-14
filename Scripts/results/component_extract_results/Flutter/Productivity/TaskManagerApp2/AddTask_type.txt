@@ -1,0 +1,148 @@
+Personal label:
+This is a text widget representing a user's personal task type.
+@@@Text@@@
+
+Add Task label:
+This is a text widget representing the title of the page, likely in the app bar.
+@@@Text@@@
+
+Empty checkbox:
+This appears to be an unchecked, styled checkbox indicator for selecting task types.
+@@@Checkbox@@@
+
+Empty checkbox:
+This appears to be another unchecked, styled checkbox indicator for selecting task types.
+@@@Checkbox@@@
+
+Back arrow:
+This is an icon that allows the user to navigate back to the previous screen.
+@@@IconButton@@@
+
+Form title label:
+This is a text widget indicating the title of the form section.
+@@@Text@@@
+
+Private label:
+This is a text widget representing a user's private task type.
+@@@Text@@@
+
+Add new tag label:
+This is a text button that allows the user to add a new tag.
+@@@TextButton@@@
+
+Secret label:
+This is a text widget representing a user's secret task type.
+@@@Text@@@
+Office tag:
+This is a label, most likely a clickable chip or a tag, that represents a predefined category for tasks categorized under "Office". It has some background color and text.
+@@@Chip@@@
+
+Tags label:
+This text label indicates the section where different tags are displayed or can be added for categorizing the task.
+@@@Text@@@
+
+07:30:
+This text field appears to display the selected time for the task's end time, indicating the use of a time picker.
+@@@Text@@@
+
+AM (first instance):
+This text represents the AM/PM designation for the selected start time, likely part of a time picker.
+@@@Text@@@
+
+4 August 2021:
+This text represents the selected date for the task, indicating the use of a date picker.
+@@@Text@@@
+
+AM (second instance):
+This text represents the AM/PM designation for the selected end time, likely part of a time picker.
+@@@Text@@@
+
+Plan for a month:
+This text field most likely represents the title of the task.
+@@@TextField@@@
+
+Home tag:
+This is a label, most likely a clickable chip or a tag, that represents a predefined category for tasks categorized under "Home". It has some background color and text.
+@@@Chip@@@
+
+Type label:
+This text label indicates the section where the type of task is selected or defined.
+@@@Text@@@
+Urgent Tag:
+This element likely represents a selectable tag that categorizes the task as "Urgent".
+@@@Chip@@@
+
+Work Tag:
+This element likely represents a selectable tag that categorizes the task as "Work".
+@@@Chip@@@
+
+Office Tag:
+This element likely represents a selectable tag that categorizes the task as "Office".
+@@@Chip@@@
+
+Description Text:
+This text widget displays the description of the task, which in this case is "Creating this month's work plan".
+@@@Text@@@
+
+Create Button:
+This is a button widget labeled "Create" which likely triggers the creation of the task when pressed.
+@@@ElevatedButton@@@
+
+Description Label:
+This text widget is a label that indicates the input field below it is for entering a description.
+@@@Text@@@
+
+Home Tag:
+This element likely represents a selectable tag that categorizes the task as "Home".
+@@@Chip@@@
+
+Calendar Icon:
+This icon appears to represent a calendar, possibly used to choose a date for the task.
+@@@Icon@@@
+
+Time Text:
+This text widget is displaying the time "07:00", which is part of the timing setup for the task.
+@@@Text@@@
+Time label:
+This is a text widget that labels the input field for the time of the task, informing the user about the expected type of input.
+@@@Text@@@
+
+Back arrow icon:
+This is a button with an icon that likely navigates the user to the previous screen or closes the current form.
+@@@IconButton@@@
+
+Page title "Add Task":
+This text widget serves as the title of the page, indicating the purpose of the screen is to add a new task.
+@@@Text@@@
+
+Title input field:
+This is a text input field where users can enter the title of the task they want to add.
+@@@TextField@@@
+
+Date input field with calendar icon:
+This is a row containing a text widget for the date and an icon button for selecting a date from a date picker.
+@@@Row@@@
+
+Time input fields:
+This is a row containing two text fields where users can input the start and end time of the task.
+@@@Row@@@
+
+Description input field:
+This is a multiline text input field where users can describe the task in detail.
+@@@TextField@@@
+
+Type options (Personal, Private, Secret):
+These are radio buttons allowing users to select the type of task.
+@@@Row@@@
+
+Tags (Office, Home, Urgent, Work):
+These are buttons representing different tags users can select or add to categorize their task.
+@@@Row@@@
+
+Add new tag button:
+This is a text button allowing users to add a new custom tag.
+@@@TextButton@@@
+
+Create button:
+This is an elevated button users can press to submit and create the task.
+@@@ElevatedButton@@@

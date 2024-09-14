@@ -1,0 +1,62 @@
+Working on label:
+This is a Text Functional Component. It indicates the current task category as "Working on" and shows the count of these tasks.
+@@@Text Functional Component@@@
+
+Pending label:
+This is a Text Functional Component. It represents the "Pending" task category and provides the count of pending tasks.
+@@@Text Functional Component@@@
+
+Total task label:
+This is a Text Functional Component. It designates the "Total task" category and displays the total number of tasks.
+@@@Text Functional Component@@@
+
+Wi-Fi icon:
+This is a Function Component. It is likely used to indicate network connectivity status.
+@@@Function Component@@@
+
+Completed label:
+This is a Text Functional Component. It represents the "Completed" task category and shows the count of completed tasks.
+@@@Text Functional Component@@@
+
+Grid icon:
+This is a Function Component. This is a navigation icon likely used for switching between different sections of the app.
+@@@Function Component@@@
+
+User avatar:
+This is a Function Component. It displays the user's profile picture or avatar.
+@@@Function Component@@@
+
+Checkbox icon:
+This is a Function Component. It likely symbolizes task completion in the list.
+@@@Function Component@@@
+
+Signal bar icon:
+This is a StatusBar Android and iOS Component. It indicates the cell signal strength on mobile devices.
+@@@StatusBar Android and iOS Component@@@
+Signal bar icon:
+This is an Image component. It represents the signal strength of the mobile device.
+@@@Function Component@@@
+
+Plus icon (blue circle with a white plus):
+This is a Button component. It is used to add a new task or item in the app.
+@@@Button@@@
+
+Chat icon (red speech bubble):
+This is a Button component. It likely provides access to a messaging or chat feature within the app.
+@@@Button@@@
+
+Layout icon (red boxes):
+This is a Button component. It might be used to switch between different layouts or views in the app.
+@@@Button@@@
+
+Time text ("9:41"):
+This is a Text component. It displays the current time on the mobile device.
+@@@Text Functional Component@@@
+
+Pie chart:
+This is an Image component. It visually represents the distribution of tasks or statistics with different color-coded segments.
+@@@Function Component@@@
+
+"Dashboard" text:
+This is a Text component. It serves as the title for the current screen or section of the app.
+@@@Text Functional Component@@@

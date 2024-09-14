@@ -1,0 +1,129 @@
+Component Keyword:
+This component displays user profile pictures with a status indicator and status time.
+@@@ImageBackground@@@
+
+Component Keyword:
+This is a badge icon that likely signifies connectivity or communication.
+@@@Function Component@@@
+
+Component Keyword:
+This is a compass icon indicating a feature related to navigation or location.
+@@@Function Component@@@
+
+Component Keyword:
+This is a waving hand icon used to interact with user profiles or send a greeting.
+@@@Function Component@@@
+
+Component Keyword:
+This text represents a section label or title, indicating the screen showing a list of people.
+@@@Text Functional Component@@@
+
+Component Keyword:
+This text indicates a user's name in a list, showing who the user is interacting with.
+@@@Text Functional Component@@@
+
+Component Keyword:
+This component shows a user profile picture with status time, indicating the last active time.
+@@@ImageBackground@@@
+
+Component Keyword:
+This text represents a section title or label, indicating "Recently Active" users.
+@@@Text Functional Component@@@
+
+Component Keyword:
+This text indicates a user's name in a list, showing who the user is interacting with.
+@@@Text Functional Component@@@
+Component Keyword:
+This is a status bar. It shows the current time, network status, and battery status which is common for the top bar in mobile applications.
+@@@StatusBar Android and iOS Component@@@
+
+Component Keyword:
+This is a tab icon representing a group or contacts tab. It switches the view to show a list of contacts when pressed.
+@@@TouchableOpacity Function Component@@@
+
+Component Keyword:
+This hand icon is used to represent a greeting or gestural action, likely to initiate a conversation or interaction.
+@@@ImageBackground@@@
+
+Component Keyword:
+This is a search bar. It allows users to input text to search for contacts or other elements within the app.
+@@@TextInput@@@
+
+Component Keyword:
+This is a text element displaying a contact's name, Jamie Franco.
+@@@Text Functional Component@@@
+
+Component Keyword:
+This hand icon is used to represent a greeting or gestural action, likely to initiate a conversation or interaction.
+@@@ImageBackground@@@
+
+Component Keyword:
+This hand icon is used to represent a greeting or gestural action, likely to initiate a conversation or interaction.
+@@@ImageBackground@@@
+
+Component Keyword:
+This hand icon is used to represent a greeting or gestural action, likely to initiate a conversation or interaction.
+@@@ImageBackground@@@
+
+Component Keyword:
+This component consists of multiple images and text labels. It likely represents a contact's profile picture with status information and the last active timestamp.
+@@@View Function Component@@@
+Hand wave icon:
+This is a Button component. It likely allows users to acknowledge or greet their friends with a wave gesture in the app.
+@@@Button@@@
+
+Chat bubble icon:
+This is a Button component. It likely opens the chat interface for users to communicate with their contacts.
+@@@Button@@@
+
+"Martha Craig" text:
+This is a Text component. It displays the name of the user in the contact list.
+@@@Text Functional Component@@@
+
+User avatar image:
+This is an Image component. It displays the profile picture of the user in the contact list.
+@@@Function Component@@@
+
+Add friend icon:
+This is a Button component. It likely allows users to add new friends to their contact list.
+@@@Button@@@
+
+Friend activity status:
+This is a View component that contains a Text component. It displays the user's activity status, such as how long they have been active.
+@@@View Function Component@@@
+
+Search bar:
+This is a View component that contains a TextInput component. It allows users to search for contacts within the app.
+@@@TextInput@@@
+
+Signal icon:
+This is a View component. It likely indicates the signal strength or connection status of the app.
+@@@View Function Component@@@
+
+Plus icon:
+This is a Button component. It likely provides additional options or opens a menu for adding new items or actions.
+@@@Button@@@
+30 min. label:
+This is a Text Functional Component. It displays the time duration since a user was last active.
+@@@Text Functional Component@@@
+
+"Your story" label:
+This is a Text Functional Component. It provides the label for a section where users can add their own story.
+@@@Text Functional Component@@@
+
+Speech bubble icon:
+This is a TouchableOpacity Function Component. It likely acts as a button that navigates to the messaging or chat section.
+@@@TouchableOpacity Function Component@@@
+
+"Kieron Dotson" label:
+This is a Text Functional Component. It displays the name of a user in the contacts list.
+@@@Text Functional Component@@@
+
+"Albert Lasker" label:
+This is a Text Functional Component. It displays the name of a user in the contacts list.
+@@@Text Functional Component@@@
+
+Recently Active section:
+This is a combination of components. The text "RECEN" is part of the Text Functional Component indicating the heading of the section, and user avatars are likely Image components combined with Text components for the time labels.
+@@@Text Functional Component@@@
+@@@Function Component@@@

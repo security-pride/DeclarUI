@@ -1,0 +1,62 @@
+Urgent label:
+This is a label indicating that a certain task is urgent.
+@@@arkTSText@@@
+
+Pending Task Card:
+This card likely represents a task that is pending. It includes a task title, an icon, and a count of tasks.
+@@@arkTSTaskCard@@@
+
+On Going Task Card:
+This card likely represents a task that is currently ongoing. It includes a task title, an icon, and a count of tasks.
+@@@arkTSTaskCard@@@
+
+Complete Task Card:
+This card likely represents a task that has been completed. It includes a task title, an icon, and a count of tasks.
+@@@arkTSTaskCard@@@
+
+Bottom Navigation Bar:
+This is a navigation bar at the bottom of the screen, including icons for different sections of the app and a central button for adding a new task.
+@@@arkTSNavigationBar@@@
+
+Home label:
+This is a label indicating that a certain task is related to home.
+@@@arkTSText@@@
+
+Cancelled Task Card:
+This card likely represents a task that has been cancelled. It includes a task title, an icon, and a count of tasks.
+@@@arkTSTaskCard@@@
+
+User Avatar:
+This is the user avatar, typically used to represent the user's profile or account settings.
+@@@arkTSAvatar@@@
+
+Task List Item:
+This is a list item representing a single task, including the task title and possibly additional information or actions.
+@@@arkTSListItem@@@
+Hi, Steven:
+This appears to be a greeting text, welcoming the user to the app and possibly displaying their name.
+@@@arkTSText@@@
+
+Complete Task Box:
+This is a task summary card that indicates the "Complete" tasks section showing the number of tasks completed.
+@@@arkTSContainer@@@
+
+Canceled Task Box:
+This is a task summary card that indicates the "Canceled" tasks section showing the number of tasks canceled.
+@@@arkTSContainer@@@
+
+Pending Task Box:
+This is a task summary card that indicates the "Pending" tasks section showing the number of tasks pending.
+@@@arkTSContainer@@@
+
+On-Going Task Box:
+This is a task summary card that indicates the "On-Going" tasks section showing the number of tasks in progress.
+@@@arkTSContainer@@@
+
+Canceled Task Box Duplicate:
+This is a task summary card that indicates the "Canceled" tasks section showing the number of tasks canceled. Though it appears similar to an earlier image, its placement and background in the app screenshot might differ slightly.
+@@@arkTSContainer@@@
+
+My Task Label:
+This is a text label that likely indicates a section or header for the user's tasks.
+@@@arkTSText@@@

@@ -1,0 +1,61 @@
+Component Keyword:
+Valid on Vodafone pay monthly contracts only.
+Component Function Description:
+This is a text widget displaying a line of terms and conditions specific to Vodafone pay monthly contracts.
+@@@Text@@@
+
+Component Keyword:
+NEW label
+Component Function Description:
+This is a label indicating a new feature or promotion, likely used to attract user attention.
+@@@Container@@@
+
+Component Keyword:
+Discover icon and label
+Component Function Description:
+This is a bottom navigation item that likely takes the user to the Discover section of the app.
+@@@BottomNavigationBarItem@@@
+
+Component Keyword:
+Monthly price (including out of bundle charges for Vodafone) will increase every April by the Consumer Price Index rate of...
+Component Function Description:
+This is a text widget displaying a clause about the monthly price increase due to the Consumer Price Index rate.
+@@@Text@@@
+
+Component Keyword:
+Account icon and label
+Component Function Description:
+This is a bottom navigation item that likely takes the user to the Account section of the app.
+@@@BottomNavigationBarItem@@@
+
+Component Keyword:
+Search icon and label
+Component Function Description:
+This is a bottom navigation item that likely takes the user to a search feature within the app.
+@@@BottomNavigationBarItem@@@
+
+Component Keyword:
+Unfilled star icon
+Component Function Description:
+This could represent an inactive or non-favorite item, possibly used in lists or rating systems.
+@@@Icon@@@
+
+Component Keyword:
+Terms and Conditions label
+Component Function Description:
+This is a text widget showing the title of the page "Terms and Conditions". It is often used at the top of the page to indicate its content.
+@@@Text@@@
+
+Component Keyword:
+Back arrow icon
+Component Function Description:
+This icon button is typically used to navigate back to the previous screen or page.
+@@@IconButton@@@
+
+Component Keyword:
+NEW Text Label
+Component Function Description:
+This label often accompanies new features or promotions within the app, possibly to attract user attention to something just introduced.
+@@@Text@@@
+
+

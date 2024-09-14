@@ -1,0 +1,117 @@
+热门 label:
+This is a text label that indicates a "hot search" section.
+@@@arkTSText@@@
+
+抓娃娃票房 label:
+This is a text label likely indicating the name of a particular news item or activity.
+@@@arkTSText@@@
+
+芭芭农场 button:
+This is a button element for "芭芭农场" which translates to "BaBa Farm." It seems to direct users to a farming activity section.
+@@@arkTSButton@@@
+
+几千块手机为何离不开几块钱的... text:
+This is a piece of text content displayed within the app, part of a news headline or description.
+@@@arkTSText@@@
+
+1 number label:
+This number indicates the ranking order in a list, denoting the first item.
+@@@arkTSText@@@
+
+微博 button:
+This button element likely directs users to a "Weibo" section, a popular Chinese social media platform.
+@@@arkTSButton@@@
+
+87W label:
+This text element likely represents a numeric value, possibly view counts or likes, in tens of thousands (W).
+@@@arkTSText@@@
+
+专题 button:
+This button indicates a section for "专题" which translates to "Special Topic."
+@@@arkTSButton@@@
+
+特朗普遇刺右耳受伤 headline:
+This is a text headline about an event involving a notable public figure.
+@@@arkTSText@@@
+Component Keyword:
+全面深化改革的实践续篇 (Comprehensive Deepening of Reform's Practice Continuation)
+This is a text label that serves as a title or headline for a specific section or item.
+@@@arkTSText@@@
+
+Component Keyword:
+4.
+This is a numeric label used for ordering or ranking items within a list.
+@@@arkTSText@@@
+
+Component Keyword:
+Search icon
+This is a search icon, typically part of a search bar allowing users to perform searches.
+@@@arkTSIcon@@@
+
+Component Keyword:
+早报 (Morning Report)
+This component likely represents a section for daily news updates, featuring an image and headlines.
+@@@arkTSContainer@@@
+
+Component Keyword:
+89W
+This text indicates a statistic or view count, often used to show popularity or relevance.
+@@@arkTSText@@@
+
+Component Keyword:
+知乎 (Zhihu)
+This is likely a tab or button for a social media or content-sharing section, allowing users to view content filtered by platform.
+@@@arkTSButton@@@
+
+Component Keyword:
+Close icon
+This is a close icon, typically used to dismiss or close a popup or modal window.
+@@@arkTSIcon@@@
+
+Component Keyword:
+65
+This might represent a badge or label, possibly indicating a notification or count.
+@@@arkTSBadge@@@
+
+Component Keyword:
+45W
+This text shows a count or view metric, providing information on popularity or engagement.
+@@@arkTSText@@@
+热搜榜 (Hot Search List):
+This text label indicates a section for trending or popular search items.
+@@@arkTSText@@@
+
+Home button:
+A button that likely navigates the user back to the home screen of the app.
+@@@arkTSButton@@@
+
+Number 3.:
+This is likely an enumerated list item indicating the third point in a list.
+@@@arkTSText@@@
+
+Trump Sign:
+Displays promotional content or advertisements, likely for a campaign.
+@@@arkTSImage@@@
+
+Date and Weather:
+This component displays the date and weather information effectively.
+@@@arkTSContainer@@@
+
+Subheading:
+Displays a subheading for a section, likely a news snippet or article summary.
+@@@arkTSText@@@
+
+App Title:
+This is the title or name of the app displayed prominently at the top.
+@@@arkTSText@@@
+
+List item:
+This text represents an item within a list, likely part of the trending search items.
+@@@arkTSText@@@
+
+福利中心 (Welfare Center):
+A clickable button or link leading to the welfare or rewards center in the app.
+@@@arkTSButton@@@
+Component Keyword:
+This component displays a numeric value with a suffix, likely indicating a number of views or likes.
+@@@arkTSText@@@

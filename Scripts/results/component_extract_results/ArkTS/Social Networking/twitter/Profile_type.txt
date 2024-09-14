@@ -1,0 +1,97 @@
+Digital Goodies Team - Web & Mobile UI/UX development; Graphics; Illustrations:
+This appears to be a text label presenting a description or tagline of the user or organization.
+@@@arkTSText@@@
+
+Retweet icon and count ("↻ 2"):
+This component likely represents an icon button for retweeting a post, accompanied by a count of the retweets.
+@@@arkTSButtonWithIcon@@@
+
+Profile icon:
+This is likely a profile picture or avatar displayed as part of a user interface.
+@@@arkTSAvatar@@@
+
+Joined September 2018 label:
+A textual information label indicating when a user joined the platform, typically used in profiles.
+@@@arkTSLabel@@@
+
+Edit Profile button:
+This button allows users to access their profile editing features.
+@@@arkTSButton@@@
+
+Hashtag text ("#prototyping #wireframe #uiux #ux"):
+These are text elements that represent hashtags in a post, linking to related content.
+@@@arkTSText@@@
+
+Web link and follower count ("pixsellz.io 217 Following"):
+Displays a web link and a count of users followed, likely a link element combined with text information.
+@@@arkTSLink@@@
+
+Video thumbnail with play icon:
+This image is a video thumbnail with a play button overlay, indicating a playable video component.
+@@@arkTSVideo@@@
+
+Views count ("109 views"):
+Displays the number of views a post or video has received, typically found below media content.
+@@@arkTSText@@@
+Status bar icons:
+These are indicator icons such as signal strength, Wi-Fi, and battery status, typically displayed in the status bar at the top of the screen.
+@@@arkTSTitleBar@@@
+
+Profile image with name overlay:
+This is a profile picture with a user name displayed below it, often seen in social media headers or user profile sections.
+@@@arkTSImage@@@
+
+Back button:
+This is a button used to navigate back to the previous screen or menu within the app.
+@@@arkTSButton@@@
+
+Compose button:
+This is a button used to create or compose a new post, tweet, or message, typically represented by a pencil or quill icon.
+@@@arkTSButton@@@
+
+Navigation tab:
+This is a tab label that is part of a navigation bar, allowing users to switch between different sections of the application.
+@@@arkTSTabBar@@@
+
+App logo:
+This is the application logo, often shown in the header or profile sections to represent the app or organization.
+@@@arkTSImage@@@
+
+Pinned tweet icon:
+This icon indicates a pinned tweet at the top of a profile page, highlighting an important message or announcement.
+@@@arkTSIcon@@@
+Digital Goodies Team label:
+This is a text label indicating the name of the team or user profile.
+@@@arkTSText@@@
+
+Likes tab label:
+This is a tab label used for navigation, allowing users to switch to the 'Likes' section.
+@@@arkTSTab@@@
+
+Pinned Tweet component:
+This represents the pinned tweet content which includes a user's tweet marked as a favorite at the top of the profile.
+@@@arkTSPost@@@
+
+Search icon:
+This is an icon representing the search functionality, typically used to open a search input field.
+@@@arkTSIcon@@@
+
+Notifications icon (Bell):
+This is an icon representing notifications, typically to inform the user of any updates or alerts.
+@@@arkTSIcon@@@
+
+Time display (9:41):
+This is a label displaying the current time, usually part of the status bar.
+@@@arkTSText@@@
+
+Messages icon (Envelope):
+This is an icon representing the message functionality, typically used to access messaging or chat features.
+@@@arkTSIcon@@@
+
+Digital Goodies Team text:
+This is a title text used prominently in the header section of the app.
+@@@arkTSTitle@@@
+
+Profile picture icon:
+This is an image representing the user's profile picture.
+@@@arkTSAvatar@@@

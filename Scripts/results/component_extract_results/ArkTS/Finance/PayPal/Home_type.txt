@@ -1,0 +1,66 @@
+PayPal balance and logo:
+This component displays the PayPal balance with the PayPal logo on the side.
+@@@arkTSImage@@@
+
+Refer a friend card:
+This component contains a promotional message encouraging users to refer friends to earn rewards, and includes a close button and an icon.
+@@@arkTSCard@@@
+
+Request button:
+This is a button that likely triggers a request action, such as requesting money from another user.
+@@@arkTSButton@@@
+
+Crypto icon and label:
+This is an icon accompanied by a label, likely leading to the section of the app where users can manage cryptocurrencies.
+@@@arkTSIcon@@@
+
+ZF icon:
+This is a user avatar or profile picture with the initials "ZF".
+@@@arkTSAvatar@@@
+
+Send money internationally label:
+This is a text label encouraging users to send money internationally.
+@@@arkTSText@@@
+
+Wallet icon and label:
+This is an icon accompanied by a label, likely leading to the user's wallet or account section.
+@@@arkTSIcon@@@
+
+Search icon:
+This is an icon representing the search function within the app.
+@@@arkTSIcon@@@
+
+Home icon and label:
+This is an icon that typically represents the home or main screen of the app.
+@@@arkTSIcon@@@
+Person icon:
+This icon likely represents a user profile or settings access, allowing users to view or edit their personal information.
+@@@arkTSIcon@@@
+
+Menu icon:
+This hamburger icon probably opens a navigation menu for accessing different app sections.
+@@@arkTSIcon@@@
+
+Balance display:
+This section shows the user's PayPal balance, providing an overview of available funds.
+@@@arkTSCard@@@
+
+Payments tab:
+This is a navigational tab button, used to switch to the payments section of the app.
+@@@arkTSTabBar@@@
+
+Initials avatar:
+This circular element displays the initials of a user, serving as a personal identifier.
+@@@arkTSAvatar@@@
+
+Send button:
+This button likely initiates a process to send money, confirming user actions.
+@@@arkTSButton@@@
+
+QR code icon:
+This icon might be used to scan QR codes for payments or accessing app features.
+@@@arkTSIcon@@@
+
+Help icon:
+This question mark icon provides access to help or FAQs within the app.
+@@@arkTSIcon@@@

@@ -1,0 +1,77 @@
+"$100" button:
+This is a button that likely allows users to select a predefined amount for a transaction within the app.
+@@@arkTSButton@@@
+
+"$50" button:
+This is a button that likely allows users to select a predefined amount for a transaction within the app.
+@@@arkTSButton@@@
+
+"Crypto" tab:
+This component probably serves as a navigation tab to switch the app view to cryptocurrency-related options.
+@@@arkTSTab@@@
+
+"Wallet" icon:
+This component likely serves as a navigation tab to access the wallet section of the app.
+@@@arkTSTab@@@
+
+"24小时" (24 hours) label:
+This is a label likely used as a time filter option to display data for the last 24 hours. Translation: "24 hours."
+@@@arkTSText@@@
+
+"$20" button:
+This is a button that likely allows users to select a predefined amount for a transaction within the app.
+@@@arkTSButton@@@
+
+Line graph:
+This component is likely a line chart used to visually display data trends over a specified time period.
+@@@arkTSChart@@@
+
+"Payments" tab:
+This component probably serves as a navigation tab to switch to the payments section of the app.
+@@@arkTSTab@@@
+
+"Home" tab:
+This component likely serves as a navigation tab to return to the home view of the app.
+@@@arkTSTab@@@
+Back arrow:
+This is an icon button that likely navigates the user back to the previous screen or page.
+@@@arkTSButton@@@
+
+Down arrow:
+This is an icon that might indicate a dropdown menu or a decrease in value.
+@@@arkTSIcon@@@
+
+Purchase button label ("购物"):
+This is a button that likely triggers the purchase action. The text "购物" translates to "shopping".
+@@@arkTSButton@@@
+
+Percentage text label ("0.62%"):
+This is a text component indicating a percentage value.
+@@@arkTSText@@@
+
+$500 button:
+This is a button component labeled "$500", likely representing a preset amount for a transaction.
+@@@arkTSButton@@@
+
+Decrease indicator label ("£ 311.81"):
+This is a text component showing a decrease in amount, likely representing a reduction in value.
+@@@arkTSText@@@
+
+"Bitcoin" label:
+This is a text component indicating the name of the cryptocurrency.
+@@@arkTSText@@@
+
+"过去24小时" label:
+This is a text component indicating a time frame. The text "过去24小时" translates to "past 24 hours".
+@@@arkTSText@@@
+
+$50 button:
+This is a button component labeled "$50", likely representing a preset amount for a transaction.
+@@@arkTSButton@@@
+
+$20 button:
+This is a button component labeled "$20", likely representing a preset amount for a transaction.
+@@@arkTSButton@@@
+Time selection tabs:
+This component allows users to select different time periods (e.g., 24 hours, 1 week, 1 month, 1 year, all time) to view historical data or analytics within the app. "24小时" translates to "24 hours".
+@@@arkTSSegmentedControl@@@

@@ -1,0 +1,147 @@
+**Component Keyword: 02:00 PM**
+
+**Component Function Description:**
+This text widget displays the scheduled time for an event or task on the app, likely part of a timetable or schedule.
+
+@@@Text@@@
+
+---
+
+**Component Keyword: Dashboard redesign**
+
+**Component Function Description:**
+This card displays an event with a title, time, completion progress, and an overflow menu. It likely contains tasks related to a project and shows a progress indicator.
+
+@@@Card@@@
+
+---
+
+**Component Keyword: 03:00 PM**
+
+**Component Function Description:**
+A text widget that shows the scheduled time for another event or task, similar to the previous time component.
+
+@@@Text@@@
+
+---
+
+**Component Keyword: February 2022**
+
+**Component Function Description:**
+This part of a date selector allows users to navigate through months. The arrows indicate month switching, and the highlighted date represents the current selection.
+
+@@@CalendarDatePicker@@@
+
+---
+
+**Component Keyword: Profile Picture**
+
+**Component Function Description:**
+This image widget displays a user's profile photo, typically used in headers to represent user identity or account.
+
+@@@CircleAvatar@@@
+
+---
+
+**Component Keyword: Time and Progress Indicator**
+
+**Component Function Description:**
+This widget displays event timing and completion progress with a progress bar and percentage. It indicates the duration and how much of the task has been completed.
+
+@@@Row@@@
+
+---
+
+**Component Keyword: Color Block**
+
+**Component Function Description:**
+A visual indicator or button, possibly used to highlight an active or selected state in a clean, minimalistic design.
+
+@@@Container@@@
+
+---
+
+**Component Keyword: Task Filter Buttons**
+
+**Component Function Description:**
+These buttons allow users to filter tasks by status like All, Ongoing, and Completed, helping to organize views based on task progress.
+
+@@@ToggleButtons@@@
+
+---
+
+**Component Keyword: 9:41**
+
+**Component Function Description:**
+A time display from the system UI, typically shown on the top of mobile apps for indicating system clock.
+
+@@@Text@@@
+Component 1:
+This text widget displays a time, likely indicating the start time of a task or event.
+@@@Text@@@
+
+Component 2:
+This text widget shows the word "Today," possibly the current date or context indication for a schedule or task list.
+@@@Text@@@
+
+Component 3:
+This is a date picker or calendar widget, allowing users to select or view a specific date.
+@@@CalendarDatePicker@@@
+
+Component 4:
+This is an icon of a calendar, likely used to navigate to a calendar view or select dates.
+@@@Icon@@@
+
+Component 5:
+This icon represents a Wi-Fi or network status, possibly indicating connectivity.
+@@@Icon@@@
+
+Component 6:
+This text widget part of the header displays the text "s Task," possibly referring to a task or assignment list.
+@@@Text@@@
+
+Component 7:
+This is a house icon, likely representing a home button in a bottom navigation bar.
+@@@Icon@@@
+
+Component 8:
+This bell icon might be used to access notifications or alerts, part of a navigation area.
+@@@Icon@@@
+
+Component 9:
+This is a floating action button with a plus sign, possibly used to add new tasks or events in the app.
+@@@FloatingActionButton@@@
+Component Keyword:
+10:00 AM
+This is a text widget displaying the time, likely part of a schedule or calendar view.
+@@@Text@@@
+
+Component Keyword:
+Signal strength icon
+This appears to be an icon representing signal strength, commonly seen in status bars.
+@@@Icon@@@
+
+Component Keyword:
+11:00 AM
+This is a text widget displaying the time, used for scheduling purposes.
+@@@Text@@@
+
+Component Keyword:
+Settings cog icon
+This is a settings icon, typically used to navigate to a settings page.
+@@@IconButton@@@
+
+Component Keyword:
+Landing page design card
+This is a card widget displaying a task with a progress bar indicating completion status. It may include a title, time, and completion percentage.
+@@@Card@@@
+
+Component Keyword:
+Education app design card
+This is a card widget showing a task with a progress bar indicating 30% completion status, with a title and time duration.
+@@@Card@@@
+
+Component Keyword:
+09:00 AM
+This is a text widget displaying the time, indicating a scheduled event.
+@@@Text@@@

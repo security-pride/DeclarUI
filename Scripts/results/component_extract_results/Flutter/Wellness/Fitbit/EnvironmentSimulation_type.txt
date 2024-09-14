@@ -1,0 +1,64 @@
+Component Keyword:
+This text label indicates the duration time.
+持续时间 translates to "duration time."
+@@@Text@@@
+
+Component Keyword:
+This icon represents a locked feature, indicating that the content is locked.
+@@@Icon@@@
+
+Component Keyword:
+This button is likely a call-to-action for trying premium features. The label translates to "Try PREMIUM".
+@@@ElevatedButton@@@
+
+Component Keyword:
+This word is part of a larger text block describing the activity (leaves).
+@@@Text@@@
+
+Component Keyword:
+This text label seems to represent a mood or state of mind.
+用心 translates to "Attentive" or "Mindful".
+@@@Text@@@
+
+Component Keyword:
+This represents the app's brand logo displayed on the screen.
+@@@Image@@@
+
+Component Keyword:
+This text provides a description of the app's feature or activity.
+@@@Text@@@
+
+Component Keyword:
+This is the main heading for the activity, likely a title for the feature described below.
+@@@Text@@@
+
+Component Keyword:
+This number represents the remaining minutes of the duration feature.
+@@@Text@@@
+Clock icon:
+This appears to be an icon that likely represents the duration or playback timer of the sound.
+@@@Icon@@@
+
+试用 PREMIUM (Try Premium) button:
+This is a button widget that lets users access premium features by starting a free trial.
+@@@ElevatedButton@@@
+
+Nature rain on leaves text:
+This is a text widget that displays the title of the current sound track.
+@@@Text@@@
+
+Relax with ease to the sounds of rain on leaves. text:
+This text widget provides a brief description of the sound track.
+@@@Text@@@
+
+持続时间 (Duration) label:
+This text widget indicates that the information displayed next to it is about the duration. When non-English text is present, provide a translation.
+@@@Text@@@
+
+45 分钟 (45 minutes) text:
+This text widget displays the duration of the track in minutes.
+@@@Text@@@
+
+Background image of leaves with rain:
+This is an image widget used as a background for the app screen.
+@@@Image@@@

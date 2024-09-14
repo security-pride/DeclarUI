@@ -1,0 +1,42 @@
+Now Playing text:
+This is a Text Functional Component. It's a label indicating the current section of the app showing what song or media is now playing.
+@@@Text Functional Component@@@
+
+Blurry image with bokeh effect:
+This is an Image component. It's likely used as part of a decorative or background element to create a visually appealing transition effect.
+@@@Function Component@@@
+
+Shuffle icon:
+This is a Button component. It likely allows users to shuffle the playlist or the currently playing list of songs.
+@@@Button@@@
+
+Play button:
+This is a Button component. It presumably acts as a control to play or pause the currently playing media.
+@@@Button@@@
+
+Blurry image with light beams:
+This is an Image component. It's likely used as part of a background or visual effect element to enhance the UI.
+@@@Function Component@@@
+
+Song info with image, title, and artist name:
+This is a View Function Component containing nested Text and Image components. It displays the current song's information, including the title, artist, and album art.
+@@@View Function Component@@@
+
+Song duration endpoint text (5.06):
+This is a Text Functional Component. It shows the duration of the song in minutes and seconds.
+@@@Text Functional Component@@@
+
+Close-up of album art image:
+This is an Image component. It is the visual representation of the album cover or song cover art.
+@@@Function Component@@@
+
+Repeat icon:
+This is a Button component. It is likely used to enable or disable the repeat function for the currently playing media.
+@@@Button@@@
+Music note icon:
+This is an Image component. It likely represents the music or playlist icon, indicating a music-related feature or section in the app.
+@@@Function Component@@@
+
+Time label "0.00":
+This is a Text component. It displays the starting time or duration of the music track.
+@@@Text Functional Component@@@

@@ -1,0 +1,87 @@
+Back arrow icon:
+This is a Button component. It likely allows the user to navigate back to the previous screen.
+@@@Button@@@
+
+Search label:
+This is a Text Functional Component. It is likely displayed at the top of the screen to indicate the current screen or functionality.
+@@@Text Functional Component@@@
+
+Ellipsis icon:
+This is a TouchableOpacity Function Component. It likely opens a menu with additional options when pressed.
+@@@TouchableOpacity Function Component@@@
+
+Notification card (Merry Rose):
+This is a View Function Component that contains various elements, such as text and icons, to present notification information to the user.
+@@@View Function Component@@@
+
+Profile picture in notification:
+This is an Image Function Component. It displays the profile picture of the user associated with the notification.
+@@@Function Component@@@
+
+Sandra Redden notification text:
+This is a Text Functional Component. It shows the user's action notification (e.g., like or comment).
+@@@Text Functional Component@@@
+
+Back arrow icon (repeated):
+This is a Button component. It likely allows the user to navigate back to the previous screen.
+@@@Button@@@
+
+Lightning icon:
+This is a TouchableOpacity Function Component. It likely signifies an important or highlighted notification and can be actionable.
+@@@TouchableOpacity Function Component@@@
+
+Settings icon:
+This is a Button component. It probably opens the settings screen when pressed.
+@@@Button@@@
+
+Notification avatar list:
+This is an Image Function Component. It displays a list of profile pictures relevant to the notifications.
+@@@Function Component@@@
+Sandra Redden Notification:
+
+Component Function Description:
+This component is likely a View Function Component. It encapsulates the profile image, name of the person, notification message, timestamp, and a heart icon indicating actions related to the post.
+
+@@@View Function Component@@@
+
+Adan Eslishth Notification:
+
+Component Function Description:
+This component appears to be a View Function Component. It includes an avatar image, the person's name, notification message, time stamp, and an icon button for more options.
+
+@@@View Function Component@@@
+
+Mohammad Reza Notification:
+
+Component Function Description:
+This is another View Function Component. It consists of the profile picture, name, notification message, time stamp, and more options icon button.
+
+@@@View Function Component@@@
+
+Merry Rose Notification:
+
+Component Function Description:
+This is a View Function Component similar to the others, containing the profile image, name, notification message, time stamp, and a lightning bolt icon button indicating some action.
+
+@@@View Function Component@@@
+
+Partial Sandra Redden Notification:
+
+Component Function Description:
+This is a Text Functional Component. It’s part of the notification showing the user's name and action on the post.
+
+@@@Text Functional Component@@@
+
+Bottom Navigation Bar:
+
+Component Function Description:
+This component is a View Function Component. It contains multiple TouchableOpacity or Button components representing navigation icons for Home, Notifications, Ticket, History, and Settings.
+
+@@@View Function Component@@@
+
+Back Arrow:
+
+Component Function Description:
+This component is a Button. It navigates back to the previous screen when pressed.
+
+@@@Button@@@

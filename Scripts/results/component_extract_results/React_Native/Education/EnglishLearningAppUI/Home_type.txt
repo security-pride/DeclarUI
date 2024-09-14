@@ -1,0 +1,82 @@
+9:41 time display:
+This is a Text Functional Component. It shows the current time on the mobile device.
+@@@Text Functional Component@@@
+
+Orange notification dot:
+This is a View Function Component. It is likely used to display a small notification indicator.
+@@@View Function Component@@@
+
+0:17 video duration label:
+This is a Text Functional Component. It indicates the duration of the video content in the app.
+@@@Text Functional Component@@@
+
+Circular profile picture:
+This is an Image Function Component. It is used to display a user's profile picture.
+@@@Function Component@@@
+
+"LEARN FREE NOW" button:
+This is a Button. It is a call-to-action button prompting the user to start a free learning session or course.
+@@@Button@@@
+
+"Hi, Steven !" greeting text:
+This is a Text Functional Component. It greets the user by their name.
+@@@Text Functional Component@@@
+
+"When get hurt" title:
+This is a Text Functional Component. It is a title for a section that may depict content related to getting hurt.
+@@@Text Functional Component@@@
+
+Navigation bar icons and labels:
+This is a View Function Component. It contains navigation icons and labels for Home, Search, Speak, Word, and Profile sections.
+@@@View Function Component@@@
+
+"SUBSCRIPTION" label:
+This is a Text Functional Component. It indicates a subscription tab in the app's navigation.
+@@@Text Functional Component@@@
+Bell icon with notification count:
+This is a Button component. It likely allows users to view notifications.
+@@@Button@@@
+
+NEW FEED label:
+This is a Text Functional Component. It indicates the active tab in the app's navigation.
+@@@Text Functional Component@@@
+
+Profile picture icon:
+This is an Image component. It displays the user's profile picture.
+@@@Function Component@@@
+
+Rounded corner image:
+This is an Image component. It is a part of the post displaying a picture shared by the user.
+@@@Function Component@@@
+
+Black rounded rectangle:
+This is a View Function Component. It might be used to highlight certain text or as a background for other elements.
+@@@View Function Component@@@
+
+Ellen Jacobs text:
+This is a Text Functional Component. It displays the name of the user who posted the content.
+@@@Text Functional Component@@@
+
+Charlie Herrera text:
+This is a Text Functional Component. It displays the name of the user who posted the content.
+@@@Text Functional Component@@@
+
+Dotted border rectangle:
+This is a TextInput component. It indicates a field where users can input text.
+@@@TextInput@@@
+
+Signal strength bars icon:
+This is an Image component. It indicates the signal strength.
+@@@Function Component@@@
+
+"Learn new sentences right away" text:
+This is a Text Functional Component. It's providing a prompt or hint to guide the user towards learning new sentences immediately.
+@@@Text Functional Component@@@
+
+"Tôi bị xước d..." text:
+This is a Text Functional Component. It is part of a sentence in a different language, possibly indicating a translation or language learning feature.
+@@@Text Functional Component@@@
+
+"view all" text:
+This is a Text Functional Component. It likely functions as a link or button for users to view all items in a list or section.
+@@@Text Functional Component@@@

@@ -1,0 +1,66 @@
+Your Orders label:
+This is a text label that indicates the section where users can view their orders.
+@@@arkTSText@@@
+
+Product image:
+This image displays one of the products available for purchase.
+@@@arkTSImage@@@
+
+Product description:
+This text provides information about a specific product, including its name and delivery date.
+@@@arkTSText@@@
+
+Navigation icon:
+This icon likely navigates the user to another page or section relevant to the current context.
+@@@arkTSIcon@@@
+
+Another product description:
+This is additional text providing details of another product and its delivery date.
+@@@arkTSText@@@
+
+Bottom navigation bar:
+This bar includes navigation icons for different sections of the app, such as home, user profile, cart, and more options.
+@@@arkTSBottomNavigation@@@
+
+Product thumbnail:
+This is a small image representing a product in the "buy again" section, suggesting repeat purchases.
+@@@arkTSImage@@@
+
+Search bar:
+This appears to be a search input field allowing users to enter text for searching content within the app.
+@@@arkTSSearch@@@
+
+Filter button:
+This button likely opens a filter menu to refine search results or displayed items.
+@@@arkTSButton@@@
+"Past three months" label:
+This is a text label indicating a section related to orders delivered in the past three months.
+@@@arkTSText@@@
+
+"Search all orders" bar:
+This is a search input field allowing users to search through their orders within the app.
+@@@arkTSSearch@@@
+
+Product image (gloves):
+An image component displaying a product, likely within a list or a recommendation carousel.
+@@@arkTSImage@@@
+
+"SmithPackaging Large Bubble Wrap Roll 300mm x 5m - Small..." label:
+A text label providing the name and description of a specific product.
+@@@arkTSText@@@
+
+"Filter" button:
+This button allows users to apply filters to the displayed content or search results.
+@@@arkTSButton@@@
+
+"Buy again" label:
+This text label indicates a section of frequently ordered items that the user might want to reorder.
+@@@arkTSText@@@
+
+"Your Orders" label:
+This text label indicates the section where users can view their previous orders.
+@@@arkTSText@@@
+
+Product image (Highland Spring water):
+An image component displaying a product, likely within a list or a recommendation carousel.
+@@@arkTSImage@@@

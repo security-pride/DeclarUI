@@ -1,0 +1,74 @@
+Import from cloud storage:
+This is a text label indicating a section where users can import files from cloud storage providers.
+@@@arkTSText@@@
+
+Dropbox button:
+This is a button that allows users to import files from Dropbox.
+@@@arkTSButton@@@
+
+From Computer section:
+This section includes a title, a subtitle, and an icon, indicating that users can connect to their computer via the address bar.
+@@@arkTSCard@@@
+
+SFTP Server label:
+This is a text label indicating an SFTP Server option for adding a new connection.
+@@@arkTSText@@@
+
+Windows SMB label:
+This is a text label indicating a Windows SMB option for adding a new connection.
+@@@arkTSText@@@
+
+OneDrive label:
+This is a text label indicating a OneDrive option for adding a new connection.
+@@@arkTSText@@@
+
+Box label:
+This is a text label indicating a Box option for adding a new connection.
+@@@arkTSText@@@
+
+Connections icon:
+This is an icon that could be used to represent connections or network settings in the app.
+@@@arkTSIcon@@@
+
+Bottom navigation bar:
+This is a navigation bar with icons that allows users to switch between different sections of the app.
+@@@arkTSBottomNavigation@@@
+WiFi icon:
+This icon likely represents WiFi connectivity within the app, indicating the status or option related to wireless internet connection.
+@@@arkTSImage@@@
+
+Battery icon:
+This icon typically indicates the battery level of the device. It is used to display how much charge is remaining.
+@@@arkTSImage@@@
+
+Right arrow:
+This arrow indicates navigation or link to another page or section within the app.
+@@@arkTSIcon@@@
+
+"Add Connection" label:
+This text label represents a section for adding new connections, such as cloud storage or servers, within the app.
+@@@arkTSText@@@
+
+Signal icon:
+This icon is used to represent the signal strength of a connection, often seen in status indicators.
+@@@arkTSImage@@@
+
+Time display ("9:41"):
+This represents the current time, displayed in the device's status bar.
+@@@arkTSText@@@
+
+Google Drive button:
+This button likely allows users to connect to their Google Drive for storage or file management within the app.
+@@@arkTSButton@@@
+
+Windows logo icon:
+This icon represents the Windows operating system, likely used for functionalities related to Windows connections.
+@@@arkTSImage@@@
+
+Letter "E" icon:
+This icon could represent a branding or feature related to connectivity or storage, possibly an abbreviation.
+@@@arkTSImage@@@
+Component Keyword:
+"Connections" label
+This is a header text label that likely indicates the title of the current section or screen.
+@@@arkTSText@@@

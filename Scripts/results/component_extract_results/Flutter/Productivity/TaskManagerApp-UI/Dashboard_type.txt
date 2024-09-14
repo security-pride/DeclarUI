@@ -1,0 +1,62 @@
+Component Keyword:
+This shows a list item with an icon and text, representing tasks that are currently being worked on. It displays the task count on the right.
+@@@ListTile@@@
+
+Component Keyword:
+This list item represents tasks that are pending, with a count on the right.
+@@@ListTile@@@
+
+Component Keyword:
+This list item represents the total number of tasks, with a count displayed on the right.
+@@@ListTile@@@
+
+Component Keyword:
+This is a Wi-Fi icon, typically used to indicate network connectivity status.
+@@@Icon@@@
+
+Component Keyword:
+This list item represents completed tasks, with the count displayed on the right.
+@@@ListTile@@@
+
+Component Keyword:
+This grid icon likely represents a button for navigating to different sections or viewing options in the app.
+@@@IconButton@@@
+
+Component Keyword:
+This is an avatar image of a user, typically appearing on a profile or settings page.
+@@@CircleAvatar@@@
+
+Component Keyword:
+This icon likely represents a file or task category with a checkmark, indicating tasks that are completed.
+@@@Icon@@@
+
+Component Keyword:
+This represents the battery icon, indicating battery status or level.
+@@@Icon@@@
+Signal strength indicator:
+Displays the mobile network signal strength using a series of bars.
+@@@Icon@@@
+
+Plus button:
+A button that likely allows users to add new items or tasks.
+@@@FloatingActionButton@@@
+
+Chat icon:
+Represents a communication feature, likely used to navigate to a messaging or chat interface.
+@@@IconButton@@@
+
+Layout icon:
+Represents a layout or grid view feature, likely used to navigate to a different section in the app.
+@@@IconButton@@@
+
+Time display:
+Displays the current time.
+@@@Text@@@
+
+Donut chart:
+Displays statistical data in a circular format with different colored segments representing different data points.
+@@@CustomPaint@@@
+
+Dashboard title:
+Displays the title "Dashboard" indicating the main screen of the app.
+@@@Text@@@

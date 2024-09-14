@@ -1,0 +1,40 @@
+Explore label:
+This is a text widget that represents the "Explore" tab in the navigation bar.
+@@@Text@@@
+
+"Beginning meditation" container:
+This is a Card widget that likely contains a combination of a text title, description, and an image for the "Beginning meditation" feature.
+@@@Card@@@
+
+"Send free access" container:
+This is a Card widget that promotes sending free access to new members, containing text and images.
+@@@Card@@@
+
+Today icon:
+This is an icon representing the "Today" tab in the bottom navigation bar.
+@@@Icon@@@
+
+User icon:
+This is an icon representing the user profile tab in the bottom navigation bar.
+@@@Icon@@@
+
+User avatar:
+This is a CircularAvatar widget displaying the user's profile picture.
+@@@CircleAvatar@@@
+
+Welcome text:
+This is a text widget displaying a welcome message to the user.
+@@@Text@@@
+
+"Send free access" promo card:
+This is a Card widget that promotes sending free access to new members, containing text and graphical elements.
+@@@Card@@@
+
+Headspace 30-Day Guest Pass label:
+This is a text widget that represents the "Headspace 30-Day Guest Pass" section header.
+@@@Text@@@
+
+Gear icon:
+This is an icon for settings, typically used to navigate to the settings page of an app.
+@@@IconButton@@@
+

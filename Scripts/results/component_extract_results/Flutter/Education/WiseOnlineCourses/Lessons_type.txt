@@ -1,0 +1,90 @@
+1. Component Keyword: Video Thumbnail 1 (08:12)
+Component Function Description: This appears to be an image thumbnail representing a video with a duration of 8 minutes and 12 seconds displayed at the bottom-left corner.
+@@@Stack@@@
+
+2. Component Keyword: Download Icon
+Component Function Description: This is an icon likely used to indicate a download action, allowing users to download content when tapped.
+@@@IconButton@@@
+
+3. Component Keyword: Lesson 1 Description Section
+Component Function Description: This component, combining text and image elements, represents a section describing Lesson 1, including a thumbnail, title, duration, and a brief description.
+@@@Column@@@
+
+4. Component Keyword: Video Thumbnail 2 (13:20)
+Component Function Description: This is an image thumbnail of another video, showing a total duration of 13 minutes and 20 seconds at the bottom-left corner.
+@@@Stack@@@
+
+5. Component Keyword: Lesson 3 Description Section
+Component Function Description: This component, containing multiple text and image elements, presents Lesson 3's details, complete with a thumbnail, title, duration, and brief description.
+@@@Column@@@
+
+6. Component Keyword: About Tab
+Component Function Description: This is a text widget likely used within a TabBar, representing the "About" section of the app.
+@@@Text@@@
+
+7. Component Keyword: Video Thumbnail 3 (14:10)
+Component Function Description: This is an image thumbnail for the video in Lesson 2, showing a duration of 14 minutes and 10 seconds in the bottom-left corner.
+@@@Stack@@@
+
+8. Component Keyword: Minus Circle Icon
+Component Function Description: This is an icon button, likely representing a minimize or collapse action.
+@@@IconButton@@@
+
+9. Component Keyword: Download Text (LABEL)
+Component Function Description: This is a text widget serving as a label for the download action, placed next to a download icon.
+@@@Text@@@
+Arrow back icon:
+This is an icon used for navigating back to the previous screen when pressed.
+@@@IconButton@@@
+
+Lessons tab label:
+This is a text widget that indicates the current tab or section the user is on.
+@@@Text@@@
+
+Yellow underline:
+A visual indicator that the "Lessons" tab is currently active.
+@@@Container@@@
+
+Video thumbnail:
+This is an image that represents the video associated with the lesson.
+@@@Image@@@
+
+Video duration text "08:12":
+This text displays the duration of the video.
+@@@Text@@@
+
+Lesson title "Lesson 1":
+This is a text widget indicating the lesson number.
+@@@Text@@@
+
+Lesson description "What is Advertising":
+This is a text widget that provides a brief description of the lesson topic.
+@@@Text@@@
+
+Lesson content description text:
+This is a text widget that contains placeholder content providing details or summary of the lesson.
+@@@Text@@@
+
+Download icon:
+This is an icon button that, when pressed, allows the user to download the lesson.
+@@@IconButton@@@
+
+Download text:
+This is a text widget that prompts the user to download the lesson content.
+@@@Text@@@
+
+Lessons tab icon:
+This is an icon representation of the lessons tab.
+@@@Icon@@@
+
+"Lessons" text:
+This is a text widget indicating the title of the section or screen.
+@@@Text@@@
+
+Download text from another lesson:
+This is a text widget that allows users to download another lesson.
+@@@Text@@@
+
+Download icon from another lesson:
+This is an icon button that, when pressed, allows the user to download another lesson.
+@@@IconButton@@@

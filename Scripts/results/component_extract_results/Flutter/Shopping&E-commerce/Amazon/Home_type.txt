@@ -1,0 +1,95 @@
+Sports and Outdoors icon:
+A visual representation, likely used for navigation or categorization within the app.
+@@@Icon@@@
+
+Video label:
+A text widget that likely serves as a category label or tab heading.
+@@@Text@@@
+
+Jewellery & Watches icon:
+A visual representation, likely used for navigation or categorization within the app.
+@@@Icon@@@
+
+Bags & Luggage icon with label:
+Combines an icon and a label, likely used to represent a specific category or section inside the app.
+@@@Column@@@
+
+Partial icon:
+A partial view of an icon, possibly part of a larger clickable area or badge.
+@@@ClipRRect@@@
+
+Recommended deal for you card:
+Displays product recommendations, which include both text and image components.
+@@@Card@@@
+
+Automotive icon with label:
+Combines an icon and a label, likely used to represent a specific category or section inside the app.
+@@@Column@@@
+
+Shop Electronics today label:
+A text widget used to display a promotional message or section heading.
+@@@Text@@@
+
+Bottom navigation bar:
+A widget that contains the navigation icons or buttons typically found at the bottom of the screen.
+@@@BottomNavigationBar@@@
+
+Component Keyword:
+An orange document icon on a circular background.
+This looks like an icon representing a category, likely used within a row of categories.
+@@@Icon@@@
+
+Component Keyword:
+Orange printer icon with label "Office" underneath.
+This is a category button with an icon and text description, used to navigate to the Office category.
+@@@Column@@@
+
+Component Keyword:
+Orange car icon.
+This is an icon representing the Automotive category within the application.
+@@@Icon@@@
+
+Component Keyword:
+Orange jewelry icon with label "Jewelry & Watches" underneath.
+This component is a combination of an icon and text that acts as a button for the Jewelry & Watches category.
+@@@Column@@@
+
+Component Keyword:
+Music text label.
+This is a text widget that is part of the navigation bar, possibly for a section titled "Music."
+@@@Text@@@
+
+Component Keyword:
+Orange luggage icon.
+This is another category icon, here representing Bags & Luggage.
+@@@Icon@@@
+
+Component Keyword:
+Image with "4+ star deal for you" text.
+This is a combination of an image and a text label, commonly used in promotions or deal sections.
+@@@Column@@@
+
+Component Keyword:
+Image showing an air fryer with "Prime Day by category" partially visible.
+This appears to be an item card with an image and optional title, likely used for items on sale or recommended items.
+@@@Column@@@
+
+Component Keyword:
+Text label "Sports & Outdoors."
+This is a label indicating a category, likely part of a larger list or grid of categories.
+@@@Text@@@
+Search bar:
+This is an input field with a placeholder text "Search Amazon.co.uk" and a search icon, typically used to input search queries.
+@@@TextField@@@
+
+Location header:
+This is a row containing a location icon, a delivery address, and an arrow down icon, possibly indicating a dropdown for changing location.
+@@@Row@@@
+
+Printer icon:
+This is an icon representing printing functionality, within a circular container.
+@@@Icon@@@
+
+Prime text:
+This is a text widget displaying "Prime", likely to navigate to a related section of the app.
+@@@Text@@@

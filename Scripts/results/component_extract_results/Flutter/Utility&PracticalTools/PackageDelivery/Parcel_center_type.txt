@@ -1,0 +1,75 @@
+Component Keyword:
+54 West Adams Court, Rego Park, NY 11374
+This component displays the address of a parcel center with important location details in two lines.
+@@@Column@@@
+
+Component Keyword:
+Map with house icons
+This component shows a map with several markers indicating the locations of parcel centers.
+@@@GoogleMap (plugin)@@@
+
+Component Keyword:
+Fully occupied
+This component indicates the occupancy status of the parcel center.
+@@@Text@@@
+
+Component Keyword:
+My parcels icon and label
+This component line includes an icon and text label indicating navigation to the user's parcels section.
+@@@Column@@@
+
+Component Keyword:
+NY0812
+This component shows a unique identifier or label of the parcel center.
+@@@Text@@@
+
+Component Keyword:
+Available 24/7
+This component indicates the availability of the parcel centers, with the text styled in a lighter color.
+@@@Text@@@
+
+Component Keyword:
+Send parcel icon and label
+This component line includes an icon and text label indicating navigation to the send parcel section.
+@@@Column@@@
+
+Component Keyword:
+Signal bars
+This component shows the signal strength or network status using bar icons.
+@@@Icon@@@
+
+Component Keyword:
+Parcel center icon and label
+This component line includes an icon and text label indicating navigation to the parcel center section.
+@@@Column@@@
+1. **9:41**
+   This component displays the time in a standard format, likely part of the status bar.
+   @@@Text@@@
+
+2. **Wi-Fi icon**
+   This icon indicates the Wi-Fi connection status and is typically part of the device's status bar.
+   @@@Icon@@@
+
+3. **Battery icon**
+   This icon represents the battery level of the device, a standard part of the status bar in most mobile applications.
+   @@@Icon@@@
+
+4. **"Parcel centers" label**
+   This text appears to be a title or header, indicating the content or purpose of the screen.
+   @@@Text@@@
+
+5. **Indicator (black line)**
+   This component is likely a part of a `BottomNavigationBar`, highlighting the selected navigation item.
+   @@@Container@@@
+
+6. **Two Wi-Fi icons with a grey outline background**
+   These might resemble `BottomNavigationBarItem`s or similar components used for navigation with an icon in a selected or hovered state.
+   @@@BottomNavigationBarItem@@@
+
+7. **"Lots of empty space" label**
+   This text component likely provides status or information regarding the parcel center capacity.
+   @@@Text@@@
+
+8. **Three black icons resembling buildings on a map**
+   These icons are possibly markers placed on a map to indicate the location of parcel centers.
+   @@@Icon@@@

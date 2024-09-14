@@ -1,0 +1,179 @@
+Mobile icon:
+This icon likely represents a category or a section for mobile-related products or services within the app.
+@@@arkTSIcon@@@
+
+"借呗" (Borrow) label:
+This text label likely indicates a feature or section related to borrowing or loans.
+@@@arkTSText@@@
+
+Flash sale ad:
+This component is an advertisement for a sale, likely offering discounted prices for products.
+@@@arkTSAd@@@
+
+"备用金" (Reserve Funds) label:
+This text label probably refers to a section dealing with reserve funds or emergency funds.
+@@@arkTSText@@@
+
+"鱼币抵钱" (Fish Currency Discount) button:
+This is likely a button that allows users to apply discounts using a virtual currency within the app.
+@@@arkTSButton@@@
+
+"签到" (Sign-in) button:
+This button could be for a daily sign-in feature where users check in to receive rewards.
+@@@arkTSButton@@@
+
+"我的" (My) icon:
+This icon likely represents a personal or user profile section of the app.
+@@@arkTSIcon@@@
+
+"消息" (Messages) icon:
+This icon probably denotes a section for viewing notifications or messages.
+@@@arkTSIcon@@@
+
+Announcement banner:
+This banner is likely used to display important announcements or updates to users.
+@@@arkTSBanner@@@
+1. Component Keyword:
+This is a price label which shows the amount ¥27.
+@@@arkTSText@@@
+   
+2. Component Keyword:
+This is a label that translates to "Latest Release," indicating the latest items or content available.
+@@@arkTSLabel@@@
+
+3. Component Keyword:
+This appears to be an avatar or profile image, indicating a user's profile picture or avatar.
+@@@arkTSImage@@@
+
+4. Component Keyword:
+This is a category icon with a label that translates to "Talent Market," indicating a section for job listings or talent-related services.
+@@@arkTSIcon@@@
+
+5. Component Keyword:
+This is a text indicating "强开教程," which translates to "Forcing Tutorial." It is likely a label describing a tutorial or guide.
+@@@arkTSText@@@
+
+6. Component Keyword:
+This is an icon with a label that translates to "Money-Saving Coupons," likely indicating a section where users can find discounts or coupons.
+@@@arkTSIcon@@@
+
+7. Component Keyword:
+This component lists tools related to monetary limits, including detailed usage, limit records, and limit management.
+@@@arkTSList@@@
+
+8. Component Keyword:
+This is a label that translates to "Money-Saving Group," indicating a category or feature related to saving money.
+@@@arkTSLabel@@@
+
+9. Component Keyword:
+This translates to "Released within a week," indicating that the content was posted within the past week.
+@@@arkTSText@@@
+Component Keyword:
+This appears to be an icon for a button, possibly related to a specific function or category within the app.
+@@@arkTSIcon@@@
+
+Component Keyword:
+This is an illustrative icon that includes a character and some text, likely used as a navigation button to a market or special offers section.
+@@@arkTSImage@@@
+
+Component Keyword:
+This is a label translated as "Public Benefit Treasure Beads," likely indicating a section or feature related to public welfare offerings.
+@@@arkTSText@@@
+
+Component Keyword:
+This label reads "Haixian Market," possibly serving as a title or section header within the app, representing a specific marketplace.
+@@@arkTSText@@@
+
+Component Keyword:
+This text translates to "King Glory/Proxy Fight," which seems to indicate a category or specific content, probably a product or service listing.
+@@@arkTSText@@@
+
+Component Keyword:
+This is a circular icon that could represent a specific feature or category, part of the navigation elements in the app.
+@@@arkTSIcon@@@
+
+Component Keyword:
+The text "Public Benefit Treasure Beads" appears again, likely repeated in a different area of the interface to highlight this particular feature or section.
+@@@arkTSText@@@
+
+Component Keyword:
+This is a "+" icon, likely used for adding new items or accessing more options within a menu.
+@@@arkTSIcon@@@
+
+Component Keyword:
+This text reads "These treasures are out of stock," which is likely used as a notification or message alerting users about the availability of items.
+@@@arkTSText@@@
+"其它额度" (Other Amounts) label:
+This is a text label likely indicating a section related to various financial amounts or credits.
+@@@arkTSText@@@
+
+"信用极好" (Excellent Credit) label:
+This text label indicates a credit rating or status, possibly informing users of their excellent credit score.
+@@@arkTSText@@@
+
+Search bar:
+This component appears to be a search input field where users can enter queries and initiate a search within the app.
+@@@arkTSSearch@@@
+
+"奢品" (Luxury) icon and label:
+This icon with a label likely represents a category or section for luxury goods in the app.
+@@@arkTSIcon@@@
+
+"小" text:
+This text seems to be a label or part of a larger text element, possibly indicating a size or type.
+@@@arkTSText@@@
+
+"总计额度" (Total Limit) label:
+This text label suggests an area displaying the total credit limit or financial cap available to the user.
+@@@arkTSText@@@
+
+"猜你喜欢" (Recommended for You) button:
+This button likely allows users to view personalized recommendations, based on their preferences or behavior.
+@@@arkTSButton@@@
+
+"闲鱼" (Idle Fish) icon and label:
+This icon with a label probably represents a marketplace or shopping area in the app.
+@@@arkTSIcon@@@
+
+Plus button:
+This circular button adorned with a plus symbol typically indicates an option to add or create new content.
+@@@arkTSButton@@@
+游戏 (Games) label:
+This component is a label that likely indicates a section dedicated to games within the app.
+@@@arkTSText@@@
+
+4500.00:
+This component likely represents a numerical display, possibly for showing a balance, price, or some form of count.
+@@@arkTSNumber@@@
+
+领取一笔备用额度 (Claim a backup amount) text button:
+This is a text button that users can click to initiate an action, such as claiming a backup amount or similar function.
+@@@arkTSTextButton@@@
+
+极速回收 (Quick Recovery) item:
+This component likely represents a clickable item or card in the application, showing a service for quick recovery with an image of a camera.
+@@@arkTSCard@@@
+
+放心充 (Recharge with confidence) label:
+This is a label indicating a section or service for secure or confident recharging.
+@@@arkTSText@@@
+
+充值中心 (Recharge Center) icon:
+This component is an icon that represents a recharge center, often used for adding funds or credits.
+@@@arkTSImageButton@@@
+
+日期 (Date) text:
+This component appears to be a date display, likely indicating some form of timeline or specific event period.
+@@@arkTSTimePicker@@@
+
+闲鱼直播 (Xianyu Live) section:
+This component represents a label for a live broadcast section, focusing on popular items currently being streamed.
+@@@arkTSContainer@@@
+
+额度管理 (Quota Management) icon:
+This is an icon that indicates a quota or credit management section.
+@@@arkTSIconButton@@@
+
+"推荐" (Recommended) label:
+This is a text label that indicates a section for recommended items or content. When non-English text is present, provide a translation.
+@@@arkTSText@@@

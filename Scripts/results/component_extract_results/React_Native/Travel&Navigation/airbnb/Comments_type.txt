@@ -1,0 +1,77 @@
+设施齐全 1 (设施齐全 1):
+This is a Button component. It seems to be used for applying a specific filter or tag in the review section.
+@@@Button@@@
+
+整体评分 (Rating bars):
+This is likely a View Function Component. It might be used to display the overall rating breakdown.
+@@@View Function Component@@@
+
+环境安静 3 (环境安静 3):
+This is a Button component. It seems to be used for applying a specific filter or tag in the review section.
+@@@Button@@@
+
+干净卫生 1 (干净卫生 1):
+This is a Button component. It seems to be used for applying a specific filter or tag in the review section.
+@@@Button@@@
+
+房东热情 1 (房东热情 1):
+This is a Button component. It seems to be used for applying a specific filter or tag in the review section.
+@@@Button@@@
+
+根据评分 (根据评分):
+This is a Text Functional Component. It might be used to denote the basis of the rating system.
+@@@Text Functional Component@@@
+
+Text block:
+This is a Text Functional Component. It contains a detailed review provided by users about their stay.
+@@@Text Functional Component@@@
+
+位置优越 2 (位置优越 2):
+This is a Button component. It seems to be used for applying a specific filter or tag in the review section.
+@@@Button@@@
+
+Laurel leaf icon:
+This is a Function Component. It is likely used as a decorative or rating-related icon.
+@@@Function Component@@@
+如实描述 (As Described):
+This is a Text functional component. It's part of the rating system and indicates the accuracy of the description provided.
+@@@Text Functional Component@@@
+
+使用爱彼迎8年 (Using Airbnb for 8 Years):
+This is a Text functional component. It provides a description of the user's experience with the service.
+@@@Text Functional Component@@@
+
+最有帮助 (Most Helpful) with dropdown icon:
+This is a Button which is likely a Pressable component. It provides an option to sort or filter reviews based on helpfulness.
+@@@Pressable@@@
+
+Leaf Icon:
+This is an Image component. It’s likely used as a decorative icon or symbol indicating a high rating or quality.
+@@@Function Component@@@
+
+5条评价 (5 Reviews):
+This is a Text functional component. It indicates the total number of reviews available.
+@@@Text Functional Component@@@
+
+Checkmark Icon:
+This is an Image component. It's used to indicate a successful verification or a completed task.
+@@@Function Component@@@
+
+推荐入住2 (Recommended Stay 2):
+This is a Button which is likely a Pressable component. It counts and displays the number of users recommending this property.
+@@@Pressable@@@
+
+房客推荐 (Guest Recommendation):
+This is a Text functional component. It is a title for the section that contains guest recommendations.
+@@@Text Functional Component@@@
+
+干净卫生5.0 (Cleanliness 5.0) with Spray Bottle Icon:
+This is a View function component that includes both Text and Image components. It displays a cleanliness rating and related icon.
+@@@View Function Component@@@
+Large white circle:
+This is an Image component. It is likely used as a placeholder for a user's profile picture.
+@@@Function Component@@@
+
+"2024年4月" text:
+This is a Text component. It is used to display the date of the review in the format of "April 2024".
+@@@Text Functional Component@@@

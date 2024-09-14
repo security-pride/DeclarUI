@@ -1,0 +1,148 @@
+19:27 time display:
+This component shows the current time in a digital format.
+@@@Text@@@
+
+Jerremy Mamika label:
+This component displays the name "Jerremy Mamika," likely referring to the author of a course.
+@@@Text@@@
+
+Graphic Design label:
+This component displays the category "Graphic Design," likely indicating the subject of a course.
+@@@Text@@@
+
+Profile icon and label:
+This component shows an icon with a person symbol and a label "Profile," likely used to navigate to the user profile screen.
+@@@Column@@@
+
+Popular Course label:
+This component displays the section title "Popular Course," likely indicating a list of courses that are currently popular.
+@@@Text@@@
+
+Statistic icon and label:
+This component shows an icon with a bar chart symbol and a label "Statistic," likely used to navigate to a statistics or analytics screen.
+@@@Column@@@
+
+Home indicator bar:
+This component shows a horizontal bar at the bottom, which is typically used as a swipe-up home indicator in modern mobile UI designs.
+@@@Container@@@
+
+Study what you want anytime anywhere:
+This component displays a motivational text, encouraging users to study flexibly.
+@@@Text@@@
+
+User interface for beginners label:
+This component displays the course title "User interface for beginners," informing users about the course content.
+@@@Column@@@
+Component Keyword:
+This indicates the cell signal strength of the device and is generally part of the device's status bar.
+@@@Icon@@@
+
+Component Keyword:
+This is a text widget that displays the title of a section, possibly for navigation or categorization.
+@@@Text@@@
+
+Component Keyword:
+This is an image widget displaying a content thumbnail, which could be related to a particular course or lesson topic.
+@@@Image@@@
+
+Component Keyword:
+This is an icon button that allows users to add/delete items to/from their favorites list.
+@@@IconButton@@@
+
+Component Keyword:
+This is a text widget that shows the price of a course or service.
+@@@Text@@@
+
+Component Keyword:
+This is an icon button that represents the home section/tab of the application. Generally found in the bottom navigation bar.
+@@@IconButton@@@
+
+Component Keyword:
+This is a circular icon button, likely used to navigate to another section or to trigger a specific functionality.
+@@@IconButton@@@
+
+Component Keyword:
+This is a text widget that displays the title of the course or item.
+@@@Text@@@
+
+Component Keyword:
+This is an icon button that represents notifications or messages, usually placed in a prominent position like the top of the app.
+@@@IconButton@@@
+See All:
+This is a text widget that allows users to navigate to a different screen or section of the app to view all items in a category.
+@@@Text@@@
+
+Notification icon:
+This is an icon inside a circular container, typically indicating a notification feature. The circle indicates a new notification.
+@@@IconButton@@@
+
+Image with heart icon:
+This is likely to be a combination of an image and an icon button, used for displaying a course or item and allowing the user to mark it as a favorite.
+@@@Stack@@@
+
+Tablet with a stylus image:
+This is an image widget displaying a tablet with a stylus, likely showcasing a course or content related to interface design.
+@@@Image@@@
+
+Course title and author:
+This is a column containing multiple text widgets that display the course title, category, and author.
+@@@Column@@@
+
+Author name:
+This is a text widget displaying the author's name.
+@@@Text@@@
+
+Tablet with a stylus image (repeated):
+This is an image widget displaying a tablet with a stylus, similar to the previous image widget.
+@@@Image@@@
+
+Progress percentage:
+This is a text widget displaying the progress percentage of a course.
+@@@Text@@@
+
+Course rating and reviews:
+This is a text widget displaying the course rating and the number of reviews.
+@@@Text@@@
+Grid icon:
+This appears to be a button that allows users to access a grid-based layout or navigate to another section of the app.
+@@@IconButton@@@
+
+Discover label:
+This is a text widget that displays the title of the current screen or section.
+@@@Text@@@
+
+Study what you want anytime anywhere:
+This is a text widget that provides a motivational message or tagline for the app's purpose.
+@@@Text@@@
+
+User interface for beginners card:
+This is a container that displays course information, including the course title, rating, number of reviews, completion percentage, and an image.
+@@@Container@@@
+
+"4.7 (1,242 Reviews)" label with star icon:
+This is a row widget containing an icon (star) and text displaying the course rating and number of reviews.
+@@@Row@@@
+
+48% completion bar:
+This is likely a progress indicator that shows the user's completion percentage for the course.
+@@@LinearProgressIndicator@@@
+
+Popular Course label:
+This is a text widget that indicates the section for popular courses.
+@@@Text@@@
+
+See All label:
+This is a text button that navigates users to view all available courses in this section.
+@@@TextButton@@@
+
+Course card (Graphic Design - Expert Wireframing for Mobile Design):
+This is a container displaying a course card. It includes an image, course category, course title, instructor's name, and price.
+@@@Container@@@
+
+Heart icon in the course card:
+This is an icon button that allows users to add the course to their favorites.
+@@@IconButton@@@
+
+Bottom navigation bar:
+This is a bottom navigation widget containing icons and labels for various sections (Home, Statistics, Favorites, Profile).
+@@@BottomNavigationBar@@@

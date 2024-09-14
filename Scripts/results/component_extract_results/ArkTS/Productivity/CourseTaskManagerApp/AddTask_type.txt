@@ -1,0 +1,85 @@
+Exam button:
+This is an interactive button for selecting the "Exam" category. When tapped, it likely filters or categorizes tasks related to exams.
+@@@arkTSButton@@@
+
+Topic / Chapter Name input:
+This is an input field where users can enter the name of the topic or chapter relevant to the task being added.
+@@@arkTSInput@@@
+
+Calendar icon:
+This icon likely represents a calendar function and is used for selecting or displaying the date related to a task.
+@@@arkTSIcon@@@
+
+Profile picture:
+This image represents the user's profile picture, typically used to display the user's avatar or profile image.
+@@@arkTSImage@@@
+
+Fri 25, September, 2020:
+This is text displaying the date, likely indicating the due date or scheduled date for a task.
+@@@arkTSText@@@
+
+Lab button:
+This interacts as a button for selecting the "Lab" category, similar to the Exam button. It filters or categorizes tasks related to labs.
+@@@arkTSButton@@@
+
+Exam button (repeated image):
+This serves the same purpose as previously described for selecting the "Exam" category.
+@@@arkTSButton@@@
+
+Add a task label:
+This is a text label indicating the main function of the screen, which is to add a new task.
+@@@arkTSText@@@
+
+Category label:
+This text label indicates the section where users can select different categories for their tasks.
+@@@arkTSText@@@
+Biology label:
+This is a text label that indicates a specific subject, in this case, "Biology."
+@@@arkTSText@@@
+
+Presentation button:
+This is a button labeled "Presentation" that users can click to select the "Presentation" category.
+@@@arkTSButton@@@
+
+Class active button:
+This is an active button indicating that the "Class" category is currently selected by the user.
+@@@arkTSButton@@@
+
+Assignment button:
+This is a button labeled "Assignment" that users can click to select the "Assignment" category.
+@@@arkTSButton@@@
+
+Clock icon:
+This is an icon representing time, likely used to select or display a time for the task.
+@@@arkTSIcon@@@
+
+Lab button:
+This is a button labeled "Lab" that users can click to select the "Lab" category.
+@@@arkTSButton@@@
+
+Add Task button:
+This is a button labeled "Add Task" that users can click to add a new task.
+@@@arkTSButton@@@
+
+Greeting text:
+This is a text label greeting the user with "Hello Liana."
+@@@arkTSText@@@
+
+Class button:
+This is a button labeled "Class" that users can click to select the "Class" category.
+@@@arkTSButton@@@
+Category buttons (e.g. "Class", "Exam", "Lab"):
+These buttons are likely used to categorize the task, allowing the selection of different types of tasks.
+@@@arkTSButton@@@
+
+Bottom navigation bar:
+This component provides navigation options for different sections of the app such as Home, Tasks, Classroom, and Chat.
+@@@arkTSBottomNavigationBar@@@
+
+Time selection (09:30 AM):
+This component allows the user to select a specific time for the task.
+@@@arkTSTimePicker@@@
+
+Header "Add a task":
+This is a text label that serves as the header for the task creation screen.
+@@@arkTSText@@@

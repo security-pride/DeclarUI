@@ -1,0 +1,70 @@
+Arrow Icon:
+This is an Image component used to display a graphical arrow, likely for navigation purposes or to indicate a back action.
+@@@Function Component@@@
+
+WiFi Icon:
+This is an Image component representing a WiFi signal. It usually indicates the status of the device's WiFi connectivity.
+@@@Function Component@@@
+
+Password Requirement Text ("At least 8 characters"):
+This is a Text component listing password requirements. It provides information to ensure that the user creates a valid password.
+@@@Text Functional Component@@@
+
+Close Icon in Circle:
+This is an Image component representing a close or cancel action. It is used here as an icon to indicate unmet password requirements.
+@@@Function Component@@@
+
+Solid Circle:
+This is an Image component, likely acting as a visual separator or a design element.
+@@@Function Component@@@
+
+Email Address Field:
+This is a TextInput component labeled "Email address," allowing the user to input their email address.
+@@@TextInput@@@
+
+Sign In Prompt:
+This is a Text component. It prompts the user to sign in if they already have an account.
+@@@Text Functional Component@@@
+
+Password Requirement Heading ("Your password needs to include:"):
+This is a Text component. It serves as a heading to list the criteria that passwords need to meet.
+@@@Text Functional Component@@@
+
+Privacy Policy Text:
+This is a Text component. It contains legal and policy information that the user agrees to by creating an account or signing in.
+@@@Text Functional Component@@@
+
+Close Icon in Password Requirement Item:
+This is an Image component indicating a password requirement that has not been met.
+@@@Function Component@@@
+Square icon with a line inside:
+This is a Button component. It's likely used as a navigation or action button on the app's user interface.
+@@@Button@@@
+
+Sign up button:
+This is a Button component. It's the primary action button used to submit the registration form.
+@@@Button@@@
+
+Password field with eye icon:
+This is a View Function Component containing a TextInput component. It is used to enter and display the password, with the eye icon allowing users to toggle password visibility.
+@@@View Function Component@@@
+
+Continue with Google button:
+This is a Button component. It's used to sign up or log in using a Google account.
+@@@Button@@@
+
+Three-vertical-bar icon:
+This is a Button component. It could be used to open a menu or perform a similar function.
+@@@Button@@@
+
+Cross inside a circle icon:
+This is an Image Function Component. It's likely used to indicate invalid input or to dismiss something.
+@@@Function Component@@@
+
+Empty battery icon:
+This is an Image Function Component. It's likely an indicator of the battery status.
+@@@Function Component@@@
+
+Sign up for a CNN account text:
+This is a Text Functional Component. It serves as the main title or heading for the registration screen.
+@@@Text Functional Component@@@

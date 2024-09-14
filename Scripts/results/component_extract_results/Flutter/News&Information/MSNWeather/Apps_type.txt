@@ -1,0 +1,232 @@
+Component Keyword:
+Medal icon
+Component Function Description:
+This icon likely represents an achievement or rewards feature, where users can view or claim rewards.
+@@@Icon@@@
+
+Component Keyword:
+Ruler icon
+Component Function Description:
+This icon might indicate a unit converter or measurement tool, allowing users to perform conversions.
+@@@Icon@@@
+
+Component Keyword:
+Location pin icon
+Component Function Description:
+This icon likely signifies a nearby search or location-based service, enabling users to find places or services around them.
+@@@Icon@@@
+
+Component Keyword:
+News icon
+Component Function Description:
+This icon represents a news section, where users can access the latest news and updates.
+@@@Icon@@@
+
+Component Keyword:
+Back arrow
+Component Function Description:
+This arrow acts as a navigation tool, allowing users to go back to the previous screen.
+@@@IconButton@@@
+
+Component Keyword:
+Car with tag icon
+Component Function Description:
+This icon probably represents a car-related service or sales feature, such as buying or renting vehicles.
+@@@Icon@@@
+
+Component Keyword:
+Star button
+Component Function Description:
+This button may be used for marking favorites or earning points in a rewards program.
+@@@IconButton@@@
+
+Component Keyword:
+Home icon with label
+Component Function Description:
+This icon and label likely represent a home tab in a bottom navigation bar, allowing users to return to the main dashboard.
+@@@BottomNavigationBarItem@@@
+
+Component Keyword:
+Shopping cart icon
+Component Function Description:
+This icon likely indicates a shopping feature or section related to deals and offers, possibly for purchasing items.
+@@@Icon@@@
+News icon:
+This image looks like an icon representing a news feature or section within the app.
+@@@Icon@@@
+
+Image icon:
+This appears to be an icon related to an image gallery or image-related functionality.
+@@@Icon@@@
+
+Tabs icon:
+This seems to represent an icon for managing or switching between open tabs.
+@@@Icon@@@
+
+View button ("View" text and arrow):
+This likely represents a button for viewing content, with a text label and an arrow indicating action.
+@@@TextButton@@@
+
+Explore AI icon:
+This icon suggests a feature related to exploring AI capabilities in the app.
+@@@Icon@@@
+
+Math icon:
+This appears to symbolize a feature or tool related to mathematical calculations or concepts.
+@@@Icon@@@
+
+Add button:
+This image likely serves as a button for adding new content or items, indicated by the plus sign and border decoration.
+@@@OutlinedButton@@@
+
+Settings icon:
+This is likely an icon representing the settings menu or preferences within the app, recognizable by the gear symbol.
+@@@Icon@@@
+Apps icon:
+This is an icon with text beneath, commonly used in bottom navigation bars to navigate to a section called "Apps".
+@@@BottomNavigationBarItem@@@
+
+Translator icon:
+This is an icon that represents a translator app, likely to be a clickable button directing the user to translation functionality.
+@@@IconButton@@@
+
+"Join Microsoft Rewards to redeem free gifts!" text:
+This is a line of text that informs the user about Microsoft Rewards.
+@@@Text@@@
+
+Interests icon:
+This is an icon likely representing a section or functionality related to user interests.
+@@@IconButton@@@
+
+Trending icon:
+This is an icon likely representing a section or functionality related to trending topics or items.
+@@@IconButton@@@
+
+Car with clock icon:
+This is an icon likely representing a section or functionality related to transportation or scheduled trips.
+@@@IconButton@@@
+
+User profile icon:
+This is an icon likely representing the user's profile or account settings.
+@@@CircleAvatar@@@
+
+Location pin icon:
+This is an icon representing a location pin, likely used for navigation or nearby search functionality.
+@@@IconButton@@@
+
+Chat icon:
+This is an icon with text beneath, commonly used in bottom navigation bars to navigate to a chat or messaging section.
+@@@BottomNavigationBarItem@@@
+
+Explore label:
+This is a text widget that shows a section title, separating different categories within the app.
+@@@Text@@@
+
+Sign in to earn daily points label:
+This text widget likely serves as an incentive message to prompt users to sign in.
+@@@Text@@@
+
+History icon with label:
+This component represents a clickable icon paired with a text label. It likely navigates to a user's activity history.
+@@@Column with an Icon and Text@@@
+
+Growth chart icon:
+This icon symbolizes financial growth or statistics, suggesting it leads to a financial overview or analytics page.
+@@@Icon@@@
+
+Wallpaper icon:
+This icon represents wallpapers, likely directing users to a section for selecting or applying wallpapers.
+@@@Container with an Icon@@@
+
+Games label with icon:
+This component uses both an icon and a text label, likely providing a gateway to a games section.
+@@@Column with an Icon and Text@@@
+
+Games icon:
+This icon signifies a games section, offering entry to related content or features.
+@@@Icon@@@
+
+Pinned label:
+A text widget used as a section header or keyword to highlight pinned items or sections.
+@@@Text@@@
+
+Shopping cart icon:
+This icon typically represents shopping or deals, perhaps linking to a shopping feature or cart.
+@@@Icon@@@
+Weather icon:
+This is an icon likely used to represent a weather-related feature in the app.
+@@@Icon@@@
+
+Black circle icon:
+This seems to be an indicator or a placeholder, possibly representing a notification indicator or a loading state.
+@@@Container@@@
+
+Deals icon:
+This icon represents a section or feature related to deals or offers in the app.
+@@@Icon@@@
+
+Explore AI icon:
+This represents a feature related to exploring AI capabilities or enhancements within the app.
+@@@Icon@@@
+
+Bookmarks icon:
+This is an icon used to represent saved items or bookmarks within the app.
+@@@Icon@@@
+
+Interests icon:
+This icon likely allows users to select or add their interests for personalized content.
+@@@Icon@@@
+
+Unit Converter icon:
+This icon represents functionality related to unit conversion, such as converting between different measurement systems.
+@@@Icon@@@
+
+Play button icon:
+This icon indicates a feature related to media playback, such as a video or audio player.
+@@@Icon@@@
+Explore AI icon:
+This icon represents the "Explore AI" functionality. It is likely displayed within a button to allow users to explore AI-related features in the app.
+@@@IconButton@@@
+
+Translator icon:
+This icon represents the translate feature in the app. It is probably used within a button that, when tapped, takes users to the translation section.
+@@@IconButton@@@
+
+Rewards icon:
+This icon indicates the "Rewards" feature. Users tapping on this button might access a rewards program or see their accumulated points.
+@@@IconButton@@@
+
+Money icon:
+This icon suggests a financial feature or section in the app. Clicking this button might take users to a money management or investment section.
+@@@IconButton@@@
+
+Images icon:
+This icon represents an image gallery or photo section. It is likely used in a button that, when tapped, opens a gallery or similar image-related feature.
+@@@IconButton@@@
+
+Video player icon:
+This icon indicates a feature related to video content. Clicking this button could open a video player or a library of video content.
+@@@IconButton@@@
+
+Math icon:
+This icon represents a math-related feature or tool. Users may access math tools or educational content by clicking this button.
+@@@IconButton@@@
+
+Chat icon:
+This composite element features a chat icon indicative of a chat or messaging functionality in the app. The chat icon is likely part of a larger widget structure within a `BottomNavigationBar`.
+@@@BottomNavigationBarItem@@@
+
+Trending graph icon:
+This icon represents a trending section or analytics feature. Users can access trending topics or data analysis sections by tapping this button.
+@@@IconButton@@@
+Bookmarks label:
+This is a text widget displaying the label "Bookmarks". It indicates the section or feature related to bookmarks within the app.
+@@@Text@@@
+
+Image icon with phone:
+This icon likely represents an image-related feature within the app, possibly an image gallery or photo viewer. The design suggests viewing images on a mobile device.
+@@@Icon@@@
+
+Memory card icon:
+This icon probably represents storage or media-related functionalities, such as accessing external storage or managing files.
+@@@Icon@@@

@@ -1,0 +1,89 @@
+My List label:
+This is a text widget that indicates the "My List" section of the app, likely a part of a navigation bar.
+@@@Text@@@
+
+Download icon:
+This appears to be an icon representing a download action, possibly part of a bottom navigation bar or a button for downloading content.
+@@@IconButton@@@
+
+Search icon:
+This is an icon that typically indicates a search feature within the app, likely used to initiate a search.
+@@@IconButton@@@
+
+Profile picture of a woman:
+This image depicts a profile picture, likely used to identify a user or instructor in the app, and includes rounded corners.
+@@@ClipRRect@@@
+
+Circular profile picture:
+This is a circular image, possibly used for a profile picture in the top navigation, featuring a circular avatar placeholder.
+@@@CircleAvatar@@@
+
+Instructor image within card:
+This image of an instructor is placed within a card layout, likely part of a horizontal scrollable list or grid.
+@@@ClipRRect@@@
+
+Profile picture of a woman:
+This image represents a small circular avatar, likely used for a list item in the app, featuring rounded corners.
+@@@ClipRRect@@@
+
+Partial instructor image with text:
+This image with accompanying text shows an instructor and is likely part of a card or list item showcasing course offerings.
+@@@Container@@@
+
+Lucy Miller label:
+This is a text widget showing a person's name, likely part of a list item or card.
+@@@Text@@@
+Maria Trofimova's Image:
+This is likely an image widget used to display a person's photo with rounded corners, indicating the use of BoxDecoration with borderRadius.
+@@@ClipRRect@@@
+
+Home Tab:
+This text widget is likely part of a TabBar item indicating the "Home" section, potentially styled with an underline to show it's the active tab.
+@@@TabBar@@@
+
+Dimmed Image:
+This is likely a widget used to display an image or background with a dark overlay, possibly achieved using a Stack and Opacity.
+@@@Stack@@@
+
+Sophie Asveld's Name:
+This is a text widget displaying a person's name, likely styled with specific typography for headers.
+@@@Text@@@
+
+John Wisebe's Image:
+This might be a ClipRRect widget used to clip an image to rounded corners for a modern UI.
+@@@ClipRRect@@@
+
+Maria Trofimova's Course Description:
+A text widget used to display the title and description of a course, possibly using different styles for each line.
+@@@Text@@@
+
+New Courses Header:
+This is a text widget used as a section header, styled prominently to indicate it as a heading.
+@@@Text@@@
+
+Popular Courses Header:
+Similar to the previous one, this text widget serves as a section header for listing popular courses.
+@@@Text@@@
+
+John Wisebe's Image with Name Overlay:
+This might be a Stack widget combining an image with text overlaying it, suggesting a complex layout.
+@@@Stack@@@
+Masood El Toure:
+This text widget displays the name of an instructor.
+@@@Text@@@
+
+Teaches Creativity and Songwriting:
+This text widget describes the course the instructor offers.
+@@@Text@@@
+
+Home icon:
+This icon represents the home button, likely used for navigating to the main screen of the app.
+@@@IconButton@@@
+
+Instructor image:
+This image shows an instructor, likely used as a profile picture or course thumbnail.
+@@@Image@@@
+
+Teaches Screenwriting:
+This text widget describes the course another instructor offers.
+@@@Text@@@

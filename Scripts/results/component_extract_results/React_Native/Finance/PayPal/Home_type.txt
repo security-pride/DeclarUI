@@ -1,0 +1,66 @@
+PayPal logo image:
+The PayPal logo displayed is likely a Function Component used for branding purposes, situated near the balance information area.
+@@@Function Component@@@
+
+"Refer a friend" promotional card:
+This is a View Function Component that contains several elements. It's used to show a promotional offer to users, encouraging them to refer friends.
+@@@View Function Component@@@
+
+"Request" button:
+This is a Button component. It is used for user interaction, allowing the user to request money.
+@@@Button@@@
+
+Crypto icon with label:
+This is a Function Component. It represents a section or feature related to cryptocurrencies within the application.
+@@@Function Component@@@
+
+"ZF" icon:
+This is a Function Component, most likely representing a quick action or a frequently contacted person.
+@@@Function Component@@@
+
+"Send money internationally" text:
+This is a Text Functional Component. It is used as a header or a call-to-action phrase to send money internationally.
+@@@Text Functional Component@@@
+
+Wallet icon with label:
+This is a Function Component. It represents a section or feature related to wallets within the application.
+@@@Function Component@@@
+
+Search icon:
+This is a Function Component. It is likely used to initiate a search action within the app.
+@@@Function Component@@@
+
+Home icon with label:
+This is a Function Component. It represents the home section of the app, leading users back to the main screen.
+@@@Function Component@@@
+Person icon:
+This is a Button component. It may provide access to user profiles or account settings.
+@@@Button@@@
+
+Menu icon:
+This is a Button component. It likely opens the navigation drawer or a settings/options menu.
+@@@Button@@@
+
+PayPal balance card:
+This is a View Function Component. It displays the current PayPal balance and associated information.
+@@@View Function Component@@@
+
+Payments icon and text:
+This combination of an icon and text represents a Button component. It may navigate to a payments section when pressed.
+@@@Button@@@
+
+"ZF" circular icon: 
+This is a Button component. It likely represents a frequently contacted person or a shortcut for sending money to this specific contact.
+@@@Button@@@
+
+Send button:
+This is a Button component. It's likely used to initiate a sending action, such as sending money.
+@@@Button@@@
+
+QR code icon:
+This is a Button component. It likely allows the user to scan a QR code, possibly for payments or receiving funds.
+@@@Button@@@
+
+Question mark icon:
+This is a Button component. It probably provides access to a help or FAQ section.
+@@@Button@@@

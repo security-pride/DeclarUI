@@ -1,0 +1,78 @@
+Filter icon:
+This is a Button component. It's likely used to filter search results based on various criteria.
+@@@Button@@@
+
+Seaview Accommodation label and icon:
+This is a combination of an Image component and a Text component. It's used to represent a category of accommodations with a seaview.
+@@@Function Component Text Functional Component@@@
+
+Accommodation recommendation image:
+This is an Image component. It displays a picture of a recommended accommodation.
+@@@Function Component@@@
+
+"漂亮" ("Beautiful") label:
+This is a Text component. It's a small label likely used in user reviews or comments about the listed accommodation.
+@@@Text Functional Component@@@
+
+"探索" ("Explore") tab:
+This is a Text component. It represents one of the navigation tabs in the app, allowing users to explore listings.
+@@@Text Functional Component@@@
+
+Profile icon and "我的" ("My") label:
+This is a combination of an Image component and a Text component. It represents the user profile section of the app.
+@@@Function Component Text Functional Component@@@
+
+Search bar:
+This is a combination of multiple TextInput components. It's used for users to input search queries, add dates, and number of guests.
+@@@TextInput@@@
+
+Message tab icon and "消息" ("Messages") label:
+This is a combination of an Image component and a Text component. It represents the messages or chats section of the app.
+@@@Function Component Text Functional Component@@@
+
+"OMG 妙" tab:
+This is a Text component. It represents one of the navigation tabs in the app, likely providing some unique or interesting listings.
+@@@Text Functional Component@@@
+
+近滑雪场:
+This is a Text Functional Component. It represents a label indicating a nearby skiing area.
+@@@Text Functional Component@@@
+
+行程 icon:
+This is a Function Component. It represents an icon for the itinerary section of the app.
+@@@Function Component@@@
+
+"地图" Button:
+This is a Button component. It is used to open the map feature in the application.
+@@@Button@@@
+
+Filter icon:
+This is a Button component. It is used to open the filter options for searching or sorting.
+@@@Button@@@
+
+显示总价 switch:
+This is a Switch component. It toggles the visibility of the total price including all fees.
+@@@Switch@@@
+
+英国 多塞特(Dorset):
+This is a Text Functional Component. It describes the location and specific details of a listing.
+@@@Text Functional Component@@@
+
+心愿单:
+This is a Text Functional Component. It represents a label for the "Wishlist" feature in the app.
+@@@Text Functional Component@@@
+
+魅力泳池:
+This is a Text Functional Component. It is a label indicating listings with an attractive pool.
+@@@Text Functional Component@@@
+
+"地图" button:
+This is a Button component. It is used to interact with the map function within the application.
+@@@Button@@@
+Ski and snowboard icon:
+This is a Function Component. It's an icon likely representing a category or a filter related to ski resorts or snowy locations. 
+@@@Function Component@@@
+
+"Lakes" label:
+This is a Text Functional Component. It represents a filter or category related to lake destinations.
+@@@Text Functional Component@@@

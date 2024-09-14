@@ -1,0 +1,224 @@
+Clear Histroy button:
+This appears to be a button that clears the history or logs of previous calculations.
+@@@ElevatedButton@@@
+
+C button:
+This button likely resets or clears the current calculation input.
+@@@TextButton@@@
+
+() button:
+This button allows the user to input parentheses for grouping parts of mathematical expressions.
+@@@TextButton@@@
+
+6 button:
+This button inputs the number 6 into the calculator's current calculation.
+@@@TextButton@@@
+
+Close icon:
+This button might close the current screen or clear the display area.
+@@@IconButton@@@
+
+X button:
+This button signifies the multiplication operation.
+@@@TextButton@@@
+
+C button (duplicate):
+This button likely resets or clears the current calculation input. The duplicate indicates a repeated component in the UI.
+@@@TextButton@@@
+
+% button:
+This button indicates the percentage operation.
+@@@TextButton@@@
+
++ button:
+This button indicates the addition operation.
+@@@TextButton@@@
+**Component Keyword:**  
+Parentheses button:
+
+This is a button that allows users to input parentheses for complex mathematical calculations.
+@@@TextButton@@@
+
+---
+
+**Component Keyword:**  
+Number button "5":
+
+This button allows the user to input the number 5 into calculations.
+@@@TextButton@@@
+
+---
+
+**Component Keyword:**  
+Calculation area:
+
+This widget displays the current and past mathematical calculations and results. It may also allow scrolling to view more entries.
+@@@ListView@@@
+
+---
+
+**Component Keyword:**  
+Number button "4":
+
+This button allows the user to input the number 4 into calculations.
+@@@TextButton@@@
+
+---
+
+**Component Keyword:**  
+Number button "7":
+
+This button allows the user to input the number 7 into calculations.
+@@@TextButton@@@
+
+---
+
+**Component Keyword:**  
+Equals button:
+
+This is a button that initiates the calculation process to display the result of the mathematical expression.
+@@@ElevatedButton@@@
+
+---
+
+**Component Keyword:**  
+Minus button:
+
+This is a button for performing subtraction operations in the calculations.
+@@@TextButton@@@
+
+---
+
+**Component Keyword:**  
+Number button "3":
+
+This button allows the user to input the number 3 into calculations.
+@@@TextButton@@@
+
+---
+
+**Component Keyword:**  
+Multiply button:
+
+This button is used for multiplication operations in the calculations.
+@@@TextButton@@@
+Component Keyword:
+This text shows part of the operation or equation displayed in the calculator input section. 
+@@@Text@@@
+
+Component Keyword:
+This button likely displays the result of the calculation when tapped.
+@@@TextButton@@@
+
+Component Keyword:
+This button appears to represent the number "4" on a calculator keypad.
+@@@TextButton@@@
+
+Component Keyword:
+This icon suggests a history feature that may allow users to view previous calculations.
+@@@IconButton@@@
+
+Component Keyword:
+This toggle switch allows users to switch to dark mode for the app interface. 
+@@@Switch@@@
+
+Component Keyword:
+This button likely represents the division operation on the calculator.
+@@@TextButton@@@
+
+Component Keyword:
+This button appears to represent the number "2" on a calculator keypad.
+@@@TextButton@@@
+
+Component Keyword:
+This button appears to represent the number "8" on a calculator keypad.
+@@@TextButton@@@
+
+Component Keyword:
+This button seems to represent the number "5" on a calculator keypad.
+@@@TextButton@@@
+Equal button:
+This component appears to be the button to calculate the result of the entered mathematical equation.
+@@@ElevatedButton@@@
+
+Zero button:
+This component represents the number "0" on the calculator and allows the user to input this number.
+@@@ElevatedButton@@@
+
+Clear button:
+This button typically serves to clear the current entry or resets the calculator to its initial state.
+@@@ElevatedButton@@@
+
+Two button:
+This component represents the number "2" on the calculator and allows the user to input this number.
+@@@ElevatedButton@@@
+
+Seven button:
+This component represents the number "7" on the calculator and allows the user to input this number.
+@@@ElevatedButton@@@
+
+Nine button:
+This component represents the number "9" on the calculator and allows the user to input this number.
+@@@ElevatedButton@@@
+
+Plus/minus button:
+This button toggles the sign of the current entry between positive and negative.
+@@@ElevatedButton@@@
+
+Fullscreen button:
+This button allows the user to toggle the fullscreen mode of the calculator application.
+@@@IconButton@@@
+
+One button:
+This component represents the number "1" on the calculator and allows the user to input this number.
+@@@ElevatedButton@@@
+3:
+This is a button displaying the number "3", most likely part of a calculator keypad.
+@@@TextButton@@@
+
+8:
+This is a button displaying the number "8", most likely part of a calculator keypad.
+@@@TextButton@@@
+
++/-:
+This is a button that toggles the sign of the value (positive to negative or vice versa).
+@@@TextButton@@@
+
+1080:
+This is a badge displaying the result or input of a calculation.
+@@@Container@@@
+
+.:
+This is a button displaying the decimal point, used for entering decimal numbers.
+@@@TextButton@@@
+
+1080 (large):
+This displays the result of a calculation, a key part of the calculator interface.
+@@@Text@@@
+
+Calculation History:
+This is a display area showing the history of calculations performed.
+@@@Container@@@
+
+0:
+This is a button displaying the number "0", most likely part of a calculator keypad.
+@@@TextButton@@@
+
+9:
+This is a button displaying the number "9", most likely part of a calculator keypad.
+@@@TextButton@@@
+Plus button:
+This button likely represents the addition operation in the calculator app, allowing users to add numbers.
+@@@ElevatedButton@@@
+
+Minus button:
+This button is used to subtract numbers, indicating it performs the subtraction operation in the calculator.
+@@@ElevatedButton@@@
+
+Number button with "1":
+This button allows the user to input the number 1 into the calculator.
+@@@ElevatedButton@@@
+
+Division button:
+This button likely performs the division operation, enabling division calculations.
+@@@ElevatedButton@@@

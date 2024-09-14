@@ -1,0 +1,82 @@
+WiFi icon:
+This is an Image component. It displays the WiFi signal strength indicator in the mobile app.
+@@@Function Component@@@
+
+"Message" label:
+This is a Text component. It displays the title or header for the screen indicating that this is the messaging section of the app.
+@@@Text Functional Component@@@
+
+Signal bars icon:
+This is an Image component. It displays the cellular network signal strength indicator.
+@@@Function Component@@@
+
+Bag icon:
+This is an Image component. It represents a specific function, likely a section related to tasks or employees in the app.
+@@@Function Component@@@
+
+"Search ..." input field:
+This is a TextInput component. It allows users to search for specific messages or contacts.
+@@@TextInput@@@
+
+Contact list item (Devignedge UI Design T.):
+This is a combination of a View component containing several Text and Image components. The view contains details about a contact or conversation.
+@@@View Function Component@@@
+
+Check mark icon:
+This is an Image component. It indicates that the item/task is completed or verified.
+@@@Function Component@@@
+
+Contact list item (Jonathan D. Dye):
+This is a combination of a View component containing several Text and Image components. The view contains details about a contact or conversation.
+@@@View Function Component@@@
+
+Contact list item (Luther K. Cusack):
+This is a combination of a View component containing several Text and Image components. The view contains details about a contact or conversation.
+@@@View Function Component@@@
+
+Clock icon showing "9:41":
+This is a StatusBar Android and iOS Component, typically used to display various status information such as network status, battery level, and current time.
+@@@StatusBar Android and iOS Component@@@
+
+Plus icon in blue circle:
+This is a Button component, presumably used for adding new messages or initiating a new chat conversation.
+@@@Button@@@
+
+Avatar with glasses:
+This is an Image component, likely representing a user's profile picture.
+@@@Function Component@@@
+
+User card with "Charles L. Wenner":
+This is a View Function Component that encapsulates user details such as the name, message preview, and timestamp.
+@@@View Function Component@@@
+
+User card with "Luther K. Cusack":
+This is a View Function Component that encapsulates user details such as the name, message preview, and timestamp.
+@@@View Function Component@@@
+
+Chat bubble icon:
+This is a Button component which is likely used to navigate to the chat or message screen.
+@@@Button@@@
+
+Layout icon:
+This is a Button component which might be used to switch between different layout views.
+@@@Button@@@
+
+User card with "Madge T. Crews":
+This is a View Function Component that encapsulates user details such as the name, message preview, and timestamp.
+@@@View Function Component@@@
+
+Grid icon:
+This is a Button component which might be used to display options in a grid view.
+@@@Button@@@
+Rosemary J. Strickland label:
+This is a Text Functional Component. It's used to display the name and the date in the message list, indicating the sender's name and the date when the message was sent.
+@@@Text Functional Component@@@
+
+Gloria G. Johnson message:
+This is a View Function Component. It's used to enclose and layout the avatar, name, message preview, and time or date of the message in the list.
+@@@View Function Component@@@
+
+Backpack icon:
+This is a TouchableOpacity Function Component. It's used as an icon or button to likely navigate to another page, feature, or functionality related to the backpack or possibly a delete action.
+@@@TouchableOpacity Function Component@@@

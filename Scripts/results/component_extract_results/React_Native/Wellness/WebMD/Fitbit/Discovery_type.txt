@@ -1,0 +1,89 @@
+英语 label:
+This is a Text Functional Component. It's used to indicate the language of the content, which is English in this case.
+@@@Text Functional Component@@@
+
+Image of a person exercising:
+This is a Function Component. It likely displays a preview or cover image for an exercise video or training session.
+@@@Function Component@@@
+
+锻炼 label:
+This is a Text Functional Component. It is used to indicate the section or category of the app, which is related to workouts or exercises.
+@@@Text Functional Component@@@
+
+好友 label:
+This is a Text Functional Component. It is used to label the "Friends" tab or section in the app.
+@@@Text Functional Component@@@
+
+Image of a person doing a plank:
+This is a Function Component. It could be used as a preview or thumbnail for a specific workout or fitness session.
+@@@Function Component@@@
+
+Cardio group dance text:
+This is a Text Functional Component. It is likely used to provide the title or description of a specific exercise or workout session.
+@@@Text Functional Component@@@
+
+MIN text:
+This is a Text Functional Component. It is used to indicate the duration of the exercise or workout session in minutes.
+@@@Text Functional Component@@@
+
+Premium label:
+This is a Text Functional Component. It indicates that the content is premium and may require a subscription or payment to access.
+@@@Text Functional Component@@@
+
+Image of leaves under rain:
+This is a Function Component. It could be used to display a nature-themed video or relaxation content.
+@@@Function Component@@@
+播放 icon:
+This is a Button component. It likely triggers the playback of a content such as a video or audio.
+@@@Button@@@
+
+发现 (Discover) icon:
+This is a ButtonWithChildComponent. It seems to be part of the navigation bar, helping users navigate to the Discover section of the app.
+@@@ButtonWithChildComponent@@@
+
+"特色" (Featured):
+This is a Text component. It describes a category or section on the app, possibly highlighting featured content.
+@@@Text Functional Component@@@
+
+Star icon:
+This is a Button component. It likely allows the user to mark content as a favorite or to bookmark it for later.
+@@@Button@@@
+
+"Total body barre: bodyweight", "英语" (English):
+This is a Text component. It provides the title and language of the workout content.
+@@@Text Functional Component@@@
+
+"发现" (Discover):
+This is a Text component. It is likely the label for a tab or navigational button.
+@@@Text Functional Component@@@
+
+"Nature rain on leaves":
+This is a Text component. It is the title or description of the featured content.
+@@@Text Functional Component@@@
+
+Star icon (duplicate):
+This is a Button component. Just like the previous star icon, it likely allows users to mark content as a favorite or to bookmark it for later.
+@@@Button@@@
+
+"27 MIN":
+This is a Text component. It indicates the duration of the workout session.
+@@@Text Functional Component@@@
+播放:
+This is a Text Functional Component. It indicates a play action for media content.
+@@@Text Functional Component@@@
+
+英语:
+This is a Text Functional Component. It indicates the language of the content.
+@@@Text Functional Component@@@
+
+16 MIN:
+This is a Text Functional Component. It displays the duration of the content.
+@@@Text Functional Component@@@
+
+45:
+This is a Text Functional Component. It represents part of the duration of the content.
+@@@Text Functional Component@@@
+
+查看全部:
+This is a Text Functional Component. It likely indicates a button or link to view all content within a category.
+@@@Text Functional Component@@@

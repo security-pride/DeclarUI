@@ -1,0 +1,114 @@
+Mute bell icon:
+This appears to be an icon button allowing the user to mute notifications for the chat.
+@@@IconButton@@@
+
+Back arrow icon:
+This is likely an icon button that allows users to go back to the previous screen.
+@@@IconButton@@@
+
+Divider line:
+This horizontal line visually separates different sections in the interface.
+@@@Divider@@@
+
+Phone icon:
+This is an icon button that likely initiates an audio call.
+@@@IconButton@@@
+
+Orange dot:
+This could represent an active status or notification indicator next to specific items, showing that a feature is active or a notification is read.
+@@@Container@@@
+
+Thumbs-up emoji:
+This image is used to indicate that a certain feature or message is liked or approved.
+@@@Image@@@
+
+Profile icon:
+This is likely an icon button allowing users to view or edit their profile details.
+@@@IconButton@@@
+
+Profile picture with name:
+This combines a circular profile picture with a text label underneath showing the user's name.
+@@@Column@@@
+
+Create group label:
+This text component serves as a label indicating an action to create a group.
+@@@Text@@@
+1. "On" label:
+This is a text widget that indicates the status of a setting, which in this case, is in the "On" state.
+@@@Text@@@
+
+2. Video icon with label:
+This combination of an icon and label likely represents a button that allows the user to start a video call.
+@@@Column (with IconButton and Text widgets)@@@
+
+3. Video icon only:
+This icon likely represents a video call feature, most likely placed within a button.
+@@@IconButton@@@
+
+4. Color and Audio icon with label:
+This appears to be a combination of an icon and label, which likely represents a button to start an audio call.
+@@@Column (with IconButton and Text widgets)@@@
+
+5. Profile icon:
+This icon represents the user's profile feature, likely placed within a button.
+@@@IconButton@@@
+
+6. "Ignore Messages" label:
+This is a text widget that indicates a setting or action related to ignoring messages.
+@@@Text@@@
+
+7. "Ignore Messages" icon:
+This icon likely represents the "Ignore Messages" functionality, usually placed within a button.
+@@@IconButton@@@
+
+8. "Notifications" label:
+This is a text widget that indicates a notifications setting.
+@@@Text@@@
+
+9. Time display ("9:41"):
+This is a text widget that displays the current time.
+@@@Text@@@
+
+
+MORE ACTIONS:
+This appears to be a text widget that indicates additional options are available.
+@@@Text@@@
+
+WiFi icon:
+This icon likely indicates a network connection status or can be a control for toggling WiFi connectivity.
+@@@Icon@@@
+
+Profile picture:
+This is likely an image widget used to showcase the user's profile picture. Circular shape suggests using ClipRRect with borderRadius.
+@@@ClipRRect@@@
+
+Battery icon:
+This icon likely represents the battery status of the device.
+@@@Icon@@@
+
+Search in Conversation:
+This text suggests a feature allowing users to search within their conversations.
+@@@Text@@@
+
+Create group icon:
+This icon is likely a button allowing users to create a new group.
+@@@IconButton@@@
+
+Signal strength icon:
+This icon represents the signal strength of the device.
+@@@Icon@@@
+
+Search icon:
+This icon is likely a button intended to search for something within the app.
+@@@IconButton@@@
+
+Bell icon:
+This icon represents a notification button, probably to toggle notifications on or off.
+@@@IconButton@@@
+Block:
+This is a text widget that likely represents a section title for blocking a user.
+@@@Text@@@
+
+PRIVACY:
+This is a text widget that likely represents a section title or label for various privacy settings.
+@@@Text@@@

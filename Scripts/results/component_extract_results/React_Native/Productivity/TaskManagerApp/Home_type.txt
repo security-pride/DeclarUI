@@ -1,0 +1,82 @@
+Component Keyword:
+"View Task" button:
+This is a Button component. It likely navigates the user to a detailed view of the task.
+@@@Button@@@
+
+Component Keyword:
+Bell icon:
+This is an Image Function Component. It is likely used as a notification icon to alert users of new updates or messages.
+@@@Function Component@@@
+
+Component Keyword:
+"Meeting with designer" progress bar:
+This is a View Function Component. It represents the progress of the task.
+@@@View Function Component@@@
+
+Component Keyword:
+Three dots icon:
+This is an Image Function Component. It is likely used to represent a menu or more options for the listed task.
+@@@Function Component@@@
+
+Component Keyword:
+WiFi icon:
+This is an Image Function Component. It may indicate network status or connectivity.
+@@@Function Component@@@
+
+Component Keyword:
+Search icon:
+This is an Image Function Component. It likely leads to a search functionality to find tasks or other content.
+@@@Function Component@@@
+
+Component Keyword:
+"User experience design" task card:
+This is a View Function Component. It contains information about the task and displays progress.
+@@@View Function Component@@@
+
+Component Keyword:
+"Add Task" plus button:
+This is a Button component. It likely allows users to add or create a new task.
+@@@Button@@@
+
+Component Keyword:
+"Your daily task almost done!" task card:
+This is a View Function Component. It contains task status information and a progress circle.
+@@@View Function Component@@@
+User experience design card:
+This is a View Function Component. It is used to display task information, including the task title, progress bar, and percentage of completion.
+@@@View Function Component@@@
+
+Meeting with designer card:
+This is a View Function Component. It is used to display task information, including the task title, progress bar, and percentage of completion.
+@@@View Function Component@@@
+
+Calendar icon:
+This is an Image Function Component. It is used to display an icon that represents the calendar or schedule section in the app.
+@@@Function Component@@@
+
+Signal strength icon:
+This is an Image Function Component. It is used to display the signal strength indicator.
+@@@Function Component@@@
+
+Time display (9:41):
+This is a Text Functional Component. It displays the current time in the device's status bar.
+@@@Text Functional Component@@@
+
+Profile picture of Linda C. Ng:
+This is an Image Function Component. It is used to display the user's profile picture.
+@@@Function Component@@@
+
+Home icon:
+This is an Image Function Component. It is used as a navigation button to navigate to the home screen within the app.
+@@@Function Component@@@
+
+Name display (Linda C. Ng):
+This is a Text Functional Component. It displays the user's name.
+@@@Text Functional Component@@@
+
+Website Design task:
+This is a View Function Component. It is used to display upcoming task information, including the task title, date, and additional options.
+@@@View Function Component@@@
+Settings Icon:
+This is a Button Component. It likely takes the user to the settings screen of the application.
+@@@Button@@@

@@ -1,0 +1,145 @@
+Listening icon on blue background:
+This appears to be an icon representing a course type related to listening or audio-based learning.
+@@@Icon@@@
+
+Three vertical dots (menu) on blue background:
+This is likely a button for a dropdown menu or additional actions related to the course.
+@@@IconButton@@@
+
+Blue star icon:
+This is an icon used to represent a rating or favorite feature.
+@@@Icon@@@
+
+"Completed" label:
+This text indicates the status of a course section as completed.
+@@@Text@@@
+
+Green number "8" in a rounded rectangle:
+This likely represents the number of ongoing courses, styled using a Container with rounded corners.
+@@@Container@@@
+
+Small camera icon:
+This icon may represent a feature related to capturing or uploading an image, styled within a Container or wrapped in a Button.
+@@@Icon@@@
+
+"4.9 (1.435 Reviews)" label:
+This text widget represents the average rating and number of reviews for a course.
+@@@Text@@@
+
+Listening icon on brown background:
+This icon represents a course type related to listening or audio-based learning, styled within a Container.
+@@@Icon@@@
+
+"Nicola Tesla" label:
+This text represents the author or instructor of the course.
+@@@Text@@@
+
+Text on an item in the course list:
+This text represents the title of the course and is likely a part of a Card or ListTile widget.
+@@@Text@@@
+
+Navigation icon from the bottom bar:
+This icon represents a navigation item in the bottom navigation bar.
+@@@BottomNavigationBarItem@@@
+
+Notebook icon on purple background:
+This icon represents a course type related to notes or written work, styled within a Container.
+@@@Icon@@@
+
+Icons representing different course categories:
+These icons might represent various course categories or types, each styled within individual Containers.
+@@@Row@@@
+
+Course progress percentage in blue:
+This text represents the progress percentage of the course.
+@@@Text@@@
+
+Session details label:
+This text provides details about the number of sessions in the course.
+@@@Text@@@
+
+Star rating icon next to the rating text:
+This icon is used to display the rating next to the text label showing the rating value.
+@@@Icon@@@
+
+Overall course card background:
+This is likely a Card widget representing individual courses with different colors and rounded corners.
+@@@Card@@@
+
+Bottom navigation labels:
+This text represents the labels for items in the bottom navigation bar.
+@@@Text@@@
+
+Icons in the app bar:
+These icons represent different actions or notifications in the app bar.
+@@@IconButton@@@
+
+Text in the app bar:
+This text indicates the title or section of the app.
+@@@Text@@@
+
+Numbers in the app bar:
+These numbers might represent counts or badge notifications, styled within a Container.
+@@@Container@@@
+
+Line under the tab in progress:
+This is a line indicating the active tab, represented using a Container or Divider.
+@@@Container@@@
+
+Icons in the bottom navigation bar:
+These icons represent different sections in the bottom navigation bar.
+@@@BottomNavigationBarItem@@@
+
+Overall structure of the app:
+This is likely a Scaffold widget containing an AppBar, BottomNavigationBar, and other body content.
+@@@Scaffold@@@
+
+Text labels for different sections:
+These text widgets are used to represent different sections of the app, such as "My Courses," "Ongoing," "Completed."
+@@@Text@@@
+1. 12 Badge:
+   This badge shows a numerical count, typically used to indicate notifications or messages.
+   @@@Container@@@
+
+2. Headset icon in the course card:
+   This is an icon, likely representing audio or a specific course type.
+   @@@Icon@@@
+
+3. Home icon:
+   This is an icon, likely representing the home screen in a bottom navigation bar.
+   @@@Icon@@@
+
+4. Book icon (part of bottom navigation):
+   This is an icon, likely representing a specific section, such as courses or content.
+   @@@Icon@@@
+
+5. Ongoing tab indicator:
+   This is a custom tab indicator, visually indicating the selected tab.
+   @@@Container@@@
+
+6. Time display (9:41):
+   This is a text widget, likely showing the current time or a preset text in the device's status bar.
+   @@@Text@@@
+
+7. Storage/SD card icon in the course card:
+   This is an icon, likely representing the course in the context of media or resources.
+   @@@Icon@@@
+
+8. Settings icon in bottom navigation:
+   This is an icon, typically representing settings or a preferences section.
+   @@@Icon@@@
+
+9. "My Courses" label:
+   This is a text widget indicating the title of the current section or screen.
+   @@@Text@@@
+1. **Profile picture/icon:**
+   This circular image likely represents a user's profile picture or an icon related to the user.
+   @@@CircleAvatar@@@
+
+2. **Course Card (Graphics Designer for Beginner):**
+   This component serves as a card displaying course information, including the course title, instructor, rating, and progress.
+   @@@Card@@@
+
+3. **Loading indicator:**
+   This is a circular loading indicator showing progress or completion percentage.
+   @@@CircularProgressIndicator@@@

@@ -1,0 +1,59 @@
+Country & language label:
+This is a text widget displaying the label "Country & language," likely serving as a section header or menu item.
+@@@Text@@@
+
+Read news without the internet label:
+This text widget provides a description or subtitle for an adjacent feature, possibly a toggle or button like "Offline reading."
+@@@Text@@@
+
+Country & language list item:
+This consists of an icon and text representing a menu option related to country and language settings.
+@@@ListTile@@@
+
+Offline reading icon:
+The icon depicts a download action, possibly representing a button or action for saving content for offline access.
+@@@Icon@@@
+
+Opera News logo with text:
+This composite consists of an image and text, likely used to brand or label the app.
+@@@Column@@@
+
+Me icon with label:
+This combines an icon and text, likely used for navigation to a user profile or account section.
+@@@BottomNavigationBarItem@@@
+
+Repeat icon:
+This icon looks like a repeat or refresh symbol, possibly used for actions like updating content or accessing a list of saved items.
+@@@Icon@@@
+
+Home icon with label:
+This is used in navigation, representing the home section of the app.
+@@@BottomNavigationBarItem@@@
+
+Blocked users label:
+This is a text widget that serves as a menu option or section for managing blocked contacts.
+@@@Text@@@
+
+Save icon:
+This is likely an icon that represents the option for saving content for offline reading.
+@@@Icon@@@
+
+Offline reading label:
+This is a text widget that describes the functionality of the save icon, indicating users can read content offline.
+@@@Text@@@
+
+Automatic label:
+This is a text widget that indicates the status of a feature, possibly related to the dark mode setting.
+@@@Text@@@
+
+App logo:
+This is an image widget that displays the app's logo for branding purposes.
+@@@Image@@@
+
+Read it later label:
+This is a text widget that describes the functionality to save articles or content to read at a later time.
+@@@Text@@@
+
+Settings icon:
+This is an icon that represents the settings or configuration options of the app.
+@@@Icon@@@

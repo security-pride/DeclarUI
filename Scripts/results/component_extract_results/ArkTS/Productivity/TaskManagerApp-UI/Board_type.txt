@@ -1,0 +1,48 @@
+Board Label:
+This is a text label that indicates the title of the app section, likely for navigating different boards within the app.
+@@@arkTSText@@@
+
+Signal Strength Icon:
+This icon indicates the signal strength of the device's network connection.
+@@@arkTSImage@@@
+
+Phone Notch Placeholder:
+This image represents the phone's notch area, used for layout reference in app design.
+@@@arkTSImage@@@
+
+Personal Task Card:
+This component is a card that represents a category of tasks labeled as "Personal." It likely navigates the user to a detailed view of personal tasks.
+@@@arkTSCard@@@
+
+Events Task Card:
+This component is a card that represents a category of tasks labeled as "Events." It likely navigates the user to a detailed view of event-related tasks.
+@@@arkTSCard@@@
+
+Work Task Card:
+This component is a card that represents a category of tasks labeled as "Work." It likely navigates the user to a detailed view of work-related tasks.
+@@@arkTSCard@@@
+
+Create Board Card:
+This component is a card that allows users to create a new board. It involves creating a new category or project within the app.
+@@@arkTSCard@@@
+Meeting:
+This component represents the "Meeting" section in the app, displaying the icon, label, and task count related to meetings.
+@@@arkTSCard@@@
+
+Time display:
+This component represents the time display on the mobile app, typically showing the current time of the device.
+@@@arkTSText@@@
+
+Personal:
+This component represents the "Personal" section in the app, displaying the icon, label, and task count related to personal tasks.
+@@@arkTSCard@@@
+
+Events:
+This component represents the "Events" section in the app, showing the icon, label, and task count for event-related tasks.
+@@@arkTSCard@@@
+
+Private:
+This component represents the "Private" section in the app, indicating the icon, label, and task count for private tasks.
+@@@arkTSCard@@@
+
+

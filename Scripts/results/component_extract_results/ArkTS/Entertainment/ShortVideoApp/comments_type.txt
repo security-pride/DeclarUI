@@ -1,0 +1,137 @@
+Component Keyword:
+Like button and count:
+This component represents a "like" feature, where users can express approval or preference. The count shows how many likes the item has received.
+@@@arkTSLikeButton@@@
+
+---
+
+Component Keyword:
+Profile picture:
+This is an image component likely used for representing the user's profile picture or avatar.
+@@@arkTSImage@@@
+
+---
+
+Component Keyword:
+Like button and count:
+This component shows the number of likes, along with the option for users to like an item. The count is displayed next to the like button.
+@@@arkTSLikeButton@@@
+
+---
+
+Component Keyword:
+Username display:
+This text component displays the username of a person who made a comment or posted something in the app.
+@@@arkTSText@@@
+
+---
+
+Component Keyword:
+View replies text:
+This text is likely a button or link for expanding and viewing replies to a comment.
+@@@arkTSButton@@@
+
+---
+
+Component Keyword:
+Comment text:
+This text component displays the main content of a comment or post.
+@@@arkTSText@@@
+
+---
+
+Component Keyword:
+Username display:
+This text component displays the username of a person who made a comment or posted something.
+@@@arkTSText@@@
+
+---
+
+Component Keyword:
+Profile picture:
+This is an image representation of a user's profile picture or avatar.
+@@@arkTSImage@@@
+
+---
+
+Component Keyword:
+Like button and count:
+This component is a like button with a count showing the number of likes for an item.
+@@@arkTSLikeButton@@@
+Component Keyword:
+View replies (12):
+This is a text button that allows users to view replies to a comment. It likely expands a section to show additional responses.
+@@@arkTSButton@@@
+
+Component Keyword:
+4231 Comments:
+This label displays the number of comments on a post. It serves as a header for the comments section.
+@@@arkTSText@@@
+
+Component Keyword:
+Like icon with count:
+This component shows a like icon alongside a count of likes, allowing users to like a comment and see how many likes it has received.
+@@@arkTSIconWithText@@@
+
+Component Keyword:
+Profile icon:
+This is a user profile image, typically used for identifying the commenter or account associated with a specific comment.
+@@@arkTSAvatar@@@
+
+Component Keyword:
+Comment content:
+This text component displays the content of a user's comment within the app.
+@@@arkTSText@@@
+
+Component Keyword:
+Profile icon:
+This is another user profile image, used for representing the commenter visually in the comment list.
+@@@arkTSAvatar@@@
+
+Component Keyword:
+LilKittt:
+This shows the username or handle of a commenter, identifying who made the comment.
+@@@arkTSText@@@
+
+Component Keyword:
+Comment content:
+This is the actual text content of another comment, showing what the user has written.
+@@@arkTSText@@@
+Add Comment bar:
+This appears to be an input field where users can type their comments to add to the discussion or post.
+@@@arkTSTextInput@@@
+
+Profile picture (circle with design):
+This is an image component likely used to display the user's profile picture or avatar.
+@@@arkTSImage@@@
+
+View replies text:
+This is a text label that allows users to view replies to the comment thread.
+@@@arkTSText@@@
+
+Edit icon (slash in a circle):
+This is an icon button that might allow users to edit their comments or posts.
+@@@arkTSIcon@@@
+
+Comment text:
+This is a block of text that represents the content of a user's comment.
+@@@arkTSText@@@
+
+Username text:
+This is a text component displaying the user's name who made the comment.
+@@@arkTSText@@@
+
+WiFi icon:
+This is an icon indicating WiFi connectivity status, often used in status bars.
+@@@arkTSIcon@@@
+
+Username text:
+This is a text component displaying the user's name who made the comment.
+@@@arkTSText@@@
+
+Comment text:
+This is a block of text that represents the content of a user's comment.
+@@@arkTSText@@@
+View replies button:
+This component is likely a button that allows users to view the responses to a comment. It may expand or collapse the replies section when clicked.
+@@@arkTSButton@@@

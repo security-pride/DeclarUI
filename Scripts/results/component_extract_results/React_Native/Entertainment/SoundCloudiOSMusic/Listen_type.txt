@@ -1,0 +1,85 @@
+Summer Vibes section:
+This is an ImageBackground component. It shows an image with some overlay text indicating a music playlist or category, along with follower count information.
+@@@ImageBackground@@@
+
+All Mine label:
+This is a Text component. It displays the title of the song currently playing.
+@@@Text Functional Component@@@
+
+Bookmark and Microphone icons:
+These are likely Image components used as icons to visually represent different features (e.g., saved items and live audio).
+@@@Image Function Component@@@
+
+News badge:
+This is a Text component. It serves as a label to indicate a new or featured item.
+@@@Text Functional Component@@@
+
+Podcast label:
+This is a Text component. It represents a label in the Recents section, indicating the Podcast category.
+@@@Text Functional Component@@@
+
+Flash icon:
+This is likely an Image component. It is used as an icon for a button at the bottom navigation, possibly indicating a quick access feature.
+@@@Image Function Component@@@
+
+Playback progress bar:
+This is a View component. It visually represents the progress of a currently playing song.
+@@@View Function Component@@@
+
+Concerts label:
+This is a Text component. It represents a label in the Recents section, indicating the Concerts category.
+@@@Text Functional Component@@@
+
+Monday Party section:
+This is an ImageBackground component. It shows an image with some overlay text, indicating a music playlist or category, along with follower count information.
+@@@ImageBackground@@@
+Weekly featured:
+This is a Text component. It's a label that indicates a section in the app for weekly featured content.
+@@@Text Functional Component@@@
+
+Live Icon:
+This is an Image component, likely an icon indicating a live section or live events.
+@@@Function Component@@@
+
+Kanye West:
+This is a Text component. It's used to display the name of the currently playing song or artist.
+@@@Text Functional Component@@@
+
+WiFi Icon:
+This is an Image component, often used to indicate network connectivity status.
+@@@Function Component@@@
+
+Profile Icon:
+This is an Image component, often used as an icon for profile or user account section.
+@@@Function Component@@@
+
+Headphone and Search Icons:
+This is an Image component. These icons are part of the bottom navigation bar for different sections of the app.
+@@@Function Component@@@
+
+Time (9:41 AM):
+This is a Text component, displaying the current time.
+@@@Text Functional Component@@@
+
+Play Icon:
+This is an Image component, part of the currently playing media control.
+@@@Function Component@@@
+
+Hots now:
+This is a Text component. It's a label indicating the current trending or hot topics.
+@@@Text Functional Component@@@
+Blue ribbon icon:
+This is a Function Component. It appears to be used as a decorative element overlaid on the "Summer Vibes" image.
+@@@Function Component@@@
+
+Blue bookmark icon:
+This is a Function Component. It likely serves as an interactive icon for saving or bookmarking an item within the app.
+@@@Function Component@@@
+
+"Summer Vibes" image:
+This is an ImageBackground component. It serves as a background for the "Summer Vibes" section, likely providing visual context and appeal.
+@@@ImageBackground@@@
+
+Signal strength icon:
+This is a Function Component. It could be part of the status bar, indicating the signal strength of the device.
+@@@Function Component@@@

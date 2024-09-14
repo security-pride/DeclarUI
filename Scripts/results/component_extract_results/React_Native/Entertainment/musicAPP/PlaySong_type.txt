@@ -1,0 +1,79 @@
+Home label:
+This is a Text component. It represents the label for the "Home" section in the bottom navigation bar.
+@@@Text Functional Component@@@
+
+Playlist icon and label:
+This is a Button component. It likely represents a navigational button that directs the user to their playlist.
+@@@Button@@@
+
+Now Playing label:
+This is a Text component. It's a title indicating that the music player is currently in the "Now Playing" mode.
+@@@Text Functional Component@@@
+
+Equalizer animation:
+This is an Image component. It likely represents the visual equalizer effect for the currently playing song.
+@@@Image@@@
+
+Shuffle icon and label:
+This is a Button component. It likely represents a button that toggles the shuffle play mode for the playlist.
+@@@Button@@@
+
+Album art and progress circle:
+This is a Function component that likely includes the album art image and a circular progress indicator showing the playback progress of the current song.
+@@@Function Component@@@
+
+Michael Jackson label:
+This is a Text component. It represents the artist name of the currently playing song.
+@@@Text Functional Component@@@
+
+Signal icon:
+This is an Image component. It represents the network connectivity status.
+@@@Image@@@
+
+Play button with repeat icon:
+This is a Button component. It represents the play button with the repeat functionality, allowing users to play or pause the current track.
+@@@Button@@@
+Michael Jackson's album cover:
+This is an Image component. It displays the album cover of the currently playing song.
+@@@Function Component@@@
+
+Progress bar:
+This is a View Function Component. It visually represents the progress of the song.
+@@@View Function Component@@@
+
+Signal bars icon:
+This is a Function Component image. It might indicate the network signal strength.
+@@@Function Component@@@
+
+Favorites icon with "Favourites" label:
+This is a Button with a child Text component. It allows users to mark the current song or album as a favorite.
+@@@Button@@@
+
+Time display (09:41):
+This is a Text component. It shows the current system time.
+@@@Text Functional Component@@@
+
+Repeat icon with "Repeat" label:
+This is a Button with a child Text component. It enables or disables the song repeat functionality.
+@@@Button@@@
+
+"Album - Dangerous" label:
+This is a Text component. It shows the name of the album.
+@@@Text Functional Component@@@
+
+"Songs" label:
+This is a Text component. It indicates the "Songs" section in the navigation menu.
+@@@Text Functional Component@@@
+
+Fast-forward icon:
+This is a Button component. It allows users to skip to the next song.
+@@@Button@@@
+
+
+EQ icon:
+This is a TouchableOpacity Function Component. It's used to open the equalizer settings within the app.
+@@@TouchableOpacity Function Component@@@
+
+Settings label:
+This is a Text Functional Component. It's a label that provides navigation to the settings screen where users can configure app preferences.
+@@@Text Functional Component@@@

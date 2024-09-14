@@ -1,0 +1,66 @@
+Component Keyword:
+This text provides additional context about the bed type options, asking to choose based on specific requirements.
+@@@arkTSText@@@
+
+Component Keyword:
+This label indicates the option to select two single beds.
+@@@arkTSText@@@
+
+Component Keyword:
+This button likely confirms the selection, as suggested by the text "确认" which translates to "Confirm".
+@@@arkTSButton@@@
+
+Component Keyword:
+This component is a stepper that allows the user to increase or decrease the quantity, in this case, the number of rooms.
+@@@arkTSShStepper@@@
+
+Component Keyword:
+This is a radio button for selecting one of the available bed types.
+@@@arkTSRadio@@@
+
+Component Keyword:
+This text informs the user that the price includes taxes and other fees.
+@@@arkTSText@@@
+
+Component Keyword:
+This horizontal line is likely used to separate different sections of the UI visually.
+@@@arkTSComponentSeparator@@@
+
+Component Keyword:
+This label indicates the option to select one extra-large double bed.
+@@@arkTSText@@@
+
+Component Keyword:
+This label indicates the option for no preference for bed type.
+@@@arkTSText@@@
+Component Keyword:
+Text label displaying “客房数量” (Number of Rooms), likely indicating an area where the user can input or view the number of rooms.
+@@@arkTSText@@@
+
+Component Keyword:
+A close button, often used to exit or close the current view or dialog.
+@@@arkTSButton@@@
+
+Component Keyword:
+Text label displaying “707元" (707 Yuan), showing the cost or price.
+@@@arkTSText@@@
+
+Component Keyword:
+A filled radio button indicating the current selection or default option.
+@@@arkTSRadio@@@
+
+Component Keyword:
+Text label displaying “标准间” (Standard Room), likely indicating the type or category of room.
+@@@arkTSText@@@
+
+Component Keyword:
+An unfilled radio button, indicating an option that is not currently selected.
+@@@arkTSRadio@@@
+
+Component Keyword:
+Text label displaying “标准间 1” (Standard Room 1), likely indicating a specific room type or number.
+@@@arkTSText@@@
+
+Component Keyword:
+Text label displaying “选择床型” (Select Bed Type), probably indicating a section for selecting the type of bed.
+@@@arkTSText@@@

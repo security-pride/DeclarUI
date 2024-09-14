@@ -1,0 +1,96 @@
+Signal strength icon:
+This icon represents the signal strength for the device.
+@@@Icon@@@
+
+Settings icon:
+This icon button opens a settings or filter dialog box or screen when pressed.
+@@@IconButton@@@
+
+Course card:
+This card component displays information about a course, including an image, rating, title, and price.
+@@@Card@@@
+
+Title text:
+This is a text widget that displays the main title of the screen: "Discover the best course that suits to you".
+@@@Text@@@
+
+"See all" text:
+This is a clickable text or button that likely navigates the user to a page showing all items or courses under a specific category.
+@@@TextButton@@@
+
+Book icon:
+This icon represents a book or a library and is possibly part of the bottom navigation bar or a button.
+@@@Icon@@@
+
+Wifi icon:
+This icon represents the WiFi signal strength for the device.
+@@@Icon@@@
+
+Books emoji or icon:
+This emoji or icon represents books and can be used to symbolize courses or a library.
+@@@Icon@@@
+
+Search bar:
+This text field allows users to search for courses using keywords.
+@@@TextField@@@
+
+
+
+Star and Rating:
+This component is likely displaying a rating score alongside a star icon, often used to show user reviews or ratings.
+@@@Row@@@
+
+Search Bar:
+This component is commonly used to enable users to input text for searching within the app. It might include a TextField with an Icon.
+@@@TextField@@@
+
+Home Icon:
+This icon looks like a representation of a "home" button, usually used for navigation to the main screen.
+@@@IconButton@@@
+
+Course Card:
+This component contains multiple elements, such as an icon, text description, and a rating, likely presenting information about a specific course.
+@@@Card@@@
+
+"See all" Label:
+This text is typically used as a link or button to view all items in a category. It likely functions as a TextButton.
+@@@TextButton@@@
+
+Focus Icon:
+This icon might serve as a specific feature button related to focusing or aiming, commonly used in toolbars or navigation bars.
+@@@IconButton@@@
+
+Slider:
+This component seems to be a visual indication of scrollable content or progress, possibly representing a part of a Pagination or Indicator.
+@@@Slider@@@
+
+Course Card Alt:
+This similar component to the earlier card likely displays another course, containing text and rating information within a structured design.
+@@@Card@@@
+
+Time Display:
+This text displays the current time, often found in status bars or headers.
+@@@Text@@@
+Star with rating:
+This component consists of a star icon and a numerical rating, commonly used to display user reviews or scores.
+@@@Row@@@
+
+"Suits to you" text:
+This text suggests personalized content or recommendations for the user.
+@@@Text@@@
+
+Bell with notification badge:
+This icon indicates notifications, with a badge showing the number of new notifications.
+@@@Stack@@@
+
+Course card:
+This component displays course information, such as the name, category, rating, and price. It likely includes interactive behavior.
+@@@Card@@@
+
+Hexagon icon:
+This is likely an icon representing a category or feature, used for visual identification.
+@@@Icon@@@
+
+Settings or filter button:
+This icon suggests an action to filter or adjust settings within the app.
+@@@IconButton@@@

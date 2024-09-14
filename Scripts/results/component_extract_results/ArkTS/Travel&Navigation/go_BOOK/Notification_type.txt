@@ -1,0 +1,62 @@
+Back button:
+This is a button typically used for navigating back to the previous screen.
+@@@arkTSButton@@@
+
+Search text:
+This is a text label that indicates the current screen is a search page.
+@@@arkTSText@@@
+
+Menu button:
+This is a button that likely opens a menu with additional options or actions.
+@@@arkTSButton@@@
+
+Notification entry (Merry Rose):
+This is a component displaying a notification entry with details such as username, action, target, and timestamp.
+@@@arkTSListItem@@@
+
+Notification entry (Michael Pinson):
+This is another notification entry displaying similar details such as username, action, target, and timestamp.
+@@@arkTSListItem@@@
+
+Notification entry (Sandra Redden):
+This is another notification entry displaying similar details such as username, action, target, and timestamp.
+@@@arkTSListItem@@@
+
+Back button:
+This is a button typically used for navigating back to the previous screen. (Duplicate, confirm if the input meant a different element)
+@@@arkTSButton@@@
+
+Notification icon:
+This is a small icon likely indicating unread notifications or status.
+@@@arkTSIcon@@@
+
+User avatars:
+These are likely user profile pictures used to visually represent different users.
+@@@arkTSImage@@@
+Sandra Redden notification:
+This component conveys a notification about Sandra Redden liking the user's Web UI Design Post. It includes a profile image, text, and a like icon.
+@@@arkTSCard@@@
+
+Adan Eslishth notification:
+This component communicates that Adan Eslishth commented on the user's new shot. It includes a profile image, text, and a comment icon.
+@@@arkTSCard@@@
+
+Mohammad Reza notification:
+This component notifies the user that Mohammad Reza commented on their UI/UX Designer post. It includes a profile image, text, and a comment icon.
+@@@arkTSCard@@@
+
+Merry Rose notification:
+This component indicates that Merry Rose joined the Final Presentation. It includes a profile image, text, and a join icon.
+@@@arkTSCard@@@
+
+Sandra Redden like notification (partial):
+This partial component contains text about Sandra Redden liking the user's Web UI Design Post.
+@@@arkTSTextBox@@@
+
+Bottom navigation bar:
+This component is a bottom navigation bar with icons for Home, Notification, Ticket, History, and Setting, allowing users to navigate between different sections of the app.
+@@@arkTSBottomNav@@@
+
+Back arrow button:
+This component represents a back button, typically used to navigate back to the previous screen.
+@@@arkTSButton@@@

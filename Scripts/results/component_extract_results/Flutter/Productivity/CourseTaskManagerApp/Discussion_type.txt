@@ -1,0 +1,93 @@
+I didn't write down class note of this lecture:
+This is a text message possibly representing a chat bubble in a messaging interface.
+@@@Text@@@
+
+Green video camera icon:
+This is likely an icon representing a video call or video-related function.
+@@@Icon@@@
+
+Here are the resource files of todays' physics class:
+Another text message that might be detailing shared resources in a chat.
+@@@Text@@@
+
+Work and energy:
+This appears to be a label for a document or section title in a shared directory.
+@@@Text@@@
+
+Green info icon:
+This icon most likely represents an information or help section in the app.
+@@@Icon@@@
+
+Thanks a lot Maya:
+A text message bubble indicating user interaction in a chat.
+@@@Text@@@
+
+User profile image with online status:
+Represents a user's profile picture with a status indicator, often used in chat apps.
+@@@CircleAvatar@@@
+
+Introduction to force:
+The title of a document that is being shared or listed, with a download icon.
+@@@Text@@@
+
+Another user profile image with online status:
+Another instance of a user's profile picture with a status indicator.
+@@@CircleAvatar@@@
+Home, Tasks, Classroom, Chat icons:
+These are navigational icons likely arranged in a bottom navigation bar for switching between different app sections.
+@@@BottomNavigationBar@@@
+
+Green play button icon:
+This icon could be a button for playing media or starting a recording, typically wrapped in a button widget.
+@@@IconButton@@@
+
+User avatar with small overlay:
+This is an image widget displaying a user avatar with possibly a status indicator or overlay.
+@@@CircleAvatar@@@
+
+"Physics" label:
+This is a text widget displaying the label "Physics", likely indicating the current section or topic.
+@@@Text@@@
+
+Introduction to force (PDF list item):
+This is likely a list tile displaying a document with a download option, using leading and trailing icons.
+@@@ListTile@@@
+
+"Discussion" label:
+This is a text widget potentially indicating a subheading or section title.
+@@@Text@@@
+
+Green chat message bubble:
+This is a stylized container displaying a chat message, with a green background.
+@@@Container@@@
+
+Force, Energy & Work (PPT list item):
+A list tile similar to the PDF item, designed to display a PowerPoint file with a download icon.
+@@@ListTile@@@
+
+Work and energy (DOC list item):
+This list tile displays a document file with a download option, using leading and trailing icons.
+@@@ListTile@@@
+1. Component Keyword:
+   This is a text box displaying a message.
+   @@@Text@@@
+
+2. Component Keyword:
+   This is a message bubble with a colored background, likely used in a chat interface.
+   @@@Container@@@
+
+3. Component Keyword:
+   This is a text input field where users can type and send messages.
+   @@@TextField@@@
+
+4. Component Keyword:
+   This is an icon suggesting uploading or sharing a document.
+   @@@Icon@@@
+
+5. Component Keyword:
+   This is an icon for adding an image, likely from the gallery.
+   @@@Icon@@@
+
+6. Component Keyword:
+   This is likely a profile avatar image or icon, used to represent a user.
+   @@@CircleAvatar@@@

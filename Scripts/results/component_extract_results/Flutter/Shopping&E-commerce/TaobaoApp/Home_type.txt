@@ -1,0 +1,100 @@
+Message icon:
+This appears to be an icon indicating options related to messaging or chat functionality within the app.
+@@@Icon@@@
+
+Product description and price label:
+This label shows the product description along with its price. The text layout suggests various colors and font sizes are used.
+@@@RichText@@@
+
+T-shirt image:
+This is a simple displayed image of a product, in this case, a T-shirt.
+@@@Image@@@
+
+Navigation icons and labels:
+These icons and labels represent different sections or categories within the app. Each icon is paired with a text label.
+@@@Row@@@
+
+Category label:
+This is a text widget displaying a category name.
+Translation: 居家 means "Home"
+@@@Text@@@
+
+Search bar:
+This component is a search bar allowing users to enter search queries.
+@@@TextField@@@
+
+Product pricing and availability:
+This component displays multiple product options, each with a name, price, and an availability timer.
+@@@Column@@@
+
+Recommendation label:
+This is a text widget showing a category or section title.
+Translation: 推荐 means "Recommended" 
+@@@Text@@@
+
+Greyed-out text:
+This text widget is likely a label that might have been disabled or is currently inactive.
+Translation: 数码 means "Digital"
+@@@Text@@@
+Scan icon:
+This appears to be an icon representing a scanning function, likely to open a QR code scanner or similar feature.
+@@@Icon@@@
+
+Phone case on book:
+This is an image of a phone case placed on top of a book, likely used to visually represent a product being sold.
+@@@Image@@@
+
+"穿搭" ("Fashion") label:
+This is a text widget displaying the word "Fashion" in Chinese, indicating a category or section in the app.
+@@@Text@@@
+
+Live broadcast and product logos section:
+This section includes multiple images and text widgets combined to display different brands and live broadcast icons, along with a description of the categories.
+@@@Row@@@
+
+Play icon with "逛逛" ("Cruise") label:
+This is a combination of an icon and text, where the icon likely represents a "Play" button, and the text below says "Cruise" in Chinese, indicating a navigation option for cruising through content.
+@@@Column@@@
+
+Black t-shirt:
+This image displays a black t-shirt, likely representing a product for sale in the app's catalog.
+@@@Image@@@
+
+White long-sleeve shirt:
+This image displays a white long-sleeve shirt, another product in the app's catalog.
+@@@Image@@@
+
+"狂暑季" ("Crazy Summer Season") label:
+This text widget shows the words "Crazy Summer Season" in Chinese, likely representing a seasonal promotion or event.
+@@@Text@@@
+
+"关注" ("Follow") label:
+This text widget represents a "Follow" button, likely used to follow a store, brand, or user within the app.
+@@@Text@@@
+Chaozhi Menswear label:
+This is a text widget indicating a clothing category or promotion. The label likely serves to highlight fashion items.
+@@@Text@@@
+
+White shirt image:
+Displays the image of a white shirt with design elements. The image is a part of a shopping or catalog feature in the app.
+@@@Image@@@
+
+Item description and price:
+Shows a product description with the price and number of users who bought it. The formatted text would be displayed using multiple Text widgets, possibly within a Column or Row.
+@@@Text@@@
+
+Navigation tab label:
+A navigation label that categorizes products or features in the app, possibly part of a TabBar or BottomNavigationBar.
+@@@Text@@@
+
+Zettarand shoe image:
+Depicts a shoe product with branding, part of a product showcase or gallery.
+@@@Image@@@
+
+Taobao icon:
+An icon representing the Taobao brand, likely used as a button or part of the app's branding.
+@@@Icon@@@
+
+Bottom navigation bar with icons:
+This component has multiple icons, including one with a notification badge. It serves as a bottom navigation bar for switching between different sections of the app.
+@@@BottomNavigationBar@@@

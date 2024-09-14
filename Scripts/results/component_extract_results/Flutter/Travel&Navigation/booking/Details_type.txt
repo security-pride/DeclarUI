@@ -1,0 +1,145 @@
+Free Parking Icon:
+This is an icon that represents the availability of free parking at the hotel. The "P" inside a circle typically signifies parking.
+@@@Icon@@@
+
+Guest Room and Number of Guests Label:
+This text indicates the number of guest rooms and the number of guests. It provides important information to users regarding their reservation.
+@@@Text@@@
+
+Hotel Name Label:
+This is the name of the hotel displayed at the top of the screen. It is likely significant and uses a larger font for emphasis.
+@@@Text@@@
+
+Room Count Label:
+This text displays the number of rooms reserved. It is a key piece of information for the user.
+@@@Text@@@
+
+Spa and Wellness Icon:
+This icon represents the availability of a spa and wellness center at the hotel. The icon depicts a spa or lotus flower.
+@@@Icon@@@
+
+Hotel Image:
+This is an image of the hotel. It serves to visually represent the hotel, possibly as a header or part of an image carousel.
+@@@Image@@@
+
+Check-in Time Label:
+This text indicates the check-in time for the guests. It is an informative text component.
+@@@Text@@@
+
+Amenities Icons Row:
+This row contains multiple icons, each representing different amenities (e.g., free parking, indoor pool, restaurant, spa). These icons are likely placed in a Row widget to align them horizontally.
+@@@Row@@@
+
+Hotel Room Image:
+This is an image of a hotel room, likely used to showcase the room's appearance and features. It could be part of an image carousel or gallery.
+@@@Image@@@
+Share icon:
+This appears to be a button that likely allows users to share the app or a specific content with others.
+@@@IconButton@@@
+
+Hotel room picture:
+This image is likely displayed as part of a gallery of hotel room photos to give users a visual representation of the hotel rooms.
+@@@Image@@@
+
+Rating 8.6 badge:
+This shows the user rating for the hotel. It's styled to draw attention, possibly with a circular or square container with text inside.
+@@@Container@@@
+
+Hotel room image:
+This image is possibly shown to represent a type of hotel room available at the hotel.
+@@@Image@@@
+
+"2位成人" (2 adults) label:
+This is a text widget providing information on the number of occupants for the room. Translation: 2 adults.
+@@@Text@@@
+
+Parking icon and label:
+This icon indicates the availability of parking and is likely combined with a label below stating “免费停车” which means “Free parking”.
+@@@Column@@@
+
+WiFi icon and label:
+This icon indicates free WiFi and is typically paired with the text “免费无线网络连接” which translates to “Free wireless internet”.
+@@@Column@@@
+
+"退房时间" (Checkout time) label:
+This is a text widget that specifies the checkout time for the hotel. Translation: Checkout time.
+@@@Text@@@
+
+Hotel room picture with "+118":
+This image likely belongs to a photo gallery widget, indicating there are 118 more photos available to view.
+@@@Stack@@@
+
+无儿童:
+This text widget indicates "No children", specifying part of the room details regarding occupants.
+@@@Text@@@
+
+房间图片:
+This image displays a hotel room, typically part of a gallery or featured image section.
+@@@Image@@@
+
+查看房型列表 (View Room Type List) button:
+This button likely allows users to view different room types available for booking.
+@@@ElevatedButton@@@
+
+7月18日 周四 (July 18 Thursday):
+This text displays a date, likely indicating check-in information.
+@@@Text@@@
+
+餐厅图标:
+This icon represents dining facilities available at the hotel, likely as a feature highlight.
+@@@Icon@@@
+
+7月19日 周五 (July 19 Friday):
+This text displays a date, likely indicating check-out information.
+@@@Text@@@
+
+水疗图标:
+This icon represents spa amenities available at the hotel, part of facilities or features section.
+@@@Icon@@@
+WiFi icon:
+This is an icon representing the availability of a wireless network for guests.
+@@@Icon@@@
+
+Swimming pool icon:
+This icon indicates that the hotel has an indoor swimming pool available for guests.
+@@@Icon@@@
+
+Hotel image grid:
+This section displays multiple images of the hotel and its rooms, arranged in a grid layout.
+@@@GridView@@@
+
+Hotel name text:
+This text displays the name of the hotel, providing essential information to users.
+@@@Text@@@
+
+Rating icons:
+These icons display the rating of the hotel, indicating its quality to the users.
+@@@Row@@@
+
+Rating text and thumbs up:
+This text and icon indicate the numeric rating and a thumbs up for positive feedback.
+@@@Row@@@
+
+Check-in date text:
+This text displays the check-in date for the user's reservation.
+@@@Text@@@
+
+Check-out date text:
+This text displays the check-out date for the user's reservation.
+@@@Text@@@
+
+Room details text:
+This text provides details about the room, including the number of rooms, adults, and kids.
+@@@Text@@@
+
+Price details text:
+This text provides the pricing details for the accommodation.
+@@@Text@@@
+
+CTA button:
+This button prompts the user to view the room types available.
+@@@ElevatedButton@@@
+
+Back arrow icon:
+This icon allows the user to navigate back to the previous screen.
+@@@IconButton@@@

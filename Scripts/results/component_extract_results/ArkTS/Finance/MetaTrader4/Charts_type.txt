@@ -1,0 +1,124 @@
+1. Component Keyword: 
+Price Label "1.09090"
+Component Function Description
+This is a text label used to display the price or value of a currency. It likely updates dynamically according to market changes.
+@@@arkTSText@@@
+
+2. Component Keyword: 
+Price Label "1.09250"
+Component Function Description
+This is a text label used to display the price or value of a currency. It provides users with updated market values.
+@@@arkTSText@@@
+
+3. Component Keyword: 
+Chart Timeframe "H1" and Label "EURUSD, H1"
+Component Function Description
+This text label indicates the timeframe and the currency pair being viewed. "H1" suggests a one-hour chart timeframe.
+@@@arkTSText@@@
+
+4. Component Keyword: 
+Price Label "30.00"
+Component Function Description
+This is a text label possibly indicating an indicator level or a price level in the chart for technical analysis.
+@@@arkTSText@@@
+
+5. Component Keyword: 
+Tab Label "Chart"
+Component Function Description
+This text label is part of a navigation bar, indicating the current active tab, which is the chart view.
+@@@arkTSText@@@
+
+6. Component Keyword: 
+Tab Icon and Label "History"
+Component Function Description
+This icon and text label in the navigation bar likely lead to a history view of trades or chart data.
+@@@arkTSTab@@@
+
+7. Component Keyword: 
+Price Label "1.08850"
+Component Function Description
+This text label displays the price or value of a currency, similar to other price labels, for market updates.
+@@@arkTSText@@@
+
+8. Component Keyword: 
+Price Label "1.09010"
+Component Function Description
+This text label is used to show the price or value of a currency, providing real-time market information.
+@@@arkTSText@@@
+
+9. Component Keyword: 
+Tab Icon and Label "Settings"
+Component Function Description
+This icon and text label direct users to a settings menu where they can configure app preferences.
+@@@arkTSTab@@@
+Component Keyword:
+15 Jul 11:00
+This is a text label displaying a date and time, likely used to indicate the specific point in time for data on a chart.
+@@@arkTSText@@@
+
+Component Keyword:
+17 Jul 11:00
+This is a text label displaying a date and time, providing a specific point in time for data presentation on a chart.
+@@@arkTSText@@@
+
+Component Keyword:
+Quotes icon
+This is likely an icon button used to navigate to a section of the app displaying current or historical quotes.
+@@@arkTSIconButton@@@
+
+Component Keyword:
+RSI(14) 61.16
+This text label shows a technical indicator value, specifically the Relative Strength Index (RSI), used in financial charting.
+@@@arkTSText@@@
+
+Component Keyword:
+Image icon
+This icon suggests functionality related to image settings or gallery navigation within the app, possibly for modifying display settings or indicators.
+@@@arkTSIconButton@@@
+
+Component Keyword:
+100.00
+This is a text label displaying a numerical value, possibly representing a scale value on a chart.
+@@@arkTSText@@@
+
+Component Keyword:
+Function icon
+This is a likely icon button used to access additional features or settings specific to the app's functionalities.
+@@@arkTSIconButton@@@
+
+Component Keyword:
+Trade
+This is a text label that indicates a section or button related to trading actions, likely enabling navigation to trading functionalities.
+@@@arkTSText@@@
+
+Component Keyword:
+16 Jul 19:00
+This is a text label that provides a specific date and time, used likely to mark data points on a chart.
+@@@arkTSText@@@
+Component Keyword:
+This appears to be a numerical display showing the value of 1.09339, presumably a price or some form of measurement.
+@@@arkTSText@@@
+
+Component Keyword:
+This is a text label that is used for navigation or action, likely a button prompting the user to initiate a trade.
+@@@arkTSText@@@
+
+Component Keyword:
+This is another numerical display showing the value of 1.09410, likely similar in function to the previously identified numerical display.
+@@@arkTSText@@@
+
+Component Keyword:
+This is another numerical display showing the value of 1.09490, likely similar in function to the previously identified numerical display.
+@@@arkTSText@@@
+
+Component Keyword:
+This is a numerical display showing the number 70.00, likely an indicator within a chart or graph.
+@@@arkTSText@@@
+
+Component Keyword:
+This appears to be an icon, possibly for a "center" or "crosshair" button used for chart positioning or tool selection.
+@@@arkTSIcon@@@
+
+Component Keyword:
+This is another numerical display showing the value of 1.09170, likely similar in function to the previously identified numerical display.
+@@@arkTSText@@@

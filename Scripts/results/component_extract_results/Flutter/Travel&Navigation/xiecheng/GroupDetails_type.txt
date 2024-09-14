@@ -1,0 +1,175 @@
+Component Keyword:
+This section displays a specific date ('星期日' meaning 'Sunday') along with a date ('07-21') for schedule information or selection.
+@@@Container@@@
+
+Component Keyword:
+This is a partial character ('导') from a text element, likely part of a larger label or description within the interface.
+@@@Text@@@
+
+Component Keyword:
+This appears to be a share button icon, likely used for sharing the app content via different platforms.
+@@@IconButton@@@
+
+Component Keyword:
+This represents a button or clickable area with an icon, likely indicating more options available in a menu or list.
+@@@PopupMenuButton@@@
+
+Component Keyword:
+A call-to-action button labeled '立即预订' which translates to 'Book Now'. This button likely initiates a booking workflow.
+@@@ElevatedButton@@@
+
+Component Keyword:
+This is an icon with a label below it ('客服' meaning 'Customer Service'), indicating a button or tab for customer support.
+@@@Column@@@
+
+Component Keyword:
+This is a segmented tab or navigation link labeled '达人探线', possibly used for navigating to a particular section or category.
+@@@TabBar@@@
+
+Component Keyword:
+A rating label with text indicating a high rating ('超棒' meaning 'Excellent') and additional descriptive text.
+@@@RichText@@@
+
+Component Keyword:
+This section displays a specific date ('星期六' meaning 'Saturday') along with a date ('07-20') for schedule information or selection, highlighting '周末出行' meaning 'Weekend Trip'.
+@@@Container@@@
+
+
+收藏:
+This component features an icon with accompanying label text, likely used for saving or favoriting items.
+@@@Column with Icon and Text@@@
+
+29项优惠:
+This text probably represents a clickable link or interactive label showing promotional items, indicated by the ">" arrow.
+@@@TextButton@@@
+
+"烟台+蓬莱区2日1晚拼小团" label:
+A descriptive text label displaying the trip package details, possibly with a badge indicating a limited edition or special feature.
+@@@Row with Text and Icon@@@
+
+分期立减:
+This appears to be a button or label advertising a discount or installment savings, highlighted for user interaction.
+@@@OutlinedButton@@@
+
+日期/价格选项 (e.g., 近30天低价 星期五 07-19):
+A combination of date and pricing details, likely in a card or calendar format highlighting availability and special prices.
+@@@Column with Text and Container@@@
+
+拼小团:
+A prominent label, potentially used as a header or category marker.
+@@@Text@@@
+
+放心游:
+A text label possibly indicating a guarantee or special travel plan.
+@@@Text@@@
+
+菜单按钮/通知 (三点菜单 with notification count):
+A menu icon with a notification badge indicating active alerts or messages.
+@@@Stack with IconButton and Positioned Text@@@
+
+自由灵活:
+A text label advertising a specific feature or package option within the app.
+@@@Text@@@
+
+
+Component Keyword:
+This appears to be a promotional message that may call attention to a specific feature or benefit using styled text.
+@@@Text@@@
+
+Component Keyword:
+This is an icon representing a store or shop, likely used as a button or navigational aid to direct users to a store section.
+@@@Column@@@
+
+Component Keyword:
+This is a label that likely acts as a tag or filter to signify a selected preference or category in a grid or list.
+@@@Container with Border Radius@@@
+
+Component Keyword:
+This is a descriptive text calling attention to a feature specifically about not needing to shop while engaging in the experience.
+@@@Text@@@
+
+Component Keyword:
+This is a text widget that describes the primary title of the tour package, including specific details.
+@@@Text@@@
+
+Component Keyword:
+This appears to be a numerical identifier or code label, likely representing a product or service identifier.
+@@@Text@@@
+
+Component Keyword:
+This is a label indicating the current number of images out of a total, probably used inside an image carousel.
+@@@Text@@@
+
+Component Keyword:
+This text widget shows the price per person in currency, probably styled in a larger and bolder font for visibility.
+@@@Text@@@
+
+Component Keyword:
+This is descriptive text indicating the presence of non-shopping experience during the trip.
+@@@Text@@@
+看每日行程:
+This component likely represents a button that allows users to view the daily itinerary.
+@@@ElevatedButton@@@
+
+烟台出发:
+This appears to be a header text indicating that the departure location is Yantai.
+@@@Text@@@
+
+钻石贵宾专享:
+This component is likely a label indicating that this feature or offer is exclusive to diamond VIP members.
+@@@Text@@@
+
+5.0分:
+This represents a rounded corner container indicating a rating of 5.0.
+@@@Container@@@
+
+星期一 07-22:
+This is a date label indicating the day of the week and the date.
+@@@Text@@@
+
+特色体验:
+This component represents a label indicating a special experience.
+@@@Text@@@
+
+提前2天免费退:
+This represents a label indicating a free cancellation policy if done two days in advance.
+@@@Text@@@
+
+全部 班期:
+This component represents a partially visible date selector with labels indicating "All".
+@@@Container@@@
+
+成团保障:
+This component represents a label indicating a guarantee of group formation.
+@@@Text@@@
+Back arrow icon:
+This is an icon button that likely navigates the user back to the previous screen when pressed.
+@@@IconButton@@@
+
+"班期" (Scheduling) label:
+This is a text widget that likely indicates a section for scheduling or selecting dates.
+@@@Text@@@
+
+"暑期大促" (Summer Promotion) label:
+This is a text widget that highlights a promotional event during the summer.
+@@@Text@@@
+
+"卖点" (Selling Points) label:
+This is a text widget that probably showcases the main selling points or features.
+@@@Text@@@
+
+"服务" (Services) label:
+This is a text widget that identifies a section related to services offered.
+@@@Text@@@
+
+"优惠" (Discounts) label:
+This text widget points out available discounts or offers.
+@@@Text@@@
+
+"烟台玩美国旅" (Yantai Play America Travel) label:
+This is a text widget that seems to be a brand or travel package name.
+@@@Text@@@
+
+"帆船出海" (Sailing) label:
+This is a text widget that could refer to an activity or package option for sailing excursions.
+@@@Text@@@

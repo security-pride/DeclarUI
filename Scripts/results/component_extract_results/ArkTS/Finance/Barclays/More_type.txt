@@ -1,0 +1,77 @@
+Component Keyword:
+This appears to be an icon likely used to represent a refresh or update action within the app, often used in the context of data synchronization or fetching the latest information.
+@@@arkTSImage@@@
+
+Component Keyword:
+This is a navigation bar likely featuring multiple options such as Accounts, Products, Pay & Transfer, Help, and More. Each option navigates to different sections of the app.
+@@@arkTSBottomNav@@@
+
+Component Keyword:
+This represents the "More" label, possibly indicating an additional menu or settings section where users can access more features or information.
+@@@arkTSText@@@
+
+Component Keyword:
+This signifies the "Settings" label, typically used to navigate to the settings section where users can modify their app preferences and configurations.
+@@@arkTSText@@@
+
+Component Keyword:
+This text likely represents a link to the results of an independent service quality survey, showcasing transparency or customer feedback.
+@@@arkTSText@@@
+
+Component Keyword:
+This text represents the last login information, providing users with details about their most recent login time and date for security purposes.
+@@@arkTSText@@@
+
+Component Keyword:
+This icon resembles a document or paper, likely indicating a section related to statements and documents pertaining to the user's account.
+@@@arkTSImage@@@
+
+Component Keyword:
+This is the "Spending" label, probably leading to a section where users can view and manage their spending or expenses.
+@@@arkTSText@@@
+
+Component Keyword:
+This text represents the section for Statements and Documents, providing users access to their financial documents and transaction statements.
+@@@arkTSText@@@
+Rewards label:
+This is a text label that indicates the section for rewards, where users can view and manage their accumulated rewards or points.
+@@@arkTSText@@@
+
+Settings icon:
+This is an icon commonly representing the settings section, allowing users to access application settings and preferences.
+@@@arkTSIcon@@@
+
+Cards icon:
+This icon likely represents the cards section, where users can view and manage their credit or debit cards.
+@@@arkTSIcon@@@
+
+Logout label:
+This is a text label that indicates the logout function, allowing users to sign out of the application.
+@@@arkTSText@@@
+
+Cards label:
+This is a text label that indicates the section for cards, where users can view and manage their credit or debit cards.
+@@@arkTSText@@@
+
+Spending icon:
+This icon likely represents the spending section, where users can track and manage their expenditures.
+@@@arkTSIcon@@@
+
+Subscriptions label:
+This is a text label that indicates the section for subscriptions, where users can manage their subscribed services or products.
+@@@arkTSText@@@
+
+Mobile PINsentry icon:
+This icon likely represents the Mobile PINsentry, a feature used for generating PINs or authorization codes.
+@@@arkTSIcon@@@
+
+Manage accounts label:
+This is a text label that indicates the section for managing accounts, allowing users to view and control their accounts.
+@@@arkTSText@@@
+Gift icon:
+This image represents a graphical icon that likely symbolizes rewards or gifts within the app.
+@@@arkTSIcon@@@
+
+Mobile PINsentry text:
+This is a text label that refers to a mobile feature for generating PINs or accessing secure services.
+@@@arkTSText@@@

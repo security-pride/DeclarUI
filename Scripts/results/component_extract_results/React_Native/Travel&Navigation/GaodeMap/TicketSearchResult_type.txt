@@ -1,0 +1,255 @@
+今天 18 (Today 18):
+This is a Text component. It is displaying the current day and date.
+@@@Text Functional Component@@@
+
+登录 12306 官方出票无忧保障 (Login 12306 official ticketing worry-free guarantee):
+This is a Text component. It serves as a notice or button label for users to log in to 12306 for official ticketing services.
+@@@Text Functional Component@@@
+
+客车 ￥350 起 (Bus from ¥350):
+This is a Text component. It provides pricing information starting from ¥350 for buses.
+@@@Text Functional Component@@@
+
+15:34:
+This is a Text component. It displays a time, likely for a transportation schedule.
+@@@Text Functional Component@@@
+
+后天 20 (Day after tomorrow 20):
+This is a Text component. It shows the date for the day after tomorrow.
+@@@Text Functional Component@@@
+
+郑州东 (Zhengzhou East):
+This is a View component since it's encapsulated within a rectangular placeholder. It indicates a train station destination.
+@@@View Function Component@@@
+
+第 1 程 (First Route):
+This is a View component. It's designed within a rectangular frame to display the route segment.
+@@@View Function Component@@@
+
+耗时 (Duration):
+This is a Text component. It is likely to display the duration of a specific trip.
+@@@Text Functional Component@@@
+
+周一 22 (Monday 22):
+This is a Text component. It shows the date (22nd) falling on a Monday.
+@@@Text Functional Component@@@
+威海站 (Weihai Station) label:
+This is a Text component. It's likely a station name label indicating the starting location for the journey.
+@@@Text Functional Component@@@
+
+飞机直达推荐 (Direct Flight Recommendation) label:
+This is a Text component. It indicates that the app is recommending direct flights.
+@@@Text Functional Component@@@
+
+G3247 label:
+This is a Text component. It represents a train number.
+@@@Text Functional Component@@@
+
+汉口站 (Hankou Station) label:
+This is a Text component. It's a station name label indicating the destination location for the journey.
+@@@Text Functional Component@@@
+
+有票推荐 (Ticket Recommendation) label:
+This is a Button component, likely a TouchableOpacity. It indicates the availability of recommended tickets.
+@@@TouchableOpacity Function Component@@@
+
+上午出发 (Departure in the Morning) label:
+This is a Button component, likely a TouchableOpacity. It represents a filter button to choose morning departures.
+@@@TouchableOpacity Function Component@@@
+
+满50减1 (Discount 50-1) label:
+This is a Text component. It indicates a discount offer.
+@@@Text Functional Component@@@
+
+共8时29分 (Total 8h 29min) label:
+This is a Text component. It shows the total travel time for a journey.
+@@@Text Functional Component@@@
+
+明天 (Tomorrow) 7.19 button:
+This is a Button component, likely a TouchableOpacity. It represents a date selection button for tomorrow's date.
+@@@TouchableOpacity Function Component@@@
+09:31:
+This is a Text Functional Component. It is used to display a time of departure.
+@@@Text Functional Component@@@
+
+22:38:
+This is a Text Functional Component. It is used to display a time of arrival.
+@@@Text Functional Component@@@
+
+第2程:
+This is a Text Functional Component. It is used to indicate the second leg of a journey.
+@@@Text Functional Component@@@
+
+Airplane icon:
+This is an Image component. It is used to visually represent a flight option.
+@@@Function Component@@@
+
+飞机 ￥620 起:
+This is a Text Functional Component. It is used to display flight prices starting from ¥620.
+@@@Text Functional Component@@@
+
+武汉站:
+This is a Text Functional Component. It is used to display the name of the destination station.
+@@@Text Functional Component@@@
+
+价格:
+This is a Text Functional Component. It is used to label a section related to pricing.
+@@@Text Functional Component@@@
+
+15:34 前无直达班次,
+This is a Text Functional Component. It is used to provide additional information about the availability of direct flights before a specific time.
+@@@Text Functional Component@@@
+
+筛选:
+This is a Text Functional Component. It is used to label a filtering option.
+@@@Text Functional Component@@@
+只看有票:
+This is a Text Functional Component. It indicates that only tickets that are available will be displayed.
+@@@Text Functional Component@@@
+
+同站换乘19分:
+This is a Text Functional Component. It shows information about the transit time between different trains at the same station.
+@@@Text Functional Component@@@
+
+武汉站:
+This is a Text Functional Component. It displays the name of the station, Wuhan Station.
+@@@Text Functional Component@@@
+
+周三 24:
+This is a Text Functional Component. It displays the date and day of the week.
+@@@Text Functional Component@@@
+
+G2148:
+This is a Text Functional Component. It shows the train number.
+@@@Text Functional Component@@@
+
+G2084:
+This is a Text Functional Component. It shows the train number and an icon indicating there is additional information about this train.
+@@@Text Functional Component@@@
+
+威海站:
+This is a Text Functional Component. It displays the name of the station, Weihai Station.
+@@@Text Functional Component@@@
+
+威海站:
+This is a duplicate Text Functional Component. It displays the name of the station, Weihai Station.
+@@@Text Functional Component@@@
+
+第1程:
+This is a Text Functional Component. It indicates the first leg of a journey.
+@@@Text Functional Component@@@
+"耗时最短" (Shortest Duration) label:
+This is a Text Functional Component. It is likely used to indicate that the corresponding item offers the shortest travel time.
+@@@Text Functional Component@@@
+
+"明天 7.19" (Tomorrow 7.19) label:
+This is a Text Functional Component. It is used to display a date, helping users to select a specific travel date.
+@@@Text Functional Component@@@
+
+"同站换乘21分" (21 Minutes Transfer at Same Station) label:
+This is a Text Functional Component. It indicates the duration of the transfer time at the same station.
+@@@Text Functional Component@@@
+
+"第 2 程" (Second Trip) label:
+This is a Text Functional Component. It is used to display the trip segment number of the journey.
+@@@Text Functional Component@@@
+
+"23:11" (Time) label:
+This is a Text Functional Component. It is used to display the departure or arrival time of the travel option.
+@@@Text Functional Component@@@
+
+"直达最低价" (Direct Lowest Price) label:
+This is a Text Functional Component. It indicates that the corresponding travel option provides the lowest direct fare.
+@@@Text Functional Component@@@
+
+"只看高铁动车" (Only High-Speed Rail) label:
+This is a Text Functional Component. It is used as a filter button label to show only high-speed rail options.
+@@@Text Functional Component@@@
+
+"G339" (Train Number) label:
+This is a Text Functional Component. It displays the train number for the travel option.
+@@@Text Functional Component@@@
+
+"周二 23" (Weekday and Date) label:
+This is a Text Functional Component. It displays the weekday and the date for the corresponding travel option.
+@@@Text Functional Component@@@
+Component Keyword:
+4时15分 比火车省69元
+Component Function Description
+This is a Text component. It likely provides additional information about a flight option, such as the duration of the flight and the amount of money saved compared to the train.
+@@@Text Functional Component@@@
+
+Component Keyword:
+周日 21
+Component Function Description
+This is a Text component. It displays the day of the week and the corresponding date, allowing users to select or view a specific date.
+@@@Text Functional Component@@@
+
+Component Keyword:
+威海站
+Component Function Description
+This is a Text component. It is used to indicate the name of the train station, which, in this context, is 'Weihai.'
+@@@Text Functional Component@@@
+
+Component Keyword:
+高德红包
+Component Function Description
+This is a Text component. It likely represents a type of promotional offer or discount, labeled 'Gao De Hong Bao.'
+@@@Text Functional Component@@@
+
+Component Keyword:
+推荐 2 个有票方案
+Component Function Description
+This is a Text component. It indicates a recommendation of two ticket options that are available.
+@@@Text Functional Component@@@
+
+Component Keyword:
+威海市
+Component Function Description
+This is a Text component. It displays the name of the city 'Weihai.'
+@@@Text Functional Component@@@
+
+Component Keyword:
+推荐排序
+Component Function Description
+This is a Text component. It is likely part of a sorting option or filter, prompting users to view recommendations sorted by a specific criterion.
+@@@Text Functional Component@@@
+
+Component Keyword:
+二等 1
+Component Function Description
+This is a Text component. It indicates the availability of tickets, specifying 'second class 1.'
+@@@Text Functional Component@@@
+
+Component Keyword:
+Calendar icon
+Component Function Description
+This is an Image component. It is likely used as a visual icon for selecting dates from a calendar.
+@@@Function Component@@@
+Component Keyword: "武汉站"
+Component Function Description: This is a Text Functional Component. It represents the name of the station, helping users identify the destination station.
+@@@Text Functional Component@@@
+
+Component Keyword: "共 10 时"
+Component Function Description: This is a Text Functional Component. It displays the total travel time in hours, providing users with information on the duration of the journey.
+@@@Text Functional Component@@@
+
+Component Keyword: "合肥南"
+Component Function Description: This is a Text Functional Component. It represents the name of an intermediate station, indicating a stop during the journey.
+@@@Text Functional Component@@@
+
+Component Keyword: "登录"
+Component Function Description: This is a Button component. It likely allows users to log in to their account within the application when pressed.
+@@@Button@@@
+
+Component Keyword: "高德红包 | 共减 1"
+Component Function Description: This is a Text Functional Component. It displays a promotional message, informing users about a discount or offer available through "高德" (Gaode).
+@@@Text Functional Component@@@
+
+Component Keyword: "D2150"
+Component Function Description: This is a Text Functional Component. It displays the train number, allowing users to identify the specific train service they are looking at.
+@@@Text Functional Component@@@
+
+Component Keyword: "12:38"
+Component Function Description: This is a Text Functional Component. It represents the departure time of a train, informing users of when their train is set to leave the station.
+@@@Text Functional Component@@@

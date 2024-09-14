@@ -1,0 +1,79 @@
+1. **Component Keyword:**
+   This is a text label that appears to represent the course name and topic. The text "GRAPICS DESIGN" is likely indicating the subject of the course.
+   @@@arkTSText@@@
+
+2. **Component Keyword:**
+   This is a text label that shows the title of the course "How to make modern design for Beginner." It likely serves to inform users about the course content.
+   @@@arkTSText@@@
+
+3. **Component Keyword:**
+   This is a text label displaying the instructor's name "Nicola Tesla" and a rating with 4.9 stars from 1.2k reviews. It likely provides users with information about the course instructor and the course's rating.
+   @@@arkTSText@@@
+
+4. **Component Keyword:**
+   This is a section header labeled "Details Course," likely indicating that this section provides detailed information about the course.
+   @@@arkTSText@@@
+
+5. **Component Keyword:**
+   This is an icon that appears to represent the Wi-Fi signal. It likely shows the status of the internet connection.
+   @@@arkTSIcon@@@
+
+6. **Component Keyword:**
+   This is a play button icon that users can tap to start playing the video lesson. It represents an action button.
+   @@@arkTSButton@@@
+
+7. **Component Keyword:**
+   This is a text label for a lesson titled "2. Shape & Line." It likely indicates the name of the second lesson in the course.
+   @@@arkTSText@@@
+
+8. **Component Keyword:**
+   This is a lock icon, which suggests that the "Shape & Line" lesson is locked and likely requires purchase or completion of prerequisites to access.
+   @@@arkTSIcon@@@
+
+9. **Component Keyword:**
+   This is a text label displaying the time "9:41." It likely indicates the current time.
+   @@@arkTSText@@@
+
+10. **Component Keyword:**
+   This is a text label displaying the duration "12:34" of the lesson "Shape & Line." It informs the user how long the video lesson will take.
+   @@@arkTSText@@@
+
+11. **Component Keyword:**
+   This is a button labeled "Buy $23.00" which users can tap to purchase the course. It represents a call-to-action button for making a purchase.
+   @@@arkTSButton@@@
+Graphics Design Image:
+This component is likely a header image with a label. It serves as a visual representation of the course topic with an accompanying text descriptor.
+@@@arkTSImage@@@
+
+Graphics Design Introduction:
+This is a list item with a title and an accompanying action icon, likely used to navigate to a specific lesson or detail.
+@@@arkTSListItem@@@
+
+Reviews:
+This is a text label, potentially used as a tab title or section heading to display reviews of the course.
+@@@arkTSTab@@@
+
+Rating:
+This is a text label displaying a numeric value, commonly used for ratings or metrics such as user review scores.
+@@@arkTSText@@@
+
+Lessons:
+This is a text label, likely used as a tab title or section heading to display the list of lessons available in the course.
+@@@arkTSTab@@@
+
+Buy Button:
+This is a call-to-action button used for making a purchase, such as enrolling in the course.
+@@@arkTSButton@@@
+
+Signal Strength Icon:
+This is an icon, possibly indicating network connectivity status or signal strength on the user's device.
+@@@arkTSIcon@@@
+
+Progress Bar:
+This component is a progress indicator, used to visually show the completion level of a task or process.
+@@@arkTSProgressBar@@@
+
+Time Label:
+This is a text label that displays the time, possibly indicating the length or schedule of a lesson.
+@@@arkTSText@@@
+I'm unable to view or analyze images. If you provide descriptions of each component, I'd be happy to help match them to component types in the ArkTS library based on your descriptions.

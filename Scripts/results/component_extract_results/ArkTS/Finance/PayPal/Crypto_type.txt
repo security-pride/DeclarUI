@@ -1,0 +1,46 @@
+Component Keyword:
+The "£ Payments" icon represents a navigation button that redirects users to the payments section of the app.
+@@@arkTSTabBarItem@@@
+
+Component Keyword:
+The "Wallet" icon suggests this is a navigation button that takes users to their digital wallet section.
+@@@arkTSTabBarItem@@@
+
+Component Keyword:
+The "Crypto" icon likely indicates a navigation button to access cryptocurrency-related features.
+@@@arkTSTabBarItem@@@
+
+Component Keyword:
+The "Bitcoin" item with value indicates this component is a list item displaying information about Bitcoin for users.
+@@@arkTSListItem@@@
+
+Component Keyword:
+The text "买卖并持有加密货币" (Buy, sell, and hold cryptocurrency) is a section heading in a non-English language.
+@@@arkTSText@@@
+
+Component Keyword:
+The text "Crypto" is a section heading to label the current section of the app.
+@@@arkTSText@@@
+
+Component Keyword:
+The "Ethereum" item with value is a list item that displays information about Ethereum for users.
+@@@arkTSListItem@@@
+
+Component Keyword:
+The "Bitcoin Cash" item with value is a list item displaying information about Bitcoin Cash for users.
+@@@arkTSListItem@@@
+
+Component Keyword:
+The "Home" icon represents a navigation button that redirects users to the home section of the app.
+@@@arkTSTabBarItem@@@
+Bitcoin Cash:
+This component displays information about Bitcoin Cash, including its symbol, name, and current price. It likely allows users to view details and track the value of Bitcoin Cash.
+@@@arkTSListItem@@@
+
+Notice:
+This component provides an informational notice to users, conveying important messages or updates. It is typically used to alert users about significant changes or conditions within the app.
+@@@arkTSBanner@@@
+
+Litecoin:
+This component displays information about Litecoin, including its symbol, name, and current price. It likely allows users to view details and track the value of Litecoin.
+@@@arkTSListItem@@@

@@ -1,0 +1,31 @@
+Trade label:
+This is a text label likely used for navigation within the app, possibly to access trading features.
+@@@arkTSText@@@
+
+Simple button:
+This appears to be a toggle button used to switch the app interface to a simpler mode.
+@@@arkTSToggle@@@
+
+History icon:
+This icon likely serves as a button to navigate to or indicate a history or past activity section.
+@@@arkTSButton@@@
+
+Chart icon:
+This icon probably represents a button for charting tools or visual representations of data.
+@@@arkTSButton@@@
+
+Settings icon:
+This icon is likely used to navigate to the settings or configuration section of the app.
+@@@arkTSButton@@@
+
+Quotes icon:
+This icon represents the quotes section of the app, possibly to show current financial data or rates.
+@@@arkTSButton@@@
+
+Low: 0.91985 label:
+This text label likely displays specific data related to financial metrics or statistics.
+@@@arkTSText@@@
+
+Simple/Advanced toggle:
+This segmented control is used to switch between different interface modes, either 'Simple' or 'Advanced'.
+@@@arkTSRadio@@@

@@ -1,0 +1,162 @@
+LG logo:
+This image represents a company logo, likely used for branding within a ListView item to identify the offer's provider.
+@@@Image@@@
+
+VIP label:
+This text indicates a category or special feature, possibly used in a navigation bar or as a label for a tab option.
+@@@Text@@@
+
+Discover icon and text:
+This is an icon with an associated label, likely used in a bottom navigation bar for navigating to a "Discover" page.
+@@@Column@@@
+
+Start searching input area:
+This component is a search bar where users can enter text to perform a search action within the app.
+@@@TextField@@@
+
+Adidas logo:
+This image is probably used within a ListView to represent items or offers related to Adidas products.
+@@@Image@@@
+
+Dunelm logo:
+This image is used for branding within the app, specifically to display offers related to Dunelm.
+@@@Image@@@
+
+ZSL London Zoo image:
+This component is a promotional image, likely used within a Carousel or ListView to highlight specific promotions or offers.
+@@@Image@@@
+
+Trending label:
+This text is used as a header to introduce a section dedicated to trending items or offers.
+@@@Text@@@
+View more button (First Image):
+This appears to be a clickable text used to navigate to another screen displaying more content related to the section titled "Reward Offers".
+@@@TextButton@@@
+
+View more button (Second Image):
+This appears to be a clickable text used to navigate to another screen displaying more content related to the section titled "Trending Now".
+@@@TextButton@@@
+
+Reward Offers label:
+This is a bold text label used to indicate the title of the section that lists various reward offers.
+@@@Text@@@
+
+Deliveroo logo:
+This image represents the logo of the Deliveroo company.
+@@@Image@@@
+
+Deliveroo logo (second occurrence):
+This image represents the logo of the Deliveroo company. It seems to be separated from the background, perhaps used in a different context.
+@@@Image@@@
+
+Search label:
+This text denotes the 'Search' functionality, likely connected to the search icon in the navigation bar below.
+@@@Text@@@
+
+eBay logo:
+This image represents the logo of the eBay company.
+@@@Image@@@
+
+Offer text for Dunelm:
+This text provides information about an offer from the Dunelm company, detailing the amount and conditions of the offer.
+@@@Text@@@
+
+Offer text (general):
+This text provides information about an offer from a company, detailing the amount and conditions of the offer.
+@@@Text@@@
+Dunelm logo:
+This appears to be an image displaying a company logo, likely used to identify a reward offer.
+@@@Image@@@
+
+Deliveroo logo on a card:
+This is an image used to represent a specific offer or promotional card, typically found in a list or grid format.
+@@@Image@@@
+
+Account icon with label:
+This is likely an icon button with a label indicating that this section accesses user account settings or information.
+@@@Column@@@
+
+Text for MOBILES.CO.UK offer:
+This text describes a reward offer, including details about the company and the expiration date.
+@@@Text@@@
+
+Text for ADIDAS offer:
+This text highlights a specific reward offer from Adidas, including offer value and expiration.
+@@@Text@@@
+
+LG logo:
+This is an image displaying the LG logo, probably used to represent a related reward offer.
+@@@Image@@@
+
+Text for EBAY offer:
+This text outlines a reward offer associated with eBay, mentioning the offer specifics and its expiration date.
+@@@Text@@@
+
+MOBILES.CO.UK headline:
+This is a text widget featuring a brand or company name in uppercase, possibly styled to stand out as a headline.
+@@@Text@@@
+
+EBAY headline:
+This is a text widget highlighting the name "EBAY", likely styled to indicate a brand or company.
+@@@Text@@@
+Sure! Let's begin analyzing the components based on their descriptions:
+
+---
+
+1. **Component: Search bar**
+   
+   Component Function Description:
+   This component is a search bar where users can enter text to search for specific content or items within the app.
+   @@@TextField@@@
+
+2. **Component: "Reward Offers" label**
+   
+   Component Function Description:
+   This text label is used to indicate the section of the app that displays available reward offers to the user.
+   @@@Text@@@
+
+3. **Component: "View More" link**
+   
+   Component Function Description:
+   This text possibly functions as a button or link that allows users to view additional rewards or offers beyond what is initially displayed.
+   @@@TextButton@@@
+
+4. **Component: Company logos (e.g., MOBILES.CO.UK)**
+   
+   Component Function Description:
+   These are images of logos representing different companies offering rewards, likely placed alongside their corresponding offers.
+   @@@Image@@@
+
+5. **Component: Offer description (e.g., "Free £50 Currys Voucher...")**
+   
+   Component Function Description:
+   This text provides details about the specific reward or offer available from the company.
+   @@@Text@@@
+
+6. **Component: Offer expiration (e.g., "Ends 20 Jul")**
+
+   Component Function Description:
+   This text conveys the expiration date of the offer, indicating how long it's valid for.
+   @@@Text@@@
+
+7. **Component: Trending Now section header**
+
+   Component Function Description:
+   This label indicates the start of a new section that likely displays trending items or offers.
+   @@@Text@@@
+
+8. **Component: Image of tiger with "ZSL London Zoo"**
+
+   Component Function Description:
+   This is a graphic or promotional image related to a specific offer or featured content, possibly clickable for more details.
+   @@@Image@@@
+
+9. **Component: Bottom navigation bar icons (e.g., Discover, Search)**
+
+   Component Function Description:
+   These are interactive icons used to navigate to different sections of the application via a bottom navigation bar.
+   @@@BottomNavigationBar@@@
+
+---
+
+Each component is matched with a Flutter widget type and a brief description of their functionality. Adjustments may be necessary based on specific app implementations or additional context.

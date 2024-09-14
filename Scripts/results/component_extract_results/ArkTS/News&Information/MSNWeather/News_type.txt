@@ -1,0 +1,128 @@
+Local tab:
+This tab option allows users to view content that is relevant to their local area.
+@@@arkTSTab@@@
+
+Pink icon with white circles:
+This appears to be an icon image, likely representing a specific app or section within the app.
+@@@arkTSImage@@@
+
+US tab:
+This tab option allows users to view content that is relevant to the United States.
+@@@arkTSTab@@@
+
+Weather icon:
+This icon likely represents weather-related content or section.
+@@@arkTSIcon@@@
+
+Chat icon:
+This icon is used to represent the chat or messaging section of the app.
+@@@arkTSIcon@@@
+
+Tabs icon with "4":
+This icon indicates the tabs section of the app, showing users how many open tabs they currently have.
+@@@arkTSIcon@@@
+
+Treehouse image:
+This image likely represents a visual related to a news article or story content.
+@@@arkTSImage@@@
+
+Home icon:
+This icon represents the home section of the app where users can find general content.
+@@@arkTSIcon@@@
+
+Treehouse image:
+This image likely represents a visual related to a news article or story content.
+@@@arkTSImage@@@
+1. Component Keyword: Image of a person holding a "Social Security" sign
+   Function Description: This image is likely used to visually support an article or content item, providing context or a visual preview.
+   @@@arkTSImage@@@
+
+2. Component Keyword: "Top Stories" button
+   Function Description: This is a button or toggle that allows users to filter or select a category of news or content.
+   @@@arkTSToggle@@@
+
+3. Component Keyword: Associated Press headline with text and logo
+   Function Description: This component displays a news headline, along with the source and time, providing information about the news article.
+   @@@arkTSText@@@
+
+4. Component Keyword: "Search news" text
+   Function Description: This text indicates a search bar where users can enter keywords to search for news articles.
+   @@@arkTSTextInput@@@
+
+5. Component Keyword: Athlon Sports headline with text and logo
+   Function Description: This component provides a news headline with the source and time, giving details about the news story.
+   @@@arkTSText@@@
+
+6. Component Keyword: Search bar with microphone icon
+   Function Description: This search bar allows users to enter search terms or use voice input to search for news content.
+   @@@arkTSSearch@@@
+
+7. Component Keyword: Chat icon
+   Function Description: This icon likely provides access to a chat feature or section within the app, enabling user interaction or communication.
+   @@@arkTSIcon@@@
+
+8. Component Keyword: Southern Living headline with text and logo
+   Function Description: This component shows a news headline, source, and time reference, conveying information about a news piece.
+   @@@arkTSText@@@
+
+9. Component Keyword: Moneywise headline with text and logo
+   Function Description: This component displays another news headline, including the source and time, providing details about the news story.
+   @@@arkTSText@@@
+Basketball player image:
+This component displays an image, likely serving as a visual element to accompany a news story or article.
+@@@arkTSImage@@@
+
+Soccer player image:
+This component displays an image, likely serving as a visual element to accompany a sports news article.
+@@@arkTSImage@@@
+
+Apps icon:
+This is an icon with a label used in the app’s bottom navigation bar, allowing users to access different sections.
+@@@arkTSIcon@@@
+
+Number in square:
+This component likely serves as an indicator, perhaps displaying unread message counts or notifications.
+@@@arkTSBadge@@@
+
+Headlines text:
+This is a text label that serves as a heading for a news section within the app.
+@@@arkTSText@@@
+
+News article summary:
+This text component provides a brief summary or title of a news article.
+@@@arkTSText@@@
+
+Menu icon:
+This is a navigational menu button, commonly used to access additional app options or settings.
+@@@arkTSIcon@@@
+
+Like counter:
+A visual indicator showing the number of likes or approvals a content piece has received.
+@@@arkTSCount@@@
+
+"For You" button:
+This button is likely a tab or category selector for personalized content within the app.
+@@@arkTSButton@@@
+I'm unable to view component images individually extracted from the screenshot. However, based on the visible elements in the app screenshot, here's an example of how to classify some components:
+
+Search bar:
+This appears to be a search input field that allows users to enter text for searching content within the app.
+@@@arkTSSearch@@@
+
+Navigation bar:
+This is a horizontal navigation bar with options like "For You," "Local," "Top Stories," and "US" for switching between different sections of content.
+@@@arkTSNavigationBar@@@
+
+Article headline with image:
+This component likely represents a card or list item that displays a headline, source, and a preview image for an article.
+@@@arkTSListItem@@@
+
+Action buttons (like, comment, share):
+These icons represent interactive buttons for user actions such as liking, commenting on, or sharing content.
+@@@arkTSButton@@@
+
+Home button in the tab bar:
+A navigation element located in the bottom tab bar, allowing users to return to the homepage.
+@@@arkTSTabBar@@@
+
+If you provide me with individual component images, I can match them more specifically.

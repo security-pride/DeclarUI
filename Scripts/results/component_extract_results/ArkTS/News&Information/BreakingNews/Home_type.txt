@@ -1,0 +1,120 @@
+BELoud label:
+This is a text label, possibly indicating a section or feature within the app.
+@@@arkTSText@@@
+
+视频 (Video) label:
+This is a text label indicating a section for video content.
+@@@arkTSText@@@
+
+热门 (Hot) label:
+This is a text label suggesting the section for currently popular items.
+@@@arkTSText@@@
+
+Solid circle icon:
+This could be a component used for notifications or to indicate an active status.
+@@@arkTSCircle@@@
+
+Weather icon:
+This is an icon representing the weather or forecast feature.
+@@@arkTSImage@@@
+
+新闻 (News) label:
+This text label likely indicates a news section within the app.
+@@@arkTSText@@@
+
+Time display (8:35):
+This component displays the current time.
+@@@arkTSTimePicker@@@
+
+Megaphone icon:
+This icon might represent announcements or notifications.
+@@@arkTSIcon@@@
+
+News headline:
+This is a text block for a news headline or article summary.
+@@@arkTSText@@@
+Component Keyword:
+This is a date and time display showing the current date and time information to the user.
+@@@arkTSDateTime@@@
+
+Component Keyword:
+This is a label indicating a specific category or feature, "突发重大" which translates to "Breaking Major".
+@@@arkTSText@@@
+
+Component Keyword:
+This is an icon typically used for comments or feedback functionalities, allowing users to add their comments.
+@@@arkTSIcon@@@
+
+Component Keyword:
+This text indicates an advertisement, often used to label marketing or promotional content within the app.
+@@@arkTSAdLabel@@@
+
+Component Keyword:
+This is a label indicating a tab or section called "话题墙" which translates to "Topic Wall".
+@@@arkTSTab@@@
+
+Component Keyword:
+This is a label indicating a tab or section called "更多" which translates to "More".
+@@@arkTSTab@@@
+
+Component Keyword:
+This is a major news headline text, "突发新闻" which translates to "Breaking News".
+@@@arkTSHeaderText@@@
+
+Component Keyword:
+This text indicates the source and time elapsed since it was published, "UDN.COM - 33分钟前" translates to "UDN.COM - 33 minutes ago".
+@@@arkTSTimeText@@@
+
+Component Keyword:
+This label shows "谷歌广告" which translates to "Google Ad", indicating the presence of a Google advertisement.
+@@@arkTSAdLabel@@@
+Component Keyword:
+This button appears to allow users to set alerts and reminders for news or other notifications.
+@@@arkTSButton@@@
+
+Component Keyword:
+This is the main title of the app, indicating its purpose as a news app from the text "突发新闻" which translates to "Breaking News".
+@@@arkTSText@@@
+
+Component Keyword:
+This tab likely switches to the 'Latest Updates' section of the app. The text "最新资讯" translates to "Latest Information".
+@@@arkTSTabBar@@@
+
+Component Keyword:
+This button is likely used for accessing the comments section of a particular news item.
+@@@arkTSButton@@@
+
+Component Keyword:
+This is the label for an advertisement within the app.
+@@@arkTSText@@@
+
+Component Keyword:
+This is a button likely designed to take users to a news feed. The text translates to "Issue News" which might indicate it serves to display news alerts.
+@@@arkTSButton@@@
+
+Component Keyword:
+This is likely used for navigating to the user profile or for user account settings.
+@@@arkTSUserProfileIcon@@@
+
+Component Keyword:
+This seems to be an image label on the rear of a car in an advertisement.
+@@@arkTSText@@@
+
+Component Keyword:
+This tab likely switches to the 'Same City' section of the app. The text "同城" translates to "Same City".
+@@@arkTSTabBar@@@
+选您的城市:
+This is a text label asking the user to select their city, indicating a location selection feature.
+@@@arkTSText@@@
+
+Search icon:
+This icon likely represents a search functionality, allowing users to search through content within the app.
+@@@arkTSIcon@@@
+
+Menu icon:
+This icon typically denotes a menu or navigation drawer, providing users access to more sections of the app.
+@@@arkTSIcon@@@
+
+猜你喜欢 (Guess You Like):
+This is a label for a section that likely displays content recommendations personalized for the user.
+@@@arkTSText@@@

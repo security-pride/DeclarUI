@@ -1,0 +1,212 @@
+Clear Histroy button:
+This is a Button component. It is used to clear the history of calculations within the app.
+@@@Button@@@
+
+C button:
+This is a Button component. It clears the current input or resets the ongoing computation.
+@@@Button@@@
+
+() button:
+This is a Button component. It is used to input parentheses into mathematical expressions.
+@@@Button@@@
+
+6 button:
+This is a Button component. It inputs the number 6 into the current calculation.
+@@@Button@@@
+
+pink X button:
+This is a TouchableOpacity component as it appears to be styled differently and used for elimination or deletion actions in the app.
+@@@TouchableOpacity@@@
+
+X button:
+This is a Button component. It inputs the multiplication operator into the current calculation.
+@@@Button@@@
+
+second C button:
+This is a Button component. It serves the same function as the first "C" button, clearing the current input or resetting the ongoing computation.
+@@@Button@@@
+
+% button:
+This is a Button component. It inputs the percentage operator into the current calculation.
+@@@Button@@@
+
++ button:
+This is a Button component. It inputs the addition operator into the current calculation.
+@@@Button@@@
+Component Keyword:
+Parentheses button component:
+This is a Button component. It allows the user to insert parentheses in the calculation.
+@@@Button@@@
+
+Component Keyword:
+Number 5 button component:
+This is a Button component. It allows the user to input the number 5 in the calculation.
+@@@Button@@@
+
+Component Keyword:
+Calculation display area:
+This is a View Function Component. It displays the calculation history and results.
+@@@View Function Component@@@
+
+Component Keyword:
+Number 4 button component:
+This is a Button component. It allows the user to input the number 4 in the calculation.
+@@@Button@@@
+
+Component Keyword:
+Number 7 button component:
+This is a Button component. It allows the user to input the number 7 in the calculation.
+@@@Button@@@
+
+Component Keyword:
+Equals button component:
+This is a Button component. It performs the calculation and provides the result when pressed.
+@@@Button@@@
+
+Component Keyword:
+Minus button component:
+This is a Button component. It allows the user to input the minus (subtraction) operator in the calculation.
+@@@Button@@@
+
+Component Keyword:
+Number 3 button component:
+This is a Button component. It allows the user to input the number 3 in the calculation.
+@@@Button@@@
+
+Component Keyword:
+Multiplication button component:
+This is a Button component. It allows the user to input the multiplication operator in the calculation.
+@@@Button@@@
+Component Keyword:
+The numeric expression "45 × 24":
+This is a Text Functional Component. It displays the numeric expression that the user has entered or is currently evaluating.
+@@@Text Functional Component@@@
+
+Component Keyword:
+The numeric result "1080":
+This is a Text Functional Component. It displays the computed result of the numeric expression the user has entered or is currently evaluating.
+@@@Text Functional Component@@@
+
+Component Keyword:
+The "0" button:
+This is a Button. It's a numeric button that allows users to input the digit zero into the calculator.
+@@@Button@@@
+
+Component Keyword:
+The clock icon:
+This is an Image component. It represents a button or an icon related to viewing or accessing the history of calculations.
+@@@Button@@@
+
+Component Keyword:
+The switch component:
+This is a Switch. It allows users to toggle between light and dark modes in the application.
+@@@Switch@@@
+
+Component Keyword:
+The division symbol ("/") button:
+This is a Button. It's an arithmetic operator button that allows users to perform division operations in the calculator.
+@@@Button@@@
+
+Component Keyword:
+The "2" button:
+This is a Button. It's a numeric button that allows users to input the digit two into the calculator.
+@@@Button@@@
+
+Component Keyword:
+The "8" button:
+This is a Button. It's a numeric button that allows users to input the digit eight into the calculator.
+@@@Button@@@
+
+Component Keyword:
+The "5" button:
+This is a Button. It's a numeric button that allows users to input the digit five into the calculator.
+@@@Button@@@
+
+
+Equal button:
+This is a Button component. It's used to trigger the calculation of the entered arithmetic expression.
+@@@Button@@@
+
+Zero button:
+This is a Button component. It's the numeric button for the digit 0.
+@@@Button@@@
+
+Clear (C) button:
+This is a Button component. It clears the current input or resets the calculator.
+@@@Button@@@
+
+Two button:
+This is a Button component. It's the numeric button for the digit 2.
+@@@Button@@@
+
+Seven button:
+This is a Button component. It's the numeric button for the digit 7.
+@@@Button@@@
+
+Nine button:
+This is a Button component. It's the numeric button for the digit 9.
+@@@Button@@@
+
+Plus/Minus button:
+This is a Button component. It toggles the sign of the current number between positive and negative.
+@@@Button@@@
+
+Expand button:
+This is a Button component. It likely toggles between a standard and expanded view of the calculator.
+@@@Button@@@
+
+One button:
+This is a Button component. It's the numeric button for the digit 1.
+@@@Button@@@
+Component Keyword:
+This is a Button component. It's the key "3" on a calculator and allows users to enter the number "3".
+@@@Button@@@
+
+Component Keyword:
+This is a Button component. It's the key "8" on a calculator and allows users to enter the number "8".
+@@@Button@@@
+
+Component Keyword:
+This is a Button component. It represents the key "+/-" on a calculator, which permits toggling the sign of the currently entered number.
+@@@Button@@@
+
+Component Keyword:
+This is a Button component. It shows the number "1080" and seems to be part of the calculator's memory function, potentially recalling stored results.
+@@@Button@@@
+
+Component Keyword:
+This is a Button component. It’s the decimal key on a calculator, used for inputting decimal points in numbers.
+@@@Button@@@
+
+Component Keyword:
+This is a Text Functional Component. It displays the result "1080", labeled with the text value "1080" to show the final calculation result.
+@@@Text Functional Component@@@
+
+Component Keyword:
+This is a View Function Component. It encapsulates the calculation history or ongoing calculation area, displaying expressions and results.
+@@@View Function Component@@@
+
+Component Keyword:
+This is a Button component. It’s the key "0" on a calculator and allows users to enter the number "0".
+@@@Button@@@
+
+Component Keyword:
+This is a Button component. It’s the key "9" on a calculator and allows users to enter the number "9".
+@@@Button@@@
+
++ button:
+This is a Button component. It helps the user in adding numbers as part of a calculator application.
+@@@Button@@@
+
+- button:
+This is a Button component. It helps the user in subtracting numbers as part of a calculator application.
+@@@Button@@@
+
+1 button:
+This is a Button component. It allows the user to input the number 1 in the calculator application.
+@@@Button@@@
+
+/ button:
+This is a Button component. It helps the user in dividing numbers as part of a calculator application.
+@@@Button@@@
+

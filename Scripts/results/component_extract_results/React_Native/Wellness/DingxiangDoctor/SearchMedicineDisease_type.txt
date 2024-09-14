@@ -1,0 +1,81 @@
+查看更多 (View More):
+This is a Text component. It's likely a clickable text label that allows users to view more content within the app.
+@@@Text Functional Component@@@
+
+查疾病 (Check Disease):
+This is a Text component. It indicates the section where users can find information related to diseases.
+@@@Text Functional Component@@@
+
+了解左氧氟沙星 (Learn about Levofloxacin) section:
+This is a combined View Function Component which includes Text components for displaying information about Levofloxacin and an Image component showing related imagery.
+@@@View Function Component@@@
+
+健康百科 (Health Encyclopedia):
+This is a Text component. It's part of the header displaying the app's title.
+@@@Text Functional Component@@@
+
+了解司美格鲁肽 (Learn about Semaglutide) section:
+This is a combined View Function Component which includes Text components for displaying information about Semaglutide and an Image component showing related imagery.
+@@@View Function Component@@@
+
+丁香医生官方出品 (Produced by Ding Xiang Doctors):
+This is a Text component. It serves as a subtitle or footer mentioning the content producer.
+@@@Text Functional Component@@@
+
+疾病/症状全了解 (Comprehensive Understanding of Diseases/Symptoms):
+This is a Text component. It further explains the section about diseases and symptoms.
+@@@Text Functional Component@@@
+
+Disease icons:
+These are Image components. They depict various diseases visually, assisting users in quickly identifying information about specific conditions.
+@@@Function Component@@@
+
+登革热防范手册 (Dengue Fever Prevention Manual):
+This is a combined View Function Component which includes Text components for displaying information about Dengue Fever and an Image component showing related imagery.
+@@@View Function Component@@@
+Envelope icon:
+This is an Image component. It likely serves as a visual indicator, possibly for a messaging or notification feature.
+@@@Function Component@@@
+
+Four tab icons:
+These are likely TouchableOpacity Function Components. They represent different sections of the app: Home, Ask Doctor, Search for Diseases and Drugs, and My Account, serving as navigational buttons.
+@@@TouchableOpacity Function Component@@@
+
+"HOT" label:
+This is a Text component. It emphasizes that the listed drug is currently popular or has a special offer.
+@@@Text Functional Component@@@
+
+"健康百科" (Health Encyclopedia) title:
+This is a Text component. It signifies the main title or branding of the application.
+@@@Text Functional Component@@@
+
+"近期热点" (Recent Hotspots) title:
+This is a Text component. It acts as a section header to categorize recent trending topics.
+@@@Text Functional Component@@@
+
+"流感应对手册" (Flu Response Manual) card:
+This is probably a View Function Component. It includes both textual and graphical information associated with flu prevention measures.
+@@@View Function Component@@@
+
+Another "健康百科" (Health Encyclopedia) title, different style:
+This is a Text component. It's likely used for branding the app in another section or context, with a varied style.
+@@@Text Functional Component@@@
+
+"查药品" (Search Medications) title:
+This is a Text component. It acts as a section header designed to guide users to a section where they can look up information about medications.
+@@@Text Functional Component@@@
+
+"查看更多" (View More) label:
+This is a Text component. It serves as a clickable text that will likely expand the content to show more items within a particular category.
+@@@Text Functional Component@@@
+
+"药品说明随手查" (Medication Instructions at Hand) label:
+This is a Text component. It provides an explanation or functionality description related to the medication information section.
+@@@Text Functional Component@@@
+Search bar with placeholder text:
+This is a TextInput component. It allows users to input text to search for diseases, symptoms, medications, and health issues.
+@@@TextInput@@@
+
+Search button:
+This is a Button component. It allows users to perform the search after entering their query in the search bar.
+@@@Button@@@

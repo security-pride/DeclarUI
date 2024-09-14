@@ -1,0 +1,103 @@
+WhatsApp status icon:
+This appears to be an icon inside a button, which allows users to share content to WhatsApp status directly.
+@@@IconButton@@@
+
+Not interested icon:
+This seems to be an icon inside a button that allows users to mark content as not of interest.
+@@@IconButton@@@
+
+Progress bar/slider:
+This component looks like a progress bar or a slider that might indicate the progression of a video or some loading process.
+@@@LinearProgressIndicator@@@
+
+Cancel text:
+This is a text widget that indicates the action of canceling an ongoing operation.
+@@@Text@@@
+
+Messenger icon:
+This is an icon inside a button that allows users to share content via Facebook Messenger.
+@@@IconButton@@@
+
+WhatsApp icon:
+This is an icon inside a button that allows users to share content via WhatsApp.
+@@@IconButton@@@
+
+SMS icon:
+This appears to be an icon inside a button allowing users to share content via SMS.
+@@@IconButton@@@
+
+React icon:
+This is an icon inside a button that allows users to react to the content, possibly by sending an emoji or a comment.
+@@@IconButton@@@
+
+WhatsApp icon:
+This is an icon inside a button that enables users to share content to WhatsApp.
+@@@IconButton@@@
+
+Report icon:
+This appears to be an icon inside a button that allows users to report content.
+@@@IconButton@@@
+
+Following text:
+This is a text widget that shows the current tab or category the user is in, indicating they are viewing content they are following.
+@@@Text@@@
+
+
+Profile button with avatar and plus icon:
+This appears to be a circular button with an avatar image and a plus icon overlay. It likely allows users to view their profile or add content.
+@@@Stack@@@
+
+Instagram label:
+This is a text widget that represents the Instagram share option.
+@@@Text@@@
+
+Message label:
+This is a text widget that represents the Message share option.
+@@@Text@@@
+
+Messenger icon:
+This is an icon widget that represents the Messenger share option.
+@@@Icon@@@
+
+WhatsApp icon:
+This is an icon widget that represents the WhatsApp share option.
+@@@Icon@@@
+
+WiFi status icon:
+This is an icon widget that indicates the WiFi signal status.
+@@@Icon@@@
+
+For You label:
+This is a text widget representing the “For You” tab in the app, likely used for navigation.
+@@@Text@@@
+
+WhatsApp label:
+This is a text widget representing the WhatsApp share option.
+@@@Text@@@
+
+Cellular signal icon:
+This is an icon widget that indicates the cellular signal strength.
+@@@Icon@@@
+Message icon:
+This icon represents a navigation or action button used for messaging.
+@@@IconButton@@@
+
+Down arrow:
+This arrow likely signifies a download action or a dropdown menu.
+@@@IconButton@@@
+
+"NOT interested" label:
+This is a text label indicating user's disinterest.
+@@@Text@@@
+
+"Share to" label:
+This text indicates an option to share content to various platforms.
+@@@Text@@@
+
+Instagram icon:
+This icon represents a navigation or action button to share content on Instagram.
+@@@IconButton@@@
+
+Add to Favorites icon:
+This icon button allows the user to add content to their favorites list.
+@@@IconButton@@@

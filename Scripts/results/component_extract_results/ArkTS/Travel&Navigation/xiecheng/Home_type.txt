@@ -1,0 +1,213 @@
+1. Component Keyword:
+This is an image of a scenic hotel recommendation card, showing a location and a brief description.
+@@@arkTSCard@@@
+
+2. Component Keyword:
+This is an icon with a label for services related to visas and currency exchange.
+@@@arkTSServiceIcon@@@
+
+3. Component Keyword:
+This is an icon with a label for dining and shopping services.
+@@@arkTSServiceIcon@@@
+
+4. Component Keyword:
+This is an image with a discount label, likely used for promotional content.
+@@@arkTSImage@@@
+
+5. Component Keyword:
+This is an image of a selected hotel package card with a descriptive tag.
+@@@arkTSCard@@@
+
+6. Component Keyword:
+The label "养马" translates to "horse breeding" or related concepts, and is likely part of a category tab or label.
+@@@arkTSText@@@
+
+7. Component Keyword:
+This is an icon with a label for car rental services.
+@@@arkTSServiceIcon@@@
+
+8. Component Keyword:
+This is a home icon, typically used for navigation to the main page.
+@@@arkTSHomeIcon@@@
+
+9. Component Keyword:
+This section header translates to "You have a trip," indicating user-specific information with an option to view more.
+@@@arkTSText@@@
+Component Keyword: 
+"威海" (Weihai) label
+Component Function Description: 
+This is a text label indicating a location, in this case, Weihai.
+@@@arkTSText@@@
+
+Component Keyword: 
+"我的" (My) button
+Component Function Description: 
+This is a button or tab that likely navigates the user to their personal profile or account settings.
+@@@arkTSButton@@@
+
+Component Keyword: 
+Image with "升35%" text
+Component Function Description: 
+This image seems to be part of a promotional banner indicating an offer or discount of 35%.
+@@@arkTSImage@@@
+
+Component Keyword: 
+"烟台" (Yantai) image
+Component Function Description: 
+This image with a 'Yantai' label likely showcases a travel destination or a guided tour option.
+@@@arkTSImage@@@
+
+Component Keyword: 
+"火车票" (Train Ticket) button
+Component Function Description: 
+This button takes the user to a section where they can book train tickets.
+@@@arkTSButton@@@
+
+Component Keyword: 
+"旅游地图" (Travel Map) button
+Component Function Description: 
+This button leads the user to a travel map feature within the app.
+@@@arkTSButton@@@
+
+Component Keyword: 
+"汽车/船票" (Car/Boat Ticket) button
+Component Function Description: 
+This button allows users to book car or boat tickets.
+@@@arkTSButton@@@
+
+Component Keyword: 
+"直播团购" (Live Group Buying) label
+Component Function Description: 
+This text label probably indicates a section dedicated to live-streamed group purchasing deals.
+@@@arkTSText@@@
+
+Component Keyword: 
+"特价专区" (Special Price Area) label
+Component Function Description: 
+This label identifies a section that offers special prices or discounted items.
+@@@arkTSText@@@
+长岛 (Changdao) label:
+This is a text label that likely indicates a location called Changdao.
+@@@arkTSText@@@
+
+Icon (partial image):
+This seems to be a part of an icon, possibly related to an app feature or a logo, but due to its partial nature, it's hard to determine its exact functionality.
+@@@arkTSImage@@@
+
+行程 (Itinerary) icon:
+This icon represents the itinerary section of the app, where users can view and manage their travel plans.
+@@@arkTSImage@@@
+
+机票+酒店 (Flight + Hotel) button:
+This button likely represents an option to book flight and hotel packages together.
+@@@arkTSButton@@@
+
+社区 (Community) icon:
+This icon represents the community section of the app, where users can interact with each other.
+@@@arkTSImage@@@
+
+美景酒店榜 (Beautiful Hotel List) label:
+This text label likely indicates a section listing beautiful hotels.
+@@@arkTSText@@@
+
+民宿/客栈 (B&B/Guesthouse) button:
+This button likely represents an option to search for B&Bs or guesthouses.
+@@@arkTSButton@@@
+
+机票 (Flight) button:
+This button likely represents an option to search for flights.
+@@@arkTSButton@@@
+
+年度口碑榜酒店 惊喜0元住 (Annual Reputation List Hotels - Surprise with 0 Yuan Stay) banner:
+This banner likely promotes a top-rated hotel campaign with the opportunity for a free stay.
+@@@arkTSBanner@@@
+武汉 (Wuhan) label:
+This is a label that likely represents a location or category filter option.
+@@@arkTSText@@@
+
+烟台甄选特价 (Yantai Selected Special Price) label:
+This is a text label indicating a section for specific deals or offers, labeled "Yantai Selected Special Price."
+@@@arkTSText@@@
+
+门票/玩乐 icon with label (Tickets/Entertainment):
+This is an icon with a label for navigating to the tickets or entertainment section of the app.
+@@@arkTSButton@@@
+
+直播 (Live) label with icon:
+This is likely a button or link to a live streaming section.
+@@@arkTSButton@@@
+
+Booking information section:
+This component shows a booking confirmation with details about the stay, dates, and includes a link to surrounding area and map.
+@@@arkTSCard@@@
+
+消息 (Messages) label:
+This text label indicates a navigation option for the messages or notifications section.
+@@@arkTSText@@@
+
+旅游 icon with label (Travel):
+This icon with a label represents a navigation or selection option for travel-related services.
+@@@arkTSButton@@@
+
+好货超值购 (Great Value Purchase) image label:
+This is an image with a label suggesting a featured or promoted product with great value.
+@@@arkTSImage@@@
+
+搜索 (Search) button:
+This appears to be a search button allowing users to enter a query for search functionality.
+@@@arkTSButton@@@
+好货超值购 (Hot Deals):
+This component represents a special offers section, likely showing discounted or promotional items.
+@@@arkTSImage@@@
+
+碑榜 (Ranking):
+This is a text label indicating a ranking or list section, likely for top-rated or popular items.
+@@@arkTSText@@@
+
+酒店套餐 (Hotel Packages):
+This component represents a category button for hotel packages. It likely navigates users to a section for booking hotel deals.
+@@@arkTSButton@@@
+
+烟台百纳瑞汀酒店 (YanTai Baina Ruijing Hotel):
+This is a text label representing the name of a hotel. It likely serves as an identifier for a location or listing.
+@@@arkTSText@@@
+
+攻略/景点 (Guide/Attractions):
+This component represents a category button for travel guides or attractions. It likely navigates users to a section for exploring travel tips and sightseeing spots.
+@@@arkTSButton@@@
+
+搜索 (Search):
+This component represents a search button, allowing users to initiate a search action within the application.
+@@@arkTSButton@@@
+
+接送机/包车 (Airport Transfer/Rent Car):
+This component represents a category button for airport transfers or car rentals. It likely navigates users to a section for booking these services.
+@@@arkTSButton@@@
+
+旅行热点 (Travel Hotspots):
+This is a text label indicating a section for popular travel destinations or frequently visited spots.
+@@@arkTSText@@@
+
+烟台 (YanTai):
+This component represents a location filter button. It likely allows users to filter results based on the specified location.
+@@@arkTSButton@@@
+
+Component Keyword:
+This component likely represents a finance-related service, possibly for loans or installments, indicated by the currency symbol and the "借钱/分期" (Borrow Money/Installment).
+@@@arkTSIconButton@@@
+
+Component Keyword:
+This is an icon button for accessing hotel services or bookings. The icon and text "酒店" (Hotel) suggest a quick link to hotel-related features.
+@@@arkTSIconButton@@@
+
+Component Keyword:
+This is a text badge indicating a specific location or category. The text "蓬莱阁" (Penglai Pavilion) suggests it provides identification within a tab or label view.
+@@@arkTSBadge@@@
+
+Component Keyword:
+This is a text label that indicates a section for a certain ranking or leaderboard, as denoted by "口碑榜" (Reputation Ranking).
+@@@arkTSText@@@
+
+Component Keyword:
+This text label indicates information about the user's current travel itinerary, as shown by "您有一段旅程" (You have a journey).
+@@@arkTSText@@@

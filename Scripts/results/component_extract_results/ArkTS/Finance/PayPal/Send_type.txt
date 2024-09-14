@@ -1,0 +1,82 @@
+Component Keyword:
+"CURVE UK LIMITED" label
+This is a text label indicating the name of a contact or entity within the app.
+@@@arkTSText@@@
+
+Component Keyword:
+QR code icon
+This icon likely represents a functionality to scan a QR code or access a QR code scanner.
+@@@arkTSIcon@@@
+
+Component Keyword:
+Logo icon
+This is an image icon, possibly representing a company or user's logo in the app.
+@@@arkTSImage@@@
+
+Component Keyword:
+"Fang Zhou" label
+This is a text label for a contact name, indicating a person's name or identifier.
+@@@arkTSText@@@
+
+Component Keyword:
+Back arrow icon
+This icon is typically used for navigation, allowing users to return to the previous screen.
+@@@arkTSButton@@@
+
+Component Keyword:
+Information icon
+This icon may provide additional information or details when interacted with.
+@@@arkTSIcon@@@
+
+Component Keyword:
+"建议联系人" (Suggested Contacts) label
+This text label represents a section title or heading for suggested contacts. Translation: "Suggested Contacts"
+@@@arkTSText@@@
+
+Component Keyword:
+Information icon
+This icon may provide additional information or details when interacted with.
+@@@arkTSIcon@@@
+
+Component Keyword:
+Contact book icon
+This icon represents access to contacts or address book features within the app.
+@@@arkTSIcon@@@
+1. Component Keyword:
+This component likely represents an avatar icon next to a contact's name, used for identifying the contact within a list.
+@@@arkTSAvatar@@@
+
+2. Component Keyword:
+This icon displays the initials "ZF," indicating a user or contact's avatar within the app.
+@@@arkTSAvatar@@@
+
+3. Component Keyword:
+This circular icon with an "i" likely serves as an information symbol, used to provide more details or help.
+@@@arkTSIcon@@@
+
+4. Component Keyword:
+This is a search input field designated for entering keywords like name, username, email address, or phone number.
+@@@arkTSSearch@@@
+
+5. Component Keyword:
+This text label displays the name "Fang Zhou," representing a contact or user within the app.
+@@@arkTSText@@@
+
+6. Component Keyword:
+Text label "启用您的联系人" translates to "Enable your contacts," likely a call-to-action for enabling contact permissions.
+@@@arkTSText@@@
+
+7. Component Keyword:
+This horizontal line likely serves as a separator between sections or elements in the app's UI.
+@@@arkTSSeparator@@@
+
+8. Component Keyword:
+A circular logo or icon representing a company or service within the app.
+@@@arkTSIcon@@@
+
+9. Component Keyword:
+This component shows a message or notification about cross-border transfers to a bank account, indicating an alert or information component.
+@@@arkTSNotification@@@
+Contact avatar with initials:
+This component appears to be an avatar or icon representing a user or contact, typically displaying initials for identification.
+@@@arkTSAvatar@@@

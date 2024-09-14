@@ -1,0 +1,62 @@
+My parcels:
+This is a text label that indicates the section of the app displaying a user's parcels.
+@@@Text Functional Component@@@
+
+QR code icon:
+This appears to be a button that likely allows users to scan a QR code associated with a parcel for quick tracking.
+@@@TouchableOpacity Function Component@@@
+
+Tracking number input:
+This is a text input field where users can enter their parcel tracking number.
+@@@TextInput@@@
+
+Send parcel:
+This label likely indicates a section of the app where users can initiate the process of sending a parcel.
+@@@Text Functional Component@@@
+
+Track parcel:
+This is the main heading of the app's current screen, indicating the functionality to track parcels.
+@@@Text Functional Component@@@
+
+Parcel center:
+This label indicates a section of the app that possibly provides users with information about parcel centers.
+@@@Text Functional Component@@@
+
+WiFi icon:
+This icon likely indicates the network status of the device within the app's interface.
+@@@Image Functional Component@@@
+
+My parcels (with image):
+This is a button icon in the navigation bar, representing access to the user's parcel overview.
+@@@TouchableOpacity Function Component@@@
+
+Profile picture:
+This is an image showing the user's profile picture, likely allowing users to access their account settings.
+@@@Image Functional Component@@@
+1. **Black rounded rectangle (Track button):**
+   This appears to be a button used to initiate the parcel tracking process when pressed.
+   @@@TouchableOpacity Function Component@@@
+
+2. **Track parcel button label:**
+   This label likely describes the function of the associated button, indicating that pressing it will track a parcel.
+   @@@Text Functional Component@@@
+
+3. **Enter parcel number or scan QR code text:**
+   A text prompt guiding users to input a parcel number or scan a QR code for tracking.
+   @@@Text Functional Component@@@
+
+4. **Parcel number display:**
+   This component displays the parcel number and could be part of a list item showing tracking details.
+   @@@Text Functional Component@@@
+
+5. **Signal strength icon:**
+   Represents network signal strength, typically found in a status bar.
+   @@@StatusBar Android and iOS Component@@@
+
+6. **Parcel tracking card:**
+   A view containing detailed tracking information such as status and last update time.
+   @@@View Function Component@@@
+
+7. **Time display (9:41):**
+   This is part of the time indicator usually found in the status bar of a mobile screen.
+   @@@StatusBar Android and iOS Component@@@

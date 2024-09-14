@@ -1,0 +1,35 @@
+CutG logo:
+This is an image widget displaying the CutG logo at the top of the screen.
+@@@Image@@@
+
+Welcome!:
+This text widget displays a welcome message to the user, making them feel greeted as they open the app.
+@@@Text@@@
+
+Description text:
+This text widget provides a brief description of what the app offers, helping users understand its main features and purpose.
+@@@Text@@@
+
+Sign in button:
+This is a button widget that allows users to sign in, likely initiating an authentication process when pressed. The button has a background color and text inside it.
+@@@ElevatedButton@@@
+
+Apple logo:
+This is an icon button widget that lets users initiate the sign-in process using their Apple account.
+@@@IconButton@@@
+
+Google logo:
+This is an icon button widget that lets users initiate the sign-in process using their Google account.
+@@@IconButton@@@
+
+Facebook logo:
+This is an icon button widget that lets users initiate the sign-in process using their Facebook account.
+@@@IconButton@@@
+
+Bottom navigation indicator:
+This widget indicates the current position in a set of horizontally scrollable pages, suggesting there might be a set of onboarding screens or similar content.
+@@@PageViewIndicator@@@
+
+Sign in button (Yellow):
+This is a button widget that allows users to sign in, likely initiating an authentication process when pressed. The button has a background color and text inside it.
+@@@ElevatedButton@@@

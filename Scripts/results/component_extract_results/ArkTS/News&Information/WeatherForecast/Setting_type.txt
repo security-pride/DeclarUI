@@ -1,0 +1,102 @@
+Manage location:
+This component likely allows users to manage or set their location preferences within the app.
+@@@arkTSListItem@@@
+
+Remove ads icon:
+This icon suggests an option for users to remove or disable advertisements, possibly through a purchase or subscription.
+@@@arkTSIcon@@@
+
+Feedback and Suggestion:
+This component appears to be a menu option for users to provide feedback or suggestions about the app.
+@@@arkTSListItem@@@
+
+Temperature display:
+This is a text component showing the current temperature value, which might update dynamically.
+@@@arkTSText@@@
+
+Overcast clouds label:
+This text component provides information about the current weather condition.
+@@@arkTSText@@@
+
+More details button:
+This is likely a button that navigates the user to a detailed view or additional information.
+@@@arkTSButton@@@
+
+Battery icon:
+This icon displays the current battery status or charge level.
+@@@arkTSIcon@@@
+
+Storage icon:
+This icon represents storage or memory status, possibly indicating available space or usage.
+@@@arkTSIcon@@@
+
+Unit setting:
+This component allows users to configure unit settings like pressure, wind speed, or time format.
+@@@arkTSListItem@@@
+
+Share button:
+This component allows users to share content or information with other apps or users.
+@@@arkTSButton@@@
+
+Weather widgets label:
+This component displays information about available weather widgets and their functionality.
+@@@arkTSText@@@
+
+Notification toggle:
+This switch enables or disables notifications within the app.
+@@@arkTSSwitch@@@
+
+Weather radar label:
+This component indicates a section related to weather radar features.
+@@@arkTSText@@@
+
+Day selection button:
+This rectangular button allows users to select or view specific day information, likely weather-related.
+@@@arkTSButton@@@
+
+Hide background image toggle:
+This switch toggles the visibility of the background image within the app.
+@@@arkTSSwitch@@@
+
+Report problem button:
+This component allows users to report issues or problems encountered in the app.
+@@@arkTSButton@@@
+
+Home label:
+This component likely directs users to the home screen or main section of the app.
+@@@arkTSText@@@
+
+Time labels:
+These text components display time information, possibly related to schedules or forecasts.
+@@@arkTSText@@@
+Char:
+This is a portion of a text label likely used for displaying a section title or information. 
+@@@arkTSText@@@
+
+Remove ads:
+This text label likely represents an option for users to remove advertisements, possibly through a purchase or subscription. 
+@@@arkTSText@@@
+
+Temperature:
+This component displays a label for temperature settings and includes a toggle or segmented button to switch between Fahrenheit (F) and Celsius (C) units.
+@@@arkTSRadioGroup@@@
+
+Lock screen:
+This component includes a label and a toggle switch for enabling or disabling the lock screen feature. 
+@@@arkTSSwitch@@@
+
+Status bar:
+This component features a label and a toggle switch to manage the visibility or content of the app's status bar.
+@@@arkTSSwitch@@@
+
+Home Icon:
+This is an icon representing the home section, likely serving as a navigational button.
+@@@arkTSIcon@@@
+
+Weather radar:
+This is an icon, possibly representing a button, used to access weather radar features within the app.
+@@@arkTSIcon@@@
+
+SETTING:
+This is a text label that likely indicates the settings section or menu within the app.
+@@@arkTSText@@@

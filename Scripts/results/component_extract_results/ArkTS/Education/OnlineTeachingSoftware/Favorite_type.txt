@@ -1,0 +1,89 @@
+Search bar:
+This appears to be a search input field that allows users to enter text for searching content within the app.
+@@@arkTSSearch@@@
+
+Bell icon with notification:
+This is an icon that likely indicates notifications, showing a badge when there are new notifications.
+@@@arkTSButton@@@
+
+Heart icon on image:
+This heart icon likely allows the user to favorite or like a specific content within the app.
+@@@arkTSButton@@@
+
+All Course button:
+This is a button that likely filters or navigates the user to a page showing all available courses.
+@@@arkTSButton@@@
+
+Profile photo in workspace:
+This is an image component, possibly used to visually represent the user's workspace or associated content.
+@@@arkTSImage@@@
+
+Statistics icon:
+This icon likely represents a statistics or analytics feature within the app.
+@@@arkTSIcon@@@
+
+Date label (May 08, 2023):
+This is a text label displaying the date, likely used to indicate when a certain activity or content was updated or recorded.
+@@@arkTSText@@@
+
+UX Design chip:
+This is a chip component, often used for categorizing or filtering content based on the selected chip.
+@@@arkTSChip@@@
+
+Workspace image:
+This is an image component, used to visually represent content related to workspace or project designs.
+@@@arkTSImage@@@
+All Course button:
+This is a button that likely allows the user to filter or view all courses available in the app.
+@@@arkTSButton@@@
+
+Development label:
+This is a text label that categorizes a specific course under 'Development'.
+@@@arkTSText@@@
+
+Favorite header:
+This is a header text that indicates the current page or section titled 'Favorite'.
+@@@arkTSText@@@
+
+Time display (19:27):
+This is a text component displaying the current time in the status bar of the app.
+@@@arkTSText@@@
+
+See All link:
+This is a link text that allows the user to view more items within a particular section.
+@@@arkTSLink@@@
+
+Status bar indicator:
+This is a status bar component displaying network, WiFi, and battery status.
+@@@arkTSStatusBar@@@
+
+Profile icon text:
+This is a text label for the navigation tab indicating the 'Profile' section.
+@@@arkTSText@@@
+
+Course image:
+This is an image component likely representing a course thumbnail.
+@@@arkTSImage@@@
+
+3D Animation button:
+This is a button that likely allows the user to filter or view 3D Animation courses available in the app.
+@@@arkTSButton@@@
+Component Keyword:
+This is an image of a book titled "Change by Design" with a heart icon likely indicating that it has been favorited or liked by the user.
+@@@arkTSImage@@@
+
+Component Keyword:
+This is text representing the author’s name, "Alexander Be".
+@@@arkTSText@@@
+
+Component Keyword:
+This is a "See All" text link potentially allowing users to view more items or details in that section.
+@@@arkTSButton@@@
+
+Component Keyword:
+This is a toggle button labeled "UI Design," likely filtering content related to UI design when pressed.
+@@@arkTSToggleButton@@@
+
+Component Keyword:
+This is a card displaying course details, including the category "Graphic Design," course title, author "Jerremy Mamika," and price "$48."
+@@@arkTSCard@@@

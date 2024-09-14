@@ -1,0 +1,80 @@
+Profile image (circular with people):
+This component displays a user's profile picture which is typically used to identify individuals in a social app.
+@@@arkTSImage@@@
+
+Text input with smiley button:
+This is an input field for the user to type messages, with an additional button for inserting emojis.
+@@@arkTSTextInput@@@
+
+Timestamp (16:44):
+This text component likely shows the time a message was sent or received.
+@@@arkTSText@@@
+
+Small circular profile image:
+This component displays a smaller version of a user's profile picture, often used in chat messages.
+@@@arkTSImage@@@
+
+Large circular profile image with name:
+This component displays a user's profile picture along with their name, used for identifying the chat user.
+@@@arkTSImage@@@
+
+Clock text (9:41):
+This is a text component showing the current time, typically in the status bar of the mobile app.
+@@@arkTSText@@@
+
+Image icon:
+This image icon component is designed for opening a gallery to select images for sharing.
+@@@arkTSImageIcon@@@
+
+Video icon:
+This image icon component is designed for starting a video call.
+@@@arkTSImageIcon@@@
+
+Microphone and Text Input:
+This section contains a microphone icon for voice input and a text input field for typing messages.
+@@@arkTSInputSection@@@
+Component Keyword:
+Text label indicating friend suggestion
+@@@arkTSText@@@
+
+Component Keyword:
+Emoji indicating a positive acknowledgment or like
+@@@arkTSIcon@@@
+
+Component Keyword:
+Signal strength indicator
+@@@arkTSIcon@@@
+
+Component Keyword:
+Text label displaying the user's name and status
+@@@arkTSText@@@
+
+Component Keyword:
+Timestamp displaying the time of the message
+@@@arkTSText@@@
+
+Component Keyword:
+Text bubble containing a message in a conversation
+@@@arkTSBubble@@@
+
+Component Keyword:
+Text bubble containing a message in a conversation
+@@@arkTSBubble@@@
+
+Component Keyword:
+The navigation bar indicator at the bottom of the screen
+@@@arkTSNavigationBar@@@
+
+Component Keyword:
+Icon indicating message status or acknowledgment
+@@@arkTSIcon@@@
+
+Phone icon:
+This icon likely represents a button that initiates a phone call when tapped.
+@@@arkTSIcon@@@
+
+Camera icon:
+This icon likely represents a button that opens the camera feature when tapped.
+@@@arkTSIcon@@@
+
+

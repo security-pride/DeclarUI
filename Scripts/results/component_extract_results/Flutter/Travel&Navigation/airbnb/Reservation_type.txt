@@ -1,0 +1,93 @@
+Pitch 24 Creek Caravan Park Ringstead狗友好:
+This is a text widget displaying the name and a description of the place.
+@@@Text@@@
+
+Calendar icon:
+This icon represents a calendar, likely indicating dates or a date selection.
+@@@Icon@@@
+
+8月3日前可免费取消订单。 旅行规划有变，可获全额退款。
+This is a text widget that informs about the cancellation policy. Translation: "You can cancel the order for free before August 3. If travel plans change, a full refund can be obtained."
+@@@Text@@@
+
+选择付款方式:
+This is a text widget that acts as a heading, instructing the user to select a payment method. Translation: "Select Payment Method."
+@@@Text@@@
+
+Caravan image:
+This is an image widget displaying a picture of the caravan.
+@@@Image@@@
+
+Star rating with text:
+This is a row widget combining an icon (star) and text showing the rating and number of reviews.
+@@@Row@@@
+
+编辑:
+This is a text widget, likely a button or a small piece of text for editing information. Translation: "Edit."
+@@@Text@@@
+
+9月2日至7日:
+This is a text widget displaying dates. Translation: "From September 2 to 7."
+@@@Text@@@
+
+您的行程:
+This is a text widget acting as a heading, indicating trip details. Translation: "Your Itinerary."
+@@@Text@@@
+房客人数:
+This is a text widget that displays the label for the number of guests.
+@@@Text@@@
+
+编辑:
+This appears to be a button that allows users to edit the number of guests or other details.
+@@@TextButton@@@
+
+旅行规划有变:
+This is a text widget that indicates a change in travel plans and likely accompanied by further information.
+@@@Text@@@
+
+Caravan image:
+This is an image widget that displays a picture of the caravan or accommodation.
+@@@Image@@@
+
+Section divider line:
+This is a horizontal line visually separating different sections of the app.
+@@@Divider@@@
+
+超赞房东:
+This is a text widget signifying an excellent host or listing.
+@@@Text@@@
+
+Payment method radio button:
+This appears to be a radio button widget for selecting a payment method.
+@@@Radio@@@
+
+确认并付款:
+This is a text widget that represents the action to confirm and pay.
+@@@Text@@@
+
+现在支付部分费用:
+This is a text widget that explains the option to pay part of the amount now.
+@@@Text@@@
+整套小木屋:
+This appears to be a label describing a type of accommodation or room.
+@@@Text@@@
+
+立即支付 ￥12,120.95:
+This is a text widget showing an immediate payment amount in Chinese Yuan.
+@@@Text@@@
+
+今天需支付 ￥6,060.48, 2024年8月18日支付 ￥6,060.47。无需支付额外费用。:
+This text specifies the breakdown of a payment plan with amounts and dates.
+@@@Text@@@
+
+稍后再支付剩余的:
+This text might be a label for an option where the remaining balance can be paid later.
+@@@Text@@@
+
+1位房客:
+This text indicates the number of guests, in this case, one guest.
+@@@Text@@@
+
+日期:
+This text label indicates a date.
+@@@Text@@@

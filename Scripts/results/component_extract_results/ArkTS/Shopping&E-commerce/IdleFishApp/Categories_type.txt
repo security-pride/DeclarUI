@@ -1,0 +1,147 @@
+Component Keyword:
+This appears to be an icon for a service or category in the mobile app. The yellow circle with a white shape suggests it might be related to product or service assistance.
+@@@arkTSIcon@@@
+
+Component Function Description:
+This is a text label that likely indicates a specific category of items, in this case "Jade and Stone Crafts."
+@@@arkTSText@@@
+
+Component Function Description:
+This is a text label that likely indicates a recommendation or suggestion section within the app.
+@@@arkTSText@@@
+
+Component Function Description:
+This appears to be an icon for a service or category in the mobile app. It likely represents a recycling or exchange service due to the circular arrows.
+@@@arkTSIcon@@@
+
+Component Function Description:
+This is a text label that likely indicates a popular recommendations section.
+@@@arkTSText@@@
+
+Component Function Description:
+This appears to be an icon for a service or category in the mobile app. It likely represents a strict mobile phone selection or review service.
+@@@arkTSIcon@@@
+
+Component Function Description:
+This appears to be an icon for a service or category in the mobile app. The blue money bag suggests it might be related to selling household items.
+@@@arkTSIcon@@@
+
+Component Function Description:
+This appears to be an icon for a service or category in the mobile app. It likely represents a free service or free delivery due to the green heart.
+@@@arkTSIcon@@@
+
+Component Function Description:
+This appears to be an icon for a service or category in the mobile app. The bear or head silhouette suggests it might be related to a children's service or product line.
+@@@arkTSIcon@@@
+Component Keyword:
+This is an icon representing a money bag, possibly linked to a feature related to selling items.
+@@@arkTSImage@@@
+
+Component Keyword:
+This is an icon representing a clothing item, likely for a clothing recycling or donation feature.
+@@@arkTSImage@@@
+
+Component Keyword:
+This is an icon resembling a handbag, possibly indicating a feature for luxury items.
+@@@arkTSImage@@@
+
+Component Keyword:
+This is an icon showing a reload or recycle symbol, likely linked to a coupon or voucher recycling feature.
+@@@arkTSImage@@@
+
+Component Keyword:
+This is a text label that indicates a section related to "Discount Coupons" in the app.
+@@@arkTSText@@@
+
+Component Keyword:
+This is an icon showing a shoe, possibly indicating a feature for free shoe appraisal or evaluation.
+@@@arkTSImage@@@
+
+Component Keyword:
+This is a text label that indicates a section related to "Outdoor Sports" in the app.
+@@@arkTSText@@@
+
+Component Keyword:
+This is a text label that indicates a section related to "Clothing Accessories" in the app.
+@@@arkTSText@@@
+
+Component Keyword:
+This is an icon resembling a diamond shape inside a circle, possibly indicating a feature related to gems or collectibles.
+@@@arkTSImage@@@
+
+Component Keyword:
+This is an icon showing a car, likely linked to a feature for second-hand or used cars.
+@@@arkTSImage@@@
+Component Keyword:
+This is a text label that indicates the category "家居生活" (Home Life).
+@@@arkTSText@@@
+
+Component Keyword:
+This is a text label that indicates the category "母婴" (Mother and Baby).
+@@@arkTSText@@@
+
+Component Keyword:
+This is an icon and text combination button for the section "闲鱼游戏" (Idle Fish Games) indicating a category for gaming content.
+@@@arkTSButton@@@
+
+Component Keyword:
+This is an icon and text combination button for the section "奢侈品帮卖" (Luxury Goods Consignment) indicating a category for luxury goods.
+@@@arkTSButton@@@
+
+Component Keyword:
+This is a text label that indicates the category "家用电器" (Household Appliances).
+@@@arkTSText@@@
+
+Component Keyword:
+This is an icon and text combination button for the section "图书回收" (Book Recycling) indicating a category for recycling books.
+@@@arkTSButton@@@
+
+Component Keyword:
+This is a text label that indicates the category "美容彩妆" (Beauty and Makeup).
+@@@arkTSText@@@
+
+Component Keyword:
+This is an icon and text combination button for the section "明星玩家" (Celebrity Players) indicating a category for featured or celebrity users.
+@@@arkTSButton@@@
+
+Component Keyword:
+This is an icon that appears to be related to a financial or coupon-like feature, possibly a discount or payment system.
+@@@arkTSIcon@@@
+1. "模玩动漫" (Model Toy Anime) label:
+This is a text label likely indicating a section related to model toys and anime.
+@@@arkTSText@@@
+
+2. "企业" (Enterprise) label:
+This is a text label likely indicating a section related to businesses or enterprises.
+@@@arkTSText@@@
+
+3. Search bar:
+This appears to be a search input field that allows users to enter text for searching content within the app.
+@@@arkTSSearch@@@
+
+4. "闲鱼租房" (Idle Fish Rental) icon:
+This icon likely represents a feature related to renting or housing listings.
+@@@arkTSIcon@@@
+
+5. "游戏装备" (Game Equipment) label:
+This is a text label likely indicating a section related to gaming equipment or accessories.
+@@@arkTSText@@@
+
+6. "数码" (Digital) label:
+This is a text label likely indicating a section related to digital products or electronics.
+@@@arkTSText@@@
+
+7. "拍" (Snap) icon:
+This icon likely represents a feature related to photography or capturing images.
+@@@arkTSIcon@@@
+
+8. Refresh icon:
+This icon likely represents a refresh or update feature within the app.
+@@@arkTSIcon@@@
+
+9. "宠物花卉" (Pet Flowers) label:
+This is a text label likely indicating a section related to pets and flowers.
+@@@arkTSText@@@
+Component Keyword:
+This component likely represents a section for "省心卖" (Sell Easily), which may refer to a feature that simplifies the selling process for users.
+@@@arkTSButton@@@

@@ -1,0 +1,58 @@
+Profile section:
+This section likely displays the user's profile picture and name with a role description. The pencil icon signifies an edit option for the profile.
+@@@ListTile@@@
+
+Left arrow icon:
+This icon is used as a back button, allowing the user to navigate to the previous page in the app.
+@@@IconButton@@@
+
+Gear icon:
+This icon represents settings, allowing the user to access application settings or preferences.
+@@@IconButton@@@
+
+Notification text:
+Indicates the current page or section title, informing the user about their current location within the app.
+@@@Text@@@
+
+Terms & Condition label:
+A text label used for navigation in the app, likely leading to a detailed page about terms and conditions.
+@@@Text@@@
+
+Payment Method tile:
+This list tile is used for navigation, indicating that there's more information available on payment methods or options.
+@@@ListTile@@@
+
+Left arrow icon:
+This icon is a duplicate back button functionality used for navigation purposes.
+@@@IconButton@@@
+
+Change Password tile:
+This list tile, when tapped, directs the user to a screen for changing their password.
+@@@ListTile@@@
+
+Privacy Policy tile:
+This section informs the user about privacy-related policies and likely navigates to further details.
+@@@ListTile@@@
+Terms & Condition label:
+This is a text widget displaying the label "Terms & Condition," indicating the section about the application's terms and conditions.
+@@@Text@@@
+
+Logout button:
+This is a button that provides a logout functionality, allowing users to sign out of the application. It includes an icon and text, suggesting an elevated or text button.
+@@@ElevatedButton@@@
+
+Notification toggle:
+This component consists of a text label "Notification" and a toggle switch, allowing users to enable or disable notifications.
+@@@SwitchListTile@@@
+
+Security option:
+This component includes an icon and text "Security," likely a list tile leading to security settings, with an arrow indicating navigability.
+@@@ListTile@@@
+
+Invite Friend option:
+This component features an icon and text "Invite Friend," suggesting an option to invite others, with an arrow for navigation.
+@@@ListTile@@@
+
+Alert icon:
+This is an icon, potentially within a list tile or a warning context, represented by an exclamation mark within a triangle.
+@@@Icon@@@

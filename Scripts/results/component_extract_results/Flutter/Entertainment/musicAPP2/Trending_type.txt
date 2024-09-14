@@ -1,0 +1,144 @@
+Trending text:
+
+This is a large, bold text widget likely used as a title to indicate a section of trending items.
+@@@Text@@@
+
+Roller Coaster (Single) text:
+
+This text acts as a list item title for a song display, usually a part of a list or column.
+@@@Text@@@
+
+Rounded image (top):
+
+This is a rounded image that could represent an album cover or artist picture, possibly clipped using a specific shape.
+@@@ClipRRect@@@
+
+I'm a Freak (feat. Pitbull) text:
+
+This text is a label for another song item, displayed to identify the song title within a list.
+@@@Text@@@
+
+Rounded image (bottom):
+
+Similar to the previous image, this is likely an artist or album cover using a rounded clip shape.
+@@@ClipRRect@@@
+
+Play icon on image:
+
+This icon overlay on an album or artist image allows users to play the related song or video.
+@@@Icon@@@
+
+Tredning text:
+
+This appears to be a misspelling of "Trending" and is a label for a section, possibly needing correction.
+@@@Text@@@
+
+Image with orange overlay:
+
+A rectangular image likely representing an album or playlist cover with an overlay for design.
+@@@Container@@@
+
+"2020" Dropdown:
+
+This represents a dropdown button used to choose a year. It likely has a list of years as options. The border radius property might be applied for rounded edges.
+@@@DropdownButton@@@
+Pause button:
+This is a button that allows users to pause the currently playing audio or video.
+@@@IconButton@@@
+
+Home icon with label:
+This component acts as a navigational button directing to the home screen, with a home icon and label.
+@@@BottomNavigationBarItem@@@
+
+Dropdown for selecting "Partyholics":
+This component is a dropdown selector, allowing users to choose from a list of options related to music categories or artists.
+@@@DropdownButton@@@
+
+Image with play icon overlay:
+This image likely represents a multimedia item such as a song or video with a play icon, indicating it can be played.
+@@@Stack@@@
+
+Play icon over guitar image:
+This button allows users to play a specific song or video related to the associated image.
+@@@IconButton@@@
+
+Like button (heart shape):
+This button allows users to like or favorite a song or video, usually for later reference.
+@@@IconButton@@@
+
+"Trending Songs" label:
+This is a text widget providing a heading for a section of the application.
+@@@Text@@@
+
+Library icon with label:
+This shows a navigational item for accessing the user's library, including icon representation and a label.
+@@@BottomNavigationBarItem@@@
+
+Play icon over band image:
+This button allows users to play multimedia content associated with the depicted image.
+@@@IconButton@@@
+Unconditionally text:
+This text widget displays the title of a song on the list.
+@@@Text@@@
+
+12,598 Played text:
+This text widget shows the number of times a song has been played.
+@@@Text@@@
+
+Guitar image:
+This image is used to represent a song or album, possibly related to music interest or selection.
+@@@Image@@@
+
+Play button overlay on image:
+This is an icon overlay used to signify that tapping the image will play music.
+@@@Icon@@@
+
+9:41 text (status bar time):
+This text widget displays the current time in the status bar.
+@@@Text@@@
+
+Signal strength icon:
+This icon is used to display the signal strength of a network on the status bar.
+@@@Icon@@@
+Rounded image:
+This is typically an image with rounded corners, often used for profile pictures or album covers.
+@@@ClipRRect@@@
+
+Settings label:
+This is a text element for navigation or setting options, suggesting it leads to a preferences screen.
+@@@Text@@@
+
+Illegal Weapon 2.0 and subtitle:
+Text for a song title and artist, used for displaying media information.
+@@@Column@@@
+
+Wi-Fi icon:
+An icon indicating connectivity status, might be interactive if it allows users to switch Wi-Fi on/off.
+@@@Icon@@@
+
+Rounded black rectangle:
+This could represent a button or a status indicator, typically an interactive UI element.
+@@@Container@@@
+
+Beyonce label:
+Text displaying a song or album name, used prominently in lists.
+@@@Text@@@
+
+Can't Remember To Forget label:
+Another text element for music titles, used for identifying media content.
+@@@Text@@@
+
+Search label:
+Text for navigation, directing users to a search feature in the app.
+@@@Text@@@
+
+Rounded image:
+This is a repeated rounded image element, used for displaying album covers or user avatars.
+@@@ClipRRect@@@
+Album Cover with Play Icon:
+This component features an image with rounded corners and a play icon overlay, indicating it's a playable album cover.
+@@@Stack@@@
+
+Play Count Text:
+This text displays the number of times a track has been played, providing information on the track's popularity.
+@@@Text@@@

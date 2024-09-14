@@ -1,0 +1,105 @@
+Back arrow:
+This is a back navigation button that allows users to return to the previous screen.
+@@@arkTSButton@@@
+
+Chase Bailey subscriber details:
+This text indicates the name of a user and the number of subscribers they have.
+@@@arkTSText@@@
+
+Signal strength icon:
+This icon represents the signal strength of the device.
+@@@arkTSIcon@@@
+
+Find anything!:
+This is a header text that encourages users to use the search functionality.
+@@@arkTSText@@@
+
+Search bar:
+This appears to be a search input field that allows users to enter text for searching content within the app.
+@@@arkTSSearch@@@
+
+Choose a category:
+This text label prompts the user to select a category from the options provided.
+@@@arkTSText@@@
+
+Battery icon:
+This icon likely represents the battery status of the device.
+@@@arkTSIcon@@@
+
+Movie category card:
+This card represents a category option, "Movie," which users can select to see related content.
+@@@arkTSCard@@@
+
+Profile icon and label:
+This is an icon and label for the profile section of the app, allowing users to view and edit their profile details.
+@@@arkTSButton@@@
+Speak button:
+This button likely allows the user to access or enable a feature related to speaking.
+@@@arkTSButton@@@
+
+Vocabulary tab label:
+This tab label corresponds to the "Vocabulary" section of the app.
+@@@arkTSTabBarItem@@@
+
+Cornelia Gordon:
+This text label represents the name of a user, with additional text indicating the number of subscribers.
+@@@arkTSText@@@
+
+Home icon:
+This icon represents the "Home" tab in the navigation bar.
+@@@arkTSIcon@@@
+
+Profile picture:
+This image likely represents a user's profile picture or avatar.
+@@@arkTSAvatar@@@
+
+Search tab icon:
+This icon represents the "Search" tab in the navigation bar, indicating the section for searching content.
+@@@arkTSIcon@@@
+
+Music category:
+This graphical element indicates the "Music" category within the app.
+@@@arkTSCoverView@@@
+
+Sentence button:
+This button labeled "Sentence" is likely used to choose or highlight the "Sentence" category or feature.
+@@@arkTSButton@@@
+
+Back arrow:
+This icon represents a back navigation action, allowing users to go to the previous screen.
+@@@arkTSIcon@@@
+**Search bar:**
+This appears to be a search input field that allows users to enter text for searching content within the app.
+@@@arkTSSearch@@@
+
+**User profile image:**
+This is an avatar or profile image that represents a user's account or identity within the app.
+@@@arkTSImage@@@
+
+**Subtitle text:**
+A text element that provides additional information or a description underneath a main title or heading.
+@@@arkTSText@@@
+
+**Microphone button:**
+A button, likely used to initiate a voice-based function such as voice search or recording.
+@@@arkTSButton@@@
+
+**Category card with headphones icon:**
+Represents a selectable category item within the app, leading to content related to music or audio.
+@@@arkTSCard@@@
+
+**Travel category card:**
+Represents a selectable category item within the app, leading to content related to travel.
+@@@arkTSCard@@@
+
+**Wi-Fi icon:**
+Indicates the status of the Wi-Fi connection or signal strength.
+@@@arkTSIcon@@@
+
+**View all button:**
+A button that, when tapped, will show more items or options in the category labeled "Channel".
+@@@arkTSButton@@@
+
+Component Keyword:
+This appears to be a card component that might be used to display a category option for "Movie" with an image background.
+@@@arkTSCard@@@

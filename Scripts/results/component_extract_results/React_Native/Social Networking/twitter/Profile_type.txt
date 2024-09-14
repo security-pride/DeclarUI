@@ -1,0 +1,97 @@
+Digital Goodies Team - Web & Mobile UI/UX development; Graphics; Illustrations:
+This is a Text component that provides a description of the username and their professional details.
+@@@Text Functional Component@@@
+
+Reply, retweet, like, and share icons:
+These are pressable button components that allow users to interact with the tweet, such as replying, retweeting, liking, and sharing.
+@@@Pressable@@@
+
+Circular logo icon:
+This is an Image component used to represent the user's profile picture or the logo of the application.
+@@@Function Component@@@
+
+Joined September 2018:
+This is a Text component that provides information about the date the user joined the application.
+@@@Text Functional Component@@@
+
+Edit profile button:
+This is a pressable button component that allows the user to edit their profile information.
+@@@Pressable@@@
+
+#prototyping #wireframe #uiux #ux:
+This is a Text component that displays hashtags related to the content of the tweet.
+@@@Text Functional Component@@@
+
+pixsellz.io followed by count:
+This is a combination of Text and Image components displaying the URL of the website, followed by followers and following count.
+@@@Text Functional Component@@@
+
+Video thumbnail with play button:
+This is an Image component that represents a video thumbnail with an icon overlay to indicate play functionality.
+@@@Function Component@@@
+
+109 views:
+This is a Text component that displays the view count of the tweet's attached video.
+@@@Text Functional Component@@@
+Edit profile button:
+This is a Button. It allows users to update their profile information.
+@@@Button@@@
+
+Status bar:
+This is a StatusBar Android and iOS Component. It displays information like the time, battery status, and network connection.
+@@@StatusBar Android and iOS Component@@@
+
+Profile avatar:
+This is an Image Function Component. It displays the user's profile picture.
+@@@Function Component@@@
+
+Feather icon button:
+This is a TouchableOpacity Function Component. It’s used for adding a new tweet.
+@@@TouchableOpacity Function Component@@@
+
+Tweets text:
+This is a Text Functional Component. It indicates the section for tweets.
+@@@Text Functional Component@@@
+
+Back arrow:
+This is a TouchableOpacity Function Component. It navigates users back to the previous screen.
+@@@TouchableOpacity Function Component@@@
+
+Second feather icon button:
+This is also a TouchableOpacity Function Component. It provides another action, potentially related to creating or viewing content.
+@@@TouchableOpacity Function Component@@@
+
+House icon:
+This is a TouchableOpacity Function Component. It presumably navigates users to the home screen or main feed.
+@@@TouchableOpacity Function Component@@@
+
+Profile username text:
+This is a Text Functional Component. It displays the username.
+@@@Text Functional Component@@@
+Likes button:
+This is a Button component. It's used to let users indicate that they like a post or content within the app.
+@@@Button@@@
+
+Magnifying glass icon:
+This is a Pressable component. It acts as a search feature icon allowing users to search within the app.
+@@@Pressable@@@
+
+Bell icon:
+This is a Pressable component. It likely serves as a notification icon to show user alerts and updates.
+@@@Pressable@@@
+
+Time display:
+This is a Text Functional Component. It displays the current time at the top of the application.
+@@@Text Functional Component@@@
+
+Mail icon:
+This is a Pressable component. It probably serves as a messaging or email feature within the app.
+@@@Pressable@@@
+
+Digital Goodies Team text:
+This is a Text Functional Component. It's the title or header text, indicating the name of the user or team being viewed.
+@@@Text Functional Component@@@
+
+Profile image:
+This is a Function Component. It displays the profile picture of the user or team.
+@@@Function Component@@@

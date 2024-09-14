@@ -1,0 +1,368 @@
+ROMOSS logo:
+This is an Image component. It is used to display the logo of the ROMOSS store in the messages section of the app.
+@@@Function Component@@@
+
+Eraser icon:
+This is a Button component. It likely represents a function to clear or delete something within the app.
+@@@Button@@@
+
+Starbucks logo text:
+This is a Text component. It displays the name of the Starbucks official flagship store in the chat list.
+@@@Text Functional Component@@@
+
+Chinese text ("对葡香抹微云"):
+This is a Text component. It displays a message related to a product or service within the app.
+@@@Text Functional Component@@@
+
+Date text ("24/03/25"):
+This is a Text component. It shows the date when a message or notification was received.
+@@@Text Functional Component@@@
+
+Starbucks logo:
+This is an Image component. It is used to display the logo of the Starbucks store in the messages section of the app.
+@@@Function Component@@@
+
+Liangpinpuzi text:
+This is a Text component. It displays the name of the Liangpinpuzi flagship store in the chat list.
+@@@Text Functional Component@@@
+
+YOMIK logo:
+This is an Image component. It is used to display the logo of the YOMIK store in the messages section of the app.
+@@@Function Component@@@
+
+Interaction icon:
+This is a Button component. It likely represents an interactive feature or a section where users can engage with the app or other users.
+@@@Button@@@
+24/03/19 label:
+This is a Text Functional Component. It is likely displaying a date related to a message or notification.
+@@@Text Functional Component@@@
+
+Yellow button with a plus sign icon:
+This is a Button. It likely represents a feature to add or bookmark an item.
+@@@Button@@@
+
+不要错过限. (Do not miss the limit) label:
+This is a Text Functional Component. It is likely a reminder or warning to not miss out on a limited offer or time-sensitive event.
+@@@Text Functional Component@@@
+
+售后 (After-sales) button:
+This is a Button. It likely links to after-sales support or service.
+@@@Button@@@
+
+24/06/13 label:
+This is a Text Functional Component. It is likely displaying a date related to a message or notification.
+@@@Text Functional Component@@@
+
+Jellycat 2024 新生系列焕新上市! (Jellycat 2024 new product line launched) label:
+This is a Text Functional Component. It is likely a promotional message about a newly launched product line.
+@@@Text Functional Component@@@
+
+购物车 (Shopping cart) icon:
+This is a Button. It likely navigates to the user's shopping cart.
+@@@Button@@@
+
+24/04/03 label:
+This is a Text Functional Component. It is likely displaying a date related to a message or notification.
+@@@Text Functional Component@@@
+
+两周前的消息 (Messages from two weeks ago) label:
+This is a Text Functional Component. It indicates the grouping of messages that are from two weeks ago.
+@@@Text Functional Component@@@
+YOMIK label:
+This is a Text Functional Component. It represents a label displaying the brand name "YOMIK" in the app.
+@@@Text Functional Component@@@
+
+"亲," label:
+This is a Text Functional Component. It represents the first character of a text message, likely a greeting in the chat.
+@@@Text Functional Component@@@
+
+"COURTMAN野球帝:新品揭晓,所有等待都值得。" label:
+This is a Text Functional Component. It represents a message describing an update from the "COURTMAN" topic.
+@@@Text Functional Component@@@
+
+"romoss旗舰店" label:
+This is a Text Functional Component. It represents the store name "romoss 旗舰店" in the list of messages.
+@@@Text Functional Component@@@
+
+"千万别错过！" label:
+This is a Text Functional Component. It represents a promotional message urging users not to miss out on a sale.
+@@@Text Functional Component@@@
+
+"周三会员福利日！" label:
+This is a Text Functional Component. It represents a promotional announcement for a special offer available on Wednesdays.
+@@@Text Functional Component@@@
+
+"我的淘宝" button:
+This is a TouchableOpacity Function Component. It represents a menu option in the app's bottom navigation bar, likely to take the user to their Taobao profile or account page.
+@@@TouchableOpacity Function Component@@@
+
+"商品使用说明" label:
+This is a Text Functional Component. It represents a title or label for product usage instructions.
+@@@Text Functional Component@@@
+
+"亲爱的" label:
+This is a Text Functional Component. It represents a term of endearment, likely part of a greeting in a chat message.
+@@@Text Functional Component@@@
+Play button icon:
+This is a TouchableOpacity Function Component. It allows users to navigate to the video or media section of the app.
+@@@TouchableOpacity Function Component@@@
+
+Yellow icon with plus sign:
+This is a TouchableOpacity Function Component. It represents a bookmark or save feature, allowing users to save items or content within the app.
+@@@TouchableOpacity Function Component@@@
+
+Magnifying glass icon:
+This is a TouchableOpacity Function Component. It's typically used to trigger a search function within the app, allowing users to search for content.
+@@@TouchableOpacity Function Component@@@
+
+Date range text:
+This is a Text Functional Component. It displays a certain date range, possibly indicating the period for a promotion or event.
+@@@Text Functional Component@@@
+
+"jELLYCAT 旗舰店" text:
+This is a Text Functional Component. It displays the title or name of a specific store or category within the app.
+@@@Text Functional Component@@@
+
+Jellycat logo:
+This is an Image Function Component. It represents the brand or store logo in the app, helping users to identify it visually.
+@@@Function Component@@@
+
+Blue icon with Chinese character:
+This is an Image Function Component. It likely represents an app feature or category, helping users to navigate or understand the app's functionalities.
+@@@Function Component@@@
+
+Starbucks logo:
+This is an Image Function Component. It represents the Starbucks brand logo, helping users to easily identify the store within the app.
+@@@Function Component@@@
+
+Date text:
+This is a Text Functional Component. It shows the date related to a specific item, possibly indicating the latest update or message from the store.
+@@@Text Functional Component@@@
+
+Bell icon with "提醒" label:
+This is a combination of a Text component with the label "提醒" and an Image component in the form of a bell icon. It's likely a notification or alert button feature.
+@@@Button@@@
+
+Grey circle with the number 5:
+This is a TouchableOpacity Function Component. It could be a button for indicating the number of notifications or unread messages.
+@@@TouchableOpacity Function Component@@@
+
+"24/02/22" date text:
+This is a Text Functional Component. It likely represents the date of a message or event.
+@@@Text Functional Component@@@
+
+Horizontal Chinese text: "龙腾新岁，开工大吉！入会臻享爆品优先购."
+This is a Text Functional Component. It is providing textual information, probably a promotional message or customer information.
+@@@Text Functional Component@@@
+
+Grey circle with the number 3:
+This is a TouchableOpacity Function Component. It could be another indicator for the number of notifications or unread messages.
+@@@TouchableOpacity Function Component@@@
+
+"Starbucks" text label:
+This is a Text Functional Component. It displays the name of a sender or category.
+@@@Text Functional Component@@@
+
+Chinese text: "更多优惠尽在掌握":
+This is a Text Functional Component. It translates to "More discounts at your fingertips" and is likely providing additional information about a promotional category.
+@@@Text Functional Component@@@
+
+Chinese text: "的服务满意吗？":
+This is a Text Functional Component. It translates to "Are you satisfied with the service?" and is likely part of some user feedback or messaging.
+@@@Text Functional Component@@@
+
+Green rectangle with "活动":
+This is a Text Functional Component. This translates to "activity" and is likely a label indicating a promotional activity or event.
+@@@Text Functional Component@@@
+
+
+jELLYCAT 海外旗舰店:
+This is a Text Functional Component. It displays the name of a particular store or brand.
+@@@Text Functional Component@@@
+
+Jellycat logo:
+This is a Function Component. It displays the logo image of the Jellycat brand.
+@@@Function Component@@@
+
+订阅号消息:
+This is a Text Functional Component. It represents the title or section heading for subscription messages.
+@@@Text Functional Component@@@
+
+热门活动抢先看:
+This is a Text Functional Component. It describes a section for hot or popular activities, likely a promotional section.
+@@@Text Functional Component@@@
+
+YOMIK logo:
+This is a Function Component. It shows the logo image for the YOMIK brand.
+@@@Function Component@@@
+
+24/03/13:
+This is a Text Functional Component. It represents a date associated with a particular activity or message.
+@@@Text Functional Component@@@
+
+Calendar logo with flame icon:
+This is a Function Component. It shows an image associated with a calendar and a flame icon, likely indicating a timely or popular event.
+@@@Function Component@@@
+
+交易物流info card:
+This is a View Function Component. It is a container that holds various Text and Image components related to transaction logistics information.
+@@@View Function Component@@@
+
+你感兴趣的宝贝降价啦。:
+This is a Text Functional Component. It informs users about a price drop for items they are interested in.
+@@@Text Functional Component@@@
+Component Keyword:
+The tab icon with home symbol:
+Component Function Description
+This is a Button. It serves as a navigation button to take users to the home screen of the app.
+@@@Button@@@
+
+Component Keyword:
+The tab icon with cart symbol:
+Component Function Description
+This is a Button. It is used for navigating to the shopping cart section of the app.
+@@@Button@@@
+
+Component Keyword:
+The tab icon with the user symbol:
+Component Function Description
+This is a Button. It directs users to their profile or account section within the app.
+@@@Button@@@
+
+Component Keyword:
+The search bar icon:
+Component Function Description
+This is a Button. It allows users to initiate a search functionality within the app.
+@@@Button@@@
+
+Component Keyword:
+The bell icon:
+Component Function Description
+This is a Button. It likely represents a notification feature, allowing users to view recent notifications.
+@@@Button@@@
+
+Component Keyword:
+The 'Messages' tab icon with speech bubble symbol:
+Component Function Description
+This is a Button. It takes users to the messages or chat section of the app.
+@@@Button@@@
+
+Component Keyword:
+The "ROMOSS" text label with light blue background:
+Component Function Description
+This is a Text Functional Component. It displays the name of a store or sender of a message.
+@@@Text Functional Component@@@
+
+Component Keyword:
+Gray separator line below "两周前的消息":
+Component Function Description
+This is a View Function Component. It acts as a divider to separate different sections within the UI.
+@@@View Function Component@@@
+
+Component Keyword:
+White background item with icons and text:
+Component Function Description
+This is a flatlist-simple. It displays a list of messages or notifications with details such as date and other information.
+@@@flatlist-simple@@@
+
+Component Keyword:
+The "两周前的消息" label:
+Component Function Description
+This is a Text Functional Component. It signifies the start of the messages from two weeks ago, serving as a header or title for that section.
+@@@Text Functional Component@@@
+
+Component Keyword:
+Orange background item icon:
+Component Function Description
+This is an Image. It displays an icon representing a store or message sender.
+@@@Function Component@@@
+
+Component Keyword:
+"交易物流" (Logistics):
+Component Function Description
+This is a Button. It likely directs users to a section where they can track or manage their logistics and orders.
+@@@Button@@@
+
+Component Keyword:
+Tab bar icon with speech bubble and dots:
+Component Function Description
+This is a Button. It allows users to access the chat or messaging feature of the app.
+@@@Button@@@
+
+Component Keyword:
+Tab bar with multiple app icons:
+Component Function Description
+This is a flatlist-selectable. It provides a horizontal scrollable list of different app features or settings highlighted with icons.
+@@@flatlist-selectable@@@
+
+Component Keyword:
+Chat bubble icon with plus symbol:
+Component Function Description
+This is a Button. It is likely used to add new messages or compose new chats.
+@@@Button@@@
+
+Component Keyword:
+Interactive icons like bell, arrow, and puzzle piece:
+Component Function Description
+This is a Button. These are likely action icons for different functionalities such as reminder setup, navigating back, and interactive features.
+@@@Button@@@
+
+Component Keyword:
+Scroll through messages section:
+Component Function Description
+This is a ScrollView. It allows users to scroll through the list of messages.
+@@@ScrollView@@@
+
+Component Keyword:
+"热门活动抢先看" (Hot Activities):
+Component Function Description
+This is a Text Functional Component. It represents a promotional message or highlight within the app.
+@@@Text Functional Component@@@
+
+Component Keyword:
+Highlighted text with orange background:
+Component Function Description
+This is a Text Functional Component. It indicates a sale or promotion event with dynamic information.
+@@@Text Functional Component@@@
+
+Component Keyword:
+Unread message count badge:
+Component Function Description
+This is a View Function Component. It shows the number of unread messages within a circular badge.
+@@@View Function Component@@@
+
+Component Keyword:
+Tab bar with navigation icons:
+Component Function Description
+This is a View Function Component. It holds the essential navigational elements at the bottom of the screen.
+@@@View Function Component@@@
+
+Component Keyword:
+Text label with metadata of messages:
+Component Function Description
+This is a Text Functional Component. It displays additional details like date, status, or short descriptions of the messages.
+@@@Text Functional Component@@@
+
+Component Keyword:
+Image of store icons:
+Component Function Description
+This is an Image. It provides visual representation for different stores or brands.
+@@@Function Component@@@
+
+Component Keyword:
+"即将确认收货" (About to Confirm Receipt):
+Component Function Description
+This is a Text Functional Component. It informs users about the status of their deliveries.
+@@@Text Functional Component@@@
+
+Component Keyword:
+Top bar navigation icons and title:
+Component Function Description
+This is a View Function Component. It contains the main navigational elements and title of the screen.
+@@@View Function Component@@@
+
+Component Keyword:
+"立即收货" (Immediate Receipt):
+Component Function Description
+This is a Button. It allows users to confirm their receipt of goods directly.
+@@@Button@@@

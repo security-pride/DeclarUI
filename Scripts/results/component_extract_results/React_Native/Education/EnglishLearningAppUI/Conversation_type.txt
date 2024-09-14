@@ -1,0 +1,54 @@
+WiFi Signal Icon:
+This is likely an icon indicating the WiFi signal strength. It lets users know their current network status.
+@@@Image@@@
+
+Text “25 Gerhold Valley, please.”:
+This is a Text component. It indicates the destination the user wants to go.
+@@@Text Functional Component@@@
+
+Microphone Button:
+This is a Button component. It allows users to activate the recording feature to repeat the text.
+@@@Button@@@
+
+Blank White Space:
+This is a View component. It serves as a container or structure to hold and display other components.
+@@@View Function Component@@@
+
+Repeat Button and Avatar:
+This is a ButtonWithChildComponent. It combines a repeat button with a user avatar to indicate the speaking user.
+@@@Button@@@
+
+Full Text and Button Label:
+This is a View component containing nested Text and Button components. It likely provides the full phrase and functionality to repeat it.
+@@@View Function Component@@@
+
+WiFi Icon:
+This is an Image component indicating network connectivity status.
+@@@Image@@@
+
+Full Text and Button with Avatar:
+This is a View component containing nested Text and Button components. It provides a sentence and functionality for playback with user identification.
+@@@View Function Component@@@
+Repeat button:
+This is a Pressable component. It is a button labeled "REPEAT" with a microphone icon, allowing users to replay an audio clip.
+@@@Pressable@@@
+
+Back arrow icon:
+This is a Pressable component. It serves as a back button, allowing users to navigate to the previous screen.
+@@@Pressable@@@
+
+Screen title "When taking a taxi":
+This is a Text Functional Component. It indicates the context or section of the app that the user is currently viewing.
+@@@Text Functional Component@@@
+
+Listen button:
+This is a Pressable component. It is a button labeled "LISTEN," allowing users to play an audio clip.
+@@@Pressable@@@
+
+Speaking button:
+This is a Pressable component. It is a button labeled "SPEAKING," allowing users to record or start speaking.
+@@@Pressable@@@
+
+Unread notifications badge (white rectangle):
+This is a View Function Component. It possibly indicates new notifications or messages.
+@@@View Function Component@@@

@@ -1,0 +1,104 @@
+Mute icon:
+This is an icon likely representing the mute functionality, which allows users to mute notifications or audio.
+@@@arkTSImage@@@
+
+Back arrow:
+This is a back arrow icon that typically allows users to navigate back to the previous screen.
+@@@arkTSImage@@@
+
+Bottom navigation bar:
+This is a horizontal line, which likely represents part of the bottom navigation bar for indicating current screen or swiping actions.
+@@@arkTSDivider@@@
+
+Call icon:
+This is an icon likely representing the audio call functionality, allowing users to initiate a voice call.
+@@@arkTSImage@@@
+
+Selected status indicator:
+This is a circular dot, which typically indicates a selected or active status within the app.
+@@@arkTSIcon@@@
+
+Thumbs up emoji:
+This is an emoji representation of a thumbs up, likely used for expressing approval or liking something.
+@@@arkTSEmoji@@@
+
+Profile icon:
+This is an icon likely representing the user's profile, with functionalities related to viewing or editing profile information.
+@@@arkTSImage@@@
+
+Profile picture with name:
+This is a profile picture along with a name, likely representing the user's profile information.
+@@@arkTSText@@@
+
+Create group text:
+This is text indicating the functionality to create a new group within the app.
+@@@arkTSText@@@
+Audio icon:
+This icon likely represents a button that allows the user to initiate an audio call.
+@@@arkTSButton@@@
+
+Video icon:
+This icon likely represents a button that allows the user to initiate a video call.
+@@@arkTSButton@@@
+
+Audio icon (again):
+This icon likely represents a button that allows the user to initiate an audio call.
+@@@arkTSButton@@@
+
+User profile icon:
+This icon likely represents a button to access the user's profile.
+@@@arkTSButton@@@
+
+Ignore Messages label:
+This is a text label that refers to a setting to ignore messages from the conversation.
+@@@arkTSText@@@
+
+Ignore icon:
+This icon likely represents a button to ignore messages from the conversation.
+@@@arkTSButton@@@
+
+Notifications label:
+This is a text label that refers to the notification settings.
+@@@arkTSText@@@
+
+Time display (9:41):
+This is a text element that displays the current time.
+@@@arkTSText@@@
+MORE ACTIONS label:
+This is a text label that indicates a section for additional actions the user can perform.
+@@@arkTSText@@@
+
+Wi-Fi icon:
+This icon typically represents a Wi-Fi connection status or settings.
+@@@arkTSImage@@@
+
+Profile picture:
+This appears to be a user's profile picture, likely allowing users to view or update their profile.
+@@@arkTSImage@@@
+
+Search in Conversation label:
+This is a text label indicating the search functionality within a conversation.
+@@@arkTSText@@@
+
+Group icon:
+This icon likely represents a group feature, allowing users to create or manage groups.
+@@@arkTSImage@@@
+
+Signal icon:
+This icon usually indicates the mobile network signal strength.
+@@@arkTSImage@@@
+
+Search icon:
+This is an icon representing the search functionality within the app.
+@@@arkTSImage@@@
+
+Notification bell icon:
+This icon is typically used to represent notifications or alerts within the app.
+@@@arkTSImage@@@
+Block:
+This is a text label that likely indicates an action to block a user.
+@@@arkTSText@@@
+
+PRIVACY:
+This is a text label indicating a section related to privacy settings within the app.
+@@@arkTSText@@@

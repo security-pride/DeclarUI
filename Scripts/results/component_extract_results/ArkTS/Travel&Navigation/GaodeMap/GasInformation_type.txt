@@ -1,0 +1,193 @@
+周边常去油站:
+This is a button that likely leads to frequently visited gas stations nearby. Users can click it to view a list or map of nearby gas stations.
+@@@arkTSButton@@@
+
+高德车服:
+This is a text label displaying the name of a service or product. It serves as a header or title.
+@@@arkTSText@@@
+
+立即加油 (blue background):
+This button allows users to initiate the process of refueling immediately. It probably directs the user to a refueling service or payment page.
+@@@arkTSButton@@@
+
+加油:
+This is a text label that indicates the action of refueling. It may be used as part of the app's navigation or status indicators.
+@@@arkTSText@@@
+
+立即查看:
+This button allows users to view more details or information immediately. It likely redirects to a detailed view upon click.
+@@@arkTSButton@@@
+
+高德车服 (expanded view):
+This is a larger or more prominent text label showing the name of a service or app, used as a main or primary header.
+@@@arkTSText@@@
+
+7.56/L 立即加油:
+This component displays the price per liter for fuel and includes an immediate action button for refueling. Users can see the price and take action simultaneously.
+@@@arkTSButton@@@
+
+7.1公里 芝罘区幸福道街道幸福中路121号:
+This is a text label displaying the distance and address of a location, likely a gas station. It provides navigational or locational information to the user.
+@@@arkTSText@@@
+
+油站价¥7.87/L:
+This text label shows the price per liter at a specific gas station. It provides the user with price information.
+@@@arkTSText@@@
+Component Keyword: 3km 最便宜 (3km Cheapest)
+Component Function Description: This is a text label that indicates the distance and that the associated item is the cheapest option within that distance.
+@@@arkTSText@@@
+
+Component Keyword: 立即加油 (Refuel Now)
+Component Function Description: This is a button that users can press to initiate the refueling process or view more details.
+@@@arkTSButton@@@
+
+Component Keyword: 有卫生间 (Has Restroom)
+Component Function Description: This is a label indicating that the location has restroom facilities.
+@@@arkTSText@@@
+
+Component Keyword: ￥8 领 (Claim ¥8)
+Component Function Description: This is a button that likely allows users to claim a discount coupon worth ¥8.
+@@@arkTSButton@@@
+
+Component Keyword: 烟台交运石油二马路金沟寨加油站 (Yantai Jiaoyun Petroleum Erlulu Jingouzhai Gas Station)
+Component Function Description: This is a text label displaying the name of a gas station along with its address information.
+@@@arkTSText@@@
+
+Component Keyword: 新人立减 (New User Discount)
+Component Function Description: This is a button indicating a discount available to new users.
+@@@arkTSButton@@@
+
+Component Keyword: 油惠卡 (Oil Discount Card)
+Component Function Description: This is a text label indicating a section related to a special discount card for fuel.
+@@@arkTSText@@@
+
+Component Keyword: 送您一份新 (Send You One New)
+Component Function Description: This is a promotional text label indicating a special offer or a gift for the user.
+@@@arkTSText@@@
+
+Component Keyword: 高德红包 (Gaode Red Packet)
+Component Function Description: This is a text label indicating a red packet offer from Gaode, which probably contains discounts or cash rewards.
+@@@arkTSText@@@
+Component Keyword: 
+This image shows a promotional section likely highlighting a specific gas station offering discounts or special rates.
+@@@arkTSImage@@@
+
+Component Keyword: 
+This is a label indicating the promotion details such as "Spend 200 Save 8".
+@@@arkTSText@@@
+
+Component Keyword: 
+"推荐排序" translates to "Recommended Order". It's likely a dropdown or selectable text allowing users to sort gas stations by recommendation.
+@@@arkTSDropdown@@@
+
+Component Keyword: 
+"全部品牌" translates to "All Brands". This is likely a dropdown or selectable text to filter by brand.
+@@@arkTSDropdown@@@
+
+Component Keyword: 
+This component represents an icon with accompanying text for "New User Exclusive". It serves as an entry point for new user offers.
+@@@arkTSIcon@@@
+
+Component Keyword: 
+"加油" translates to "Refuel". This text indicates that the following section is related to refueling or gas stations.
+@@@arkTSText@@@
+
+Component Keyword: 
+"1.2公里" translates to "1.2 km". This text indicates the distance to the gas station.
+@@@arkTSText@@@
+
+Component Keyword: 
+This image shows a promotional section likely highlighting a specific gas station offering discounts or special rates.
+@@@arkTSImage@@@
+
+Component Keyword: 
+"供销石油加油站" translates to "Supply and Marketing Petroleum Gas Station". This is the name of the gas station.
+@@@arkTSText@@@
+
+
+7.56 price label:
+This is a text label displaying the price per liter for a service or product, likely fuel in this context.
+@@@arkTSText@@@
+
+Gift icon with "分享油礼" (Share Oil Gift) label:
+This is an icon with a label, indicating a feature or promotion such as sharing bonuses or gifts.
+@@@arkTSButton@@@
+
+"优惠加油" (Discount Refueling) tag:
+This is a label indicating a discount or promotion for refueling.
+@@@arkTSTag@@@
+
+Partial text "立即加油" (Refuel Now):
+This suggests a call-to-action button encouraging users to initiate refueling.
+@@@arkTSButton@@@
+
+Gas station image with "优惠加油" (Discount Refueling) tag:
+This is an image component showing a gas station, with a tag for promotional offerings.
+@@@arkTSImage@@@
+
+"烟台交运石油二马路金沟寨加油站" (Yantai Jiaoyun Petroleum Second Road Jinjou Gas Station) label:
+This text label indicates the name and location of a specific gas station.
+@@@arkTSText@@@
+
+"巨划算" (Huge Deals) text:
+This is a text component likely highlighting substantial savings or deals on offerings.
+@@@arkTSText@@@
+
+"调价补贴" (Price Adjustment Subsidy) text:
+This text suggests promotional or subsidizing details related to price adjustments.
+@@@arkTSText@@@
+
+"中化石油安顺加油站 (安顺站)" (Sinopec Anshun Gas Station (Anshun Station)) label:
+This label specifies the name of a gas station, likely providing location information.
+@@@arkTSText@@@
+Component Keyword:
+"附近特惠油站" (Nearby Discount Gas Station) label
+This is a label indicating a section for nearby gas stations offering discounts.
+@@@arkTSText@@@
+
+Component Keyword:
+"92#" tag
+This tag likely indicates the fuel type or grade being referenced in the app.
+@@@arkTSText@@@
+
+Component Keyword:
+Unreadable text
+This text is blurred and not readable, likely serving as a subtitle or additional information section.
+@@@arkTSText@@@
+
+Component Keyword:
+"领券中心" (Coupon Center) label
+This label indicates a section of the app where users can access and manage coupons.
+@@@arkTSText@@@
+
+Component Keyword:
+Location description
+This text provides a detailed location for the gas station, including distance and address.
+@@@arkTSText@@@
+
+Component Keyword:
+Gas station image with "优惠加油" (Discount Gas) tag
+This is an image of a gas station with a tag indicating a discount offer.
+@@@arkTSImage@@@
+
+Component Keyword:
+"满 200 减 8" (Spend 200 Save 8) label
+This is a promotional label indicating an offer to save money when spending a certain amount.
+@@@arkTSText@@@
+
+Component Keyword:
+"站超多" label
+This label likely indicates a feature related to the app's services or offerings.
+@@@arkTSText@@@
+
+Component Keyword:
+Gas station image with "优惠加油" (Discount Gas) tag
+This is an image of a gas station with a tag indicating a discount offer.
+@@@arkTSImage@@@
+优惠加油 label:
+This label indicates a discount or promotional offer on fuel. The term translates to "Discount Fueling."
+@@@arkTSText@@@
+
+弘隆石油加油站 text:
+This text specifies the name of a gas station, which translates to "Honglong Petroleum Gas Station." It might be used as a title or heading for a section displaying station information.
+@@@arkTSText@@@

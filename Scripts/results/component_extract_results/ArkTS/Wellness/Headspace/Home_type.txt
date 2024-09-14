@@ -1,0 +1,36 @@
+Start your day:
+This is a text label, likely used as a section heading to introduce the content below it focused on starting the user's day.
+@@@arkTSText@@@
+
+Explore:
+This is a text label, probably for a navigation tab that takes the user to an explore section of the app.
+@@@arkTSText@@@
+
+Your afternoon lift:
+This is a text label that likely introduces content aimed at supporting or uplifting the user in the afternoon.
+@@@arkTSText@@@
+
+Good Evening:
+This is a text label, presumably for greeting the user based on the time of day.
+@@@arkTSText@@@
+
+How to Headspace:
+This is a card component that provides information about a tutorial video for using the Headspace app. It includes a title, media type icon, duration, and a thumbnail.
+@@@arkTSCard@@@
+
+Today:
+This is an icon button, specifically for navigating to the "Today" section of the app. It contains an icon and a text label.
+@@@arkTSIconButton@@@
+
+Clock icon:
+This is an icon, likely representing a history or recently viewed section.
+@@@arkTSIcon@@@
+
+Rooted in the Present:
+This is a card component depicting a mindful activity. It includes a title, media type icon, duration, and a thumbnail.
+@@@arkTSCard@@@
+
+Enjoying the Unknown:
+This is a card component that shows information about a meditation session. It includes a title, media type icon, duration, participant count, and a thumbnail.
+@@@arkTSCard@@@
+I'm unable to view separate component images from the screenshot provided. If you can share each component image individually, I can help identify their types and functionalities.

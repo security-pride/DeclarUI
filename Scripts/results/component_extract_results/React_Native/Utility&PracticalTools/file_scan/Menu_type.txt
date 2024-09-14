@@ -1,0 +1,102 @@
+Star icon:
+This is an Image component. It's likely used as an icon to visually represent the "Upgrade to Premium" option.
+@@@Function Component@@@
+
+Red arrow icon:
+This is an Image component. It appears to be used as an icon or indicator, potentially for navigation or indicating further details.
+@@@Function Component@@@
+
+Battery icon:
+This is an Image component. It likely represents the current battery status of the device.
+@@@Function Component@@@
+
+"Upgrade to premium" label:
+This is a Text component. It labels a menu item, indicating that this option allows users to upgrade to a premium version of the app.
+@@@Text Functional Component@@@
+
+"Signature" label:
+This is a Text component. It labels a menu item, indicating that this option is related to managing digital signatures.
+@@@Text Functional Component@@@
+
+"Help" label:
+This is a Text component. It labels a menu item, offering users assistance or access to a help section.
+@@@Text Functional Component@@@
+
+Thumbs up/down icon:
+This is an Image component. It's likely used as an icon to allow users to rate something within the app.
+@@@Function Component@@@
+
+Shield icon with "Privacy & Policy" label:
+This is a composite component consisting of an Image and a Text component. It indicates a menu item related to privacy policies.
+@@@Function Component@@@
+@@@Text Functional Component@@@
+
+"items" label:
+This is a Text component. It displays contextual information about items in a list or collection.
+@@@Text Functional Component@@@
+Rate us text:
+This is a Text Functional Component. It indicates an option to rate the application.
+@@@Text Functional Component@@@
+
+AI text:
+This is a Text Functional Component. It likely refers to Artificial Intelligence or a related feature in the app.
+@@@Text Functional Component@@@
+
+Question mark icon in circle:
+This is an Image Function Component. It represents the "Help" section of the app, which users can tap for assistance or information.
+@@@Function Component@@@
+
+Double blue rectangle icon:
+This is an Image Function Component. It represents a folder or documents section where users can manage their files.
+@@@Function Component@@@
+
+Broken chat bubble icon with "More" text:
+This is an Image Function Component combined with Text Functional Component. It signifies additional options or information under the "More" section.
+@@@Function Component@@@
+
+Solid circle icon:
+This is an Image Function Component. It typically indicates "Remove ads" or a similar action within the app to manage advertisements.
+@@@Function Component@@@
+
+Battery icon:
+This is an Image Function Component. It represents the battery status indicator in the app.
+@@@Function Component@@@
+
+"thers" text:
+This is a Text Functional Component. It is an incomplete part of the word "others."
+@@@Text Functional Component@@@
+
+Terms & Conditions text:
+This is a Text Functional Component. It represents the "Terms & Conditions" section where users can read the legal guidelines and policies of the app.
+@@@Text Functional Component@@@
+Wi-Fi icon:
+This is a Function Component. It likely represents the status of the Wi-Fi connection.
+@@@Function Component@@@
+
+Network bars icon:
+This is a Function Component. It depicts the current signal strength of the mobile network.
+@@@Function Component@@@
+
+Edit icon (Pen):
+This is a Function Component. It probably indicates an option to edit or add a signature.
+@@@Function Component@@@
+
+Remove ads text:
+This is a Text Functional Component. It signifies a text label describing an option to remove ads from the app.
+@@@Text Functional Component@@@
+
+Refresh icon:
+This is a Function Component. It might be used to refresh or reload data within the app.
+@@@Function Component@@@
+
+Document icon:
+This is a Function Component. It likely represents terms and conditions or privacy policy documents within the app.
+@@@Function Component@@@
+
+Scaney logo:
+This is a Function Component. It represents the branding logo of the Scaney app.
+@@@Function Component@@@
+
+Scanner icon:
+This is a Function Component. It probably indicates a feature related to scanning documents or images.
+@@@Function Component@@@

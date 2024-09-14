@@ -1,0 +1,101 @@
+Your Orders Button:
+This appears to be a button that when pressed navigates to the 'Your Orders' section of the app.
+@@@ElevatedButton@@@
+
+App Header with Logo and Icons:
+This is the top section of the app that contains the logo and icons for notifications and search functionality.
+@@@AppBar@@@
+
+Product Image (Rice):
+This is an image displaying an item, likely used in a product listing or item details section.
+@@@Image@@@
+
+Your Lists Button:
+This appears to be a button that when pressed navigates to the 'Your Lists' section of the app.
+@@@ElevatedButton@@@
+
+Language Selection Flag:
+This is an image used to represent a language selection, in this case, the English language.
+@@@Image@@@
+
+Product Image (Noodles):
+This is an image displaying an item, likely used in a product listing or item details section.
+@@@Image@@@
+
+Product Image (Neck Pillow):
+This is an image displaying an item, likely used in a product listing or item details section.
+@@@Image@@@
+
+Product Image (Pot Noodles Pack):
+This is an image displaying an item, likely used in a product listing or item details section.
+@@@Image@@@
+
+Product Image (Ramen):
+This is an image displaying an item, likely used in a product listing or item details section.
+@@@Image@@@
+Your Account button:
+This appears to be a button that navigates the user to their account details section.
+@@@ElevatedButton@@@
+
+See all label:
+This is a text widget that allows the user to see all items within a category.
+@@@Text@@@
+
+User icon:
+This seems to be an icon representing the user's profile, possibly used for profile navigation.
+@@@CircleAvatar@@@
+
+Highland Spring water image:
+An image displaying the product, in this case, a pack of water bottles.
+@@@Image@@@
+
+Cart icon with item count:
+This is an icon button for the shopping cart, showing the number of items in the cart.
+@@@IconButton@@@
+
+Gloves product image:
+An image displaying the product, in this case, a box of gloves.
+@@@Image@@@
+
+See all label (again):
+This is a text widget that allows the user to see all items within a category.
+@@@Text@@@
+
+Home icon:
+An icon that likely represents the home section of the app.
+@@@Icon@@@
+
+Bubble wrap product image:
+An image displaying the product, in this case, a roll of bubble wrap.
+@@@Image@@@
+EN:
+This represents a language abbreviation widget, indicating the current language selected.
+@@@Text@@@
+
+Buy Again button:
+This appears to be a button that allows users to repeat previous purchases by taking them to the relevant page.
+@@@ElevatedButton@@@
+
+Cart icon:
+This is a cart icon with a badge indicating that there are two items in the user's cart.
+@@@Stack@@@
+
+Andrex Mega Rolls image:
+This is an image widget displaying a product available for purchase.
+@@@Image@@@
+
+Buy again text:
+This is a text displaying a caption header for the "Buy again" section.
+@@@Text@@@
+
+User icon:
+This is a user profile icon used typically for navigating to user account-related pages.
+@@@Icon@@@
+
+Hello, ml296 text:
+A personalized greeting text widget displaying the user's sign-in name.
+@@@Text@@@
+
+Your Orders text:
+This is a text widget displaying the heading for the user's current orders.
+@@@Text@@@

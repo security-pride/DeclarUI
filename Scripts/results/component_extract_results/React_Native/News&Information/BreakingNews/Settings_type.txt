@@ -1,0 +1,114 @@
+Notification Management Label:
+This is a Text component. It likely describes the functionality or category related to managing notifications.
+@@@Text Functional Component@@@
+
+Right Arrow Icon:
+This is a Button component. It's probably used for navigation, allowing users to proceed to another screen or section.
+@@@Button@@@
+
+Login and Join Label:
+This is a Text component. It likely provides information or instructions to the user to log in and join the community.
+@@@Text Functional Component@@@
+
+Phone Icon:
+This is an Image component. It is likely used to visually represent mobile-related features or settings.
+@@@Function Component@@@
+
+Message Image Label:
+This is a Text component. It likely describes a feature related to attaching or viewing images in messages.
+@@@Text Functional Component@@@
+
+Vibration Alert Label:
+This is a Text component. It likely describes a setting related to vibration alerts for notifications or messages.
+@@@Text Functional Component@@@
+
+Right Arrow Icon (Repeated):
+This is a Button component. It is likely used for navigation, allowing users to proceed to another screen or section.
+@@@Button@@@
+
+Notification Sound Icon:
+This is an Image component. It represents a feature or setting for notification sounds.
+@@@Function Component@@@
+
+Change Language Icon:
+This is an Image component. It represents a setting or feature related to changing the language.
+@@@Function Component@@@
+Back arrow icon:
+This is a Button component. It acts as a back navigation button allowing users to go back to the previous screen.
+@@@Button@@@
+
+活题 (Topic) label:
+This is a Text component. It's a label that indicates the topic section in the app.
+@@@Text Functional Component@@@
+
+改变国家 (Change Country) label:
+This is a Text component. It's a label that indicates the option to change the country settings.
+@@@Text Functional Component@@@
+
+设置 (Settings) label:
+This is a Text component. It's a label indicating the settings menu.
+@@@Text Functional Component@@@
+
+注册 (Register) button:
+This is a Button component. It's a button to allow users to register or sign up.
+@@@Button@@@
+
+通知声音 (Notification Sound) label:
+This is a Text component. It's a label indicating the notification sound settings.
+@@@Text Functional Component@@@
+
+Right arrow icon:
+This is a Button component. It likely acts as a navigation button to go to the detailed settings page.
+@@@Button@@@
+
+User profile placeholder image:
+This is an Image component. It's a placeholder image for the user profile picture.
+@@@Function Component@@@
+
+来源管理 (Source Management) label:
+This is a Text component. It's a label indicating the source management section.
+@@@Text Functional Component@@@
+
+3G Mobile network status:
+This is an Image component. It's an icon representing the mobile network status.
+@@@Function Component@@@
+内容 (Content) label:
+This is a Text component. It's a label used to indicate the section of the app relating to content settings.
+@@@Text Functional Component@@@
+
+SD card icon:
+This is an Image component. It represents the stockage or storage settings where users might manage their files or SD card.
+@@@Function Component@@@
+
+Blue bell icon:
+This is an Image component. It likely represents notification or alert settings in the app.
+@@@Function Component@@@
+
+Divider line:
+This is a View component. It is used as a separator to visually divide different sections or elements in the app.
+@@@View Function Component@@@
+
+消息 (Messages) label:
+This is a Text component. It's a label used to indicate the section of the app related to messaging or notifications.
+@@@Text Functional Component@@@
+
+Hexagon network icon:
+This is an Image component. It likely represents settings related to source management or network connections.
+@@@Function Component@@@
+
+Time display ("8:36"):
+This is a Text component. It displays the current time at the top of the app.
+@@@Text Functional Component@@@
+
+Arrow button:
+This is a TouchableOpacity Function Component. It likely allows the user to navigate to different sections of the app when pressed.
+@@@TouchableOpacity Function Component@@@
+
+Switch toggle:
+This is a Switch component. It likely toggles settings on or off, such as notification sounds or vibration alerts, as indicated in the parent screen.
+@@@Switch@@@
+Register Button:
+This is a Button component. It's part of the user interface for account registration. When pressed, it will likely navigate the user to a registration form or submit the filled form if already on it.
+@@@Button@@@
+
+

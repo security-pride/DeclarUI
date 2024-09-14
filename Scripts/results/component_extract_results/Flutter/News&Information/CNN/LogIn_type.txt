@@ -1,0 +1,46 @@
+Sign in button:
+A button that triggers the sign-in action when pressed.
+@@@ElevatedButton@@@
+
+Email address field:
+A text field for the user to enter their email address.
+@@@TextField@@@
+
+Continue with Google button:
+A button that directs the user to sign in using their Google account.
+@@@OutlinedButton@@@
+
+Time and status icons:
+A row that displays the time, network status, and battery status.
+@@@Row@@@
+
+Forgot your password? link:
+A clickable text that navigates the user to password recovery.
+@@@Text@@@
+
+Password field with visibility icon:
+A text field for password entry with an icon to toggle the visibility of the password.
+@@@TextField@@@
+
+Privacy policy and terms of use text:
+A block of text informing the user about terms of use and privacy policy.
+@@@Text@@@
+
+Wi-Fi icon:
+An icon that indicates the network status of the device.
+@@@Icon@@@
+
+Battery icon:
+An icon that indicates the battery level of the device.
+@@@Icon@@@
+Sign in to your CNN account:
+This is a text widget displaying the main heading for the login screen, likely using a larger font size and bold style to indicate its importance.
+@@@Text@@@
+
+Don’t have an account? Sign up:
+This is a combination of a text span and a clickable text link, suggesting navigation to a sign-up screen. The "Sign up" part might be decorated as a clickable link.
+@@@RichText@@@
+
+Black circle icon:
+This represents a custom icon, likely functioning as a decorative element or an attention-drawing symbol, possibly serving no interactive purpose.
+@@@Icon@@@

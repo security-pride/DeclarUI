@@ -1,0 +1,65 @@
+Worker icon:
+This image represents a worker character, likely used in the "Connection failed" illustration to communicate an issue.
+@@@Image@@@
+
+SD card icon:
+This is an icon representing an SD card, which might indicate storage or a save option.
+@@@Icon@@@
+
+"TRY AGAIN" button:
+This is a rectangular button likely used to retry the connection attempt.
+@@@ElevatedButton@@@
+
+Download icon:
+This is an icon indicating a download, possibly related to saving or obtaining content.
+@@@Icon@@@
+
+Connection failed label:
+This text component indicates a failure in connection, providing feedback to the user.
+@@@Text@@@
+
+App logo and "For you" label:
+The app logo and "For you" label are part of the header section, indicating the current page or section.
+@@@AppBar@@@
+
+Cactus icon:
+This image is part of the "Connection failed" illustration, likely used for visual decoration.
+@@@Image@@@
+
+Black circle:
+This image likely represents a placeholder or an indicator, and may be used as an icon or a button.
+@@@Icon@@@
+
+Refresh icon and label:
+This combination of an icon and text provides the functionality to refresh the content or page.
+@@@TextButton@@@
+
+Component Keyword:
+"Me" icon with text
+Component Function Description:
+This component seems to be a navigation item used in a bottom navigation bar, allowing users to access the "Me" or profile section of the app.
+@@@BottomNavigationBarItem@@@
+
+Component Keyword:
+Confused face with wrench
+Component Function Description:
+This component appears to be an illustration used to convey technical difficulty or confusion, likely part of an error message.
+@@@Image@@@
+
+Component Keyword:
+Cactus silhouette
+Component Function Description:
+This component is likely a decorative element used to enhance an error message, suggesting a deserted or disconnected theme.
+@@@Image@@@
+
+Component Keyword:
+Square icon with outline
+Component Function Description:
+This component appears to be an icon, possibly used for navigation or indicating a list or category in the app.
+@@@Icon@@@
+
+Component Keyword:
+Time display "8:56"
+Component Function Description:
+This component likely displays the current time within the status bar of the app interface.
+@@@Text@@@

@@ -1,0 +1,183 @@
+**Component 1:**
+
+Component Keyword:
+"爱藏评级” label
+
+Component Function Description:
+This is a text widget displaying a label, possibly indicating a category or feature within the app related to a rating system. "爱藏评级" translates to "Collection Rating."
+
+@@@Text@@@
+
+---
+
+**Component 2:**
+
+Component Keyword:
+Coin display with price
+
+Component Function Description:
+This widget likely showcases a coin item with an image, price details, and a purchase option. It could be part of a grid or list view for browsing items.
+
+@@@Card@@@
+
+---
+
+**Component 3:**
+
+Component Keyword:
+Coin with "TOP.2" label
+
+Component Function Description:
+An image of a coin with a "TOP.2" label, likely indicating its rank or popularity. This might be a part of a promotional section within the app.
+
+@@@Container@@@
+
+---
+
+**Component 4:**
+
+Component Keyword:
+Coin display with full details
+
+Component Function Description:
+Displays a coin image, name, and price, including percentage change. Used possibly for a featured or ranked item view within a list or grid.
+
+@@@Column@@@
+
+---
+
+**Component 5:**
+
+Component Keyword:
+"陶瓷紫砂" label
+
+Component Function Description:
+Displays the text "陶瓷紫砂," which translates to "Ceramics and Purple Clay." This would be used as a category label or heading within the app.
+
+@@@Text@@@
+
+---
+
+**Component 6:**
+
+Component Keyword:
+Coin with "TOP.1" label
+
+Component Function Description:
+An image widget displays a coin with a "TOP.1" label, indicating its rank. This could be a highlight feature on the app’s home screen or a ranking list.
+
+@@@Container@@@
+
+---
+
+**Component 7:**
+
+Component Keyword:
+Coin display with price change
+
+Component Function Description:
+This component includes an image of a coin, its price, and the percentage change indicator, used in a list or grid format for comparison and selection.
+
+@@@Column@@@
+
+---
+
+**Component 8:**
+
+Component Keyword:
+Coin certification label
+
+Component Function Description:
+Features a label with coin certification details, likely used to inform the user about the coin's authentication and quality.
+
+@@@Row@@@
+Component Keyword:
+"价格" (Price) button
+This component appears to be a button that, when tapped, lets the user sort items based on price, possibly toggling ascending and descending orders.
+@@@TextButton@@@
+
+Component Keyword:
+"¥10起" (From ¥10) price label
+This label presents the starting price for an item, including price information and possibly a discount, providing a visual emphasis.
+@@@Container@@@
+
+Component Keyword:
+"文玩杂项" (Wén wán zá xiàng) label
+This is a text widget used as a title or category label, likely indicating a section for miscellaneous collectible items.
+@@@Text@@@
+
+Component Keyword:
+"▼13.0%" discount indicator
+This component indicates a percentage discount, likely designed with colored background to contrast with the surrounding UI.
+@@@Container@@@
+
+Component Keyword:
+"新品凑历" (Xīn pǐn còu lì) label
+This component is a descriptive text label, possibly indicating a section for new or promotional items.
+@@@Text@@@
+
+Component Keyword:
+Product item with "¥25起" price tag
+This component visually displays a product that includes an image, price, and tag possibly using a rounded corner design.
+@@@Card@@@
+
+Component Keyword:
+"金盾评级" (Jīn dùn píng jí) label
+This is a text widget that acts as a section label, possibly indicating a rating or evaluation section.
+@@@Text@@@
+
+Component Keyword:
+"面值10元 官价7折起" (Face value ¥10 at 30% off) label
+This is a text widget providing detailed pricing information and discounts for a product.
+@@@Column@@@
+
+Component Keyword:
+Image with the dragon motif
+This is an image widget displaying a graphic or illustration, possibly related to a specific item or category.
+@@@Image@@@
+Component Keyword: 保粹评级 (Bao Cui Rating)
+Component Function Description: This is a text widget displaying a rating category or label to help users navigate different rating criteria.
+@@@Text@@@
+
+Component Keyword: 类型 (Type) dropdown
+Component Function Description: This appears to be a dropdown button that allows users to select the type or category of items they are interested in viewing or filtering.
+@@@DropdownButton@@@
+
+Component Keyword: 发布时间 (Release Time) 
+Component Function Description: This is a button that likely triggers a filter or sorts items based on their release time or publication date.
+@@@TextButton@@@
+
+Component Keyword: 6.0% increase indicator
+Component Function Description: This is an indicator showing the percentage increase in price or value. It likely uses text and some visual decoration for the background.
+@@@Container@@@
+
+Component Keyword: Image of blue dragon stamp
+Component Function Description: This is an image representing a collectible item, featured in a displayed list or grid of similar items.
+@@@Image@@@
+
+Component Keyword: 真实性 (.true 桂) label
+Component Function Description: This is a text widget that provides guarantees or specific quality reassurance to the users, likely displayed prominently.
+@@@Text@@@
+
+Component Keyword: 10.1% increase indicator
+Component Function Description: Similar to the previous indicator, this shows a percentage increase but with a different value.
+@@@Container@@@
+
+Component Keyword: Image of antique coin with "TOP.3" label
+Component Function Description: This is an image representing an item in a ranking (Top 3), possibly in a leaderboard or featured items section.
+@@@Image@@@
+
+Component Keyword: 广告横幅 (Advertising Banner)
+Component Function Description: This is a banner advertisement to promote deals, offers, or products, likely placed at the top of the app interface.
+@@@Container@@@
+**Component Keyword:** "市价3折抢!" text  
+**Component Function Description:** This text indicates a promotional offer, likely to attract users with a discount message. The text is styled to grab attention. Translation: "Grab it at 30% of the market price!"  
+@@@Text@@@
+
+**Component Keyword:** ACG label  
+**Component Function Description:** This label appears to display certification or grading information for a collectible item, providing authenticity and details such as serial number and score.  
+@@@Container@@@
+
+**Component Keyword:** Banknote image with price tag  
+**Component Function Description:** This section contains an image of a banknote with a price label, indicating the item for sale along with promotional pricing details. It likely uses an image widget within a card-like structure.  
+@@@Card@@@

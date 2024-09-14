@@ -1,0 +1,74 @@
+Component Keyword:
+This is an image representing a reward offer from Booking.com with text describing the offer details.
+@@@arkTSImage@@@
+
+Component Keyword:
+This is a header with a back button and the title "Reward Offers" indicating the current section of the app.
+@@@arkTSNavigationBar@@@
+
+Component Keyword:
+This likely navigates the user to their account settings or profile page.
+@@@arkTSIconButton@@@
+
+Component Keyword:
+This likely indicates a section for VIP users and provides access to VIP-specific content.
+@@@arkTSButton@@@
+
+Component Keyword:
+This represents a search functionality, allowing users to search for content within the app.
+@@@arkTSInput@@@
+
+Component Keyword:
+This is an image representing a reward offer from Amazon with text describing the offer details.
+@@@arkTSImage@@@
+
+Component Keyword:
+This likely navigates the user to a discovery section where they can explore more content.
+@@@arkTSIconButton@@@
+
+Component Keyword:
+This is an image representing a reward offer from Just Eat with text describing the offer details.
+@@@arkTSImage@@@
+
+Component Keyword:
+This is an image representing a reward offer from Currys with text describing the offer details.
+@@@arkTSImage@@@
+Component Keyword:
+This is a back button typically used to navigate to the previous screen within the app.
+@@@arkTSButton@@@
+
+Component Keyword:
+This is a text label that displays the page title "Reward Offers".
+@@@arkTSText@@@
+
+Component Keyword:
+This is an icon representing different companies or services (Amazon, Currys, Just Eat, Booking.com) often part of a List Item.
+@@@arkTSImage@@@
+
+Component Keyword:
+This is a text label showing the details of the offer, indicating exclusivity and other details.
+@@@arkTSText@@@
+
+Component Keyword:
+This is a text label indicating the type of offer (e.g., "Online Reward").
+@@@arkTSText@@@
+
+Component Keyword:
+This is a text label showing the expiration date of the offer.
+@@@arkTSText@@@
+
+Component Keyword:
+This is a bottom navigation bar used to navigate across main sections of the app (Discover, Search, VIP, Account).
+@@@arkTSNavigationBar@@@
+
+Component Keyword:
+This is an icon within the navigation bar for accessing the search function.
+@@@arkTSIcon@@@
+
+Component Keyword:
+This is an icon with a "NEW" badge in the navigation bar, indicating recently added or updated content in the VIP section.
+@@@arkTSIcon@@@
+
+Component Keyword:
+This is an icon in the navigation bar used to access the user's account.
+@@@arkTSIcon@@@

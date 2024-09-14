@@ -1,0 +1,87 @@
+**Featured badge:**
+
+This likely acts as a label or tag to highlight featured content within the app.
+@@@Container@@@
+
+---
+
+**Play button with lock icon:**
+
+This is a button that likely initiates playing a workout video, but appears to be locked, indicating that access may be restricted or require an upgrade.
+@@@ElevatedButton@@@
+
+---
+
+**Easy Evening Stretch title:**
+
+The title of a workout routine, prominently displayed to inform users of the current workout's name.
+@@@Text@@@
+
+---
+
+**Explore icon with label:**
+
+This component is part of the navigation bar, allowing users to explore different sections within the app.
+@@@BottomNavigationBarItem@@@
+
+---
+
+**Image of a person in workout clothes (1st image):**
+
+Represents a workout program or session, displayed as a thumbnail in a list of available workouts.
+@@@ClipRRect@@@
+
+---
+
+**Image of a person stretching (2nd image):**
+
+Another workout session thumbnail, typically part of a list or carousel of workouts.
+@@@ClipRRect@@@
+
+---
+
+**Featured tab with underline:**
+
+Indicates the currently selected tab in a tab bar, used to filter or categorize content within the app.
+@@@TabBar@@@
+
+---
+
+**Workout description with lock icon:**
+
+Text describing an upcoming or locked workout session, indicating duration and workout type, alongside a lock icon.
+@@@Row@@@
+
+---
+
+**List of workouts with icons and descriptions:**
+
+Displays a list of available workout sessions with locks, indicating restricted access or premium content.
+@@@ListView@@@
+Recent:
+This is a text widget that likely labels a section displaying recently accessed or viewed items.
+@@@Text@@@
+
+Today button:
+This is an icon and label combined, potentially used as a navigation button to direct users to a "Today" screen or section.
+@@@BottomNavigationBarItem@@@
+
+User profile icon:
+This icon with a label is likely used to represent the user's profile section.
+@@@BottomNavigationBarItem@@@
+
+Workout image:
+This is an image widget showing a workout activity, possibly used as a preview thumbnail for a workout video.
+@@@Image@@@
+
+Workout label:
+This text widget describes the type and duration of a workout, providing quick information for users.
+@@@Text@@@
+
+Main workout image:
+This is an Image widget used as a central visual element showcasing the main activity, with shapes possibly indicating design intentions.
+@@@ClipRRect@@@
+
+Workout thumbnail:
+This is an Image widget used as a preview for a specific workout session in a list.
+@@@Image@@@

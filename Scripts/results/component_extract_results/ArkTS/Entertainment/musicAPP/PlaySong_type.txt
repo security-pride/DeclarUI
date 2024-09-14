@@ -1,0 +1,81 @@
+Now Playing label:
+This text label shows the current state of the app, indicating that music is currently playing.
+@@@arkTSText@@@
+
+Home:
+This menu item likely takes the user back to the home screen of the app.
+@@@arkTSButton@@@
+
+Playlist:
+This menu item allows users to access their playlist of selected tracks.
+@@@arkTSButton@@@
+
+Now Playing:
+This text label shows the section of the app where users can see the music currently being played.
+@@@arkTSText@@@
+
+Equalizer animation:
+This visual component represents the equalizer graphic indicating the current music playback's levels and frequencies.
+@@@arkTSImage@@@
+
+Shuffle:
+This button allows users to toggle the shuffle mode for playing tracks in a random order.
+@@@arkTSButton@@@
+
+Album cover with progress bar:
+This visual component combines the album artwork with a circular progress bar indicating the playback time.
+@@@arkTSImage@@@
+
+Michael Jackson:
+This text label displays the name of the artist of the currently playing track.
+@@@arkTSText@@@
+
+Wi-Fi indicator:
+This icon shows the status of the Wi-Fi connection.
+@@@arkTSIcon@@@
+
+Play button:
+This button controls the playback of the music, typically used to play and pause the track.
+@@@arkTSButton@@@
+Album cover:
+This appears to be an image showing the album cover artwork, typically used to identify the currently playing song or album.
+@@@arkTSImage@@@
+
+Progress bar:
+This is a progress bar component that likely indicates the current playback position of the media.
+@@@arkTSProgressBar@@@
+
+Signal strength icon:
+This icon represents the current wireless signal strength, commonly found in the status bar of a mobile device.
+@@@arkTSIcon@@@
+
+Favourites icon:
+This icon indicates a "favorites" functionality, allowing users to add or view their favorite items.
+@@@arkTSIcon@@@
+
+Time display:
+This component shows the current time, usually found in the mobile device's status bar.
+@@@arkTSText@@@
+
+Repeat icon:
+This icon suggests a "repeat" feature for media playback, enabling the user to loop the current song or playlist.
+@@@arkTSIcon@@@
+
+Album text label:
+This text label provides information about the album, such as the album's name, appearing beneath the song title.
+@@@arkTSText@@@
+
+Songs text label:
+This label is likely part of the navigation or tab bar, indicating a section for browsing songs.
+@@@arkTSText@@@
+
+Next button icon:
+This button icon allows users to skip to the next track in a media playback application.
+@@@arkTSButton@@@
+EQ button:
+This button likely opens the equalizer settings, allowing users to adjust audio frequencies for a customized listening experience.
+@@@arkTSButton@@@
+
+Settings label:
+This text label serves as a navigation option for users to access the app's settings or preferences page.
+@@@arkTSText@@@

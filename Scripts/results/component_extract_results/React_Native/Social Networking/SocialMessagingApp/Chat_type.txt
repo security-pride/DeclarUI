@@ -1,0 +1,103 @@
+AB icon:
+This is a Function Component. It represents a user avatar, likely used to display the profile image or initials of a user in the chat header.
+@@@Function Component@@@
+
+Wifi icon:
+This is a Function Component. It indicates the Wi-Fi status or connection strength, typically found in the status bar of mobile applications.
+@@@Function Component@@@
+
+9:36 timestamp:
+This is a Text Functional Component. It shows the time a message was sent in the chat.
+@@@Text Functional Component@@@
+
+You’re welcome! message:
+This is a Text Functional Component. It displays the content of a chat message.
+@@@Text Functional Component@@@
+
+9:32 timestamp:
+This is a Text Functional Component. It shows the time a message was sent in the chat.
+@@@Text Functional Component@@@
+
+9:30 timestamp:
+This is a Text Functional Component. It shows the time a message was sent in the chat.
+@@@Text Functional Component@@@
+
+9:34 timestamp:
+This is a Text Functional Component. It shows the time a message was sent in the chat.
+@@@Text Functional Component@@@
+
+Thank u so much Antonio! Glad to hear that :) message:
+This is a Text Functional Component. It displays the content of a chat message.
+@@@Text Functional Component@@@
+
+9:39 timestamp:
+This is a Text Functional Component. It shows the time a message was sent in the chat.
+@@@Text Functional Component@@@
+Hammer icon:
+This is an Image functional component. It appears to be a small tool icon, likely for accessing additional settings or functionalities in the app.
+@@@Function Component@@@
+
+Battery icon:
+This is an Image functional component, representing the device's battery status. It displays the battery charge level in the status bar.
+@@@Function Component@@@
+
+Message bubble:
+This is a View Function Component. It serves as a container for individual message texts within a chat UI, allowing for proper message alignment and styling.
+@@@View Function Component@@@
+
+Message text:
+This is a Text Functional Component. It displays the content of a chat message sent by the user or received from a contact.
+@@@Text Functional Component@@@
+
+Message timestamp:
+This is a Text Functional Component. It displays the time a message was sent or received in a chat.
+@@@Text Functional Component@@@
+
+User's name:
+This is a Text Functional Component. It shows the name of the contact in the chat header.
+@@@Text Functional Component@@@
+
+Microphone icon:
+This is an Image functional component. It represents the functionality for sending voice messages or starting a voice recording.
+@@@Function Component@@@
+
+Signal strength indicator:
+This is an Image functional component. It shows the signal strength of the mobile network in the status bar.
+@@@Function Component@@@
+
+Profile picture:
+This is an Image functional component, used for displaying the user's profile picture or avatar in the chat header.
+@@@Function Component@@@
+
+Message text:
+This is a Text Functional Component. It displays the content of a chat message sent by the user or received from a contact.
+@@@Text Functional Component@@@
+Smiley face icon:
+This is a Button. It opens a menu or emoji picker for the user to insert smileys and emojis into their message.
+@@@Button@@@
+
+Paperclip icon:
+This is a Button. It allows users to attach files or media to their message.
+@@@Button@@@
+
+Plus icon:
+This is a Button. It likely opens additional options for the user to choose from, such as adding more attachments or media types.
+@@@Button@@@
+
+9:35 timestamp:
+This is a Text Functional Component. It displays the timestamp for when a message was sent or received.
+@@@Text Functional Component@@@
+
+Voice message component:
+This is a View Function Component. It contains the waveform of the voice message and the duration, allowing users to play back the audio.
+@@@View Function Component@@@
+
+Black horizontal line:
+This is a View Function Component. It serves as a divider between different messages or sections within the chat.
+@@@View Function Component@@@
+
+Message text:
+This is a Text Functional Component. It displays the content of a text message sent by the user or received from another user.
+@@@Text Functional Component@@@
+
+

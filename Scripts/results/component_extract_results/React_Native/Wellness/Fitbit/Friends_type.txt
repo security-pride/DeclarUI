@@ -1,0 +1,62 @@
+好朋友 Label:
+This is a Text Functional Component. It's used as a title on the screen to indicate the "Friends" section.
+@@@Text Functional Component@@@
+
+发现 Icon:
+This is a Function Component. It likely represents the "Discover" section of the application.
+@@@Function Component@@@
+
+人头 Silhouette Icon:
+This is a Function Component. It likely represents a user profile or a contact icon.
+@@@Function Component@@@
+
+添加好友 Button:
+This is a Button component. It likely allows users to add a new friend.
+@@@Button@@@
+
+Premium Label:
+This is a Text Functional Component. It's used as a label for the "Premium" section of the app.
+@@@Text Functional Component@@@
+
+Dog and Seesaw Illustration:
+This is a Function Component. It's an image used to visually enhance the Friends screen and provide context.
+@@@Function Component@@@
+
+人头 Yellow Silhouette Icon:
+This is a Function Component. It likely represents a highlighted or selected user profile icon.
+@@@Function Component@@@
+
+Dotted Icon:
+This is a Function Component. It likely indicates some form of status or connectivity, possibly relating to health or activity tracking.
+@@@Function Component@@@
+
+Silhouette of a Woman Icon:
+This is a Function Component. It likely represents a female user profile or contact icon.
+@@@Function Component@@@
+1. Back icon:
+   This is a Function component. It's commonly used in navigation headers to allow users to return to the previous screen.
+   @@@Function Component@@@
+
+2. User icon with plus sign:
+   This is a Button with an icon, represented as a Pressable component. It's used for adding new friends or contacts in the app.
+   @@@Pressable@@@
+
+3. Plus icon and text "添加好友" (Add Friend):
+   This is a Button with text, specifically a TouchablesOpacity Function Component. It's used for initiating the process of adding new friends in the app.
+   @@@TouchableOpacity Function Component@@@
+
+4. Illustration of a dog with binoculars:
+   This is an Image Function Component. It serves as a visual aid or decorative element within the app, likely to make the interface more engaging.
+   @@@Function Component@@@
+
+5. Text "好 友" (Friends):
+   This is a Text Functional Component. It represents a heading or title indicating that the user is in the friends section of the app.
+   @@@Text Functional Component@@@
+
+6. Text "和朋友一起继续向前！记录进度、发送鼓励，并通过友好竞赛让自己更有活力。":
+   This is a Text Functional Component. It explains the purpose of the friends feature, which includes tracking progress, sending encouragement, and engaging in friendly competition.
+   @@@Text Functional Component@@@
+
+7. Navigation bar icons: "发现" (Discover), "今天" (Today), "好友" (Friends), "Premium":
+   These are individual TouchableHighlight components representing tabs or navigation options for different sections of the app.
+   @@@TouchableHighlight@@@

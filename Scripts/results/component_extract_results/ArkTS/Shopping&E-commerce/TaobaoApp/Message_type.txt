@@ -1,0 +1,211 @@
+Component Keyword: ROMOSS logo:
+This is an image component representing the logo of the ROMOSS brand.
+@@@arkTSImage@@@
+
+Component Keyword: Delete icon:
+This is an icon that likely represents a delete or erase functionality.
+@@@arkTSIcon@@@
+
+Component Keyword: Starbucks text:
+This is a text label displaying the name of a store, in this case, Starbucks.
+@@@arkTSText@@@
+
+Component Keyword: Chinese text:
+This is a text label displaying a Chinese sentence or phrase.
+@@@arkTSText@@@
+
+Component Keyword: Date:
+This is a text label representing a date, formatted as year/month/day.
+@@@arkTSText@@@
+
+Component Keyword: Starbucks logo:
+This is an image component representing the logo of the Starbucks brand.
+@@@arkTSImage@@@
+
+Component Keyword: Good shop text:
+This is a text label displaying the name of a store, in this case, Good Shop.
+@@@arkTSText@@@
+
+Component Keyword: YOMIK logo:
+This is an image component representing the logo of the YOMIK brand.
+@@@arkTSImage@@@
+
+Component Keyword: Interaction icon:
+This is an icon that represents interaction functionality within the app.
+@@@arkTSIcon@@@
+Date label (24/03/19):
+This is a text label displaying a specific date format, typically used for timestamps or scheduling information.
+@@@arkTSText@@@
+
+Bookmark icon:
+This icon likely functions as a bookmark or save button, allowing users to save content for later reference.
+@@@arkTSButton@@@
+
+"不要错过限" (Don't miss out) text:
+This text likely serves as an alert or reminder for users not to miss a deadline or opportunity. Translation: Don't miss out.
+@@@arkTSText@@@
+
+Backward navigation button:
+This icon likely serves as a back button, used for navigating to a previous screen or section in the app.
+@@@arkTSButton@@@
+
+Date label (24/06/13):
+This is another text label displaying a specific date format, consistent with the rest of the app's design.
+@@@arkTSText@@@
+
+Product announcement text:
+This text appears to be a product announcement or promotional message, informing users about a new product lineup.
+@@@arkTSText@@@
+
+Shopping cart icon:
+This icon most likely represents a shopping cart, allowing users to view or manage their selected purchases.
+@@@arkTSButton@@@
+
+Date label (24/04/03):
+This is another instance of a date label, maintaining the same format as the others.
+@@@arkTSText@@@
+
+"两周前的消息" (Messages from two weeks ago) text:
+This is a section header indicating that the messages listed are from two weeks ago. Translation: Messages from two weeks ago.
+@@@arkTSText@@@
+亲:
+This is a character that appears to be part of a text string or message.
+@@@arkTSText@@@
+
+YOMIK:
+This text likely represents a brand or company name.
+@@@arkTSText@@@
+
+COURTMAN野球帝:新品揭晓,所有等待都值得。:
+This is a message or notification text offering information in both English and Chinese.
+@@@arkTSText@@@
+
+romoss 旗舰店:
+This is the name of a store or flagship location.
+@@@arkTSText@@@
+
+千万别错过！:
+An exhortation text, translated as "Don't miss it!" It implies urgency or importance.
+@@@arkTSText@@@
+
+周三会员福利日！:
+This text mentions a "Wednesday Member's Benefit Day," indicating a special offer or event.
+@@@arkTSText@@@
+
+我的淘宝:
+Labeled "My Taobao," this is likely a tab or section for personal account management.
+@@@arkTSTab@@@
+
+商品使用说明:
+Translated as "Product Instructions," this text probably corresponds to a section for product details or guides.
+@@@arkTSText@@@
+
+亲爱的:
+A term of endearment, translated as "Dear" or "Beloved," typically used in greetings or casual messages.
+@@@arkTSText@@@
+"逛逛" (Explore) button:
+This component is likely a button that navigates users to an "Explore" section for discovering content or products.
+@@@arkTSButton@@@
+
+Bookmark icon:
+This component seems to be an icon indicating a bookmarking or saving function, allowing users to save items for later.
+@@@arkTSIcon@@@
+
+Search icon:
+This is a search icon that likely opens a search bar for users to input queries and search through the app's content.
+@@@arkTSIcon@@@
+
+Date Range "6.1-8.31":
+This component shows a range of dates likely used for event timelines or availability periods.
+@@@arkTSText@@@
+
+"JELLYCAT 旗舰店" (JELLYCAT Flagship Store) label:
+This is a text label representing a store name, possibly part of a list of stores or offers.
+@@@arkTSText@@@
+
+JELLYCAT logo:
+This component appears to be an image or icon for branding, representing the JELLYCAT store within the app.
+@@@arkTSImage@@@
+
+Store icon with character:
+This appears to be an icon related to a specific store or feature, identified by the character branding.
+@@@arkTSImage@@@
+
+Starbucks logo:
+This component is likely a branded image or icon for the Starbucks store, serving a similar purpose as other store logos.
+@@@arkTSImage@@@
+
+Date "24/07/03":
+This component shows a specific date, likely indicating when a message was received or an event occurred.
+@@@arkTSText@@@
+Component Keyword:
+This is a badge that indicates a count of items, such as notifications or messages.
+@@@arkTSBadge@@@
+
+Component Keyword:
+This is a date label that likely shows the date of an event or message.
+@@@arkTSText@@@
+
+Component Keyword:
+This is an icon button labeled "提醒" (Remind) that likely triggers a notification or reminder function.
+@@@arkTSButton@@@
+
+Component Keyword:
+This is a text label displaying a promotional message or additional information.
+@@@arkTSText@@@
+
+Component Keyword:
+This is a badge that indicates a count of items, such as notifications or messages.
+@@@arkTSBadge@@@
+
+Component Keyword:
+This is a text label displaying the name or title of a brand or item, such as "Starbucks."
+@@@arkTSText@@@
+
+Component Keyword:
+This is a text label conveying promotional information or offers to users.
+@@@arkTSText@@@
+
+Component Keyword:
+This is a text label asking a question about customer satisfaction.
+@@@arkTSText@@@
+
+Component Keyword:
+This is a button labeled "活动" (Activity/Events) that likely links to specific event details.
+@@@arkTSButton@@@
+JELLYCAT海外旗舰店 label:
+This is a text label that indicates the name of a store, likely used to display information about a specific shop or brand.
+@@@arkTSText@@@
+
+JELLYCAT logo:
+This component is an image logo, typically representing a brand or company, used for visual identification.
+@@@arkTSImage@@@
+
+订阅号消息 label:
+This is a text label that likely indicates a section for subscription messages or notifications within the app.
+@@@arkTSText@@@
+
+热门活动抢先看 label:
+This is a text label that translates to "Hot Activities to Preview," likely used to highlight promotions or important content.
+@@@arkTSText@@@
+
+YOMIK logo:
+This component is an image logo, typically representing a brand or company, used for visual identification.
+@@@arkTSImage@@@
+
+Date label (24/03/13):
+This is a text label that displays a date, likely used to indicate when an event or message was sent or received.
+@@@arkTSText@@@
+
+Calendar and fire icon:
+This component is a combination of an image and icon, likely used to represent a calendar event or reminder with a 'hot' or 'popular' status.
+@@@arkTSImage@@@
+
+交易物流 ("Transaction and Logistics") section:
+This component appears to be a complex section with text and an image, likely providing information about shipment or delivery status.
+@@@arkTSComplex@@@
+
+Text label ("你感兴趣的宝贝降价啦"):
+This is a text label that translates to "The item you're interested in has dropped in price," likely used for notifications about price changes.
+@@@arkTSText@@@
+I'm ready to proceed with evaluating each component image. Please upload the component images that you want to analyze.

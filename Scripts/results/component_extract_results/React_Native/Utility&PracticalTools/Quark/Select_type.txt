@@ -1,0 +1,62 @@
+65 icon:
+This is likely an Image component. It displays the battery percentage.
+@@@Image@@@
+
+Scroll indicator:
+This is a ScrollView component. It indicates the scrollable nature of the section showing multiple items.
+@@@ScrollView@@@
+
+常用 label:
+This is a Text Functional Component. It serves as a section header indicating commonly used applications or functions.
+@@@Text Functional Component@@@
+
+搜索栏 (Search bar):
+This is a TextInput within a functional component. It allows users to input a URL or website name for search purposes.
+@@@TextInput@@@
+
+Icon with label @ 腾讯:
+This is an Image component with a Text Functional Component. It represents a shortcut to the Tencent application.
+@@@Image@@@
+
+Update and Close icons:
+These are likely Button components within a View component. The left icon might be for refreshing the page, and the right icon for closing the dialog or search bar.
+@@@Button@@@
+
+全网热点实时更新 label:
+This is a Text Functional Component. It indicates the section of trending or real-time updates across the network.
+@@@Text Functional Component@@@
+
+Icon with label @ 书签:
+This is an Image component with a Text Functional Component. It represents a shortcut to the bookmark section.
+@@@Image@@@
+
+Icon with label @ 微博:
+This is an Image component with a Text Functional Component. It represents a shortcut to the Weibo application.
+@@@Image@@@
+1. Time display ("11:30"):
+   This is a Text component. It simply displays the current time in the status bar.
+   @@@Text Functional Component@@@
+
+2. Signal bar icon:
+   This is an Image component. It represents the signal strength and is displayed in the status bar.
+   @@@Function Component@@@
+
+3. "新浪网" icon:
+   This is a Function Component for an app icon. It represents a quick access button to the Sina website application.
+   @@@Function Component@@@
+
+4. Wi-Fi icon:
+   This is an Image component. It displays the Wi-Fi connection strength in the status bar.
+   @@@Function Component@@@
+
+5. "精选" label:
+   This is a Text component. It serves as a header or category label in the app, indicating a selection or featured section.
+   @@@Text Functional Component@@@
+
+6. Browser widget (search bar with placeholder text and a search icon):
+   This is a View Function Component that combines several components. It includes a TextInput for the user to enter a web address or name and a Search Button for initiating the search.
+   @@@View Function Component@@@
+
+7. Generic app icon (purple with a browser window):
+   This is a Function Component that represents an application icon, likely for a frequently used app.
+   @@@Function Component@@@

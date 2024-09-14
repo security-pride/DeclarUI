@@ -1,0 +1,89 @@
+Biology course card:
+This is a View Function Component. It is likely used to display the details of the Biology course card, including the title, description, duration, rating, and other relevant information.
+@@@View Function Component@@@
+
+Marketing course card icon:
+This is a Function Component. It represents an icon that visually identifies the Marketing course.
+@@@Function Component@@@
+
+Programming course card icon:
+This is a Function Component. It represents an icon that visually identifies the Programming course.
+@@@Function Component@@@
+
+Courses label:
+This is a Text Functional Component. It serves as a heading or label to indicate the section where different courses are listed.
+@@@Text Functional Component@@@
+
+Programming course card:
+This is a View Function Component. It is likely used to display the details of the Programming course card, including the title, description, duration, rating, and other relevant information.
+@@@View Function Component@@@
+
+Signal bars:
+This is a StatusBar Android and iOS Component. It indicates the signal strength of the device.
+@@@StatusBar Android and iOS Component@@@
+
+Time display (19:27):
+This is a StatusBar Android and iOS Component. It displays the current time on the device.
+@@@StatusBar Android and iOS Component@@@
+
+Category label:
+This is a Text Functional Component. It serves as a title or label to indicate the Category section in the app.
+@@@Text Functional Component@@@
+
+Marketing course card:
+This is a View Function Component. It is likely used to display the details of the Marketing course card, including the title, description, duration, rating, and other relevant information.
+@@@View Function Component@@@
+Book icon with text:
+This component contains an icon and text. It could be used to represent a category or featured course section in the app.
+@@@View Function Component@@@
+
+3D Animation button:
+This is a Text component placed inside a rounded View or Button component. It is used for users to filter by the "3D Animation" category.
+@@@Text Functional Component@@@
+
+All Course button:
+This is a Button component generally used for navigation or executing certain commands or filtering courses to show "All Courses".
+@@@Button@@@
+
+Course card:
+This is a combination of multiple components including View for layout, Image for thumbnail, Text for the course title and description, along with icons and rating elements.
+@@@View Function Component@@@
+
+Back arrow button:
+This is a Button component used for navigation to go back to the previous screen.
+@@@Button@@@
+
+Wifi icon:
+This is an Image component, representing the Wifi status or a wireless feature.
+@@@Image Component@@@
+
+Button with three dots:
+This is a Button or TouchableOpacity component, generally used for displaying more options or a menu.
+@@@TouchableOpacity Function Component@@@
+
+UI Design filter button:
+This is a Text component inside a rounded View or Button component, used for filtering courses by the "UI Design" category.
+@@@Text Functional Component@@@
+
+See All link:
+This is a Text component that allows users to navigate to view all courses in the "Courses" section.
+@@@Text Functional Component@@@
+
+Book icon with "Knowledge is a window to the world" text:
+This component includes both an Image and Text Functional Component. It serves as a featured banner or promotional section at the top.
+@@@View Function Component@@@
+
+Program duration and rating:
+These components contain icon and text layouts to display the course duration and rating within the course card.
+@@@View Function Component@@@
+Bell icon with notification dot:
+This is a Function Component used to display notifications to the user. When there are new notifications, the dot indicator will appear.
+@@@Function Component@@@
+
+"UX Design" label:
+This is a Text Functional Component. It represents a category of courses separated by type and serves as a selectable item.
+@@@Text Functional Component@@@
+
+Marketing course card:
+This is a View Function Component. It is part of the course list, which includes an image, course title, brief description, and other information about the course.
+@@@View Function Component@@@

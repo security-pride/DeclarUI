@@ -1,0 +1,101 @@
+Pictureless Mode:
+This text label indicates a feature mode within the app. It likely allows users to enable or disable a mode that functions without pictures.
+@@@arkTSText@@@
+
+Battery Icon:
+This icon likely indicates the current battery status of the device.
+@@@arkTSIcon@@@
+
+Signal Icon:
+This icon likely represents the network or signal strength of the device.
+@@@arkTSIcon@@@
+
+0 B saved:
+This indicates data savings functionality, showing the amount of data saved, in this case being zero bytes.
+@@@arkTSText@@@
+
+End-user license agreement:
+This text label likely refers to a section or document detailing legal terms for using the app.
+@@@arkTSText@@@
+
+Auto:
+This text likely indicates that a feature is set to operate automatically.
+@@@arkTSText@@@
+
+Me:
+This icon and label likely represent a navigation or profile tab to access the user's profile or settings.
+@@@arkTSButton@@@
+
+Toggle Switch:
+This component is a toggle switch, used to turn a setting on or off.
+@@@arkTSSwitch@@@
+
+Messaging settings:
+This text label describes a section or settings related to messaging functionalities in the app.
+@@@arkTSText@@@
+Reader mode:
+This is likely a label indicating a feature or mode that enhances the reading experience within the app.
+@@@arkTSText@@@
+
+Terms:
+This is a section header label, likely introducing a group of related options or settings about terms and agreements.
+@@@arkTSText@@@
+
+Toggle switch:
+This component appears to be a toggle switch, used to enable or disable a specific feature within the app.
+@@@arkTSSwitch@@@
+
+Settings label:
+This is a header or title label for the settings page, indicating the current section of the app.
+@@@arkTSText@@@
+
+Clear cache:
+This is a text label indicating an option to clear cached data, likely improving app performance or freeing up space.
+@@@arkTSText@@@
+
+Home icon:
+This is a navigation icon, probably used on a tab bar, to switch to the home view of the app.
+@@@arkTSIcon@@@
+
+News notification settings:
+This is a label for accessing settings specific to news notifications, possibly allowing customization of alerts.
+@@@arkTSText@@@
+
+Disabled label:
+This label indicates that a particular feature, like "Pictureless Mode," is currently turned off or inactive.
+@@@arkTSText@@@
+
+Data:
+This is a section label that likely groups settings or information related to data usage or management.
+@@@arkTSText@@@
+Data Saving:
+This is a text label that likely represents a setting related to conserving data usage.
+@@@arkTSText@@@
+
+Features:
+This is a text label indicating a category or section within the settings menu.
+@@@arkTSText@@@
+
+News notification:
+This is a text label for a notification setting related to receiving news updates.
+@@@arkTSText@@@
+
+Black circle:
+This likely serves as an icon, possibly representing a back button or a placeholder.
+@@@arkTSIcon@@@
+
+Privacy statement:
+This is a text label representing a link or section for privacy policy information.
+@@@arkTSText@@@
+
+Divider line:
+This is a graphical element used to separate different sections in the layout.
+@@@arkTSDivider@@@
+
+Message:
+This is a text label for a setting or feature related to messaging.
+@@@arkTSText@@@
+
+Delete my data:
+This is a text label for an option to remove personal data from the app.
+@@@arkTSText@@@

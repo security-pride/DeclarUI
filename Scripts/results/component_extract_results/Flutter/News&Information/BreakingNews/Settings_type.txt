@@ -1,0 +1,159 @@
+Component Keyword: 通知管理 label
+Component Function Description: This appears to be a text widget displaying the label “Notification Management.”
+@@@Text@@@
+
+Component Keyword: Arrow icon
+Component Function Description: This is likely an icon button that navigates to another screen or view when pressed.
+@@@IconButton@@@
+
+Component Keyword: 登录并加入该社群 label
+Component Function Description: This is a text widget that encourages the user to log in and join the community.
+@@@Text@@@
+
+Component Keyword: Phone Icon
+Component Function Description: This icon could be used to represent a feature related to phone vibrations or alerts.
+@@@Icon@@@
+
+Component Keyword: 消息带图 label
+Component Function Description: This appears to be a text widget displaying the label “Messages with Pictures.”
+@@@Text@@@
+
+Component Keyword: 震动提醒 label
+Component Function Description: This is a text widget that indicates a setting for vibration alerts.
+@@@Text@@@
+
+Component Keyword: Arrow icon
+Component Function Description: This is likely an icon button that navigates to another screen or view when pressed.
+@@@IconButton@@@
+
+Component Keyword: Bell icon
+Component Function Description: This icon represents notification sound settings.
+@@@Icon@@@
+
+Component Keyword: Language Icon
+Component Function Description: This icon represents a feature related to language settings or country changes.
+@@@Icon@@@
+Component Keyword:
+Back arrow icon
+Component Function Description:
+This icon represents a navigation action, likely allowing the user to return to the previous screen.
+@@@IconButton@@@
+
+Component Keyword:
+话题 (Topic) label
+Component Function Description:
+This text widget indicates a section or feature related to topics or discussions.
+@@@Text@@@
+
+Component Keyword:
+改变国家 (Change Country) label
+Component Function Description:
+This text widget suggests a feature that allows users to change their country settings.
+@@@Text@@@
+
+Component Keyword:
+设置 (Settings) label
+Component Function Description:
+This text widget represents a heading or title for the settings screen.
+@@@Text@@@
+
+Component Keyword:
+通知声音 (Notification Sound) label
+Component Function Description:
+This text widget describes a setting related to notification sounds.
+@@@Text@@@
+
+Component Keyword:
+Forward icon (chevron)
+Component Function Description:
+This icon is used to indicate navigation to a detailed view or another screen when tapped.
+@@@Icon@@@
+
+Component Keyword:
+Profile avatar
+Component Function Description:
+This is an image widget displaying a default user profile picture.
+@@@CircleAvatar@@@
+
+Component Keyword:
+来源管理 (Source Management) label
+Component Function Description:
+This text widget indicates a feature related to managing sources or inputs.
+@@@Text@@@
+
+Component Keyword:
+3G label
+Component Function Description:
+This text widget displays the network status or type the device is currently using.
+@@@Text@@@
+Certainly! Here’s the analysis based on the provided component images:
+
+---
+
+Component Keyword:
+"内容" (Content) label
+This text widget is likely used to label a section or category within the app, providing context or categorization.
+@@@Text@@@
+
+---
+
+Component Keyword:
+SD card icon
+This appears to be an icon representing storage or a memory card, possibly associated with features related to saving or accessing saved data.
+@@@Icon@@@
+
+---
+
+Component Keyword:
+Bell icon with motion lines
+This bell icon likely represents a notification or alert feature, indicating settings or status related to alerts or notifications.
+@@@Icon@@@
+
+---
+
+Component Keyword:
+Divider line
+This thin horizontal line is likely used as a visual separator between different sections or items in the app's layout.
+@@@Divider@@@
+
+---
+
+Component Keyword:
+"消息" (Messages) label
+This text widget is used to label a section concerning messages or notifications, possibly for accessing a related feature.
+@@@Text@@@
+
+---
+
+Component Keyword:
+Network icon with nodes
+This icon likely represents connectivity or source management features within the app, indicating network or data source settings.
+@@@Icon@@@
+
+---
+
+Component Keyword:
+Digital clock showing 8:36
+This text widget displays the time, likely as part of a status bar or an area showing the current time.
+@@@Text@@@
+
+---
+
+Component Keyword:
+Chevron icon (right arrow in circle)
+This chevron icon usually indicates potential navigation or additional details available when a user interacts with the corresponding item or area.
+@@@Icon@@@
+
+---
+
+Component Keyword:
+Switch button
+This slide-style switch is likely used for toggling settings on or off, such as enabling or disabling notifications.
+@@@Switch@@@
+
+---
+Register Button:
+This is a button likely used to submit a registration form or proceed with the registration process on the app. The text "注册" translates to "Register".
+@@@ElevatedButton@@@
+
+

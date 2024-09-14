@@ -1,0 +1,89 @@
+Heart icon with text "已保存" (Saved):
+This appears to be a button with an icon and a label indicating that items are saved or favorited by the user.
+@@@TextButton@@@
+
+Product title and price:
+Displays the product name and its price, likely used to inform users about the available products.
+@@@Column@@@
+
+Price tag icon with text "出售物品" (Sell Items):
+This is a button with an icon that suggests navigating to a section for listing items for sale.
+@@@IconButton@@@
+
+Search bar with camera icon:
+This component allows users to search for items by text or image using a camera button.
+@@@TextField@@@
+
+Hanger icon with text "时尚" (Fashion):
+A button with an icon and a label, likely for accessing the fashion category.
+@@@TextButton@@@
+
+Partial product title and price:
+Displays a cropped view of a product title and price, similar to listing details.
+@@@Column@@@
+
+Home icon with text "主页" (Home):
+Part of a navigation bar with an icon and label for returning to the home screen.
+@@@BottomNavigationBarItem@@@
+
+Promotional text:
+Describes promotions or offers in a banner format, providing important information to the users.
+@@@Text@@@
+
+Spiderman item image with heart icon:
+An image with an overlay icon, likely for users to favorite or save the item.
+@@@Stack@@@
+Spiderman Push Pop for it Bubble Fidget T:
+This is a text widget displaying the product name and price on a shopping app.
+@@@Text@@@
+
+Ends 21 July. Min spend £9.99. Max £75 off. T&Cs.:
+This is a text widget highlighting offer details. It likely includes styles like underlining for emphasis.
+@@@Text@@@
+
+Ottogi Jin Ramen Mild Noodles:
+This image shows a product with a favorite icon overlay. A stack is used to overlay the icon on the image.
+@@@Stack@@@
+
+搜索:
+This is a textual label indicating a search function. In English, it translates to "Search."
+@@@Text@@@
+
+通知:
+This icon represents notifications. In English, "通知" translates to "Notifications."
+@@@Icon@@@
+
+White Curved Edge:
+This appears to be a graphical element, possibly part of a card with rounded corners.
+@@@ClipRRect@@@
+
+Join the party with 15% off:
+This text widget is part of a promotional banner.
+@@@Text@@@
+
+您最近浏览的物品:
+This text widget indicates "Recently Viewed Items." It acts as a section header.
+@@@Text@@@
+
+我的 eBay:
+This icon represents a user profile and is coupled with a label. "我的 eBay" translates to "My eBay."
+@@@Icon@@@
+Component Keyword:
+"浏览全部" (View All) label
+This is a text widget that likely serves as a clickable link or a label for navigating to a section displaying all items.
+@@@Text@@@
+
+Component Keyword:
+"搜索（全新！）" (Search (New!)) button
+This appears to be a button that enables users to search for items, possibly with a tag indicating new features within the search functionality.
+@@@TextButton@@@
+
+Component Keyword:
+"Use code SIZZLE15" button
+This is a button used to provide a promo code to users, likely for promotional discounts.
+@@@ElevatedButton@@@
+
+Component Keyword:
+Shopping cart icon
+This is an icon button that likely allows users to view their shopping cart.
+@@@IconButton@@@

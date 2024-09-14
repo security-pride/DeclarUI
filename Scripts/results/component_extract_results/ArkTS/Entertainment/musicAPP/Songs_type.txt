@@ -1,0 +1,190 @@
+The way you make me feel:
+This is a text label likely indicating the song title being displayed.
+@@@arkTSText@@@
+
+Songs:
+This appears to be a label indicating the current section or title of the page.
+@@@arkTSText@@@
+
+Artists:
+This is a label that indicates a tab or navigational section option within the app.
+@@@arkTSText@@@
+
+Michael Jackson:
+This is a text label likely showing the artist of the song.
+@@@arkTSText@@@
+
+Menu Icon:
+This is a menu icon that could be used to open a sidebar navigation menu.
+@@@arkTSIcon@@@
+
+Search Icon:
+This is an icon for initiating a search function within the app.
+@@@arkTSIcon@@@
+
+Album Cover:
+This is an image component displaying the album cover associated with a song.
+@@@arkTSImage@@@
+
+Settings:
+This is a label indicating a navigation option to access settings.
+@@@arkTSText@@@
+
+Bebe:
+This is a text label likely showing the artist's name for a song.
+@@@arkTSText@@@
+Michael:
+This is a text label displaying the name "Michael", likely an artist's name or part of a song title.
+@@@arkTSText@@@
+
+Somebody that I used to know:
+This is a text label displaying the name of a song or an artist.
+@@@arkTSText@@@
+
+Countryman:
+This is a text label displaying the name of a song or an artist.
+@@@arkTSText@@@
+
+Home:
+This is a text label indicating the 'Home' section of the app, likely leading to the homepage when tapped.
+@@@arkTSText@@@
+
+CD cover with blue background:
+This image represents a CD cover or album artwork, commonly used to visually represent music content.
+@@@arkTSImage@@@
+
+CD cover with black background:
+This image represents a CD cover or album artwork, commonly used to visually represent music content.
+@@@arkTSImage@@@
+
+Wi-Fi signal icon:
+This icon likely represents Wi-Fi connectivity status or related settings.
+@@@arkTSIcon@@@
+
+Previous track button:
+This icon represents the button to skip to the previous track in a music player.
+@@@arkTSIcon@@@
+
+Close button:
+This icon represents the button to close or dismiss a dialog or screen.
+@@@arkTSIcon@@@
+Marc Anthony:
+This is a text label that likely indicates an artist's name in the song list.
+@@@arkTSText@@@
+
+Album cover (first image):
+This image represents an album cover, usually used for visual representation of a song or album in the list.
+@@@arkTSImage@@@
+
+Album cover (second image):
+Similar to the first, this is an album cover image used to visually represent a song or album.
+@@@arkTSImage@@@
+
+All Songs:
+This is a text label that indicates the currently selected tab or category in the app.
+@@@arkTSTab@@@
+
+Album cover (third image):
+Another album cover image representing a song or album.
+@@@arkTSImage@@@
+
+Songs icon:
+This icon represents the "Songs" section, often used in a tab bar menu for navigation.
+@@@arkTSIcon@@@
+
+09:41:
+This is a text label that likely displays the current time.
+@@@arkTSTime@@@
+
+Smooth criminal:
+This is a text label that represents a song title in the song list.
+@@@arkTSText@@@
+
+Genre:
+This is a text label that likely represents an option or category within a list or menu.
+@@@arkTSText@@@
+1. Component Keyword:
+This rectangular bar appears to be used for inputting text, possibly related to search functionality within the app.
+@@@arkTSTextInput@@@
+
+2. Component Keyword:
+This is a text label displaying the song title "Billie Jean."
+@@@arkTSText@@@
+
+3. Component Keyword:
+This is a text label showing the artist name "Jackson."
+@@@arkTSText@@@
+
+4. Component Keyword:
+This is a text label displaying the song title "Do you feel lonelyness."
+@@@arkTSText@@@
+
+5. Component Keyword:
+This is an image of an album cover or artist picture, typically used as an avatar or thumbnail in the app.
+@@@arkTSImage@@@
+
+6. Component Keyword:
+This is another example of an album cover or artist image, used similarly as an avatar or thumbnail.
+@@@arkTSImage@@@
+
+7. Component Keyword:
+This label represents a category or navigation tab "Albums" within the app.
+@@@arkTSText@@@
+
+8. Component Keyword:
+This is a text label showing the song title "Wild Thoughts."
+@@@arkTSText@@@
+
+9. Component Keyword:
+This is a text label displaying the song title "Earth song."
+@@@arkTSText@@@
+Gotye label:
+This is a text label showing the name of an artist, likely used to indicate the artist of a song in a list.
+@@@arkTSText@@@
+
+Bebe Rexa label:
+This is a text label showing the name of an artist, likely used to indicate the artist of a song in a list.
+@@@arkTSText@@@
+
+Michael Jackson label:
+This is a text label showing the name of an artist, likely used to indicate the artist of a song in a list.
+@@@arkTSText@@@
+
+Album cover image (blue):
+This is an image likely representing the album cover of a song or album in a listing.
+@@@arkTSImage@@@
+
+Daughtry label:
+This is a text label showing the name of an artist, likely used to indicate the artist of a song in a list.
+@@@arkTSText@@@
+
+Playlists label:
+This is a text label likely used as a tab header or menu item indicating a section for playlists.
+@@@arkTSText@@@
+
+Be the girl label:
+This is a text label showing the name of a song, likely used to indicate the title of a song in a list.
+@@@arkTSText@@@
+
+Album cover image (green):
+This is an image likely representing the album cover of a song or album in a listing.
+@@@arkTSImage@@@
+
+Album cover image (orange):
+This is an image likely representing the album cover of a song or album in a listing.
+@@@arkTSImage@@@
+Signal strength indicator:
+This component shows the signal strength of the mobile network.
+@@@arkTSIcon@@@
+
+Artist name label:
+This is a text label that likely displays the name of the artist for the selected song.
+@@@arkTSText@@@
+
+Genre text:
+This is a text label that indicates a category or classification of songs, likely used to filter the song list.
+@@@arkTSText@@@
+
+Next track button:
+This is a button to skip to the next track in the playlist or album.
+@@@arkTSButton@@@

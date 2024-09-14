@@ -1,0 +1,273 @@
+Component Keyword: Woman playing cello
+Component Function Description: This is an image component that displays a picture in the application, likely used to represent an album or an artist.
+@@@Image@@@
+
+Component Keyword: Search "Gully Boy"
+Component Function Description: This is a text field widget that allows users to enter and search for specific songs, albums, or artists within the app.
+@@@TextField@@@
+
+Component Keyword: Ashli Hip Hip
+Component Function Description: This is a text widget that displays the name of the song or album "Ashli Hip Hip" in the list of results or features.
+@@@Text@@@
+
+Component Keyword: Man playing guitar with play button overlay
+Component Function Description: This is a stack of an image component and an icon button widget. The image component displays a picture of an artist or album cover, and the icon button (play button) is used to play the corresponding song or video.
+@@@Stack@@@
+
+Component Keyword: Artists
+Component Function Description: This is a text widget that displays a section title or header for the "Artists" category.
+@@@Text@@@
+
+Component Keyword: Song
+Component Function Description: This is a text widget that displays a label for the type or category of the item, in this case, "Song".
+@@@Text@@@
+
+Component Keyword: Fireworks with play button overlay
+Component Function Description: This is a stack of an image component and an icon button widget. The image component displays a cover picture, and the icon button (play button) allows users to play the song or video related to the cover.
+@@@Stack@@@
+
+Component Keyword: Guitar with play button overlay
+Component Function Description: This is a stack of an image component and an icon button widget. The image component displays a cover image, and the icon button (play button) is intended for playing the related song or video.
+@@@Stack@@@
+
+Component Keyword: Signal strength indicator
+Component Function Description: This is an icon widget that displays the signal strength, used within the app to show network signal or connectivity status.
+@@@Icon@@@
+Tredning:
+This appears to be a misspelled label for a navigation item that provides access to trending content.
+@@@Text@@@
+
+Image with blurred colors:
+This image is likely a placeholder or a visual element for a background decoration.
+@@@Image@@@
+
+Gully Boy Unlimi... Various Artists:
+This text likely represents an album title with artist information, truncated for the UI.
+@@@Text@@@
+
+Doori:
+This is likely a song title displayed in the list.
+@@@Text@@@
+
+Image with blurred colors:
+This image is likely a placeholder or a visual element for a background decoration similar to the previous image.
+@@@Image@@@
+
+Album cover with play button:
+This component is likely an album cover with a play icon for playing the album or song.
+@@@Stack@@@
+
+Street Dancer 3D:
+This is likely a subtitle displaying additional information, such as the name of an album or movie.
+@@@Text@@@
+
+Library icon with label:
+This component represents a navigation item with an icon and label to access the library section.
+@@@Column@@@
+
+Settings:
+This is another navigation label for accessing settings in the app.
+@@@Text@@@
+Album, 2019:
+This is a text widget displaying the type of content (album) and its release year.
+@@@Text@@@
+
+Search bar:
+This appears to be a search input field that allows users to search for a specific song or artist.
+@@@TextField@@@
+
+Illegal Weapon 2.0:
+This is a text widget displaying the title of the currently playing song or a song from a playlist.
+@@@Text@@@
+
+Show All:
+This is a text widget that serves as a button to display all items in a section.
+@@@TextButton@@@
+
+Musician playing cello:
+This is an image widget that likely displays an artist's profile picture or a related album cover.
+@@@Image@@@
+
+Concert image:
+This is an image widget that likely displays an album cover or related visual content.
+@@@Image@@@
+
+Gully Boy:
+This is a text widget displaying the title of a song or an album.
+@@@Text@@@
+
+Heart icon:
+This is an icon button that likely allows users to mark a song or album as a favorite.
+@@@IconButton@@@
+
+Home icon with "Home" label:
+This is an icon with a text label used for navigation in the bottom navigation bar, taking the user to the home screen.
+@@@BottomNavigationBarItem@@@
+### Component Keyword:
+Pause Button
+
+### Component Function Description
+This component looks like a button that is used to pause music playback. It is likely interactive and triggers the pause functionality when tapped.
+
+@@@IconButton@@@
+
+---
+
+### Component Keyword:
+"Mere Gully Mein" Text
+
+### Component Function Description
+This is a text widget that likely displays the title of a song in the app. It is used for readability and indicating content to the user.
+
+@@@Text@@@
+
+---
+
+### Component Keyword:
+Songs Section Image with Play Icon
+
+### Component Function Description
+This image likely represents an album or song in a playlist. The play icon indicates that tapping it will begin playback of the song.
+
+@@@Stack@@@
+
+---
+
+### Component Keyword:
+Rounded Rectangle Decoration
+
+### Component Function Description
+This seems to be a decorative element that can be used around an image or a piece of text to give it a card-like appearance. It adds aesthetic depth to the UI.
+
+@@@Container@@@
+
+---
+
+### Component Keyword:
+"Apna Time Aayega" Text
+
+### Component Function Description
+This is a text widget that displays another song's title, providing specific information to the user about available content.
+
+@@@Text@@@
+
+---
+
+### Component Keyword:
+Album Cover Partial Image
+
+### Component Function Description
+This image is part of an album cover, functioning as a visual element to entice users, showing part of the album or song artwork.
+
+@@@ClipRRect@@@
+
+---
+
+### Component Keyword:
+Play Button with Rounded Image
+
+### Component Function Description
+This is an album or song thumbnail with a play button overlay to indicate interactive functionality. Users can tap on it to play the song.
+
+@@@Stack@@@
+
+---
+
+### Component Keyword:
+Rounded Album Image
+
+### Component Function Description
+This image represents an album cover with rounded corners. It visually distinguishes the album within the app’s layout.
+
+@@@ClipRRect@@@
+
+Gully Gully Mein Gully Boy:
+This is a text widget displaying the title of a song.
+@@@Text@@@
+
+Concert Image:
+This appears to be an image widget displaying a picture with rounded corners, likely showcasing an album cover or event.
+@@@ClipRRect@@@
+
+Album, 2019:
+This is a text widget showing the album release year and type.
+@@@Text@@@
+
+Guitarist Image:
+This is an image widget possibly used for displaying an artist's image or album cover with rounded borders.
+@@@ClipRRect@@@
+
+Guitarist with Background Image:
+An image widget likely displaying an artist with slightly rounded corners for style.
+@@@ClipRRect@@@
+
+Gully Gully Mein Gully Boy description:
+This is a text widget showing the subtitle or additional description for a song or album.
+@@@Text@@@
+
+Album, 2019 (another instance):
+Another text widget showing album details, likely within a list or grid.
+@@@Text@@@
+
+Song:
+A simple text widget representing the type of audio content.
+@@@Text@@@
+
+Mere Gully Mein:
+This is a text widget displaying the song title, part of a list or grid item.
+@@@Text@@@
+**Component 1:**
+Live Performer Image:
+This is an image of a live music performer, which appears to be part of a list item displaying album art or artist images.
+@@@Image@@@
+
+**Component 2:**
+Time Display:
+This text displays the time, which is usually part of the status bar in a mobile application.
+@@@Text@@@
+
+**Component 3:**
+"Gully Boy" Text:
+This text represents a song or album title, indicating the main feature or section within the app.
+@@@Text@@@
+
+**Component 4:**
+Play Button over Image:
+This image includes a play icon on top of another image, suggesting a playable media item like a song or video thumbnail.
+@@@Stack@@@
+
+**Component 5:**
+Performer Image (variant):
+This is a variant image of a performer, similar to component 1, used for displaying artist thumbnails or album covers.
+@@@Image@@@
+
+**Component 6:**
+Play Button over Image (variant):
+This is another instance of an image with a play icon, part of a media list that indicates it can be interacted with to initiate playback.
+@@@Stack@@@
+
+**Component 7:**
+"Gully Boy 2" and "Various Artists" Text:
+This component displays the album name and artist information for a music listing.
+@@@Column@@@
+
+**Component 8:**
+"Gully Boy" Text (variant):
+This is another instance displaying the song or album title within the app’s text.
+@@@Text@@@
+
+**Component 9:**
+Play Button over Image (variant 2):
+This image with a play icon represents another media item that users can tap to play.
+@@@Stack@@@
+Search icon:
+This is an icon that represents the search functionality in the app, typically used in the navigation bar.
+@@@Icon@@@
+
+"Gully Boy" text:
+This is a text label, likely indicating the title of a song or search query.
+@@@Text@@@
+
+"Song" label:
+This is a text widget used to describe the type of media, in this case, indicating that it is a song.
+@@@Text@@@

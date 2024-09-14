@@ -1,0 +1,77 @@
+e招贷:
+This is a container that likely represents a section with multiple text widgets inside, indicating a loan service with quick online applications and installment repayment options.
+@@@Container@@@
+
+¥0.00:
+This appears to be a Text widget displaying a monetary value, possibly indicating a balance or amount.
+@@@Text@@@
+
+可用额度 ¥0.00:
+This likely is a Row widget containing Text widgets displaying the available credit limit and a forward arrow indicating navigation.
+@@@Row@@@
+
+Eye Icon:
+This seems to be an Icon widget, possibly used for toggling visibility of sensitive information like a password or balance.
+@@@Icon@@@
+
+卡片管家 我的积分 绑卡支付 推荐有礼 i车一族:
+These are a series of Column widgets, each containing an Icon widget and a Text widget, representing various sections or features within the app.
+@@@Column@@@
+
+分期还款:
+This looks like a TextButton widget representing an action button for installment repayment.
+@@@TextButton@@@
+
+8月14日 (27天后) 出账:
+This is a Text widget displaying a date and additional information in a smaller font.
+@@@Text@@@
+
+自动还:
+This is a Text widget with a background decoration, likely using a Container for the background and padding.
+@@@Container@@@
+
+预借现金:
+This appears to be a Container widget, potentially containing multiple nested Text widgets and possibly a Button widget for an action to view the cash advance details.
+@@@Container@@@
+无需还款:
+This is a text widget that likely displays informational text indicating no repayment is needed.
+@@@Text@@@
+
+专享消费额度:
+This is a text widget that describes the available exclusive consumption limit.
+@@@Text@@@
+
+查账单:
+This is a button that, when pressed, likely navigates the user to a billing details screen.
+@@@ElevatedButton@@@
+
+个人消费账户:
+This is a text widget that describes a personal consumption account.
+@@@Text@@@
+
+我要借钱:
+This is a heading text widget indicating the section of the app related to borrowing money.
+@@@Text@@@
+
+您有:
+This is a text widget, possibly indicating a user's balance or notifications.
+@@@Text@@@
+
+还款:
+This is a button that, when pressed, likely initiates the repayment process.
+@@@ElevatedButton@@@
+
+我的信用卡:
+This is a text widget functioning as the title or heading of the screen, indicating that it's about the user's credit card.
+@@@Text@@@
+
+下期未出账单:
+This is a text widget that describes the upcoming unpaid bill.
+@@@Text@@@
+Repayment Button:
+This is a button that allows users to repay their loans or debts.
+@@@ElevatedButton@@@
+
+Promotional Banner:
+This appears to be a promotional banner, likely used to advertise a product or service within the app.
+@@@Container@@@

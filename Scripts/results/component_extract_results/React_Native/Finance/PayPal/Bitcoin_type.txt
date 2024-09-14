@@ -1,0 +1,101 @@
+$100 button:
+This is a TouchableOpacity Function Component. It likely allows the user to select a predefined amount of $100 for an action, such as purchasing or investing in cryptocurrency.
+@@@TouchableOpacity Function Component@@@
+
+$50 button:
+This is a TouchableOpacity Function Component. It likely allows the user to select a predefined amount of $50 for an action, such as purchasing or investing in cryptocurrency.
+@@@TouchableOpacity Function Component@@@
+
+Crypto tab icon:
+This is a View Function Component displaying an image and text. It likely represents the navigation button for accessing the 'Crypto' section of the app.
+@@@View Function Component@@@
+
+Wallet tab icon:
+This is a View Function Component displaying an image and text. It probably represents the navigation button for accessing the 'Wallet' section of the app.
+@@@View Function Component@@@
+
+24小时 (24 hours) label:
+This is a Text Functional Component. It is likely a label allowing users to view cryptocurrency data for the past 24 hours.
+@@@Text Functional Component@@@
+
+$20 button:
+This is a TouchableOpacity Function Component. It likely allows the user to select a predefined amount of $20 for an action, such as purchasing or investing in cryptocurrency.
+@@@TouchableOpacity Function Component@@@
+
+Graph image:
+This is a Function Component displaying an image. It represents the visual data of the cryptocurrency price changes over a period.
+@@@Function Component@@@
+
+Payments tab icon:
+This is a View Function Component displaying an image and text. It likely represents the navigation button for accessing the 'Payments' section of the app.
+@@@View Function Component@@@
+
+Home tab icon:
+This is a View Function Component displaying an image and text. It likely represents the navigation button for accessing the 'Home' section of the app.
+@@@View Function Component@@@
+Bitcoin label:
+This is a Text Functional Component. It displays the name of the cryptocurrency being tracked.
+@@@Text Functional Component@@@
+
+Price (£ 49,283.16) label:
+This is a Text Functional Component. It shows the current price of the cryptocurrency.
+@@@Text Functional Component@@@
+
+Price change (£ 311.81, 0.62%) labels:
+These are Text Functional Components. They indicate the change in the cryptocurrency price in both amount and percentage.
+@@@Text Functional Component@@@
+
+Past 24 hours label:
+This is a Text Functional Component. It describes the time range currently selected for the cryptocurrency price chart.
+@@@Text Functional Component@@@
+
+Time range selectors (24小时, 1周, 1月, 1年, 所有时间):
+These are Button components. They allow users to select different time ranges for viewing the cryptocurrency price chart.
+@@@Button@@@
+
+Price chart:
+This is an ImageBackground component. It displays the cryptocurrency price chart over the selected time period.
+@@@ImageBackground@@@
+
+$20 button:
+This is a Button component. Users can click this button to choose a pre-defined amount for purchasing cryptocurrency.
+@@@Button@@@
+
+$50 button:
+This is a Button component. Users can click this button to choose a pre-defined amount for purchasing cryptocurrency.
+@@@Button@@@
+
+$100 button:
+This is a Button component. Users can click this button to choose a pre-defined amount for purchasing cryptocurrency.
+@@@Button@@@
+
+$500 button:
+This is a Button component. Users can click this button to choose a pre-defined amount for purchasing cryptocurrency.
+@@@Button@@@
+
+"购物" (Buy) button:
+This is a Button component. Users can click this button to proceed with purchasing the cryptocurrency.
+@@@Button@@@
+
+Arrow icon:
+This is a Button component. It likely serves as a back button to navigate to the previous screen.
+@@@Button@@@
+
+Crypto icon:
+This is an Image component. It is part of the navigation bar at the bottom of the app, representing the section for cryptocurrencies.
+@@@Function Component@@@
+
+Home icon:
+This is an Image component. It is part of the navigation bar at the bottom of the app, representing the home section.
+@@@Function Component@@@
+
+Payments icon:
+This is an Image component. It is part of the navigation bar at the bottom of the app, representing the payments section.
+@@@Function Component@@@
+
+Wallet icon:
+This is an Image component. It is part of the navigation bar at the bottom of the app, representing the wallet section.
+@@@Function Component@@@
+Component Keyword:
+This is a View Function Component. It serves as the container for time range selection buttons (like "24小时", "1周", "1月", "1年", and "所有时间"), allowing the user to filter the data displayed on the screen based on the selected time range.
+@@@View Function Component@@@

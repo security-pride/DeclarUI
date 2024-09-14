@@ -1,0 +1,226 @@
+Component Keyword: 
+Rewards icon:
+This appears to be an icon representing rewards, possibly used for accessing a reward system or loyalty program within the app.
+@@@arkTSIcon@@@
+
+Component Keyword: 
+Unit Converter icon:
+This icon likely represents a unit converter tool, accessed for converting various measurements.
+@@@arkTSIcon@@@
+
+Component Keyword: 
+Nearby icon:
+This icon likely indicates a feature for finding nearby locations or services.
+@@@arkTSIcon@@@
+
+Component Keyword: 
+Deals icon:
+This icon probably represents a section for deals or offers available to the user.
+@@@arkTSIcon@@@
+
+Component Keyword: 
+Back arrow:
+This is an icon typically used to navigate back to the previous screen.
+@@@arkTSButton@@@
+
+Component Keyword: 
+Car with tag icon:
+This icon likely represents a car-related feature, possibly for purchasing or listing cars for sale.
+@@@arkTSIcon@@@
+
+Component Keyword: 
+Interests icon:
+This icon suggests a feature related to user interests or favorites.
+@@@arkTSIcon@@@
+
+Component Keyword: 
+Home icon with label:
+This is an icon representing the home section, used to navigate to the main screen of the app.
+@@@arkTSIcon@@@
+
+Component Keyword: 
+Shopping cart icon:
+This icon probably indicates an e-commerce or shopping feature within the app.
+@@@arkTSIcon@@@
+News icon:
+This icon likely represents a section of the app dedicated to news content.
+@@@arkTSIcon@@@
+
+Images icon:
+This icon likely leads to a gallery or collection of images within the app.
+@@@arkTSIcon@@@
+
+Tabs icon:
+This icon likely represents a feature for managing open tabs similar to web browsers.
+@@@arkTSIcon@@@
+
+Translate icon:
+This icon likely indicates a section dedicated to translation services within the app.
+@@@arkTSIcon@@@
+
+Explore AI icon:
+This icon likely indicates a section or feature related to AI exploration.
+@@@arkTSIcon@@@
+
+Math icon:
+This icon likely represents a section dedicated to mathematical tools or educational content.
+@@@arkTSIcon@@@
+
+Pin icon:
+This icon likely represents a pin feature, allowing users to mark or save certain content.
+@@@arkTSIcon@@@
+
+Settings icon:
+This icon likely leads to the app's settings or configuration options.
+@@@arkTSIcon@@@
+Apps icon:
+This component likely represents a navigation item to access the apps section within the application.
+@@@arkTSButton@@@
+
+Translator icon:
+This icon appears to represent a feature related to translation services within the app.
+@@@arkTSIcon@@@
+
+Rewards text:
+This is a text element that encourages the user to join a rewards program.
+@@@arkTSText@@@
+
+Interests icon:
+This component appears to represent a feature related to user interests or categories of interest.
+@@@arkTSIcon@@@
+
+Trending icon:
+This component likely represents a section where trending or popular content is displayed.
+@@@arkTSIcon@@@
+
+Car with clock icon:
+This icon seems to suggest a feature related to scheduling or timing for a transportation service.
+@@@arkTSIcon@@@
+
+Profile icon:
+This component is likely an icon related to user accounts or profile settings.
+@@@arkTSIcon@@@
+
+Location icon:
+This component likely represents a feature associated with location services or map functionalities.
+@@@arkTSIcon@@@
+
+Chat icon:
+This icon represents the chat functionality, where users can communicate or access chat services.
+@@@arkTSButton@@@
+Component Keyword:
+This is a section header indicating the beginning of the "Explore" section where users can find various categories to explore.
+@@@arkTSText@@@
+
+Component Keyword:
+This text prompt encourages users to sign in to earn daily points, likely part of a user rewards or engagement system.
+@@@arkTSText@@@
+
+Component Keyword:
+This is an icon button representing the "History" feature of the app, allowing users to view their past activities.
+@@@arkTSButton@@@
+
+Component Keyword:
+This is an icon symbolizing statistics or financial growth, typically used to represent categories like "Money" or financial tracking.
+@@@arkTSIcon@@@
+
+Component Keyword:
+This is an icon representing a category for "Wallpapers" with an associated image.
+@@@arkTSIcon@@@
+
+Component Keyword:
+This is an icon for the "Games" section where users can access games within the app.
+@@@arkTSIcon@@@
+
+Component Keyword:
+This is a repeat of the previous "Games" icon, most likely used in another part of the interface.
+@@@arkTSIcon@@@
+
+Component Keyword:
+This text label indicates a section where users can find items they have "Pinned" or saved for quick access.
+@@@arkTSText@@@
+
+Component Keyword:
+This is an icon representing a shopping cart, likely used to denote the "Deals" or shopping section within the app.
+@@@arkTSIcon@@@
+Weather icon:
+This component likely represents a weather-related feature or provides weather information.
+@@@arkTSImage@@@
+
+Black circle:
+This appears to be a placeholder or possibly an avatar indicating the profile picture.
+@@@arkTSCircle@@@
+
+Deals icon:
+This component represents a section or feature related to deals or discounts.
+@@@arkTSImage@@@
+
+Weather icon:
+This component likely represents a weather-related feature or provides weather information.
+@@@arkTSImage@@@
+
+Explore AI icon:
+This component could represent a feature related to exploring artificial intelligence capabilities or content.
+@@@arkTSImage@@@
+
+Bookmarks icon:
+This component represents a bookmarking feature, allowing users to save their favorite items or pages.
+@@@arkTSImage@@@
+
+Interests icon:
+This component likely represents a feature to add or view user's interests.
+@@@arkTSImage@@@
+
+Unit Converter icon:
+This component represents a feature related to converting units of measurement.
+@@@arkTSImage@@@
+
+Watch icon:
+This component represents a media player or a section to watch videos.
+@@@arkTSImage@@@
+Component Keyword: Explore AI icon
+Component Function Description: This icon likely represents a feature where users can explore AI-powered functionalities or content.
+@@@arkTSButton@@@
+
+Component Keyword: Translator icon
+Component Function Description: This icon probably links to a translation feature within the app where users can translate text between different languages.
+@@@arkTSButton@@@
+
+Component Keyword: Rewards icon
+Component Function Description: This icon is likely used to navigate to a rewards section of the app, where users can view and redeem points or incentives.
+@@@arkTSButton@@@
+
+Component Keyword: Trending icon
+Component Function Description: This icon likely directs users to a section of the app that displays trending content or popular items.
+@@@arkTSButton@@@
+
+Component Keyword: Images icon
+Component Function Description: This icon probably links to a section where users can browse or access different images.
+@@@arkTSButton@@@
+
+Component Keyword: Watch icon
+Component Function Description: This icon likely represents a section of the app where users can watch videos or other multimedia content.
+@@@arkTSButton@@@
+
+Component Keyword: Math icon
+Component Function Description: This icon probably signifies a math-related feature, where users can solve mathematical problems or access math-related content.
+@@@arkTSButton@@@
+
+Component Keyword: Chat icon
+Component Function Description: This icon likely represents the chat functionality of the app, where users can communicate with others.
+@@@arkTSButton@@@
+
+Component Keyword: Trending chart icon
+Component Function Description: This icon probably directs users to check trending statistics or popular metrics within the app.
+@@@arkTSButton@@@
+Bookmarks label:
+This looks like a text label indicating a section for stored bookmarks, possibly for easy access to saved content within the app.
+@@@arkTSText@@@
+
+Image icon:
+This appears to be an icon representing an image gallery or wallpapers section, likely used to navigate to image-related functionalities.
+@@@arkTSImage@@@
+
+Memory card icon:
+This icon likely represents storage or memory settings, possibly used to access saved items or manage storage.
+@@@arkTSIcon@@@

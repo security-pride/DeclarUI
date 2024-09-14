@@ -1,0 +1,92 @@
+Settings icon:
+This appears to be a button that allows users to access the settings of the app, typically represented with an icon.
+@@@IconButton@@@
+
+"海景民宿" (Seaside Homestay) label with icon:
+This is a combination of an icon and a text widget representing a category button or tab in the app. When non-English text is present, a translation is provided.
+@@@Column (containing Icon and Text widgets)@@@
+
+Image with recommendation label and favorite icon:
+This appears to be a combination of several widgets including an Image widget for displaying the picture, a Positioned widget for the recommendation label, and an IconButton widget for the favorite button.
+@@@Stack (containing Image, Positioned, and IconButton widgets)@@@
+
+"漂亮" (Beautiful) text:
+This is a text widget displaying a comment or review about the image shown.
+@@@Text@@@
+
+"探索" (Explore) tab label:
+This is a text widget used as a label for the explore/navigation tab.
+@@@Text@@@
+
+"我的" (My) profile icon with label:
+This is a combination of an icon and a text widget representing the user's profile section in the app's navigation.
+@@@Column (containing Icon and Text widgets)@@@
+
+Search bar:
+This is a combination of an icon and several text fields for the search functionality, indicating location, date, and number of people.
+@@@Row (containing Icon and multiple TextField widgets)@@@
+
+Messages icon:
+This appears to be a button that likely navigates the user to the messages or notifications section of the app.
+@@@IconButton@@@
+
+"OMG 妙妙" (OMG Wow) label with icon:
+This is a combination of an icon and a text widget representing a category or feature in the app.
+@@@Column (containing Icon and Text widgets)@@@
+
+
+Components:
+
+Component Keyword:
+"近滑雪场" label (translated: Nearby Ski Resort)
+This is a text widget displaying a label for nearby ski resorts section.
+@@@Text@@@
+
+Component Keyword:
+行程 icon with label (translated: Itinerary icon with label)
+This represents an icon and text combination used to show the itinerary section in the navigation bar.
+@@@Column@@@
+
+Component Keyword:
+地图按钮 (translated: Map Button)
+This is a button with an icon and text, used to toggle or display map-related functionality.
+@@@TextButton@@@
+
+Component Keyword:
+Filter icon
+This is an icon button, most likely used to filter search results or apply specific settings.
+@@@IconButton@@@
+
+Component Keyword:
+显示总价 Toggle (translated: Show Total Price)
+This is a toggle switch that users can turn on or off to display the total price including fees.
+@@@SwitchListTile@@@
+
+Component Keyword:
+Accommodation description
+This widget is likely a column containing multiple text widgets for displaying the accommodation details including name, dates, description, and price.
+@@@Column@@@
+
+Component Keyword:
+心愿单 (translated: Wishlist)
+This is a text widget that represents the label for the wishlist section.
+@@@Text@@@
+
+Component Keyword:
+魅力泳池 (translated: Attractive Pool)
+This is a text widget that denotes a label for the attractive pool section.
+@@@Text@@@
+
+Component Keyword:
+地图按钮 (translated: Map Button)
+This is a repeating button with an icon and text, used for toggling or displaying map-related functionality.
+@@@TextButton@@@
+
+Note: When components are combined, I chose widgets that handle combinations effectively like columns, Text buttons, and IconButtons.
+Snowboard icon:
+This icon likely represents a category or filter related to activities like snowboarding or skiing.
+@@@Icon@@@
+
+"湖区" (Lake area) label:
+This is a text widget that describes a category related to lake areas. Translation: "Lake area"
+@@@Text@@@

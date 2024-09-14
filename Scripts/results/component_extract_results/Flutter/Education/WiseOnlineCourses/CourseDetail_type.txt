@@ -1,0 +1,42 @@
+"Or buy a good UI Kit":
+This is a text widget displaying a string message, possibly serving as a section title or suggestion within the app.
+@@@Text@@@
+
+"Create the big ideas":
+This text serves as a section header or important callout to engage the user with the main content.
+@@@Text@@@
+
+"Lessons":
+This text is likely used as a tab label or navigation item within a tab bar.
+@@@Text@@@
+
+Play Lesson button:
+This is likely a button widget, possibly used for starting a lesson or interaction. It may include properties like color and borderRadius.
+@@@ElevatedButton@@@
+
+Sample paragraph text:
+This is used to display descriptive content or body text within the app.
+@@@Text@@@
+
+Back arrow icon:
+This icon likely serves as a back button, allowing users to navigate to the previous page.
+@@@IconButton@@@
+
+Minus circle icon:
+This icon may represent a button to minimize or hide content within the app.
+@@@IconButton@@@
+
+Main paragraph text:
+This text likely displays content or instructions relevant to the app's functionality.
+@@@Text@@@
+
+"About" with underline:
+This is a text widget often used as a tab heading or section title with an active state represented by an underline.
+@@@Text@@@
+John Wiseberg profile text:
+This component likely displays the name and role of the individual. It contains static text styled with different font sizes and weights.
+@@@Column@@@
+
+Blue underline bar:
+This appears to be a graphic element used to indicate an active tab or section under a title, often styled with a linear decoration.
+@@@Container@@@

@@ -1,0 +1,85 @@
+Back button icon:
+This is a Button component. It is used to return to the previous navigation screen within the app.
+@@@Button@@@
+
+Large circular image:
+This is an ImageFunctionalComponent. It displays the profile picture of the user within the app.
+@@@Function Component@@@
+
+Text input field:
+This is a TextInput component. It is used for users to type messages or input text data.
+@@@TextInput@@@
+
+Timestamp "16:44":
+This is a TextFunctionalComponent. It displays the timestamp of when the message was sent or received.
+@@@Text Functional Component@@@
+
+Small circular profile picture:
+This is an ImageFunctionalComponent. It shows a smaller version of the user's profile picture next to each message they send.
+@@@Function Component@@@
+
+Large circular profile picture with name:
+This is a ViewFunctionalComponent. It contains the main profile picture and the name of the user in a header section.
+@@@View Function Component@@@
+
+Time "9:41":
+This is a TextFunctionalComponent. It indicates the current time on the mobile device.
+@@@Text Functional Component@@@
+
+Photo icon:
+This is a Button component. It allows users to send photos or images within the chat.
+@@@Button@@@
+
+Video call icon:
+This is a Button component. It is used to initiate a video call with the chat participant.
+@@@Button@@@
+
+Bottom toolbar with various icons:
+This is a ViewFunctionalComponent. It contains multiple buttons that provide different functionalities like sending photos, voice messages, and text input.
+@@@View Function Component@@@
+Martha Craig, Messenger label:
+This is a Text Functional Component. It displays the user's name and the context (Messenger) of the conversation.
+@@@Text Functional Component@@@
+
+Say hi to your new Facebook friend, Martha. label:
+This is a Text Functional Component. It's likely a prompt or suggestion for interacting with the new contact on Facebook.
+@@@Text Functional Component@@@
+
+Thumbs up icon:
+This is a Function Component. It represents a Thumbs Up (like) option in the chat, allowing users to quickly react to messages.
+@@@Function Component@@@
+
+Signal strength icon:
+This is a Function Component. It likely represents the network signal strength indicator, showing the quality of the mobile connection.
+@@@Function Component@@@
+
+Martha Craig username and Messenger label:
+These are Text Functional Components. They display the username and the application name where the user is currently interacting.
+@@@Text Functional Component@@@
+
+21:32 timestamp:
+This is a Text Functional Component. It represents the timestamp of a message or activity within the chat.
+@@@Text Functional Component@@@
+
+How are you doing? message:
+This is a Text Functional Component. It displays a chat message sent by one participant in the conversation.
+@@@Text Functional Component@@@
+
+Hello, Jacob! message:
+This is a Text Functional Component. It displays a chat message sent by one participant in the conversation.
+@@@Text Functional Component@@@
+
+TextInput Component:
+This is a TextInput. It's the input field where users can type their messages.
+@@@TextInput@@@
+
+Orange Checkmark Icon:
+This is a Function Component. It likely indicates that a message has been read or received by the other party.
+@@@Function Component@@@
+Phone icon:
+This is a Button component. It likely serves as a button to initiate a voice call.
+@@@Button@@@
+
+Camera icon:
+This is a Button component. It probably opens the camera for taking a photo or video.
+@@@Button@@@

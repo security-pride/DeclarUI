@@ -1,0 +1,121 @@
+Start your day:
+This is a Text Functional Component. It is a header text likely meant to provide a greeting or a subtitle for the section.
+@@@Text Functional Component@@@
+
+Explore:
+This is a Text Functional Component. It is used as a label for the navigation tab, likely linked to the Explore section of the app.
+@@@Text Functional Component@@@
+
+Your afternoon lift:
+This is a Text Functional Component. It is another header text, probably introducing a section related to afternoon content or activities.
+@@@Text Functional Component@@@
+
+Good Evening:
+This is a Text Functional Component. It is a greeting text that dynamically changes based on the time of day to greet the user.
+@@@Text Functional Component@@@
+
+How to Headspace card:
+This is a View Function Component. It contains various elements like text, icons, and an image, serving as a card for content related to "How to Headspace."
+@@@View Function Component@@@
+
+Today icon:
+This is a Button, more specifically a customized icon button. It is likely part of the bottom navigation bar and is meant to navigate to the Today's section.
+@@@Button@@@
+
+Clock icon:
+This is a Button, more specifically an icon button. It likely serves to navigate to a section where users can view their activity history or past events.
+@@@Button@@@
+
+Rooted in the Present card:
+This is a View Function Component. It acts as another card to display content with a title, an icon, and an image.
+@@@View Function Component@@@
+
+Enjoying the Unknown card:
+This is a View Function Component. This card shows content related to meditation with a title, an icon, and an image.
+@@@View Function Component@@@
+
+
+Component Keyword:
+Icon with clock and arrow pointing down:
+This is an Image component. It likely functions to indicate a "download" feature or to refresh/download new content.
+@@@Function Component@@@
+
+Component Keyword:
+Heart icon:
+This is an Image component. It likely serves as a button that allows users to favorite or like an item.
+@@@Function Component@@@
+
+Component Keyword:
+Good Evening, 子路 text:
+This is a Text component. It is probably used to greet the user and provide a personalized welcome message.
+@@@Text Functional Component@@@
+
+Component Keyword:
+Start your day text:
+This is a Text component. It describes the section for morning or starting activities.
+@@@Text Functional Component@@@
+
+Component Keyword:
+How to Headspace text:
+This is a Text component. It is likely a title of a specific activity or guide for the user.
+@@@Text Functional Component@@@
+
+Component Keyword:
+Rooted in the Present text:
+This is a Text component. It is likely a title of a specific mindfulness activity.
+@@@Text Functional Component@@@
+
+Component Keyword:
+Enjoying the Unknown text:
+This is a Text component. It is likely a title of a specific meditation activity.
+@@@Text Functional Component@@@
+
+Component Keyword:
+Clock icon with text "2 min":
+This is a combination of Text and Image components. It showcases the duration of the activity.
+@@@Function Component AND Text Functional Component@@@
+
+Component Keyword:
+Lock icon next to text:
+This is an Image component. It likely indicates that the content is locked or premium.
+@@@Function Component@@@
+
+Component Keyword:
+Icon with play button:
+This is an Image component. It generally signifies a video feature, suggesting that clicking on it will play a video.
+@@@Function Component@@@
+
+Component Keyword:
+Three dots in a circle:
+This is a Pressable component. It likely indicates a menu or more options feature when pressed.
+@@@Pressable@@@
+
+Component Keyword:
+Illustrative image with phone, mountain, and meditating person:
+These are Image components. They visually represent the content in each activity section.
+@@@Function Component@@@
+
+Component Keyword:
+Today's Meditation text with megaphone icon:
+This is a Text component combined with an Image component. It describes the section content and emphasizes it.
+@@@Text Functional Component AND Function Component@@@
+
+Component Keyword:
+Number with users meditating:
+This is a Text component. It indicates the number of users currently meditating.
+@@@Text Functional Component@@@
+
+Component Keyword:
+Section title "Your afternoon lift":
+This is a Text component. It is a title for the specific section aimed at activities for the afternoon.
+@@@Text Functional Component@@@
+
+Component Keyword:
+Tab icons (Today, Explore, 子路):
+These are Image components combined with Text components (if there are labels). They represent navigation tabs for different sections of the app.
+@@@Function Component AND Text Functional Component@@@
+
+Component Keyword:
+Bottom navigation bar:
+This is a View component. It houses the navigation tabs and structures the bottom part of the app.
+@@@View Function Component@@@

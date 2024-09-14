@@ -1,0 +1,122 @@
+Component Keyword:
+This is a backward button, likely used to rewind or go to the previous song in a music app.
+@@@arkTSButton@@@
+
+Component Keyword:
+This icon represents a search function, enabling users to find content within the app.
+@@@arkTSIcon@@@
+
+Component Keyword:
+This is an image showing an album cover, used to visually represent the album content.
+@@@arkTSImage@@@
+
+Component Keyword:
+This component shows an album cover with title and artist, used in a list or grid for browsing albums.
+@@@arkTSCard@@@
+
+Component Keyword:
+This text indicates the number of songs in a specific album or playlist.
+@@@arkTSText@@@
+
+Component Keyword:
+This image serves as a cover for an album section of the app, providing a visual cue to the user.
+@@@arkTSImage@@@
+
+Component Keyword:
+This is a label representing the currently selected tab or section, indicating its active state.
+@@@arkTSTab@@@
+
+Component Keyword:
+This is the next button, likely used to fast forward or skip to the next song in a music app.
+@@@arkTSButton@@@
+Genre:
+This is a text label that likely indicates a category of music, possibly used for filtering or navigation within the app.
+@@@arkTSText@@@
+
+Songs:
+This is an icon typically used to represent a section or tab related to songs, likely part of the app's navigational menu.
+@@@arkTSImage@@@
+
+Artists:
+This is a text label that likely indicates a section for browsing or searching musical artists within the app.
+@@@arkTSText@@@
+
+Image of a person:
+This is an image of an individual, likely representing an artist, album cover, or profile picture within the app.
+@@@arkTSImage@@@
+
+Home:
+This is a text label that signifies the home section of the app, likely taking the user to the main or dashboard screen.
+@@@arkTSText@@@
+
+09:41:
+This is a text label representing the current time, likely displayed on the app's interface.
+@@@arkTSText@@@
+
+Image of a person:
+This is another image of an individual, possibly representing an artist or album cover within the app.
+@@@arkTSImage@@@
+
+Wi-Fi:
+This is an icon that likely indicates the Wi-Fi signal strength or connection status within the app.
+@@@arkTSImage@@@
+
+
+All Songs:
+This is a text label indicating a category or section header for all songs available in the app.
+@@@arkTSText@@@
+
+Maroon 5 album cover:
+This is an image component displaying an album cover for Maroon 5, used for visual representation of album content.
+@@@arkTSImage@@@
+
+Michael Jackson album cover:
+This is an image component displaying an album cover for Michael Jackson, used for visual representation of album content.
+@@@arkTSImage@@@
+
+10 Songs:
+This is a text label indicating the number of songs in the album or playlist.
+@@@arkTSText@@@
+
+Queen II:
+This is a text or image component displaying the album name or a section header for the Queen II album.
+@@@arkTSText@@@
+
+Signal bars:
+This is an icon component representing wireless signal strength, typically found in the status bar.
+@@@arkTSIcon@@@
+
+Beyoncé image:
+This is an image component that displays the cover or a photo related to the artist Beyoncé for visual representation.
+@@@arkTSImage@@@
+
+Progress bar:
+This is a visual component representing a loading or progress indicator, often used in media or data loading contexts.
+@@@arkTSProgress@@@
+
+Songs:
+This is a text label likely indicating a section or tab for song-related content within the app.
+@@@arkTSText@@@
+Settings:
+This is a text label indicating a section or functionality for configuring app settings.
+@@@arkTSText@@@
+
+History album cover:
+This is an image component most likely used to display the album cover of Michael Jackson's 'History'.
+@@@arkTSImage@@@
+
+Album cover snippet:
+This is a snippet of the album cover, likely used for display purposes to show diverse elements of albums.
+@@@arkTSImage@@@
+
+I Am... label:
+This text label indicates the name of an album or a section named 'I Am...' within the app.
+@@@arkTSText@@@
+
+Playlists:
+This text label indicates a category or section dedicated to playlists within the app.
+@@@arkTSText@@@
+
+Queen II album cover snippet:
+This is a snippet of an album cover, likely used to display part of the 'Queen II' album.
+@@@arkTSImage@@@

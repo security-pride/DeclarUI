@@ -1,0 +1,60 @@
+Component Keyword:
+This text suggests an option for purchasing a UI kit.
+@@@arkTSText@@@
+
+Component Keyword:
+This text suggests creating big ideas.
+@@@arkTSText@@@
+
+Component Keyword:
+This text likely represents the "Lessons" tab in the app.
+@@@arkTSTab@@@
+
+Component Keyword:
+This button likely initiates a lesson or action within the app.
+@@@arkTSButton@@@
+
+Component Keyword:
+This text appears to be a paragraph providing detailed information.
+@@@arkTSText@@@
+
+Component Keyword:
+This icon indicates a "back" navigation function.
+@@@arkTSIcon@@@
+
+Component Keyword:
+This icon indicates a subtract or minimize action.
+@@@arkTSIcon@@@
+
+Component Keyword:
+This text appears to be a paragraph providing detailed information.
+@@@arkTSText@@@
+
+Component Keyword:
+This text likely represents the "About" tab in the app.
+@@@arkTSTab@@@
+1. **Component Keyword:**
+   "John Wiseberg"
+   **Component Function Description:**
+   Displays the name and title/role of a person, most likely the profile information at the top of the screen.
+   @@@arkTSText@@@
+
+2. **Component Keyword:**
+   Yellow underline indicator
+   **Component Function Description:**
+   This is likely a tab indicator showing which tab is currently active (e.g., "About" tab is selected).
+   @@@arkTSIndicator@@@
+
+We have the other images from the screenshot, such as "About" and related texts. I will label them in the order provided.
+
+3. **Component Keyword:**
+   "Create the big ideas" header and its description
+   **Component Function Description:**
+   A header followed by a description text block likely providing information or instructions to the user.
+   @@@arkTSText@@@
+
+4. **Component Keyword:**
+   "Play Lesson" button
+   **Component Function Description:**
+   This is an interactive button, probably used to start playing a lesson or video.
+   @@@arkTSButton@@@

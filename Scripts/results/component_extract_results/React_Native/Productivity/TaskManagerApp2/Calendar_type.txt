@@ -1,0 +1,151 @@
+"You don’" text:
+This is a Text Functional Component. It is likely part of a larger message informing the user about their schedule.
+@@@Text Functional Component@@@
+
+Search bar with "Search for task":
+This is a combination of components. The "Search for task" is a placeholder text inside a TextInput, and the magnifying glass and close icons are likely buttons (Pressable or TouchableOpacity).
+@@@TextInput@@@
+@@@Button@@@
+
+"FR" text:
+This is a Text Functional Component. It represents a specific day of the week, "Friday".
+@@@Text Functional Component@@@
+
+Calendar Icon:
+This is a Button component. It allows the user to view or interact with the calendar, probably to select dates or view date-related tasks.
+@@@Button@@@
+
+"Cleaning Clothes" text:
+This is a Text Functional Component. It is likely part of a task description label.
+@@@Text Functional Component@@@
+
+"SU" text:
+This is a Text Functional Component. It represents a specific day of the week, "Sunday".
+@@@Text Functional Component@@@
+
+"Today" text:
+This is a Text Functional Component. It is used to display the current day.
+@@@Text Functional Component@@@
+
+"08:00" text:
+This is a Text Functional Component. It represents a specific time of an event or task.
+@@@Text Functional Component@@@
+
+"Task" text:
+This is a Text Functional Component. It is likely part of a heading or title for a list of tasks.
+@@@Text Functional Component@@@
+
+Calendar icon:
+This is a Function Component. It likely represents a dynamic icon indicating a calendar date or event symbol.
+@@@Function Component@@@
+
+Urgent label:
+This is a Text Functional Component. It is used to label the severity or priority of a task.
+@@@Text Functional Component@@@
+
+"12" text:
+This is a Text Functional Component. It denotes a date or a numerical value displayed in the app.
+@@@Text Functional Component@@@
+
+Home icon:
+This is a Function Component. It likely represents a button or icon for navigating to the home screen or homepage. 
+@@@Function Component@@@
+
+"07:00" time:
+This is a Text Functional Component. It represents time in the scheduling interface of the application.
+@@@Text Functional Component@@@
+
+"Cleaning" text:
+This is a Text Functional Component. It indicates the title of a scheduled activity or task.
+@@@Text Functional Component@@@
+
+Highlighted calendar date:
+This is a Function Component. It highlights the currently selected date, indicating it is the active day.
+@@@Function Component@@@
+
+"MO" text:
+This is a Text Functional Component. It signifies the abbreviation for "Monday" in the calendar view.
+@@@Text Functional Component@@@
+
+Highlighted "WE 14" date:
+This is a Function Component. It highlights the selected date in the calendar view, indicating the current selection.
+@@@Function Component@@@
+Cleaning Clothes label at 08:00:
+This is a Text component. It represents the task or event scheduled at 08:00, "Cleaning Clothes," along with the time.
+@@@Text Functional Component@@@
+
+09:00 time label:
+This is a Text component. It shows the time 09:00 indicating a timeslot in the schedule or calendar view.
+@@@Text Functional Component@@@
+
+SA day label:
+This is a Text component. It indicates "Saturday" as part of the day's header in the calendar or schedule.
+@@@Text Functional Component@@@
+
+09 h 45 min label:
+This is a Text component. It signifies the total time tracked or spent, shown as 09 hours and 45 minutes.
+@@@Text Functional Component@@@
+
+Cleaning Clothes label at 07:15:
+This is a Text component. It represents the task or event scheduled at 07:15, "Cleaning Clothes," along with the time.
+@@@Text Functional Component@@@
+
++Add label:
+This is a Text component. It represents a prompt for users to add a new task or event to their schedule.
+@@@Text Functional Component@@@
+
+Vertical colored line:
+This is a View component. It serves as a visual indicator or separator for different tasks or events.
+@@@View Function Component@@@
+
+07:15 - 07 time range label:
+This is a Text component. It shows the start and end time of a task or event, from 07:15 to 07: (incomplete time).
+@@@Text Functional Component@@@
+
+Cleaning Clothes card at 08:00:
+This is a View component. It represents a card or item in a list, detailing the event "Cleaning Clothes" scheduled at 08:00, with tags like "Urgent" and "Home."
+@@@View Function Component@@@
+
+Cleaning text:
+This is a Text Functional Component. It displays the text "Cleaning," likely indicating a task or activity.
+@@@Text Functional Component@@@
+
+Curved rectangular background:
+This is a View Function Component. It likely serves as a container or background for other elements to provide visual grouping or separation.
+@@@View Function Component@@@
+
+Number 18:
+This is a Text Functional Component. It displays the number 18, likely representing a date in the calendar.
+@@@Text Functional Component@@@
+
+Plus icon:
+This is a Button. It is probably used to add new tasks or items to the schedule.
+@@@Button@@@
+
+Text "t have any scheduleor":
+This is a Text Functional Component. It displays a message indicating that there is no scheduled task at the specified time.
+@@@Text Functional Component@@@
+
+Partial background rectangle:
+This is a View Function Component. It serves as a decorative or functional background element to separate different pieces of content visually.
+@@@View Function Component@@@
+
+Number 17:
+This is a Text Functional Component. It displays the number 17, likely representing a date in the calendar.
+@@@Text Functional Component@@@
+
+Number 13:
+This is a Text Functional Component. It displays the number 13, likely representing a date in the calendar.
+@@@Text Functional Component@@@
+
+Time 10:00:
+This is a Text Functional Component. It displays the time "10:00," indicating a scheduled task or event at that time.
+@@@Text Functional Component@@@
+"Cleaning Clothes" task card:
+This is a View Function Component. It groups elements like text and buttons, showing the task name, time, and related tags.
+@@@View Function Component@@@
+
+"TU" label:
+This is a Text Functional Component. It displays the abbreviation for Tuesday.
+@@@Text Functional Component@@@
+

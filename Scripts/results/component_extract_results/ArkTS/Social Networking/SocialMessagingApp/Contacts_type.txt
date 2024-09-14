@@ -1,0 +1,116 @@
+Calls:
+This is a text label indicating the "Calls" section of the app, likely for accessing call-related features.
+@@@arkTSText@@@
+
+Location icon:
+This icon likely signifies a location-based feature, such as finding nearby contacts.
+@@@arkTSIcon@@@
+
+DT initials:
+These are user initials, indicating a placeholder or avatar for a contact named Dasha Taran.
+@@@arkTSAvatar@@@
+
+Wi-Fi icon:
+This icon typically indicates the device's network or connectivity status in the status bar.
+@@@arkTSIcon@@@
+
+Contacts:
+This is a text label indicating the "Contacts" section of the app, used for accessing contacts.
+@@@arkTSText@@@
+
+Online label:
+This green text label indicates the online status of a contact.
+@@@arkTSText@@@
+
+Antonio Banderas name:
+This text label displays the name of a contact in the list.
+@@@arkTSText@@@
+
+BE initials:
+These initials serve as a placeholder or avatar for a contact named Billie Eilish.
+@@@arkTSAvatar@@@
+
+Profile tab icon:
+This dark circular icon represents the currently active tab, likely used to navigate to the user's profile section.
+@@@arkTSTabBar@@@
+Component Keyword:
+This appears to be a navigation icon symbol commonly used in bottom tabs or navigation bars.
+@@@arkTSIcon@@@
+
+Component Keyword:
+This icon likely represents an action to add or find friends, with a plus and circle symbol.
+@@@arkTSButton@@@
+
+Component Keyword:
+This is a user avatar placeholder with initials "EB", indicating a contact or a user profile.
+@@@arkTSAvatar@@@
+
+Component Keyword:
+This is another user avatar placeholder with initials "AB", representing a contact.
+@@@arkTSAvatar@@@
+
+Component Keyword:
+This is a text label showing the option to "Invite friends," indicating an action item.
+@@@arkTSText@@@
+
+Component Keyword:
+This text label displays a contact name "Billie Eilish", part of the contact list.
+@@@arkTSText@@@
+
+Component Keyword:
+This text appears to be a dimmed label, representing a section in an app's navigation, like "Messages."
+@@@arkTSLabel@@@
+
+Component Keyword:
+This is a horizontal divider line, often used to separate sections or items in a list.
+@@@arkTSDivider@@@
+
+Component Keyword:
+This text displays a contact's name and status, "Dwayne Johnson," with "Last seen today at 6:02."
+@@@arkTSListItem@@@
+Find people nearby:
+This text label likely indicates a feature for discovering other users who are physically close.
+@@@arkTSText@@@
+
+DT:
+This appears to be an avatar displayed with initials, representing a user’s profile picture.
+@@@arkTSAvatar@@@
+
+Chris Evans, Last seen today at 8:40:
+This component displays a contact name and status, typically showing when they were last active.
+@@@arkTSContactItem@@@
+
+DJ:
+Similar to other initials, this represents a user's avatar in the form of initials.
+@@@arkTSAvatar@@@
+
+Dasha Taran:
+This text represents a contact's name in the contact list.
+@@@arkTSText@@@
+
+Contacts:
+This is likely a header or title text identifying the current section as a contact list.
+@@@arkTSTitle@@@
+
+Dark circle:
+This component might be an indicator for user status or a placeholder for a profile image.
+@@@arkTSBadge@@@
+
+CE:
+This is another example of an avatar using initials for representing a user.
+@@@arkTSAvatar@@@
+
+Navigation bar indicator:
+This component likely represents the current selection or position within a navigation bar.
+@@@arkTSNavigationIndicator@@@
+Emily Blunt (last seen) label:
+This text label displays the user's name and their last seen status, indicating the last time the user was active.
+@@@arkTSText@@@
+
+Signal Strength Indicator:
+This icon represents the signal strength of the device, commonly used in status bars to show connectivity levels.
+@@@arkTSImage@@@
+
+Online Status Label:
+This label indicates the online status of a user, shown in green to denote that the user is currently active.
+@@@arkTSText@@@

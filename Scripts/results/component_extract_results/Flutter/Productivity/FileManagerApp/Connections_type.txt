@@ -1,0 +1,73 @@
+Computer icon:
+This is an image that likely represents a device or folder to connect with, possibly indicating a connection to a computer.
+@@@Image@@@
+
+SFTP Server label:
+This is a text widget that labels an option for connecting to an SFTP server. It provides users with a specific connection type.
+@@@Text@@@
+
+Windows SMB label:
+A text widget representing an option for connecting to a Windows SMB server. This informs users about available network connections.
+@@@Text@@@
+
+Import from cloud storage label:
+A text widget indicating that the following items are related to cloud storage options that users can import from.
+@@@Text@@@
+
+Dropbox button:
+A button styled to represent the Dropbox service, allowing users to connect their Dropbox accounts. It likely uses custom styling for brand representation.
+@@@OutlinedButton@@@
+
+OneDrive label:
+A text widget representing an option to connect to OneDrive. It provides a specific connection choice for users.
+@@@Text@@@
+
+From Computer card:
+A card widget displaying an option to connect a computer, including descriptive text and an image, likely with padding and rounded corners.
+@@@Card@@@
+
+Box label:
+A text widget indicating a connection option to the Box cloud storage service. It labels available network options.
+@@@Text@@@
+
+Bottom navigation icons:
+A row of icon buttons at the bottom of the app for navigation purposes, allowing users to switch between different views or functionalities.
+@@@BottomNavigationBar@@@
+Wi-Fi icon:
+This icon suggests a Wi-Fi connection or settings functionality, likely used to enable or check the Wi-Fi status within the app.
+@@@Icon@@@
+
+Battery icon:
+This icon represents the battery status, possibly indicating the remaining charge or the charging status of the device.
+@@@Icon@@@
+
+Forward arrow (red):
+This arrow icon suggests navigation, likely used to direct users to more details or another screen related to the current item.
+@@@Icon@@@
+
+"Add Connection" text:
+This is a text widget indicating the section's functionality, allowing users to add new connections within the app.
+@@@Text@@@
+
+Signal strength icon:
+This icon represents signal strength, potentially used to display network signal strength or connectivity status.
+@@@Icon@@@
+
+Time display "9:41":
+This text widget displays the current time, typically located in the status bar of a mobile app interface.
+@@@Text@@@
+
+Google Drive button:
+This is a button that allows users to connect or import files from Google Drive, styled with a background color and an icon.
+@@@ElevatedButton@@@
+
+Windows SMB icon:
+This icon signifies a Windows SMB (Server Message Block) connection, part of a list item for adding connections.
+@@@Icon@@@
+
+Letter E (part of FTP Server icon):
+This represents an icon or logo for an FTP server, used as a visual identifier in the connection list.
+@@@Icon@@@
+Connections text:
+This is a title or header within the app, indicating the current screen or section is related to Connections.
+@@@Text@@@

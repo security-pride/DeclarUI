@@ -1,0 +1,85 @@
+Interface Design label with "User interface for beginners":
+This is a Text component. It labels the name of a course and likely serves as the title and category of the course.
+@@@Text Functional Component@@@
+
+Image of the screen with code:
+This is an Image component. It represents a visual preview of the course content or an example of the interface taught in the course.
+@@@Function Component@@@
+
+Popular and Course switch:
+This is likely a segmented control, or a switch-like functionality that allows users to toggle between two views, "Popular" and "Course."
+@@@Switch@@@
+
+Time display (19:27):
+This is a Text component. It shows the current time on the mobile device.
+@@@Text Functional Component@@@
+
+Profile picture with name and title:
+This is likely an Image component combined with Text components. The profile picture (image) and user’s name with title (text) provide the user's profile information.
+@@@Function Component@@@
+
+Image Tablet with an interface sketch:
+This is an Image component. It shows a visual related to the course content.
+@@@Function Component@@@
+
+Programming label with "Learn basic python for scraping":
+This is a Text component. It describes the title and category of another course.
+@@@Text Functional Component@@@
+
+Signal strength indicator:
+This is an Image component. It depicts the current signal strength of the mobile device.
+@@@Function Component@@@
+
+Stats bar (Uploaded, Favorited, Reviews):
+This is a Text component. It displays statistics about the user's activities on the platform, including uploaded content, favorite count, and review count.
+@@@Text Functional Component@@@
+Profile text:
+This is a Text Functional Component. It's used to display the title of the profile page.
+@@@Text Functional Component@@@
+
+Course label:
+This is a Text Functional Component. It's used to represent a selectable tab for course categories.
+@@@Text Functional Component@@@
+
+4.7 (1,242 Reviews) text:
+This is a Text Functional Component. It shows the course rating and the number of reviews.
+@@@Text Functional Component@@@
+
+Profile image:
+This is an Image Functional Component. It displays the user's profile picture.
+@@@Function Component@@@
+
+Verification badge:
+This is an Image Functional Component. It indicates that the profile is verified.
+@@@Function Component@@@
+
+Course image:
+This is an Image Functional Component. It shows an image related to a course.
+@@@Function Component@@@
+
+Popular/Course toggle:
+This is a Button component in conjunction with Text components. It allows users to switch between popular and course categories.
+@@@Button@@@
+
+More options icon:
+This is a TouchableOpacity Function Component. It's used to open a menu of more options typically in profile or settings screen.
+@@@TouchableOpacity Function Component@@@
+
+Back arrow icon:
+This is a TouchableOpacity Function Component. It is used to navigate back to the previous screen.
+@@@TouchableOpacity Function Component@@@
+Thumbs Up Icon with Rating:
+This component seems to be part of a rating system, indicating the average user rating for a course.
+@@@Image@@@
+
+"Popular Courses" Text:
+This is a heading text component that labels the section containing a list of popular courses.
+@@@Text Functional Component@@@
+
+Profile Picture:
+This is a profile image component, displaying the user's profile photo.
+@@@Image@@@
+
+Tablet Image:
+This image appears to represent a course or content preview, likely an illustration or real-life image related to the course.
+@@@Image@@@

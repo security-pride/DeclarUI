@@ -1,0 +1,46 @@
+Inbox icon:
+This icon typically represents a mail or message feature within the app.
+@@@arkTSIcon@@@
+
+Upload icon:
+This icon likely represents an action to upload or share content.
+@@@arkTSIcon@@@
+
+Calorie burn indicator:
+This component shows the number of calories burned. The flame icon is a visual indicator.
+@@@arkTSIndicator@@@
+
+Mindfulness tracker:
+This component tracks mindfulness activity, as indicated by the brain icon and text description.
+@@@arkTSListItem@@@
+
+Edit button:
+This button allows the user to edit content or settings within the app. The text "编辑" translates to "Edit".
+@@@arkTSButton@@@
+
+Friends label:
+This is a text label in the app menu indicating a section for friends. The text "好友" translates to "Friends".
+@@@arkTSText@@@
+
+Discover icon:
+This icon is likely used to navigate to the discover or explore section of the app. The text "发现" translates to "Discover".
+@@@arkTSIcon@@@
+
+Menstrual health tracker:
+This component tracks menstrual health information, as indicated by the water droplet icon and text description.
+@@@arkTSListItem@@@
+
+Workout tracker:
+This component tracks workout activity, as indicated by the running icon and text description.
+@@@arkTSListItem@@@
+fitbit logo:
+This is a logo that identifies the brand of the app.
+@@@arkTSImage@@@
+
+Premium:
+This is a text label likely indicating a premium membership section or feature within the app.
+@@@arkTSText@@@
+
+步数显示 (Step Count Display):
+This component visually shows the user's step count, an icon representing steps, and the unit of measurement in Chinese.
+@@@arkTSCircle@@@

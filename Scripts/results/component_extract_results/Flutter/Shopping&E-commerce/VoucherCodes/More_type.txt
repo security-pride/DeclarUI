@@ -1,0 +1,105 @@
+1. Component Keyword:
+Booking.com card
+This card displays a deal for a hotel booking discount with a logo, offer description, and expiry date.
+@@@Card@@@
+
+2. Component Keyword:
+App bar with back arrow and title
+This section represents the app's top navigation bar with a back button and a page title.
+@@@AppBar@@@
+
+3. Component Keyword:
+Account icon and label
+This component shows an icon and text for navigating to the account section.
+@@@Column@@@
+
+4. Component Keyword:
+VIP label
+This is a text widget indicating VIP access or section.
+@@@Text@@@
+
+5. Component Keyword:
+Search label
+This text indicates the search functionality of the app.
+@@@Text@@@
+
+6. Component Keyword:
+Amazon card
+This card displays a deal related to Amazon with a logo, offer description, and expiry date.
+@@@Card@@@
+
+7. Component Keyword:
+Discover icon and label
+This component includes an icon and text for the discover section navigation.
+@@@Column@@@
+
+8. Component Keyword:
+Just Eat card
+This card displays a voucher offer for Just Eat, including a logo, offer description, and expiry information.
+@@@Card@@@
+
+9. Component Keyword:
+Currys card
+This card displays a Currys voucher offer with a logo, offer description, and expiration date.
+@@@Card@@@
+**Component Keyword: Back arrow icon**
+
+Component Function Description:
+This back arrow icon likely provides navigation functionality, allowing the user to return to the previous screen.
+@@@IconButton@@@
+
+---
+
+**Component Keyword: "Reward Offers" label**
+
+Component Function Description:
+This text displays the title of the screen. It's likely a static label indicating the current section of the app.
+@@@Text@@@
+
+---
+
+**Component Keyword: Offer card**
+
+Component Function Description:
+This card component displays a reward offer. It likely contains various children such as an image, text, and other widgets for detailed information about the offer.
+@@@Card@@@
+
+---
+
+**Component Keyword: Offer image (e.g., brand logo)**
+
+Component Function Description:
+This image widget displays a logo or icon associated with each reward offer, providing visual identification for the user.
+@@@Image@@@
+
+---
+
+**Component Keyword: "Exclusive Great Savings" with description text**
+
+Component Function Description:
+This text explains the details of the offer. It likely uses styling to emphasize "Exclusive," and may span multiple lines.
+@@@RichText@@@
+
+---
+
+**Component Keyword: "Online Reward" label**
+
+Component Function Description:
+This smaller italicized text likely provides additional information about the type of reward, emphasizing it as an online offer.
+@@@Text@@@
+
+---
+
+**Component Keyword: "Ends 22 Jul" label on offer card**
+
+Component Function Description:
+This is a date label, indicating the expiration date of the offer. This text is typically styled to stand out as important information.
+@@@Text@@@
+
+---
+
+**Component Keyword: Bottom navigation icons (e.g., Discover, Search, VIP, Account)**
+
+Component Function Description:
+These icons serve as interactive controls in the bottom navigation bar, allowing users to navigate to different sections of the app.
+@@@BottomNavigationBar@@@

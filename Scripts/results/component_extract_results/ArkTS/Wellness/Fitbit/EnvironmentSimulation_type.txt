@@ -1,0 +1,55 @@
+Component Keyword:
+"持续时间" (Duration) label:
+This is a text label that likely indicates the duration of something, such as a session or track.
+@@@arkTSText@@@
+
+Component Keyword:
+Lock icon:
+This icon signifies that a particular feature or content is locked or requires a premium account to access.
+@@@arkTSIcon@@@
+
+Component Keyword:
+"试用 PREMIUM" (Try Premium) button:
+This is a button that likely initiates a trial of the premium version of the app.
+@@@arkTSButton@@@
+
+Component Keyword:
+Part of relaxing description:
+This is a portion of a text description providing details about the content, in this case, the relaxation sounds.
+@@@arkTSText@@@
+
+Component Keyword:
+"用心" label:
+This is a text label, and "用心" translates to "mindfulness" or "attentive".
+@@@arkTSText@@@
+
+Component Keyword:
+Application logo:
+This is an image component representing the app's branding or logo.
+@@@arkTSImage@@@
+
+Component Keyword:
+Relaxing description:
+This is a text section providing details about the content, in this case, the relaxation sounds.
+@@@arkTSText@@@
+
+Component Keyword:
+"Nature rain on leaves" title:
+This is a title text label indicating the name of the current playing or selected content.
+@@@arkTSTitle@@@
+
+Component Keyword:
+Duration value:
+This part indicates the specific duration, in this case, "45" minutes.
+@@@arkTSText@@@
+Clock icon:
+This is an icon that likely represents a timer or duration setting within the app. It is used to show or set the duration of the activity or sound.
+@@@arkTSIcon@@@
+
+"试用 PREMIUM" (Try Premium) button:
+This is a button that allows users to start a trial of the premium version of the app.
+@@@arkTSButton@@@
+
+"持续时间" and "45分钟":
+This is text indicating the duration or elapsed time, with "持续时间" translating to "duration" and "45分钟" translating to "45 minutes".
+@@@arkTSText@@@

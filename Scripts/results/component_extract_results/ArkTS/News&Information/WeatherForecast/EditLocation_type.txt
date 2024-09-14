@@ -1,0 +1,44 @@
+### Component Matching and Description
+
+1. **Black Circle**
+   - This appears to be a graphical element, potentially used as a design feature or button.
+   - @@@arkTSCircle@@@
+
+2. **"Current location" Label**
+   - This is a text label indicating the current location of the user, likely a header or subtext in a location setting section.
+   - @@@arkTSText@@@
+
+3. **Wi-Fi Icon**
+   - This icon typically represents the Wi-Fi connection status on a device's status bar.
+   - @@@arkTSIcon@@@
+
+4. **Battery Icon**
+   - This icon usually indicates the battery level of the device on the status bar.
+   - @@@arkTSIcon@@@
+
+5. **Information Text Box**
+   - This text box provides information or instructions related to the app's functionality, likely a notification or alert.
+   - @@@arkTSTextBox@@@
+
+6. **"Automatic detection" Label**
+   - This is a text label indicating a feature related to automatically detecting the user's location.
+   - @@@arkTSText@@@
+
+7. **Top Icons (Example: SIM Card, Multi-window)**
+   - These icons represent device status or functionalities, such as SIM card status and multi-window feature.
+   - @@@arkTSIcon@@@
+
+8. **Unknown Icon**
+   - This is likely a UI element or icon, possibly representing a system alert or notification.
+   - @@@arkTSIcon@@@
+
+9. **Time Display ("7:11")**
+   - This appears to be the digital clock display from the device's status bar.
+   - @@@arkTSTimeDisplay@@@
+Location icon:
+This icon likely represents a location marker, typically used to show the location on a map or current location setting.
+@@@arkTSIcon@@@
+
+Add location button:
+This is a button labeled "Add location," likely used to add a new location to a list or map.
+@@@arkTSButton@@@

@@ -1,0 +1,90 @@
+Sure, here are the component matches based on the images provided:
+
+---
+
+Double checkmarks:
+This icon likely represents a message status indicator, showing the message has been read.
+@@@arkTSIcon@@@
+
+---
+
+Phone icon:
+This icon likely provides a quick action for making a call.
+@@@arkTSButton@@@
+
+---
+
+Audio message:
+This component is a player for voice messages, allowing users to listen to audio clips.
+@@@arkTSAudioPlayer@@@
+
+---
+
+Image with play button:
+This component appears to be a video thumbnail with a play button.
+@@@arkTSVideoThumbnail@@@
+
+---
+
+Message bubble with emoji:
+This is a text message bubble displaying a chat message along with an emoji.
+@@@arkTSMessageBubble@@@
+
+---
+
+Timestamp under message:
+This text displays the time a message was sent or received.
+@@@arkTSText@@@
+
+---
+
+Signal and battery indicators:
+These icons show the device’s connectivity signal, Wi-Fi status, and battery level.
+@@@arkTSStatusBar@@@
+
+---
+
+Message bubble:
+This is another text message bubble displaying a chat message.
+@@@arkTSMessageBubble@@@
+
+---
+Back arrow:
+This component is likely used for navigation, allowing users to return to the previous screen.
+@@@arkTSBackButton@@@
+
+Time display (9:41):
+Displays the current time on the device.
+@@@arkTSText@@@
+
+Chat bubble:
+Displays user messages in a conversation.
+@@@arkTSChatBubble@@@
+
+Audio message component:
+This component allows users to play an audio message within a chat.
+@@@arkTSAudioPlayer@@@
+
+Timestamp (8:43 AM):
+Displays the time a message was sent or received in a chat.
+@@@arkTSText@@@
+
+Profile picture with name:
+Displays a user's profile image and name in a chat header.
+@@@arkTSAvatar@@@
+
+Input field:
+Allows users to input text to send messages in a chat.
+@@@arkTSTextInput@@@
+
+Online status indicator:
+Shows the user's current online status in the chat.
+@@@arkTSStatusBadge@@@
+
+Sender name with status:
+Displays the sender's name and status in the chat header.
+@@@arkTSText@@@
+Image component with play button:
+
+This component appears to be an interactive media element, possibly a video or audio player, allowing users to play media content directly from the interface.
+@@@arkTSVideoPlayer@@@

@@ -1,0 +1,172 @@
+col:
+This text displays a user's name or username in a list of followers or notifications.
+@@@Text@@@
+
+dori:
+This text displays a user's name or username in a list of followers or notifications.
+@@@Text@@@
+
+angela:
+This text displays a user's name or username in a list of followers or notifications.
+@@@Text@@@
+
+Follow button:
+This button allows users to follow another user when tapped. It may have styling, such as a background color or border.
+@@@TextButton@@@
+
+User icon:
+This icon represents a user, commonly used in lists or profiles, and is usually a placeholder image for the user's avatar.
+@@@CircleAvatar@@@
+
+Wifi icon:
+This icon typically indicates connectivity status, such as a Wi-Fi signal, and is often used in status bars or connection settings.
+@@@Icon@@@
+
+Verified tab:
+This tab is part of a navigation system likely used to filter or categorize information in the app, such as verified users or notifications.
+@@@TabBar@@@
+
+Navigation bar background:
+This background is likely part of the bottom navigation bar, used for styling and differentiating navigation items.
+@@@BottomNavigationBar@@@
+Certainly!
+
+---
+
+Component Keyword:
+This appears to be a button labeled "Follow" with a border and possibly padding around the text.
+@@@ElevatedButton@@@
+
+---
+
+Component Keyword:
+This is an icon that might represent editing or creation actions, commonly found in options to compose or modify content.
+@@@Icon@@@
+
+---
+
+Component Keyword:
+This icon likely denotes analytics or statistics, perhaps used to access insights or data overviews.
+@@@Icon@@@
+
+---
+
+Component Keyword:
+This is a text widget displaying the name "michael". It likely represents a user's display name.
+@@@Text@@@
+
+---
+
+Component Keyword:
+This is a button labeled "Answers", which may be used for navigating to a section of the app with user answers or responses.
+@@@TextButton@@@
+
+---
+
+Component Keyword:
+This is a text widget displaying the name "peter". It likely represents a user's display name.
+@@@Text@@@
+
+---
+
+Component Keyword:
+This icon likely represents a user profile image or avatar, potentially used for indicating a user account or identity.
+@@@CircleAvatar@@@
+
+--- 
+
+Component Keyword:
+This is a button labeled "Follow" with a border and possible padding around the text.
+@@@ElevatedButton@@@
+
+---
+Follow Button:
+This button allows users to follow another user when clicked.
+@@@ElevatedButton@@@
+
+Home Icon:
+This icon represents the home button in the bottom navigation bar, taking the user back to the home screen.
+@@@Icon@@@
+
+Profile Icon:
+This icon represents the user's profile in the bottom navigation bar, allowing the user to access profile-related functions.
+@@@Icon@@@
+
+Started Following You Text:
+This text indicates that a user has started following you.
+@@@Text@@@
+
+All Tab:
+This tab is used to filter the activity feed to show all activities.
+@@@Tab@@@
+
+Small User Profile icon:
+This icon represents a user's profile picture, displayed next to their name in the activity feed.
+@@@CircleAvatar@@@
+Mentions button:
+This appears to be a button that allows users to filter the activity feed to only show mentions.
+@@@TextButton@@@
+
+Activity title:
+This is a text widget used as the title of the screen, indicating the user is viewing the Activity section.
+@@@Text@@@
+
+"Started following you" label:
+This is a text widget that provides a brief description of an activity where another user has started following the current user.
+@@@Text@@@
+
+Follow button:
+This is a button that allows users to follow back someone who has started following them.
+@@@ElevatedButton@@@
+
+"thomas" username label:
+This is a text widget displaying the username of a user who has started following the current user.
+@@@Text@@@
+
+User avatar:
+This is an image widget representing the avatar or profile picture of the user.
+@@@CircleAvatar@@@
+
+"willie" username label:
+This is a text widget displaying the username of a user who has started following the current user.
+@@@Text@@@
+
+Follow button:
+This is a button that allows users to follow back someone who has started following them.
+@@@ElevatedButton@@@
+
+
+Component Keyword:
+This could represent a user avatar within the app, allowing users to see who is taking an action, such as following them.
+@@@CircleAvatar@@@
+
+Component Keyword:
+This is likely a user’s name displayed on the screen, indicating who performed an action.
+@@@Text@@@
+
+Component Keyword:
+This could be a status message or notification showing what action has been taken by the user, such as following.
+@@@Text@@@
+
+Component Keyword:
+This appears to be a button allowing users to follow another user after seeing their activity on the app.
+@@@TextButton@@@
+"Started following you" text:
+This text informs the user that someone has started following them. It is a simple, static text element.
+@@@Text@@@
+
+"Willie" text:
+This text displays a user's name, likely indicating the person who initiated an action such as following.
+@@@Text@@@
+
+"Templeton" text:
+This text displays another user's name, providing identification of the individual engaged in a social interaction.
+@@@Text@@@
+
+"Follow" button:
+This component is a button that, when pressed, likely allows the user to follow back another user. It may have properties like padding, borderRadius, and background color.
+@@@ElevatedButton@@@
+
+Heart icon:
+This icon symbolizes a social interaction feature, such as liking a post or favoriting a user.
+@@@Icon@@@

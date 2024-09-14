@@ -1,0 +1,195 @@
+商家服务 (Merchant Services) text:
+This text label is likely used to describe a feature or section related to merchant services within the app.
+@@@Text@@@
+
+查看收款明细 (View Receipt Details) text:
+This text label is likely a clickable link for accessing detailed receipt information.
+@@@Text@@@
+
+Wallet icon:
+This icon likely represents a financial feature or section, such as a wallet or payment method.
+@@@Icon@@@
+
+余额 (Balance) text:
+This text label indicates the balance available in the user's account.
+@@@Text@@@
+
+Headphones icon:
+This icon likely represents a customer support or help feature.
+@@@Icon@@@
+
+Masked phone number (136******15):
+This text shows a partially masked phone number, likely for security purposes.
+@@@Text@@@
+
+以使用更多金融服务 (To use more financial services):
+This text label likely encourages the user to utilize additional financial services provided by the app.
+@@@Text@@@
+
+User profile avatar:
+This image likely represents the user's profile picture within the app.
+@@@CircleAvatar@@@
+
+冲榜赢苹果手机 (Win an iPhone by ranking high) text with a blue dot:
+This text label likely indicates a promotional offer or contest within the app, with the blue dot perhaps signifying a new notification or alert.
+@@@Text@@@
+
+支付宝会员 (Alipay Membership) text:
+This text label describes the membership status or features related to Alipay services.
+@@@Text@@@
+
+大众会员 (Mass Membership) badge:
+This badge likely represents a special membership tier or rewards program.
+@@@Container@@@
+
+Component with "支付宝会员" text and "大众会员" badge:
+This combined component includes a membership description and a badge, likely indicating user membership status and tier. It might also be clickable to view more details.
+@@@ListTile@@@
+
+110积分待领取 (110 points to be claimed) text:
+This text label indicates the number of reward points that are available for the user to claim.
+@@@Text@@@
+
+Right arrow icon:
+This icon indicates that the user can click to view more details or navigate to another screen.
+@@@Icon@@@
+
+Component with "支付宝会员" text, "大众会员" badge, "110积分待领取" text:
+This combined component includes a membership description, a badge, and points information, indicative of the user's status and available rewards. It also features a right arrow icon for navigation.
+@@@ListTile@@@
+我的 (My) icon with label:
+This is an icon with a text label that likely serves as a navigation button to the "My" or "Profile" section. The combination suggests a BottomNavigationBarItem.
+@@@BottomNavigationBarItem@@@
+
+Pie chart icon:
+This icon likely represents some function related to finance or statistics, perhaps depicting a portfolio or analysis section.
+@@@Icon@@@
+
+不吃不吃 (Name label):
+This is a text widget displaying a user's name or label. It appears at the top of a user profile section.
+@@@Text@@@
+
+Settings gear icon:
+This icon represents a settings button, likely used to access configuration options within the app.
+@@@IconButton@@@
+
+消息 (Messages) icon with notification badge:
+This widget combines an icon and a notification badge to indicate unread messages or alerts. The badge can be created using a Stack.
+@@@Stack@@@
+
+理财 (Wealth Management) icon with label:
+This is likely a navigation item represented by an icon and label, used in a navigation bar or menu for accessing wealth management features.
+@@@BottomNavigationBarItem@@@
+
+总资产 (Total Assets) label:
+This text label probably indicates a section or feature for viewing total financial assets or other related information.
+@@@Text@@@
+
+List icon:
+The icon likely denotes a feature associated with listing, scheduling, or similar functions.
+@@@Icon@@@
+
+免费领取账户保障 (Free Account Protection) label:
+This text label might indicate a special offer or promotional feature for account protection services. It includes a right-pointing arrow indicating potential navigation.
+@@@TextButton@@@
+1. Component Keyword:
+Icon of yellow and orange hexagons
+Component Function Description:
+This icon likely represents a specific service or feature within the application, potentially for navigation or branding purposes.
+@@@Image@@@
+
+2. Component Keyword:
+"商家积分" (Merchant Points) label
+Component Function Description:
+This text indicates a section related to the merchant points the user has, which can be related to rewards or loyalty benefits. Translation: "Merchant Points".
+@@@Text@@@
+
+3. Component Keyword:
+Icon with payment symbol and "首页" (Home) label
+Component Function Description:
+This icon and label set likely serves as a button for navigating to the home or overview section of the application. Translation: "Home".
+@@@Column@@@
+
+4. Component Keyword:
+"银行卡" (Bank Card) label
+Component Function Description:
+This text label indicates a section where users can view or manage their linked bank cards. Translation: "Bank Card".
+@@@Text@@@
+
+5. Component Keyword:
+List item containing icons and labels
+Component Function Description:
+This list item represents different services or features that a user can interact with, each accompanied by an icon and a label.
+@@@ListTile@@@
+
+6. Component Keyword:
+"花呗" (Huabei) label
+Component Function Description:
+This text label indicates a financial section in the app, likely related to a micro-loan or credit service offered. Translation: "Huabei".
+@@@Text@@@
+
+7. Component Keyword:
+Highlighted list item with icons and labels
+Component Function Description:
+Similar to a standard list item, this element represents specific services but may be emphasized for importance or current status updates.
+@@@ListTile@@@
+
+8. Component Keyword:
+Repeated icon of yellow and orange hexagons
+Component Function Description:
+This icon is used again, likely serving a similar purpose as before, for navigation or branding within a different context.
+@@@Image@@@
+
+9. Component Keyword:
+"余额宝" (Yu'ebao) label
+Component Function Description:
+This text label indicates a section related to a financial product or balance management, typical for saving or investment features. Translation: "Yu'ebao".
+@@@Text@@@
+Component Keyword:
+This icon likely represents an application-specific feature (such as a third-party service) within the app.
+@@@Image@@@
+
+Component Keyword:
+This is a text label indicating an accumulated score or points to be claimed by the user.
+@@@Text@@@
+
+Component Keyword:
+This text widget displays "Today's Receipts (Yuan)", likely showing the amount received today in the local currency.
+@@@Text@@@
+
+Component Keyword:
+This blue dot might indicate a new notification or an unread message within a particular section of the app.
+@@@Container@@@
+
+Component Keyword:
+The label means "Bill", indicating a section where the user can view their bills. Translation: "Bill".
+@@@Text@@@
+
+Component Keyword:
+This text widget displays the number 0.00, which likely represents a monetary value, such as balance or transaction amount.
+@@@Text@@@
+
+Component Keyword:
+This is the icon for a specific section or service within the app, identifiable by its unique design.
+@@@Image@@@
+
+Component Keyword:
+The label means "Upload ID Photo", instructing users to upload identification photos. Translation: "Upload ID Photo".
+@@@Text@@@
+
+Component Keyword:
+The label means "Video", indicating the section where users can access video content. Translation: "Video".
+@@@Text@@@
+
+
+Yuan symbol on orange background:
+This is an icon likely used to represent some form of financial service related to the yuan currency.
+@@@Icon@@@
+
+"用户保护中心" (User Protection Center) label:
+This is a text widget that is a part of a navigation element for accessing the User Protection Center feature. 
+@@@Text@@@
+
+Fish and blue circle icon:
+This is an icon that could represent a specific service or section related to the app's features, likely involving payments or financial management.
+@@@Icon@@@

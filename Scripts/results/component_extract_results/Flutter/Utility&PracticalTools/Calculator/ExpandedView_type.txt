@@ -1,0 +1,219 @@
+Sin Button:
+This button likely allows users to calculate the sine of a number.
+@@@ElevatedButton@@@
+
+Number 4 Button:
+This button allows users to input the digit 4 as part of their calculation.
+@@@ElevatedButton@@@
+
+Clear Button (X):
+This button is used to clear the current input or delete the last character entered.
+@@@IconButton@@@
+
+Value 1080 Label:
+This label displays the current value or result of calculations.
+@@@Text@@@
+
+Clock Icon:
+This icon likely indicates a history or recent calculations feature.
+@@@Icon@@@
+
+Number 0 Button:
+This button allows users to input the digit 0 as part of their calculation.
+@@@ElevatedButton@@@
+
+Equal Button:
+This button is used to evaluate the current calculation and display the result.
+@@@ElevatedButton@@@
+
+Plus Button:
+This button is used to add the current input to the next number or existing calculation.
+@@@ElevatedButton@@@
+
+Number 0 Button (duplicate):
+This button allows users to input the digit 0 as part of their calculation.
+@@@ElevatedButton@@@
++/- button:
+This button likely allows users to toggle the sign of a number, changing it from positive to negative or vice versa.
+@@@ElevatedButton@@@
+
+7 button:
+This button is used to input the number 7 into the calculator.
+@@@ElevatedButton@@@
+
+|x| button:
+This button likely computes the absolute value of a number.
+@@@ElevatedButton@@@
+
+x button:
+This button performs the multiplication operation.
+@@@ElevatedButton@@@
+
+% button:
+This button is used to compute the percentage of a number.
+@@@ElevatedButton@@@
+
+log button:
+This button computes the natural logarithm of a number.
+@@@ElevatedButton@@@
+
+log10 button:
+This button calculates the base-10 logarithm of a number.
+@@@ElevatedButton@@@
+
+cos button:
+This button computes the cosine of an angle.
+@@@ElevatedButton@@@
+
+tan button:
+This button calculates the tangent of an angle.
+@@@ElevatedButton@@@
+Switch toggle:
+This appears to be a toggle switch that likely changes the app's theme from light to dark mode.
+@@@Switch@@@
+
+"1080" display:
+This seems to be a text display showing a calculated result or current input in the calculator.
+@@@Text@@@
+
+"×" button:
+This is a button used for multiplication operations in the calculator.
+@@@ElevatedButton@@@
+
+"()" button:
+This button is likely used to add parentheses around expressions for order of operations.
+@@@ElevatedButton@@@
+
+Close icon:
+This is a close button, possibly used to dismiss an overlay or clear an input field.
+@@@IconButton@@@
+
+"9" button:
+This is a numeric button for entering the number nine in calculations.
+@@@ElevatedButton@@@
+
+"Deg / Rad" button:
+This is a toggle button that switches between degree and radian modes for trigonometric calculations.
+@@@TextButton@@@
+
+"2" button:
+This is a numeric button for entering the number two in calculations.
+@@@ElevatedButton@@@
+
+"C" button:
+This button likely acts as a clear function, resetting the current input or last operation.
+@@@ElevatedButton@@@
+C button:
+This appears to be a button labeled "C," which likely functions as a clear or reset button in a calculator app.
+@@@ElevatedButton@@@
+
+Switch to Dark toggle:
+This is a toggle switch that allows the user to switch between light and dark modes, as suggested by the text "Switch to Dark."
+@@@Switch@@@
+
+Number 3 button:
+This appears to be a button labeled with the number "3," likely used to input the digit 3 in a calculator app.
+@@@ElevatedButton@@@
+
+e button:
+This appears to be a button labeled "e," which might represent the mathematical constant e in a calculator app.
+@@@ElevatedButton@@@
+
+Plus button:
+This is a button with a plus sign, likely used to perform addition operations in a calculator app.
+@@@ElevatedButton@@@
+
+Number 9 button:
+This appears to be a button labeled with the number "9," likely used to input the digit 9 in a calculator app.
+@@@ElevatedButton@@@
+
+Number 2 button:
+This appears to be a button labeled with the number "2," likely used to input the digit 2 in a calculator app.
+@@@ElevatedButton@@@
+
+e^n button:
+This is a button labeled "e^n," likely used to calculate e raised to the power of n.
+@@@ElevatedButton@@@
+
+x^2 button:
+This is a button labeled "x^2," likely used to square a number in a calculator app.
+@@@ElevatedButton@@@
+Dot Button:
+This appears to be a button for entering a decimal point in the calculator interface.
+@@@ElevatedButton@@@
+
+Number "8" Button:
+This seems to be a button for entering the number 8.
+@@@ElevatedButton@@@
+
+Number "7" Button:
+This seems to be a button for entering the number 7.
+@@@ElevatedButton@@@
+
+Number "6" Button:
+This seems to be a button for entering the number 6.
+@@@ElevatedButton@@@
+
+"1/x" Button:
+This likely represents the reciprocal function, which would calculate the reciprocal of the current input.
+@@@ElevatedButton@@@
+
+Number "1" Button:
+This seems to be a button for entering the number 1.
+@@@ElevatedButton@@@
+
+Number "3" Button:
+This seems to be a button for entering the number 3.
+@@@ElevatedButton@@@
+
+"π" Button:
+This is likely a button for entering the π (pi) constant.
+@@@ElevatedButton@@@
+
+Number "5" Button:
+This seems to be a button for entering the number 5.
+@@@ElevatedButton@@@
+
+Parentheses button:
+A button that allows the user to input the parentheses characters “(” and “)”.
+@@@TextButton@@@
+
+Expand icon:
+An icon button that likely toggles a full-screen mode to expand or collapse the interface.
+@@@IconButton@@@
+
+Minus button:
+A button used to input the subtraction operator.
+@@@TextButton@@@
+
+Division button:
+A button used to input the division operator.
+@@@TextButton@@@
+
+Multiplication operation label:
+Displays the operation "45 × 24" and indicates the current calculation being performed.
+@@@Text@@@
+
+Exponentiation button:
+A button that allows the user to input the exponentiation function "x^n".
+@@@TextButton@@@
+
+Clock icon:
+An icon button that likely accesses a history of previous calculations or timestamps of operations.
+@@@IconButton@@@
+
+One button:
+A button that allows the user to input the number "1".
+@@@TextButton@@@
+
+Five button:
+A button that allows the user to input the number "5".
+@@@TextButton@@@
+| Component Keyword     | Component Function Description                                                                                | @@@Flutter Widget Type@@@           |
+|-----------------------|--------------------------------------------------------------------------------------------------------------|-------------------------------------|
+| |x| button                 | This is a button for calculating the absolute value of a number.                                        | @@@ElevatedButton@@@                |
+| / button                   | This is a button for performing division operations.                                                     | @@@ElevatedButton@@@                |
+| 4 button                   | This is a button for inputting the number 4 into the calculator.                                         | @@@ElevatedButton@@@                |
+| Swap Arrows Button         | This is a button for swapping the functionality or mode (possibly switching from degrees to radians).    | @@@IconButton@@@                    |
+| Square Root button         | This is a button for calculating the square root of the input number.                                    | @@@ElevatedButton@@@                |
+| +/- button                 | This is a button to toggle the sign of the current numerical input between positive and negative.        | @@@ElevatedButton@@@                |

@@ -1,0 +1,59 @@
+Component Keyword: 利用您的电话号码查找好友！ (Find friends using your phone number!)
+Component Function Description: This is a text label instructing the user to find friends by using their phone number. It provides guidance to the user on how to proceed.
+@@@arkTSText@@@
+
+Component Keyword: 电子邮箱 (Email)
+Component Function Description: This is an icon representing the email option. It allows users to choose the email method to find friends.
+@@@arkTSIcon@@@
+
+Component Keyword: 寻找朋友 (Find Friends)
+Component Function Description: This text appears to be a title or header indicating the purpose of the current screen or section, which is to find friends.
+@@@arkTSText@@@
+
+Component Keyword: 输入您的电话号码，从您的联系人列表中添加好友 (Enter your phone number to add friends from your contacts list)
+Component Function Description: This is a detailed instruction text guiding the user to enter their phone number to add friends from their contact list.
+@@@arkTSText@@@
+
+Component Keyword: Username
+Component Function Description: This is an icon representing a username entry option, where users can choose to find friends using their username.
+@@@arkTSIcon@@@
+
+Component Keyword: 通讯录 (Contacts)
+Component Function Description: This is an icon representing the contacts option. It allows users to select contacts as a method to find friends.
+@@@arkTSIcon@@@
+
+Component Keyword: 输入您的电话号码，从您的联系人列表中添加好友。 (Enter your phone number to add friends from your contacts list.)
+Component Function Description: This is a detailed instruction text guiding the user to enter their phone number to add friends from their contact list.
+@@@arkTSText@@@
+
+Component Keyword: 连接通讯录 (Connect Contacts)
+Component Function Description: This is a button indicating the action to connect the app with the user's contacts. It likely initiates a process to fetch contacts.
+@@@arkTSButton@@@
+Component Keyword:
+This is a title bar located at the top of the screen indicating the main functionality of this view which is "Find Friends". The text is centered at the top.
+@@@arkTSTitleBar@@@
+
+Component Keyword:
+The "通讯录" (contacts) button appears to be a navigational button which allows users to access their contact list.
+@@@arkTSButton@@@
+
+Component Keyword:
+The "电子邮箱" (email) button is another navigational button that lets users find friends via their email. It has an icon and a label below it.
+@@@arkTSButton@@@
+
+Component Keyword:
+The "Username" button is a navigational button allowing users to find friends using their username. It features an icon and a label.
+@@@arkTSButton@@@
+
+Component Keyword:
+The "完成" (complete) button is likely a confirmation button that a user presses after finding their friends. Its function is to finalize the action.
+@@@arkTSButton@@@
+
+Component Keyword:
+The "连接通讯录" (connect contacts) button suggests an action button used to connect the app to the user's phone contact list. It is in a distinctive color indicating its importance.
+@@@arkTSButton@@@
+
+Component Keyword:
+This text provides an instructional message for users on how to use their phone number to find friends.
+@@@arkTSText@@@
+

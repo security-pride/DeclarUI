@@ -1,0 +1,93 @@
+Back to top icon:
+This is a floating action button that may be used to scroll back to the top of a feed or page.
+@@@FloatingActionButton@@@
+
+Write post icon:
+This button likely allows the user to create a new post or tweet. The feather represents writing or creating.
+@@@FloatingActionButton@@@
+
+Sparkle icon:
+Typically used as a button to trigger a mode or setting change, such as switching feeds or themes.
+@@@IconButton@@@
+
+Profile image:
+A circular image typically used to represent a user's profile picture. 
+@@@CircleAvatar@@@
+
+Text content:
+This is text displayed in a tweet-like format, showing user interactions and content. 
+@@@RichText@@@
+
+Heart icon:
+Indicates 'like' functionality for a post or tweet. It allows users to favorite the content.
+@@@IconButton@@@
+
+Home icon:
+A navigation icon used to navigate to the home screen or main feed.
+@@@BottomNavigationBarItem@@@
+
+Retweet text:
+Indicates a retweeted post, with embedded user and timestamp information.
+@@@RichText@@@
+
+App logo:
+Used in the app bar, most likely as a branding element or notification indicator.
+@@@AppBar@@@
+Profile picture of two people:
+
+This is likely an image widget displaying a user's profile picture. The image is circular, often achieved using a ClipRRect with a borderRadius or a CircleAvatar in Flutter.
+@@@CircleAvatar@@@
+
+Wi-Fi symbol:
+
+This image represents an icon, possibly used to indicate network connectivity status within the app.
+@@@Icon@@@
+
+Text block: "He was an icon, the kind of person who wouldn’t die this way. My wife compared it to Princess Di’s accident."
+
+This is a text widget displaying part of a tweet or message. Flutter's Text widget is used for displaying strings of text in various styles.
+@@@Text@@@
+
+Upward arrow icon:
+
+This is likely an icon button that could be used for actions such as sharing or sending. Its size and shape suggest it is interactive.
+@@@IconButton@@@
+
+Text: "Show this thread"
+
+This appears to be a clickable text indicating the expansion of a thread or conversation, usually styled with distinct colors or underlines.
+@@@TextButton@@@
+
+Bell icon:
+
+This is an icon widget typically used to indicate notifications or alerts within the app.
+@@@Icon@@@
+
+Text block: "But the end can happen for anyone at any time, & I can’t help but think of anything else lately."
+
+This is another text widget displaying a different part of a tweet or message, demonstrating the use of paragraphs or multiline text features.
+@@@Text@@@
+
+Tweet block of "Zack John liked karennne @karen…":
+
+This is a Container or Card widget displaying a tweet. It includes multiple Text widgets, images for profile photos, and could also have Row and Column widgets for layout.
+@@@Container@@@
+Profile Picture 1:
+This is likely an image widget displaying the user's profile picture. It could fetch from a network or be a local asset.
+@@@CircleAvatar@@@
+
+Heart Icon:
+This appears to be an icon representing a "like" button. Users might tap to like or unlike a post.
+@@@IconButton@@@
+
+Profile Picture 2:
+Similar to Profile Picture 1, this widget displays a user's profile picture in a circular format.
+@@@CircleAvatar@@@
+
+Magnifying Glass Icon:
+This icon typically represents a search function. Users might tap it to open a search bar or initiate a search query.
+@@@IconButton@@@
+
+Envelope Icon:
+This icon usually represents messages or a mail feature. Users might tap it to view their messages.
+@@@IconButton@@@

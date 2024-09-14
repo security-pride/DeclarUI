@@ -1,0 +1,64 @@
+Back arrow icon:
+This is an icon that likely serves as a back button for navigating to the previous screen.
+@@@IconButton@@@
+
+Flight detail card with "NOVOAIR":
+This component displays flight details such as airline, departure time, arrival time, and duration. It's a part of a list of flights.
+@@@Card@@@
+
+Price and "Book Now" button:
+Shows the price of a ticket and includes a button for booking. The text and button may be nested in a row.
+@@@Row@@@
+
+Small back arrow with "France":
+This is a back button associated with the location input. The small text points to the user's selected location.
+@@@Row@@@
+
+"Book Now" text:
+Text that serves as a label for a booking action, potentially part of a button.
+@@@Text@@@
+
+Flight detail card with "Biman Bangladesh Airlines":
+Similar to the NOVOAIR card, this displays flight information using a card format.
+@@@Card@@@
+
+Route and class selector:
+Displays selected travel details such as route and travel class, including icons and text input.
+@@@Row@@@
+
+Three-dot menu icon:
+This is a menu or options icon that opens a menu with additional settings or actions.
+@@@IconButton@@@
+
+Price label and decorative dot:
+Text showing the ticket price with an icon as a decorative element, often used in lists.
+@@@Row@@@
+AirArabia flight card:
+Displays flight details including airline name, departure time, flight duration, and arrival time. Could be part of a ListView item.
+@@@Card@@@
+
+Search text:
+This is a text widget used to display a title indicating the search functionality.
+@@@Text@@@
+
+Route indicator dot:
+A circular widget used as an indicator for flight details, likely part of a Row containing various elements.
+@@@Container@@@
+
+Zayaan flight card:
+Displays flight details including airline name, departure time, flight duration, and arrival time. Could be part of a ListView item.
+@@@Card@@@
+
+Ellipses menu icon:
+This is an icon button, probably used to show more options in a list or card.
+@@@IconButton@@@
+
+Price and booking row:
+Displays the ticket price and a button to book the flight. Likely part of a Row.
+@@@Row@@@
+
+Book now button:
+Displays the ticket price and a button to book the flight. Likely part of a Row.
+@@@Row@@@
+
+

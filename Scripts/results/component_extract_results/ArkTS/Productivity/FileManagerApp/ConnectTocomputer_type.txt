@@ -1,0 +1,31 @@
+Component Keyword:
+This is a button that contains a URL, likely used to navigate the user to the specified website when clicked.
+@@@arkTSButton@@@
+
+Component Keyword:
+This represents a back button icon typically used for navigation to a previous screen.
+@@@arkTSIcon@@@
+
+Component Keyword:
+This icon represents a Wi-Fi signal indicator, likely used to show the Wi-Fi status on the device.
+@@@arkTSStatusBarIcon@@@
+
+Component Keyword:
+This is a header text label that indicates the current screen or section the user is viewing.
+@@@arkTSText@@@
+
+Component Keyword:
+This is a loading animation or progress indicator, used to visually communicate to the user that a process is ongoing.
+@@@arkTSLoading@@@
+
+Component Keyword:
+This icon represents a signal strength indicator, commonly used in status bars to show network signal strength.
+@@@arkTSStatusBarIcon@@@
+
+Component Keyword:
+This icon represents a battery status indicator, used in status bars to show the current battery level of the device.
+@@@arkTSStatusBarIcon@@@
+
+Component Keyword:
+This text represents the current time, typically displayed in the status bar of a device.
+@@@arkTSText@@@

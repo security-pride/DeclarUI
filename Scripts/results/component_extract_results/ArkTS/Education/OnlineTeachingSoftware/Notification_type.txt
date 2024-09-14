@@ -1,0 +1,85 @@
+Back button:
+This is a back button that allows the user to navigate to the previous screen.
+@@@arkTSButton@@@
+
+Text snippet:
+This is a text snippet providing additional information about a completed purchase.
+@@@arkTSText@@@
+
+Notification item with emojis:
+This label is part of a notification about a completed challenge, which includes emojis for emphasis.
+@@@arkTSText@@@
+
+Challange Completed text:
+This is a text label indicating the completion of a challenge.
+@@@arkTSText@@@
+
+Settings icon:
+This icon likely represents a button that opens the settings menu.
+@@@arkTSIcon@@@
+
+Profile picture:
+This is a profile picture of a user who sent a message.
+@@@arkTSImage@@@
+
+Time display:
+This shows the current time in the status bar of the app.
+@@@arkTSText@@@
+
+Discount icon:
+This icon represents a special offer or discount notification.
+@@@arkTSIcon@@@
+
+Notification title:
+This title indicates a new message from a user named Jerremy.
+@@@arkTSText@@@
+Signal strength indicator:
+This symbol shows the user's current mobile network signal strength.
+@@@arkTSIcon@@@
+
+Time display:
+Indicates the current time as shown on the device.
+@@@arkTSText@@@
+
+Timestamp "2 m ago":
+This text shows the time elapsed since the notification was received.
+@@@arkTSText@@@
+
+Shopping cart icon:
+This icon likely represents a purchase or shopping-related notification.
+@@@arkTSIcon@@@
+
+Message preview with "Reply the message":
+Shows a new message received and contains an actionable item "Reply the message".
+@@@arkTSListItem@@@
+
+Timestamp "10 m ago":
+This text shows the time elapsed since the notification was received.
+@@@arkTSText@@@
+
+Award icon:
+This icon probably indicates an achievement or accomplishment in the app.
+@@@arkTSIcon@@@
+
+Text "Challage Completed":
+Indicates the title of a notification about the completion of a challenge.
+@@@arkTSText@@@
+
+Header "Notification":
+Labeling the section of the app.
+@@@arkTSHeader@@@
+Purchase Completed!:
+This is a text label indicating that a purchase has been successfully completed.
+@@@arkTSText@@@
+
+Back Arrow:
+This is an icon button likely used for navigating to the previous screen.
+@@@arkTSIconButton@@@
+
+Settings Icon:
+This is an icon button likely used for navigating to the settings screen.
+@@@arkTSIconButton@@@
+
+2 m ago:
+This is a timestamp text label showing how long ago an event occurred.
+@@@arkTSText@@@

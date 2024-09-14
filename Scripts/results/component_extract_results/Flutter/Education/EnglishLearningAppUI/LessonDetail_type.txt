@@ -1,0 +1,85 @@
+Component Keyword: Black rectangle button:
+Component Function Description: This is a button that likely triggers an action when pressed, such as starting or stopping a feature within the app.
+@@@ElevatedButton@@@
+
+Component Keyword: "1x" label:
+Component Function Description: This is a text widget that displays a label, likely indicating the current speed or setting of an audio or video player.
+@@@Text@@@
+
+Component Keyword: WiFi-like icon:
+Component Function Description: This is an icon that appears to represent an internet connection, possibly indicating online status or connectivity options.
+@@@Icon@@@
+
+Component Keyword: "Tap to see word in dictionary" label:
+Component Function Description: This is a button or tooltip that provides functionality for educational content, allowing users to tap and see the meaning of a word.
+@@@Tooltip@@@
+
+Component Keyword: White square button:
+Component Function Description: This is a button with likely a secondary action, perhaps for bookmarking or saving a section.
+@@@IconButton@@@
+
+Component Keyword: Circular image (profile picture):
+Component Function Description: This is an image widget displaying a profile picture, typically used for user avatars or profile displays.
+@@@CircleAvatar@@@
+
+Component Keyword: User info and subscription status:
+Component Function Description: This is a combination of text widgets showing the user's name, subscriber count, and subscription status, providing information about the channel or user.
+@@@Column@@@
+
+Component Keyword: "Subscribed" button:
+Component Function Description: This is a button indicating the subscription status of the user, which might toggle the subscription status when clicked.
+@@@ElevatedButton@@@
+Component Keyword:
+This image resembles a signal strength icon, which may represent the quality of the audio or difficulty level.
+@@@Icon@@@
+
+Component Keyword:
+A button labeled "Drill" suggests an action to start a drill or practice session.
+@@@TextButton@@@
+
+Component Keyword:
+The bookmark icon with text likely allows the user to save or mark content for easy access later.
+@@@Column (with Icon and Text)@@@
+
+Component Keyword:
+The share icon indicates an option to share the content with others via different platforms.
+@@@Column (with Icon and Text)@@@
+
+Component Keyword:
+This icon suggests a bookmark action, possibly to save content or mark it as important.
+@@@IconButton@@@
+
+Component Keyword:
+The "EN / VN" label may represent a toggle for language selection.
+@@@TextButton@@@
+
+Component Keyword:
+This segment displays a user profile with an avatar and subscriber information.
+@@@Row (with CircleAvatar and Column containing Text)@@@
+
+Component Keyword:
+This text appears to be a translation feature explaining or summarizing content on the screen.
+@@@RichText@@@
+
+Component Keyword:
+Highlighted text, possibly indicating an interactive element to see more details or definitions.
+@@@RichText with Span@@@
+Component Keyword: Page indicator
+Component Function Description: This widget indicates the current and total number of pages or steps, common in pagination or onboarding screens.
+@@@Text@@@
+
+Component Keyword: Vietnamese text
+Component Function Description: This is a text widget displaying Vietnamese text. Translation: "It's just a scratch."
+@@@Text@@@
+
+Component Keyword: Sound icon
+Component Function Description: This appears to be an icon button for playing audio, possibly to read the text aloud.
+@@@IconButton@@@
+
+Component Keyword: Repeat icon
+Component Function Description: This icon button likely allows the user to replay a certain action or audio.
+@@@IconButton@@@
+
+Component Keyword: More options
+Component Function Description: This text widget is likely a clickable text button that opens a menu with more options.
+@@@TextButton@@@

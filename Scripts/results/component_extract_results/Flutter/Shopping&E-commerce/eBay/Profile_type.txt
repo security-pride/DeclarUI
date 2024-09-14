@@ -1,0 +1,135 @@
+Envelope icon with notification badge:
+This appears to be an icon button with a notification badge indicating the number of unread messages.
+@@@IconButton@@@
+
+"卖家" (Seller):
+This is a text widget displaying the word "Seller". It provides an interface translation feature.
+@@@Text@@@
+
+Price tag icon:
+This is an icon indicating items related to selling/listing items for sale.
+@@@Icon@@@
+
+"已保存" (Saved):
+This is a text widget displaying the word "Saved", indicating items that have been saved by the user.
+@@@Text@@@
+
+"购买记录" (Purchase History):
+This is a text widget displaying the term "Purchase History", giving details about the user's order history.
+@@@Text@@@
+
+"我的 eBay" (My eBay) with user profile icon:
+This icon represents the user's profile section in the app.
+@@@Icon@@@
+
+Magnifying glass icon with "搜索" (Search):
+This is an icon indicating the search functionality in the app.
+@@@Icon@@@
+
+Bell icon with "通知" (Notifications):
+This is an icon representing the notifications section of the app.
+@@@Icon@@@
+
+"追踪列表" (Watchlist):
+This is a text widget displaying the term "Watchlist", indicating items the user is keeping track of.
+@@@Text@@@
+
+Number 5 in blue circle:
+This is likely a notification badge, indicating the number of unread messages or notifications.
+@@@Container@@@
+
+Explanation for container usage for the badge:
+A Container is used instead of a specific badge widget because it can allow more customization and decoration, which fits the visual representation seen in the notification badge. This container could have properties such as `decoration` for the blue circle and a `child` Text widget for the number 5.
+Gavel icon:
+This is likely a button allowing users to access auctions or bids.
+@@@IconButton@@@
+
+Heart icon:
+This icon represents a favorite or wishlist feature for users to save items.
+@@@Icon@@@
+
+"密切关注追踪物品" text:
+This text translates to "Keep a close eye on tracked items" and likely describes a tracking feature.
+@@@Text@@@
+
+Tag icon with "出售物品" label:
+The tag icon is typically used for selling or tagging items. The label means "Sell Items."
+@@@Icon@@@
+
+Letter "M" in a circle:
+This could be a profile or avatar icon representing the user.
+@@@CircleAvatar@@@
+
+Refresh arrow icon:
+This icon indicates a refresh or redo action.
+@@@Icon@@@
+
+"mu_447895 注册时间 2021" text:
+This text could be the username and registration date, likely showing user details.
+@@@Text@@@
+
+"再次购买" text:
+This translates to "Buy Again," likely indicating a repeat purchase option.
+@@@Text@@@
+
+"动态消息" text:
+This translates to "Dynamic Messages," which could describe notifications or updates.
+@@@Text@@@
+Image 1:
+The phrase "快捷方式" translates to "Shortcuts". This appears to be a section header in an app, indicating a list of shortcut actions.
+@@@Text@@@
+
+Image 2:
+A box icon. This could be used to represent a purchase history or record.
+@@@Icon@@@
+
+Image 3:
+The text "出价和议价" translates to "Bidding and Negotiation". This text likely labels a section about ongoing auctions and negotiations.
+@@@Text@@@
+
+Image 4:
+The phrase "查看您保存的偏好设置" translates to "View your saved preferences". This text describes the functionality of a linked section or page where users can view and edit their saved settings or preferences.
+@@@Text@@@
+
+Image 5:
+The phrase "出售记录" translates to "Sales Record". This appears to be a label header for sales-related records.
+@@@Text@@@
+
+Image 6:
+The phrase "我的尺码" translates to "My Size". This likely refers to a section where users can view or edit their saved size preferences.
+@@@Text@@@
+
+Image 7:
+The phrase "购买已购买过的物品" translates to "Purchase items you've bought before". This text describes the functionality of a feature that lets users quickly repurchase previously bought items.
+@@@Text@@@
+
+Image 8:
+A home icon with the text "主页" which translates to "Home". This appears to be a bottom navigation bar item leading to the home screen.
+@@@BottomNavigationBarItem@@@
+
+Image 9:
+The phrase "搜索" translates to "Search". This text likely labels a search bar functionality within the app.
+@@@Text@@@
+Email icon:
+This is likely a button that allows users to access their messages or notifications. It may have a badge indicating unread messages.
+@@@IconButton@@@
+
+Recent history icon:
+This icon represents a button to view recent browsing or transaction history. It suggests previous activity tracking.
+@@@IconButton@@@
+
+"最近浏览 您最近浏览的物品" label:
+This text widget displays a title and description for the "recently viewed items" section. Translation: "Recently Viewed - Items you recently viewed."
+@@@Text@@@
+
+Shopping cart icon:
+This icon probably leads users to their shopping cart, showing selected items for purchase.
+@@@IconButton@@@
+
+Shoe icon:
+This icon may be linked to a personal settings feature, perhaps related to size preferences or shoe-related items.
+@@@IconButton@@@
+
+Heart icon:
+This icon likely represents a favorite or wishlist feature, allowing users to save items for later.
+@@@IconButton@@@

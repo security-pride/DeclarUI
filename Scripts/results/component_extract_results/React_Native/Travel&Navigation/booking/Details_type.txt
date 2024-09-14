@@ -1,0 +1,114 @@
+免费停车 (Free parking) icon:
+This is an ImageBackground component. It represents that the hotel offers free parking facilities to its guests.
+@@@ImageBackground@@@
+
+客房与客人数 (Number of rooms and guests) label:
+This is a Text Functional Component. It provides information about the number of rooms and the number of guests.
+@@@Text Functional Component@@@
+
+烟台南山皇冠假日酒店 (Yantai Nanshan Crown Holiday Hotel) title:
+This is a Text Functional Component. It displays the name of the hotel.
+@@@Text Functional Component@@@
+
+1间房 (1 room) label:
+This is a Text Functional Component. It indicates the number of rooms booked.
+@@@Text Functional Component@@@
+
+Spa 及健康中心 (Spa and wellness center) icon:
+This is an ImageBackground component. It represents that the hotel offers spa and wellness center facilities.
+@@@ImageBackground@@@
+
+Crowne Plaza hotel image:
+This is a Function Component. It is likely used to display an image of the hotel.
+@@@Function Component@@@
+
+入住时间 (Check-in time) label:
+This is a Text Functional Component. It provides information about the check-in time.
+@@@Text Functional Component@@@
+
+酒店设施栏 (Hotel amenities bar):
+This is a View Function Component. It contains various icons representing the hotel's amenities like free parking, swimming pool, and restaurant.
+@@@View Function Component@@@
+
+Hotel room image:
+This is a Function Component. It is likely used to display an image of the hotel room.
+@@@Function Component@@@
+Share icon:
+This is a TouchableOpacity Function Component. It allows users to share the hotel details with others.
+@@@TouchableOpacity Function Component@@@
+
+Office image:
+This is an ImageBackground. It displays an image of a hotel office area.
+@@@ImageBackground@@@
+
+Rating badge:
+This is a View Function Component. It displays the hotel's rating score.
+@@@View Function Component@@@
+
+Room image:
+This is an ImageBackground. It displays an image of the hotel's room.
+@@@ImageBackground@@@
+
+"2位成人" (2 adults) text:
+This is a Text Functional Component. It indicates the number of adults for the room booking.
+@@@Text Functional Component@@@
+
+Parking icon:
+This is an ImageBackground. It displays an icon indicating that free parking is available.
+@@@ImageBackground@@@
+
+Free Wi-Fi label:
+This is a Text Functional Component. It indicates that the hotel offers free wireless internet connection.
+@@@Text Functional Component@@@
+
+Check-out time label:
+This is a Text Functional Component. It indicates the check-out time.
+@@@Text Functional Component@@@
+
+Room count image with "+118":
+This is an ImageBackground. It displays an image with a count of additional images available.
+@@@ImageBackground@@@
+"1晚.房价" (price for one night) label:
+This is a Text Functional Component. It displays the nightly rate information for the room.
+@@@Text Functional Component@@@
+
+"1晚.房价" (price for one night) label:
+This is a Text Functional Component. It displays the nightly rate information for the room.
+@@@Text Functional Component@@@
+
+Spa icon:
+This is a Function Component. It represents an icon that typically symbolizes spa facilities available at the hotel.
+@@@Function Component@@@
+
+"无儿童" (no children) label:
+This is a Text Functional Component. It indicates the room booking policy regarding children.
+@@@Text Functional Component@@@
+
+Image of a hotel room:
+This is a Function Component. It shows an image of one of the hotel's rooms, likely part of a gallery or carousel.
+@@@Function Component@@@
+
+"查看房型列表" (view room types list) button:
+This is a Button component. It allows users to access a list of available room types.
+@@@Button@@@
+
+"7月18日 周四" (July 18, Thursday) label:
+This is a Text Functional Component. It indicates the check-in date.
+@@@Text Functional Component@@@
+
+Restaurant icon:
+This is a Function Component. It represents an icon that typically symbolizes restaurant facilities available at the hotel.
+@@@Function Component@@@
+
+"7月19日 周五" (July 19, Friday) label:
+This is a Text Functional Component. It indicates the check-out date.
+@@@Text Functional Component@@@
+
+
+Wifi icon:
+This is a Function Component. It likely indicates that the hotel provides free wireless internet access as a service.
+@@@Function Component@@@
+
+Swimming pool icon:
+This is a Function Component. It likely indicates that the hotel has an indoor swimming pool available for guests.
+@@@Function Component@@@

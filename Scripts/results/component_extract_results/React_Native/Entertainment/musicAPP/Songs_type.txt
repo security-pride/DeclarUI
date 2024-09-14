@@ -1,0 +1,194 @@
+1. "The way you make me feel" text:
+This is a Text component. It represents the song title displayed in the list of songs.
+@@@Text Functional Component@@@
+
+2. "Songs" text:
+This is a Text component. It's the header for the current screen, indicating the user is viewing the song list.
+@@@Text Functional Component@@@
+
+3. "Artists" text:
+This is a Text component. It represents a tab label, allowing users to filter the list based on artist names.
+@@@Text Functional Component@@@
+
+4. "Michael Jackson" text:
+This is a Text component. It shows the name of the artist associated with a song in the list.
+@@@Text Functional Component@@@
+
+5. Menu icon:
+This is a Button component. It likely toggles the side menu for additional navigation options.
+@@@Button@@@
+
+6. Search icon:
+This is a Button component. It allows users to search for songs, albums, or artists.
+@@@Button@@@
+
+7. Song album art:
+This is an Image component. It displays the album art for the respective song.
+@@@Function Component@@@
+
+8. "Settings" text:
+This is a Text component. It identifies the "Settings" tab, which likely leads to the app's settings screen.
+@@@Text Functional Component@@@
+
+9. "Bebe" text:
+This is a Text component. It displays part of the artist's name associated with a specific song in the list.
+@@@Text Functional Component@@@
+
+
+Michael text:
+This is a Text Functional Component. It displays the name "Michael," most likely indicating the artist's name.
+@@@Text Functional Component@@@
+
+Somebody that I used to know text:
+This is a Text Functional Component. It specifies the song title "Somebody that I used to know."
+@@@Text Functional Component@@@
+
+Countryman text:
+This is a Text Functional Component. It represents the song title "Countryman."
+@@@Text Functional Component@@@
+
+Home text:
+This is a Text Functional Component. It likely serves as a label for the "Home" navigation tab, guiding the user back to the homepage.
+@@@Text Functional Component@@@
+
+Blue disc image:
+This is a Function Component. It depicts the album cover image for "Earth Song."
+@@@Function Component@@@
+
+Band disc image:
+This is a Function Component. It shows the album cover image for another song or artist, possibly "Countryman."
+@@@Function Component@@@
+
+WiFi icon:
+This is an ImageBackground Component. This WiFi icon likely indicates the strength of the internet connection.
+@@@ImageBackground@@@
+
+Rewind icon:
+This is a Button Component. It likely functions as a button for rewinding the song.
+@@@Button@@@
+
+Close icon:
+This is a Button Component. It probably serves as a button to close the current view or modal.
+@@@Button@@@
+"Marc Anthony" label:
+This is a Text component. It's a label used to display the name of the artist associated with a song.
+@@@Text Functional Component@@@
+
+Artist image:
+This is an Image component. It displays the image or album cover associated with the artist.
+@@@Function Component@@@
+
+Album cover image:
+This is an Image component. It represents the album cover for the song listed in the app.
+@@@Function Component@@@
+
+"All Songs" label:
+This is a Text component. It's a label that indicates the current category under which the songs are listed.
+@@@Text Functional Component@@@
+
+Album cover image:
+This is an Image component. It represents the album cover for the song listed in the app.
+@@@Function Component@@@
+
+"Songs" icon with label:
+This is a ButtonWithChildComponent. It serves as a tab button in the navigation bar, including an icon and a label "Songs" for navigating to the songs screen.
+@@@TouchableOpacity Function Component@@@
+
+"09:41" label:
+This is a Text component. It displays the current time on the top bar of the application.
+@@@Text Functional Component@@@
+
+"Smooth criminal" label:
+This is a Text component. It displays the title of one of the songs listed in the app.
+@@@Text Functional Component@@@
+
+"Genre" label:
+This is a Text component. It is a tab label that allows users to filter songs by genre when selected.
+@@@Text Functional Component@@@
+Menu icon:
+This is a Function Component. It is likely part of the navigation menu, allowing the user to access different sections of the app.
+@@@Function Component@@@
+
+Billie Jean text:
+This is a Text Functional Component. It is displaying the name of a song.
+@@@Text Functional Component@@@
+
+Jackson text:
+This is a Text Functional Component. It is displaying the name of an artist.
+@@@Text Functional Component@@@
+
+Do you feel loneliness text:
+This is a Text Functional Component. It is displaying the name of a song.
+@@@Text Functional Component@@@
+
+Single Image (circular disc art):
+This is a Function Component. It serves as an album art or a song image.
+@@@Function Component@@@
+
+Single Image (circular disc art):
+This is a Function Component. It serves as an album art or a song image.
+@@@Function Component@@@
+
+Albums text:
+This is a Text Functional Component. It is displaying the Albums tab.
+@@@Text Functional Component@@@
+
+Wild Thoughts text:
+This is a Text Functional Component. It is displaying the name of a song.
+@@@Text Functional Component@@@
+
+Earth song text:
+This is a Text Functional Component. It is displaying the name of a song.
+@@@Text Functional Component@@@
+Gotye:
+This is a Text Functional Component. It displays the artist name.
+@@@Text Functional Component@@@
+
+Bebe Rexa:
+This is a Text Functional Component. It displays the artist name.
+@@@Text Functional Component@@@
+
+Michael Jackson:
+This is a Text Functional Component. It displays the artist name.
+@@@Text Functional Component@@@
+
+Album Cover (Blue):
+This is a Function Component. It shows the album cover image associated with a song.
+@@@Function Component@@@
+
+Daughtry:
+This is a Text Functional Component. It shows the artist's name.
+@@@Text Functional Component@@@
+
+Playlists:
+This is a Text Functional Component. It represents a selectable category for viewing playlists.
+@@@Text Functional Component@@@
+
+Be the girl:
+This is a Text Functional Component. It displays the song title.
+@@@Text Functional Component@@@
+
+Album Cover (Green):
+This is a Function Component. It shows the album cover image associated with a song.
+@@@Function Component@@@
+
+Album Cover (Orange):
+This is a Function Component. It shows the album cover image associated with a song.
+@@@Function Component@@@
+
+
+Signal strength icon:
+This is an Image function component. It represents the network signal strength indicator in the status bar.
+@@@Function Component@@@
+
+"Michael Jackson" text: 
+This is a Text functional component. It displays the name of the artist for the selected song.
+@@@Text Functional Component@@@
+
+"Genre" text: 
+This is a Text functional component. It represents a tab option in the navigation menu for filtering songs by genre.
+@@@Text Functional Component@@@
+
+Next track icon:
+This is a Button component. It allows users to skip to the next track in the media player.
+@@@Button@@@

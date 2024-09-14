@@ -1,0 +1,86 @@
+5 items 4.6 GB:
+This is a text label displaying the number of items and their total size in gigabytes.
+@@@arkTSText@@@
+
+Signal bars:
+This icon typically represents the signal strength of a wireless connection.
+@@@arkTSIcon@@@
+
+WiFi symbol:
+This icon is used to indicate the presence of a WiFi connection.
+@@@arkTSIcon@@@
+
+31 item 821 MB:
+This is a text label displaying the number of items and their total size in megabytes.
+@@@arkTSText@@@
+
+Download:
+This is a text label representing a file or folder name.
+@@@arkTSText@@@
+
+140 Kb:
+This is a text label indicating the size of a file in kilobytes.
+@@@arkTSText@@@
+
+Folder with heart icons:
+These are icons representing folders, likely marked as favorites or special in some way.
+@@@arkTSIcon@@@
+
+DSC2021084133.jpg:
+This is a text label representing the name of an image file.
+@@@arkTSText@@@
+
+2MB:
+This is a text label indicating the size of a file in megabytes.
+@@@arkTSText@@@
+Search bar:
+This appears to be a search input field that allows users to enter text for searching content within the app.
+@@@arkTSSearch@@@
+
+Favorites label:
+This is a text label indicating a section for favorite items.
+@@@arkTSText@@@
+
+Internal Storage Card:
+This component likely serves as an information card displaying the internal storage usage, along with a circular progress indicator.
+@@@arkTSCard@@@
+
+Bottom Navigation:
+This is a bottom navigation bar with multiple icons for different navigation tabs such as Home, Files, Cloud, and Clean.
+@@@arkTSBottomNav@@@
+
+See All link:
+This is a text link that allows users to see all items in a particular category or section.
+@@@arkTSLink@@@
+
+Recent Files Icon (JPG):
+This icon likely represents a file item in the "Recent Files" section, specifically an image file.
+@@@arkTSIcon@@@
+
+Recent Files Icon (XLSX):
+This icon similarly represents a file item in the "Recent Files" section, specifically a document file.
+@@@arkTSIcon@@@
+**Component Keyword:** Storage Details
+**Component Function Description:**
+This shows the current usage details of the user's cloud storage, including a percentage indicator and a link to view more details.
+@@@arkTSCard@@@
+
+**Component Keyword:** App Header
+**Component Function Description:**
+This is the main header of the app, indicating the app's function as a file manager.
+@@@arkTSTitle@@@
+
+**Component Keyword:** Canva Label
+**Component Function Description:**
+This text label indicates the name of an item, specifically a favorite/downloaded item named "Canva".
+@@@arkTSText@@@
+
+**Component Keyword:** See All Link
+**Component Function Description:**
+This is a clickable link, allowing users to view all items in a specific category, such as "Favorites" or "Recent Files".
+@@@arkTSLink@@@
+
+**Component Keyword:** XLSX File Label
+**Component Function Description:**
+This text label indicates the name of a recent file, specifically an Excel file named "RKAKL2022.xlsx".
+@@@arkTSText@@@

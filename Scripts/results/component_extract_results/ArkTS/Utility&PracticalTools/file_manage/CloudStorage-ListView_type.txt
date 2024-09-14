@@ -1,0 +1,125 @@
+Plus icon:
+This is a button used for adding new items or creating new content within the app.
+@@@arkTSButton@@@
+
+Files icon:
+This is a tab icon that allows users to navigate to the 'Files' section of the app.
+@@@arkTSTabBarItem@@@
+
+Cloud icon (orange):
+This icon indicates the 'Cloud' section of the app, which is currently selected.
+@@@arkTSTabBarItem@@@
+
+Clean icon:
+This is a tab icon that allows users to access the 'Clean' section of the app, likely for managing storage.
+@@@arkTSTabBarItem@@@
+
+Dropbox label:
+This is a text label showing the name of the 'Dropbox' cloud storage.
+@@@arkTSText@@@
+
+Home icon:
+This is a tab icon that allows users to navigate to the 'Home' section of the app.
+@@@arkTSTabBarItem@@@
+
+Time display (9:41):
+This text displays the current time on the device.
+@@@arkTSText@@@
+
+Nirwna - OneDrive label:
+This is a text label showing the name of the 'Nirwna - OneDrive' cloud storage along with additional details.
+@@@arkTSText@@@
+Cloud Storage label:
+This is a text label that indicates the current section of the app, which is "Cloud Storage."
+@@@arkTSText@@@
+
+PIDT - OneDrive label:
+This is a text label that displays the name of a connected cloud storage service ("PIDT - OneDrive") along with some details.
+@@@arkTSText@@@
+
+Orange cloud icon:
+This icon represents the OneDrive cloud storage service and is used for visual identification.
+@@@arkTSImage@@@
+
+Three-dot menu icon:
+This is an icon button that likely brings up a menu with additional options for the associated item.
+@@@arkTSIcon@@@
+
+Kangxpukul@gmail.com label:
+This is a text label that displays an email address, possibly indicating a linked account for cloud storage.
+@@@arkTSText@@@
+
+Google Drive icon:
+This icon represents the Google Drive cloud storage service and is used for visual identification.
+@@@arkTSImage@@@
+
+2 items label:
+This is a text label that informs the user about the number of items in a specific directory or storage section.
+@@@arkTSText@@@
+
+Dropbox icon:
+This icon represents the Dropbox cloud storage service and is used for visual identification.
+@@@arkTSImage@@@
+
+Cloud Storage label:
+This is a larger text label indicating the overall category or section the user is currently viewing, in this case, "Cloud Storage."
+@@@arkTSText@@@
+
+Grid icon:
+This icon button likely switches the view mode of the content, such as from list view to grid view.
+@@@arkTSIcon@@@
+Cloud Storage Title:
+This is the main title of the screen, indicating the current section or functionality of the app: "Cloud Storage".
+@@@arkTSText@@@
+
+Sort Options (A-Z - ▼):
+This is a control element that allows users to sort the list of items, likely providing options such as sorting alphabetically, by date, or other criteria.
+@@@arkTSButton@@@
+
+Add New (+) Icon:
+This button allows users to add a new cloud storage account or directory to the list.
+@@@arkTSIconButton@@@
+
+Grid/List View Toggle:
+This button toggles between different viewing modes, such as grid view and list view.
+@@@arkTSIconButton@@@
+
+Dropbox Label and Details:
+This is a container for an item, showing the cloud service name, item count, and size for Dropbox.
+@@@arkTSContainer@@@
+
+Google Drive Label and Details:
+This is a container for an item, showing the cloud service name, item count, and size for Google Drive (Kangxpukul@gmail.com).
+@@@arkTSContainer@@@
+
+OneDrive Label and Details (first):
+This is a container for an item, showing the cloud service name, item count, and size for OneDrive (Nirwa).
+@@@arkTSContainer@@@
+
+OneDrive Label and Details (second):
+This is a container for an item, showing the cloud service name, item count, and size for OneDrive (PIDT).
+@@@arkTSContainer@@@
+
+Additional Options (⋮) Icon:
+This button provides additional options or actions for each cloud service item.
+@@@arkTSIconButton@@@
+
+Tabs (Home, Files, Cloud, Clean):
+These are navigation tabs allowing users to switch between different sections of the app.
+@@@arkTSTabBar@@@
+
+Tab (Home) Icon and Label:
+This tab takes the user to the Home section.
+@@@arkTSTab@@@
+
+Tab (Files) Icon and Label:
+This tab takes the user to the Files section.
+@@@arkTSTab@@@
+
+Tab (Cloud) Icon and Label:
+This tab takes the user to the Cloud section.
+@@@arkTSTab@@@
+
+Tab (Clean) Icon and Label:
+This tab takes the user to the Clean section.
+@@@arkTSTab@@@

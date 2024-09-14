@@ -1,0 +1,116 @@
+"Tempor dolor proident duis incididunt et. Cillum incididunt irure nisi excepteur sit ad ipsum consectetur proident deserunt sint" text:
+This is a Text component. It represents a post/message content displayed by the user.
+@@@Text Functional Component@@@
+
+Heart icon:
+This is a Button component. It is likely used for the "like" functionality on the post.
+@@@Button@@@
+
+Instagram icon:
+This is a Button component. It might be used for navigation to the attached Instagram account or to perform Instagram-related actions.
+@@@Button@@@
+
+Follow button:
+This is a Button component. It allows users to follow the profile owner.
+@@@Button@@@
+
+Home icon:
+This is a Button component. It is used for navigating to the home screen of the app.
+@@@Button@@@
+
+"threads.net" label:
+This is a Text component. It displays the website or a specific tag associated with the profile.
+@@@Text Functional Component@@@
+
+"Answers" label:
+This is a Text component. It represents a clickable tab for viewing answers or comments on the profile.
+@@@Text Functional Component@@@
+
+"2957 seguidores" (2957 followers) label:
+This is a Text component. It displays the number of followers of the profile.
+@@@Text Functional Component@@@
+
+Pie chart icon:
+This is a Button component. It might be used to show some analytics or statistics related to the posts or profile.
+@@@Button@@@
+Alisson Rochinski:
+This is a Text component. It represents a user's name displayed on their profile.
+@@@Text Functional Component@@@
+
+Wi-Fi icon:
+This is an Image component. It indicates the status of the Wi-Fi connection in the status bar.
+@@@Function Component@@@
+
+Battery icon:
+This is an Image component. It displays the current battery level in the status bar.
+@@@Function Component@@@
+
+Time display (9:41):
+This is a Text component. It shows the current time in the status bar.
+@@@Text Functional Component@@@
+
+Interaction counters (7 answers · 59 likes):
+This is a Text component. It shows the number of answers and likes for a post.
+@@@Text Functional Component@@@
+
+Chirps:
+This is a Text component. It could be a tab label that the user can select to view "Chirps".
+@@@Text Functional Component@@@
+
+Profile picture icon:
+This is an Image component. It displays the profile picture of the user.
+@@@Function Component@@@
+
+User handle (@arochinski):
+This is a Text component. It shows the username of the profile owner.
+@@@Text Functional Component@@@
+
+Profile badge:
+This is an Image component. It represents a badge for the user's profile, possibly indicating verification or a special status.
+@@@Function Component@@@
+
+User followers image:
+This is an Image component. It might be a visual representation of the user's followers, showing profile pictures of followers in a compact form.
+@@@Function Component@@@
+Heart icon:
+This is a Button component. It's likely used for a 'like' functionality on a post or comment.
+@@@Button@@@
+
+Send icon:
+This is a Button component. It's likely used for a sharing functionality, allowing users to share the post or content with others.
+@@@Button@@@
+
+Profile picture pie chart:
+This is a Function Component. It's likely used to display segmented parts of the profile picture, indicating status or percentage of completion/progress.
+@@@Function Component@@@
+
+History icon:
+This is a Button component. It's likely used for accessing the user's activity history or past posts.
+@@@Button@@@
+
+Email text:
+This is a Text functional component. It displays the email address of the user for contact purposes.
+@@@Text Functional Component@@@
+
+Username text:
+This is a Text functional component. It displays the username of the user on their profile.
+@@@Text Functional Component@@@
+
+Time text:
+This is a Text functional component. It indicates the amount of time passed since the post was made.
+@@@Text Functional Component@@@
+
+Profile pictures with a pie chart:
+This is a Function Component. It displays multiple profile pictures with their segments showing progress or activity.
+@@@Function Component@@@
+
+Single profile picture with pie chart:
+This is a Function Component. It shows a single profile picture with a segmented chart indicating progress or specific status.
+@@@Function Component@@@
+Profile picture with badge:
+This is a custom image component, showing a profile picture with a verification badge.
+@@@Function Component@@@
+
+"Voltar" text:
+This is a text component used to display the back navigation label.
+@@@Text Functional Component@@@

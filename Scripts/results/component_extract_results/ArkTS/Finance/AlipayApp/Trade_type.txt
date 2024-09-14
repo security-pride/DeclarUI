@@ -1,0 +1,50 @@
+收钱 (Receive money):
+This is a text label that likely indicates a section for receiving payments.
+@@@arkTSText@@@
+
+Icon with "V":
+This is likely an icon representing a verified or preferred status, often used to indicate a special membership or status.
+@@@arkTSIcon@@@
+
+分期付款 (Installment Payment):
+This text label likely indicates a section where users can make payments in installments.
+@@@arkTSText@@@
+
+转账 (Transfer):
+This text label likely indicates a section for transferring money.
+@@@arkTSText@@@
+
+QR Code:
+This is a QR code commonly used for payments or quick access to services.
+@@@arkTSQrcode@@@
+
+招商银行储蓄卡 (7616) 优先使用此付款方式 (China Merchants Bank Savings Card (7616) Preferred method of payment):
+This is a text block providing the details of the preferred payment method using a specific bank card.
+@@@arkTSText@@@
+
+点击可查看付款码数字 (Click to view the payment code number):
+This is an instruction text prompting the user to click to view the payment code number.
+@@@arkTSText@@@
+
+Icon with "¥" in a shield:
+This is likely an icon representing a payment or money-related action, such as receiving money.
+@@@arkTSIcon@@@
+
+Icon with "¥" in a circular arrow:
+This is likely an icon representing a transfer or rotation of money.
+@@@arkTSIcon@@@
+"分期" (Installments) icon:
+This icon likely represents a feature related to payment installments within the app.
+@@@arkTSIcon@@@
+
+"向商家付款" (Pay to Merchant) text:
+This is a text label indicating a section for making payments to merchants.
+@@@arkTSText@@@
+
+Barcode icon:
+This icon likely indicates a feature related to showing or scanning barcodes.
+@@@arkTSIcon@@@
+
+Bank logo icon:
+This is likely an icon representing the associated bank, used for visual identification.
+@@@arkTSIcon@@@

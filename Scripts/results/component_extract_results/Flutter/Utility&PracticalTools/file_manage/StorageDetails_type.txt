@@ -1,0 +1,199 @@
+Used 85 GB label:
+This is a text widget that indicates the amount of used storage space in GB in the storage information section.
+@@@Text@@@
+
+Available 43 GB label:
+This is a text widget that indicates the amount of available storage space in GB in the storage information section.
+@@@Text@@@
+
+Total 256 GB label:
+This is a text widget that indicates the total storage capacity in GB in the storage information section.
+@@@Text@@@
+
+66% circle chart:
+This is a graphical representation showing the percentage of used storage. Flutter widget can be created using a combination of custom painting.
+@@@CustomPaint@@@
+
+Go to Clean to manage and free up space text:
+This is a text widget that provides additional information or instruction about freeing up space in the app.
+@@@Text@@@
+
+Free up space section with cleaner icon:
+This appears to be a Row widget containing an Icon and some Text, prompting the user to take an action related to cleaning up storage space.
+@@@Row@@@
+
+Apps text:
+This is a text widget that labels the category for applications in the storage information section.
+@@@Text@@@
+
+Image with 6.8 GB:
+This appears to be a combination of an Icon representing images and a text widget showing the storage space used by images.
+@@@Row@@@
+
+Document text label with details:
+This is a text widget that labels the category for documents and provides details about the number of items and the space they occupy.
+@@@Text@@@
+
+App usage indicators (e.g., used storage bar for Apps):
+This is a widget representing a horizontal progress indicator showing the used storage for different categories.
+@@@LinearProgressIndicator@@@
+
+Top left back arrow:
+This is an icon button widget used as a back button to navigate to the previous screen.
+@@@IconButton@@@
+
+Signal bar icon:
+This is an icon widget representing the mobile signal strength.
+@@@Icon@@@
+
+Small person icon:
+This is an icon widget, possibly representing a user or account section in the app.
+@@@Icon@@@
+
+Audio label with 116 MB:
+This is a row widget containing an icon and a text widget, representing the audio files and their storage information.
+@@@Row@@@
+**Component Keyword:**
+Circular progress indicator displaying "66%":
+This circular progress indicator shows 66% indicating the percentage of used internal storage.
+@@@CircularProgressIndicator@@@
+
+**Component Keyword:**
+Back button:
+This looks like a back button, typically used for navigation to the previous screen.
+@@@IconButton@@@
+
+**Component Keyword:**
+Broom icon:
+This is possibly an icon used to denote cleaning or freeing up space functionality.
+@@@Icon@@@
+
+**Component Keyword:**
+9:41 status bar time:
+Displays the current time on the status bar.
+@@@Text@@@
+
+**Component Keyword:**
+"Used 85 GB" text:
+Displays the amount of used storage space in gigabytes.
+@@@Text@@@
+
+**Component Keyword:**
+"Audio" text (first instance):
+Displays the section title "Audio".
+@@@Text@@@
+
+**Component Keyword:**
+"Audio" text (second instance):
+Displays the section title "Audio".
+@@@Text@@@
+
+**Component Keyword:**
+"Internal Storage" text:
+Displays the title of the screen indicating it is related to internal storage.
+@@@Text@@@
+
+**Component Keyword:**
+"Videos" text:
+Displays the section title "Videos".
+@@@Text@@@
+
+
+Disk Usage Indicator:
+This component could show the percentage of used space in a pie chart format.
+@@@CircularProgressIndicator@@@
+
+Internal Storage Title:
+This component displays a title text indicating the section of the app.
+@@@Text@@@
+
+Usage Details:
+This component shows detailed text information about used, available, and total storage.
+@@@Row@@@
+
+Free up space section:
+This component consists of text guiding the user to manage and free up space.
+@@@Column@@@
+
+App Category with Storage:
+This component shows an icon and text for the apps category along with a linear progress bar indicating the space used.
+@@@ListTile@@@
+
+"1,432 items ⚠️ 6.8 GB" label:
+This component shows the number of items and the storage used in text format.
+@@@Text@@@
+
+WiFi icon:
+This component is an icon representing WiFi connectivity.
+@@@Icon@@@
+
+"421 items" label:
+This component displays the number of items in text format.
+@@@Text@@@
+
+"53 items" label:
+This component displays the number of items in text format.
+@@@Text@@@
+
+Document Icon:
+This component is an icon used to represent documents.
+@@@Icon@@@
+
+App Icon:
+This component is an icon used to represent apps.
+@@@Icon@@@
+
+Audio Icon:
+This component is an icon used to represent audio files.
+@@@Icon@@@
+
+"1,427 items ⚠️55 GB" label:
+This component shows the number of items and the storage used in text format.
+@@@Text@@@
+
+"Images" label:
+This component is a text widget displaying the label "Images".
+@@@Text@@@
+Free up space:
+This is a text widget likely used as a heading to draw attention to the functional area beneath it. 
+@@@Text@@@
+
+Total:
+This is a text widget displaying the label for the total storage capacity.
+@@@Text@@@
+
+Circular Progress Indicator:
+This is a circular component that likely indicates the percentage of used storage.
+@@@CircularProgressIndicator@@@
+
+Arrow Icon:
+This appears to be a back navigation button. 
+@@@IconButton@@@
+
+Internal Storage:
+This is likely used as the title at the top of the screen, informing the user about the screen's purpose.
+@@@Text@@@
+
+Used/Available/Total Values:
+These are text widgets displaying the storage metrics for used, available, and total storage capacities.
+@@@Text@@@
+
+Apps, Videos, Document, etc. (category labels):
+These are text widgets used as labels for different storage categories.
+@@@Text@@@
+
+Storage Category Icon (e.g., broom for cleaning):
+This image represents a specific action or category, such as cleaning.
+@@@Image@@@
+
+Storage Bars (e.g., blue progress bars):
+These are used to visually represent the storage space used by each category.
+@@@LinearProgressIndicator@@@
+
+Used/Available/Total Labels:
+These are used to provide information about the storage metrics. 
+@@@Text@@@
+
+Storage Indicators (e.g., 1,427 items, 55 GB):
+These text widgets provide detailed metrics for each category.
+@@@Text@@@

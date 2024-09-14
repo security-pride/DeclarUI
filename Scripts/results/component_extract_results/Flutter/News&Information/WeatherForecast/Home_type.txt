@@ -1,0 +1,106 @@
+SUN button:
+This is likely an interactive button widget that displays the day of the week and allows users to select a specific day.
+@@@TextButton@@@
+
+Top bar with city name and icons:
+This section includes multiple elements: a menu icon for navigation, a location and lock icon, text displaying the city name, and toggle buttons for options. It is most likely organized using Rows and Columns.
+@@@AppBar@@@
+
+0% symbol:
+This is a text widget displaying a percentage value, possibly representing a chance of rain or other meteorological data.
+@@@Text@@@
+
+THU button:
+Similar to the SUN button, this is an interactive button for selecting the day of the week.
+@@@TextButton@@@
+
+Chance of rain and snow text with icons:
+This element displays text alongside small icons depicting weather conditions. Likely implemented using a Row with Text and Icon widgets.
+@@@Row@@@
+
+FRI button:
+Similar to the SUN and THU buttons, this is an interactive button for selecting the day of the week.
+@@@TextButton@@@
+
+27° temperature:
+This is a text widget displaying the temperature, formatted as degrees.
+@@@Text@@@
+
+SAT button:
+Similar to other day buttons, this is an interactive button for selecting the day of the week.
+@@@TextButton@@@
+
+Another 27° temperature:
+This text widget is similar to the previous temperature display.
+@@@Text@@@
+Component Keyword:
+Hourly weather forecast with icons and percentage
+Component Function Description:
+This displays weather icons and precipitation chances for each hour. It likely uses a combination of text and images to convey each hour's weather status.
+@@@Row@@@
+
+Component Keyword:
+Day label with underline
+Component Function Description:
+This appears to be a button styled to look like a label, representing a day of the week with an underline to indicate selection.
+@@@TextButton@@@
+
+Component Keyword:
+Precipitation percentage
+Component Function Description:
+This text displays the percentage chance of precipitation, formatted in a distinctive color to stand out from the background.
+@@@Text@@@
+
+Component Keyword:
+Day label with underline (Wednesday)
+Component Function Description:
+Similar to the previous day label, this represents a day of the week. It uses styling to signify selection, indicating active or upcoming weather information.
+@@@TextButton@@@
+
+Component Keyword:
+Daily temperature
+Component Function Description:
+This text shows the expected temperature for a specific day, formatted to be easily readable on various backgrounds.
+@@@Text@@@
+
+Component Keyword:
+Hyperlink-style text
+Component Function Description:
+This text acts as a clickable element that likely opens more detailed weather information or settings.
+@@@TextButton@@@
+
+Component Keyword:
+Daily high temperature
+Component Function Description:
+Displays the high temperature for the day, likely using a large, bold font for emphasis.
+@@@Text@@@
+
+Component Keyword:
+Precipitation percentage (repeated)
+Component Function Description:
+Displays the chance of precipitation, formatted similarly to other instances for visual consistency.
+@@@Text@@@
+Component Keyword:
+"TUE" Selected Day Button
+This is a button indicating the selected day of the week. It likely functions as a tab or selector to view the weather forecast for that day.
+@@@TextButton@@@
+
+Component Keyword:
+"31°" Temperature Display
+This text displays the forecasted temperature, likely representing the high temperature for the day. It is used to inform the user about daily weather conditions.
+@@@Text@@@
+
+Component Keyword:
+Weather and Time Display
+This section shows detailed weather information, including date, time, current temperature, and weather icon. It provides an overview of the current atmospheric conditions.
+@@@Column@@@
+
+Component Keyword:
+"28°" Temperature Display
+This text shows the forecast temperature, potentially representing another day’s temperature. It informs the user about expected daily weather conditions.
+@@@Text@@@
+
+Component Keyword:
+"Touch a day to see forecast by hourly" Instruction
+This text provides instructions to the user, suggesting they can interact with the app to view detailed hourly forecasts. It acts as a guide for user interaction.
+@@@Text@@@

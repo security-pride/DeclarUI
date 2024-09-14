@@ -1,0 +1,46 @@
+Payments icon:
+This is an Image component. It serves as an icon representing the Payments section of the app.
+@@@Function Component@@@
+
+Wallet icon:
+This is an Image component. It serves as an icon representing the Wallet section of the app.
+@@@Function Component@@@
+
+Crypto icon:
+This is an Image component. It serves as an icon representing the Crypto section of the app.
+@@@Function Component@@@
+
+Bitcoin info card:
+This is likely a View Function Component. It groups together the cryptocurrency information and icon within the card.
+@@@View Function Component@@@
+
+买卖并持有加密货币 label:
+This is a Text component. It provides a label that describes the functionality of the crypto section.
+@@@Text Functional Component@@@
+
+Crypto title:
+This is a Text component. It serves as a title or header for the crypto section.
+@@@Text Functional Component@@@
+
+Ethereum info card:
+This is likely a View Function Component. It groups together the Ethereum information and icon within the card.
+@@@View Function Component@@@
+
+Bitcoin Cash info card:
+This is likely a View Function Component. It groups together the Bitcoin Cash information and icon within the card.
+@@@View Function Component@@@
+
+Home icon:
+This is an Image component. It serves as an icon representing the Home section of the app.
+@@@Function Component@@@
+Bitcoin Cash card:
+This is a View Function Component. It serves as a container that holds various pieces of information and components, such as text, icons, and other UI elements, related to Bitcoin Cash.
+@@@View Function Component@@@
+
+Notification panel:
+This is a View Function Component. It acts as an informational container displaying a message to the user, likely an important notification or alert regarding the crypto purchasing service.
+@@@View Function Component@@@
+
+Litecoin card:
+This is a View Function Component. It serves as a container that holds various pieces of information and components, such as text, icons, and other UI elements, related to Litecoin.
+@@@View Function Component@@@

@@ -1,0 +1,124 @@
+BELOUD label:
+This appears to be a text widget that indicates a specific section or feature of the app related to "BELOUD".
+@@@Text@@@
+
+视频 (Video) label:
+This is a text widget that likely indicates a section for video content. The text translates to "Video".
+@@@Text@@@
+
+热门 (Hot) label:
+This is a text widget likely used to indicate trending topics or popular content. The text translates to "Hot".
+@@@Text@@@
+
+Black circle:
+This seems to be an icon used as a placeholder or decorative element, possibly as part of a larger design component.
+@@@Icon@@@
+
+Weather icon:
+This represents the current weather condition and might change based on real-time data. It likely has a decorative feature in the app for displaying weather updates.
+@@@Icon@@@
+
+新闻 (News) label:
+This is a text widget denoting a news section within the app. The text translates to "News".
+@@@Text@@@
+
+Time display:
+This component shows the current time and is likely a dynamic piece of text updated regularly.
+@@@Text@@@
+
+Megaphone icon:
+This icon is typically used to represent announcements or alerts in the app.
+@@@Icon@@@
+
+新闻 headline:
+This is a combination of a title and subtitle displayed in a container with a solid background, likely used to highlight a news article or feature.
+@@@Container@@@
+Mon, 15 M07 2024, 08:35:
+This is a text widget displaying a formatted date and time, providing timestamp information to the user.
+@@@Text@@@
+
+突发重大:
+This is a text widget displaying a headline or category tag, indicating an important or breaking news section.
+@@@Text@@@
+
+评论 icon (comment bubble):
+This is an icon used to indicate the comments section or to prompt the user to add/view comments.
+@@@Icon@@@
+
+AD icon:
+This is a label or badge widget used to indicate that a piece of content is an advertisement.
+@@@Container@@@
+
+话题墙:
+This is a text widget likely used to label a tab or navigation item for a section named "话题墙" (Topic Wall).
+@@@Text@@@
+
+更多:
+This is a text widget likely used to label a "more" button or link, indicating additional content or options are available.
+@@@Text@@@
+
+突发新闻:
+This is a text widget displaying the app's name or the section for breaking news.
+@@@Text@@@
+
+UDN.COM - 33分钟:
+This is a text widget showing a source attribution and time since publication, enhancing the credibility and timeliness of the information displayed.
+@@@Text@@@
+
+谷歌广告:
+This is a text widget used to indicate that the following content is a Google advertisement.
+@@@Text@@@
+Title label:
+This appears to be a label used for headline text, providing information about a news article.
+@@@Text@@@
+
+"提醒" (Remind) label:
+This is a text widget used for displaying the label of the "Remind" button, indicating notification settings.
+@@@Text@@@
+
+"突发新闻" (Breaking News) header:
+A prominent text widget used for the header indicating the section for breaking news.
+@@@Text@@@
+
+"最新资讯" (Latest Information) label:
+A text widget displaying the label for a section providing the latest information.
+@@@Text@@@
+
+"评论" (Comment) label:
+This text widget is used as a label for a button that allows users to comment on the news article.
+@@@Text@@@
+
+"RSI C6" label:
+This text widget is likely used for labeling the RSI C6 advertisement or news category.
+@@@Text@@@
+
+Big Breaking News Icon:
+This is likely an actionable icon possibly used to navigate to breaking news or represents the breaking news category.
+@@@Icon@@@
+
+User Profile Icon:
+This icon button is likely used for user profile actions such as viewing or editing the profile.
+@@@IconButton@@@
+
+RSI C6 Advertisement Text:
+A text widget used for displaying the brand name or advertisement text on the image of the white car.
+@@@Text@@@
+
+"同城" (Same City) label:
+A text widget used for displaying the label indicating that the section or content is related to the same city as the user.
+@@@Text@@@
+选择您的城市:
+This text seems to be prompting the user to select their city. The translation is "Select your city."
+@@@Text@@@
+
+Search icon:
+This is likely an interactive element allowing users to perform searches within the app.
+@@@IconButton@@@
+
+Menu icon:
+Typically represents a button to open a navigation drawer for additional menu options.
+@@@IconButton@@@
+
+猜你喜欢:
+This text likely categorizes content that the app suggests based on user preferences. The translation is "Guess you like."
+@@@Text@@@

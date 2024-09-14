@@ -1,0 +1,37 @@
+Arrow icon:
+This appears to be a back button allowing users to navigate to the previous screen.
+@@@IconButton@@@
+
+Wi-Fi icon:
+This icon likely indicates wireless internet connectivity status.
+@@@Icon@@@
+
+Connect to Computer label:
+This is a text widget displaying the header "Connect to Computer."
+@@@Text@@@
+
+Graphical circular design:
+This element is a decorative graphic that might be displaying loading or status information.
+@@@CustomPaint@@@
+
+"Waiting..." label:
+This text indicates the current status of the action, displaying "Waiting..."
+@@@Text@@@
+
+URL button:
+This is a button that users can press to interact with the displayed URL.
+@@@ElevatedButton@@@
+
+Signal strength icon:
+This icon indicates the signal strength of the cellular or Wi-Fi connection.
+@@@Icon@@@
+
+Battery icon:
+This icon displays the battery level of the device.
+@@@Icon@@@
+
+Time display:
+This text displays the current time, "9:41."
+@@@Text@@@
+
+

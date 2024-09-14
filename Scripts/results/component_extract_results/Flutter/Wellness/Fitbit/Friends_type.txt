@@ -1,0 +1,74 @@
+"好友" label:
+This is a text widget that likely serves as the title or heading of the screen, indicating that this section is related to friends.
+@@@Text@@@
+
+Compass icon:
+This appears to be an icon that may represent a discovery or exploration feature in the app.
+@@@Icon@@@
+
+Single person icon:
+This appears to be an icon that might represent a user's profile or an individual user.
+@@@Icon@@@
+
+"+ 添加好友" button:
+This element appears to be a button that would allow users to add friends. The text translates to "Add friend".
+@@@ElevatedButton@@@
+
+"Premium" label:
+This is a text widget that likely indicates a premium or subscription section or feature in the app.
+@@@Text@@@
+
+Seesaw image with a dog:
+This is an image widget that displays an illustration of a dog on a seesaw, possibly serving as a decorative or illustrative element related to the theme of friendship progress.
+@@@Image@@@
+
+Single person (gold) icon:
+This appears to be an icon likely used for an individual user or profile, with a different color to signify a specific status or function.
+@@@Icon@@@
+
+Cluster of dots icon:
+This appears to be an icon symbolizing functionality related to health or fitness tracking, similar to a activity tracking icon.
+@@@Icon@@@
+
+Single woman icon:
+This appears to be an icon that might represent a female user profile or section related to female users.
+@@@Icon@@@
+Add icon:
+This appears to be an icon used for adding a new friend.
+@@@Icon@@@
+
+"好友" (Friends) label:
+This is a text widget that describes the "Friends" section of the app.
+@@@Text@@@
+
+User plus icon:
+This appears to be a button that allows users to add a new friend.
+@@@IconButton@@@
+
+Illustration of a dog with ice cream:
+This appears to be an image used for decorative purposes, possibly to engage users visually.
+@@@Image@@@
+
+"和朋友一起继续向前！记录进度、发送鼓励，并..." text (Continue moving forward with friends! Record progress, send encouragement, and...):
+This is a text widget used to describe the main content or function of the screen.
+@@@Text@@@
+
+Add friend button with text "添加好友" (Add Friends):
+This appears to be a button that allows users to add a new friend.
+@@@ElevatedButton@@@
+
+Discovery tab icon with label "发现" (Discover):
+This is an icon combined with a text label for the Discover tab in the bottom navigation bar.
+@@@BottomNavigationBarItem@@@
+
+Today tab icon with label "今天" (Today):
+This is an icon combined with a text label for the Today tab in the bottom navigation bar.
+@@@BottomNavigationBarItem@@@
+
+Friends tab icon with label "好友" (Friends):
+This is an icon combined with a text label for the Friends tab in the bottom navigation bar.
+@@@BottomNavigationBarItem@@@
+
+Premium tab icon with label "Premium":
+This is an icon combined with a text label for the Premium tab in the bottom navigation bar.
+@@@BottomNavigationBarItem@@@

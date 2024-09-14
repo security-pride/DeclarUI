@@ -1,0 +1,124 @@
+Kanye West:
+This is a text widget displaying the artist's name. The text is interactive and likely navigates to the artist's page.
+@@@Text@@@
+
+Grid of various album covers:
+This is an image widget displaying an album cover. This could be part of a list or grid view.
+@@@Image@@@
+
+Orange Shazam icon:
+This is an image widget displaying the Shazam logo, possibly used as a button to trigger music recognition.
+@@@Image@@@
+
+Calvin Harris & Dua Lipa "One Kiss" image:
+This is an image widget displaying an album cover.
+@@@Image@@@
+
+Artwork related to "Lucid Dreams":
+This is an image widget displaying an album cover.
+@@@Image@@@
+
+9:41 AM:
+This is a text widget displaying the current time.
+@@@Text@@@
+
+All Mine:
+This is a text widget displaying the current playing song title.
+@@@Text@@@
+
+Headphone and search icons in the bottom navigation:
+These are icon buttons used in the bottom navigation bar to navigate between different sections of the app.
+@@@IconButton@@@
+
+Search that song!:
+This is likely a text field widget where users can input their search queries for songs.
+@@@TextField@@@
+1. **Profile icon:**
+   This is an icon that represents the user's profile and is usually clickable to navigate to user settings or profile page.
+   @@@Icon@@@
+
+2. **Song title "Back To You" and artist name "Selena Gomez":**
+   This is a text widget displaying the song title and artist name, likely styled with different font sizes.
+   @@@Text@@@
+
+3. **Song title "No Tears Left To Cry" and artist name "Ariana Grande":**
+   This is a text widget displaying another song title and artist name, similarly styled.
+   @@@Text@@@
+
+4. **Song artwork for "No Tears Left To Cry":**
+   This is an image widget that displays the artwork for the song.
+   @@@Image@@@
+
+5. **Song title "Lucid Dreams" and artist name "Juice WRLD":**
+   This is a text widget displaying the song title and artist name, likely styled with different font sizes.
+   @@@Text@@@
+
+6. **Song artwork for "Lucid Dreams":**
+   This is an image widget that displays the artwork for the song.
+   @@@Image@@@
+
+7. **"Recents" label:**
+   This is a text widget that serves as a header for the recent songs list.
+   @@@Text@@@
+
+8. **Song title "Better Now" and artist name "Post Malone":**
+   This is a text widget displaying the song title and artist name, likely styled with different font sizes.
+   @@@Text@@@
+
+9. **Song artwork for "Better Now":**
+   This is an image widget that displays the artwork for the song.
+   @@@Image@@@
+Girls Like You (feat Cardi B) / Maroon 5, Cardi B:
+This appears to be a text widget that displays the song title "Girls Like You (feat Cardi B)" and the artist "Maroon 5, Cardi B".
+@@@Text@@@
+
+Circular Artist Icon:
+This appears to be an image widget displaying the album or artist cover art.
+@@@Image@@@
+
+Kimberly Evans / Calvin Harris, Dua Lipa:
+This is a text widget that displays the song title "Kimberly Evans" and the artist "Calvin Harris, Dua Lipa".
+@@@Text@@@
+
+Square Album Art Icon:
+This is an image widget displaying the cover art for an album or a single.
+@@@Image@@@
+
+Search Bar with Border Radius:
+This component looks like a search bar with rounded corners, where users can enter text to search for songs.
+@@@TextField@@@
+
+Youngblood:
+This is a text widget displaying the song title "Youngblood".
+@@@Text@@@
+
+Combination of Album Covers:
+This appears to be a horizontal list of image widgets, likely combined using a ListView or a Row with scrollable functionality to display album covers.
+@@@ListView@@@
+
+Nice For What / Drake:
+This is a text widget that displays the song title "Nice For What" and the artist "Drake".
+@@@Text@@@
+
+Lightning Bolt Icon:
+This appears to be an icon widget, potentially used to indicate a feature like "Trending" or "Favorites".
+@@@Icon@@@
+Wi-Fi icon:
+This appears to be an icon indicating the status of the Wi-Fi connection.
+@@@Icon@@@
+
+Album art:
+This is an image that likely represents the album cover of a song.
+@@@Image@@@
+
+Album art:
+This is an image that likely represents the album cover of a song.
+@@@Image@@@
+
+App logo:
+This likely represents the logo of the app, used for brand recognition.
+@@@Image@@@
+
+Song title and artists:
+This is a text widget displaying the song title and the artists' names.
+@@@Text@@@

@@ -1,0 +1,136 @@
+Profile button:
+This is likely a button that navigates to the user's profile page.
+@@@arkTSButton@@@
+
+"Bootstrapping Fundamental Principles" text:
+This is a text label that displays the name of a course or content item.
+@@@arkTSText@@@
+
+Rating text:
+This component likely shows the average user rating and the number of reviews for a course or item.
+@@@arkTSText@@@
+
+Graph selection button:
+This button could be used to select or highlight a particular day or week in the graph.
+@@@arkTSButton@@@
+
+Laptop image:
+This is an image component showing a relevant picture, possibly representing the content or course.
+@@@arkTSImage@@@
+
+"Learning Progress" label:
+This text label likely indicates the section title for the progress tracking graph.
+@@@arkTSText@@@
+
+Progress percentage text:
+This component shows the completion percentage of a course.
+@@@arkTSText@@@
+
+"beginners" text (partial):
+This appears to be a part of a text label showing a portion of a word, likely indicating the target audience ("beginners").
+@@@arkTSText@@@
+
+Statistic Icon:
+This icon likely represents the statistics section of the application and functions as a navigation element.
+@@@arkTSButtonIcon@@@
+Signal strength indicator:
+This appears to be an indicator for the signal strength of the mobile network.
+@@@arkTSSignalBar@@@
+
+Statistic label:
+This is a text label that indicates the "Statistic" section of the app.
+@@@arkTSText@@@
+
+Sunday label:
+This is a text label indicating "Sunday" in the context of a weekly progress bar.
+@@@arkTSText@@@
+
+Current time display:
+This shows the current time (19:27) on the top bar of the mobile screen.
+@@@arkTSTime@@@
+
+Friday label:
+This is a text label indicating "Friday" in the context of a weekly progress bar.
+@@@arkTSText@@@
+
+Favorites icon and label:
+This component serves as a button for navigating to the "Favorites" section of the app, often marked by a heart icon.
+@@@arkTSButton@@@
+
+Course Progress label:
+This is a text label indicating the "Course Progress" section of the app.
+@@@arkTSText@@@
+
+Home icon and label:
+This component serves as a button for navigating to the "Home" section of the app, often marked by a house icon.
+@@@arkTSButton@@@
+
+Secondary Course Title and Description:
+This component features a secondary course title and description text for a course within the app.
+@@@arkTSText@@@
+Thu label:
+This is a text label that displays one of the days of the week.
+@@@arkTSText@@@
+
+Tue label:
+This is a text label that displays one of the days of the week.
+@@@arkTSText@@@
+
+Wed label:
+This is a text label that displays one of the days of the week.
+@@@arkTSText@@@
+
+Sat label:
+This is a text label that displays one of the days of the week.
+@@@arkTSText@@@
+
+Notification bell icon:
+This is an icon indicating notifications. It might trigger the notification center or show a list of recent notifications.
+@@@arkTSIcon@@@
+
+Image of tablet screen:
+This is an image that likely corresponds to a portion of the course progress card, possibly representing a course about user interface design.
+@@@arkTSImage@@@
+
+Mon label:
+This is a text label that displays one of the days of the week.
+@@@arkTSText@@@
+
+Weekly toggle button:
+This is a dropdown button that allows users to select a time period, such as weekly, to filter the displayed data.
+@@@arkTSSelect@@@
+
+Image of tablet screen (duplicate):
+This is an image that likely corresponds to a portion of the course progress card, possibly representing a course about user interface design.
+@@@arkTSImage@@@
+Component Keyword:
+This is a header text indicating the title of the current page as "Statistic".
+@@@arkTSText@@@
+
+Component Keyword:
+This is an avatar or profile icon button located at the top-right corner, likely allowing users to view or edit profile settings.
+@@@arkTSButton@@@
+
+Component Keyword:
+This is a chart showing the learning progress over the week with bar graphs for each day.
+@@@arkTSChart@@@
+
+Component Keyword:
+This is a dropdown button labeled "Weekly," probably allowing users to select a different time frame for the learning progress chart.
+@@@arkTSDropdown@@@
+
+Component Keyword:
+This is a card displaying information about the course "Bootstrapping Fundamental Principles" including reviews and completion progress.
+@@@arkTSCard@@@
+
+Component Keyword:
+This is a bottom navigation bar with four icons labeled Home, Statistic, Favorites, and Profile.
+@@@arkTSBottomNavigation@@@
+
+Component Keyword:
+This is a horizontal progress bar under the course card, showing the completion percentage of the course review.
+@@@arkTSProgressBar@@@
+
+Component Keyword:
+This is a text label "Course Progress (4)" indicating the number of courses being tracked or listed under this section.
+@@@arkTSText@@@

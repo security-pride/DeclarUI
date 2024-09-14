@@ -1,0 +1,146 @@
+1. Component Keyword:
+   "卖家" (Seller)
+   Component Function Description
+   This is a text label likely referring to a seller or features related to seller activities in the app.
+   @@@arkTSText@@@
+
+2. Component Keyword:
+   Tag icon
+   Component Function Description
+   This is an icon that likely represents a tagging feature, where users can categorize or label items.
+   @@@arkTSIcon@@@
+
+3. Component Keyword:
+   "已保存" (Saved)
+   Component Function Description
+   This is a text label indicating saved items or data. It is used to show the section where users can view their saved content.
+   @@@arkTSText@@@
+
+4. Component Keyword:
+   "购买记录" (Purchase History)
+   Component Function Description
+   This text label describes the purchase history section where users can track their past purchases.
+   @@@arkTSText@@@
+
+5. Component Keyword:
+   "我的 eBay" (My eBay)
+   Component Function Description
+   This is a profile section label indicating personalized features or account information on eBay.
+   @@@arkTSText@@@
+
+6. Component Keyword:
+   Magnifying glass icon
+   Component Function Description
+   This icon represents a search feature, allowing users to look for items or information within the app.
+   @@@arkTSIcon@@@
+
+7. Component Keyword:
+   Bell icon
+   Component Function Description
+   This icon represents notifications, alerting users to new messages or updates in the app.
+   @@@arkTSIcon@@@
+
+8. Component Keyword:
+   "追踪列表" (Watchlist)
+   Component Function Description
+   This label indicates a watchlist feature where users can track items they are interested in.
+   @@@arkTSText@@@
+
+9. Component Keyword:
+   Blue number "5" badge
+   Component Function Description
+   This is a notification badge indicating there are 5 new notifications or messages for the user.
+   @@@arkTSBadge@@@
+Gavel icon:
+This icon likely represents an auction or bidding section within the app, allowing users to access auctions.
+@@@arkTSIcon@@@
+
+Heart icon:
+This icon might signify a favorites or wishlist feature, enabling users to save items for future reference.
+@@@arkTSIcon@@@
+
+Text "密切关注追踪物品" (Closely follow tracked items):
+This text label probably indicates a specific section for tracking followed items.
+@@@arkTSText@@@
+
+Tag icon with text "出售物品" (Sell Items):
+This component seems to refer to a section for selling items, allowing users to list items for sale.
+@@@arkTSIcon@@@
+
+Circle with letter "M":
+This component is likely an avatar or profile icon, often used to represent the user's account section.
+@@@arkTSAvatar@@@
+
+Circular arrow icon:
+This icon possibly signifies a refresh or recent activity feature, providing users quick access to view recent actions or purchases.
+@@@arkTSIcon@@@
+
+Text "mu_447895 注册时间 2021" (Registration time 2021):
+This text appears to display the username and registration date, typically used in account information sections.
+@@@arkTSText@@@
+
+Text "再次购买" (Buy Again):
+This label likely indicates a section where users can repurchase previously bought items.
+@@@arkTSText@@@
+
+Text "动态消息" (Dynamic Messages):
+This could refer to a section for notifications or dynamic content updates, informing users of new information.
+@@@arkTSText@@@
+"快捷方式" (Quick Access) label:
+This is a text label indicating a section for quick access or shortcuts within the app. It provides users with easy navigation options.
+@@@arkTSText@@@
+
+Package icon:
+This icon likely represents a section to view purchase history or order details, commonly associated with shopping or deliveries.
+@@@arkTSIcon@@@
+
+"出价和议价" (Bids and Offers) label and description:
+This component is a combination of a label and a description text. It indicates a section related to bids and negotiations in auctions or with sellers.
+@@@arkTSListItem@@@
+
+"查看您保存的偏好设置" (View Your Saved Preferences) description:
+This is a descriptive text providing information about the option to view saved preference settings. It helps users understand the function of a section.
+@@@arkTSText@@@
+
+"出售记录" (Sales Record) label:
+This text label denotes a section where users can view their sales records or history.
+@@@arkTSText@@@
+
+"我的尺码" (My Size) label:
+This label indicates a section pertaining to the user’s saved size preferences, likely linked to clothing or footwear settings.
+@@@arkTSText@@@
+
+"购买已购买的物品" (Buy Again) description:
+This is a descriptive text associated with the option to repurchase previously bought items, suggesting a recurring order feature.
+@@@arkTSText@@@
+
+Home icon with label "主页" (Home):
+This component is an icon with an accompanying label that acts as a navigation button to return users to the home screen of the app.
+@@@arkTSButton@@@
+
+"搜索" (Search) label:
+This text label is likely part of a search function, allowing users to perform searches within the app.
+@@@arkTSText@@@
+Envelope icon:
+This icon likely represents a messaging or email feature, indicating incoming messages or notifications.
+@@@arkTSButton@@@
+
+Clock icon with an arrow:
+This icon may represent a history or recent activity feature, showing the user's past interactions or views.
+@@@arkTSButton@@@
+
+"最近浏览 您最近浏览的物品" (Recent Browsing):
+This text component likely indicates a section displaying items the user has recently viewed.
+@@@arkTSText@@@
+
+Shopping cart icon:
+This icon likely represents the user's shopping cart, providing access to items they intend to purchase.
+@@@arkTSButton@@@
+
+Shoe icon:
+This icon may represent a profile or preferences section related to clothing sizes or preferences.
+@@@arkTSButton@@@
+
+Heart icon:
+This icon likely indicates a favorites or wishlist feature, allowing users to save items they are interested in.
+@@@arkTSButton@@@

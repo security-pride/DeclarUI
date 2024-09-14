@@ -1,0 +1,204 @@
+Hip Hop label:
+This is a button that allows users to filter or navigate to a section containing Hip Hop genre music.
+@@@arkTSButton@@@
+
+Illegal Weapon 2.0 label:
+This is a text label displaying the name of a song currently being played or highlighted.
+@@@arkTSText@@@
+
+Clock (9:41):
+This is a text label displaying the current time.
+@@@arkTSText@@@
+
+New Released label:
+This label indicates a section for newly released music.
+@@@arkTSText@@@
+
+Guitarist Image:
+This is an image component likely representing an album cover or artist photo.
+@@@arkTSImage@@@
+
+Concert Image:
+This is an image component likely representing an album cover or artist photo.
+@@@arkTSImage@@@
+
+Library label:
+This is a text label for the Library section in the navigation bar.
+@@@arkTSText@@@
+
+Artist Image (Blue-tinted person):
+This is an image component representing an artist's photo.
+@@@arkTSImage@@@
+
+Artist Image (Dark-themed person):
+This is an image component representing an artist's photo.
+@@@arkTSImage@@@
+Sam Smith:
+This is a text label displaying the name of an artist. It likely serves as a title or caption for an artist's section within the app.
+@@@arkTSText@@@
+
+Image of guitarist:
+This is an image component likely used to display album art, artist images, or graphics related to the music content.
+@@@arkTSImage@@@
+
+Search icon with label:
+This component appears to be an icon button allowing users to navigate to the search functionality within the app.
+@@@arkTSIconButton@@@
+
+Baghi 3 and Various Artists:
+This is a combination of text labels, providing information about a song title and artist. It functions as metadata about the music content.
+@@@arkTSText@@@
+
+Image of singer with guitar:
+This is an image component likely used to display musician or artist imagery relevant to the displayed content.
+@@@arkTSImage@@@
+
+Hindi T:
+This is a text label that could represent a song title or category within the app.
+@@@arkTSText@@@
+
+Pop button:
+This is a button component that likely allows users to filter or select genres or moods within the app.
+@@@arkTSButton@@@
+
+Image of drummer:
+This is an image component, possibly used for showcasing a music album or artist's performance in the app.
+@@@arkTSImage@@@
+
+Blank black button:
+This appears to be an unclear or placeholder button, possibly used for navigation or action within the app.
+@@@arkTSButton@@@
+Recomanded for you:
+This is a header text that likely indicates a section tailored to user preferences.
+@@@arkTSText@@@
+
+Wi-Fi Symbol:
+This symbol may indicate the presence or status of a network connection.
+@@@arkTSIcon@@@
+
+Singer Image:
+This is an image likely used to depict an artist or album artwork.
+@@@arkTSImage@@@
+
+Guitar Image:
+This is an image likely used to represent an album or a music item.
+@@@arkTSImage@@@
+
+Concert Image:
+This is an image that might represent an event or a music show.
+@@@arkTSImage@@@
+
+Fireworks Image:
+This is an image that could highlight an event or celebration.
+@@@arkTSImage@@@
+
+Artist Image:
+This image could be used to represent an artist or a music icon.
+@@@arkTSImage@@@
+
+Pause Button:
+This is likely a button allowing the user to pause media playback.
+@@@arkTSButton@@@
+
+No Time To Die:
+This is a text label that denotes a song title.
+@@@arkTSText@@@
+Component Keyword:
+This appears to be an image component, likely representing a popular artist.
+@@@arkTSImage@@@
+
+Component Keyword:
+This is a text label indicating the "Settings" section of the app.
+@@@arkTSText@@@
+
+Component Keyword:
+This is a text label with the name "Michael Jackson," likely representing an artist in the app.
+@@@arkTSText@@@
+
+Component Keyword:
+This is a text label with a slight typo "Trending," suggesting a trending section in the app.
+@@@arkTSText@@@
+
+Component Keyword:
+This appears to be an image component, likely representing a featured event or concert.
+@@@arkTSImage@@@
+
+Component Keyword:
+This is an icon representing the signal strength or data usage, commonly found in status bars.
+@@@arkTSIcon@@@
+
+Component Keyword:
+This is a text label with the name "Justin Bieber," likely representing an artist in the app.
+@@@arkTSText@@@
+
+Component Keyword:
+This is a text label with the title "Baghi 3" and "Various Artists," representing an album or playlist.
+@@@arkTSText@@@
+
+Component Keyword:
+This is a text label indicating the "Recent Played" section of the app.
+@@@arkTSText@@@
+Partyholics button:
+This button allows users to view content related to the "Partyholics" genre or mood.
+@@@arkTSButton@@@
+
+Loca label:
+This is a text label likely indicating a song or content title called "Loca."
+@@@arkTSText@@@
+
+Drummer image:
+This is an image possibly used for depicting an artist or album cover.
+@@@arkTSImage@@@
+
+Genres & Moods label:
+This is a text label that likely indicates a section for browsing music by genre and mood.
+@@@arkTSText@@@
+
+Heart icon:
+This icon likely represents a favorite or like action, allowing users to favorite or like a specific piece of content.
+@@@arkTSIcon@@@
+
+Purple rounded rectangle:
+This is likely a background element or a container for other UI elements within the app, possibly for highlighting a selected genre or mood.
+@@@arkTSContainer@@@
+
+Illegal Weapon label:
+This is a text label likely indicating a song or content title called "Illegal Weapon."
+@@@arkTSText@@@
+
+Singer image:
+This is an image possibly used for depicting an artist or album cover.
+@@@arkTSImage@@@
+
+Home label:
+This is a text label likely representing the "Home" section or tab of the app.
+@@@arkTSText@@@
+Component Keyword:
+Various Artists label
+This is a text label used to indicate the artist associated with a particular song or album.
+@@@arkTSText@@@
+
+Component Keyword:
+Artist image
+This image component likely displays a picture of an artist, used for visual representation in the app.
+@@@arkTSImage@@@
+
+Component Keyword:
+Baghi 3 title
+This text component displays the title of a song or album, providing users with the necessary information to identify the item.
+@@@arkTSText@@@
+
+Component Keyword:
+Live performance image
+This image component shows a live performance, probably to engage users visually with artist content.
+@@@arkTSImage@@@
+
+Component Keyword:
+Popular Artist section label
+This text label denotes a section that highlights popular artists, serving as a categorical indicator for users.
+@@@arkTSText@@@
+
+Component Keyword:
+Street Dancer 3D label
+This text component indicates the title or description of a piece of content, such as a track or album.
+@@@arkTSText@@@

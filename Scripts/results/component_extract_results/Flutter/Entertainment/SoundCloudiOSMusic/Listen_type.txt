@@ -1,0 +1,90 @@
+Summer Vibes Image:
+This appears to be a card that includes an image, a title, and subtitle.
+@@@Card@@@
+
+All Mine Label:
+This is a text label indicating the currently playing song.
+@@@Text@@@
+
+Bookmark Icon:
+This is an icon that likely indicates a bookmarking function.
+@@@Icon@@@
+
+Mic Icon:
+This is an icon that likely represents a microphone or recording feature.
+@@@Icon@@@
+
+Monday Party Image:
+This appears to be another card similar to the Summer Vibes card, including an image, a title, and subtitle.
+@@@Card@@@
+
+News Label:
+This is a label that might act as a tag to indicate the latest or highlighted news.
+@@@Container@@@
+
+Podcast Label:
+This is a text label indicating a podcast section.
+@@@Text@@@
+
+Lightning Bolt Icon:
+This is an icon that might represent speed, favorites, or another feature.
+@@@Icon@@@
+
+iOS Home Indicator:
+This is the iOS home indicator, a standard UI element for iOS devices.
+@@@Container@@@
+
+Concerts Label:
+This is a text label indicating a section dedicated to concerts.
+@@@Text@@@
+Weekly featured:
+This is a text widget that represents a feature name within the app.
+@@@Text@@@
+
+Icon list:
+These likely represent a vertical list of menu options with icons and might be structured in a Column or ListView with embedded Row widgets for each item.
+@@@Column@@@
+
+Kanye West:
+This is a text widget displaying the name of the currently playing artist.
+@@@Text@@@
+
+WiFi icon:
+This is an icon widget displaying the WiFi status.
+@@@Icon@@@
+
+User profile:
+This is an icon widget typically representing the user profile or settings.
+@@@Icon@@@
+
+Bottom navigation bar:
+This most likely represents a BottomNavigationBar widget with multiple navigation options.
+@@@BottomNavigationBar@@@
+
+Time (9:41 AM):
+This is a text widget, likely part of the AppBar to show the current time.
+@@@Text@@@
+
+Play button:
+This is an icon button that likely plays the selected item when pressed.
+@@@IconButton@@@
+
+Hots now:
+This is a text widget that represents a section header within the app.
+@@@Text@@@
+
+Orange rectangle:
+This appears to be a colored decoration, potentially part of a progress bar or a background element of a button.
+@@@Container@@@
+
+Blue bookmark icon:
+This is an icon that likely represents a bookmarking or saving feature within the app.
+@@@Icon@@@
+
+Summer Vibes album cover:
+This is an image widget that displays album artwork for the 'Summer Vibes' playlist.
+@@@Image@@@
+
+Signal strength icon:
+This is an icon likely representing signal strength or connectivity status.
+@@@Icon@@@

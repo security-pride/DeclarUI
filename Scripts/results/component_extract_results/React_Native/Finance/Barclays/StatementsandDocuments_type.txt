@@ -1,0 +1,85 @@
+Component Keyword:
+This is a Text Functional Component. It represents the account number displayed in the header.
+@@@Text Functional Component@@@
+
+Component Keyword:
+This is a Button component. It likely represents a navigation button to allow users to initiate a payment or transfer.
+@@@Button@@@
+
+Component Keyword:
+This is a SectionList component. It represents a list item summarizing a specific statement with its associated date and a right arrow implying navigation to more details.
+@@@SectionList@@@
+
+Component Keyword:
+This is a Text Functional Component. It represents the label "More" which, when clicked, likely navigates the user to additional options or settings.
+@@@Text Functional Component@@@
+
+Component Keyword:
+This is a Text Functional Component. It represents the year "2024" which indicates the year for the displayed statements or documents.
+@@@Text Functional Component@@@
+
+Component Keyword:
+This is a Button component. It likely represents a navigation button to allow users to view product options.
+@@@Button@@@
+
+Component Keyword:
+This is a SectionList component. It represents a list item summarizing a specific statement with the appropriate date and other details.
+@@@SectionList@@@
+
+Component Keyword:
+This is a Text Functional Component. It represents the "Statements" tab that allows users to view their bank statements.
+@@@Text Functional Component@@@
+
+Component Keyword:
+This is a Button component. It likely represents a navigation button to provide users with help or support options.
+@@@Button@@@
+Statement 11-MAR-24 AC 90427500 13050608:
+This is a Text Functional Component. It displays the statement date, account number, and transaction reference number.
+@@@Text Functional Component@@@
+
+Statement 10-MAY-24 AC 90427500 13053150:
+This is a Text Functional Component. It displays the statement date, account number, and transaction reference number.
+@@@Text Functional Component@@@
+
+Accounts icon and label:
+This is a combined Function Component. The icon represents the accounts section, and the label provides a description for navigation purposes.
+@@@Function Component@@@
+
+Statements and documents heading with account number:
+This is a Text Functional Component. It is used as the main heading and subheading for the app screen, showing the account number.
+@@@Text Functional Component@@@
+
+Documents tab label:
+This is a Text Functional Component. It is a tab label for switching views between Statements and Documents.
+@@@Text Functional Component@@@
+
+09 Feb:
+This is a Text Functional Component. It displays the date associated with the statement entry in the list.
+@@@Text Functional Component@@@
+
+Help icon (question mark):
+This is an Image Functional Component. It likely opens a help or support section when pressed.
+@@@Function Component@@@
+
+11 Jul:
+This is a Text Functional Component. It displays the date associated with the statement entry in the list.
+@@@Text Functional Component@@@
+
+Statement 11-APR-24 AC 90427500 15105508:
+This is a Text Functional Component. It displays the statement date, account number, and transaction reference number.
+@@@Text Functional Component@@@
+10 May:
+This is a Text component. It likely represents a date, indicating the date of a statement or transaction.
+@@@Text Functional Component@@@
+
+Statement 11-JUL-24 AC 90427500 13043626:
+This is a Text component. It represents a statement description, providing details such as the date, account number, and possibly a transaction ID for the user.
+@@@Text Functional Component@@@
+
+Statement 11-JUN-24 AC 90427500 13043605:
+This is a Text component. It represents another statement description, showing the date, account number, and transaction ID for user reference.
+@@@Text Functional Component@@@
+
+11 Jun:
+This is a Text component. Similar to the "10 May" component, it denotes a specific date related to a statement or transaction.
+@@@Text Functional Component@@@

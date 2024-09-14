@@ -1,0 +1,232 @@
+"Designers" label:
+This is a text label likely used to represent a category or recent search term within the app.
+@@@arkTSText@@@
+
+Rounded icon with chat bubble:
+This appears to be an icon representing a category or tab for chats.
+@@@arkTSIcon@@@
+
+"S" button:
+This button likely represents a letter input (perhaps for login, registration, or search shortcuts).
+@@@arkTSButton@@@
+
+"F" button:
+This button likely represents a letter input (perhaps for login, registration, or search shortcuts).
+@@@arkTSButton@@@
+
+"H" button:
+This button likely represents a letter input (perhaps for login, registration, or search shortcuts).
+@@@arkTSButton@@@
+
+Signal strength indicator:
+This symbol indicates network connectivity status, often found in the status bar of an app.
+@@@arkTSStatusIndicator@@@
+
+"U" button:
+This button likely represents a letter input (perhaps for login, registration, or search shortcuts).
+@@@arkTSButton@@@
+
+"Dasha Taran" label:
+This is a text label likely used to represent a category or recent search term within the app.
+@@@arkTSText@@@
+
+"Photos" tab button:
+This is a tab button, likely used for navigating to a photo-related section of the app.
+@@@arkTSTab@@@
+Sure, here's the output for the provided components:
+
+---
+
+Component Keyword:
+This is a magnifying glass icon typically used to represent a search function.
+@@@arkTSIcon@@@
+
+---
+
+Component Keyword:
+This is a text label displaying "B", likely representing a button or key input.
+@@@arkTSButton@@@
+
+---
+
+Component Keyword:
+This label displays "Recent searches", indicating a section where past search queries are listed.
+@@@arkTSText@@@
+
+---
+
+Component Keyword:
+This is a text label displaying "M", likely representing a button or key input.
+@@@arkTSButton@@@
+
+---
+
+Component Keyword:
+This is a button labeled "Chats" with an icon, suggesting a filter or category selector for chat-related content.
+@@@arkTSButton@@@
+
+---
+
+Component Keyword:
+This is a text label displaying "D", likely representing a button or key input.
+@@@arkTSButton@@@
+
+---
+
+Component Keyword:
+This is a text label displaying "C", likely representing a button or key input.
+@@@arkTSButton@@@
+
+---
+
+Component Keyword:
+This text label reads "Clear all", indicating functionality to clear recent search history.
+@@@arkTSText@@@
+
+---
+
+Component Keyword:
+This is a text label displaying "W", likely representing a button or key input.
+@@@arkTSButton@@@
+
+---
+Search bar:
+This appears to be a search input field that allows users to enter text for searching content within the app.
+@@@arkTSSearch@@@
+
+Menu button:
+This is a horizontal line icon commonly used to represent a menu or drawer button.
+@@@arkTSImage@@@
+
+"Billie Eillish" label:
+This is a text label displaying a recent search term, likely allowing users to select it and view related results.
+@@@arkTSText@@@
+
+"P" key:
+This represents a single key on the on-screen keyboard for text input, specifically the letter P.
+@@@arkTSButton@@@
+
+Microphone icon:
+This is an icon representing a microphone, likely used for enabling voice search or voice input.
+@@@arkTSIcon@@@
+
+"J" key:
+This represents a single key on the on-screen keyboard for text input, specifically the letter J.
+@@@arkTSButton@@@
+
+"Go" button:
+This is a button on the on-screen keyboard, likely used to submit the search query or form.
+@@@arkTSButton@@@
+
+"L" key:
+This represents a single key on the on-screen keyboard for text input, specifically the letter L.
+@@@arkTSButton@@@
+
+"X" key:
+This represents a single key on the on-screen keyboard for text input, specifically the letter X.
+@@@arkTSButton@@@
+
+"123" key:
+This button on the on-screen keyboard allows the user to switch to a numerical input mode.
+@@@arkTSButton@@@
+### Component Image 1
+
+Component Keyword:
+This represents a key from a virtual keyboard that inputs the letter "A" when pressed.
+@@@arkTSButton@@@
+
+### Component Image 2
+
+Component Keyword:
+This represents a key from a virtual keyboard that inputs the letter "T" when pressed.
+@@@arkTSButton@@@
+
+### Component Image 3
+
+Component Keyword:
+This represents a key from a virtual keyboard that inputs the letter "Q" when pressed.
+@@@arkTSButton@@@
+
+### Component Image 4
+
+Component Keyword:
+This represents a key from a virtual keyboard that inputs the letter "I" when pressed.
+@@@arkTSButton@@@
+
+### Component Image 5
+
+Component Keyword:
+This represents a key from a virtual keyboard that inputs the letter "Z" when pressed.
+@@@arkTSButton@@@
+
+### Component Image 6
+
+Component Keyword:
+This is an emoji button on the virtual keyboard, allowing users to select and insert emojis into their text.
+@@@arkTSIcon@@@
+
+### Component Image 7
+
+Component Keyword:
+This is an upward arrow key used to capitalize letters or change the keyboard to different characters.
+@@@arkTSButton@@@
+
+### Component Image 8
+
+Component Keyword:
+This represents a key from a virtual keyboard that inputs the letter "K" when pressed.
+@@@arkTSButton@@@
+
+### Component Image 9
+
+Component Keyword:
+This is a backspace key on the virtual keyboard, allowing users to delete the character before the cursor.
+@@@arkTSButton@@@
+1. **Component Keyword:**
+   This icon indicates that the device is connected to a Wi-Fi network, often displayed in the status bar at the top of a mobile screen.
+   @@@arkTSImage@@@
+
+2. **Component Keyword:**
+   This is a single character key on a virtual keyboard, used for text input within the app.
+   @@@arkTSButton@@@
+
+3. **Component Keyword:**
+   This is another single character key on a virtual keyboard, used for text input within the app.
+   @@@arkTSButton@@@
+
+4. **Component Keyword:**
+   This is another single character key on a virtual keyboard, used for text input within the app.
+   @@@arkTSButton@@@
+
+5. **Component Keyword:**
+   This is a single character key on a virtual keyboard, used for text input within the app.
+   @@@arkTSButton@@@
+
+6. **Component Keyword:**
+   This is a search input field that allows users to enter text for searching content within the app.
+   @@@arkTSSearch@@@
+
+7. **Component Keyword:**
+   This is a space key on a virtual keyboard, used to input a space character in text fields.
+   @@@arkTSButton@@@
+
+8. **Component Keyword:**
+   This is another single character key on a virtual keyboard, used for text input within the app.
+   @@@arkTSButton@@@
+
+9. **Component Keyword:**
+   This is another single character key on a virtual keyboard, used for text input within the app.
+   @@@arkTSButton@@@
+E key:
+This key is part of the virtual keyboard used for text input.
+@@@arkTSKey@@@
+
+Videos tab:
+This is likely a tab button that allows users to view video content when selected. The arrow indicates a possible dropdown or expandable content.
+@@@arkTSTabButton@@@
+
+Solid black bar:
+This is possibly a visual separator or a slider handle in the user interface.
+@@@arkTSSeparator@@@
+
+

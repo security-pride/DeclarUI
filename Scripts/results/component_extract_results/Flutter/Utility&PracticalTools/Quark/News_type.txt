@@ -1,0 +1,123 @@
+热搜 tab:
+This tab label indicates the "Hot Searches" section and is part of a segmented control or tab bar.
+@@@TabBar@@@
+
+抓娃娃票房 text:
+This is a text widget representing an item from a list or a section title.
+@@@Text@@@
+
+芭芭农场 card:
+This element likely includes a combination of an icon, title, subtitle, and a button, suggesting a card containing overview information with actions.
+@@@Card@@@
+
+几千块手机为何离不开几块钱的...:
+This text represents an item in a list with ellipsis indicating clipped overflow.
+@@@Text@@@
+
+1. indicator:
+This numbered indicator could be a list item indicator or a leading widget in a list.
+@@@Text@@@
+
+微博 tab:
+This is another tab option in a segmented control, representing a platform or section.
+@@@TabBar@@@
+
+87W indicator:
+This represents a count or number, possibly indicating popularity or views, placed next to a list item.
+@@@Text@@@
+
+专题 badge:
+This badge in a contrasting color likely highlights a special topic or featured item.
+@@@Container@@@
+
+特朗普遇刺右耳受伤 title:
+This appears to be a headline or title text overlaying an image, indicating a news story or topic.
+@@@Text@@@
+1. 
+Component Keyword: Text "全面深化改革的实践续篇"
+Component Function Description: This is a text label displaying the title of an article.
+@@@Text@@@
+
+2. 
+Component Keyword: Numeric List Item "4."
+Component Function Description: This represents an item in a numeric ordered list, likely displaying a ranking or sequence.
+@@@Text@@@
+
+3. 
+Component Keyword: Search Icon
+Component Function Description: This is an icon button for the search functionality, allowing users to search for content.
+@@@IconButton@@@
+
+4. 
+Component Keyword: Image with Overlapping Text
+Component Function Description: This is a container displaying a large image with text overlapping it, typically for highlighting featured content or news.
+@@@Stack@@@
+
+5. 
+Component Keyword: Grey Text "89W"
+Component Function Description: This represents the number of views or engagements in a smaller, less prominent text style.
+@@@Text@@@
+
+6. 
+Component Keyword: "知乎" (Zhihu) Button
+Component Function Description: This button likely navigates to a Zhihu discussion or content, displaying text with a rounded background.
+@@@TextButton@@@
+
+7. 
+Component Keyword: Close Icon "X"
+Component Function Description: This is an icon button that is likely used to close a modal or a popup.
+@@@IconButton@@@
+
+8. 
+Component Keyword: Number Overlay "65"
+Component Function Description: This indicates a numerical value displayed with a colored background, often used for notifications or counters.
+@@@Container@@@
+
+9. 
+Component Keyword: Grey Text "45W"
+Component Function Description: This represents the number of views or engagements in a smaller, less prominent text style.
+@@@Text@@@
+热搜榜 label:
+This is a text widget that displays the label "热搜榜" which translates to "Hot Search List".
+@@@Text@@@
+
+Home icon:
+This icon likely represents a button that navigates the user to the home page of the app.
+@@@IconButton@@@
+
+Highlight number:
+This text widget displays the highlighted number "3." in a blue font. It likely indicates the rank or order of an item in a list.
+@@@Text@@@
+
+Trump banner:
+This image widget displays a promotional banner related to Trump.
+@@@Image@@@
+
+Date and weather card:
+This container likely shows the current date, day of the month, and weather information.
+@@@Container@@@
+
+News headline in list:
+This text widget displays a news headline inside a list, which starts with "400多件裤子退货店家损失近80...". It indicates the description of a news item.
+@@@Text@@@
+
+News summary card:
+This container includes an image, a title, and a summary of the news. It also has some text and bullet points.
+@@@Container@@@
+
+App title:
+This text widget shows the title of the app, "考克日报", which translates to "Cocker Daily".
+@@@Text@@@
+
+Clickable module:
+This container likely features a clickable element that displays a module with a title, "福利中心", and additional information "现金红包天天领取 去领钱".
+@@@Container@@@
+
+News detail:
+This text widget shows the detailed news text, which includes "小天愿意跟相柳走不是因为誓言".
+@@@Text@@@
+
+
+Component Keyword:
+This is a text element that represents the view count of an item, likely indicating 109 million views.
+@@@Text@@@

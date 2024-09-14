@@ -1,0 +1,66 @@
+Back arrow icon:
+This is a Pressable component. It allows the user to navigate to the previous screen.
+@@@Pressable@@@
+
+Trash icon:
+This is a Pressable component. It likely allows the user to delete an item or clear a field.
+@@@Pressable@@@
+
+Text "Objects":
+This is a Text Functional Component. It acts as a header/title to indicate the current section of the app.
+@@@Text Functional Component@@@
+
+Text "Add Object":
+This is a Text Functional Component. It serves as a label for adding a new object.
+@@@Text Functional Component@@@
+
+Icon with vertical dots:
+This is a Button component. It likely allows the user to access a menu or additional settings.
+@@@Button@@@
+
+Horizontal line icon:
+This is a Button component. It likely allows users to draw or select a horizontal line.
+@@@Button@@@
+
+Arrow icon pointing upwards:
+This is a Button component. It may be used to indicate direction or to point to more options.
+@@@Button@@@
+
+Angle measurement icon:
+This is a Button component. It may be used to measure or draw an angle.
+@@@Button@@@
+
+"Pencil" icon (line with diagonal extension):
+This is a Button component. It allows for freehand drawing or selecting a line tool.
+@@@Button@@@
+
+Description "Long tap the object on the chart to edit or delete it":
+This is a Text Functional Component. It provides instructions to the user.
+@@@Text Functional Component@@@
+Component Keyword:
+This is a text component used to add an object in the list.
+@@@Text Functional Component@@@
+
+Component Keyword:
+This is another text component providing instructions to the users on long tap functionality.
+@@@Text Functional Component@@@
+
+Component Keyword:
+This is a View component representing a header section for navigation, containing an arrow icon for back navigation or menu access.
+@@@View Function Component@@@
+
+Component Keyword:
+This is a TouchableOpacity button component, used in the header to navigate or delete functionality with a trash icon.
+@@@TouchableOpacity Function Component@@@
+
+Component Keyword:
+This is a set of Button components each representing different tools or actions available (e.g., draw line, shape), in the toolbar.
+@@@Button@@@
+
+Component Keyword:
+This is a Modal component overlay that provides additional functionalities like editing or selecting objects.
+@@@Modal@@@
+
+Component Keyword:
+This is a View Function component primarily used to structure and organize other components like Text and Buttons in a section.
+@@@View Function Component@@@

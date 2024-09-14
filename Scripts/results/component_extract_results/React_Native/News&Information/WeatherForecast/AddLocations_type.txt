@@ -1,0 +1,58 @@
+Lock screen text:
+This is a Text Functional Component. It labels the area that allows users to lock their screen.
+@@@Text Functional Component@@@
+
+SD card icon:
+This is a Function Component. It represents the status of the SD card.
+@@@Function Component@@@
+
+Click to add location button:
+This is a Button component. It allows users to click and add a new location.
+@@@Button@@@
+
+Pine street sign:
+This is a Text Functional Component. It displays the name of the street.
+@@@Text Functional Component@@@
+
+Hamburger menu icon:
+This is a Function Component. It opens the navigation or options menu.
+@@@Function Component@@@
+
+Clock and battery status display:
+This is a StatusBar Android and iOS Component. It shows the current time and battery status.
+@@@StatusBar Android and iOS Component@@@
+
+Black circle:
+This is a View Function Component. It could serve as a placeholder or indicator.
+@@@View Function Component@@@
+
+Add location text:
+This is a Text Functional Component. It labels the section where users can add a location.
+@@@Text Functional Component@@@
+
+Battery icon:
+This is a Function Component. It shows the battery status.
+@@@Function Component@@@
+Menu icon:
+This is a Button component. It likely opens a menu or drawer on the left side of the screen to access additional features or settings.
+@@@Button@@@
+
+"Add location" text:
+This is a Text Functional Component. It serves as a header or title, indicating the main functionality or current section of the screen is to add a location.
+@@@Text Functional Component@@@
+
+Lock screen icon and label:
+This is a View Function Component. It contains an icon and a text label "Lock screen," indicating a feature to lock the screen.
+@@@View Function Component@@@
+
+Switch to toggle lock screen:
+This is a Switch component. It allows the user to toggle the lock screen functionality on or off.
+@@@Switch@@@
+
+"Click to add location" button:
+This is a Button component. It is used to initiate the process of adding a new location when clicked.
+@@@Button@@@
+
+Background image:
+This is an ImageBackground component. It serves as the background image for the current screen, providing a visual context related to locations.
+@@@ImageBackground@@@

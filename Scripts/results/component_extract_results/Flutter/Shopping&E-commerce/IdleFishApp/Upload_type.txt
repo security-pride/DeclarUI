@@ -1,0 +1,56 @@
+发布按钮:
+This is a button widget that allows users to publish or post content.
+@@@ElevatedButton@@@
+
+位置标签:
+This is a clickable widget displaying a location with an icon. Likely allows users to select or view the location.
+@@@ListTile@@@
+
+发布按钮 (重复的组件，忽略):
+This is a button widget that allows users to publish or post content.
+@@@ElevatedButton@@@
+
+发货方式标签:
+This is a text widget that describes the shipping method.
+@@@Text@@@
+
+宝贝不在身边? 点我:
+This is a text widget with clickable functionality suggesting an action.
+@@@RichText@@@
+
+价格标签:
+This is a text widget displaying the price of an item.
+@@@Text@@@
+
+关闭图标:
+This is an icon widget likely used to close the current screen or dialog.
+@@@IconButton@@@
+
+添加优质首图:
+This is an image picker button widget prompting the user to add a high-quality primary image.
+@@@Container@@@
+
+发问信息标签:
+This is a text widget that represents the title or heading of the current screen, indicating the page's purpose.
+@@@Text@@@
+Component Keyword:
+A blue character with a top hat and monocle, likely representing a mascot or guide.
+@@@Image@@@
+
+Component Function Description:
+Example placeholder text describing the product's brand, model number, or source.
+@@@TextField@@@
+
+Component Keyword:
+"价格" (Price) label indicating the section for entering or displaying the price of the product.
+@@@Text@@@
+
+Component Function Description:
+Placeholder text likely used to describe the product in an input field.
+@@@TextField@@@
+
+Component Function Description:
+"包邮" (Free Shipping) label indicating the shipping method.
+@@@Text@@@
+
+

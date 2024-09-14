@@ -1,0 +1,150 @@
+Component Keyword:
+This numeric button displays the number 7 with corresponding letters P, Q, R, S. 
+@@@arkTSButton@@@
+
+Component Keyword:
+This symbol suggests a switch to the regular keyboard input.
+@@@arkTSIcon@@@
+
+Component Keyword:
+This numeric button displays the number 1.
+@@@arkTSButton@@@
+
+Component Keyword:
+This numeric button displays the number 9 with corresponding letters W, X, Y, Z.
+@@@arkTSButton@@@
+
+Component Keyword:
+This numeric button displays the number 6 with corresponding letters M, N, O.
+@@@arkTSButton@@@
+
+Component Keyword:
+This numeric button displays the number 2 with corresponding letters A, B, C.
+@@@arkTSButton@@@
+
+Component Keyword:
+This symbol likely signifies a confirmation or enter action.
+@@@arkTSIcon@@@
+
+Component Keyword:
+This symbol represents a special character button for inputting symbols such as asterisk or number sign.
+@@@arkTSButton@@@
+
+Component Keyword:
+This label translates to "Please enter your phone number" and likely serves as an instructional text for the input field.
+@@@arkTSText@@@
+Component Keyword:
+This appears to be a keypad button labeled with the number 3 and letters DEF, typically used in a mobile number input or dialing pad.
+@@@arkTSButton@@@
+
+Component Keyword:
+This looks like a button, specifically a large, rounded rectangle with text in the center. The text reads "继续," which translates to "Continue," indicating it likely functions as a submission or next-step action button.
+@@@arkTSButton@@@
+
+Component Keyword:
+This is a prominent text element, possibly an app logo or header text. It displays the word "BREAKING," suggesting it is used for branding or section heading.
+@@@arkTSText@@@
+
+Component Keyword:
+This is a keypad button labeled with the number 0 and a plus sign, likely part of a mobile number input or dialing pad functionality.
+@@@arkTSButton@@@
+
+Component Keyword:
+This is a keypad button labeled with a minus sign, likely used for entering symbols or mathematical operations in a numerical input context.
+@@@arkTSButton@@@
+
+Component Keyword:
+This icon resembles a memory card symbol, often used to indicate storage options or memory usage within the app.
+@@@arkTSIcon@@@
+
+Component Keyword:
+This keypad button is labeled with the number 8 and letters TUV, likely used in a mobile number input or dialing pad.
+@@@arkTSButton@@@
+
+Component Keyword:
+This icon resembles two overlapping squares, typically used to signify a multi-tasking or window-switching function within the app.
+@@@arkTSIcon@@@
+
+Component Keyword:
+This is a solid black circle, which could be used as an indicator, button, or an aesthetic element in the UI.
+@@@arkTSIcon@@@
+### Component Keywords and Types
+
+1. **Dot key:**
+   This is a key on the keyboard representing a dot (".") for numeric input.
+   @@@arkTSButton@@@
+
+2. **Number 4 key:**
+   This is a key on the keyboard representing the number 4, possibly for numeric input.
+   @@@arkTSButton@@@
+
+3. **Number 5 key:**
+   This is a key on the keyboard representing the number 5, possibly for numeric input.
+   @@@arkTSButton@@@
+
+4. **Back arrow:**
+   This indicates a back navigation button, used for returning to the previous screen.
+   @@@arkTSIcon@@@
+
+5. **Underscore key:**
+   This is a key on the keyboard representing an underscore ("_") for numeric input.
+   @@@arkTSButton@@@
+
+6. **Continue button:**
+   This likely represents a button that users press to continue to the next action or screen.
+   @@@arkTSButton@@@
+
+7. **Phone number input:**
+   This is a text input field for entering a phone number along with a dropdown selection for country code.
+   @@@arkTSTextField@@@
+
+8. **Label separator:**
+   This element acts as a separator or a visual divider between elements.
+   @@@arkTSSeparator@@@
+
+9. **Backspace key:**
+   This key represents a backspace function, used to delete the previously entered character.
+   @@@arkTSButton@@@
+
+### Summary
+
+Each component can be classified as a button, icon, text field, or separator based on their functionalities and visual appearances, matched to ArkTS component types.
+Component Keyword:
+Page back icon:
+This icon is used for navigating back to the previous screen in the app.
+@@@arkTSIcon@@@
+
+Component Keyword:
+Brand logo and app title:
+This area displays the app's branding, consisting of the app name and designer information.
+@@@arkTSColumn@@@
+
+Component Keyword:
+Instructional text:
+This text instructs users to enter their phone number.
+@@@arkTSText@@@
+
+Component Keyword:
+Country code selection:
+This component allows users to select their country code when entering a phone number.
+@@@arkTSSelect@@@
+
+Component Keyword:
+Phone number input field:
+This input field is used for users to enter their phone number.
+@@@arkTSTextInput@@@
+
+Component Keyword:
+Continue button:
+This button is used for submitting the entered phone number to proceed to the next step.
+@@@arkTSButton@@@
+
+Component Keyword:
+Numeric keypad:
+This keypad is used for entering numeric data such as phone numbers.
+@@@arkTSGrid@@@
+
+Component Keyword:
+Keyboard options:
+These buttons, including delete and submit, are used for additional input actions within the numeric keypad.
+@@@arkTSIconButton@@@

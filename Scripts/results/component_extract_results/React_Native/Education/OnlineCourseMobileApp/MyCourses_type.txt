@@ -1,0 +1,89 @@
+Headphone icon on blue card:
+This is an Image component. It represents the type of the course or category inside the card.
+@@@Function Component@@@
+
+Three vertical dots on blue card:
+This is a Button component. It likely provides more options or actions related to the course card when pressed.
+@@@Button@@@
+
+Star icon:
+This is an Image component. It is part of the rating system, visually representing star ratings.
+@@@Function Component@@@
+
+"Completed" label:
+This is a Text component. It indicates a section or state of the courses that have been completed.
+@@@Text Functional Component@@@
+
+Green background number "8":
+This is a Text component embedded in a View component. It shows the count of ongoing courses.
+@@@Text Functional Component@@@
+
+Session icon:
+This is an Image component. It symbolizes the session count or completion status.
+@@@Function Component@@@
+
+"4.9 (1.435 Reviews)" text:
+This is a Text component. It displays the average rating and the number of total reviews for a course.
+@@@Text Functional Component@@@
+
+Headset icon on brown card:
+This is an Image component. It represents the type of the course or category inside the card, similar to the headset icon on blue card.
+@@@Function Component@@@
+
+"Nicola Tesla" text:
+This is a Text component. It shows the name of the course instructor.
+@@@Text Functional Component@@@
+
+Camera icon on purple card:
+This is an Image component. It represents the type of the course or category inside the card, similar to other icons on different colored cards.
+@@@Function Component@@@
+Headphones icon:
+This is a Function Component. It visually represents an audio feature, indicating the course involves audio content.
+@@@Function Component@@@
+
+"12" Badge:
+This is a Text Functional Component. It shows the number of completed courses, displayed as a badge.
+@@@Text Functional Component@@@
+
+Home icon:
+This is a Function Component. It serves as a navigation button to the home screen of the app.
+@@@Function Component@@@
+
+Book icon:
+This is a Function Component. It acts as a navigation button to access the courses or learning materials.
+@@@Function Component@@@
+
+Black rectangular icon:
+This is a StatusBar Android and iOS Component. It is part of the phone's status bar, indicating battery status, signal, or other system information.
+@@@StatusBar Android and iOS Component@@@
+
+"9:41" Time 
+This is a Text Functional Component. It indicates the current time shown on the phone's status bar.
+@@@Text Functional Component@@@ 
+
+Document and pencil icon:
+This is a Function Component. It represents the course content details or assignments related to the course.
+@@@Function Component@@@
+
+Gear icon:
+This is a Function Component. It likely represents settings or options within the app.
+@@@Function Component@@@
+
+"My Courses" label:
+This is a Text Functional Component. It displays the title of the current screen indicating it's the user's courses section.
+@@@Text Functional Component@@@
+Bell icon with "9+" badge:
+This is a Function Component. It likely functions as a notification bell, indicating there are 9 or more new notifications for the user.
+@@@Function Component@@@
+
+Profile picture:
+This is an ImageBackground. It functions as a user's profile picture or avatar, displaying a circular image.
+@@@ImageBackground@@@
+
+Graphics Designer for Beginner label:
+This is a Text Functional Component. It is a label indicating the title of a course available in the app.
+@@@Text Functional Component@@@
+
+Loader:
+This is a RefreshControl. It is a loading spinner indicating the completion percentage of a task or ongoing data loading.
+@@@RefreshControl@@@

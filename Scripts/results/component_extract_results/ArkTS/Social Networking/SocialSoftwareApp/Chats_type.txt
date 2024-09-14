@@ -1,0 +1,158 @@
+Green status indicator:
+A visual indicator next to a profile picture, typically representing the online presence status of a user.
+@@@arkTSBadge@@@
+
+WiFi icon:
+An icon representing the WiFi signal strength, commonly found in the status bar of mobile devices.
+@@@arkTSIcon@@@
+
+Chat preview:
+Text display showing a summary of a conversation, including the contact name, message snippet, and timestamp.
+@@@arkTSText@@@
+
+Compass icon:
+An icon that could represent navigation or a location services feature.
+@@@arkTSIcon@@@
+
+Battery level indicator:
+A visual representation of the battery level, often displayed in the status bar.
+@@@arkTSProgress@@@
+
+Notification badge:
+A small badge with a number, indicating unread messages or notifications in an app.
+@@@arkTSBadge@@@
+
+"View More" link:
+A text link that prompts users to load more content or navigate to a detailed view.
+@@@arkTSLink@@@
+
+User avatars with names:
+User profile images displayed with the corresponding names, often used to select a conversation or view user details.
+@@@arkTSListItem@@@
+
+Camera icon:
+An icon representing a camera, often used to initiate taking a photo or access the camera feature.
+@@@arkTSButtonIcon@@@
+Time display:
+This component displays the current time on the mobile device.
+@@@arkTSText@@@
+
+User avatar:
+This component likely represents a user's profile picture or avatar in a circular format.
+@@@arkTSImage@@@
+
+User profile image:
+This component appears to be a user's profile picture or avatar within a circular frame.
+@@@arkTSImage@@@
+
+Label "Your story":
+This is a text label that indicates a section related to the user's story or status update.
+@@@arkTSText@@@
+
+Chat snippet:
+This component appears to show a snippet of a conversation, including the contact's name and a preview of the last message sent.
+@@@arkTSListItem@@@
+
+User profile image:
+This component appears to be a user's profile picture or avatar within a circular frame.
+@@@arkTSImage@@@
+
+App logo or icon:
+This component likely represents an application icon or logo.
+@@@arkTSImage@@@
+
+Label "Thu":
+This is a text label that likely indicates the day of the week when a message was sent or an activity occurred.
+@@@arkTSText@@@
+
+Chat name:
+This component displays the name of a contact along with a snippet of the most recent message in a chat.
+@@@arkTSListItem@@@
+Component Keyword:
+Profile picture:
+This is a circular image component likely used to display a user's profile picture.
+@@@arkTSAvatar@@@
+
+Component Keyword:
+Signal strength indicator:
+This component shows the signal strength of the mobile network.
+@@@arkTSIcon@@@
+
+Component Keyword:
+Profile picture 2:
+This circular image component is another user's profile picture.
+@@@arkTSAvatar@@@
+
+Component Keyword:
+Advertisement text:
+This component appears to be a text label designed to display an advertisement message.
+@@@arkTSText@@@
+
+Component Keyword:
+Logo or Icon:
+This component looks like a logo or an app icon, potentially used for branding within the app.
+@@@arkTSIcon@@@
+
+Component Keyword:
+Addition (plus) button:
+This is a button with a plus sign, likely used to add new elements such as stories or contacts.
+@@@arkTSButton@@@
+
+Component Keyword:
+Chat icon:
+This component is an icon representing a chat or messaging function within the app.
+@@@arkTSIcon@@@
+
+Component Keyword:
+Chat message snippet:
+This text component displays the name of a contact and a snippet of their most recent message.
+@@@arkTSText@@@
+
+Component Keyword:
+Group profile picture:
+This circular image component shows a group image, possibly for a group chat or social feature.
+@@@arkTSAvatar@@@
+Search bar:
+This appears to be a search input field that allows users to enter text for searching content within the app.
+@@@arkTSSearch@@@
+
+Pink app icon:
+This seems to be an icon representing an application, potentially redirecting to another app or website when clicked.
+@@@arkTSImage@@@
+
+Ad label:
+This label likely indicates that the content nearby is an advertisement.
+@@@arkTSText@@@
+
+Camera button:
+This icon is used to open the camera functionality within the app, likely to take photos or videos.
+@@@arkTSIcon@@@
+
+Send message button:
+This icon indicates an option to create or send a message or a new post.
+@@@arkTSIcon@@@
+
+Status indicator (gray check mark):
+This check mark probably indicates a read or delivered status for a message.
+@@@arkTSIcon@@@
+
+Image of a person with a hat:
+This image represents a user, possibly for their profile picture.
+@@@arkTSImage@@@
+
+Profile picture of a person with blue hair:
+This image represents a user, possibly for their profile picture.
+@@@arkTSImage@@@
+
+Profile picture of a person with a blurred face:
+This image represents a user, possibly for their profile picture.
+@@@arkTSImage@@@
+
+Read status (private message):
+This checkmark likely denotes that a private message has been read.
+@@@arkTSIcon@@@
+
+Note: It is important to ensure all sensitive information about real individuals is anonymized or blurred as shown in the images provided.
+Pixsellz label:
+This is a text label that likely indicates the name of a user or an item within the app.
+@@@arkTSText@@@

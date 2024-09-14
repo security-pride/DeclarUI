@@ -1,0 +1,38 @@
+Explore tab label:
+This is a Text component. Located in the tab bar, it signifies the "Explore" section of the app where users can discover new content.
+@@@Text Functional Component@@@
+
+Beginning meditation card:
+This is a View component. It contains text and an icon describing the meditation program, serving as an entry point for users to start or learn about the meditation techniques.
+@@@View Function Component@@@
+
+Send free access to new members card:
+This is a View component. It promotes the feature allowing users to invite friends, highlighting the 30-Day Guest Pass and providing visual cues with text and icons.
+@@@View Function Component@@@
+
+Today tab icon:
+This is a Text component paired with an icon, indicating the "Today" section on the navigation bar, directed at presenting daily content or activities.
+@@@Text Functional Component@@@
+
+User profile tab icon:
+This is a Text component paired with an icon, indicating the user profile section on the navigation bar, pointing to the user's profile and settings.
+@@@Text Functional Component@@@
+
+User profile picture:
+This is an Image component. A round profile picture representing the user, typically used in profile sections or headers.
+@@@Function Component@@@
+
+Welcome text:
+This is a Text component. It serves as a greeting message to the user, welcoming them upon logging into the app.
+@@@Text Functional Component@@@
+
+Send free access to new members banner:
+This is a View component. It promotes the invite feature, urging users to send a guest pass to friends, integrated with text and illustrations.
+@@@View Function Component@@@
+
+Headspace 30-Day Guest Pass:
+This is a Text component. It serves as a heading to inform the user about the 30-Day Guest Pass promotion.
+@@@Text Functional Component@@@
+Gear icon:
+This is a Button component. It likely provides access to the app's settings when pressed.
+@@@Button@@@

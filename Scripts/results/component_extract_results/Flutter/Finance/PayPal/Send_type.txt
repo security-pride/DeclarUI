@@ -1,0 +1,115 @@
+### Components
+
+1. **CURVE UK LIMITED Label:**
+   This is likely to be a text widget displaying the company name.
+   @@@Text@@@
+
+2. **QR Code Icon:**
+   This appears to be an icon that, when pressed, might allow users to scan QR codes. It is likely interactive.
+   @@@IconButton@@@
+
+3. **Circular Logo:**
+   This is an image widget displaying a circular logo, possibly representing a user's profile picture or a company logo.
+   @@@Image@@@
+
+4. **Fang Zhou Label:**
+   This is likely to be a text widget displaying the user's name.
+   @@@Text@@@
+
+5. **Back Arrow Icon:**
+   This appears to be an icon indicating a back navigation functionality. It is likely interactive.
+   @@@IconButton@@@
+
+6. **Information Icon:**
+   This icon likely provides additional information or details when pressed.
+   @@@IconButton@@@
+
+7. **Suggested Contacts Label:**
+   This label likely indicates the section heading for suggested contacts.
+   @@@Text@@@
+
+8. **Information Icon (Repeated):**
+   This icon likely provides additional information or details when pressed, same as described earlier.
+   @@@IconButton@@@
+
+9. **Contacts Book Icon:**
+   This icon likely represents the user's contacts book or directory.
+   @@@Icon@@@
+
+Component Keyword: Profile picture icon (ZF)
+This is an avatar icon likely representing a contact or user profile.
+@@@CircleAvatar@@@
+
+Component Keyword: Information icon
+This appears to be a small icon button used to display additional information about a contact.
+@@@IconButton@@@
+
+Component Keyword: Search bar with text
+A search bar that allows users to input text to search for contacts or other information.
+@@@TextField@@@
+
+Component Keyword: Contact name (Fang Zhou)
+A text widget displaying the name of a contact.
+@@@Text@@@
+
+Component Keyword: Activate your contacts label (启用您的联系人)
+This label prompts the user to activate their contacts. Translation: "Activate your contacts".
+@@@Text@@@
+
+Component Keyword: Divider
+A horizontal line used to separate different sections of the app.
+@@@Divider@@@
+
+Component Keyword: Company Logo (Encoded)
+An image widget displaying a company logo or an avatar.
+@@@Image@@@
+
+Component Keyword: Banner with icon and text
+A banner that contains both an icon and a text message informing the user about a cross-border payment.
+@@@Container@@@
+
+
+ZF circle image:
+This appears to be a circular avatar displaying initials, often used to represent a user or contact.
+@@@CircleAvatar@@@
+
+Username "Fang Zhou":
+This text component displays the username of the contact.
+@@@Text@@@
+
+Info icon:
+This icon button likely provides additional information when tapped.
+@@@IconButton@@@
+
+Blue paper plane icon with Chinese text:
+The icon along with the text suggests a button for performing an action, possibly sending or transferring money.
+@@@ListTile@@@
+
+Search bar with placeholder text:
+This component appears to be a search bar allowing the user to input and search for specific names, usernames, or contact details.
+@@@TextField@@@
+
+Suggested contacts header:
+This is a text widget that acts as a header for the suggested contacts section.
+@@@Text@@@
+
+Black and white circular icon:
+This is an alternative avatar icon representing a contact, likely used to visually distinguish different contacts.
+@@@CircleAvatar@@@
+
+Blue book icon with Chinese text:
+This icon with text seems to be a button intended to initialize or enable user contacts.
+@@@TextButton@@@
+
+Your contacts header:
+This is a text widget that acts as a header for the user's personal contact list.
+@@@Text@@@
+
+Back arrow icon:
+This is an icon button likely used to navigate back to the previous screen.
+@@@IconButton@@@
+
+Outlined square with four corners:
+This is an icon button likely used to resize or expand into a larger view.
+@@@IconButton@@@
+

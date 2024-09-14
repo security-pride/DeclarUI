@@ -1,0 +1,78 @@
+Component Keyword:
+Wi-Fi icon:
+This is an image component. It displays the Wi-Fi signal status.
+@@@Function Component@@@
+
+Component Keyword:
+"Anime" button:
+This is a button component. It allows the user to filter profiles or set interests related to the "Anime" tag.
+@@@TouchableOpacity Function Component@@@
+
+Component Keyword:
+Heart icon button:
+This is a button component. It allows users to like or favorite a profile.
+@@@TouchableOpacity Function Component@@@
+
+Component Keyword:
+Profile Header:
+This is a text component. It displays the user's name, age, interests, and status.
+@@@Text Functional Component@@@
+
+Component Keyword:
+X icon button:
+This is a button component. It allows users to dismiss or skip a profile.
+@@@TouchableOpacity Function Component@@@
+
+Component Keyword:
+"Potential Match!" label:
+This is a text component. It indicates that the user is a potential match for the viewer.
+@@@Text Functional Component@@@
+
+Component Keyword:
+Signal strength icon:
+This is an image component. It displays the network signal strength status.
+@@@Function Component@@@
+
+Component Keyword:
+"Start Conversation" button:
+This is a button component. It allows users to initiate a conversation with the displayed profile.
+@@@TouchableOpacity Function Component@@@
+
+Component Keyword:
+Battery icon:
+This is an image component. It displays the battery level or charging status.
+@@@Function Component@@@
+![Component 1](https://i.imgur.com/3yK537w.png)
+Back arrow icon:
+This is a Button component. It's used for navigation, most likely to navigate back to the previous screen.
+@@@Button@@@
+
+![Component 2](https://i.imgur.com/LIKHC2t.png)
+"Potential Match!" label:
+This is a Text Functional Component. It informs the user that the person in the picture is a potential match.
+@@@Text Functional Component@@@
+
+![Component 3](https://i.imgur.com/9Vq2jqt.png)
+Profile name and age ("Klee Gracia, 24"):
+This is a Text Functional Component. It displays the name and age of the user in the profile.
+@@@Text Functional Component@@@
+
+![Component 4](https://i.imgur.com/upID4ml.png)
+Interest tags ("Running", "Outdoor", "Anime"):
+These are Text Functional Components. They show the interests or hobbies of the user, allowing others to see common interests at a glance.
+@@@Text Functional Component@@@
+
+![Component 5](https://i.imgur.com/SQ9mYzu.png)
+Profile description ("Hi there! I'm Gracia ✨..."):
+This is a Text Functional Component. It gives a brief description of the user to provide more context about their personality or what they are looking for.
+@@@Text Functional Component@@@
+
+![Component 6](https://i.imgur.com/D4gOuZb.png)
+Three action buttons at the bottom (X, chat, heart icons):
+These are TouchableOpacity Function Components. They represent primary actions like rejecting a match, starting a conversation, or adding the person to favorites.
+@@@TouchableOpacity Function Component@@@
+
+![Component 7](https://i.imgur.com/HiQ8nT2.png)
+Background image:
+This is an ImageBackground component. It displays the profile picture of the user.
+@@@ImageBackground@@@

@@ -1,0 +1,122 @@
+1. "BELOUD" text:
+   This is a Text Functional Component. It likely serves as a label for one of the navigation tabs in the mobile app.
+   @@@Text Functional Component@@@
+
+2. "视频" text:
+   This is a Text Functional Component. It is used to label a tab, indicating that users can navigate to a section related to videos.
+   @@@Text Functional Component@@@
+
+3. "热门" text:
+   This is a Text Functional Component. It is used to label a section or tab for popular content that users can explore.
+   @@@Text Functional Component@@@
+
+4. Black Circle:
+   This is likely used as a StatusBar component, representing a dark status bar. It adheres to modern mobile app design.
+   @@@StatusBar Android and iOS Component@@@
+
+5. Weather Icon:
+   This is an Image component. It probably displays the current weather condition.
+   @@@Function Component@@@
+
+6. "新闻" text:
+   This is a Text Functional Component. It labels the news section, allowing users to navigate to or view news content.
+   @@@Text Functional Component@@@
+
+7. "8:35" Time text:
+   This is a Text Functional Component. It displays the current time to the user.
+   @@@Text Functional Component@@@
+
+8. Megaphone Icon:
+   This is an Image component. It likely represents a functionality related to announcements or notifications.
+   @@@Function Component@@@
+
+9. News Title banner:
+   This is a View Function Component. It serves as a container for the news title text and background styling.
+   @@@View Function Component@@@
+Mon, 15 M07 2024, 08:35:
+This is a Text component displaying the date and time information.
+@@@Text Functional Component@@@
+
+突发重大 label:
+This is a Text component. It indicates an important or breaking news category.
+@@@Text Functional Component@@@
+
+Speech bubble icon:
+This is a Button component. It's likely used for accessing comments or chat functionality.
+@@@Button@@@
+
+AD label:
+This is a Text component. It labels the content as an advertisement.
+@@@Text Functional Component@@@
+
+话题墙 label:
+This is a Text component. It represents a category or section label, likely indicating a discussion or forum section.
+@@@Text Functional Component@@@
+
+更多 label:
+This is a Text component. It means "More" and is used to indicate expandable or additional options.
+@@@Text Functional Component@@@
+
+突发新闻 label:
+This is a Text component. It indicates the app name or title, which translates to "Breaking News."
+@@@Text Functional Component@@@
+
+UDN.COM - 33分钟 label:
+This is a Text component. It displays the source and the time since the news was published ("33 minutes ago").
+@@@Text Functional Component@@@
+
+谷歌广告 label:
+This is a Text component. It indicates that the content is a Google advertisement.
+@@@Text Functional Component@@@
+选择您的城市 (Choose Your City) label:
+This is a Text component. It indicates that users can select their city, possibly altering the content based on the location.
+@@@Text Functional Component@@@
+
+突发新闻 (Breaking News) label:
+This is a Text component. It denotes a section or segment dedicated to breaking news, highlighting essential updates.
+@@@Text Functional Component@@@
+
+最新资讯 (Latest Information) label:
+This is a Text component. It indicates a section for the most recent information or updates, likely displaying the newest news articles or alerts.
+@@@Text Functional Component@@@
+
+评论 (Comment) icon:
+This is an Image component. It represents a functionality for users to comment on a particular article or post, engaging with the content.
+@@@Function Component@@@
+
+RSI C6 text:
+This is a Text component. It likely indicates a label or an identifier for a particular content segment, product, or advertisement.
+@@@Text Functional Component@@@
+
+发新闻 icon on blue background:
+This is an Image component. It might represent an action button or function related to posting news, likely to be interactive.
+@@@Function Component@@@
+
+User avatar placeholder:
+This is an Image component. It serves as a generic icon representing a user profile, likely used when the user has not set a personal avatar.
+@@@Function Component@@@
+
+RSI.c6 advanced composite technology: 
+This is an Image component. It seems to be a part of a banner or advertisement providing information about a product or service.
+@@@Function Component@@@
+
+同城 (Same City) label:
+This is a Text component. It denotes a section for content related to the user's local area or city.
+@@@Text Functional Component@@@
+Component Keyword:
+This is a Text component. It informs the user to select their city.
+@@@Text Functional Component@@@
+
+Component Keyword:
+This is an Image component. It's likely a button for the search functionality, allowing users to search within the app.
+@@@Function Component@@@
+
+Component Keyword:
+This is an Image component. It's likely a button to display a menu with more options.
+@@@Function Component@@@
+
+Component Keyword:
+This is a Text component. It indicates the selected tab/category, likely used to navigate through different categories like "Guess you like", "Hot", etc.
+@@@Text Functional Component@@@
+
+

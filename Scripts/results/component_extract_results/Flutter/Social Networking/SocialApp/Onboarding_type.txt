@@ -1,0 +1,27 @@
+Use Phone Number button:
+This button allows users to initiate the login process using their phone number.
+@@@ElevatedButton@@@
+
+Continue with Facebook button:
+This button allows users to log in using their Facebook account.
+@@@ElevatedButton@@@
+
+Time and network icons:
+These are icons displayed in the status bar showing the current time and network status.
+@@@Row with multiple Icon widgets@@@
+
+Continue with Apple button:
+This button allows users to log in using their Apple ID.
+@@@ElevatedButton@@@
+
+Logo and app name:
+This section represents the app's logo and name, likely using an image and text for branding on the splash or login screen.
+@@@Row with Image and Text widgets@@@
+
+Signal strength indicator:
+This is an icon that shows the cellular signal strength.
+@@@Icon@@@
+
+Section title and descriptive text:
+The text providing titles and short descriptions for the app's features or steps, helping users understand the functionality.
+@@@Column with multiple Text widgets@@@

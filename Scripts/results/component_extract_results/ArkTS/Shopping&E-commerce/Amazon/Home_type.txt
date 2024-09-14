@@ -1,0 +1,86 @@
+Sports & Outdoors icon:
+This is an icon typically used for the sports and outdoor section of a mobile app. It helps users quickly navigate to the related category.
+@@@arkTSIcon@@@
+
+Video text:
+This is a text button that likely allows users to navigate to a video section within the app.
+@@@arkTSText@@@
+
+Jewellery & Watches icon:
+This is an icon generally representing the jewellery and watches category, making it easier for users to find products related to that category.
+@@@arkTSIcon@@@
+
+Bags & Luggage icon:
+This component represents an icon and text label for the bags and luggage category. It helps users quickly identify and access related products.
+@@@arkTSIcon@@@
+
+Partial Books Icon:
+This is a partial view of an icon, likely representing the books category. It uses imagery to make navigation intuitive.
+@@@arkTSIcon@@@
+
+Recommended deal for you:
+This is a card component showcasing a recommended product deal, possibly customized based on user preferences.
+@@@arkTSCard@@@
+
+Automotive icon:
+This icon represents the automotive section, helping users quickly navigate to automotive products.
+@@@arkTSIcon@@@
+
+Shop Electronics today label:
+This component is a text label promoting electronics, likely indicating a section of the app where users can shop for electronic items.
+@@@arkTSText@@@
+
+Bottom navigation bar:
+This is a bottom navigation bar component, allowing users to easily navigate between different sections of the app such as home, user profile, cart, and more.
+@@@arkTSBottomBar@@@
+
+Component Keyword:
+This image shows an orange icon with partial visibility of a graphic.
+@@@arkTSIcon@@@
+
+Component Keyword:
+This icon represents the "Office" category, likely used as a button to navigate to office-related products.
+@@@arkTSButton@@@
+
+Component Keyword:
+This icon likely represents the "Automotive" category, used to navigate to automotive products.
+@@@arkTSButton@@@
+
+Component Keyword:
+This icon represents the "Jewellery & Watches" category, used to navigate to related items.
+@@@arkTSButton@@@
+
+Component Keyword:
+This text element indicates the "Music" section, likely used to filter content by music category.
+@@@arkTSText@@@
+
+Component Keyword:
+This icon probably represents the "Bags & Luggage" category, taking users to related products.
+@@@arkTSButton@@@
+
+Component Keyword:
+This component showcases a product deal, specifically a 4+ star rated air fryer.
+@@@arkTSCard@@@
+
+Component Keyword:
+This component displays another product deal, featuring a recommended air fryer.
+@@@arkTSCard@@@
+
+Component Keyword:
+This text element indicates the "Sports & Outdoors" category, used as a navigation or filter option.
+@@@arkTSText@@@
+Search bar:
+This appears to be a search input field that allows users to enter text for searching content within the app.
+@@@arkTSSearch@@@
+
+Delivery address:
+This displays the delivery address of the user, possibly for shipping purposes or location-based services.
+@@@arkTSText@@@
+
+Category icon (Printer):
+This is an icon representing a category, in this case, office supplies or printers.
+@@@arkTSIcon@@@
+
+Prime tab:
+This appears to be a text tab/button which users can tap to navigate to a section related to Amazon Prime services.
+@@@arkTSText@@@

@@ -1,0 +1,126 @@
+1. Component Keyword: Exchange rate value 1.30080
+   Component Function Description: This is a numerical display component that likely shows the current exchange rate for a currency pair.
+   @@@arkTSText@@@
+
+2. Component Keyword: Exchange rate value 0.67267
+   Component Function Description: This component displays a numerical value indicating the latest exchange rate for a specific currency pair.
+   @@@arkTSText@@@
+
+3. Component Keyword: Currency pair label GBPUSD
+   Component Function Description: This is a label that identifies the currency pair, useful for the user in reading exchange rates.
+   @@@arkTSText@@@
+
+4. Component Keyword: Simple button
+   Component Function Description: This is a button allowing users to switch to a simpler view or setting in the app interface.
+   @@@arkTSButton@@@
+
+5. Component Keyword: Currency exchange information USDCAD
+   Component Function Description: This component displays the currency pair and its associated exchange rates, helping users track changes.
+   @@@arkTSRow@@@
+
+6. Component Keyword: Exchange rate value 0.88489
+   Component Function Description: This is a text display showing the current exchange rate for a currency pair, keeping users updated.
+   @@@arkTSText@@@
+
+7. Component Keyword: Trade icon
+   Component Function Description: This icon represents the trade section of the app, allowing users to navigate to trading functions.
+   @@@arkTSIcon@@@
+
+8. Component Keyword: Chart text
+   Component Function Description: This text label likely represents a navigation link or section related to viewing charts.
+   @@@arkTSText@@@
+
+9. Component Keyword: Quotes icon and text
+   Component Function Description: This is a navigation component that likely allows users to view currency quotes within the app.
+   @@@arkTSButton@@@
+### Component 1
+
+Component Keyword:
+This is a numeric value often used to display bid or ask prices in a trading app. It shows the current rate for a currency pair.
+@@@arkTSText@@@
+
+### Component 2
+
+Component Keyword:
+This icon represents a "Trade" button, likely used to navigate to the trading section of the app.
+@@@arkTSButton@@@
+
+### Component 3
+
+Component Keyword:
+This displays a currency pair and their current bid and ask prices, providing quick access to trading information.
+@@@arkTSListItem@@@
+
+### Component 4
+
+Component Keyword:
+Similar to the previous component, this shows another currency pair along with its current bid and ask prices for quick trading information.
+@@@arkTSListItem@@@
+
+### Component 5
+
+Component Keyword:
+This icon represents a "Settings" button, which likely navigates the user to settings options within the app.
+@@@arkTSButton@@@
+
+### Component 6
+
+Component Keyword:
+This component is a label showing the currency pair code, providing quick identification of the trading pair.
+@@@arkTSText@@@
+
+### Component 7
+
+Component Keyword:
+This is an editable label or button that allows users to switch between simple and advanced views; the pencil might indicate an option to edit or customize.
+@@@arkTSToggle@@@
+
+### Component 8
+
+Component Keyword:
+This component displays the current bid and ask prices for a specific currency pair.
+@@@arkTSListItem@@@
+
+### Component 9
+
+Component Keyword:
+This is a label showing another currency pair code, which helps users identify the pair both quickly and efficiently.
+@@@arkTSText@@@
+AUDCAD:
+This is a text label displaying a currency pair, likely used in a financial or trading application to indicate the specific currencies being compared or traded.
+@@@arkTSText@@@
+
+0.92085:
+This is a numeric display, probably showing the exchange rate or price for the AUDCAD currency pair. The color might indicate a change status (e.g., positive or neutral).
+@@@arkTSText@@@
+
+1.30083:
+This is a numeric display of a currency rate or value, possibly indicating a change in value, where the color could represent trending status.
+@@@arkTSText@@@
+
+"+" Icon:
+This is an icon button, likely used to add a new item or perform an addition-related function in the app.
+@@@arkTSButton@@@
+
+Chart Icon:
+This icon represents a chart or graph, suggesting a navigation link to a section where users can view data visualizations or charts.
+@@@arkTSIcon@@@
+
+AUDUSD:
+This is a text label indicating another currency pair, used in a similar context to display information about this particular currency.
+@@@arkTSText@@@
+
+History Icon:
+This icon likely represents a history log or list, providing access to past data, transactions, or activities within the app.
+@@@arkTSIcon@@@
+
+NZDUSD and numbers:
+This displays another currency pair alongside its rate values, likely for comparing current and desired rates. The layout suggests a list format.
+@@@arkTSRow@@@
+
+Advanced:
+This is likely a navigation or toggle button allowing users to switch between modes or settings within the app.
+@@@arkTSToggle@@@
+Component Keyword:
+This is a numeric value indicating the price of a financial instrument, likely a currency pair, shown in blue to indicate a positive or neutral change.
+@@@arkTSText@@@

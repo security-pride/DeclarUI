@@ -1,0 +1,73 @@
+LIVE UPDATES:
+This is a Text Functional Component. It is used to highlight the section where live updates are provided.
+@@@Text Functional Component@@@
+
+U.S. Politics:
+This is a Text Functional Component. It is used as a navigation tab to allow users to access news related to U.S. politics.
+@@@Text Functional Component@@@
+
+Minute-by-minute: Visual timeline of the assassination attempt on Donald Trump:
+This is a Text Functional Component. It serves as the headline for the news article, providing key information at a glance.
+@@@Text Functional Component@@@
+
+Top News:
+This is a Text Functional Component. It is used as a navigation tab to allow users to access the top news section.
+@@@Text Functional Component@@@
+
+Battery Icon:
+This is a Function Component. It provides users with the current battery status of their mobile device.
+@@@Function Component@@@
+
+Home:
+This is a TouchableOpacity Function Component. It is part of the bottom navigation bar and allows users to return to the home page.
+@@@TouchableOpacity Function Component@@@
+
+Minute-by-minute: Visual timeline of the assassination attempt on Donald Trump:
+This is a Text Functional Component. It represents the repeated headline for the news article, emphasizing its importance.
+@@@Text Functional Component@@@
+
+Business:
+This is a Text Functional Component. It serves as a navigation tab to access business news.
+@@@Text Functional Component@@@
+
+Search Icon:
+This is a Button component. It provides a search functionality allowing users to find specific news articles.
+@@@Button@@@
+Image 1 (Image of Trump and flag):
+This is an Image component displaying a visual element, likely part of a news story.
+@@@Function Component@@@
+
+Image 2 (Image of Trump and flag):
+This is an Image component displaying a visual element, likely part of a news story.
+@@@Function Component@@@
+
+Image 3 ("ANALYSIS" and text):
+This is a Text component. It is likely used to display headlines and content for a news story or analysis.
+@@@Text Functional Component@@@
+
+Image 4 (Image of armed personnel):
+This is an Image component displaying a visual element, likely part of the content in the news story.
+@@@Function Component@@@
+
+Image 5 (Memory card icon):
+This is an Image component, which can potentially represent a save or storage option.
+@@@Function Component@@@
+
+Image 6 ("VIDEO" and text):
+This includes a Text component for the label and description of a video feature, possibly a headline and subtitle for a video that users can watch.
+@@@Text Functional Component@@@
+
+Image 7 (Biden condemns Trump shooting headline):
+This is a Text component. It is used to display news content or headlines.
+@@@Text Functional Component@@@
+
+Image 8 ("Your CNN" tab text):
+This is a Text component. It is likely used to label a navigation tab in the app.
+@@@Text Functional Component@@@
+
+Image 9 ("World" tab text):
+This is a Text component. It is likely used to label a navigation tab in the app.
+@@@Text Functional Component@@@
+BUTLER FARM SHOW GROUNDS label:
+This is a Text Functional Component. It likely serves to provide a label or description for an image or section in the app.
+@@@Text Functional Component@@@

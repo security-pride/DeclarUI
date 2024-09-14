@@ -1,0 +1,147 @@
+Camera icon (first component image):
+This is an Image component. It most likely helps to represent a feature or service visually.
+@@@Function Component@@@
+
+"文玩玉翠" (Wenwan Jade) label:
+This is a Text component. It labels or describes a feature related to jade products.
+@@@Text Functional Component@@@
+
+"推荐" (Recommendation) label:
+This is a Text component. It labels a section for recommended items or services.
+@@@Text Functional Component@@@
+
+Circular refresh icon (fourth component image):
+This is an Image component. It likely represents a feature related to refreshing or syncing data.
+@@@Function Component@@@
+
+"热门推荐" (Hot Recommendation) label:
+This is a Text component. It labels a section for popular recommended items or services.
+@@@Text Functional Component@@@
+
+Checkmark icon (sixth component image):
+This is an Image component. It likely indicates a feature related to verification or validation.
+@@@Function Component@@@
+
+Money bag icon (seventh component image):
+This is an Image component. It likely represents a financial or sales-related feature.
+@@@Function Component@@@
+
+Green icon with a heart (eighth component image):
+This is an Image component. It likely represents a feature related to free items or donations.
+@@@Function Component@@@
+
+Bear face icon (ninth component image):
+This is an Image component. It likely represents a feature related to toy boxes.
+@@@Function Component@@@
+卖闲置 icon:
+This is a Function Component. It likely represents a feature allowing users to sell their unused items.
+@@@Function Component@@@
+
+旧衣回收 icon:
+This is a Function Component. It likely represents a feature allowing users to recycle their old clothes.
+@@@Function Component@@@
+
+奢侈品 icon:
+This is a Function Component. It likely represents a feature for buying or selling luxury goods.
+@@@Function Component@@@
+
+卡券回收 icon:
+This is a Function Component. It likely represents a feature for recycling or managing coupons and vouchers.
+@@@Function Component@@@
+
+优惠券码 label:
+This is a Text Functional Component. It is a label that describes the coupon code feature in the app.
+@@@Text Functional Component@@@
+
+免费鉴定 icon:
+This is a Function Component. It likely represents a feature for free authentication or verification of items.
+@@@Function Component@@@
+
+运动户外 label:
+This is a Text Functional Component. It is a label that categorizes items or features related to outdoor sports.
+@@@Text Functional Component@@@
+
+服饰鞋帽 label:
+This is a Text Functional Component. It is a label that categorizes items or features related to clothing and accessories.
+@@@Text Functional Component@@@
+
+文玩珠宝 icon:
+This is a Function Component. It likely represents a feature related to jewelry and collectible items.
+@@@Function Component@@@
+
+二手车 icon:
+This is a Function Component. It likely represents a feature for buying or selling used cars.
+@@@Function Component@@@
+家居生活 (Home Life) text:
+This is a Text component. It likely acts as a label for a category or a section within the app.
+@@@Text Functional Component@@@
+
+母婴 (Mother & Baby) text:
+This is a Text component. It provides a label for a section related to mother and baby products or services.
+@@@Text Functional Component@@@
+
+闲鱼游戏 (Idle Fish Games) icon:
+This is a Function Component. It represents a clickable button that directs users to the "Idle Fish Games" section.
+@@@Function Component@@@
+
+奢侈品帮卖 (Luxury Goods Help Sale) icon:
+This is a Function Component. It serves as a button that takes users to the section where they can get assistance in selling luxury items.
+@@@Function Component@@@
+
+家用电器 (Home Appliances) text:
+This is a Text component. It serves as a label for a section of the app related to home appliances.
+@@@Text Functional Component@@@
+
+图书回收 (Book Recycling) icon:
+This is a Function Component. It is likely a button that navigates users to the book recycling section.
+@@@Function Component@@@
+
+美容彩妆 (Beauty & Makeup) text:
+This is a Text component. It labels a section dedicated to beauty and makeup products or services.
+@@@Text Functional Component@@@
+
+明星玩家 (Celebrity Players) icon:
+This is a Function Component. It represents a clickable button that directs users to a section involving celebrity players.
+@@@Function Component@@@
+
+卡券 (Coupon) icon:
+This is a Function Component. It appears to be a button that navigates users to the coupon section.
+@@@Function Component@@@
+扫描文件:
+This is a Text component. It's a label that describes the 模玩动漫 section in the app, indicating that users can explore content related to toy models and animations.
+@@@Text Functional Component@@@
+
+企业:
+This is a Text component. It's a label that describes the 企业 section in the app, allowing users to explore business-related content.
+@@@Text Functional Component@@@
+
+搜索栏:
+This is a TextInput component. It's a search bar allowing users to input text for searching within the app.
+@@@TextInput@@@
+
+闲鱼租房:
+This is an Image component. It represents the icon for the 闲鱼租房 feature, possibly facilitating the rental of apartments or properties.
+@@@Function Component@@@
+
+游戏装备:
+This is a Text component. It's a label that describes the 游戏装备 section in the app, allowing users to explore gaming gear and equipment.
+@@@Text Functional Component@@@
+
+数码:
+This is a Text component. It's a label that describes the 数码 section in the app, where users can explore digital and electronics-related products.
+@@@Text Functional Component@@@
+
+拍摄图标:
+This is a Button component. It likely serves as a camera button, allowing users to take photos or videos for uploading within the app.
+@@@Button@@@
+
+兑换图标:
+This is a Button component. It likely represents a feature that allows users to exchange or redeem items, probably in a trading or marketplace section of the app.
+@@@Button@@@
+
+宠物花卉:
+This is a Text component. It's a label that describes the 宠物花卉 section in the app, allowing users to explore content related to pets and flowers.
+@@@Text Functional Component@@@
+省心卖 icon:
+This is a Button component. It's part of the app's menu, allowing users to access a feature likely related to effortless or worry-free selling.
+@@@Button@@@

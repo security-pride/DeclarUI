@@ -1,0 +1,143 @@
+Component Keyword:
+This is a text label indicating that users can opt to receive alerts for tasks.
+@@@Text@@@
+
+---
+
+Component Keyword:
+This text widget serves as the title of the page, indicating that the user is adding a new task.
+@@@Text@@@
+
+---
+
+Component Keyword:
+This button likely allows users to categorize a task as important.
+@@@ElevatedButton@@@
+
+---
+
+Component Keyword:
+This icon represents the network signal strength found in the status bar area.
+@@@Icon@@@
+
+---
+
+Component Keyword:
+This button likely allows users to categorize a task as personal.
+@@@OutlinedButton@@@
+
+---
+
+Component Keyword:
+This is an avatar displaying a user's profile picture, possibly used within a circle or rounded shape.
+@@@CircleAvatar@@@
+
+---
+
+Component Keyword:
+This text widget is a prompt for the user to choose a date and time.
+@@@Text@@@
+
+---
+
+Component Keyword:
+This widget displays a selected time interval for an event or task.
+@@@TextField@@@
+
+---
+
+Component Keyword:
+A calendar widget that allows users to select dates, with navigation arrows for changing months.
+@@@TableCalendar@@@ (or similar custom)
+
+
+Component Keyword: Date label
+Component Function Description: This is a widget likely displaying the selected date for a task.
+@@@Text@@@
+
+Component Keyword: Time display
+Component Function Description: This widget probably displays the current time on the device.
+@@@Text@@@
+
+Component Keyword: Wi-Fi icon
+Component Function Description: This is an icon that indicates the Wi-Fi connectivity status.
+@@@Icon@@@
+
+Component Keyword: Section title "Task title"
+Component Function Description: This is a text widget indicating a section for inputting the task title.
+@@@Text@@@
+
+Component Keyword: User input field (Website redesign)
+Component Function Description: This is a field where users can enter the title of the task.
+@@@TextField@@@
+
+Component Keyword: Done button
+Component Function Description: This is a button users tap to confirm or complete an action, in this case, creating a task.
+@@@ElevatedButton@@@
+
+Component Keyword: Switch (On)
+Component Function Description: This is a switch that users can toggle on or off to enable or disable alerts for the task.
+@@@Switch@@@
+
+Component Keyword: Section title "Task type"
+Component Function Description: This is a text widget indicating a section for selecting the type of the task.
+@@@Text@@@
+
+Component Keyword: Container box
+Component Function Description: This likely serves as a container for other widgets, providing structural layout.
+@@@Container@@@
+Add New Task label:
+This text label indicates the screen’s main purpose, which is to add a new task.
+@@@Text@@@
+
+Calendar component:
+This component allows the user to select a date, with the current date highlighted.
+@@@TableCalendar@@@
+
+Task title label:
+This text label is used to indicate the input field where the user can enter the task title.
+@@@Text@@@
+
+Task title input field:
+This input field allows the user to type in the title of the task.
+@@@TextField@@@
+
+Task type label:
+This text label indicates the section where the user can choose the type of task.
+@@@Text@@@
+
+Important button:
+This button lets the user mark the task as important.
+@@@ElevatedButton@@@
+
+Personal button:
+This button allows the user to mark the task as personal.
+@@@OutlinedButton@@@
+
+Choose date & time label:
+This text label indicates the section where the user can choose the date and time for the task.
+@@@Text@@@
+
+Date input field:
+This input field allows the user to input or select a date for the task.
+@@@TextField@@@
+
+Time input field:
+This input field allows the user to input or select a time range for the task.
+@@@TextField@@@
+
+Get alarm for this task label:
+This text label indicates the switch for setting an alarm for the task.
+@@@Text@@@
+
+Alarm switch:
+This switch allows the user to enable or disable the alarm for the task.
+@@@Switch@@@
+
+Done button:
+This button allows the user to save and complete the task creation process.
+@@@ElevatedButton@@@
+
+User profile image (excluding blurred face):
+This image represents the user's profile picture.
+@@@CircleAvatar@@@

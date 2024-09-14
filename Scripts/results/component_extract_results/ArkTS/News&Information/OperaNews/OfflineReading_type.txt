@@ -1,0 +1,50 @@
+Download button:
+This is a button that likely initiates a download action when pressed.
+@@@arkTSButton@@@
+
+Download icon:
+This is an icon that indicates a download action, typically used to visually represent download functionality.
+@@@arkTSIcon@@@
+
+Offline reading section title:
+This text label indicates a section related to offline reading in the app.
+@@@arkTSText@@@
+
+Me tab icon:
+This is an icon and label representing the "Me" tab, which probably navigates to a user's profile or account section.
+@@@arkTSTabBar@@@
+
+Black circle:
+This is likely a placeholder for a user profile picture or an image that could serve various purposes depending on context.
+@@@arkTSImage@@@
+
+Illustration with text:
+This image with text appears to be an illustration with a description encouraging users to download the latest news.
+@@@arkTSImage@@@
+
+Battery icon:
+This is an icon that represents the battery status of the device.
+@@@arkTSIcon@@@
+
+Home tab icon:
+This icon and label represent the "Home" tab, likely used to navigate to the main screen of the app.
+@@@arkTSTabBar@@@
+
+Trash icon:
+This icon is typically used to represent the deletion of an item, likely used for a delete action.
+@@@arkTSIcon@@@
+Back arrow and title:
+This component includes a back arrow and a heading, indicating navigation functionality for moving back to the previous screen and displaying the current section title.
+@@@arkTSToolBar@@@
+
+Switch and label:
+This component depicts a label indicating an option and a corresponding toggle switch for enabling or disabling the setting.
+@@@arkTSSwitch@@@
+
+Time display:
+This component shows the current time, typically found in a status bar.
+@@@arkTSText@@@
+
+Download articles button:
+This component shows a text button prompting users to perform an action, in this case, to download articles.
+@@@arkTSButton@@@

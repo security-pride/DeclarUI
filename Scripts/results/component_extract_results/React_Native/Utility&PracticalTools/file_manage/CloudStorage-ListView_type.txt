@@ -1,0 +1,149 @@
+Cloud icon with "Cloud" label:
+This is a button component, specifically a "TouchableOpacity Function Component." It's part of the bottom navigation and is used to navigate to the Cloud storage section.
+@@@TouchableOpacity Function Component@@@
+
+Plus icon:
+This is a button component, specifically a "TouchableOpacity Function Component." It is likely used to add a new item or perform a similar action.
+@@@TouchableOpacity Function Component@@@
+
+Files icon with "Files" label:
+This is a button component, specifically a "TouchableOpacity Function Component." It's part of the bottom navigation and is used to navigate to the Files section.
+@@@TouchableOpacity Function Component@@@
+
+Orange cloud icon:
+This is an icon and likely part of a button component. This icon is used to visually represent cloud storage.
+@@@TouchableOpacity Function Component@@@
+
+Clean icon with "Clean" label:
+This is a button component, specifically a "TouchableOpacity Function Component." It's part of the bottom navigation and is used to navigate to the Clean section.
+@@@TouchableOpacity Function Component@@@
+
+Dropbox text:
+This is a text component that labels the Dropbox service in the list of cloud storage options.
+@@@Text Functional Component@@@
+
+Home icon with "Home" label:
+This is a button component, specifically a "TouchableOpacity Function Component." It's part of the bottom navigation and is used to navigate to the Home section.
+@@@TouchableOpacity Function Component@@@
+
+Time text (9:41):
+This is a text component that displays the current time in the status bar of the mobile device.
+@@@Text Functional Component@@@
+
+Nirwna - OneDrive text:
+This is a text component that labels the OneDrive service in the list of cloud storage options.
+@@@Text Functional Component@@@
+ Cloud Storage:
+    This is a Text component. It serves as the header for the app screen, indicating that this section relates to cloud storage information.
+    @@@Text Functional Component@@@
+    
+    Dropbox logo:
+    This is an Image component. It displays the logo of Dropbox, indicating an entry for Dropbox cloud storage.
+    @@@Function Component@@@
+    
+    2 items 1.2 Gb:
+    This is a Text component. It provides details about the number of items and the amount of storage used in the Dropbox entry.
+    @@@Text Functional Component@@@
+    
+    Kangxpukul@gmail.com:
+    This is a Text component. It represents the email associated with a cloud storage account, likely for Google Drive.
+    @@@Text Functional Component@@@
+    
+    Google Drive logo:
+    This is an Image component. It displays the Google Drive logo, indicating an entry for Google Drive cloud storage.
+    @@@Function Component@@@
+    
+    4 items 13.5 Gb:
+    This is a Text component. It provides details about the number of items and the amount of storage used in the Google Drive entry.
+    @@@Text Functional Component@@@
+    
+    OneDrive logo:
+    This is an Image component. It displays the OneDrive logo, indicating entries for OneDrive cloud storage.
+    @@@Function Component@@@
+    
+    Nirwna - OneDrive:
+    This is a Text component. It represents the name and service for a OneDrive account.
+    @@@Text Functional Component@@@
+    
+    5 items 184.3 Gb:
+    This is a Text component. It provides details about the number of items and the amount of storage used in the OneDrive entry for Nirwna.
+    @@@Text Functional Component@@@
+    
+    PIDT - OneDrive:
+    This is a Text component. It represents the name and service for another OneDrive account.
+    @@@Text Functional Component@@@
+    
+    7 items 131.1 Gb:
+    This is a Text component. It provides details about the number of items and the amount of storage used in the OneDrive entry for PIDT.
+    @@@Text Functional Component@@@
+    
+    A-Z:
+    This is a Text component. It represents a sorting option for the list items, likely allowing the user to sort cloud storage entries alphabetically.
+    @@@Text Functional Component@@@
+    
+    Grid view icon:
+    This is a Button component, likely with a Pressable or Touchable component. It allows users to switch the view of their cloud storage entries to a grid format.
+    @@@Pressable@@@
+    
+    Add icon:
+    This is a Button component, likely with a Pressable or Touchable component. It allows users to add a new cloud storage entry.
+    @@@Pressable@@@
+Cloud Storage title text:
+This is a Text Functional Component. It's likely a header text to inform users about the current screen or section of the app.
+@@@Text Functional Component@@@
+
+A-Z with the icon dropdown:
+This is a Text Functional Component with an icon indicating sorting options. The text represents the current sort method, and the icon suggests that users can tap it to change the sorting order.
+@@@Text Functional Component@@@
+
+Dropbox logo and text:
+This is likely a combination of an Image and a Text Functional Component. The image is the logo, and next to it is a piece of text describing the service and usage statistics.
+@@@Function Component@@@
+
+Kangxpukul@gmail.com and Gmail logo:
+This is likely a combination of an Image and a Text Functional Component. The image is the Gmail logo, and the text represents the user’s email and related storage details.
+@@@Function Component@@@
+
+Nirwna - OneDrive and OneDrive logo:
+This is likely a combination of an Image and a Text Functional Component. The image is the OneDrive logo, and the text represents the account details and usage statistics.
+@@@Function Component@@@
+
+PIDT - OneDrive and OneDrive logo:
+This is likely a combination of an Image and a Text Functional Component. The image is the OneDrive logo, and the text represents the account details and usage statistics.
+@@@Function Component@@@
+
+Home icon:
+This is a TouchableOpacity Function Component. It's an interactive button that likely navigates to the Home screen.
+@@@TouchableOpacity Function Component@@@
+
+Files icon:
+This is a TouchableOpacity Function Component. It's an interactive button that likely navigates to the Files section.
+@@@TouchableOpacity Function Component@@@
+
+Cloud icon:
+This is a TouchableOpacity Function Component. It's an interactive button, currently active, that navigates to the Cloud section.
+@@@TouchableOpacity Function Component@@@
+
+Clean icon:
+This is a TouchableOpacity Function Component. It's an interactive button that likely navigates to the Clean section.
+@@@TouchableOpacity Function Component@@@
+
+Grid icon:
+This is a TouchableOpacity Function Component. It's an interactive button that switches the view layout between list and grid formats.
+@@@TouchableOpacity Function Component@@@
+
+Three dots (ellipsis) icon:
+This is a TouchableOpacity Function Component. It's an interactive button that opens additional options or settings for each cloud storage account.
+@@@TouchableOpacity Function Component@@@
+
+Plus icon:
+This is a TouchableOpacity Function Component. It's an interactive button that likely opens a UI to add new cloud storage accounts.
+@@@TouchableOpacity Function Component@@@
+
+Cloud icon images in the list:
+These are Image components representing the respective cloud storage services.
+@@@Function Component@@@
+
+StatusBar at the top:
+This is a StatusBar Android and iOS Component. It displays system-level information like battery life, signal strength, and time.
+@@@StatusBar Android and iOS Component@@@

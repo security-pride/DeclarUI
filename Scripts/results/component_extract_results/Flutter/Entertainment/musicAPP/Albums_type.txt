@@ -1,0 +1,124 @@
+Backward button:
+This is an icon that likely serves as a button to skip to the previous song or track.
+@@@IconButton@@@
+
+Search icon:
+This is an icon that likely initiates a search feature within the app.
+@@@IconButton@@@
+
+Profile image:
+This is an image that likely represents the user's profile picture or a specific artist/album in the app.
+@@@CircleAvatar@@@
+
+Album Cover (Maroon 5):
+This is an image widget displaying the album cover for a Maroon 5 album.
+@@@Image@@@
+
+Label (10 Songs):
+This is a text widget indicating the number of songs available in the album.
+@@@Text@@@
+
+Album Cover (Michael Jackson - Thriller):
+This is an image widget displaying the album cover for Michael Jackson's "Thriller" album.
+@@@Image@@@
+
+Highlighted Tab (Albums):
+This is a text widget indicating the currently selected tab, namely "Albums."
+@@@Text@@@
+
+Album Cover (Highlighted):
+This is a highlighted image widget used to display the selected album cover, likely with some visual indication such as a border or shadow.
+@@@Image@@@
+
+Forward button:
+This is an icon that likely serves as a button to skip to the next song or track.
+@@@IconButton@@@
+Genre:
+This is a text widget representing the 'Genre' tab or filter.
+@@@Text@@@
+
+Songs icon:
+This icon represents the 'Songs' tab in the BottomNavigationBar.
+@@@Icon@@@
+
+Artists:
+This is a text widget representing the 'Artists' category.
+@@@Text@@@
+
+Image of the artist:
+This is an image widget showing the artist's album cover.
+@@@Image@@@
+
+Home:
+This is a text widget representing the 'Home' tab in the BottomNavigationBar.
+@@@Text@@@
+
+09:41:
+This is a text widget representing the current system time displayed on the status bar.
+@@@Text@@@
+
+Artist in grayscale:
+This is an image widget showing the album cover of an artist.
+@@@Image@@@
+
+WiFi icon:
+This is an icon representing the Wi-Fi status in the status bar.
+@@@Icon@@@
+All Songs:
+This is a text widget representing a tab label for navigating to a specific category of songs.
+@@@Text@@@
+
+Maroon 5 Album Cover:
+This is an image widget displaying the album cover of a music album by Maroon 5.
+@@@Image@@@
+
+Michael Jackson History Album Cover:
+This is an image widget displaying the album cover of the "History" music album by Michael Jackson.
+@@@Image@@@
+
+10 Songs:
+This is a text widget showing the number of songs available in an album.
+@@@Text@@@
+
+Queen II Album Cover:
+This is an image widget displaying the album cover of the "Queen II" music album.
+@@@Image@@@
+
+Signal Strength Icon:
+This is an icon widget showing the signal strength indicator.
+@@@Icon@@@
+
+Beyonce Image:
+This is an image widget displaying a portrait photograph of Beyonce.
+@@@Image@@@
+
+Battery Level Icon:
+This is an icon widget displaying the battery level indicator.
+@@@Icon@@@
+
+Songs:
+This is a text widget displaying the current active tab or section name.
+@@@Text@@@
+Settings label:
+This is a text widget representing a button or tab that navigates to the settings page of the app.
+@@@Text@@@
+
+Album cover image (Michael Jackson - History):
+This component is likely an image widget displaying the album cover within a music library or album view.
+@@@Image@@@
+
+Artist image:
+This is an image widget that showcases the artist's album cover or portrait in a music library.
+@@@Image@@@
+
+I Am... text label:
+This is a text widget displaying the album or song title for easy identification within a list or grid view.
+@@@Text@@@
+
+Playlists label:
+This is a text widget serving as a navigation tab to view user-created or premade playlists.
+@@@Text@@@
+
+Album/Artist partial image:
+This is an image widget that depicts a part of an album cover or artist image.
+@@@Image@@@

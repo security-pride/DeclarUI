@@ -1,0 +1,116 @@
+Icon with suspended weights on a background:
+This is an Image function component displaying an icon related to graphics design, potentially symbolizing design tools or elements for the course.
+@@@Function Component@@@
+
+Icon with a roll or printing related image:
+This is an Image function component representing an icon associated with UI/UX design, possibly indicating a design tool or methodology.
+@@@Function Component@@@
+
+Right arrow:
+This is likely a Button component providing navigation functionality. It enables users to proceed to another screen or page, possibly to see all available items in a list.
+@@@Button@@@
+
+Profile picture:
+This is an Image function component displaying a user profile picture or avatar.
+@@@Function Component@@@
+
+Course card with text and icons:
+This is a View Function Component consisting of an image, several text components, and possibly a button for interacting with the course information.
+@@@View Function Component@@@
+
+Square with rounded corners and additional icons:
+This is an Image function component providing an icon representing some action or feature within the app.
+@@@Function Component@@@
+
+Spinning camera shutter icon:
+This is an Image function component representing an icon related to media or camera functionality.
+@@@Function Component@@@
+
+Welcome back header section with user details:
+This is a combination of several components including a View Function Component to hold the structure, an Image component for the profile picture, and multiple Text components for the user's name and welcome message.
+@@@View Function Component@@@
+
+"See all" text:
+This is a Text Functional Component likely within a button, prompting users to view all items in a category.
+@@@Text Functional Component@@@
+UI/UX design icon:
+This is an Image component used to visually represent a category, in this case, likely the UI/UX design category.
+@@@Function Component@@@
+
+Welcome Back, Nicolas Doflamingo!:
+This is a Text component that greets the returning user and displays their name.
+@@@Text Functional Component@@@
+
+Wi-Fi icon:
+This is an Image component used to display the device's Wi-Fi status.
+@@@Function Component@@@
+
+Bell icon with 9+ notification:
+This is an Image component that, combined with a badge, indicates the notification feature with the badge likely representing the number of unread notifications.
+@@@Function Component@@@
+
+User profile picture:
+This is an Image component displaying the user's profile picture.
+@@@Function Component@@@
+
+Signal strength icon:
+This is an Image component showing the cellular signal strength.
+@@@Function Component@@@
+
+Home icon:
+This is a Button component used in the navigation bar to navigate to the home screen.
+@@@Button@@@
+
+Time display (9:41):
+This is a Text component showing the current time.
+@@@Text Functional Component@@@
+
+Book icon:
+This is a Button component used in the navigation bar, likely to navigate to a reading or library section.
+@@@Button@@@
+Emoji icon (🤘):
+This is a Text Functional Component. It is likely a part of a welcome message, used to make the greeting more engaging and friendly.
+@@@Text Functional Component@@@
+
+Nicola Tesla's name label:
+This is a Text Functional Component. It shows the name of the course instructor or mentor in a specific section of the app.
+@@@Text Functional Component@@@
+
+Sessions 7/15 and progress circle icon:
+This is a Text Functional Component. It provides information about the user's progress in the course, indicating the number of sessions completed out of the total.
+@@@Text Functional Component@@@
+
+See all label:
+This is a Text Functional Component. It is used as a link or button to navigate to view all items in a list, such as all courses or mentors.
+@@@Text Functional Component@@@
+
+Shield-like icon:
+This is an Image Function Component. It's likely used as part of a course illustration or icon design, conveying a specific meaning or concept related to the course.
+@@@Function Component@@@
+
+4.9 (1,435 Reviews) text:
+This is a Text Functional Component. It shows the rating and number of reviews for a particular course or mentor.
+@@@Text Functional Component@@@
+
+UI/UX Design label and icon:
+This is an Image Function Component. It represents the category of the course and is used as a visual aid to understand the topic at a glance.
+@@@Function Component@@@
+
+Blue emoji icon (🤘):
+This is a Text Functional Component. It's used within a welcome or status message to make the interface more friendly and engaging.
+@@@Text Functional Component@@@
+
+Brown, green, and yellow tabs:
+This is a View Function Component. It likely represents different course categories or statuses, visually differentiating between sections.
+@@@View Function Component@@@
+
+Blue emoji icon (🤘):
+This is a Text Functional Component. It's used within a welcome or status message to make the interface more friendly and engaging.
+@@@Text Functional Component@@@
+
+Dwi Gunawan's name label:
+This is a Text Functional Component. It shows the name of the course instructor or mentor in a specific section of the app.
+@@@Text Functional Component@@@
+Nicola Tesla profile section:
+This is a View Function Component displaying user profile information such as profile picture, name, rating, and review count.
+@@@View Function Component@@@

@@ -1,0 +1,63 @@
+1. 
+
+Component Keyword:
+This card displays the information related to a connected OneDrive account, including the account name, number of items, used storage, and a visual representation of storage usage with a progress bar.
+@@@arkTSCard@@@
+
+2. 
+
+Component Keyword:
+This is a text label displaying the title 'Cloud Storage'. It likely acts as a header for the cloud storage section of the app.
+@@@arkTSText@@@
+
+3. 
+
+Component Keyword:
+This card displays the information related to a connected Dropbox account, including the account name, number of items, used storage, and a visual representation of storage usage with a progress bar.
+@@@arkTSCard@@@
+
+4. 
+
+Component Keyword:
+This element indicates a tab icon named 'Files.' It is likely part of a tab bar for navigating different sections of the mobile app.
+@@@arkTSTabItem@@@
+
+5. 
+
+Component Keyword:
+This element indicates a tab icon named 'Clean.' It is likely part of a tab bar for navigating different sections of the mobile app.
+@@@arkTSTabItem@@@
+
+6. 
+
+Component Keyword:
+This card displays the information related to a connected Dropbox account, including the account name, number of items, used storage, and a visual representation of storage usage with a progress bar.
+@@@arkTSCard@@@
+
+7. 
+
+Component Keyword:
+This element indicates a tab icon named 'Cloud.' It is likely part of a tab bar for navigating different sections of the mobile app.
+@@@arkTSTabItem@@@
+
+8. 
+
+Component Keyword:
+This card displays the information related to a connected OneDrive account, including the account name, number of items, used storage, and a visual representation of storage usage with a progress bar.
+@@@arkTSCard@@@
+Email account listing:
+This represents a specific cloud storage account with associated items and storage size.
+@@@arkTSItem@@@
+
+Wi-Fi icon:
+This is a status icon that displays the current network connection status to the user.
+@@@arkTSIcon@@@
+
+Time display:
+This is a text label displaying the current time on the device.
+@@@arkTSText@@@
+
+Home button:
+This icon and label serve as a navigation component to redirect the user to the home screen of the app.
+@@@arkTSButton@@@
+

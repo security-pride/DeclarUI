@@ -1,0 +1,200 @@
+2 button:
+This is a button displaying the number "2", which is likely part of the calculator's numeric keypad.
+@@@ElevatedButton@@@
+
++ button:
+This is a button with a plus sign, which is used for addition operations in the calculator.
+@@@ElevatedButton@@@
+
+x button:
+This is a button with a multiplication sign, used for multiplying numbers in the calculator.
+@@@ElevatedButton@@@
+
+8 button:
+This is a button displaying the number "8", which is likely part of the calculator's numeric keypad.
+@@@ElevatedButton@@@
+
+. button:
+This is a button with a period sign, likely used to enter decimal points in numbers.
+@@@ElevatedButton@@@
+
+% button:
+This is a button with a percentage sign, likely used to perform percentage calculations.
+@@@ElevatedButton@@@
+
+- button:
+This is a button with a minus sign, used for subtraction operations in the calculator.
+@@@ElevatedButton@@@
+
+= button:
+This is a button with an equals sign, used to calculate and display the result of the input expression.
+@@@ElevatedButton@@@
+
+C button:
+This is a button with the letter "C", likely used to clear the current input or reset the calculator.
+@@@ElevatedButton@@@
+
+
+4:
+This is a button that likely represents the digit "4" on a calculator.
+@@@TextButton@@@
+
+Switch to Dark:
+This appears to be a toggle switch, allowing users to switch between light and dark mode.
+@@@Switch@@@
+
+=:
+This is a button that probably functions as the equals operation in a calculator.
+@@@ElevatedButton@@@
+
+x:
+This is a button representing the multiplication operation on a calculator.
+@@@ElevatedButton@@@
+
+-:
+This is a button that signifies the subtraction operation on a calculator.
+@@@ElevatedButton@@@
+
++:
+This is a button that suggests the addition operation on a calculator.
+@@@ElevatedButton@@@
+
+Clear:
+This is a button that indicates a backspace or clear function to undo actions or clear input.
+@@@IconButton@@@
+
+6:
+This is a button that likely represents the digit "6" on a calculator.
+@@@TextButton@@@
+
+/:
+This is a button representing the division operation on a calculator.
+@@@ElevatedButton@@@
+3:
+A button typically used to input the number 3 in the calculator app.
+@@@TextButton@@@
+
+3:
+A button typically used to input the number 3 in the calculator app.
+@@@TextButton@@@
+
+7:
+A button typically used to input the number 7 in the calculator app.
+@@@TextButton@@@
+
+6:
+A button typically used to input the number 6 in the calculator app.
+@@@TextButton@@@
+
+5:
+A button typically used to input the number 5 in the calculator app.
+@@@TextButton@@@
+
+Clock icon:
+An icon that could be used to access recent calculations or history.
+@@@IconButton@@@
+
+1:
+A button typically used to input the number 1 in the calculator app.
+@@@TextButton@@@
+
+Clear icon:
+A button that might be used to clear the current entry or all entries.
+@@@IconButton@@@
+
+Number display:
+A display area to show the current calculation or result.
+@@@Container@@@
+
+
+1. **Plus/Minus Button:**
+   This button allows the user to change the sign of a number between positive and negative.
+   @@@TextButton@@@
+
+2. **Parentheses Button:**
+   This button is used to add parentheses around expressions, commonly in calculator applications.
+   @@@TextButton@@@
+
+3. **Switch to Dark Toggle:**
+   This toggle switch likely allows users to switch between dark and light themes in the app.
+   @@@Switch@@@
+
+4. **Zero Button:**
+   A button that inputs the digit "0" when pressed.
+   @@@TextButton@@@
+
+5. **Expression Display (45 × 24):**
+   This text widget displays the current mathematical expression or equation being inputted.
+   @@@Text@@@
+
+6. **Nine Button:**
+   A button that inputs the digit "9" when pressed.
+   @@@TextButton@@@
+
+7. **Two Button:**
+   A button that inputs the digit "2" when pressed.
+   @@@TextButton@@@
+
+8. **Decimal Point Button:**
+   This button is used to input a decimal point for fractional numbers in calculations.
+   @@@TextButton@@@
+7 button:
+This button allows users to input the number 7 in the calculator.
+@@@TextButton@@@
+
++/- button:
+This button lets users toggle the sign of the current number between positive and negative.
+@@@TextButton@@@
+
+8 button:
+This button allows users to input the number 8 in the calculator.
+@@@TextButton@@@
+
+9 button:
+This button allows users to input the number 9 in the calculator.
+@@@TextButton@@@
+
+Calculation result display:
+Displays the result or the current calculation being performed by the user.
+@@@Text@@@
+
+4 button:
+This button allows users to input the number 4 in the calculator.
+@@@TextButton@@@
+
+5 button:
+This button allows users to input the number 5 in the calculator.
+@@@TextButton@@@
+
+1 button:
+This button allows users to input the number 1 in the calculator.
+@@@TextButton@@@
+
+Expand icon:
+This is an icon that could be used to maximize or expand the calculator interface.
+@@@IconButton@@@
+Sure, here's the output:
+
+/ button:
+This is likely a button used to perform division operations in a calculator app.
+@@@ElevatedButton@@@
+
+C button:
+This button is typically used to clear the current input or reset the calculator screen.
+@@@ElevatedButton@@@
+
+"Switch to Dark" label:
+This text specifies the function of the switch, likely indicating a toggle for dark mode.
+@@@Text@@@
+
+Clock icon:
+This icon may represent a history or recent activity feature in the app.
+@@@IconButton@@@
+
+% button:
+This button likely allows the user to perform percentage calculations.
+@@@ElevatedButton@@@
+
+0 button:
+This button is used to input the number zero into the calculator.
+@@@ElevatedButton@@@

@@ -1,0 +1,133 @@
+1. Kanye West text:
+This is a text label, possibly showing the name of an artist or song from a list.
+@@@arkTSText@@@
+
+2. Image with many small images:
+This is likely an image thumbnail for a song or album cover.
+@@@arkTSImage@@@
+
+3. Orange Shazam logo:
+This is likely an icon or button for initiating a music recognition function.
+@@@arkTSIcon@@@
+
+4. Red and yellow album cover:
+This is an image thumbnail for an album or song cover.
+@@@arkTSImage@@@
+
+5. Golden hand in black background:
+This is an image thumbnail for an album or song cover.
+@@@arkTSImage@@@
+
+6. Time display (9:41 AM):
+This appears to be a text label showing the current time.
+@@@arkTSText@@@
+
+7. All Mine text:
+This is a text label, likely indicating the name of the currently playing song.
+@@@arkTSText@@@
+
+8. Headphones and magnifying glass icons:
+These are icons for different functionalities, possibly for navigation within the app.
+@@@arkTSIcon@@@
+
+9. Search that song! bar:
+This is a search input field allowing users to enter text to search for songs.
+@@@arkTSSearch@@@
+Search bar:
+This appears to be a search input field that allows users to enter text for searching content within the app.
+@@@arkTSSearch@@@
+
+User profile icon:
+This is likely an icon for user profile that may allow users to access their account details.
+@@@arkTSIcon@@@
+
+Song title and artist name label:
+These are text labels showing the title of a song and the name of the artist.
+@@@arkTSText@@@
+
+Song title and artist name label:
+These are text labels showing the title of a song and the name of the artist.
+@@@arkTSText@@@
+
+Song thumbnail:
+This is a small image representing the cover art for a song.
+@@@arkTSImage@@@
+
+Song title and artist name label:
+These are text labels showing the title of a song and the name of the artist.
+@@@arkTSText@@@
+
+Song thumbnail:
+This is a small image representing the cover art for a song.
+@@@arkTSImage@@@
+
+Section header:
+This is a text label that indicates the section of the app, such as "Recents" for the list of recently played songs.
+@@@arkTSText@@@
+
+Song title and artist name label:
+These are text labels showing the title of a song and the name of the artist.
+@@@arkTSText@@@
+
+Album cover art:
+This is an image representing the cover art for an album.
+@@@arkTSImage@@@
+
+Search bar:
+This appears to be a search input field that allows users to enter text for searching content within the app.
+@@@arkTSSearch@@@
+
+"Girls Like You (feat Cardi B)" label:
+This is a text label that displays the title and artist of a song. 
+@@@arkTSText@@@
+
+Album cover image:
+This is an image component likely used to display the album cover or artwork for a song.
+@@@arkTSImage@@@
+
+"Kimberly Evans" label:
+This is a text label that displays the title and artist of a song.
+@@@arkTSText@@@
+
+Another album cover image:
+This is an image component likely used to display the album cover or artwork for a song.
+@@@arkTSImage@@@
+
+Volume bar handle:
+This is a draggable handle likely part of a volume or progress bar, allowing users to adjust the volume or skip to a desired part of the song.
+@@@arkTSSlider@@@
+
+"Youngblood" label:
+This is a text label that displays a song title.
+@@@arkTSText@@@
+
+Stacked album covers:
+These are image components likely showing multiple album covers, possibly indicating multiple items in a playlist.
+@@@arkTSImage@@@
+
+"Nice For What" label:
+This is a text label that displays the title and artist of a song, with an "X" icon likely for removal.
+@@@arkTSText@@@
+
+Play icon button:
+This is an icon representing a "play" button, allowing users to start playback.
+@@@arkTSIconButton@@@
+Wi-Fi icon:
+Indicates the status of the Wi-Fi connection on the mobile device.
+@@@arkTSIcon@@@
+
+Album Art for "Nice For What":
+A visual representation of the album or song being displayed.
+@@@arkTSImage@@@
+
+Album Art for "Girls Like You":
+A visual representation of the album or song being displayed.
+@@@arkTSImage@@@
+
+Shazam logo:
+A recognizably branded icon for the Shazam application.
+@@@arkTSImage@@@
+
+Song Title and Artists for "I Like It":
+Displays the title of the song and the names of the artists performing the song.
+@@@arkTSText@@@

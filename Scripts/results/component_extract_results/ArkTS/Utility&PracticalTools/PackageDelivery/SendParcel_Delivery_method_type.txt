@@ -1,0 +1,81 @@
+Name label:
+This is a text label that indicates an input field for entering the user's name.
+@@@arkTSText@@@
+
+Empty input field:
+This is an input field where users can type their information, such as a name or address.
+@@@arkTSTextInput@@@
+
+Address label:
+This is a text label that indicates an input field for entering the user's address.
+@@@arkTSText@@@
+
+Phone number label:
+This is a text label that indicates an input field for entering the user's phone number.
+@@@arkTSText@@@
+
+Send parcel icon and label:
+This component is likely a navigation or action button that allows users to proceed with sending a parcel.
+@@@arkTSIconButton@@@
+
+Time display:
+This is a display component for showing the current time on the top of the app interface.
+@@@arkTSText@@@
+
+Recipient info label:
+This is a text label indicating a section in the form where recipient information is required.
+@@@arkTSText@@@
+
+Email input field with text:
+This is an input field containing pre-entered text, likely an email that can be edited by the user.
+@@@arkTSTextInput@@@
+
+Active navigation indicator:
+This is likely a visual indicator for the active page or button in the navigation bar.
+@@@arkTSIndicator@@@
+Component Keyword:
+This is a navigation tab icon labeled 'Parcel center,' likely used to navigate to the Parcel center section of the app.
+@@@arkTSTabIcon@@@
+
+Component Keyword:
+This is an input field used for entering recipient information such as name, email, phone number, or address.
+@@@arkTSTextInput@@@
+
+Component Keyword:
+This is a navigation tab icon labeled 'My parcels,' likely used to navigate to the My parcels section of the app.
+@@@arkTSTabIcon@@@
+
+Component Keyword:
+This is a text label displaying the heading "Send parcel," indicating the screen's main functionality of sending a parcel.
+@@@arkTSText@@@
+
+Component Keyword:
+This is a bottom navigation bar, likely used for navigating through different sections of the app such as My parcels, Send parcel, and Parcel center.
+@@@arkTSBottomTabBar@@@
+
+Component Keyword:
+This is a status bar showing signal strength, battery percentage, and other important status information.
+@@@arkTSStatusBar@@@
+
+Component Keyword:
+This is a card component showing a delivery method option from door to parcel center with the estimated delivery time.
+@@@arkTSCard@@@
+
+Component Keyword:
+This is a section title text displaying "Delivery method," indicating the following sections are related to selecting a delivery method.
+@@@arkTSText@@@
+
+Component Keyword:
+This is a text input field displaying a recipient's name as "James May."
+@@@arkTSTextInput@@@
+Component Keyword:
+This section seems to be an option for selecting a delivery method with a visual representation, description and estimated delivery time.
+@@@arkTSListItem@@@
+
+Component Function Description:
+This icon represents a common signal indicator symbol, typically for Wi-Fi.
+@@@arkTSIcon@@@
+
+Component Function Description:
+This is a label that indicates the field for entering an email address.
+@@@arkTSText@@@

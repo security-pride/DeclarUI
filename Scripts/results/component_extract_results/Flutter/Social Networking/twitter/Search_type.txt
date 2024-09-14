@@ -1,0 +1,226 @@
+Search box:
+A text input field likely used for searching content within the app. The search icon and hint text suggest a search functionality.
+@@@TextField@@@
+
+Cancel button:
+A button that allows users to cancel the search operation or clear the search field.
+@@@TextButton@@@
+
+Recent searches label:
+A text widget that labels the section showing users' recent search history.
+@@@Text@@@
+
+Profile image:
+A circular image widget displaying the user's profile picture.
+@@@CircleAvatar@@@
+
+"Sab Khasa..." text:
+A text widget displaying the user's name or username.
+@@@Text@@@
+
+"@s_khasan..." text:
+A text widget displaying the user's Twitter handle or username.
+@@@Text@@@
+
+Figma logo:
+An image widget displaying the logo of the app or service, Figma in this case.
+@@@Image@@@
+
+Verified badge:
+An icon widget displaying a verification badge, usually indicating a verified account.
+@@@Icon@@@
+
+Keyboard:
+A text input field with an associated onscreen keyboard for entering text.
+@@@TextField@@@
+
+Microphone icon:
+An icon button likely used to activate voice search or voice input functionality.
+@@@IconButton@@@
+
+Figma label (@figmadesign):
+A text widget displaying the handle or name associated with the Figma logo.
+@@@Text@@@
+
+Divider line between search bar and recent searches:
+A thin line separating different sections of the app interface.
+@@@Divider@@@
+
+Search icon in text field:
+An icon displayed within the text field suggesting search functionality.
+@@@Icon@@@
+
+Clear search icon (X):
+An icon button used to clear the text entered in the search field.
+@@@IconButton@@@
+
+"skhasanov" - Searched text:
+A text widget displaying the recent search input by the user.
+@@@Text@@@
+
+Clock icon for recent search:
+An icon indicating this is a previous search item.
+@@@Icon@@@
+
+Each component is matched accurately with its possible Flutter widget type and functionality described accordingly.
+Sab Khasa profile image:
+This image appears to be a user's profile picture, likely displayed within a list or grid of recent searches.
+@@@CircleAvatar@@@
+
+Search Twitter bar:
+This is a search bar where users can type queries to search within the app.
+@@@TextField@@@
+
+Space bar:
+This is a button on the keyboard allowing users to insert a space character.
+@@@TextButton@@@
+
+R key:
+This is a key on the keyboard that allows users to enter the letter "R".
+@@@TextButton@@@
+
+W key:
+This is a key on the keyboard that allows users to enter the letter "W".
+@@@TextButton@@@
+
+Puzzle piece icon:
+This is likely an icon representing a certain functionality or status within the app.
+@@@Icon@@@
+
+Sab Khasa text:
+This is the username or other identifier text displayed under the user's profile image.
+@@@Text@@@
+
+L key:
+This is a key on the keyboard that allows users to enter the letter "L".
+@@@TextButton@@@
+
+S key:
+This is a key on the keyboard that allows users to enter the letter "S".
+@@@TextButton@@@
+
+Cancel button:
+This is a text element that likely functions as a button to cancel or exit the search operation.
+@@@TextButton@@@
+
+Keyboard key "D":
+This is an on-screen keyboard key representing the letter "D", likely used for text input.
+@@@Container@@@
+
+Keyboard key "K":
+This is an on-screen keyboard key representing the letter "K", likely used for text input.
+@@@Container@@@
+
+Smiley emoji key:
+This is a button with an emoji, likely used to insert emojis into the text field.
+@@@IconButton@@@
+
+123 button:
+This is a button on the keyboard used to switch to numeric input.
+@@@TextButton@@@
+
+Keyboard key "G":
+This is an on-screen keyboard key representing the letter "G", likely used for text input.
+@@@Container@@@
+
+Keyboard key "N":
+This is an on-screen keyboard key representing the letter "N", likely used for text input.
+@@@Container@@@
+
+Keyboard key "U":
+This is an on-screen keyboard key representing the letter "U", likely used for text input.
+@@@Container@@@
+
+Keyboard key "X":
+This is an on-screen keyboard key representing the letter "X", likely used for text input.
+@@@Container@@@
+1. Magnifying glass icon:
+This appears to be an icon used to initiate a search when clicked.
+@@@Icon@@@
+
+2. "Cancel" label:
+This label is likely a clickable text that cancels the search or clears the search input.
+@@@TextButton@@@
+
+3. Profile picture:
+This is likely an image widget displaying the profile picture.
+@@@CircleAvatar@@@
+
+4. Username and handle ("Sab Khasa. @s_khasan"):
+This text widget displays the user's name and their Twitter handle.
+@@@Column@@@
+
+5. Microphone icon:
+This icon likely represents a button used to initiate a voice search.
+@@@IconButton@@@
+
+6. "Figma @figmadesi":
+This text displays the name and handle of a user or service.
+@@@Column@@@
+
+7. Black horizontal line:
+This horizontal line likely serves as a divider.
+@@@Divider@@@
+
+8. Text input field ("skhasanov"):
+This is a text input field where users can type their search queries.
+@@@TextField@@@
+
+M key:
+This is a text widget representing the "M" key on the keyboard.
+@@@Text@@@
+
+Backspace key:
+This is an icon button for deleting text.
+@@@IconButton@@@
+
+P key:
+This is a text widget representing the "P" key on the keyboard.
+@@@Text@@@
+
+Profile picture:
+This is an image widget displaying a user's profile picture.
+@@@CircleAvatar@@@
+
+J key:
+This is a text widget representing the "J" key on the keyboard.
+@@@Text@@@
+
+Left-up arrow icon:
+This is an icon typically used to navigate or perform an action.
+@@@Icon@@@
+
+Go button:
+This is a button that initiates search or submits input.
+@@@TextButton@@@
+
+Y key:
+This is a text widget representing the "Y" key on the keyboard.
+@@@Text@@@
+
+B key:
+This is a text widget representing the "B" key on the keyboard.
+@@@Text@@@
+Tibitha P. profile image:
+This component displays a user's profile picture alongside their name and handle, likely used in a list of recent searches.
+@@@ListTile@@@
+
+Letter "T" on white square:
+This resembles an icon, possibly used as an avatar for users without a profile picture or as a placeholder.
+@@@CircleAvatar@@@
+
+"Figma @figmadesi" with check mark:
+This element displays a username and handle with a verification badge, indicating an official account.
+@@@RichText@@@
+
+Signal strength icon:
+This appears to represent a network signal strength indicator, typically found in the status bar.
+@@@Icon@@@
+
+Arrow up icon on white background:
+This icon likely functions as a button, perhaps to indicate sending or submitting an input.
+@@@IconButton@@@
+
+Time "9:41":
+This is a text widget showing the system time, commonly displayed in the app's header or status bar.
+@@@Text@@@

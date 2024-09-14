@@ -1,0 +1,90 @@
+8 Sided icon:
+This is a Button component. It likely allows users to select an 8-sided shape as part of the shape selection process.
+@@@Button@@@
+
+Rectangle icon:
+This is a Button component. It likely allows users to select a rectangular shape as part of the shape selection process.
+@@@Button@@@
+
+6 Sided icon:
+This is a Button component. It likely allows users to select a 6-sided shape as part of the shape selection process.
+@@@Button@@@
+
+5 Sided icon:
+This is a Button component. It likely allows users to select a 5-sided shape as part of the shape selection process.
+@@@Button@@@
+
+Round icon:
+This is a Button component. It likely allows users to select a round shape as part of the shape selection process.
+@@@Button@@@
+
+3 Sided icon:
+This is a Button component. It likely allows users to select a 3-sided shape as part of the shape selection process.
+@@@Button@@@
+
+Diamond icon:
+This is a Button component. It likely allows users to select a diamond shape as part of the shape selection process.
+@@@Button@@@
+
+7 Sided label:
+This is a Text Functional Component. It describes the selection of a 7-sided shape.
+@@@Text Functional Component@@@
+
+Round label:
+This is a Text Functional Component. It describes the selection of a round shape.
+@@@Text Functional Component@@@
+
+Shape label:
+This is a Text component indicating the shape selection tab.
+@@@Text Functional Component@@@
+
+Oblong shape selection:
+This is a combination of an image and a text. The image outlines the oblong shape, and the text underneath labels the shape option. Together, they allow users to select the oblong shape of their pill.
+@@@Function Component@@@
+
+Other shape selection with question mark:
+This is a combination of an image and a text. The image with a question mark signifies an unknown or other shape, and the text underneath supports user selection of other unlisted shapes.
+@@@Function Component@@@
+
+Tab underline/indicator:
+This is likely a View component representing the selected tab underline or indicator to mark the active tab as "Shape".
+@@@View Function Component@@@
+
+Clear button:
+This is a Button component likely allowing users to clear their shape selection or search input.
+@@@Button@@@
+
+Square label:
+This is a Text component labeling the square shape option.
+@@@Text Functional Component@@@
+
+Square shape selection:
+This is a combination of an image and a text. The image outlines the square shape, and the text underneath labels the shape option. Together, they enable user selection of the square shape.
+@@@Function Component@@@
+
+7 Sided label:
+This is a Text component labeling the 7-sided shape option.
+@@@Text Functional Component@@@
+
+Instructional Text:
+This is a Text component providing instructions to the users to select the shape that matches their pill.
+@@@Text Functional Component@@@
+Component Keyword: Color label
+Component Function Description: This is a Text Functional Component. It is a tab label allowing users to switch to the color selection view.
+@@@Text Functional Component@@@
+
+Component Keyword: Oblong shape icon
+Component Function Description: This is an Image Function Component. It represents one of the options for the shape of a pill.
+@@@Function Component@@@
+
+Component Keyword: Search bar
+Component Function Description: This is a TextInput component. It allows users to input text to search for a pill by its text or imprint.
+@@@TextInput@@@
+
+Component Keyword: View Results button
+Component Function Description: This is a Button component. It allows users to view the search results based on the selected pill shape.
+@@@Button@@@
+
+Component Keyword: Rectangle label
+Component Function Description: This is a Text Functional Component. It describes the shape represented by the adjacent icon.
+@@@Text Functional Component@@@

@@ -1,0 +1,118 @@
+Exam button:
+This is a Button component. It allows the user to select the "Exam" category for the task they are adding.
+@@@Button@@@
+
+Topic/Chapter Name input field:
+This is a TextInput component. It serves as an input field for the user to enter the topic or chapter name.
+@@@TextInput@@@
+
+Calendar icon:
+This is a Function Component likely used as an icon to represent calendar date selection.
+@@@Function Component@@@
+
+Profile picture:
+This is a Function Component used to display the profile picture of the user.
+@@@Function Component@@@
+
+Date text:
+This is a Text Functional Component. It displays the selected date for the task.
+@@@Text Functional Component@@@
+
+Lab button:
+This is a Button component. It allows the user to select the "Lab" category for the task they are adding.
+@@@Button@@@
+
+Exam button (duplicate):
+This is a Button component. It allows the user to select the "Exam" category for the task they are adding.
+@@@Button@@@
+
+Add a task label:
+This is a Text Functional Component. It serves as the main heading for the add task screen.
+@@@Text Functional Component@@@
+
+Category label:
+This is a Text Functional Component. It describes the section for category selection.
+@@@Text Functional Component@@@
+
+Biology label:
+This is a Text Functional Component. It displays the subject or category of the task, which is "Biology" in this case.
+@@@Text Functional Component@@@
+
+Presentation button:
+This is a TouchableOpacity Function Component. It represents a button allowing the user to categorize the task as a "Presentation".
+@@@TouchableOpacity Function Component@@@
+
+Class category:
+This is a TouchableOpacity Function Component. The button allows the user to categorize the task as a "Class".
+@@@TouchableOpacity Function Component@@@
+
+Assignment button:
+This is a TouchableOpacity Function Component. It allows the user to categorize the task as an "Assignment".
+@@@TouchableOpacity Function Component@@@
+
+Clock icon:
+This is an Image component. It is associated with the time selection for the task.
+@@@Function Component@@@
+
+Lab button:
+This is a TouchableOpacity Function Component. It categorizes the task as a "Lab".
+@@@TouchableOpacity Function Component@@@
+
+Add Task button:
+This is a Button component. This button allows the user to add a new task to the list.
+@@@Button@@@
+
+Hello Liana greeting:
+This is a Text Functional Component. It displays a personalized greeting to the user.
+@@@Text Functional Component@@@
+
+Class button:
+This is a TouchableOpacity Function Component. It is a category button to classify a task as a "Class".
+@@@TouchableOpacity Function Component@@@
+Category Label:
+This is a Text Functional Component. It indicates the category label section for task classification.
+@@@Text Functional Component@@@
+
+Button Components (Class, Exam, Lab, Assignment, Presentation):
+These are Button components. They represent different categories of tasks that users can select.
+@@@Button@@@
+
+"Hello Liana" Text:
+This is a Text Functional Component. It greets the user and displays their name.
+@@@Text Functional Component@@@
+
+"Add a task" Text:
+This is a Text Functional Component. It indicates the main action the user can perform on this screen.
+@@@Text Functional Component@@@
+
+"Add Task" Button:
+This is a Button component. It allows users to add a new task once all the details are filled.
+@@@Button@@@
+
+"Biology" Text:
+This is a Text Functional Component. It represents the task title or subject.
+@@@Text Functional Component@@@
+
+"Topic / Chapter Name" Input:
+This is a TextInput component. It allows users to input the specific chapter or topic name.
+@@@TextInput@@@
+
+Date Picker Section (Calendar Icon & Date):
+This is a Text Functional Component; the calendar icon is likely an Image component. It represents the date picker functionality for the task due date.
+@@@Text Functional Component@@@
+
+Time Picker Section (Clock Icon & Time):
+This is a Text Functional Component; the clock icon is likely an Image component. It represents the time picker functionality for the task due time.
+@@@Text Functional Component@@@
+
+Bottom Navigation Bar:
+These are Button components embedded in the bottom navigation bar; each Button represents different navigation actions (Home, Tasks, Classroom, Chat).
+@@@Button@@@
+
+Tasks Icon in Bottom Navigation:
+This is an Image component. It represents the tasks section icon in the bottom navigation bar.
+@@@Function Component@@@
+
+'09:30 AM' Text:
+This is a Text Functional Component. It indicates the time related to the task.
+@@@Text Functional Component@@@

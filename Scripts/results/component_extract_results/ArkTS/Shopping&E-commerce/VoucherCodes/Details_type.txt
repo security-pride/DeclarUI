@@ -1,0 +1,75 @@
+Component Keyword:
+Voucher Details
+This is a text area displaying the details of a promotional offer, likely used for marketing or advertisement.
+@@@arkTSText@@@
+
+Component Keyword:
+VIP Retailer Info
+This section provides information about VIP retailer benefits in a notification-like style.
+@@@arkTSCard@@@
+
+Component Keyword:
+Terms and Conditions
+A text block indicating legal or informational terms related to the app’s offerings.
+@@@arkTSText@@@
+
+Component Keyword:
+VIP Retailer Benefits
+This card provides details about VIP benefits for users shopping at specific retailers.
+@@@arkTSCard@@@
+
+Component Keyword:
+Logo Image
+This is a graphical component representing the brand or company’s logo.
+@@@arkTSImage@@@
+
+Component Keyword:
+Navigation Menu
+This is a footer navigation menu allowing the user to switch between different sections of the app.
+@@@arkTSBottomNavigation@@@
+
+Component Keyword:
+Sign In Button
+A call-to-action button prompting users to sign in, likely taking them to an authentication page.
+@@@arkTSButton@@@
+
+Component Keyword:
+Reward Description
+A text label offering online reward details, possibly promoting incentives for user actions.
+@@@arkTSText@@@
+
+Component Keyword:
+Navigation Icons
+A set of icons in the navigation menu offering quick access to different app sections.
+@@@arkTSBottomNavigation@@@
+Ends 20 Jul:
+This is a text label that indicates the expiration date of an offer or promotion.
+@@@arkTSText@@@
+
+Back arrow:
+This is an icon button, likely used for navigation to return to the previous screen.
+@@@arkTSButton@@@
+
+Logo (MOBILES.CO.UK):
+This image likely represents the logo of the brand or company for the app.
+@@@arkTSImage@@@
+
+Description of Offer:
+This is a text block describing an offer or promotion available in the app.
+@@@arkTSText@@@
+
+Section Header (Terms and Conditions):
+This text likely represents a header for a particular section, in this case, "Terms and Conditions".
+@@@arkTSText@@@
+
+VIP retailer badge:
+This image displays a badge indicating a VIP status or special offer.
+@@@arkTSImage@@@
+
+Sign In to Get Reward button:
+This is a button that users can tap to sign in and claim a reward.
+@@@arkTSButton@@@
+
+Bottom navigation bar:
+This is a navigation bar with multiple icons representing different sections of the app.
+@@@arkTSBottomNavigation@@@

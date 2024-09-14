@@ -1,0 +1,197 @@
+Korea travel card:
+This component likely represents a clickable card displaying a destination with an image and text. It could be used to navigate to more information about travel to Korea.
+@@@Card@@@
+
+Location with text:
+This component combines an icon with text indicating a starting point for a journey. It may contain interaction to select or change locations.
+@@@Row@@@
+
+标签 text:
+The text "免签落地签:" translates to "Visa-free on arrival:" and likely serves as a label or prompt for a section about visa-free destinations.
+@@@Text@@@
+
+City travel card:
+This appears to be a card component that shows a city (Yantai) with related images and text, possibly offering navigation to detailed travel information about the city.
+@@@Card@@@
+
+Text snippet:
+The text snippet "巴厘" is part of a label or title, possibly indicating a "Bali" travel section.
+@@@Text@@@
+
+Indoor travel tab:
+This text component, "国内游," translates to "Domestic Travel," and likely serves as a navigation tab label in a tabbed interface.
+@@@TabBar@@@
+
+周边游 text snippet:
+This text, "周边游," translates to "Surrounding Tours," and likely indicates a section for nearby tours or activities.
+@@@Text@@@
+
+Section header with more button:
+This component includes a section header "国内游" (Domestic Travel) with an accompanying "更多" (More) button to navigate to more content.
+@@@Row@@@
+
+Charter tour icon with text:
+The component includes an icon of a car and a person, along with the text "包车游" (Charter Tour). It likely represents an option for charter tours.
+@@@Column@@@
+More options arrow:
+This component likely acts as a button to show more options or details in a list or menu.
+@@@TextButton@@@
+
+Planet icon with "目的地" (Destination) label:
+This represents a destination icon, possibly functioning as a button to navigate to a destination selection screen.
+@@@Column@@@
+
+"定制旅行" (Custom Travel) icon with label:
+It likely functions as a selectable option for custom travel plans.
+@@@Column@@@
+
+"私家团" (Private Group) icon with label:
+This component is likely a selectable option for private group travel packages.
+@@@Column@@@
+
+Image of Weihai:
+This is likely an image component, acting as a clickable element to explore more about Weihai.
+@@@Image@@@
+
+"公司团建" (Company Team Building) label:
+This text component indicates a category or option for company team-building activities.
+@@@Text@@@
+
+Image of Thailand:
+This is likely an image component, acting as a clickable element to explore more about Thailand.
+@@@Image@@@
+
+"浏览历史" (Browsing History) label:
+This text component indicates a section where users can view their browsing history.
+@@@Text@@@
+
+Storefront icon with label:
+This is an icon with the text indicating nearby store information, possibly leading to more details about the store.
+@@@Row@@@
+Component Keyword:
+This is a text label indicating the category "出境游" (Outbound Travel) with a button labeled "更多" (More) suggesting additional content is available.
+@@@Row with Text and TextButton@@@
+
+Component Keyword:
+This shows a region with the text "山东" (Shandong) on an image, likely representing a destination or feature.
+@@@Stack with Image and Positioned Text@@@
+
+Component Keyword:
+This is a label with rounded edges displaying text "马尔代夫" (Maldives), used likely as a tag or chip.
+@@@Chip@@@
+
+Component Keyword:
+The illustration shows an icon with a label "目的地" (Destination), likely a navigation item or feature.
+@@@Column with Image and Text@@@
+
+Component Keyword:
+The icon and label "当地参团" (Join Local Tours) suggest a button offering tour services, displayed with an icon and text.
+@@@Column with Icon and Text@@@
+
+Component Keyword:
+This is another rounded label with the text "马来西亚" (Malaysia), again appearing as a tag or clickable item.
+@@@Chip@@@
+
+Component Keyword:
+This shows an area with an image of Japan (日本) and a location label "东京" (Tokyo), likely representing a selectable destination.
+@@@Stack with Image and Positioned Text@@@
+
+Component Keyword:
+This bar appears to be a search field with an input area and a search icon button on the right side.
+@@@Row with TextField and IconButton@@@
+
+Component Keyword:
+The text "最近距离您 3.5km" (Closest to you 3.5km) indicates nearby locations or features, possibly interactive with a navigation arrow.
+@@@Text with Inline IconButton@@@
+老友精选:
+This is a text widget that displays "老友精选" which translates to "Old Friends Selection".
+@@@Text@@@
+
+新疆 探访我的阿勒泰:
+This is a container with an image background and two text elements: the top text displays "新疆" (Xinjiang) and the bottom text displays "探访我的阿勒泰" (Visit My Altai).
+@@@Container@@@
+
+日本 东京:
+This is a container with an image background and two text elements: the top text displays "日本" (Japan) and the bottom text displays "东京" (Tokyo).
+@@@Container@@@
+
+高端游:
+This is a text widget that displays "高端游" which translates to "High-end Tour".
+@@@Text@@@
+
+跟团游 自由行:
+This is a column with two interactive container widgets; each container has an icon and text. The top container displays a flag icon and "跟团游" (Group Tour), while the bottom container displays a suitcase icon with a "暑期大促" (Summer Promotion) badge and "自由行" (Free Travel).
+@@@Column@@@
+
+威海:
+This is a container with an image background and a text element that displays "威海" (Weihai).
+@@@Container@@@
+
+一日游 门票·玩乐:
+This is a column with two text elements that describe categories. The top text displays "一日游" (One Day Tour) and the bottom text displays "门票·玩乐" (Tickets and Fun).
+@@@Column@@@
+
+Hi~:
+This appears to be an icon button with a chat icon and a "Hi~" text to indicate a messaging feature.
+@@@IconButton@@@
+
+山东:
+This is a container with an image background and a text element that displays "山东" (Shandong).
+@@@Container@@@
+
+
+"新加坡" label:
+This appears to be a text widget used to display the location "Singapore".
+@@@Text@@@
+
+Banner with text and image:
+This banner likely serves as an advertisement or a featured content section.
+@@@Container@@@
+
+"邮轮" Card:
+This is a vertical card displaying a cruise icon and text ("邮轮" means "cruise").
+@@@Card@@@
+
+"仙本那" Image Card:
+A card widget that displays an image of a destination named "Semporna".
+@@@Card@@@
+
+"泰国" Image Card:
+A card widget that displays an image of a destination named "Thailand".
+@@@Card@@@
+
+"亲子游" label:
+This is a text widget for indicating "Family Tours".
+@@@Text@@@
+
+"仙本那" Image Card (duplicate):
+A card widget that displays an image of a destination named "Semporna".
+@@@Card@@@
+
+"韩国首尔" Image Card:
+A card widget that displays an image of a destination named "Seoul, Korea".
+@@@Card@@@
+
+"附近有3家携程门店" label:
+This is a text widget displaying information about nearby stores.
+@@@Text@@@
+
+Component Keyword:
+This is a text widget that likely serves as a button or tab label for international travel.
+@@@Text@@@
+
+Component Keyword:
+This is a pill-shaped button likely used for selecting or filtering travel destinations by country, in this case, "Thailand".
+@@@TextButton@@@
+
+Component Keyword:
+This is an oval-shaped button or tab likely used to filter or navigate to a curated selection of items.
+@@@ElevatedButton@@@
+
+Component Keyword:
+This is a text widget representing a menu item or tab for "My Favorites", likely redirecting to a user's saved items or preferences.
+@@@Text@@@
+
+Component Keyword:
+This is a tab label or category heading indicating domestic travel options.
+@@@Text@@@

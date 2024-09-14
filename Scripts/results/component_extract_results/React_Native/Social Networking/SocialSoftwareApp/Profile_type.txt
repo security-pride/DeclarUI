@@ -1,0 +1,119 @@
+Mute icon:
+This is a Button. It's likely used to mute or unmute notification sounds for the chat or conversation.
+@@@Button@@@
+
+Back arrow:
+This is a TouchableOpacity Function Component. It is likely used to navigate to the previous screen or go back in the navigation stack.
+@@@TouchableOpacity Function Component@@@
+
+Divider line:
+This is a View Function Component. It serves as a visual separator between different sections or components in the app.
+@@@View Function Component@@@
+
+Audio icon:
+This is a Button. It is likely used to initiate a voice call or audio communication with the contact.
+@@@Button@@@
+
+Orange circle:
+This is an Image Function Component. It is likely used as an icon or indicator, potentially for recording or status indication.
+@@@Function Component@@@
+
+Like emoji:
+This is an Image Function Component. It represents the "Like" reaction or emoji that can be used to express approval or positive feedback.
+@@@Function Component@@@
+
+Profile icon:
+This is a Button. It is likely used to access or edit the user's profile information or settings.
+@@@Button@@@
+
+Profile picture:
+This is an Image Function Component. It displays the profile picture of the user or contact.
+@@@Function Component@@@
+
+"Create group" text:
+This is a Text Functional Component. It likely serves as a label or button text to create a new group chat or conversation.
+@@@Text Functional Component@@@
+
+Camera icon:
+This is a Video icon, likely functioning as a button allowing users to initiate a video call.
+@@@Image@@@
+
+Video text below the camera icon:
+This is a Text component. It is labeling the video call functionality of the associated button.
+@@@Text Functional Component@@@
+
+On text:
+This is a Text component. It indicates the status of the Notifications switch, showing that notifications are currently enabled.
+@@@Text Functional Component@@@
+
+Audio icon:
+This is an Audio icon, likely functioning as a button allowing users to make an audio call.
+@@@Image@@@
+
+Color and Emoji text:
+These are Text components. They label the functionalities of coloring conversations and sending emojis, respectively.
+@@@Text Functional Component@@@
+
+Profile icon:
+This is a Profile icon, likely functioning as a button allowing users to view or edit their profile.
+@@@Image@@@
+
+Ignore Messages text:
+This is a Text component. It labels the function that allows users to ignore messages from a particular conversation.
+@@@Text Functional Component@@@
+
+Ignore Messages icon:
+This is an Image component. Its function is to visually represent the ignore messages feature.
+@@@Image@@@
+
+Notifications text:
+This is a Text component. It labels the functionality related to notification settings.
+@@@Text Functional Component@@@
+
+Time (9:41):
+This is a Text component. It displays the current time in the status bar.
+@@@Text Functional Component@@@
+
+
+MORE ACTIONS label:
+This is a Text component. It's a label describing additional options and features available in the application.
+@@@Text Functional Component@@@
+
+Signal strength icon:
+This is an Image component. It likely indicates the signal strength or connectivity status.
+@@@Function Component@@@
+
+Profile picture:
+This is an ImageBackground component. It's used to display the user's profile picture in a circular, styled background.
+@@@ImageBackground@@@
+
+Battery icon:
+This is an Image component. It displays the battery status of the device.
+@@@Function Component@@@
+
+Search in Conversation label:
+This is a Text component. It's a label for the search functionality in the conversation list.
+@@@Text Functional Component@@@
+
+Create group icon:
+This is an Image component within a button. It represents the option to create a group conversation.
+@@@Function Component@@@
+
+Wi-Fi icon:
+This is an Image component. It indicates the Wi-Fi connection status.
+@@@Function Component@@@
+
+Search icon:
+This is an Image component within a button. It represents the search functionality.
+@@@Function Component@@@
+
+Bell icon:
+This is an Image component within a button. It likely represents the notification settings or mute options.
+@@@Function Component@@@
+Block text:
+This is a Text component. It displays the text "Block" likely indicating a functionality to block a user or contact.
+@@@Text Functional Component@@@
+
+PRIVACY text:
+This is a Text component. It displays the text "PRIVACY," indicating a section related to privacy settings or information.
+@@@Text Functional Component@@@

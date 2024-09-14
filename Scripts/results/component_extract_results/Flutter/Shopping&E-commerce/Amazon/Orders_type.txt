@@ -1,0 +1,66 @@
+Your Orders label:
+This is a text widget indicating the section of the app displaying the user's orders.
+@@@Text@@@
+
+Pot Noodles Image:
+This is an image widget displaying the picture of a product (Pot Noodles) for sale.
+@@@Image@@@
+
+AYhome Travel Pillow, Memory Foam Neck Pillow for Travel,... label:
+This is a text widget displaying the name and some description of a product available for sale.
+@@@Text@@@
+
+Right Arrow Icon:
+This is an icon widget, typically used to denote navigation to more details or the next screen.
+@@@Icon@@@
+
+Toyama Koshihikari 1kg label:
+This is a text widget displaying the name and description of a product available for sale.
+@@@Text@@@
+
+Bottom Navigation Bar:
+This is a bottom navigation widget providing access to various parts of the app, including the home, user profile, cart, and menu.
+@@@BottomNavigationBar@@@
+
+Side View of Rice Bag:
+This is an image widget showing a small part of a product for sale.
+@@@Image@@@
+
+Search Bar:
+This is a text field widget with additional action icons (search, scan, and voice input) embedded within it.
+@@@TextField@@@
+
+Filter Label:
+This is a text widget that acts as a label for a filter button.
+@@@Text@@@
+Past three months:
+This text widget displays a label indicating the time period for viewing orders.
+@@@Text@@@
+
+Search all orders:
+This is a text widget with an accompanying search icon to indicate a search functionality for orders.
+@@@Text@@@
+
+Image of gloves (GLOVEMAN box with gloves):
+This is an image widget displaying a product from the orders.
+@@@Image@@@
+
+SmithPackaging Large Bubble Wrap Roll 300mm x 5m - Sm...:
+This is a text widget showing the product title and delivery date in the orders list.
+@@@Text@@@
+
+Filter:
+This is a text button with an arrow icon to filter orders.
+@@@TextButton@@@
+
+Buy again:
+This is a text widget that labels a section where users can view and repurchase items.
+@@@Text@@@
+
+Your Orders:
+This is a text widget that acts as a header for the orders page.
+@@@Text@@@
+
+Image of Highland Spring water pack:
+This is an image widget displaying a product from the orders.
+@@@Image@@@

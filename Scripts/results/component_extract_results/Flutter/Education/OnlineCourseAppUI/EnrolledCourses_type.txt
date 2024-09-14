@@ -1,0 +1,87 @@
+Characters Animation course item:
+This component represents a list item in a course list, showing an icon, course title, number of lessons, and progress indicator. 
+@@@ListTile@@@
+
+Black bar (unknown purpose):
+This component appears to be a decorative or empty space within the app, possibly serving as a separator or spacer. 
+@@@Container@@@
+
+3D Design Basic course item:
+This component represents a list item in a course list, showing an icon, course title, number of lessons, and progress indicator. 
+@@@ListTile@@@
+
+My Enrolled Courses header:
+This component likely serves as a header for the enrolled courses section, containing both an icon and a text element.
+@@@Row@@@
+
+Game Design course item:
+This component represents a list item in a course list, showing an icon, course title, number of lessons, and progress indicator. 
+@@@ListTile@@@
+
+Medium filter tag:
+This appears to be a filter tag or chip, indicating a selection status with a label. 
+@@@Chip@@@
+
+Signal strength icon:
+A common indicator of signal strength, usually displayed as an icon in a row of increasing bars.
+@@@Icon@@@
+
+3D Abstract Design course item:
+This component represents a list item in a course list, showing an icon, course title, number of lessons, and progress indicator. 
+@@@ListTile@@@
+
+Enrolled Courses header text:
+This text indicates the title of the user's enrolled courses section.
+@@@Text@@@
+Certainly! Below is the analysis of each component image according to your instructions:
+
+---
+
+Component Keyword:
+Medium label button (outline)
+This is a text button with an outline style, possibly used for filtering or categorizing items under the "Medium" category.
+@@@OutlinedButton@@@
+
+---
+
+Component Keyword:
+Bottom navigation bar
+This is a bottom navigation bar with icons and labels, used for navigating between different sections of the app.
+@@@BottomNavigationBar@@@
+
+---
+
+Component Keyword:
+Status bar time
+This displays the current time, typically part of the status bar showing system status.
+@@@Text@@@
+
+---
+
+Component Keyword:
+Icon with "Medium" label
+This is a combination of an icon (perhaps representing courses) and a caption "Medium," suggesting an active filter or highlighted category.
+@@@Column containing an Icon and a Text@@@
+
+---
+
+Component Keyword:
+Course card for Product Design
+This represents a list item card featuring a course with a title, lesson count, and completion percentage. It is likely used to display course details in a structured list.
+@@@Card@@@
+
+---
+
+Component Keyword:
+Wi-Fi icon indicator
+This is a Wi-Fi signal icon, commonly used to indicate network connectivity status.
+@@@Icon@@@
+
+---
+
+Component Keyword:
+Battery indicator
+This displays the battery status and is typically part of the system status bar.
+@@@Icon@@@
+
+---

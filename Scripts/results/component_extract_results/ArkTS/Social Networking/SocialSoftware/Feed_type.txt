@@ -1,0 +1,102 @@
+1. Component Keyword:
+Social media post
+This component displays a user post, including an avatar, username, timestamp, and text content.
+@@@arkTSCard@@@
+
+2. Component Keyword:
+Repost icon
+This icon allows users to share or repost content from the app to their own profile or other platforms.
+@@@arkTSIconButton@@@
+
+3. Component Keyword:
+Navigation bar background
+This background serves as the base for navigation icons or tabs, providing a visual separator at the bottom of the app.
+@@@arkTSContainer@@@
+
+4. Component Keyword:
+User avatar
+This is a small, round image representing a user's profile picture, typically linked with user actions.
+@@@arkTSImage@@@
+
+5. Component Keyword:
+User avatar
+Similar to the previous avatar, this represents another user's profile picture for their post or interaction.
+@@@arkTSImage@@@
+
+6. Component Keyword:
+Like button
+This icon allows users to like or show appreciation for the content in the app.
+@@@arkTSIconButton@@@
+
+7. Component Keyword:
+Social media post
+This is another instance of a social media post component showing similar user interaction capabilities.
+@@@arkTSCard@@@
+
+8. Component Keyword:
+User profile with status
+This displays a user profile image with a status or availability indicator, typically used for stories or active statuses.
+@@@arkTSIcon@@@
+
+9. Component Keyword:
+User avatar
+This represents yet another instance of a user's profile picture.
+@@@arkTSImage@@@
+Component Keyword: Profile button
+Component Function Description: This component allows the user to access their profile or other related features.
+@@@arkTSButton@@@
+
+Component Keyword: Like button
+Component Function Description: This is a button that allows users to 'like' posts or content, indicating their appreciation.
+@@@arkTSButton@@@
+
+Component Keyword: Post header
+Component Function Description: This component displays the username, post time, and content/objective of the post.
+@@@arkTSContainer@@@
+
+Component Keyword: Status bar time
+Component Function Description: Displays the current time in the system status bar at the top of the screen.
+@@@arkTSText@@@
+
+Component Keyword: Image post
+Component Function Description: This displays an image that is part of a user's post.
+@@@arkTSImage@@@
+
+Component Keyword: Home button
+Component Function Description: This button redirects the user to the homepage or main feed of the application.
+@@@arkTSButton@@@
+
+Component Keyword: User avatar
+Component Function Description: This image represents the user's profile picture or avatar.
+@@@arkTSImage@@@
+
+Component Keyword: Comment button
+Component Function Description: This button allows the user to comment on a post.
+@@@arkTSButton@@@
+
+Component Keyword: Like button count
+Component Function Description: Displays the number of likes a particular post has received.
+@@@arkTSText@@@
+
+Component Keyword: Profile button (Duplicate)
+Component Function Description: This component allows the user to access their profile or other related features.
+@@@arkTSButton@@@
+1. Component: Profile Icon
+   Function Description: This icon is likely used as a button to access the user's profile or account settings.
+   @@@arkTSButton@@@
+
+2. Component: Edit Icon
+   Function Description: The pen-like icon probably functions as an edit button, allowing users to modify content.
+   @@@arkTSButton@@@
+
+3. Component: Message Icon
+   Function Description: This icon is expected to represent direct messaging features, enabling users to send messages.
+   @@@arkTSButton@@@
+
+4. Component: Comment Icon
+   Function Description: The icon is likely used to comment on posts, providing a way for users to interact with content.
+   @@@arkTSButton@@@
+
+5. Component: Activity Icon
+   Function Description: This icon presumably indicates user activity or notifications, offering updates on interactions within the app.
+   @@@arkTSButton@@@

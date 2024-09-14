@@ -1,0 +1,67 @@
+Your Orders title:
+This is a Text Functional Component, likely the heading or title of the screen indicating the user's order history.
+@@@Text Functional Component@@@
+
+Image of Pot Noodle:
+This is an Image Function Component, probably used to display the product image in the order history.
+@@@Function Component@@@
+
+Description of AYhome Travel Pillow:
+This is a Text Functional Component, providing the name and details of the ordered product.
+@@@Text Functional Component@@@
+
+Right arrow icon:
+This is a TouchableOpacity Function Component, possibly used for navigation to the order details screen.
+@@@TouchableOpacity Function Component@@@
+
+Description of Toyama Koshihikari 1kg:
+This is a Text Functional Component, providing the name and details of the ordered product.
+@@@Text Functional Component@@@
+
+Bottom navigation bar:
+This is a View Function Component, likely used as a container for the bottom navigation elements.
+@@@View Function Component@@@
+
+Image of rice bag:
+This is an Image Function Component, showing a part of the product image.
+@@@Function Component@@@
+
+Search bar:
+This is a View Function Component, containing the search functionality with search input and icons for extra functionalities.
+@@@View Function Component@@@
+
+Filter text:
+This is a Text Functional Component, acting as a label for the filter button.
+@@@Text Functional Component@@@
+
+Past three months label:
+This is a Text Functional Component. It serves as a label to indicate the category or filter applied to the list of orders visible in the application.
+@@@Text Functional Component@@@
+
+Search all orders search bar:
+This is a TextInput component with an icon. It allows users to enter text to search through their orders.
+@@@TextInput@@@
+
+Image of gloves pack:
+This Image is a part of the "Buy again" section to represent one of the recommended items for the user to purchase again.
+@@@Function Component@@@
+
+SmithPackaging Large Bubble Wrap Roll label:
+This label is a Text Functional Component showing the details of the delivered product.
+@@@Text Functional Component@@@
+
+Filter button:
+This is a TouchableOpacity button component. It allows the user to apply filters to their order list.
+@@@TouchableOpacity Function Component@@@
+
+Buy again label:
+This is a Text Functional Component serving as a section header for suggested-repeat purchase items.
+@@@Text Functional Component@@@
+
+Your Orders label:
+This is a Text Functional Component that serves as the title or header for the orders section.
+@@@Text Functional Component@@@
+
+Image of water pack:
+This Image is a part of the "Buy again" section to represent one of the recommended items for the user to purchase again.
+@@@Function Component@@@

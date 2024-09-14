@@ -1,0 +1,108 @@
+10AM-11AM:
+This text displays the time range for an event or task within the app.
+@@@arkTSText@@@
+
+Left arrow button:
+This arrow button likely allows users to navigate back to a previous screen.
+@@@arkTSButton@@@
+
+Progress label with bar:
+This component represents a label and a progress bar, likely indicating the completion percentage of a task.
+@@@arkTSProgressBar@@@
+
+9:41:
+This text represents the current time, possibly displayed on the status bar of the app.
+@@@arkTSText@@@
+
+95%:
+This text indicates the percentage of task completion, related to a progress bar.
+@@@arkTSText@@@
+
+Task time with progress bar:
+This component shows a task's time range and includes a progress bar to indicate completion status.
+@@@arkTSProgressBar@@@
+
+50%:
+This text indicates a percentage, likely relating to a task's completion status.
+@@@arkTSText@@@
+
+Rounded button:
+This component appears to be a rounded button, possibly used for navigation or submitting actions.
+@@@arkTSButton@@@
+
+Task time with progress bar (orange):
+This component displays a task's time and an orange progress bar, indicating task progress.
+@@@arkTSProgressBar@@@
+Component Keyword:
+This text displays the number of persons involved in a task.
+@@@arkTSText@@@
+
+Component Keyword:
+This text shows the title of the task, indicating what the task is about.
+@@@arkTSText@@@
+
+Component Keyword:
+This is a text label that shows the progress of the task, indicating how much of the task has been completed.
+@@@arkTSText@@@
+
+Component Keyword:
+This text indicates today's tasks, serving as a header for the tasks listed below.
+@@@arkTSText@@@
+
+Component Keyword:
+This text provides the percentage completion status of a task.
+@@@arkTSText@@@
+
+Component Keyword:
+This text specifies the time range during which the task is scheduled.
+@@@arkTSText@@@
+
+Component Keyword:
+This icon allows the user to perform a search within the app, likely leading to a search functionality.
+@@@arkTSIcon@@@
+
+Component Keyword:
+This text shows the title of another task, specifying what the task entails.
+@@@arkTSText@@@
+
+Component Keyword:
+This visual element is a progress bar, representing the completion level of a task.
+@@@arkTSProgressBar@@@
+Component Keyword:
+This seems to be an icon indicating network signal strength, typically used to show the connection status.
+@@@arkTSImage@@@
+
+---
+
+Component Keyword:
+"Grocery app design" text
+This is a text label for a task name, indicating what the task is about.
+@@@arkTSText@@@
+
+---
+
+Component Keyword:
+"Running" label
+This text label indicates the current status of a task.
+@@@arkTSText@@@
+
+---
+
+Component Keyword:
+"04 Persons" label with icon
+This is a text label with an icon indicating the number of persons involved in the task.
+@@@arkTSImageWithText@@@
+
+---
+
+Component Keyword:
+"All tasks" text
+This text label represents the title or heading of the screen, likely indicating the purpose of the page.
+@@@arkTSText@@@
+
+---
+
+Component Keyword:
+Magnifying glass icon
+This is an icon typically used to represent a search function, allowing users to initiate a search query in the app.
+@@@arkTSIcon@@@

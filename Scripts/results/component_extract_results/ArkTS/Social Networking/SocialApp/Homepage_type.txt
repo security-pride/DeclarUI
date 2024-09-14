@@ -1,0 +1,93 @@
+Search bar:
+This appears to be a search input field that allows users to enter text for searching for friends or partners within the app.
+@@@arkTSSearch@@@
+
+Wi-Fi icon:
+This icon typically represents the Wi-Fi connectivity status of the mobile device.
+@@@arkTSIcon@@@
+
+Potential Match label:
+This label is likely used to indicate a potential match suggestion for the user based on their preferences or interactions.
+@@@arkTSText@@@
+
+Outdoor filter button:
+This button likely filters content related to outdoor activities when selected.
+@@@arkTSButton@@@
+
+User profile picture:
+This component represents a user's profile picture displayed in a circular frame.
+@@@arkTSImage@@@
+
+All filter button:
+This button likely resets filters and shows all available content when selected.
+@@@arkTSButton@@@
+
+Partial user profile picture:
+This seems to be part of a user's profile picture, displayed in a circular frame.
+@@@arkTSImage@@@
+
+"Forging New Bonds and Friendships" label:
+This text label serves as a headline or main title, indicating the purpose or main feature of the app.
+@@@arkTSText@@@
+
+User story icon:
+This icon represents a user's story, which could be a temporary post or update.
+@@@arkTSImage@@@
+Menu icon:
+This is a standard hamburger menu icon, typically used for accessing a navigation drawer or additional menu options.
+@@@arkTSIconButton@@@
+
+Filter icon:
+This icon likely represents a filter function, allowing users to customize their search or view results based on certain criteria.
+@@@arkTSIconButton@@@
+
+Signal icon:
+This indicates the device's signal strength and is usually part of the status bar.
+@@@arkTSStatusBarItem@@@
+
+Hamburger menu icon:
+Similar to the Menu icon, this is used for accessing a navigation drawer or additional menu options.
+@@@arkTSIconButton@@@
+
+Bottom navigation bar:
+This appears to be a bottom navigation bar, providing quick access to primary sections of the app, such as Discover, Likes, Messages, and Profile.
+@@@arkTSBottomNavigation@@@
+
+Profile images with status:
+These are user profile images, possibly indicating the user story feature. The images have status indicators such as a plus sign or other decorations.
+@@@arkTSAvatar@@@
+
+Category button (All):
+This button is used to filter or display all types of items in a recommendations or categories section.
+@@@arkTSButton@@@
+
+Category button (Anime):
+Similar to the 'All' button, this is used to filter and display items specifically in the Anime category.
+@@@arkTSButton@@@
+
+Profile picture:
+This is a user profile picture, which may be part of the user story feature or a profile section.
+@@@arkTSAvatar@@@
+Discover tab icon:
+This symbolizes the currently selected tab, indicating the user is on the Discover page.
+@@@arkTSTabBar@@@
+
+Profile picture with name and age:
+This is likely a user profile card displaying the user's picture, name, and age, possibly for a dating or friendship app.
+@@@arkTSImage@@@
+
+Notification bell icon:
+This icon is used to indicate notifications. When tapped, it likely opens the notification center.
+@@@arkTSIcon@@@
+
+Time display:
+This shows the current time on the user's mobile device.
+@@@arkTSText@@@
+
+Photography category button:
+This is a button representing a category filter named 'Photography.' When selected, it likely filters items or content based on this category.
+@@@arkTSButton@@@
+
+User profile picture in circle:
+This is a circular image component, most likely used to display user profile pictures.
+@@@arkTSImage@@@

@@ -1,0 +1,122 @@
+日期 (周日 07-21):
+This is a View Function Component. It's a container that holds the text elements displaying a date.
+@@@View Function Component@@@
+
+地址 (烟台市芝罘区海港路25-4 (阳光10..):
+This is a Text Functional Component. It displays the address of a branch location.
+@@@Text Functional Component@@@
+
+地图图标:
+This is an Image Function Component. It is used to denote the location or map functionality.
+@@@Function Component@@@
+
+详细按钮 (详情):
+This is a Button component. Clicking it likely provides more details about the selected branch.
+@@@Button@@@
+
+营业状态 (今日营业):
+This is a Text Functional Component. It shows the current business status of the branch.
+@@@Text Functional Component@@@
+
+地址 (烟台市芝罘区幸福路46-1号):
+This is a Text Functional Component. It displays the address of a branch location.
+@@@Text Functional Component@@@
+
+日期 (周三 07-24):
+This is a View Function Component. It's a container that holds the text elements displaying a date.
+@@@View Function Component@@@
+
+标签 (最近):
+This is a Text Functional Component. It indicates that the branch is the nearest one.
+@@@Text Functional Component@@@
+
+日期 (周一 07-22):
+This is a View Function Component. It's a container that holds the text elements displaying a date.
+@@@View Function Component@@@
+
+
+详情 (Details) label:
+This is a Text component. It's part of the list items and likely indicates detailed information about the respective list item.
+@@@Text Functional Component@@@
+
+周二 07-23 (Tuesday 07-23) label:
+This is a Text component. It represents a date selector for choosing the date.
+@@@Text Functional Component@@@
+
+6.00km label with arrow icon:
+This is likely an Image component. It shows the distance to the location represented by an item in the list with a directional indicator.
+@@@Image@@@
+
+烟台海港路支行 label:
+This is a Text component. Indicates the name of a specific branch or location.
+@@@Text Functional Component@@@
+
+周六 07-20 (Saturday 07-20) label:
+This is a Text component. It represents a date selector for choosing the date.
+@@@Text Functional Component@@@
+
+今日营业 (Open Today) label:
+This is a Text component. It shows the status indicating that a particular location is open for business today.
+@@@Text Functional Component@@@
+
+烟台南大街支行 label:
+This is a Text component. Indicates the name of a specific branch or location.
+@@@Text Functional Component@@@
+
+明天 07-19 (Tomorrow 07-19) label:
+This is a Text component. It represents a date selector for choosing the date.
+@@@Text Functional Component@@@
+
+筛选 (Filter) label:
+This is a Text component. It is likely used to indicate a filtering option that allows the user to filter the list based on specific criteria.
+@@@Text Functional Component@@@
+全部网点:
+This is a Text Functional Component. It displays the label "全部网点," indicating a filter or section header.
+@@@Text Functional Component@@@
+
+烟台市芝罘区南大街303号国贸大厦1楼:
+This is a Text Functional Component. It provides the address details for a listed item.
+@@@Text Functional Component@@@
+
+2.63km:
+This is a Text Functional Component combined with an icon (most likely an Image component). It shows the distance to a particular location.
+@@@Text Functional Component@@@
+
+选择网点:
+This is a Text Functional Component. It displays the page title, indicating that the user can choose a location.
+@@@Text Functional Component@@@
+
+今日营业:
+This is a Text Functional Component. It indicates that the branch is open today.
+@@@Text Functional Component@@@
+
+今天 07-18:
+This is a Button or TouchableOpacity Function Component. It allows users to filter results by today's date.
+@@@TouchableOpacity Function Component@@@
+
+详情:
+This is a Text Functional Component. It serves as a label for a button that likely allows users to view more details about the branch.
+@@@Text Functional Component@@@
+
+烟台莱山支行 今日营业 8.01km:
+"烟台莱山支行 今日营业" are Text Functional Components displaying the branch name and status. The "8.01km" also includes a Text Functional Component combined with an Image component to show the distance.
+@@@Text Functional Component@@@
+
+请输入网点名称、区划或街道搜索:
+This is a TextInput component combined with an icon (likely an Image component). It serves as a search bar where users can input text.
+@@@TextInput@@@
+Component Keyword:
+This is a Text Functional Component. It likely represents the branch name displayed to the user.
+@@@Text Functional Component@@@
+
+Component Keyword:
+This is a Text Functional Component. It likely represents a button that provides additional details about a branch.
+@@@Text Functional Component@@@
+
+Component Keyword:
+This is a Text Functional Component. It likely represents the branch name displayed to the user.
+@@@Text Functional Component@@@
+
+Component Keyword:
+This is a Text Functional Component. It likely represents the address or additional information of a branch displayed to the user.
+@@@Text Functional Component@@@

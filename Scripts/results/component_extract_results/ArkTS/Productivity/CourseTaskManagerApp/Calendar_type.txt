@@ -1,0 +1,89 @@
+Component Keyword:
+This component shows the name of a person (e.g., Alex Jesus) and a meeting platform (e.g., Google Meet), indicating participation in a scheduled event.
+@@@arkTSText@@@
+
+Component Keyword:
+This card presents detailed information about an event, including the topic (Physics), chapter (Chapter 3: Force), participant details (Alex Jesus), and the platform (Google Meet).
+@@@arkTSCard@@@
+
+Component Keyword:
+This component represents a day of the week along with its corresponding date (e.g., Monday 14), likely part of a calendar view.
+@@@arkTSText@@@
+
+Component Keyword:
+This time label shows a specific time (e.g., 13:00), possibly indicating the start time of an event or an appointment.
+@@@arkTSText@@@
+
+Component Keyword:
+This is a navigation bar with icons and labels for Home, Tasks, Classroom, and Chat, helping users to navigate between different sections of the app.
+@@@arkTSNavigationBar@@@
+
+Component Keyword:
+This component displays the current date (17 September) and the day (Today), possibly indicating the current date information for the user.
+@@@arkTSText@@@
+
+Component Keyword:
+This component represents another day of the week along with its date (e.g., Friday 18), likely part of a calendar view.
+@@@arkTSText@@@
+
+Component Keyword:
+This text information provides details about an assignment, including the topic (World Regional Pattern), forming part of the event or assignment detail.
+@@@arkTSText@@@
+
+Component Keyword:
+This component shows event details, including the subject (Geography) and a description (Chapter 12: Soil Profile), along with additional participant and platform details (Jenifer Clark, Zoom).
+@@@arkTSCard@@@
+Sat 19:
+This is a text label indicating a specific date on a calendar or timeline, which helps users keep track of their schedule.
+@@@arkTSText@@@
+
+11:00:
+This is a time label indicating a specific time for an event or task. It helps users identify the start time of their scheduled activities.
+@@@arkTSText@@@
+
+Tue 15:
+This is a text label indicating a specific date on a calendar or timeline, which helps users keep track of their schedule.
+@@@arkTSText@@@
+
+Thu 17:
+This is a text label indicating a specific date on a calendar or timeline, with a color highlight to signify the current or selected day.
+@@@arkTSText@@@
+
+11:50:
+This is a time label indicating a specific time for an event or task. It helps users identify the start time of their scheduled activities.
+@@@arkTSText@@@
+
+Sun 20:
+This is a text label indicating a specific date on a calendar or timeline, which helps users keep track of their schedule.
+@@@arkTSText@@@
+
+Assignment: 
+This is a text description label indicating a specific task or assignment details within a schedule or list.
+@@@arkTSText@@@
+
+Tasks:
+This is a button or icon used for navigating to the tasks section of the app, allowing users to view and manage their tasks.
+@@@arkTSButton@@@
+
+Wed 16:
+This is a text label indicating a specific date on a calendar or timeline, which helps users keep track of their schedule. 
+@@@arkTSText@@@
+Geography card:
+This is a card component displaying subject information and related details. It typically includes a title, chapter information, instructor details, and the platform used for the lecture.
+@@@arkTSCard@@@
+
+10:20 time label:
+This is a text component showing a time stamp, likely used to indicate the schedule or timing of an event.
+@@@arkTSText@@@
+
+9:30 time label:
+This is a text component showing a time stamp, likely used to mark the start or end time of an event.
+@@@arkTSText@@@
+
+12:20 time label:
+This is a text component displaying a time stamp, possibly used for scheduling purposes within a timeline.
+@@@arkTSText@@@
+
+Add Task button:
+This is a button component that allows users to add a new task or event to their schedule.
+@@@arkTSButton@@@

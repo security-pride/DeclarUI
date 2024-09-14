@@ -1,0 +1,77 @@
+e招贷:
+This is a View function component. It groups together several Text function components indicating loan details and application methods.
+@@@View Function Component@@@
+
+¥0.00:
+This is a Text function component. It displays the amount in the user's account or the amount due.
+@@@Text Functional Component@@@
+
+可用额度 ¥0.00 ›:
+This is a Text function component. It indicates the available balance and a link to further details or actions.
+@@@Text Functional Component@@@
+
+Eye icon:
+This is a Function Component. It likely represents a button for toggling visibility of the amount details.
+@@@Function Component@@@
+
+Card management, Points, Bind payment, Recommend a gift, Car family icons and text:
+These are View function components. Each combination of an icon and text serves as a button to navigate to different sections of the app related to card management, points, payment, recommendations, and cars.
+@@@View Function Component@@@
+
+分期还款 (Installment Repayment) button:
+This is a Button component. It initiates the process for installment repayments.
+@@@Button@@@
+
+8月14日(27天后)出账:
+This is a Text function component. It shows the billing date and the days left for billing.
+@@@Text Functional Component@@@
+
+自动还:
+This is a Text function component. It indicates automatic repayment functionality.
+@@@Text Functional Component@@@
+
+预借现金 (Advance Cash):
+This is a View function component. It groups together several Text function components providing an overview of advance cash options.
+@@@View Function Component@@@
+
+立即查看 (Check Now) button:
+This is a Button component. It directs the user to check their eligible advance cash amount or application status.
+@@@Button@@@
+无需还款:
+This is a Text Functional Component. It likely indicates that there is no remaining balance to be paid.
+@@@Text Functional Component@@@
+
+专享消费额度:
+This is a Text Functional Component. It provides a description of the exclusive credit limit, including maximum limit and application details.
+@@@Text Functional Component@@@
+
+查账单:
+This is a Button component. It allows the user to view their bill details.
+@@@Button@@@
+
+个人消费账户:
+This is a Text Functional Component. It indicates the type of account for personal consumption.
+@@@Text Functional Component@@@
+
+我要借钱:
+This is a Text Functional Component. It is likely a heading indicating that the section is for borrowing money.
+@@@Text Functional Component@@@
+
+您有:
+This is a Text Functional Component. It may be part of a notification or alert message content.
+@@@Text Functional Component@@@
+
+还款:
+This is a Button component. It allows the user to proceed with making a repayment.
+@@@Button@@@
+
+我的信用卡:
+This is a Text Functional Component. It indicates the section that deals with user’s credit card information.
+@@@Text Functional Component@@@
+
+下期未出账单:
+This is a Text Functional Component. It indicates the bill amount that is yet to be generated.
+@@@Text Functional Component@@@
+还款 (Repay) button:
+This is a Button component. It's likely used to repay an outstanding balance or loan directly from the app.
+@@@Button@@@

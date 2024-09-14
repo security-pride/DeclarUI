@@ -1,0 +1,59 @@
+"利用您的电话号码查找好友！" 
+This is a Text Functional Component. It likely serves as a subtitle or description explaining that users can find friends using their phone numbers.
+@@@Text Functional Component@@@
+
+"电子邮箱" icon
+This is a Button component. It's part of the selection bar, allowing users to switch to the 'Email' input method to find friends by their email addresses.
+@@@Button@@@
+
+"寻找朋友" label 
+This is a Text Functional Component. It likely serves as a main title for the page, indicating that the current function is to find friends.
+@@@Text Functional Component@@@
+
+"输入您的电话号码，从您的联系人列表中添加好友。" 
+This is a Text Functional Component. It provides an instruction or message to the user, explaining what they need to do to add friends from their contact list.
+@@@Text Functional Component@@@
+
+Empty white area
+This is likely a View Function Component. This space is probably used to structure the layout or act as a container for other components.
+@@@View Function Component@@@
+
+"Username" icon
+This is a Button component. It's part of the selection bar, allowing users to switch to the 'Username' input method to find friends by their usernames.
+@@@Button@@@
+
+"通讯录" icon
+This is a Button component. It's part of the selection bar, allowing users to switch to the 'Contact List' method to find friends from their saved contacts.
+@@@Button@@@
+
+"输入您的电话号码，从您的联系人列表中添加好友。" 
+This is a Text Functional Component. It provides detailed instructions for the user to follow in order to add friends.
+@@@Text Functional Component@@@
+
+"连接通讯录"
+This is a Button component. The text indicates that it connects the user to their contact list when pressed.
+@@@Button@@@
+Component Keyword:
+Tabs with icons and labels:
+These are TouchableOpacity Function Components arranged in a tab layout, allowing users to switch between different methods of finding friends (e.g., through contacts, email, and username).
+@@@TouchableOpacity Function Component@@@
+
+Component Keyword:
+"寻找朋友" (Find Friends) header:
+This is a Text component serving as the page header, indicating the primary action or feature of this screen.
+@@@Text Functional Component@@@
+
+Component Keyword:
+"连接通讯录" (Connect Contacts) button:
+This is a Button component used to initiate the action of connecting to the user's contacts to find friends.
+@@@Button@@@
+
+Component Keyword:
+Heavily bold text indicating an action or instruction:
+This is a Text component providing an instruction to users about using their phone number to find friends.
+@@@Text Functional Component@@@
+
+Component Keyword:
+"输入您的电话号码，从您的联系人列表中添加好友。" (Enter your phone number to add friends from your contact list) smaller descriptive text:
+These are Text components providing more detailed instructions or descriptions to the user.
+@@@Text Functional Component@@@

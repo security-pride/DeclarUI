@@ -1,0 +1,89 @@
+Search bar:
+This appears to be a search input field that allows users to enter text for searching content within the app.
+@@@arkTSSearch@@@
+
+Menu icon:
+This is a menu icon likely used to open a navigation drawer or a dropdown menu for additional options.
+@@@arkTSIcon@@@
+
+File name label:
+This is a text label showing the name of a file, providing users with information about the file.
+@@@arkTSText@@@
+
+Signal strength icon:
+This is an icon that indicates the network signal strength of the mobile device.
+@@@arkTSIcon@@@
+
+Add button:
+This is a button likely used to add a new item, such as a new file or document, within the app.
+@@@arkTSButton@@@
+
+File item:
+This is a list item component displaying file information, such as name, date, and size, within a file management app.
+@@@arkTSListItem@@@
+
+Second file item:
+This is another instance of the list item component displaying file information within the app.
+@@@arkTSListItem@@@
+
+Third file item:
+This is another instance of the list item component displaying file information within the app.
+@@@arkTSListItem@@@
+
+Search icon:
+This is a search icon that users can tap to initiate a search operation.
+@@@arkTSIcon@@@
+
+Battery icon:
+This is an icon that indicates the battery level of the mobile device.
+@@@arkTSIcon@@@
+Search bar:
+This appears to be a search input field that allows users to enter text for searching content within the app.
+@@@arkTSSearch@@@
+
+PDF item:
+This list item shows details about a PDF file, including the name, date, and size. It likely includes a clickable element to open or manage the file.
+@@@arkTSListItem@@@
+
+WiFi icon:
+This icon likely indicates the status of the WiFi connection on the device.
+@@@arkTSIcon@@@
+
+Add button:
+This button most likely allows users to add a new PDF file or perform a similar action.
+@@@arkTSButton@@@
+
+PDF icon:
+This icon represents a PDF file and is used to visually indicate the file type.
+@@@arkTSIcon@@@
+
+Time display:
+This displays the current time and is part of the status bar on the device.
+@@@arkTSStatusBar@@@
+
+PDF icon:
+This icon represents a PDF file and is used to visually indicate the file type.
+@@@arkTSIcon@@@
+Component Keyword:
+This is a text label that indicates the title of the app or the current screen/functionality being displayed to the user.
+@@@arkTSText@@@
+
+Component Keyword:
+This appears to be a search input field that allows users to enter text for searching content within the app.
+@@@arkTSSearch@@@
+
+Component Keyword:
+This is an icon button used to trigger an action, like adding a new item, when clicked.
+@@@arkTSButton@@@
+
+Component Keyword:
+This represents a list item that could display individual PDF file details including the file name, date, and size.
+@@@arkTSListItem@@@
+
+Component Keyword:
+This is an icon, likely representing settings or options for a specific list item, often used to trigger additional actions.
+@@@arkTSIcon@@@
+
+Component Keyword:
+This is an icon, likely representing a search functionality, allowing users to initiate a search.
+@@@arkTSIcon@@@

@@ -1,0 +1,116 @@
+Component Keyword:
+This is a header or a title label that distinguishes the certain section within the app. In this case, it translates to "Collection Rating".
+@@@arkTSText@@@
+
+Component Keyword:
+This is a product card or component showcasing an item with its price and discount information. It includes a thumbnail image, a brief title, and a price description.
+@@@arkTSCard@@@
+
+Component Keyword:
+This appears to be a ranking badge or indicator, specifically showing the position or rank in a list. Here, it indicates the top 2 position.
+@@@arkTSBadge@@@
+
+Component Keyword:
+This is another type of product card highlighting a ranked item with details about the name and price, and a badge showing its position within the ranking.
+@@@arkTSCard@@@
+
+Component Keyword:
+This is another header or title label for a different section within the app. The text translates to "Purple Sand Clay".
+@@@arkTSText@@@
+
+Component Keyword:
+This is a top-ranked product card providing details on the item, similar to other product card components with a ranking badge.
+@@@arkTSCard@@@
+
+Component Keyword:
+This is a large, top-ranking badge indicating the highest rank in a particular list or section.
+@@@arkTSBadge@@@
+
+Component Keyword:
+This is another product card that presents an item with its price and discount information, complemented with a ranking badge indicating the item's position in a list.
+@@@arkTSCard@@@
+
+Component Keyword:
+This appears to be a detail slider or label, providing specific information related to a product or item grade and guarantee. Likely shows precise data like evaluation scores or certifications.
+@@@arkTSLabel@@@
+Component Keyword:
+The component is a dropdown or expandable menu showing the sorting order for prices.
+@@@arkTSDropdown@@@
+
+Component Keyword:
+This is an item card displaying a product image with a price tag and description overlay.
+@@@arkTSCard@@@
+
+Component Keyword:
+This is a section label indicating a category called "文玩杂项" (Cultural and Miscellaneous Items).
+@@@arkTSText@@@
+
+Component Keyword:
+A percentage change indicator, showing a value decrease in green color.
+@@@arkTSBadge@@@
+
+Component Keyword:
+A section header labeled "新品凑历" (New Products Calendar), indicating a section for new items.
+@@@arkTSText@@@
+
+Component Keyword:
+This is an item card displaying a product with the price and discount tag overlay.
+@@@arkTSCard@@@
+
+Component Keyword:
+A section label for "金盾评级" (Golden Shield Rating).
+@@@arkTSText@@@
+
+Component Keyword:
+A price and discount tag overlay on an item card.
+@@@arkTSLabel@@@
+
+Component Keyword:
+An image displaying a product, possibly a banknote or certification card, with a focus on detail.
+@@@arkTSImage@@@
+保粹评级 (Guarantee Rating) label:
+This is a text label that likely indicates a section related to some sort of rating system for quality assurance.
+@@@arkTSText@@@
+
+类型 (Type) button:
+This button seems to allow users to filter or sort items based on type, likely opening a dropdown menu when clicked.
+@@@arkTSButton@@@
+
+发布时间 (Release Time) button:
+This button probably allows sorting or filtering by release time, suggesting a dropdown or sorting function.
+@@@arkTSButton@@@
+
+Up 6.0% badge:
+This badge likely indicates a percentage change or increase, commonly used to show growth or improvement in a value.
+@@@arkTSBadge@@@
+
+Banknote image:
+This image shows a banknote, likely representing a product or collection item within the app interface.
+@@@arkTSImage@@@
+
+Quality Assurance banner:
+This banner likely promotes quality assurance and returns policies, providing user reassurance.
+@@@arkTSBanner@@@
+
+Up 10.1% badge:
+Similar to the 6.0% badge, this likely indicates an increase in value or popularity by 10.1%.
+@@@arkTSBadge@@@
+
+Coin with “TOP.3” label:
+This image of a coin, marked as "TOP.3," likely signifies it as a top-ranked item in a trending or popular list.
+@@@arkTSImage@@@
+
+Discount Promotion banner:
+This banner advertises a discount or promotional offer, encouraging users to take advantage of sales.
+@@@arkTSBanner@@@
+市价3折抢! label:
+This is a text label indicating a discount promotion, with the translated text being "Get it at 30% of market price!".
+@@@arkTSText@@@
+
+ACG label:
+This label provides details such as a certification or grading, typically used for currency or collectibles.
+@@@arkTSText@@@
+
+新商品历 item:
+This component seems to represent a product listing, showing images and details of a new product with pricing information.
+@@@arkTSProductListing@@@

@@ -1,0 +1,70 @@
+You are currently viewing CNN in light mode:
+This is a Text Functional Component. It provides information to the user about the current mode (light mode) of the app and how to switch to dark mode.
+@@@Text Functional Component@@@
+
+Gallery icon:
+This is a Function Component. It likely represents an icon for accessing a gallery feature within the app.
+@@@Function Component@@@
+
+Battery icon:
+This is a Function Component. It represents the battery level indicator present in the status bar of the app.
+@@@Function Component@@@
+
+Android Notification Settings:
+This is a Text Functional Component. It labels the settings section where users can configure Android notification settings.
+@@@Text Functional Component@@@
+
+Bottom navigation bar:
+This is a View Function Component. It contains navigation options for different sections of the app such as Home, Elections, Watch, and Settings.
+@@@View Function Component@@@
+
+Edition - International:
+This is a Text Functional Component. It indicates a setting related to the edition of the app, showing the current selection as International.
+@@@Text Functional Component@@@
+
+Log In to your CNN Account:
+This is a Text Functional Component. It labels an option for users to log in to their CNN account.
+@@@Text Functional Component@@@
+
+APP PREFERENCES text:
+This is a Text Functional Component. It serves as a header for the app preferences section.
+@@@Text Functional Component@@@
+
+Enable ‘This is CNN’ text:
+This is a Text Functional Component. It describes the functionality of a switch button which enables or disables a sound effect when opening the app.
+@@@Text Functional Component@@@
+
+Switch button:
+This is a Switch component. It toggles the "This is CNN" sound effect on or off when the app is opened.
+@@@Switch@@@
+GENERAL label:
+This is a Text Functional Component. It serves as a header or section title indicating general settings.
+@@@Text Functional Component@@@
+
+Alerts label:
+This is a Text Functional Component. It serves as a label to indicate the Alerts settings.
+@@@Text Functional Component@@@
+
+Settings label:
+This is a Text Functional Component. It serves as the title of the settings section, indicating the purpose of the page.
+@@@Text Functional Component@@@
+
+Saved Stories text:
+This is a Text Functional Component. It provides information about where users can find their saved articles, videos, and audio.
+@@@Text Functional Component@@@
+
+Disk icon:
+This is likely a Function Component from the image category. It represents a saved stories or storage icon.
+@@@Function Component@@@
+
+Send Feedback label:
+This is a Text Functional Component. It serves as an interactive text for sending feedback.
+@@@Text Functional Component@@@
+
+Create a free CNN Account label:
+This is a Text Functional Component. It prompts the user to create a new account.
+@@@Text Functional Component@@@
+
+ACCOUNT label:
+This is a Text Functional Component. It serves as a heading for the account-related settings section.
+@@@Text Functional Component@@@

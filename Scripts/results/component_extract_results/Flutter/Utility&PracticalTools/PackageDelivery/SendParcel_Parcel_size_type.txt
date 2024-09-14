@@ -1,0 +1,58 @@
+Battery icon:
+This is a visual representation of the current battery level of the device.
+@@@Icon@@@
+
+Wi-Fi icon:
+This icon indicates the status of the device's Wi-Fi connection.
+@@@Icon@@@
+
+Time display:
+Displays the current time on the device.
+@@@Text@@@
+
+Inactive tab "My Parcels":
+Represents an inactive navigation tab in the bottom navigation bar that directs the user to the "My Parcels" section.
+@@@BottomNavigationBarItem@@@
+
+Main title "Send parcel":
+Acts as the main header or title for the current screen.
+@@@Text@@@
+
+Inactive tab "Parcel center":
+Represents an inactive navigation tab in the bottom navigation bar that directs the user to the "Parcel center" section.
+@@@BottomNavigationBarItem@@@
+
+Custom size package description:
+This describes the custom package size option available for shipping.
+@@@Container@@@
+
+Active tab "Send parcel":
+Represents the active navigation tab in the bottom navigation bar that indicates the user is currently in the "Send parcel" section.
+@@@BottomNavigationBarItem@@@
+
+Network signal indicator:
+Indicates the status of the network signal.
+@@@Icon@@@
+Small parcel card:
+This component likely represents a card with details about a small parcel option, including dimensions and maximum weight.
+@@@Card@@@
+
+Large parcel card:
+This component appears to be a card describing the large parcel option with relevant details like dimensions and maximum weight.
+@@@Card@@@
+
+Bottom navigation bar indicator:
+This horizontal line is likely an indicator underlining the selected item on the bottom navigation bar.
+@@@Container@@@
+
+Medium parcel card:
+This component is a card showcasing the medium parcel option, with specific size and weight limitations.
+@@@Card@@@
+
+Signal icon:
+This icon resembles a signal strength indicator, possibly showing network or connection status.
+@@@Icon@@@
+
+Parcel size label:
+This is a text widget that indicates a section for selecting parcel sizes.
+@@@Text@@@

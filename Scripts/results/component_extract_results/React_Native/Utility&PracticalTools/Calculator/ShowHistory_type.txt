@@ -1,0 +1,93 @@
+"x" icon:
+This is a Button component. It represents the multiplication operation in the calculator app.
+@@@Button@@@
+
+"/" icon:
+This is a Button component. It represents the division operation in the calculator app.
+@@@Button@@@
+
+"=" icon (first image):
+This is a Button component. It represents the calculation or equals operation in the calculator app.
+@@@Button@@@
+
+"+" icon:
+This is a Button component. It represents the addition operation in the calculator app.
+@@@Button@@@
+
+Clock icon:
+This is an Image component. It likely represents a button or functionality to view history or past calculations.
+@@@Function Component@@@
+
+"45 × 24" label:
+This is a Text component. It represents the current input or operation being displayed in the calculator app.
+@@@Text Functional Component@@@
+
+"-" icon:
+This is a Button component. It represents the subtraction operation in the calculator app.
+@@@Button@@@
+
+"=" icon (second image):
+This is a Button component. It represents the calculation or equals operation in the calculator app.
+@@@Button@@@
+
+"Clear Histroy" label:
+This is a Button component. It likely clears the calculation history when pressed.
+@@@Button@@@
+Minus button:
+This is a Button. It is likely used to perform the subtraction operation in the calculator.
+@@@Button@@@
+
+Calculation result display:
+This is a View Function Component. It is used to display the intermediate and final results of the calculations.
+@@@View Function Component@@@
+
+Large number display:
+This is a Text Functional Component. It dynamically displays calculation results.
+@@@Text Functional Component@@@
+
+Preset value button:
+This is a Button. It may input a predefined value into the calculator when pressed.
+@@@Button@@@
+
+Plus button:
+This is a Button. It is likely used to perform the addition operation in the calculator.
+@@@Button@@@
+
+Close button:
+This is a Button. It might be used to close the current calculation or clear the input.
+@@@Button@@@
+
+Calculation result view:
+This is a View Function Component. It shows multiple calculation expressions and their results.
+@@@View Function Component@@@
+
+Preset value button:
+This is a Button. It may input a predefined value into the calculator when pressed.
+@@@Button@@@
+
+Division button:
+This is a Button. It likely performs the division operation in the calculator.
+@@@Button@@@
+Cross icon inside circle:
+This is a Button component. It appears to serve as a button for an action like closing or removing an entry.
+@@@Button@@@
+
+Text "Switch to Dark":
+This is a Text Functional Component. It indicates an action to switch to dark mode or theme.
+@@@Text Functional Component@@@
+
+Expand icon:
+This is a Button component. It might be used for opening in full screen or expanding the view.
+@@@Button@@@
+
+Toggle button:
+This is a Switch component. It generally represents an on/off state, likely used for switching between themes or modes.
+@@@Switch@@@
+
+Button with "x" inside:
+This is a Button component. It likely serves a similar purpose to the smaller cross icon, probably for closing a section or clearing input.
+@@@Button@@@
+
+Toggle button (duplicate):
+This is a Switch component. Another instance representing an on/off state.
+@@@Switch@@@

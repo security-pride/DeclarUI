@@ -1,0 +1,27 @@
+Use Phone Number button:
+This is a rounded button that likely triggers an action to input or use a phone number for login or registration.
+@@@arkTSButton@@@
+
+Continue with Facebook button:
+This button, colored in orange and featuring the Facebook logo, is used for triggering authentication through Facebook.
+@@@arkTSButton@@@
+
+Time display ("9:41"):
+The text shows the current time on the mobile device's screen.
+@@@arkTSText@@@
+
+Continue with Apple button:
+This button features the Apple logo and is used for initiating login with Apple credentials.
+@@@arkTSButton@@@
+
+Logo with text ("heact"):
+This is a logo with accompanying text, likely representing the app or company's name.
+@@@arkTSImage@@@
+
+Signal strength indicator:
+This icon shows the signal strength of the mobile network.
+@@@arkTSIcon@@@
+
+Informational text:
+This text provides a description or introduction to the app's purpose or function.
+@@@arkTSText@@@

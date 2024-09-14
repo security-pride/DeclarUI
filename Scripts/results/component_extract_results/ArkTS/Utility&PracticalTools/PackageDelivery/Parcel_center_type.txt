@@ -1,0 +1,93 @@
+1. Component Keyword:
+54 West Adams Court
+Component Function Description:
+This displays the address of the parcel center, informing users of the location.
+@@@arkTSText@@@
+
+2. Component Keyword:
+Map with parcel icons
+Component Function Description:
+This is an interactive map showing parcel center locations, likely allowing user interaction for navigation or selection.
+@@@arkTSMap@@@
+
+3. Component Keyword:
+Fully occupied
+Component Function Description:
+This text label communicates the occupancy status of a parcel center, indicating if it's full or has available space.
+@@@arkTSText@@@
+
+4. Component Keyword:
+My parcels
+Component Function Description:
+This is an icon representing the "My parcels" section, likely navigating users to view their parcels.
+@@@arkTSIcon@@@
+
+5. Component Keyword:
+NY0812
+Component Function Description:
+This text label represents an identifier code for a specific parcel center.
+@@@arkTSText@@@
+
+6. Component Keyword:
+Available 24/7
+Component Function Description:
+This label indicates the availability status of a parcel center, showing that it's accessible all day.
+@@@arkTSText@@@
+
+7. Component Keyword:
+Send parcel
+Component Function Description:
+This icon represents the "Send parcel" section, likely providing a way for users to send parcels.
+@@@arkTSIcon@@@
+
+8. Component Keyword:
+Signal strength icon
+Component Function Description:
+This icon represents signal strength, typically found in status bars to display connectivity status.
+@@@arkTSStatusIcon@@@
+
+9. Component Keyword:
+Parcel center
+Component Function Description:
+This is an icon representing the "Parcel center" section, likely navigating users to view parcel center locations or information.
+@@@arkTSIcon@@@
+Component Keyword:
+This is the time display typically shown on the status bar of a mobile device.
+@@@arkTSText@@@
+
+Component Keyword:
+This icon represents the Wi-Fi signal status to indicate the strength of the Wi-Fi connection.
+@@@arkTSIcon@@@
+
+Component Keyword:
+This label serves as the title for the page, indicating it is about parcel centers.
+@@@arkTSTitle@@@
+
+Component Keyword:
+This is a scrolling indicator that represents the position within a scrollable content.
+@@@arkTSProgressBar@@@
+
+Component Keyword:
+This is the battery status icon indicating the remaining battery life of the device.
+@@@arkTSIcon@@@
+
+Component Keyword:
+This label indicates the status of the item, in this case showing it is available 24/7.
+@@@arkTSText@@@
+
+Component Keyword:
+This label provides additional information about the parcel center's capacity.
+@@@arkTSText@@@
+
+Component Keyword:
+This is an icon representing the home or parcel center locations on a map.
+@@@arkTSIcon@@@
+
+Component Keyword:
+This shows a graphical map component displaying parcel center locations.
+@@@arkTSMap@@@
+
+Component Keyword:
+This status indicator shows the capacity status of the parcel center, indicating it is fully occupied.
+@@@arkTSIndicator@@@
+

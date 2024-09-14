@@ -1,0 +1,143 @@
+Folder icon:
+This is an ImageBackground component. It represents a folder used to categorize personal files.
+@@@ImageBackground@@@
+
+Signal strength bars:
+This is an ImageBackground component. It displays the signal strength of the mobile network.
+@@@ImageBackground@@@
+
+Hamburger menu icon:
+This is a TouchableOpacity Function Component. It opens a side menu containing navigation options when tapped.
+@@@TouchableOpacity Function Component@@@
+
+Share icon:
+This is a TouchableOpacity Function Component. It allows users to share the scanned documents via various platforms.
+@@@TouchableOpacity Function Component@@@
+
+Stop button:
+This is a Pressable component. It stops an ongoing process, likely a scan in this context.
+@@@Pressable@@@
+
+Folder icon:
+This is an ImageBackground component. It represents a folder used to categorize official files.
+@@@ImageBackground@@@
+
+File count label:
+This is a Text Functional Component. It indicates the number of items in a folder.
+@@@Text Functional Component@@@
+
+Folder name:
+This is a Text Functional Component. It labels the folder as "Official".
+@@@Text Functional Component@@@
+
+Print button:
+This is a TouchableOpacity Function Component. It triggers the printing of the selected document.
+@@@TouchableOpacity Function Component@@@
+
+Document title:
+This is a Text Functional Component. It labels the document as "License copy".
+@@@Text Functional Component@@@
+Folder icon:
+This is an Image component. It is used to represent different categories of scans such as Personal, Official, and Others.
+@@@Function Component@@@
+
+Document preview:
+This is an Image component. It shows a thumbnail preview of a scanned document.
+@@@Function Component@@@
+
+Search bar:
+This is a TextInput component. It allows users to search for files.
+@@@TextInput@@@
+
+Timestamp:
+This is a Text component. It shows the date and time when the document was scanned.
+@@@Text Functional Component@@@
+
+Scan button:
+This is a Button component. It is used to initiate a new scan.
+@@@Button@@@
+
+Print button:
+This is a Button component. It allows users to print the scanned document.
+@@@Button@@@
+Component Keyword:
+This is an image component displaying a document thumbnail, possibly providing a visual preview of the scanned document.
+@@@Function Component@@@
+
+Component Keyword:
+This is a button component with an icon depicting a scanner. The functionality likely involves starting a scan action.
+@@@TouchableOpacity Function Component@@@
+
+Component Keyword:
+This is an icon used for sharing. It's likely part of a share feature allowing users to share scanned documents.
+@@@ImageBackground@@@
+
+Component Keyword:
+This is an image component, possibly indicating a Wi-Fi status or connectivity indicator.
+@@@Function Component@@@
+
+Component Keyword:
+This is a label component indicating a "Share" action to the user.
+@@@Text Functional Component@@@
+
+Component Keyword:
+This is a logo image component presenting the app name and possibly the app’s icon.
+@@@Function Component@@@
+
+Component Keyword:
+This is a text component used for a navigation action, likely to see all scanned documents.
+ @@@Text Functional Component@@@
+
+Component Keyword:
+This is a label component indicating a "Print" action to the user.
+@@@Text Functional Component@@@
+
+Component Keyword:
+This is a label component indicating the name of the scanned document.
+@@@Text Functional Component@@@
+Others:
+This is a Text Functional Component. It labels the section containing different categories of scans.
+@@@Text Functional Component@@@
+
+Search your files:
+This is a TextInput component. It allows users to search for their files.
+@@@TextInput@@@
+
+Battery icon:
+This is an Image component. It displays the battery status on the screen.
+@@@Function Component@@@
+
+Print:
+This is a Text Functional Component. It labels the button for printing the document.
+@@@Text Functional Component@@@
+
+Folder icon:
+This is an Image component. It visually represents folders containing scanned files.
+@@@Function Component@@@
+
+Stop button:
+This is a TouchableOpacity Function Component. It likely stops or cancels an ongoing operation or scan when pressed.
+@@@TouchableOpacity Function Component@@@
+
+Plus icon:
+This is an Image component. It likely represents the add or create new scan functionality.
+@@@Function Component@@@
+
+Recent scans:
+This is a Text Functional Component. It labels a section for recently scanned documents.
+@@@Text Functional Component@@@
+
+Other folder icon:
+This is an Image component. It visually represents a specific category of scans labeled as 'Others.'
+@@@Function Component@@@
+My Scans:
+This is a Text Functional Component. It represents a heading or section title in the app to indicate the user's scans.
+@@@Text Functional Component@@@
+
+12:21 PM:
+This is a Text Functional Component. It shows the timestamp of a specific activity or record within the app.
+@@@Text Functional Component@@@
+
+Refresh icon:
+This is a TouchableOpacity Function Component. It likely allows users to refresh the list or content displayed in the app.
+@@@TouchableOpacity Function Component@@@

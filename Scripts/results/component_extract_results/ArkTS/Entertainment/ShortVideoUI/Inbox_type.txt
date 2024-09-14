@@ -1,0 +1,46 @@
+Me icon:
+This icon likely represents a user profile section where users can access and manage personal information.
+@@@arkTSIcon@@@
+
+Home icon:
+This icon is probably used to navigate to the homepage or main dashboard of the app.
+@@@arkTSIcon@@@
+
+All activity text:
+This label is likely a dropdown or section title indicating the display of recent activities or notifications.
+@@@arkTSText@@@
+
+Notification message:
+This component provides a status message indicating the absence of notifications.
+@@@arkTSComponent@@@
+
+Time display:
+This text represents the current time, typically shown in the status bar.
+@@@arkTSText@@@
+
+Add button:
+This button likely allows users to add or create new content within the app.
+@@@arkTSButton@@@
+
+Signal strength icon:
+This icon shows the device's current network signal strength, often located in the status bar.
+@@@arkTSIcon@@@
+
+Inbox icon:
+This icon likely represents a messaging or notification center where users can view conversations or alerts.
+@@@arkTSIcon@@@
+
+Discover icon:
+This icon suggests a section for exploration or search, typically allowing users to find new content.
+@@@arkTSIcon@@@
+Wi-Fi icon:
+This icon likely indicates the Wi-Fi connection status of the device.
+@@@arkTSIcon@@@
+
+Message icon:
+This icon could be used to open a message or notification panel.
+@@@arkTSIcon@@@
+
+Battery status:
+This component shows the current battery level and charging status of the device.
+@@@arkTSBatteryStatus@@@

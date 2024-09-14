@@ -1,0 +1,175 @@
+Back arrow icon:
+This is a Button component. It's located at the top left corner and likely allows users to navigate back to the previous screen.
+@@@Button@@@
+
+Gray placeholder image of a camera:
+This is an Image component. It's a placeholder used for items that do not have an actual image available.
+@@@Function Component@@@
+
+Orange button with "购买相似物品":
+This is a Button component. It appears to allow the user to purchase similar items to what is displayed.
+@@@Button@@@
+
+Text displaying "Pack of 5 | Ottogi Jin Ramen Noodle (Mild) 120g (Pack of 5)" and price "GBP 14.99":
+This is a Text component. It displays the product title and pricing information.
+@@@Text Functional Component@@@
+
+Gray placeholder image of a camera:
+This is an Image component. It's used as a placeholder for items without an available image, used in multiple instances.
+@@@Function Component@@@
+
+Tag icon with "出售物品":
+This is a Button component. Its functionality likely involves listing or viewing items for sale.
+@@@Button@@@
+
+Date text "2022年10月8日":
+This is a Text component. It displays the date of the transaction or event.
+@@@Text Functional Component@@@
+
+Home icon with "主页":
+This is a Button component. Its functionality is likely to navigate the user to the home screen.
+@@@Button@@@
+
+Cart icon:
+This is a Button component. It likely navigates the user to their shopping cart.
+@@@Button@@@
+
+Price and date text "GBP 3.99" and "2022年1月13日":
+This is a Text component. It displays the price and the date of the transaction.
+@@@Text Functional Component@@@
+购物记录:
+This is a Text component. It represents the title or header of the application screen, indicating the user's purchase records.
+@@@Text Functional Component@@@
+
+购买相似物品按钮:
+This is a Button component. It likely allows users to purchase similar items to the one currently shown in the list.
+@@@Button@@@
+
+我的 eBay 图标:
+This is an Image component. It most likely serves as a menu icon for navigating to the user's profile or personal eBay section.
+@@@Function Component@@@
+
+包邮标签:
+This is a Text component. It indicates that the item listed has free shipping.
+@@@Text Functional Component@@@
+
+购物推车图片:
+This is an Image component. It represents a visual image of the shopping trolley that's part of the list item's UI.
+@@@Function Component@@@
+
+通知图标:
+This is an Image component. It serves as an icon for the notification feature in the application's menu.
+@@@Function Component@@@
+
+缩小搜索范围:
+This is a Text component. It indicates an option to narrow or refine the search criteria within the app.
+@@@Text Functional Component@@@
+
+刀具描述:
+This is a Text component. It shows the description and price of the knife sharpening steel rod sharpener item.
+@@@Text Functional Component@@@
+
+搜索图标:
+This is an Image component. It likely serves as an icon for the search feature within the app's menu.
+@@@Function Component@@@
+Three-dot icon:
+This is an Image component. It's likely used as a visual element representing a menu or additional options available to the user.
+@@@Function Component@@@
+Large Lightweight Wheeled Shopping Trolley Push Cart Luggage Bag with...:
+This is a Text component. It provides the description of the product being viewed in the app.
+@@@Text Functional Component@@@
+"包邮" icon:
+This is an Image component. It's used as an icon to represent free shipping for the product.
+@@@Function Component@@@
+"再次购买" button:
+This is a Button component. It's used for the functionality that allows the user to repurchase the same item.
+@@@Button@@@
+Image of Knife Sharpening:
+This is an Image component. It depicts the physical product being described.
+@@@Function Component@@@
+Search icon:
+This is an Image component. It's part of the search functionality within the app.
+@@@Function Component@@@
+2021年11月20日 label:
+This is a Text component. It indicates the date of the transaction or product listing.
+@@@Text Functional Component@@@
+Back Arrow icon:
+This is an Image component. It allows users to navigate back to the previous screen.
+@@@Function Component@@@
+GBP 8.54, 2021年11月20日:
+This is a Text component. It provides the price and date information related to the product.
+@@@Text Functional Component@@@
+Component Keyword:
+Left arrow icon:
+This component is likely a button that allows the user to navigate back to the previous screen or close the current screen.
+@@@Button@@@
+
+Component Keyword:
+Search icon:
+This is a button that allows users to initiate a search within the app when pressed.
+@@@Button@@@
+
+Component Keyword:
+Shopping cart icon:
+This button takes the user to their shopping cart or checkout page.
+@@@Button@@@
+
+Component Keyword:
+Three dots icon:
+This button is likely to open a menu or additional options related to the current screen or item.
+@@@Button@@@
+
+Component Keyword:
+Label "查找" (Search):
+This is a text component that indicates the functionality of the search bar next to it.
+@@@Text@@@
+
+Component Keyword:
+Product image placeholder:
+This is an image component that displays a placeholder for product images.
+@@@Function Component@@@
+
+Component Keyword:
+Product title and description:
+This text component shows the product's title and description.
+@@@Text Functional Component@@@
+
+Component Keyword:
+Price and shipping label:
+This text component displays the price of the item and an indication of shipping.
+@@@Text Functional Component@@@
+
+Component Keyword:
+"已送达" (Delivered) label:
+This text component indicates that the item has been delivered.
+@@@Text Functional Component@@@
+
+Component Keyword:
+"购买相似物品" (Buy similar items) and "再次购买" (Buy again) buttons:
+These are buttons that allow users to purchase similar items or reorder the same item.
+@@@Button@@@
+
+Component Keyword:
+Product images:
+These image components display the product's actual images, such as the "Knife Sharpening Steel Rod Sharpener" and the "Large Lightweight Wheeled Shopping Trolley". 
+@@@Function Component@@@
+
+Component Keyword:
+Date label:
+This text component shows the date associated with an action or event related to the product.
+@@@Text Functional Component@@@
+
+Component Keyword:
+Bottom navigation icons ("首页" Home, "我的 eBay" My eBay, "搜索" Search, "通知" Notifications, "出售物品" Selling):
+These are button components that allow users to navigate between different sections of the app.
+@@@Button@@@
+
+Component Keyword:
+Active tab indicator:
+This is a view component that highlights the currently active tab in the bottom navigation.
+@@@View Function Component@@@
+
+Component Keyword:
+"缩小搜索范围" (Narrow search scope) label:
+This is a text component that likely describes a function to narrow down the search results.
+@@@Text Functional Component@@@

@@ -1,0 +1,46 @@
+"搜索" (Search) icon and text:
+This component represents an icon accompanied by a text label, typically used in a navigation bar to navigate to a search screen.
+@@@Column with Icon and Text@@@
+
+"主页" (Home) icon and text:
+This component represents an icon accompanied by a text label, typically used in a navigation bar to navigate to the home screen.
+@@@Column with Icon and Text@@@
+
+"出售物品" (Sell Items) icon and text:
+This component represents an icon accompanied by a text label, typically used in a navigation bar to navigate to the sell items screen.
+@@@Column with Icon and Text@@@
+
+Search bar with icons:
+This component represents a search bar with a leading search icon and a trailing camera icon, used for entering search queries and possibly scanning items.
+@@@TextField with prefixIcon and suffixIcon@@@
+
+"通知" (Notifications) icon and text:
+This component represents an icon accompanied by a text label, typically used in a navigation bar to navigate to the notifications screen.
+@@@Column with Icon and Text@@@
+
+Shopping cart icon:
+This icon is likely used to navigate to the shopping cart or contains the items the user intends to purchase.
+@@@Icon@@@
+
+"最近" (Recent) label:
+This text widget is used to label the most recent items or activity, typically used in a list or tab view.
+@@@Text@@@
+
+"发现下" (Discover) label:
+This text widget is used to label or describe a feature, prompting the user to discover new items or features.
+@@@Text@@@
+
+"我的 eBay" (My eBay) icon and text:
+This component represents an icon accompanied by a text label, typically used in a navigation bar to navigate to the user's eBay profile or account.
+@@@Column with Icon and Text@@@
+发现在一件您最喜爱的物品。 (Discover your next favorite item.):
+This text provides a tagline encouraging users to find their next loved item.
+@@@Text@@@
+
+已保存 (Saved):
+This label indicates that the item is already saved by the user.
+@@@Text@@@
+
+搜索 eBay (Search eBay):
+This text is focused on highlighting the search functionality for eBay.
+@@@Text@@@

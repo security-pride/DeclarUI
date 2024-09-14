@@ -1,0 +1,36 @@
+Lock screen:
+This is a text label that indicates the feature to lock the screen.
+@@@arkTSText@@@
+
+SIM card icon:
+This icon represents the status or presence of a SIM card.
+@@@arkTSIcon@@@
+
+Click to add location button:
+This button allows users to add a location once clicked.
+@@@arkTSButton@@@
+
+Street label (Pine):
+This is a text label indicating the name of the street, "Pine."
+@@@arkTSText@@@
+
+Menu icon:
+This icon represents a menu button, which typically opens a navigation or options drawer.
+@@@arkTSIcon@@@
+
+Time and battery status:
+This area displays the current time and battery status.
+@@@arkTSStatusBar@@@
+
+Black circle:
+This could represent something like a user profile picture area or a loading indicator.
+@@@arkTSCircle@@@
+
+Add location label:
+This is a text label indicating the option to add a location.
+@@@arkTSText@@@
+
+Battery icon:
+This icon shows the status of the battery.
+@@@arkTSIcon@@@
+I'm unable to see the component images you mentioned here. Please provide them so I can assist you in matching each component image to the ArkTS library component types.

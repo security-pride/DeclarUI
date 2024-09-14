@@ -1,0 +1,293 @@
+Sin button:
+This is a Button component. It likely allows users to perform the sine trigonometric function when pressed.
+@@@Button@@@
+
+Number 4 button:
+This is a Button component. It likely represents the number 4 and inputs the digit 4 when pressed.
+@@@Button@@@
+
+Clear button:
+This is a Button component. It likely clears the current input or calculation when pressed.
+@@@Button@@@
+
+1080 indicator:
+This is a Text component. It likely displays the current value or result of a calculation.
+@@@Text Functional Component@@@
+
+Clock icon:
+This is an Image component. It likely indicates a history or time-related function, possibly to view past calculations.
+@@@Function Component@@@
+
+Number 0 button:
+This is a Button component. It likely represents the number 0 and inputs the digit 0 when pressed.
+@@@Button@@@
+
+Equals button:
+This is a Button component. It likely performs the calculation and provides the result when pressed.
+@@@Button@@@
+
+Add button:
+This is a Button component. It likely represents the addition operation for calculations.
+@@@Button@@@
+
+Number 0 button:
+This is a Button component. It likely represents the number 0 and inputs the digit 0 when pressed.
+@@@Button@@@
++/− button:
+This is a Button. It represents a function in the calculator, likely for toggling between positive and negative values.
+@@@Button@@@
+
+7 button:
+This is a Button. It represents the digit '7' on the calculator, used for numerical input.
+@@@Button@@@
+
+Abs button:
+This is a Button. It likely represents the absolute value function on the calculator.
+@@@Button@@@
+
+Multiply button:
+This is a Button. It represents the multiplication operation on the calculator.
+@@@Button@@@
+
+Percentage button:
+This is a Button. It represents the percentage operation on the calculator.
+@@@Button@@@
+
+Logarithm base e button:
+This is a Button. It represents the natural logarithm function (ln) on the calculator.
+@@@Button@@@
+
+Logarithm base 10 button:
+This is a Button. It represents the logarithm base 10 function (log10) on the calculator.
+@@@Button@@@
+
+Cosine button:
+This is a Button. It represents the cosine trigonometric function on the calculator.
+@@@Button@@@
+
+Tangent button:
+This is a Button. It represents the tangent trigonometric function on the calculator.
+@@@Button@@@
+Toggle switch:
+This is a Switch component. It allows users to toggle between two states, such as enabling or disabling a feature. In this case, it is likely used to switch between light and dark mode.
+@@@Switch@@@
+
+"1080" number:
+This is a Text Functional Component. It displays the current value or result of a calculation.
+@@@Text Functional Component@@@
+
+Pink "x" button:
+This is a Button component. It's used for multiplication operations within the calculator.
+@@@Button@@@
+
+Parentheses button:
+This is a Button component. It's used to input parentheses for grouping expressions in mathematical calculations.
+@@@Button@@@
+
+Pink button with "x" icon:
+This is a Button component. It appears to be a clear or delete button to remove the current input or last entry.
+@@@Button@@@
+
+Button with "9":
+This is a Button component. It's used to input the numerical digit "9".
+@@@Button@@@
+
+Button with "Deg / Rad":
+This is a Button component. It's used to switch between degree and radian modes for trigonometric calculations.
+@@@Button@@@
+
+Button with "2":
+This is a Button component. It's used to input the numerical digit "2".
+@@@Button@@@
+
+Button with "C":
+This is a Button component. It's likely used to clear the current input or calculation.
+@@@Button@@@
+C button:
+This is a Button component. It likely functions as a clear button to reset the current input or display.
+@@@Button@@@
+
+Switch to Dark toggle:
+This is a Switch component. It allows users to switch between light and dark modes in the app.
+@@@Switch@@@
+
+Number 3 button:
+This is a Button component. It is used to input the digit '3' into the calculator.
+@@@Button@@@
+
+e button:
+This is a Button component. It inputs the mathematical constant 'e' into the calculator.
+@@@Button@@@
+
+Plus button:
+This is a Button component. It performs the addition operation in the calculator.
+@@@Button@@@
+
+Number 9 button:
+This is a Button component. It is used to input the digit '9' into the calculator.
+@@@Button@@@
+
+Number 2 button:
+This is a Button component. It is used to input the digit '2' into the calculator.
+@@@Button@@@
+
+en button:
+This is a Button component. It inputs the mathematical function e raised to the power of n into the calculator.
+@@@Button@@@
+
+x squared button:
+This is a Button component. It inputs the square of x into the calculator.
+@@@Button@@@
+Component Keyword:
+This is a Button component. It is a button likely used for one of the calculator operations.
+@@@Button@@@
+
+Component Keyword:
+This is a Button component. It is a button likely used for one of the calculator operations.
+@@@Button@@@
+
+Component Keyword:
+This is a Button component. It is a button likely used for one of the calculator operations.
+@@@Button@@@
+
+Component Keyword:
+This is a Button component. It is a button likely used for one of the calculator operations.
+@@@Button@@@
+
+Component Keyword:
+This is a Button component. It is a button likely used for one of the calculator operations.
+@@@Button@@@
+
+Component Keyword:
+This is a Button component. It is a button likely used for mathematical function operation in the calculator.
+@@@Button@@@
+
+Component Keyword:
+This is a Button component. It is a button likely used for one of the calculator operations.
+@@@Button@@@
+
+Component Keyword:
+This is a Button component. It is a button likely used for one of the calculator operations.
+@@@Button@@@
+
+Component Keyword:
+This is a Button component. It is a button likely used for one of the calculator operations.
+@@@Button@@@
+
+Component Keyword:
+This is a Button component. It is a button likely used for one of the calculator operations.
+@@@Button@@@
+
+Component Keyword:
+This is a Button component. It is a button likely used for one of the calculator operations.
+@@@Button@@@
+**Component Keyword:**
+Parentheses button:
+
+**Component Function Description**
+This is a Button. It's likely used to input parentheses, which are often used in mathematical expressions to denote operations that should be performed first.
+
+**@@@Button@@@**
+
+---
+
+**Component Keyword:**
+Expand/Fit Screen icon:
+
+**Component Function Description**
+This is an Image component. It likely functions to expand or fit the screen to the contents, such as a zoom or full-screen feature.
+
+**@@@Function Component@@@**
+
+---
+
+**Component Keyword:**
+Minus button:
+
+**Component Function Description**
+This is a Button. It is used for the minus operation, reducing a value or performing subtraction.
+
+**@@@Button@@@**
+
+---
+
+**Component Keyword:**
+Divide button:
+
+**Component Function Description**
+This is a Button. It's used to perform the division operation in mathematical calculations.
+
+**@@@Button@@@**
+
+---
+
+**Component Keyword:**
+"45 × 24" text:
+
+**Component Function Description**
+This is a Text Functional Component. It likely displays the current input or result of a multiplication operation.
+
+**@@@Text Functional Component@@@**
+
+---
+
+**Component Keyword:**
+Exponentiation button:
+
+**Component Function Description**
+This is a Button. It's used to input the exponentiation operator, performing calculations involving powers.
+
+**@@@Button@@@**
+
+---
+
+**Component Keyword:**
+Clock icon:
+
+**Component Function Description**
+This is an Image component. It might be used to access history or recent activity within the application.
+
+**@@@Function Component@@@**
+
+---
+
+**Component Keyword:**
+"1" button:
+
+**Component Function Description**
+This is a Button. It inputs the numeral "1".
+
+**@@@Button@@@**
+
+---
+
+**Component Keyword:**
+"5" button:
+
+**Component Function Description**
+This is a Button. It inputs the numeral "5".
+
+**@@@Button@@@**
+Component Keyword:
+This is a Button. It represents the absolute value function, which calculates the absolute value of the input number.
+@@@Button@@@
+
+Component Keyword:
+This is a Button. It represents the division function, used to perform division calculations.
+@@@Button@@@
+
+Component Keyword:
+This is a Button. It represents the digit "4", used as part of the number input in calculations.
+@@@Button@@@
+
+Component Keyword:
+This is a Button. It represents the swap or switch function, likely to switch between modes or types of calculations.
+@@@Button@@@
+
+Component Keyword:
+This is a Button. It represents the square root function, used to calculate the square root of the input number.
+@@@Button@@@
+
+Component Keyword:
+This is a Button. It represents the plus-minus function, used to toggle the sign of the input number between positive and negative.
+@@@Button@@@

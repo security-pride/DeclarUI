@@ -1,0 +1,54 @@
+"Or continue with":
+This is a text widget that provides guidance to the user that they can continue signing in using other methods listed below.
+@@@Text@@@
+
+Back arrow icon:
+This button allows users to navigate back to the previous screen.
+@@@IconButton@@@
+
+Email field:
+This is a text field where the user can input their email address.
+@@@TextField@@@
+
+Password visibility toggle icon:
+This icon button allows the user to toggle the visibility of the password they have entered.
+@@@IconButton@@@
+
+"Sign in" label:
+This is a text widget that serves as the title of the screen, indicating that the user should sign in.
+@@@Text@@@
+
+Continue with Apple button:
+This button allows users to sign in using their Apple account.
+@@@ElevatedButton@@@
+
+Back arrow icon with "Email" label:
+This combination consists of an icon button for navigation and a text label indicating the email field.
+@@@Row (containing IconButton and Text)@@@
+
+"Remember me":
+This is a text widget that labels a nearby checkbox widget, allowing users to opt in to be remembered for future logins.
+@@@Text@@@
+
+Continue with Facebook button:
+This button allows users to sign in using their Facebook account.
+@@@ElevatedButton@@@
+Google button:
+This is a button that allows users to continue signing in using their Google account. It likely includes an icon and text for branding.
+@@@ElevatedButton@@@
+
+Checkbox icon:
+This icon represents a checkbox used for selections, such as agreeing to terms or options like "Remember me."
+@@@Checkbox@@@
+
+Password field:
+This field is used to input a password. It typically hides the input for security and may include an eye icon to toggle visibility.
+@@@TextField@@@
+
+Facebook button:
+This button allows users to continue signing in using their Facebook account. It includes an icon and text for branding.
+@@@ElevatedButton@@@
+
+Log in button:
+This button allows users to log in with their entered credentials. It is styled to stand out and likely initiates authentication.
+@@@ElevatedButton@@@

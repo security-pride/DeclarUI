@@ -1,0 +1,90 @@
+Component Keyword:
+This is a button typically used for equating or submitting an operation in a calculator.
+@@@arkTSButton@@@
+
+Component Keyword:
+This icon likely represents the history functionality, which shows previous calculations or actions.
+@@@arkTSIcon@@@
+
+Component Keyword:
+This is a button typically used for subtracting values in a calculator.
+@@@arkTSButton@@@
+
+Component Keyword:
+This is a button typically used for adding values in a calculator.
+@@@arkTSButton@@@
+
+Component Keyword:
+This button clears the history of previous calculations or actions.
+@@@arkTSButton@@@
+
+Component Keyword:
+This is a button typically used for equating or submitting an operation in a calculator.
+@@@arkTSButton@@@
+
+Component Keyword:
+This text toggles between light and dark modes for the app's interface.
+@@@arkTSText@@@
+
+Component Keyword:
+This text shows the dimensions of a graphical object or image within the app.
+@@@arkTSText@@@
+
+Component Keyword:
+This is a button typically used for multiplying values in a calculator.
+@@@arkTSButton@@@
+Switch to Light toggle:
+This is likely a toggle switch used to change the app's theme from dark mode to light mode.
+@@@arkTSSwitch@@@
+
+Close button:
+This appears to be a close or cancel button, typically used to dismiss popups or modal dialogs.
+@@@arkTSButton@@@
+
+Expand icon:
+This icon probably represents a function to expand or resize a component, such as a window or section.
+@@@arkTSIcon@@@
+
+Multiply button:
+This is a button used for multiplication operations, likely part of a calculator interface.
+@@@arkTSButton@@@
+
+Toggle Switch:
+A toggle switch used to switch between two states, likely for enabling or disabling a feature.
+@@@arkTSSwitch@@@
+
+Current value button:
+This component displays a current value or preset, possibly indicating a selection or setting.
+@@@arkTSButton@@@
+
+Divide button:
+This button supports division operations, commonly found in calculator functionalities.
+@@@arkTSButton@@@
+
+No history message:
+This text with an icon displays a message indicating the absence of historical data or previous records.
+@@@arkTSText@@@
+Component Keyword:
+Minus button
+This is a button that likely allows users to perform a subtraction operation within a calculator or similar app.
+@@@arkTSButton@@@
+
+Component Keyword:
+Number display
+This component likely displays a numerical value or result, such as a calculated number.
+@@@arkTSText@@@
+
+Component Keyword:
+Divide button
+This is a button that likely allows users to perform a division operation within a calculator or similar app.
+@@@arkTSButton@@@
+
+Component Keyword:
+Plus button
+This is a button that likely allows users to perform an addition operation within a calculator or similar app.
+@@@arkTSButton@@@
+
+Component Keyword:
+History icon
+This is likely an icon that users can tap to view past activity or history within the app, such as previous calculations.
+@@@arkTSIcon@@@

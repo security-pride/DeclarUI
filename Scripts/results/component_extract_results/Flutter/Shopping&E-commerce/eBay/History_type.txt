@@ -1,0 +1,176 @@
+Pack of 5 | Ottogi Jin Ramen Noodle (Mild) 120g (Pack of 5) description:
+This text provides details about a product, such as its name and specifications.
+@@@Text@@@
+
+Empty image placeholder:
+This is an image placeholder typically used when an image fails to load or is not available.
+@@@Image@@@
+
+Buy Similar button:
+A button labeled with a Chinese text "购买相似物品" which means "Buy Similar Items" in English. It likely triggers an action to find or purchase similar products.
+@@@ElevatedButton@@@
+
+GBP 14.99 pricing section:
+This text displays the product price, often styled distinctively to stand out.
+@@@Text@@@
+
+Shopping cart icon:
+An icon that likely represents a shopping cart, used to navigate to or signify the shopping cart feature.
+@@@Icon@@@
+
+Home icon:
+This icon represents the home page and is used for navigation back to the main screen.
+@@@Icon@@@
+
+Tag icon with "出售物品" label:
+A combination of an icon and text which means "List Items for Sale," indicating a feature for selling items.
+@@@IconButton@@@
+
+Date 2022年10月8日:
+This text represents the date, formatted in a way that aligns with a specific locale.
+@@@Text@@@
+
+GBP 3.99 pricing with date section:
+Displays another pricing element along with a date, typically used in a list of transactions or products.
+@@@Text@@@
+购买记录:
+This is a text widget displaying the title "Purchase History" in Chinese.
+@@@Text@@@
+
+购买相似物品 Button (Orange):
+This is a button that users can press to buy similar items.
+@@@ElevatedButton@@@
+
+我的 eBay Icon and Label:
+This icon and label button navigates to the user's eBay profile or section.
+@@@IconButton@@@
+
+包邮 Label:
+This is a text widget indicating "Free Shipping" in Chinese.
+@@@Text@@@
+
+Large Shopping Trolley Image:
+This is an image widget displaying a picture of a large shopping trolley.
+@@@Image@@@
+
+通知 Icon and Label:
+This icon represents notifications and is paired with a label text.
+@@@IconButton@@@
+
+缩小搜索范围 Label:
+This is a text widget suggesting to "Narrow Search Scope" in Chinese.
+@@@Text@@@
+
+Knife Sharpener Item Title and Pricing:
+This is a combination of text widgets displaying an item title, price, and date of purchase.
+@@@Column@@@
+
+搜索 Icon and Label:
+This icon represents the search functionality and is paired with a text label.
+@@@IconButton@@@
+Large Lightweight Wheeled Shopping Trolley Push Cart Luggage Bag with...:
+This is a text widget that displays the title and description of a product.
+@@@Text@@@
+
+Three dots icon (ellipsis):
+This appears to be an icon that might open a menu with more options.
+@@@IconButton@@@
+
+"包邮" (Free Shipping) label:
+This is a text widget indicating that free shipping is available for the item. Translation: "Free Shipping".
+@@@Text@@@
+
+"再次购买" (Buy Again) button:
+This is a button likely allowing users to repurchase the same item. Translation: "Buy Again".
+@@@ElevatedButton@@@
+
+Knife Sharpening Steel Rod Sharpener Honing Stick image:
+This is likely an image displaying the product.
+@@@Image@@@
+
+Magnifying glass icon:
+This appears to be an icon for search functionality.
+@@@IconButton@@@
+
+"2021年11月20日" (November 20, 2021) date label:
+This is a text widget showing the date when the item was purchased. Translation: "November 20, 2021".
+@@@Text@@@
+
+Back arrow icon:
+This is an icon that likely allows users to navigate back to the previous screen.
+@@@IconButton@@@
+
+"GBP 8.54 2021年11月20日" price and date:
+This is a text widget showing the price and date of the item.
+@@@Text@@@
+### Component Images and Descriptions
+
+1. **Back Arrow Icon**:
+   This icon signifies the back navigation action and is typically clickable to return to the previous screen.
+   @@@IconButton@@@
+
+2. **Magnifying Glass Search Icon**:
+   This icon represents the search functionality, allowing users to initiate a search query.
+   @@@IconButton@@@
+
+3. **Shopping Cart Icon**:
+   This icon likely represents access to the shopping cart or basket where users can view items they intend to purchase.
+   @@@IconButton@@@
+
+4. **Three Dots (More Options) Icon**:
+   This icon generally provides additional options or settings when clicked.
+   @@@IconButton@@@
+
+5. **"购买记录" Label** (Purchase Records):
+   This text represents the title of the screen, indicating it's a record of items purchased.
+   @@@Text@@@
+
+6. **"查找" Label** (Search):
+   This text is related to the search functionality, indicating a search action.
+   @@@Text@@@
+
+7. **Product Image Placeholder**:
+   This widget displays a placeholder image for a product, possibly a loading state if the actual product image is still being fetched.
+   @@@Image@@@
+
+8. **Product Information Text**:
+   This component shows the details about a product, including its name, price, and shipping availability.
+   @@@Column@@@
+
+9. **Price Text**:
+   This text displays the price of the product in GBP.
+   @@@Text@@@
+
+10. **"购买相似物品" Button** (Buy Similar Items):
+    This button likely facilitates finding or purchasing similar items to the currently viewed product.
+    @@@ElevatedButton@@@
+
+11. **"再次购买" Button** (Buy Again):
+    This button allows users to reorder an item they have already purchased.
+    @@@ElevatedButton@@@
+
+12. **Navigation Bar with Icons**:
+    This widget represents a bottom navigation bar where each icon represents a different section or screen within the app.
+    @@@BottomNavigationBar@@@
+
+13. **"首页" Label** (Home):
+    This text represents the Home section in the navigation bar.
+    @@@Text@@@
+
+14. **"我的 eBay" Label** (My eBay):
+    This text represents the My eBay section in the navigation bar, likely showing user-specific information or account details.
+    @@@Text@@@
+
+15. **"搜索" Label** (Search):
+    This text represents the Search section in the navigation bar, allowing users to find products or information.
+    @@@Text@@@
+
+16. **钟铃图标 (Bell Icon)**:
+    This icon represents notifications and alerts within the app.
+    @@@IconButton@@@
+
+17. **单价标签图标 (Tag Icon)**:
+    This icon represents the listing or sale of items within the app.
+    @@@IconButton@@@
+
+Each component above has been matched with a corresponding Flutter widget type and described based on its functionality within the app interface.

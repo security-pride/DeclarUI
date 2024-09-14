@@ -1,0 +1,234 @@
+Component Keyword:
+This is a text label likely representing a user's name.
+@@@arkTSText@@@
+
+Component Keyword:
+This is an image likely representing a user's profile picture or avatar.
+@@@arkTSImage@@@
+
+Component Keyword:
+This is an image likely representing a user's profile picture or avatar.
+@@@arkTSImage@@@
+
+Component Keyword:
+This is an image likely representing a user's profile picture or avatar.
+@@@arkTSImage@@@
+
+Component Keyword:
+This appears to be a button, likely for voice input functionality.
+@@@arkTSButton@@@
+
+Component Keyword:
+This appears to be a keyboard button for typing the character 'I'.
+@@@arkTSButton@@@
+
+Component Keyword:
+This appears to be a keyboard button for typing the character 'B'.
+@@@arkTSButton@@@
+
+Component Keyword:
+This appears to be a keyboard button for typing the character 'E'.
+@@@arkTSButton@@@
+
+Component Keyword:
+This is a text label likely representing the word "People" in Russian.
+@@@arkTSText@@@
+Up arrow button:
+This button is likely used for navigating upwards in the app, possibly in a scrollable list or to dismiss a keyboard.
+@@@arkTSButton@@@
+
+Name label "Kieron Dotson":
+This label displays a contact’s name within the list.
+@@@arkTSText@@@
+
+Capital letter "T" button:
+This button seems to be part of the keyboard and represents the letter "T".
+@@@arkTSButton@@@
+
+Capital letter "P" button:
+This button seems to be part of the keyboard and represents the letter "P".
+@@@arkTSButton@@@
+
+Backspace button:
+This button is likely used to delete text in an input field.
+@@@arkTSButton@@@
+
+Capital letter "R" button:
+This button seems to be part of the keyboard and represents the letter "R".
+@@@arkTSButton@@@
+
+Capital letter "H" button:
+This button seems to be part of the keyboard and represents the letter "H".
+@@@arkTSButton@@@
+
+Create a New Group icon:
+This icon likely represents creating or adding a new group in the app.
+@@@arkTSIcon@@@
+
+Capital letter "J" button:
+This button seems to be part of the keyboard and represents the letter "J".
+@@@arkTSButton@@@
+Cancel button:
+This is a button that likely allows the user to cancel the current action or go back to the previous screen.
+@@@arkTSButton@@@
+
+Wi-Fi icon:
+This icon indicates the Wi-Fi connection status, typically used in status bars.
+@@@arkTSIcon@@@
+
+Go button:
+This is a button that likely submits the input or proceeds with an action, commonly seen in forms or search interfaces.
+@@@arkTSButton@@@
+
+Smiley face icon:
+This is an icon that typically represents an emoji or emoticon, often used for sending emoticons in messages.
+@@@arkTSIcon@@@
+
+Keyboard letter key "Q":
+This is a key on the on-screen keyboard allowing the user to type the letter "Q".
+@@@arkTSKeyboardKey@@@
+
+Keyboard letter key "X":
+This is a key on the on-screen keyboard allowing the user to type the letter "X".
+@@@arkTSKeyboardKey@@@
+
+Keyboard letter key "Y":
+This is a key on the on-screen keyboard allowing the user to type the letter "Y".
+@@@arkTSKeyboardKey@@@
+
+"123" key:
+This is a key on the on-screen keyboard that likely switches the keyboard to a numeric layout.
+@@@arkTSKeyboardKey@@@
+
+Face ID icon:
+This icon represents the Face ID feature, typically used to indicate biometric authentication.
+@@@arkTSIcon@@@
+
+New message label:
+This is a text label that likely indicates the section or screen for composing a new message.
+@@@arkTSText@@@
+Jamie Franco:
+This appears to be a text element displaying a contact's name listed within a conversation view.
+@@@arkTSText@@@
+
+Tabitha Potter:
+This is another text element showing a contact's name in a list format.
+@@@arkTSText@@@
+
+Numeric key '0':
+This is a button component that when pressed inputs the number '0'.
+@@@arkTSButton@@@
+
+Create a New Group:
+This is a text element likely linked to a feature for initiating the creation of a new group chat.
+@@@arkTSText@@@
+
+Letter key 'V':
+This is a button component that corresponds to typing the letter 'V' on the keyboard.
+@@@arkTSButton@@@
+
+Letter key 'L':
+This button component represents typing the letter 'L' on a keyboard.
+@@@arkTSButton@@@
+
+Cancel:
+This is a text button that presumably cancels the current action or closes the view.
+@@@arkTSButton@@@
+
+User avatar image:
+This is an image component that displays a user's avatar or profile picture.
+@@@arkTSImage@@@
+
+Letter key 'K':
+This is a button component that corresponds to typing the letter 'K' on the keyboard.
+@@@arkTSButton@@@
+Cancel button:
+This component allows users to cancel the current action or go back to the previous screen.
+@@@arkTSButton@@@
+
+New message label:
+This label indicates the current screen or section where the user can compose a new message.
+@@@arkTSText@@@
+
+"To:" label:
+This is a text label used to indicate the recipient input field in a message composition interface.
+@@@arkTSText@@@
+
+Create a New Group option:
+This is a selectable option that allows users to create a new group.
+@@@arkTSListItem@@@
+
+People section label:
+This label indicates the beginning of the contacts or people list.
+@@@arkTSText@@@
+
+Contact item (e.g., "Martha Craig"):
+This is a list item representing a contact in the user's address book.
+@@@arkTSListItem@@@
+
+Keyboard letter key (e.g., "W"):
+This is a key on the virtual keyboard used for typing text.
+@@@arkTSButton@@@
+
+Signal strength indicator:
+This icon represents the current signal strength of the device.
+@@@arkTSIcon@@@
+
+Clock display (e.g., "9:41"):
+This displays the current device time.
+@@@arkTSText@@@
+
+Keyboard space key:
+The space key on the virtual keyboard, enabling users to add spaces between words.
+@@@arkTSButton@@@
+
+Keyboard letter key (e.g., "U"):
+This is a key on the virtual keyboard used for typing text.
+@@@arkTSButton@@@
+
+Keyboard space key (e.g., "space"):
+The space key on the virtual keyboard, enabling users to add spaces between words.
+@@@arkTSButton@@@
+
+Keyboard letter key (e.g., "G"):
+This is a key on the virtual keyboard used for typing text.
+@@@arkTSButton@@@
+
+Keyboard letter key (e.g., "Z"):
+This is a key on the virtual keyboard used for typing text.
+@@@arkTSButton@@@
+
+Keyboard letter key (e.g., "A"):
+This is a key on the virtual keyboard used for typing text.
+@@@arkTSButton@@@
+
+Keyboard letter key (e.g., "D"):
+This is a key on the virtual keyboard used for typing text.
+@@@arkTSButton@@@
+S key:
+This appears to be a single key from the keyboard, likely representing the letter 'S'.
+@@@arkTSKey@@@
+
+Zack John label:
+This is a text label, likely representing the name of a contact or user.
+@@@arkTSText@@@
+
+C key:
+This appears to be a single key from the keyboard, likely representing the letter 'C'.
+@@@arkTSKey@@@
+
+N key:
+This appears to be a single key from the keyboard, likely representing the letter 'N'.
+@@@arkTSKey@@@
+
+Search bar:
+This appears to be a search input field that allows users to enter text for searching content within the app.
+@@@arkTSSearch@@@
+
+M key:
+This appears to be a single key from the keyboard, likely representing the letter 'M'.
+@@@arkTSKey@@@
+
+Profile picture:
+This image represents a user's profile picture, likely used to identify the user visually.
+@@@arkTSImage@@@

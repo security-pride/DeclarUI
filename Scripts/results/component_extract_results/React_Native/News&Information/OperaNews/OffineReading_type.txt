@@ -1,0 +1,52 @@
+Download button with text "DOWNLO...":
+This button is likely used to trigger the download of articles or other content when pressed.
+@@@Button@@@
+
+Download icon:
+This is an image component, likely used to visually represent the download functionality.
+@@@Function Component@@@
+
+Document icon:
+This is an image component, likely used to visually represent offline reading mode or stored articles.
+@@@Function Component@@@
+
+"Me" tab icon with text:
+This component likely serves as a navigation button in the bottom tab bar to switch to a user profile or settings page.
+@@@Button@@@
+
+Black circular dot:
+This is likely serving as a placeholder or visual separator, unclickable but present for UI purposes.
+@@@Other Component@@@
+
+Image with text "Download the latest news in 10 seconds":
+This is an image or image background component likely used to示意 the concept of fast news download along with a descriptive text.
+@@@ImageBackground@@@
+
+Battery icon:
+This icon is likely part of the status bar that displays the battery status.
+@@@StatusBar Android and iOS Component@@@
+
+"Home" tab icon with text:
+This component likely serves as a navigation button in the bottom tab bar to switch to the home or main page of the app.
+@@@Button@@@
+
+Trash bin icon:
+This button is likely used for deleting content, possibly downloaded articles.
+@@@Button@@@
+
+
+Arrow back icon:
+This is a Button component. It likely allows users to navigate back to the previous screen.
+@@@Button@@@
+
+"Offline reading" and "Automatic download on WiFi" labels:
+These are Text components. They display the title of the screen and a description of the feature, respectively.
+@@@Text Functional Component@@@
+
+Clock showing "8:58":
+This is a Text component, likely used within a StatusBar to display the current time.
+@@@Text Functional Component@@@
+
+"Download articles" label:
+This is a Text component. It describes the action associated with a nearby button or function in the app.
+@@@Text Functional Component@@@

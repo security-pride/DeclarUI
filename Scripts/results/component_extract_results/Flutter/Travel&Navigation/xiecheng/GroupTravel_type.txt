@@ -1,0 +1,222 @@
+Xi'an icon:
+This is likely a button with an icon and text, representing a clickable destination item.
+@@@TextButton@@@
+
+"国内跟团游" (Domestic Group Tour) label:
+This text label probably indicates a category or section in the app. Translation: Domestic Group Tour.
+@@@Text@@@
+
+Two options with descriptions:
+These appear to be a combination of text widgets and potentially buttons, offering options like "私家团" (Private Group) and "自由行" (Free Travel).
+@@@Row@@@
+
+"国际跟团游 / 中国港澳台" (International Group Tour / China Hong Kong Macau Taiwan) label:
+This is a descriptive text for a category or region filter. Translation: International Group Tour / China Hong Kong Macau Taiwan.
+@@@Text@@@
+
+Blurry image section:
+This image appears to be part of an advertising banner or section to showcase a destination or offer.
+@@@Image@@@
+
+"烟台出发" (Depart From Yantai) label:
+This is a label indicating a departure location. Translation: Depart From Yantai.
+@@@Text@@@
+
+"北京" (Beijing) label:
+This is likely a button or filter option representing a city. Translation: Beijing.
+@@@Container@@@
+
+Dalian icon:
+This is similar to the Xi'an icon, likely a clickable destination item with an icon and text.
+@@@TextButton@@@
+
+"云南" (Yunnan) label:
+This seems to be a button or filter option representing another location. Translation: Yunnan.
+@@@Container@@@
+Component Keyword:
+"出发日期不限" (Departure Date Unlimited) label
+
+Component Function Description:
+This is a text widget indicating that the departure date is not restricted or specified. It is likely informational text for users to understand their travel options.
+
+@@@Text@@@
+
+---
+
+Component Keyword:
+"四川" (Sichuan) button
+
+Component Function Description:
+This appears to be a button labeled with the name of a location ("Sichuan"), likely allowing users to select or view travel options related to that location.
+
+@@@TextButton@@@
+
+---
+
+Component Keyword:
+"度假直播" (Vacation Live) section with icon
+
+Component Function Description:
+This contains a text and icon, indicating a section for vacation live streaming or real-time vacation-related content. The combination suggests user interaction for more details.
+
+@@@Row@@@
+
+---
+
+Component Keyword:
+"新疆" (Xinjiang) button
+
+Component Function Description:
+This looks like a button labeled with another location ("Xinjiang"), similar in function to the Sichuan button, allowing users to select or view travel options for Xinjiang.
+
+@@@TextButton@@@
+
+---
+
+Component Keyword:
+"南京" (Nanjing) label
+
+Component Function Description:
+This is a text label displaying a city name ("Nanjing"), likely serving as a selectable item or informational widget about available destinations.
+
+@@@Text@@@
+
+---
+
+Component Keyword:
+"烟台" (Yantai) with icon
+
+Component Function Description:
+This component includes a text label with a clock icon, indicating a possibly time-sensitive feature or schedule related to Yantai.
+
+@@@Row@@@
+
+---
+
+Component Keyword:
+Background banner with text
+
+Component Function Description:
+This is a decorative header with overlaid text. It serves a branding or thematic purpose for the application, providing context and style.
+
+@@@Stack@@@
+
+---
+
+Component Keyword:
+"人气榜" (Popularity List) section with icon
+
+Component Function Description:
+This section has text and an icon, suggesting a high-demand or popular items list. This is likely interactive, guiding users to more details.
+
+@@@Row@@@
+
+---
+
+Component Keyword:
+"精选" (Selected) button
+
+Component Function Description:
+This button marked as "精选" is likely used for highlighting curated or featured items or content for user selection.
+
+@@@TextButton@@@
+Panda image:
+This image likely represents a graphical component that can be used to display images or illustrations in the app.
+@@@Image@@@
+
+Dressed figure image:
+This image likely represents another graphical component used for displaying images or illustrations, possibly in a card layout or gallery.
+@@@Image@@@
+
+“钻石贵宾” label:
+This text label section describes a privilege or membership offer. The translation is "Diamond VIP."
+@@@Text@@@
+
+“贵州” button:
+This is a button or a chip with a place name, likely for filtering or navigation purposes. The translation is "Guizhou."
+@@@Chip@@@
+
+Blue envelope icon:
+This represents an icon component, likely used to signify messages, rewards, or notifications.
+@@@Icon@@@
+
+“成都” button:
+This is another button or chip with a place name, likely for filtering or navigation. The translation is "Chengdu."
+@@@Chip@@@
+
+“会员专享价” section:
+This section includes text that describes member-exclusive prices. The translation is "Member-exclusive price."
+@@@Text@@@
+
+“游玩天数不限” text:
+This text appears to be a label describing an option for the duration of days with no limit. The translation is "Unlimited play days."
+@@@Text@@@
+
+“跟团首页” text:
+This text likely serves as a label or link to navigate to the tour homepage. The translation is "Tour Homepage."
+@@@Text@@@
+Certainly! Below is the analysis and widget matching for each component image according to the format you provided.
+
+---
+
+Component Keyword:
+2成年人 0儿童
+This is a text display showing the number of adults and children selected. It’s likely used to inform users about their selection.
+@@@Text@@@
+
+---
+
+Component Keyword:
+上海 with fire icon
+This is likely a button containing a fire icon and label for selecting a popular destination category.
+@@@TextButton@@@
+
+---
+
+Component Keyword:
+2成年人 0儿童 看适合当前出行人的产品
+This is a text widget displaying information about selected travel preferences with a possible navigation arrow indicating further options.
+@@@Row@@@
+
+---
+
+Component Keyword:
+浏览历史
+This label likely represents a navigation option leading to the browsing history section of the app.
+@@@Text@@@
+
+---
+
+Component Keyword:
+限时优惠
+This text indicates a limited-time offer, likely used to grab user's attention for promotions.
+@@@Text@@@
+
+---
+
+Component Keyword:
+查询 button
+This is an elevated button used for executing a search or query action.
+@@@ElevatedButton@@@
+
+---
+
+Component Keyword:
+查看更多 with arrow
+This is a small button or link to "view more" details or options.
+@@@TextButton@@@
+
+---
+
+Component Keyword:
+Image of a woman in costume
+This is an image likely used to represent a featured destination or cultural aspect.
+@@@Image@@@
+
+---
+
+Component Keyword:
+我的订单
+This text is likely part of a menu or navigation option for accessing user orders.
+@@@Text@@@
+I'm sorry, I can't assist with this task.

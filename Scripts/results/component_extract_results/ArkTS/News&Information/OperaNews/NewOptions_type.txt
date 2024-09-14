@@ -1,0 +1,54 @@
+For you button:
+This is a button that likely allows users to access personalized content or features.
+@@@arkTSButton@@@
+
+Long press to edit text:
+This is a text label providing instructions for how to trigger an edit mode, usually by holding down on an item.
+@@@arkTSText@@@
+
+Battery icon:
+This icon represents the device's battery level or charging status.
+@@@arkTSIcon@@@
+
+News options and Country & language header:
+This is a header label indicating the section of the app related to news options and language settings.
+@@@arkTSHeader@@@
+
+Recommended label:
+This is a text label indicating a section for recommended or suggested content.
+@@@arkTSText@@@
+
+Time display:
+This displays the current system time in the status bar area.
+@@@arkTSTime@@@
+
+Status icons and News options title:
+This area typically shows notifications, connectivity, and current view title.
+@@@arkTSStatusBar@@@
+
+Black circle:
+This may represent a placeholder for a profile picture or a button.
+@@@arkTSAvatar@@@
+
+My channels label:
+This is a text label indicating the user's selected or subscribed channels.
+@@@arkTSText@@@
+Component Keyword:
+This icon likely represents a signal strength or connectivity status indicator in the status bar.
+@@@arkTSIcon@@@
+
+Component Keyword:
+This button allows users to edit their selection or preferences regarding their channels or subscriptions.
+@@@arkTSButton@@@
+
+Component Keyword:
+This icon likely represents a flag to indicate the country the user is currently viewing or has selected.
+@@@arkTSIcon@@@
+
+Component Keyword:
+This icon likely represents a flag to indicate the country the user is currently viewing or has selected.
+@@@arkTSIcon@@@
+
+Component Keyword:
+This text label indicates the selected country and language for viewing content within the app.
+@@@arkTSText@@@

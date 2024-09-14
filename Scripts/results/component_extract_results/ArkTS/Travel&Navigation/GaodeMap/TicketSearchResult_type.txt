@@ -1,0 +1,237 @@
+Component Keyword:
+This is a display for today's date, showing the day of the month.
+@@@arkTSText@@@
+
+Component Keyword:
+This component prompts the user to log into an official service for booking tickets, ensuring ticket protection.
+@@@arkTSText@@@
+
+Component Keyword:
+This indicates the price of passenger tickets, starting from 350 RMB.
+@@@arkTSText@@@
+
+Component Keyword:
+This is a display showing the time, probably of a scheduled event or departure.
+@@@arkTSText@@@
+
+Component Keyword:
+This is a display for the day after tomorrow's date, showing the day of the month.
+@@@arkTSText@@@
+
+Component Keyword:
+This component is a label indicating a station name, potentially as part of travel itinerary details.
+@@@arkTSText@@@
+
+Component Keyword:
+This component indicates the first leg (第1程) of a multi-segment journey.
+@@@arkTSBadge@@@
+
+Component Keyword:
+This is a label that might be for filtering or sorting options related to pricing (耗时: duration).
+@@@arkTSText@@@
+
+Component Keyword:
+This is a display for the date of a Monday, showing the day of the month.
+@@@arkTSText@@@
+Component Keyword: 威海站 (Weihai Station) label
+Component Function Description: This is a text label that likely indicates a station name, in this case, Weihai Station.
+@@@arkTSText@@@
+
+Component Keyword: 飞机直达推荐 (Direct Flight Recommendation) label
+Component Function Description: This is a text label that highlights a recommendation for direct flights in the app.
+@@@arkTSText@@@
+
+Component Keyword: G3247
+Component Function Description: This is a text label that displays the train number, which is a unique identifier for a train.
+@@@arkTSText@@@
+
+Component Keyword: 汉口站 (Hankou Station) label
+Component Function Description: This is a text label that likely indicates a station name, in this case, Hankou Station.
+@@@arkTSText@@@
+
+Component Keyword: 有票推荐 (Ticket Recommendation) label
+Component Function Description: This is a text label used to recommend available tickets to the user.
+@@@arkTSText@@@
+
+Component Keyword: 上午出发 (Morning Departure) label
+Component Function Description: This is a text label that indicates that the departure is in the morning.
+@@@arkTSText@@@
+
+Component Keyword: 满50减1 (Save 1 When Spend 50) label
+Component Function Description: This is a promotional text label that displays a discount offer in the app.
+@@@arkTSText@@@
+
+Component Keyword: 共8时29分 (8 Hours and 29 Minutes) label
+Component Function Description: This is a text label that displays the total travel time duration, in this case, 8 hours and 29 minutes.
+@@@arkTSText@@@
+
+Component Keyword: 明天 7.19 (Tomorrow 7.19) label
+Component Function Description: This is a date label indicating the date for tomorrow, which is July 19th.
+@@@arkTSDateLabel@@@
+9:31:
+This text represents a time, likely indicating a departure or arrival time for a transportation option.
+@@@arkTSText@@@
+
+22:38:
+This text also represents a time, used in a similar context for scheduling information.
+@@@arkTSText@@@
+
+"第2程" (Second Trip):
+This label indicates a segment or part of a journey, typically used in multi-step travel plans.
+@@@arkTSBadge@@@
+
+Airplane image:
+This image serves as an icon or visual representation for flight options or services within the app.
+@@@arkTSImage@@@
+
+"飞机 ¥620起" (Flight starting at ¥620):
+This text indicates pricing information for flights, possibly used for displaying options or offers.
+@@@arkTSText@@@
+
+"武汉站" (Wuhan Station):
+This label denotes a location, particularly a train or transport station, used for travel reference.
+@@@arkTSBadge@@@
+
+"价格" (Price):
+This text represents a label or heading for a section related to pricing information or sorting options.
+@@@arkTSText@@@
+
+"15:34 前无直达班次," (No direct trips before 15:34,):
+This informative text likely indicates scheduling details or travel availability.
+@@@arkTSText@@@
+
+"筛选" (Filter):
+This text specifies a button or label for filtering options within the app, enhancing user navigation.
+@@@arkTSButton@@@
+"只看有票" (Only Show Tickets) button:
+This is a filter button that allows users to see only the available tickets.
+@@@arkTSButton@@@
+
+"同站换乘19分" (Transfer at the Same Station for 19 minutes) label:
+This text label provides details about a transfer, specifically the duration of the transfer.
+@@@arkTSText@@@
+
+"武汉站" (Wuhan Station) label:
+This is a text label indicating the Wuhan train station.
+@@@arkTSText@@@
+
+"周三 24" (Wednesday 24th) date selector:
+This acts as a date selector for choosing the day of travel.
+@@@arkTSDatePicker@@@
+
+"G2148" train number label:
+This label indicates the number of a specific train.
+@@@arkTSText@@@
+
+"G2084" with icon label:
+This label includes a train number along with an icon, possibly indicating a special service.
+@@@arkTSText@@@
+
+"威海站" (Weihai Station) label:
+This is a text label indicating the Weihai train station.
+@@@arkTSText@@@
+
+"威海站" (Weihai Station) label (duplicate):
+This is another text label indicating the Weihai train station.
+@@@arkTSText@@@
+
+"第1程" (First Leg) journey segment label:
+This label indicates the first segment of a journey.
+@@@arkTSTag@@@
+1. "耗时最短" (Shortest Duration):
+This is a text label indicating the shortest duration option.
+@@@arkTSText@@@
+
+2. "明天 7.19" (Tomorrow 7.19):
+This likely represents a date selector for planning or viewing schedules for the following day.
+@@@arkTSButton@@@
+
+3. "同站换乘21分" (21 min Transfer):
+This label informs the user about the duration needed for a same-station transfer.
+@@@arkTSText@@@
+
+4. "第 2 程" (Second Leg):
+This signifies the stage or segment of a journey, commonly used in travel planning applications.
+@@@arkTSTag@@@
+
+5. "23:11":
+This format typically represents time, useful in schedules or time selection components.
+@@@arkTSText@@@
+
+6. "直达最低价" (Direct Lowest Price):
+This text highlights the most affordable direct option available.
+@@@arkTSText@@@
+
+7. "只看高铁动车" (Only Show High-Speed Rail):
+This button allows users to filter results to show only high-speed train options.
+@@@arkTSButton@@@
+
+8. "G339":
+This label is often used for train numbers or identifiers in travel-related apps.
+@@@arkTSText@@@
+
+9. "周二 23" (Tuesday 23):
+This component is likely a date display used to show specific days of the week and their corresponding dates.
+@@@arkTSText@@@
+Component Keyword:
+This text specifies that the flight saves 69 Yuan compared to the train and takes 4 hours and 15 minutes.
+@@@arkTSText@@@
+
+Component Keyword:
+This text represents a 'Sunday 21' date, which likely indicates a selectable date in a calendar or date picker component.
+@@@arkTSText@@@
+
+Component Keyword:
+This text reads 'Weihai Station', which represents the name of a train station.
+@@@arkTSText@@@
+
+Component Keyword:
+This graphical element reads 'GaoDe Red Packet', likely indicating a promotional offer or discount section.
+@@@arkTSBadge@@@
+
+Component Keyword:
+This text means 'Recommended 2 Ticket Options', likely indicating a suggestion for ticket choices available.
+@@@arkTSText@@@
+
+Component Keyword:
+This text reads 'Weihai City', indicating the city name related to the search or travel.
+@@@arkTSText@@@
+
+Component Keyword:
+This text means 'Recommendation Ranking', likely part of a section that orders or prioritizes recommendations.
+@@@arkTSText@@@
+
+Component Keyword:
+This text represents 'Second Class 1', typically part of ticket classification or pricing.
+@@@arkTSText@@@
+
+Component Keyword:
+This icon represents a calendar, typically used for selecting dates.
+@@@arkTSIcon@@@
+Wuhan Station label:
+This is a text label likely indicating a train station's name or location.
+@@@arkTSText@@@
+
+Total 10 hours label:
+This is a text label that probably shows the duration or total time of a journey.
+@@@arkTSText@@@
+
+Hefei South location badge:
+This component looks like a badge or label that shows a specific location, possibly representing a stop or station.
+@@@arkTSBadge@@@
+
+Login button:
+This is a button that users can press to log into their account within the app.
+@@@arkTSButton@@@
+
+Gaode Red Envelope discount label:
+This text label seems to indicate a discount or promotional offer available to the user.
+@@@arkTSText@@@
+
+Train number D2150 label:
+This is a text label displaying a specific train number, probably used for identifying a train service.
+@@@arkTSText@@@
+
+Time 12:38 label:
+This component displays a specific time, possibly a departure or arrival time.
+@@@arkTSText@@@

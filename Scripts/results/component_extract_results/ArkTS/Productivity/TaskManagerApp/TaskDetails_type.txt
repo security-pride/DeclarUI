@@ -1,0 +1,36 @@
+Back button:
+This is a button that allows users to navigate back to the previous screen in the app.
+@@@arkTSButton@@@
+
+Task item (Website Design):
+This component represents a list item, potentially clickable, showing task details like the name, date, and an unchecked checkbox.
+@@@arkTSListItem@@@
+
+Task item (Website Redesign):
+This component represents a list item, potentially clickable, showing task details like the name, date, and a checked checkbox.
+@@@arkTSListItem@@@
+
+Header with back button:
+This header includes a back button and title, providing navigation and context for the current page.
+@@@arkTSNavigationBar@@@
+
+Time display (9:00 AM-12:00 PM):
+This component likely displays a time range for a task or event.
+@@@arkTSText@@@
+
+Pie chart with legend:
+This is a pie chart showing task completion status with a corresponding legend.
+@@@arkTSChart@@@
+
+Sub Task label:
+This is a text label indicating a section dedicated to subtasks within the screen.
+@@@arkTSText@@@
+
+Clock display (9:41):
+This shows the current time, often found in the status bar of a mobile interface.
+@@@arkTSTimeDisplay@@@
+
+Date display (18-02-2022):
+This component displays a specific date, most likely related to a task or event.
+@@@arkTSText@@@
+I'm unable to view the images here. Could you please describe the components you'd like analyzed from the screenshot?

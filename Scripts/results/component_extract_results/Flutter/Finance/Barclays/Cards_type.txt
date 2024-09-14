@@ -1,0 +1,51 @@
+Component Keyword:
+This is a text widget displaying the title "Student Additions".
+@@@Text@@@
+
+Bank card image:
+This is an image widget displaying an image of a bank card.
+@@@Image@@@
+
+Component Keyword:
+This is a text widget displaying the status "Active".
+@@@Text@@@
+
+Component Keyword:
+This is a text widget displaying the section header "Spending controls".
+@@@Text@@@
+
+Bottom navigation bar:
+This represents a bottom navigation bar with multiple icons and labels. 
+@@@BottomNavigationBar@@@
+
+Component Keyword:
+This is a row widget containing a text widget "Contactless limit" and a text widget displaying an amount.
+@@@Row@@@
+
+Component Keyword:
+This is a row widget containing a text widget "Create travel wallet" along with an arrow icon indicating navigation.
+@@@Row@@@
+
+Component Keyword:
+This is a text widget displaying "Personal debit", describing the type of account.
+@@@Text@@@
+
+Component Keyword:
+This is a text widget displaying the section header "Travel money".
+@@@Text@@@
+Report damaged, lost or stolen button:
+This appears to be a button that allows users to report a damaged, lost, or stolen card. The button likely contains an icon and a text label.
+@@@ElevatedButton@@@
+
+Temporary freeze button:
+This appears to be a button that allows users to temporarily freeze their card. The button likely contains an icon and a text label.
+@@@ElevatedButton@@@
+
+View card details & PIN button:
+This appears to be a button that allows users to view their card details and PIN. The button likely contains an icon and a text label.
+@@@ElevatedButton@@@
+
+"Added to Apple Wallet" label:
+This is a text widget that informs users that their card has been added to Apple Wallet.
+@@@Text@@@
+

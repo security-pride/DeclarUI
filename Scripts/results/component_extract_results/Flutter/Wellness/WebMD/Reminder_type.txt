@@ -1,0 +1,64 @@
+Abilify label:
+This is a text widget displaying the name "Abilify".
+@@@Text@@@
+
+Add Another Time label:
+This is a text widget that displays the instruction "Add Another Time".
+@@@Text@@@
+
+00:27 time display:
+This is a text widget displaying a time value, which could be interactive or static.
+@@@Text@@@
+
+Time label:
+This is a text widget displaying the word "Time".
+@@@Text@@@
+
+Time icon:
+This is an icon depicting a clock, used to represent time.
+@@@Icon@@@
+
+Done button:
+This is an interactive button labeled "Done", likely used for submitting or confirming the action.
+@@@TextButton@@@
+
+Cancel button:
+This is an interactive button labeled "Cancel", likely used for canceling the current action.
+@@@TextButton@@@
+
+Pill icon:
+This is an image widget displaying a pill symbol, used to represent medication.
+@@@Image@@@
+
+Time icon (repeated):
+This is an icon depicting a clock, used to represent time.
+@@@Icon@@@
+
+
+Edit Reminder title:
+This is a text widget displaying the title "Edit Reminder" to indicate the screen's purpose.
+@@@Text@@@
+
+Time label:
+This is a text widget that displays "Time" as a label, likely for the selection of a time value.
+@@@Text@@@
+
+Dosage icon:
+This is an icon widget, representing a dosage measurement, likely indicating or linking to dosage information.
+@@@Icon@@@
+
+Enter label:
+This is a text widget displaying the word "Enter," probably indicating a field where the user needs to input or select information.
+@@@Text@@@
+
+Pill image:
+This is an image widget displaying a pill icon, likely representing medication or related details.
+@@@Image@@@
+
+Select Dosage label:
+This is a text widget displaying "Select Dosage," prompting the user to choose the appropriate dosage.
+@@@Text@@@
+
+Done button:
+This is an elevated button widget with the label "Done," likely used to submit or save the changes made on this screen.
+@@@ElevatedButton@@@

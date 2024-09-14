@@ -1,0 +1,49 @@
+Create the big ideas (Text):
+This is a Text functional component. It is a title that likely represents the content or section header in the app.
+@@@Text Functional Component@@@
+
+Or buy a good UI Kit (Text):
+This is a Text functional component. It could be a section title or a teaser to encourage users to purchase a UI Kit.
+@@@Text Functional Component@@@
+
+Lessons (Text):
+This is a Text functional component. It likely serves as a tab label indicating a section where users can access their lessons.
+@@@Text Functional Component@@@
+
+Play Lesson (Button):
+This is a Button component. It likely initiates the action to start or play a lesson when pressed.
+@@@Button@@@
+
+Content text (Text):
+This is a Text functional component. It serves as descriptive or instructional content within the app.
+@@@Text Functional Component@@@
+
+Back Arrow (Button):
+This is a Button component. It likely allows the user to navigate back to the previous screen.
+@@@Button@@@
+
+Minus Icon (Button):
+This is a Button component. It could be used to minimize or hide some content within the app.
+@@@Button@@@
+
+Content text block (Text):
+This is a Text functional component. It serves as extended content or a description within the app.
+@@@Text Functional Component@@@
+
+About (Text and View):
+This contains a Text functional component, likely serving as a tab label indicating the 'About' section.
+@@@Text Functional Component@@@
+
+The underline is a View function component acting as an indicator for active tab.
+@@@View Function Component@@@
+John Wiseberg:
+This is a Text component. It is used to display the name of the person visible on the screen.
+@@@Text Functional Component@@@
+
+Teach Advertising and Creativity:
+This is a Text component. It describes the profession or subject expertise of the person named John Wiseberg.
+@@@Text Functional Component@@@
+
+Blue line:
+This is a View component. It serves as a visual indicator for highlighting or underlining specific text or sections.
+@@@View Function Component@@@

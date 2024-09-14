@@ -1,0 +1,89 @@
+Component Keyword: 英语 label
+Component Function Description: This is a text label indicating the language (English) of the content.
+@@@arkTSText@@@
+
+Component Keyword: Female exercising image
+Component Function Description: This is a component displaying an image, likely representing a workout or exercise video.
+@@@arkTSImage@@@
+
+Component Keyword: 锻炼 label
+Component Function Description: This is a text label indicating a section for workouts.
+@@@arkTSText@@@
+
+Component Keyword: 好友 label
+Component Function Description: This is a text label that likely indicates a section for friends or social interactions within the app.
+@@@arkTSText@@@
+
+Component Keyword: Premium workout image
+Component Function Description: This is an image component, likely indicating premium workout content.
+@@@arkTSImage@@@
+
+Component Keyword: "Cardio group dance" text
+Component Function Description: This is a text label providing details about a cardio group dance session.
+@@@arkTSText@@@
+
+Component Keyword: MIN label
+Component Function Description: This is a text label indicating the duration of content in minutes.
+@@@arkTSText@@@
+
+Component Keyword: Premium label
+Component Function Description: This is a text label indicating premium content.
+@@@arkTSText@@@
+
+Component Keyword: Rain on leaves image
+Component Function Description: This is an image component likely relating to a nature or relaxation video, showing rain on leaves.
+@@@arkTSImage@@@
+播放:
+This is a text label that translates to "Play" and indicates a button to start playing content.
+@@@arkTSText@@@
+
+发现 icon:
+This is an icon that appears to be a compass and is likely used for the "Discover" tab or section in the app.
+@@@arkTSIcon@@@
+
+特色:
+This is a text label that translates to "Featured" and indicates a section showcasing highlighted or special content.
+@@@arkTSText@@@
+
+Star icon:
+This is a star icon, likely used as a favorite or bookmark button to save content for later.
+@@@arkTSIcon@@@
+
+Total body barre: bodyweight:
+This is a text label for the title of a workout routine. The additional "英语" text indicates the language as "English".
+@@@arkTSText@@@
+
+发现:
+This is a text label that translates to "Discover," likely used as a section or tab for exploration within the app.
+@@@arkTSText@@@
+
+Nature rain on leaves:
+This is a text label indicating the title of a content item, which in this case is a nature sound or video.
+@@@arkTSText@@@
+
+Star icon:
+This is a star icon, likely used as a favorite or bookmark button to save content for later.
+@@@arkTSIcon@@@
+
+27 MIN:
+This is a text label indicating the duration of a workout or content item, which is 27 minutes.
+@@@arkTSText@@@
+播放 (Play):
+This appears to be a button that users can press to play a video or audio file.
+@@@arkTSButton@@@
+
+英语 (English):
+This is a text label indicating that the content is in English.
+@@@arkTSText@@@
+
+16 MIN:
+This is a label indicating the duration of the content, which is 16 minutes.
+@@@arkTSText@@@
+
+45:
+This label indicates a part of the duration, specifically the first two digits of the total minutes of content.
+@@@arkTSText@@@
+
+查看全部 (View All):
+This appears to be a text link or button that users can press to view all items in the respective category.
+@@@arkTSLinkText@@@

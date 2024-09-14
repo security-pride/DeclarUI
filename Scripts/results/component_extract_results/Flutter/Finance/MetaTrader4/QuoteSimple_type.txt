@@ -1,0 +1,162 @@
+### Component Matches and Descriptions
+
+GBPUSD label:
+This component displays the currency pair name. It is static text.
+@@@Text@@@
+
+1.30080 label:
+This component shows the exchange rate for a currency pair. It uses a distinct color to signify some importance.
+@@@Text@@@
+
+Simple button:
+This component is a part of a toggle button allowing the user to switch between "Simple" and "Advanced" views.
+@@@OutlineButton@@@
+
+Simple button state:
+This component signifies the current state of the toggle button indicating "Simple" is selected.
+@@@Container@@@
+
+1.36912 rate:
+This component shows the exchange rate for a currency pair. It uses a distinct color to signify some importance.
+@@@Text@@@
+
+0.88489 rate:
+This component shows another exchange rate for a currency pair, likely using the same widget type for consistency.
+@@@Text@@@
+
+Trade icon with label:
+This component is a bottom navigation item representing the "Trade" section with an icon and label.
+@@@BottomNavigationBarItem@@@
+
+Chart label:
+This component is another bottom navigation item that directs the user to the "Chart" section.
+@@@BottomNavigationBarItem@@@
+
+Quotes icon with label:
+This component is a bottom navigation item representing the "Quotes" section.
+@@@BottomNavigationBarItem@@@
+**Component Keyword:**
+Highlighted exchange rate
+
+**Component Function Description:**
+This text widget displays an exchange rate in a highlighted color, likely to draw attention to the latest or most significant value from a list of exchange rates.
+
+@@@Text@@@
+
+---
+
+**Component Keyword:**
+Upward arrow icon
+
+**Component Function Description:**
+This icon likely represents trading or growth, possibly used in a navigation bar to access trading-related features.
+
+@@@IconButton@@@
+
+---
+
+**Component Keyword:**
+Currency pair row (EURUSD example)
+
+**Component Function Description:**
+This list item displays the exchange rate for a currency pair, formatting two rates horizontally with distinct colors for clarity. Likely part of a scrolling list of rates.
+
+@@@ListTile@@@
+
+---
+
+**Component Keyword:**
+Currency pair row (AUDNZD example)
+
+**Component Function Description:**
+Similar to other currency rows, shows the rates for AUDNZD with prominent color coding, possibly indicating market status changes.
+
+@@@ListTile@@@
+
+---
+
+**Component Keyword:**
+Settings icon with label
+
+**Component Function Description:**
+A settings icon with a label, typically used as a button to access app settings or preferences.
+
+@@@BottomNavigationBarItem@@@
+
+---
+
+**Component Keyword:**
+Currency pair label (EURUSD)
+
+**Component Function Description:**
+A text label identifying a currency pair, used as part of a row in a list of exchange rates.
+
+@@@Text@@@
+
+---
+
+**Component Keyword:**
+Pencil icon above currency pair
+
+**Component Function Description:**
+A pencil icon, potentially indicating an editable field or feature related to the currency pair listed below it.
+
+@@@IconButton@@@
+
+---
+
+**Component Keyword:**
+Currency pair row (USDJPY example)
+
+**Component Function Description:**
+Displays the exchange rate for USDJPY, formatted in a horizontal layout with distinct colors, likely within a list view.
+
+@@@ListTile@@@
+
+---
+
+**Component Keyword:**
+Currency pair label (USDCHF)
+
+**Component Function Description:**
+A text label for the currency pair USDCHF used within a larger list to display available exchange rates.
+
+@@@Text@@@
+AUDCAD label:
+This appears to be a text widget displaying the name of a currency pair.
+@@@Text@@@
+
+0.92085 value:
+This is a text widget showing an exchange rate value, likely associated with a specific currency pair.
+@@@Text@@@
+
+1.30083 value:
+This is another text widget showing an exchange rate value, likely associated with a specific currency pair.
+@@@Text@@@
+
+Plus icon:
+This is an icon button which likely allows users to add or create new items such as currency pairs.
+@@@IconButton@@@
+
+Chart icon:
+This is an icon widget, probably used as part of a tab or button to switch to a chart view.
+@@@Icon@@@
+
+AUDUSD label:
+This appears to be a text widget displaying the name of a currency pair.
+@@@Text@@@
+
+History icon with label:
+This is a combination of an icon widget and a text widget, likely used within a BottomNavigationBar to switch to the history view.
+@@@BottomNavigationBarItem@@@
+
+NZDUSD label with values:
+This consists of a text widget for the currency pair label and text widgets for the exchange rate values.
+@@@Row@@@
+
+Advanced label:
+This is a text widget used within a tab bar or toggle button to switch to an advanced view.
+@@@Text@@@
+0.92095:
+This component is a numeric value display, likely representing a currency exchange rate, stock price, or some other financial metric.
+@@@Text@@@

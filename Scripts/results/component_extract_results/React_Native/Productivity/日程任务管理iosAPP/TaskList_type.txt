@@ -1,0 +1,110 @@
+Add description...:
+This is a Text Functional Component. It provides additional information for the task item, allowing users to add more details or a description to the task.
+@@@Text Functional Component@@@
+
+3:15PM - 3:40PM:
+This is a Text Functional Component. It indicates the time slot for the task, showing when the task is scheduled.
+@@@Text Functional Component@@@
+
+Horizontal lines icon:
+This is a Pressable component. It represents a menu button, which, when pressed, likely opens a navigation drawer or menu.
+@@@Pressable@@@
+
+2 Aug - 01:25:36:
+This is a Text Functional Component. It shows the current date and time, likely updated in real-time.
+@@@Text Functional Component@@@
+
+00:12:25:
+This is a Text Functional Component. It displays the duration or remaining time for the task.
+@@@Text Functional Component@@@
+
+Wireframe Design label:
+This is a Text Functional Component. It represents the name of one of the tasks or sessions listed in the app.
+@@@Text Functional Component@@@
+
+Working on these?:
+This is a Text Functional Component. It serves as a section header, indicating the tasks that the user is currently working on.
+@@@Text Functional Component@@@
+
+3:15PM:
+This is a Text Functional Component. It specifies the start time for a task or session.
+@@@Text Functional Component@@@
+
+Profile picture:
+This is a Function Component. It displays a profile picture, indicating the logged-in user or the owner of the task list.
+@@@Function Component@@@
+Lorem Ipsum is simply... :
+This is a Text Functional Component. It is likely used to display a truncated preview of a description or detail related to a task or event.
+@@@Text Functional Component@@@
+
+Add description...:
+This is a Text Functional Component. It provides a placeholder text indicating where users can add a description to a task or an event it is associated with.
+@@@Text Functional Component@@@
+
+00:25:35:
+This is a Text Functional Component. It is displaying the duration of an event or task in hours, minutes, and seconds.
+@@@Text Functional Component@@@
+
+Purple play button:
+This is a TouchableOpacity Function Component. It is likely used as a play or start button for playing media or beginning a session.
+@@@TouchableOpacity Function Component@@@
+
+Knowledge Session:
+This is a Text Functional Component. It is used to display the label of a task or an event, in this case, indicating a 'Knowledge Session'.
+@@@Text Functional Component@@@
+
+Add description...:
+This is a Text Functional Component. It provides a placeholder text indicating where users can add a description to a task or an event it is associated with.
+@@@Text Functional Component@@@
+
+Add description...:
+This is a Text Functional Component. It provides a placeholder text indicating where users can add a description to a task or an event it is associated with.
+@@@Text Functional Component@@@
+
+Sprint Planning & Discussion:
+This is a combination of Text Functional Component and TouchableOpacity Function Component. It represents a button for a task or event labeled "Sprint Planning & Discussion", with an embedded play icon indicating a possible action to start or view details about the event.
+@@@TouchableOpacity Function Component@@@
+
+Brainstorming session:
+This is a combination of Text Functional Component and TouchableOpacity Function Component. It represents a button for a task or event labeled "Brainstorming session", with an embedded play icon indicating a possible action to start or view details about the event.
+@@@TouchableOpacity Function Component@@@
+Component Keyword:
+This is a Text Functional Component. It displays the label "Onboarding Design" referring to the specific task within the app.
+@@@Text Functional Component@@@
+
+Component Keyword:
+This is a Text Functional Component. It displays the time "02:17:25," which is likely used to show the duration or countdown timer for an event or task.
+@@@Text Functional Component@@@
+
+Component Keyword:
+This is a Text Functional Component. It displays the label "Design Sprint," identifying another specific task name within the app.
+@@@Text Functional Component@@@
+
+Component Keyword:
+This is a Text Functional Component. It displays the label "Prototype Planning," identifying the specific name of a task or activity within the app.
+@@@Text Functional Component@@@
+
+Component Keyword:
+This is a Text Functional Component. It displays the time "00:25:35," likely indicating the duration or countdown timer for an event or task.
+@@@Text Functional Component@@@
+
+Component Keyword:
+This is a Button. It represents a hamburger menu icon, typically used to open a navigation drawer or menu within the app.
+@@@Button@@@
+
+Component Keyword:
+This is a Text Functional Component. It displays the time "01:12:25," likely showing the duration or countdown timer relevant to a task or event displayed in the UI.
+@@@Text Functional Component@@@
+
+Component Keyword:
+This is a Text Functional Component. It displays the label "API Team Discussion," indicating another specific task or event within the app.
+@@@Text Functional Component@@@
+
+Component Keyword:
+This is a Text Functional Component. It displays the text "3:15PM - 3:40PM," which represents the scheduled time interval for an activity.
+@@@Text Functional Component@@@
+
+
+Today:
+This is a Text Functional Component. It appears to serve as a header for the section that displays today's schedule.
+@@@Text Functional Component@@@

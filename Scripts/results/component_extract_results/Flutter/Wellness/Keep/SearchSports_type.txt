@@ -1,0 +1,95 @@
+室内跑步 (Indoor Running):
+This text widget labels a specific activity, indicating that users can select "Indoor Running."
+@@@Text@@@
+
+运动日历 (Exercise Calendar):
+This text widget is likely used to label a feature or section related to checking or planning exercise activities.
+@@@Text@@@
+
+室内骑行 (Indoor Cycling):
+This text widget labels a specific activity, indicating that users can select "Indoor Cycling."
+@@@Text@@@
+
+我的运动 (My Exercise):
+This text widget is used as a subtitle or section heading, indicating personalized or user-specific exercise data.
+@@@Text@@@
+
+爬楼梯 (Stair Climbing):
+This text widget labels a specific activity, indicating that users can select "Stair Climbing."
+@@@Text@@@
+
+Outdoor Walking Icon:
+This icon likely represents the "Outdoor Walking" activity, visually identifying it within the list.
+@@@Icon@@@
+
+Jump Rope Icon:
+This icon likely represents the "Jump Rope" activity, visually identifying it within the list.
+@@@Icon@@@
+
+跳绳 (Jump Rope):
+This text widget labels a specific activity, indicating that users can select "Jump Rope."
+@@@Text@@@
+
+户外行走 (Outdoor Walking):
+This text widget labels a specific activity, indicating that users can select "Outdoor Walking."
+@@@Text@@@
+Bicycle Icon:
+This icon represents an outdoor cycling activity.
+@@@Icon@@@
+
+Indoor Running Text and Icon:
+This text and icon combination represents an indoor running activity.
+@@@Row@@@
+
+Man Climbing Stairs Icon:
+This icon represents a stair climbing activity.
+@@@Icon@@@
+
+Select Exercise Type:
+This is the main title text prompting the user to select an exercise type.
+@@@Text@@@
+
+Exercise Duration:
+This text likely indicates the duration of the exercise or activity.
+@@@Text@@@
+
+Green Circle:
+This indicates a selected radio button or the selected state of an option.
+@@@Radio@@@
+
+Manage Text and Pencil Icon:
+This combination represents a manage button, likely for managing the exercises or settings.
+@@@Row@@@
+
+Man Walking Icon:
+This icon represents an outdoor walking activity.
+@@@Icon@@@
+
+Lightning Bolt Icon:
+This icon represents a workout or exercise calendar.
+@@@Icon@@@
+
+
+室内行走:
+This text widget displays the label for an activity named "Indoor Walking."
+@@@Text@@@
+
+户外骑行:
+This text widget displays the label for an activity named "Outdoor Cycling."
+@@@Text@@@
+
+Close icon:
+This icon acts as a button to close the current dialog or screen.
+@@@IconButton@@@
+
+Indoor cycling icon:
+This icon visually represents an indoor cycling activity.
+@@@Icon@@@
+
+户外跑步:
+This text widget displays the label for an activity named "Outdoor Running."
+@@@Text@@@
+
+Running icon:
+This icon visually represents a running activity.
+@@@Icon@@@

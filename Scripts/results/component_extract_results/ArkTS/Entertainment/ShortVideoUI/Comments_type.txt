@@ -1,0 +1,165 @@
+Likes count:
+This component represents the count of likes or favorites for a particular item.
+@@@arkTSText@@@
+
+View replies text:
+This component likely indicates a button or link to expand and view the replies to a comment.
+@@@arkTSButton@@@
+
+Comment timestamp:
+This component displays the time elapsed since the comment was posted.
+@@@arkTSText@@@
+
+For You tab:
+This component indicates a selectable tab within a tab bar, most likely switching the view to a "For You" section.
+@@@arkTSTabItem@@@
+
+Username:
+This component displays the username of the commenter.
+@@@arkTSText@@@
+
+Comment detail:
+This component represents the main text of the comment made by a user.
+@@@arkTSText@@@
+joshua_l:
+This appears to be a text label displaying a username within the app's comment section.
+@@@arkTSText@@@
+
+Like count:
+This is a numerical label showing the number of likes received on a comment.
+@@@arkTSLabel@@@
+
+No prressure 22h:
+This component seems to be a text label displaying a user's comment along with the time since it was posted.
+@@@arkTSText@@@
+
+Like count:
+This is a numerical label showing the number of likes received on a comment.
+@@@arkTSLabel@@@
+
+How neatly I write the date in my book 22h:
+This component is a text label displaying a user's comment along with the time since it was posted.
+@@@arkTSText@@@
+
+Wi-Fi signal icon:
+This icon indicates the Wi-Fi signal strength and connectivity status.
+@@@arkTSIcon@@@
+
+Profile picture:
+This image component appears to be a user's profile picture, used to visually represent the user's account.
+@@@arkTSImage@@@
+
+Like count:
+This is a numerical label showing the number of likes received on a comment.
+@@@arkTSLabel@@@
+
+View replies:
+This is a clickable text label that allows users to view the replies to a specific comment.
+@@@arkTSButton@@@
+
+zackjohn:
+This is a text label displaying a username, likely used to identify the person who made a comment.
+@@@arkTSText@@@
+
+Emoji:
+This is an emoji image used to represent facial expressions or gestures to convey emotion in messages.
+@@@arkTSImage@@@
+
+Doing this would make me so anxious 22h:
+This component shows a comment and timestamp, suggesting it displays user content along with when it was posted.
+@@@arkTSText@@@
+
+13h:
+This is a text label representing a timestamp, indicating how long ago a comment was made.
+@@@arkTSText@@@
+
+Reply box:
+This is likely an input field that allows users to add or type comments in response to the main content.
+@@@arkTSInput@@@
+
+View replies:
+A clickable text button allowing users to see replies to a specific comment.
+@@@arkTSButton@@@
+
+Heart and number:
+This icon represents a "like" button and count, indicating how many users liked a comment.
+@@@arkTSIcon@@@
+
+kiero_d:
+This text label displays a username, similar to other labels, used to identify comment authors.
+@@@arkTSText@@@
+1. Component Keyword:
+Cellular signal indicator with four bars:
+This is a network signal strength indicator that shows the current level of cellular connectivity.
+@@@arkTSIcon@@@
+
+2. Component Keyword:
+"Add comment..." placeholder text:
+A text input area allowing users to write and submit comments on an item or post.
+@@@arkTSTextInput@@@
+
+3. Component Keyword:
+Profile picture of a user:
+This is an image or avatar that represents a user's profile, often seen in comments or user profiles.
+@@@arkTSImage@@@
+
+4. Component Keyword:
+Username "maxjacobson":
+A text label displaying the username of a commenter or user.
+@@@arkTSText@@@
+
+5. Component Keyword:
+"579 comments" label:
+This text label indicates the number of comments on a post.
+@@@arkTSText@@@
+
+6. Component Keyword:
+User avatar with a mask:
+This is an emoji or icon representing a masked face, possibly indicating health precautions or emotion.
+@@@arkTSIcon@@@
+
+7. Component Keyword:
+"Following" label:
+A text label indicating a section or tab focused on content from followed users or items.
+@@@arkTSText@@@
+
+8. Component Keyword:
+Heart icon with number "8098":
+An icon indicating the ability to like or favorite a comment or post, accompanied by the count of likes.
+@@@arkTSIcon@@@
+Now that’:
+This is a text label displaying part of a user comment. It is used to display a snippet of text content entered by a user.
+@@@arkTSText@@@
+
+My OCD couldn’:
+This is a text label displaying part of another user comment. It is dedicated to showing user-generated text content within the app.
+@@@arkTSText@@@
+
+Icon of a user's profile picture:
+This appears to be a circular image representing a user's profile picture. It allows users to visually identify commenters.
+@@@arkTSImage@@@
+
+Sjpuld’:
+This is another text label showing part of a comment made by a user. It displays textual content provided by users.
+@@@arkTSText@@@
+
+Another user profile picture:
+This is a circular image representing a different user's profile picture, aiding in user recognition.
+@@@arkTSImage@@@
+
+@ icon for tagging:
+This icon is likely used for tagging other users in comments or posts. It supports interaction and social features within the app.
+@@@arkTSIcon@@@
+
+karenne:
+This is a text label displaying a user's username. It identifies who made a particular comment.
+@@@arkTSText@@@
+
+View replies:
+This text label indicates an option for users to view replies to a comment. It allows users to expand and read responses within a thread.
+@@@arkTSText@@@
+
+martini_rond:
+This is another text label showing a user's username. It helps in identifying the user who posted a specific comment.
+@@@arkTSText@@@
+I'm unable to view or analyze the images directly. Please describe each component image in detail, and I'll help you match them to the ArkTS library components.

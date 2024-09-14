@@ -1,0 +1,67 @@
+Payments label:
+This is a Text component. It serves as a heading, indicating the section where users can manage their payment methods and transactions.
+@@@Text Functional Component@@@
+
+Account Settings label:
+This is a Text component. It marks the section where users can manage their account settings.
+@@@Text Functional Component@@@
+
+Payments and transactions option:
+This is a Button component. When pressed, it likely navigates the user to a detailed view of their payment methods and transaction history.
+@@@Button@@@
+
+Your Amazon Day option:
+This is a Button component. When pressed, it probably takes the user to a feature where they can manage their scheduled Amazon deliveries.
+@@@Button@@@
+
+Manage gift card balance option:
+This is a Button component. When pressed, it likely navigates the user to a view where they can manage their gift card balance.
+@@@Button@@@
+
+Back arrow:
+This is a TouchableOpacity component. When pressed, it likely navigates the user back to the previous screen or page.
+@@@TouchableOpacity@@@
+
+In-Store Promo Wallet option:
+This is a Button component. When pressed, it likely navigates the user to a view where they can manage their in-store promotional wallet.
+@@@Button@@@
+
+Your Subscribe & Save option:
+This is a Button component. When pressed, it probably takes the user to a page where they can manage their subscription and save preferences.
+@@@Button@@@
+
+Search Bar:
+This is a View component. It encompasses the search functionality including the TextInput for search queries and icons for scanning and voice search.
+@@@View Function Component@@@
+
+Orders label:
+This is a Text component. It serves as the heading to the section where users can view their individual orders.
+@@@Text Functional Component@@@
+
+Search bar with microphone and camera icons:
+This is a View component that holds a text input and several icons for searching. The text input allows users to enter search queries, while the icons may allow for image or voice searches.
+@@@View Function Component@@@
+
+"Your Orders" list item:
+This is a TouchableOpacity component that leads to the user's orders page when pressed.
+@@@TouchableOpacity Function Component@@@
+
+"Contact Us" list item:
+This is a TouchableOpacity component that leads to a customer service contact page when pressed.
+@@@TouchableOpacity Function Component@@@
+
+Bottom navigation bar:
+This is a View component that contains several touchable icons representing different actions or navigation routes within the app, such as home, user profile, cart, and menu.
+@@@View Function Component@@@
+
+"Customer Service" label:
+This is a Text component, which is used to display a section header for customer service options.
+@@@Text Functional Component@@@
+
+"Top up account" list item:
+This is a TouchableOpacity component that leads to the top-up account interface when pressed.
+@@@TouchableOpacity Function Component@@@
+
+"Shop with Points" list item:
+This is a TouchableOpacity component that leads to a page for shopping with points when pressed.
+@@@TouchableOpacity Function Component@@@

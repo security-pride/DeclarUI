@@ -1,0 +1,62 @@
+Back arrow icon:
+This is a Button component. It's likely used for navigating back to the previous screen.
+@@@Button@@@
+
+Add location text and icon:
+This is an example of a ButtonWithChildComponent filled with a Text component and an icon for adding a new location.
+@@@ButtonWithChildComponent@@@
+
+Current location text:
+This is a Text Functional Component. It serves as a label to indicate the user's current location.
+@@@Text Functional Component@@@
+
+Automatic detection switch:
+This is a Switch component. It allows users to toggle automatic location detection on or off.
+@@@Switch@@@
+
+Automatic detection text:
+This is a Text Functional Component. It explains the function of the adjacent switch.
+@@@Text Functional Component@@@
+
+General description text at the bottom:
+This is a Text Functional Component. It provides additional information or instructions regarding the automatic detection feature.
+@@@Text Functional Component@@@
+
+Status bar icons (such as battery, signal, time):
+These are Image Function Components. They are part of the status bar indicating various statuses like battery level, signal strength, and current time.
+@@@Image Function Component@@@
+
+Edit location text:
+This is a Text Functional Component. It serves as the page title or section header.
+@@@Text Functional Component@@@
+
+Circular icon (possibly profile picture or logo):
+This is an Image Function Component. It likely represents a user's profile picture or an application logo.
+@@@Image Function Component@@@
+
+Wi-Fi signal icon:
+This is an Image Function Component. It indicates the status of the Wi-Fi connection.
+@@@Image Function Component@@@
+
+Battery icon:
+This is an Image Function Component. It displays the current battery level.
+@@@Image Function Component@@@
+
+SD card icon:
+This is an Image Function Component. It represents the presence/use of an external SD card.
+@@@Image Function Component@@@
+
+Diagonal icon:
+This is an Image Function Component. It might be used as a decorative or navigational element.
+@@@Image Function Component@@@
+
+Clock icon (with time 7:11):
+This is an Image Function Component. It shows the current time.
+@@@Image Function Component@@@
+Location Pin Icon:
+This is a Function Component. It's an icon representing a location and is likely used to indicate the user's current location or a location of interest.
+@@@Function Component@@@
+
+Add Location Text and Icon:
+This is a Text Functional Component. It appears to be a label that, when pressed, allows the user to add a new location to their list of locations.
+@@@Text Functional Component@@@

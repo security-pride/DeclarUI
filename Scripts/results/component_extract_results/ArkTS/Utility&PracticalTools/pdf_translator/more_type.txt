@@ -1,0 +1,80 @@
+Share label:
+This is a text label that likely indicates a sharing functionality for the user to share the selected file.
+@@@arkTSText@@@
+
+PDF file item:
+This component likely represents an item in a list of PDF files, including details like the file name, date, and size.
+@@@arkTSListItem@@@
+
+Rename label:
+This is a text label that likely indicates a functionality to rename the selected file.
+@@@arkTSText@@@
+
+Time display (9:41):
+This component shows the current time as part of the status bar.
+@@@arkTSStatus@@@
+
+PDF file icon:
+This component is likely an icon that represents a PDF file associated with the list item.
+@@@arkTSIcon@@@
+
+Search icon:
+This is a search icon, likely part of a search bar component allowing users to search through their files.
+@@@arkTSIcon@@@
+
+Options menu icon:
+This is an options menu icon, typically providing more actions for the user related to the listed item.
+@@@arkTSIcon@@@
+
+Menu icon:
+This is a menu icon, likely suggesting additional actions or navigation options.
+@@@arkTSIcon@@@
+
+Share icon:
+This is a share icon, allowing users to share the file through various sharing options.
+@@@arkTSIcon@@@
+Component Keyword:
+Battery status indicator:
+This shows the current battery level of the device.
+@@@arkTSBattery@@@
+
+Component Keyword:
+PDF file card:
+This is an item card displaying a PDF file's details, such as the name, date, and file size.
+@@@arkTSListItem@@@
+
+Component Keyword:
+Signal strength icon:
+This represents the current mobile or Wi-Fi signal strength.
+@@@arkTSSignal@@@
+
+Component Keyword:
+File card with PDF details:
+This is a list item showing details for a PDF file, including the name, date, and size.
+@@@arkTSListItem@@@
+
+Component Keyword:
+Delete icon:
+This is an icon used to delete an item, likely providing a way to remove files or content.
+@@@arkTSIcon@@@
+
+Component Keyword:
+Delete label:
+This text label accompanies a delete button or option within the app.
+@@@arkTSText@@@
+
+Component Keyword:
+File card with PDF details:
+This is a list item showing details for a PDF file, including the name, date, and size.
+@@@arkTSListItem@@@
+
+Component Keyword:
+"PDF file management" header:
+This text label indicates the current section or functionality of the app, translating to "PDF file management."
+@@@arkTSText@@@
+
+Component Keyword:
+Wi-Fi icon:
+This icon indicates the current Wi-Fi connection status.
+@@@arkTSWiFi@@@
+I'm unable to view component images or match them directly. Please provide the component images individually, and I can help you describe them based on the description provided.

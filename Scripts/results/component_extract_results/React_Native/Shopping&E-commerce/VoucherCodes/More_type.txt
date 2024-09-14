@@ -1,0 +1,248 @@
+Component Keyword:
+This is a Text Functional Component. It displays the section title "Reward Offers" at the top of the screen.
+@@@Text Functional Component@@@
+
+Component Keyword:
+This is a Text Functional Component. It shows the description and details of the Amazon offer.
+@@@Text Functional Component@@@
+
+Component Keyword:
+This is a Text Functional Component. It displays the label "Online Reward" indicating the type of reward.
+@@@Text Functional Component@@@
+
+Component Keyword:
+This is a Text Functional Component. It shows the end date "Ends 22 Jul" for the Amazon offer.
+@@@Text Functional Component@@@
+
+Component Keyword:
+This is a Text Functional Component. It describes the Currys voucher offer.
+@@@Text Functional Component@@@
+
+Component Keyword:
+This is a Text Functional Component. It shows the end date "Ends 1 Aug" for the Currys offer.
+@@@Text Functional Component@@@
+
+Component Keyword:
+This is a Text Functional Component. It describes the Just Eat voucher offer.
+@@@Text Functional Component@@@
+
+Component Keyword:
+This is a Text Functional Component. It shows the end date "Ends today" for the Just Eat offer.
+@@@Text Functional Component@@@
+
+Component Keyword:
+This is a Text Functional Component. It describes the Booking.com offer.
+@@@Text Functional Component@@@
+
+Component Keyword:
+This is a Text Functional Component. It shows the end date "Ends 1 Aug" for the Booking.com offer.
+@@@Text Functional Component@@@
+
+Component Keyword:
+This is a View Function Component. It contains and organizes the reward offer details and layout.
+@@@View Function Component@@@
+
+Component Keyword:
+This is a View Function Component. It organizes the bottom navigation bar and its items.
+@@@View Function Component@@@
+
+Component Keyword:
+This is a Button. It represents the back navigation button in the header.
+@@@Button@@@
+
+Component Keyword:
+This is an Image Function Component. It displays the Amazon logo associated with the offer.
+@@@Function Component@@@
+
+Component Keyword:
+This is an Image Function Component. It displays the Currys logo associated with the offer.
+@@@Function Component@@@
+
+Component Keyword:
+This is an Image Function Component. It displays the Just Eat logo associated with the offer.
+@@@Function Component@@@
+
+Component Keyword:
+This is an Image Function Component. It displays the Booking.com logo associated with the offer.
+@@@Function Component@@@
+
+Component Keyword:
+This is an Image Function Component. It represents the "Account" icon in the bottom navigation.
+@@@Function Component@@@
+
+Component Keyword:
+This is an Image Function Component. It represents the "VIP" icon in the bottom navigation.
+@@@Function Component@@@
+
+Component Keyword:
+This is an Image Function Component. It represents the "Search" icon in the bottom navigation.
+@@@Function Component@@@
+
+Component Keyword:
+This is an Image Function Component. It represents the "Discover" icon in the bottom navigation.
+@@@Function Component@@@
+
+Component Keyword:
+This is an Image Function Component. It represents the Booking.com logo associated with the offer.
+@@@Function Component@@@
+
+Component Keyword:
+This is an Image Function Component. It represents the Amazon logo associated with the offer.
+@@@Function Component@@@
+
+Component Keyword:
+This is an Image Function Component. It represents the Just Eat logo associated with the offer.
+@@@Function Component@@@
+
+Component Keyword:
+This is an Image Function Component. It represents the Currys logo associated with the offer.
+@@@Function Component@@@
+Component Keyword:
+Reward Offers header text
+Component Function Description:
+This is a Text Functional Component. It serves as a header to indicate the section for reward offers in the app.
+@@@Text Functional Component@@@
+
+Component Keyword:
+Amazon reward card
+Component Function Description:
+This is a View Function Component. It contains various elements like text, an image, and buttons to display and interact with the Amazon reward offer.
+@@@View Function Component@@@
+
+Component Keyword:
+Currys reward card
+Component Function Description:
+This is a View Function Component. It contains various elements like text, an image, and buttons to display and interact with the Currys reward offer.
+@@@View Function Component@@@
+
+Component Keyword:
+Just Eat reward card
+Component Function Description:
+This is a View Function Component. It contains various elements like text, an image, and buttons to display and interact with the Just Eat reward offer.
+@@@View Function Component@@@
+
+Component Keyword:
+Booking.com reward card
+Component Function Description:
+This is a View Function Component. It contains various elements like text, an image, and buttons to display and interact with the Booking.com reward offer.
+@@@View Function Component@@@
+
+Component Keyword:
+Bottom navigation bar
+Component Function Description:
+This is a View Function Component. It contains multiple buttons and icons allowing users to navigate through different sections of the app such as Discover, Search, VIP, and Account.
+@@@View Function Component@@@
+
+Component Keyword:
+Discover icon
+Component Function Description:
+This is a Button with an icon, likely a Pressable or TouchableOpacity Function Component. It allows users to navigate to the Discover section of the app.
+@@@TouchableOpacity Function Component@@@
+
+Component Keyword:
+Search icon
+Component Function Description:
+This is a Button with an icon, likely a Pressable or TouchableOpacity Function Component. It allows users to navigate to the Search section of the app.
+@@@TouchableOpacity Function Component@@@
+
+Component Keyword:
+VIP icon with "NEW" label
+Component Function Description:
+This is a Button with an icon and a Text Functional Component, likely a Pressable or TouchableOpacity Function Component. It indicates a new feature or section called VIP.
+@@@TouchableOpacity Function Component@@@
+
+Component Keyword:
+Account icon
+Component Function Description:
+This is a Button with an icon, likely a Pressable or TouchableOpacity Function Component. It allows users to navigate to the Account section of the app.
+@@@TouchableOpacity Function Component@@@
+
+Component Keyword:
+Amazon.co.uk logo
+Component Function Description:
+This is an Image Function Component. It displays the Amazon.co.uk logo as part of the reward offer card.
+@@@Function Component@@@
+
+Component Keyword:
+Currys logo
+Component Function Description:
+This is an Image Function Component. It displays the Currys logo as part of the reward offer card.
+@@@Function Component@@@
+
+Component Keyword:
+Just Eat logo
+Component Function Description:
+This is an Image Function Component. It displays the Just Eat logo as part of the reward offer card.
+@@@Function Component@@@
+
+Component Keyword:
+Booking.com logo
+Component Function Description:
+This is an Image Function Component. It displays the Booking.com logo as part of the reward offer card.
+@@@Function Component@@@
+
+Component Keyword:
+Ends 22 Jul text
+Component Function Description:
+This is a Text Functional Component. It provides information about the expiration date of the Amazon reward offer.
+@@@Text Functional Component@@@
+
+Component Keyword:
+Ends 1 Aug text (Currys)
+Component Function Description:
+This is a Text Functional Component. It provides information about the expiration date of the Currys reward offer.
+@@@Text Functional Component@@@
+
+Component Keyword:
+Ends today text
+Component Function Description:
+This is a Text Functional Component. It provides information about the expiration date of the Just Eat reward offer.
+@@@Text Functional Component@@@
+
+Component Keyword:
+Ends 1 Aug text (Booking.com)
+Component Function Description:
+This is a Text Functional Component. It provides information about the expiration date of the Booking.com reward offer.
+@@@Text Functional Component@@@
+
+Component Keyword:
+Free £3 Amazon Voucher text
+Component Function Description:
+This is a Text Functional Component. It details the offer available in the Just Eat reward card.
+@@@Text Functional Component@@@
+
+Component Keyword:
+Exclusive Great Savings text
+Component Function Description:
+This is a Text Functional Component. It details the offer available in the Amazon reward card.
+@@@Text Functional Component@@@
+
+Component Keyword:
+Exclusive Free £10 Currys Voucher text
+Component Function Description:
+This is a Text Functional Component. It details the offer available in the Currys reward card.
+@@@Text Functional Component@@@
+
+Component Keyword:
+Exclusive 15% off Selected Hotel Bookings text
+Component Function Description:
+This is a Text Functional Component. It details the offer available in the Booking.com reward card.
+@@@Text Functional Component@@@
+
+Component Keyword:
+Online Reward label text
+Component Function Description:
+This is a Text Functional Component. It categorizes the type of reward as an online reward.
+@@@Text Functional Component@@@
+
+Component Keyword:
+Prime Day Deals Plus text
+Component Function Description:
+This is a Text Functional Component. It provides more specific details about the Amazon reward offer.
+@@@Text Functional Component@@@
+
+Component Keyword:
+VIP label text
+Component Function Description:
+This is a Text Functional Component. It indicates a special section or feature in the app.
+@@@Text Functional Component@@@

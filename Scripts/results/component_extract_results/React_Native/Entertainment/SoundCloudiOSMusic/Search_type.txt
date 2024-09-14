@@ -1,0 +1,124 @@
+Kanye West label:
+This is a Text functional component. It displays the name of the currently playing artist or song.
+@@@Text Functional Component@@@
+
+Collage image icon:
+This is an Image functional component. It likely represents the cover art for a track or list of tracks.
+@@@Function Component@@@
+
+Orange circle logo:
+This is an Image functional component. It likely represents the app's logo or a key icon that triggers the main function of the app.
+@@@Function Component@@@
+
+Red cover art:
+This is an Image functional component. It displays the cover art for the song 'One Kiss' by Calvin Harris & Dua Lipa.
+@@@Function Component@@@
+
+Hand graphic image:
+This is an Image functional component. It displays the cover art for the song 'Nice For What' by Drake.
+@@@Function Component@@@
+
+9:41 AM label:
+This is a Text functional component. It displays the current time on the device's status bar.
+@@@Text Functional Component@@@
+
+All Mine label:
+This is a Text functional component. It displays the title of the currently playing song.
+@@@Text Functional Component@@@
+
+Icons with headphones and magnifying glass:
+These are Image functional components. They likely represent navigation icons, with the headphones for a library or listening section and the magnifying glass for a search feature.
+@@@Function Component@@@
+
+Search that song! input:
+This is a TextInput component. It allows users to type in and search for songs.
+@@@TextInput@@@
+Person Icon:
+This is an Image component. It's likely used to depict the user's profile or account section in the application.
+@@@Function Component@@@
+
+Back To You - Selena Gomez label:
+This is a Text component. It is used to display the name of the song and the artist.
+@@@Text Functional Component@@@
+
+No Tears Left To Cry - Ariana Grande label:
+This is a Text component. It is used to display the name of the song and the artist.
+@@@Text Functional Component@@@
+
+No Tears Left To Cry song image:
+This is an Image component. It is used to display the album cover or song thumbnail.
+@@@Function Component@@@
+
+Lucid Dreams - Juice WRLD label:
+This is a Text component. It is used to display the name of the song and the artist.
+@@@Text Functional Component@@@
+
+Lucid Dreams song image:
+This is an Image component. It is used to display the album cover or song thumbnail.
+@@@Function Component@@@
+
+Recents label:
+This is a Text component. It labels a section of the app where recent activity or recently played songs are listed.
+@@@Text Functional Component@@@
+
+Better Now - Post Malone label:
+This is a Text component. It is used to display the name of the song and the artist.
+@@@Text Functional Component@@@
+
+Better Now song image:
+This is an Image component. It is used to display the album cover or song thumbnail.
+@@@Function Component@@@
+Girls Like You (feat Cardi B):
+This is a Text Functional Component. It displays the song title and the artist's name.
+@@@Text Functional Component@@@
+
+Profile picture with blue sunglasses:
+This is an Image Function Component. It shows the album or artwork associated with the song.
+@@@Function Component@@@
+
+Kimberly Evans:
+This is a Text Functional Component. It displays the song title and the artist's name.
+@@@Text Functional Component@@@
+
+Profile picture with white cat:
+This is an Image Function Component. It shows the album or artwork associated with the song.
+@@@Function Component@@@
+
+Search bar:
+This is a TextInput component. It allows users to search for songs.
+@@@TextInput@@@
+
+Youngblood:
+This is a Text Functional Component. It displays the song title.
+@@@Text Functional Component@@@
+
+Double album cover:
+This is an Image Function Component. It shows the album or artwork associated with two recent songs.
+@@@Function Component@@@
+
+Nice For What - Drake with 'x' icon:
+This is a View Function Component. It includes the Text component for the song title and artist's name and a Button component (the 'x' icon) to remove the song.
+@@@View Function Component@@@
+
+Circle icon:
+This is a Button component. It likely represents an interactive button within the app.
+@@@Button@@@
+WiFi icon:
+This is an Image component. It likely indicates the status of WiFi connectivity.
+@@@Function Component@@@
+
+Song album cover (Nice For What):
+This is an Image component. It displays the album art for a song in the list of recent songs.
+@@@Function Component@@@
+
+Song album cover (I Like It):
+This is an Image component. It displays the album art for a song in the list of recent songs.
+@@@Function Component@@@
+
+App Logo:
+This is an Image component. It displays the application logo, likely for branding purposes.
+@@@Function Component@@@
+
+Song Title and Artist (I Like It, Cardi B, Bad Bunny, J Balvin):
+This is a Text component. It displays the song title and artists' names for an entry in the list of recent songs.
+@@@Text Functional Component@@@

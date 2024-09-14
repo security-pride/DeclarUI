@@ -1,0 +1,128 @@
+LIVE UPDATES label:
+This is a text widget that displays the label "LIVE UPDATES," which is likely used to indicate real-time updates or important information.
+@@@Text@@@
+
+U.S. Politics label:
+This is a text widget displaying the section title "U.S. Politics," indicating a specific category or section of the news.
+@@@Text@@@
+
+Minute-by-minute: Visual timeline of the assassination attempt on Donald Trump label:
+This is a headline text widget, displaying a detailed news story title.
+@@@Text@@@
+
+Top News label:
+This is a text widget displaying the section title "Top News," indicating a primary section of the application.
+@@@Text@@@
+
+Battery icon:
+This icon represents the battery status of the device.
+@@@Icon@@@
+
+Bottom navigation bar:
+These are buttons within the BottomNavigationBar widget, providing navigation options such as Home, Elections, Watch, and Settings.
+@@@BottomNavigationBar@@@
+
+Minute-by-minute: Visual timeline of the assassination attempt on Donald Trump label (duplicate):
+This is a headline text widget, displaying a detailed news story title.
+@@@Text@@@
+
+"Business" tab label:
+This is a part of a TabBar widget, displaying the label for the "Business" section.
+@@@TabBar@@@
+
+Search icon:
+This is an icon representing a search function, typically used to initiate a search action.
+@@@Icon@@@
+Top News tab:
+This is a tab label that is part of a TabBar, indicating the currently selected category "Top News".
+@@@Text@@@
+
+CNN Logo:
+This image likely serves as a brand logo at the top of the screen.
+@@@Image@@@
+
+Search icon:
+This icon is typically used to represent a search function in the app.
+@@@Icon@@@
+
+Header text in the article section:
+"Minute-by-minute: Visual timeline of the assassination attempt on Donald Trump"
+This is a text widget functioning as a headline for an article.
+@@@Text@@@
+
+Article image with blurred faces:
+This image represents an illustration or photograph relevant to the article.
+@@@Image@@@
+
+Subheadline text:
+"7h ago"
+This is a text widget indicating the time of article publication.
+@@@Text@@@
+
+Live Updates label:
+"LIVE UPDATES"
+This is a text widget, possibly styled to stand out (e.g., red color, bold).
+@@@Text@@@
+
+Live Updates description:
+"Biden condemns Trump shooting; authorities search for gunman’s motive"
+This is a text widget representing additional details for the "LIVE UPDATES" section.
+@@@Text@@@
+
+Video icon with label:
+This icon and text pair function as a button or label indicating a video is available for viewing.
+@@@Row@@@
+
+Video description:
+"Watch Biden’s entire Oval Office address"
+This is a text widget describing the content of the video.
+@@@Text@@@
+
+Analysis label:
+"ANALYSIS"
+This is a text widget, likely styled to stand out, indicating the type of article.
+@@@Text@@@
+
+Analysis description:
+"A nation traumatized and a campaign transformed as Trump is set to reemerge"
+This is a text widget representing the analysis title or description.
+@@@Text@@@
+
+Bottom navigation bar:
+The icons and labels (Home, Elections, Watch, Settings) at the bottom represent navigation items in a BottomNavigationBar.
+@@@BottomNavigationBar@@@
+
+Home icon:
+An icon within the BottomNavigationBar to navigate to the home section.
+@@@Icon@@@
+
+Home label:
+The text label "Home” paired with the home icon.
+@@@Text@@@
+
+Elections icon:
+An icon within the BottomNavigationBar to navigate to the elections section.
+@@@Icon@@@
+
+Elections label:
+The text label "Elections" paired with the elections icon.
+@@@Text@@@
+
+Watch icon:
+An icon within the BottomNavigationBar to navigate to the watch section.
+@@@Icon@@@
+
+Watch label:
+The text label "Watch" paired with the watch icon.
+@@@Text@@@
+
+Settings icon:
+An icon within the BottomNavigationBar to navigate to the settings section.
+@@@Icon@@@
+
+Settings label:
+The text label "Settings" paired with the settings icon.
+@@@Text@@@
+"BUTLER FARM SHOW GROUNDS" label:
+This is a text widget that displays the name of a location, possibly included on the news card to give context to the images or the article.
+@@@Text@@@

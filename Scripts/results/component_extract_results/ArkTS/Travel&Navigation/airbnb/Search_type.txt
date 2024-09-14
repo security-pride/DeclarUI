@@ -1,0 +1,67 @@
+湖区 (Lake District) icon:
+This is an icon accompanied by a label "湖区" which translates to "Lake District," likely part of a menu or category selection.
+@@@arkTSIcon@@@
+
+添加人数 (Add People) label:
+This is a text label that says "添加人数" which translates to "Add People," likely used in a form to specify the number of people.
+@@@arkTSText@@@
+
+行程 (Itinerary) icon:
+This is an icon accompanied by a label "行程" which translates to "Itinerary," likely used in the app's footer or navigation bar for directing users to their itinerary.
+@@@arkTSIcon@@@
+
+小木屋 (Cottage) icon:
+This is an icon accompanied by a label "小木屋" which translates to "Cottage," likely part of a menu or category selection.
+@@@arkTSIcon@@@
+
+消息 (Messages) icon:
+This is an icon accompanied by a label "消息" which translates to "Messages," likely used in the app's footer or navigation bar for directing users to a messaging feature.
+@@@arkTSIcon@@@
+
+Image carousel indicator button:
+This is a small button likely used for cycling through different images within an image carousel component.
+@@@arkTSButton@@@
+
+Search bar:
+This appears to be a search input field that allows users to enter text for searching content within the app. The text says "任何地方," which translates to "Anywhere."
+@@@arkTSSearch@@@
+
+王牌 (Ace) icon:
+This is an icon accompanied by a label "王牌" which translates to "Ace," likely part of a menu or category selection.
+@@@arkTSIcon@@@
+
+我的 (My Account) icon:
+This is an icon accompanied by a label "我的" which translates to "My Account," likely used in the app's footer or navigation bar to access user account settings.
+@@@arkTSIcon@@@
+
+Search bar:
+This appears to be a search input field that allows users to enter text for searching content within the app.
+@@@arkTSSearch@@@
+
+Share button:
+This icon represents a share button, allowing users to share the content they are viewing.
+@@@arkTSButton@@@
+
+"心愿单" (Wishlist) label:
+This is a text label that likely indicates a section for items the user wishes to save or purchase later.
+@@@arkTSText@@@
+
+"湖区" (Lake Area) icon:
+This icon represents a category or section related to lake areas within the app.
+@@@arkTSIcon@@@
+
+"探索" (Explore) button:
+This bottom navigation icon signifies the "Explore" section, where users can discover new content.
+@@@arkTSBottomNavigation@@@
+
+Carousel image:
+This image is likely part of a carousel component, used to display multiple images that users can swipe through.
+@@@arkTSCarousel@@@
+
+"魅力泳池" (Charming Pool) icon:
+This icon represents a category or section related to pools within the app.
+@@@arkTSIcon@@@
+
+"海景民宿" (Seaside Guesthouse) icon:
+This icon denotes the category or section related to seaside guesthouses within the app.
+@@@arkTSIcon@@@
