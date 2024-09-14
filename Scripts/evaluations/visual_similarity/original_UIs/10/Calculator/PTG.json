@@ -1,0 +1,87 @@
+{
+  "N": [
+    {
+      "id": "ClearHistory",
+      "name": "Clear History View",
+      "type": "calculator",
+      "props": {
+        "theme": "dark",
+        "historyVisible": false
+      }
+    },
+    {
+      "id": "DefaultView",
+      "name": "Default Calculator View",
+      "type": "calculator",
+      "props": {
+        "theme": "light",
+        "keypadType": "standard"
+      }
+    },
+    {
+      "id": "ExpandedView",
+      "name": "Expanded Calculator View",
+      "type": "calculator",
+      "props": {
+        "theme": "light",
+        "keypadType": "scientific"
+      }
+    },
+    {
+      "id": "ExpandedView-ShowHistory",
+      "name": "Expanded View with History",
+      "type": "calculator",
+      "props": {
+        "theme": "light",
+        "keypadType": "scientific",
+        "historyVisible": true
+      }
+    },
+    {
+      "id": "ShowHistory",
+      "name": "History View",
+      "type": "calculator",
+      "props": {
+        "theme": "light",
+        "historyVisible": true
+      }
+    }
+  ],
+  "E": [
+    {
+      "id": "toggleTheme",
+      "from": "ClearHistory",
+      "to": "DefaultView",
+      "conditions": "switchToLightThemeClicked",
+      "actions": "changeThemeToLight"
+    },
+    {
+      "id": "expandKeypad",
+      "from": "DefaultView",
+      "to": "ExpandedView",
+      "conditions": "expandButtonClicked",
+      "actions": "showScientificKeypad"
+    },
+    {
+      "id": "showHistory",
+      "from": "ExpandedView",
+      "to": "ExpandedView-ShowHistory",
+      "conditions": "historyButtonClicked",
+      "actions": "displayCalculationHistory"
+    },
+    {
+      "id": "collapseKeypad",
+      "from": "ExpandedView-ShowHistory",
+      "to": "ShowHistory",
+      "conditions": "collapseButtonClicked",
+      "actions": "hideScientificKeypad"
+    },
+    {
+      "id": "clearHistory",
+      "from": "ShowHistory",
+      "to": "ClearHistory",
+      "conditions": "clearHistoryButtonClicked",
+      "actions": "eraseCalculationHistory"
+    }
+  ]
+}
