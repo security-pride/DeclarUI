@@ -1,0 +1,104 @@
+import router from '@ohos.router';
+
+interface SearchResult {
+  name: string;
+  fullName: string;
+  followers: string;
+}
+
+@Entry
+@Component
+struct SearchPage {
+  @State searchResults: SearchResult[] = [
+    { name: 'aura', fullName: 'Aura Brown', followers: '500 mil' },
+    { name: 'rick', fullName: 'Rick Wright', followers: '500 mil' },
+    { name: 'mike', fullName: 'Mike Torello', followers: '500 mil' },
+    { name: 'theodore', fullName: 'Theodore T.C. Calvin', followers: '500 mil' },
+    { name: 'kate', fullName: 'Kate Tanner', followers: '500 mil' },
+    { name: 'thomas', fullName: 'Thomas Magnum', followers: '500 mil' },
+    { name: 'april', fullName: 'April Curtis', followers: '500 mil' }
+  ]
+
+  build() {
+    Column() {
+      Row() {
+        Text('Search')
+          .fontSize(24)
+          .fontWeight(FontWeight.Bold)
+          .fontColor(Color.White)
+      }
+      .width('100%')
+      .padding({ left: 16, right: 16, top: 8, bottom: 8 })
+
+      Search({ placeholder: 'Search' })
+        .width('90%')
+        .height(40)
+        .backgroundColor('#333333')
+        .placeholderColor(Color.Gray)
+        .textColor(Color.White)
+        .margin({ top: 8, bottom: 16 })
+
+      List() {
+        ForEach(this.searchResults, (item: SearchResult) => {
+          ListItem() {
+            Row() {
+              Column() {
+                Text(item.name)
+                  .fontSize(16)
+                  .fontWeight(FontWeight.Bold)
+                  .fontColor(Color.White)
+                Text(item.fullName)
+                  .fontSize(14)
+                  .fontColor(Color.Gray)
+                Text(item.followers + ' followers')
+                  .fontSize(14)
+                  .fontColor(Color.Gray)
+              }
+              .alignItems(HorizontalAlign.Start)
+
+              Blank()
+
+              Button('Follow', { type: ButtonType.Capsule })
+                .height(32)
+                .backgroundColor(Color.White)
+                .fontColor(Color.Black)
+            }
+            .width('100%')
+            .padding({ top: 8, bottom: 8 })
+          }
+          .onClick(() => {
+            router.pushUrl({ url: 'pages/UserProfilePage' })
+          })
+        })
+      }
+      .layoutWeight(1)
+
+      Row() {
+        Image($r('app.media.template'))
+          .width(24)
+          .height(24)
+          .onClick(() => router.pushUrl({ url: 'pages/FeedPage' }))
+        Image($r('app.media.template'))
+          .width(24)
+          .height(24)
+        Image($r('app.media.template'))
+          .width(24)
+          .height(24)
+        Image($r('app.media.template'))
+          .width(24)
+          .height(24)
+          .onClick(() => router.pushUrl({ url: 'pages/ActivityPage' }))
+        Image($r('app.media.template'))
+          .width(24)
+          .height(24)
+      }
+      .width('100%')
+      .justifyContent(FlexAlign.SpaceAround)
+      .padding({ top: 8, bottom: 8 })
+      .backgroundColor(Color.Black)
+    }
+    .width('100%')
+    .height('100%')
+    .backgroundColor(Color.Black)
+  }
+}

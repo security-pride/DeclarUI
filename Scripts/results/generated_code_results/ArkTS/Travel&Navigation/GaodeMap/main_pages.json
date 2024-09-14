@@ -1,0 +1,9 @@
+{
+    "src": [
+        "pages/GasInformationPage",
+        "pages/GasStationDetailsPage",
+        "pages/HomePage",
+        "pages/TicketSearchResultPage",
+        "pages/TicketServicePage"
+    ]
+}

@@ -1,0 +1,132 @@
+import router from '@ohos.router';
+
+interface OfferDetails {
+  title: string;
+  subtitle: string;
+  type: string;
+  expiryDate: string;
+}
+
+@Entry
+@Component
+struct DetailsPage {
+  @State offer: OfferDetails = {
+    title: 'Exclusive Free £50 Currys Voucher with Vodafone Pay Monthly Contracts',
+    subtitle: 'Use with Code VC10OFF for £10 off Upfront Cost of Handsets',
+    type: 'Online Reward',
+    expiryDate: 'Ends 20 Jul'
+  };
+
+  build() {
+    Column() {
+      Row() {
+        Image($r('app.media.template'))
+          .width(24)
+          .height(24)
+          .onClick(() => {
+            router.pushUrl({ url: 'pages/SearchPage' })
+          })
+        Text('MOBILES.CO.UK')
+          .fontSize(20)
+          .fontWeight(FontWeight.Bold)
+          .margin({ left: 16 })
+      }
+      .width('100%')
+      .height(56)
+      .padding({ left: 16, right: 16 })
+      .backgroundColor('#F5F5F5')
+
+      Scroll() {
+        Column() {
+          Image($r('app.media.template'))
+            .width(80)
+            .height(80)
+            .margin({ top: 24, bottom: 16 })
+
+          Text(this.offer.title)
+            .fontSize(18)
+            .fontWeight(FontWeight.Bold)
+            .textAlign(TextAlign.Center)
+            .margin({ bottom: 8 })
+
+          Text(this.offer.subtitle)
+            .fontSize(16)
+            .textAlign(TextAlign.Center)
+            .margin({ bottom: 16 })
+
+          Row() {
+            Text(this.offer.type)
+              .fontSize(14)
+              .fontColor(Color.Orange)
+            Text(this.offer.expiryDate)
+              .fontSize(14)
+              .fontColor(Color.Gray)
+              .margin({ left: 16 })
+          }
+          .margin({ bottom: 24 })
+
+          Text('Terms and Conditions')
+            .fontSize(16)
+            .fontWeight(FontWeight.Bold)
+            .onClick(() => {
+              router.pushUrl({ url: 'pages/TermsPage' })
+            })
+            .margin({ bottom: 16 })
+
+          Row() {
+            Image($r('app.media.template'))
+              .width(24)
+              .height(24)
+            Text('This is a VIP retailer! VIPs get a £5 gift card for every two shops with any VIP retailer')
+              .fontSize(14)
+              .margin({ left: 8 })
+          }
+          .backgroundColor('#FFF7E6')
+          .padding(16)
+          .borderRadius(8)
+          .margin({ bottom: 24 })
+
+          Button('Sign In to Get Reward')
+            .width('90%')
+            .height(48)
+            .backgroundColor('#FFD700')
+            .fontColor(Color.Black)
+        }
+        .width('100%')
+        .padding({ left: 16, right: 16 })
+      }
+      .layoutWeight(1)
+
+      Row() {
+        Column() {
+          Image($r('app.media.template')).width(24).height(24)
+          Text('Discover').fontSize(12)
+        }.layoutWeight(1).onClick(() => {
+          router.pushUrl({ url: 'pages/SearchPage' })
+        })
+
+        Column() {
+          Image($r('app.media.template')).width(24).height(24)
+          Text('Search').fontSize(12)
+        }.layoutWeight(1).onClick(() => {
+          router.pushUrl({ url: 'pages/SearchPage' })
+        })
+
+        Column() {
+          Image($r('app.media.template')).width(24).height(24)
+          Text('VIP').fontSize(12)
+        }.layoutWeight(1)
+
+        Column() {
+          Image($r('app.media.template')).width(24).height(24)
+          Text('Account').fontSize(12)
+        }.layoutWeight(1).onClick(() => {
+          router.pushUrl({ url: 'pages/AccountPage' })
+        })
+      }
+      .width('100%')
+      .height(56)
+      .backgroundColor(Color.White)
+    }
+  }
+}

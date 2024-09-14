@@ -1,0 +1,170 @@
+import router from '@ohos.router';
+
+@Entry
+@Component
+struct SettingPage {
+  @State isLockScreenEnabled: boolean = false;
+  @State isNotificationEnabled: boolean = false;
+  @State isStatusBarEnabled: boolean = false;
+  @State isBackgroundHidden: boolean = false;
+  @State temperatureUnit: string = 'C'
+
+  build() {
+    Column() {
+      Text('SETTING')
+        .fontSize(20)
+        .fontWeight(FontWeight.Bold)
+        .width('100%')
+        .padding(16)
+
+      List() {
+        ListItem() {
+          Row() {
+            Image($r('app.media.template')).width(24).height(24).margin({ right: 16 })
+            Text('Home')
+          }.width('100%').height(48).onClick(() => {
+            router.pushUrl({ url: 'pages/HomePage' })
+          })
+        }
+
+        ListItem() {
+          Row() {
+            Image($r('app.media.template')).width(24).height(24).margin({ right: 16 })
+            Text('Manage location')
+          }.width('100%').height(48).onClick(() => {
+            router.pushUrl({ url: 'pages/EditLocationPage' })
+          })
+        }
+
+        ListItem() {
+          Row() {
+            Image($r('app.media.template')).width(24).height(24).margin({ right: 16 })
+            Text('Temperature')
+            Blank()
+            Radio({ value: 'F', group: 'tempUnit' })
+              .checked(this.temperatureUnit === 'F')
+              .onChange((isChecked) => {
+                if (isChecked) {
+                  this.temperatureUnit = 'F'
+                }
+              })
+            Text('F').margin({ right: 8 })
+            Radio({ value: 'C', group: 'tempUnit' })
+              .checked(this.temperatureUnit === 'C')
+              .onChange((isChecked) => {
+                if (isChecked) {
+                  this.temperatureUnit = 'C'
+                }
+              })
+            Text('C')
+          }.width('100%').height(48)
+        }
+
+        ListItem() {
+          Row() {
+            Image($r('app.media.template')).width(24).height(24).margin({ right: 16 })
+            Text('Lock screen')
+            Blank()
+            Toggle({ type: ToggleType.Switch, isOn: this.isLockScreenEnabled })
+              .onChange((isOn: boolean) => {
+                this.isLockScreenEnabled = isOn
+              })
+          }.width('100%').height(48)
+        }
+
+        ListItem() {
+          Row() {
+            Image($r('app.media.template')).width(24).height(24).margin({ right: 16 })
+            Text('Notification')
+            Blank()
+            Toggle({ type: ToggleType.Switch, isOn: this.isNotificationEnabled })
+              .onChange((isOn: boolean) => {
+                this.isNotificationEnabled = isOn
+              })
+          }.width('100%').height(48)
+        }
+
+        ListItem() {
+          Row() {
+            Image($r('app.media.template')).width(24).height(24).margin({ right: 16 })
+            Text('Status bar')
+            Blank()
+            Toggle({ type: ToggleType.Switch, isOn: this.isStatusBarEnabled })
+              .onChange((isOn: boolean) => {
+                this.isStatusBarEnabled = isOn
+              })
+          }.width('100%').height(48)
+        }
+
+        ListItem() {
+          Row() {
+            Image($r('app.media.template')).width(24).height(24).margin({ right: 16 })
+            Text('Hide background image')
+            Blank()
+            Toggle({ type: ToggleType.Switch, isOn: this.isBackgroundHidden })
+              .onChange((isOn: boolean) => {
+                this.isBackgroundHidden = isOn
+              })
+          }.width('100%').height(48)
+        }
+
+        ListItem() {
+          Row() {
+            Image($r('app.media.template')).width(24).height(24).margin({ right: 16 })
+            Text('Weather radar')
+          }.width('100%').height(48)
+        }
+
+        ListItem() {
+          Row() {
+            Image($r('app.media.template')).width(24).height(24).margin({ right: 16 })
+            Text('Weather widgets')
+            Text('Show on phone screen').fontSize(12).fontColor(Color.Gray)
+          }.width('100%').height(48)
+        }
+
+        ListItem() {
+          Row() {
+            Image($r('app.media.template')).width(24).height(24).margin({ right: 16 })
+            Text('Remove ads')
+          }.width('100%').height(48)
+        }
+
+        ListItem() {
+          Row() {
+            Image($r('app.media.template')).width(24).height(24).margin({ right: 16 })
+            Text('Unit setting')
+            Text('pressure, wind speed, time format...').fontSize(12).fontColor(Color.Gray)
+          }.width('100%').height(48)
+        }
+
+        ListItem() {
+          Row() {
+            Image($r('app.media.template')).width(24).height(24).margin({ right: 16 })
+            Text('Feedback and Suggestion')
+          }.width('100%').height(48)
+        }
+
+        ListItem() {
+          Row() {
+            Image($r('app.media.template')).width(24).height(24).margin({ right: 16 })
+            Text('Report problem')
+          }.width('100%').height(48)
+        }
+
+        ListItem() {
+          Row() {
+            Image($r('app.media.template')).width(24).height(24).margin({ right: 16 })
+            Text('Share')
+          }.width('100%').height(48)
+        }
+      }
+      .listDirection(Axis.Vertical)
+      .divider({ strokeWidth: 1, color: '#0D000000' })
+      .width('100%')
+    }
+    .width('100%')
+    .height('100%')
+    .backgroundColor('#87CEEB')
+  }
+}

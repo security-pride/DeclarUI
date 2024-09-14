@@ -1,0 +1,110 @@
+import router from '@ohos.router';
+
+interface QuickAction {
+  icon: Resource;
+  label: string;
+}
+
+interface CommonQuestion {
+  title: string;
+  isHot: boolean;
+}
+
+@Entry
+@Component
+struct CustomServicePage {
+  @State quickActions: QuickAction[] = [
+    { icon: $r('app.media.template'), label: '卡号查询' },
+    { icon: $r('app.media.template'), label: '支出限额查询' },
+    { icon: $r('app.media.template'), label: '查询余额' },
+    { icon: $r('app.media.template'), label: '查找网点' },
+    { icon: $r('app.media.template'), label: '意见反馈' },
+    { icon: $r('app.media.template'), label: '转账限额' },
+    { icon: $r('app.media.template'), label: '开户行查询' },
+    { icon: $r('app.media.template'), label: '证件更新' },
+    { icon: $r('app.media.template'), label: '我要表扬' },
+    { icon: $r('app.media.template'), label: '咨询与投诉' }
+  ];
+
+  @State commonQuestions: CommonQuestion[] = [
+    { title: '闪电贷介绍', isHot: true },
+    { title: '助学贷款怎么续贷', isHot: true },
+    { title: '装修贷款介绍', isHot: false },
+    { title: '手机银行如何申请闪电贷', isHot: false },
+    { title: '车贷查询', isHot: false }
+  ];
+
+  build() {
+    Column() {
+      Row() {
+        Image($r('app.media.template')).width(24).height(24)
+        Text('小招-客服门户').fontSize(18).fontWeight(FontWeight.Bold)
+        Blank()
+        Badge({ count: 99, position: BadgePosition.Right, style: { color: Color.Red, fontSize: 10, badgeSize: 16 } }) {
+          Image($r('app.media.template')).width(24).height(24)
+        }
+      }.width('100%').padding(16)
+
+      Scroll() {
+        Column() {
+          Row() {
+            Image($r('app.media.template')).width(40).height(40)
+            Column() {
+              Text('您好，我是小招').fontSize(16).fontWeight(FontWeight.Bold)
+              Text('需要帮助点此提问哦~').fontSize(14).fontColor(Color.Gray)
+            }.alignItems(HorizontalAlign.Start).margin({ left: 12 })
+          }.width('100%').padding(16).backgroundColor(Color.White)
+
+          Grid() {
+            ForEach(this.quickActions, (action: QuickAction) => {
+              GridItem() {
+                Column() {
+                  Image(action.icon).width(24).height(24)
+                  Text(action.label).fontSize(12).margin({ top: 4 })
+                }
+              }.onClick(() => {
+                if (action.label === '查找网点') {
+                  router.pushUrl({ url: 'pages/SearchBranchPage' })
+                }
+              })
+            })
+          }.columnsTemplate('1fr 1fr 1fr 1fr 1fr').rowsGap(16).columnsGap(16).padding(16)
+
+          Column() {
+            Text('我关心的').fontSize(16).fontWeight(FontWeight.Bold).margin({ bottom: 12 })
+            Flex({ wrap: FlexWrap.Wrap, justifyContent: FlexAlign.Start }) {
+              ForEach(this.commonQuestions, (question: CommonQuestion) => {
+                Row() {
+                  Text(question.title).fontSize(14)
+                  if (question.isHot) {
+                    Text('热').fontSize(10).fontColor(Color.Red).backgroundColor(Color.Pink).borderRadius(4).padding(2).margin({ left: 4 })
+                  }
+                }.backgroundColor('#E0E0E0').borderRadius(16).padding({ left: 12, right: 12, top: 6, bottom: 6 }).margin({ right: 8, bottom: 8 })
+              })
+            }
+          }.padding(16).backgroundColor(Color.White).margin({ top: 12 })
+
+          Column() {
+            Text('小招百科').fontSize(16).fontWeight(FontWeight.Bold).margin({ bottom: 12 })
+            Row() {
+              Text('视频').fontSize(14)
+              Blank()
+              Text('更多 >').fontSize(14).fontColor(Color.Gray)
+            }.width('100%').margin({ bottom: 8 })
+            Row() {
+              Text('文章').fontSize(14)
+              Blank()
+              Text('更多 >').fontSize(14).fontColor(Color.Gray)
+            }.width('100%')
+          }.padding(16).backgroundColor(Color.White).margin({ top: 12 })
+        }
+      }.height('80%')
+
+      Row() {
+        Button('首页').onClick(() => {
+          router.pushUrl({ url: 'pages/HomePage' })
+        })
+      }.width('100%').justifyContent(FlexAlign.Center).padding(16)
+    }.width('100%').height('100%').backgroundColor('#F5F5F5')
+  }
+}

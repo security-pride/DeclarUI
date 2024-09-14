@@ -1,0 +1,133 @@
+import React from 'react';
+import { View, Text, StyleSheet, TextInput, Image, TouchableOpacity } from 'react-native';
+import { useNavigation } from '@react-navigation/native';
+import Ionicons from 'react-native-vector-icons/Ionicons';
+
+const MessageScreen = () => {
+  const navigation = useNavigation();
+
+  return (
+    <View style={styles.container}>
+      <View style={styles.header}>
+        <Text style={styles.title}>Message</Text>
+        <Image source={require('../assets/snack-icon.png')} style={styles.userAvatar} />
+      </View>
+      <TextInput style={styles.searchBar} placeholder="Search ..." />
+      <View style={styles.messageList}>
+        {conversations.map((item, index) => (
+          <View key={index} style={styles.contactItem}>
+            <Image source={require('../assets/snack-icon.png')} style={styles.avatar} />
+            <View style={styles.messageDetails}>
+              <Text style={styles.contactName}>{item.name}</Text>
+              <Text style={styles.messagePreview}>{item.message}</Text>
+            </View>
+            <Text style={styles.messageTime}>{item.time}</Text>
+          </View>
+        ))}
+      </View>
+      <View style={styles.bottomNav}>
+        <TouchableOpacity onPress={() => navigation.navigate('Board')}>
+          <Ionicons name="grid" size={24} color="#fff" />
+        </TouchableOpacity>
+        <TouchableOpacity onPress={() => navigation.navigate('Dashboard')}>
+          <Ionicons name="checkmark" size={24} color="#fff" />
+        </TouchableOpacity>
+        <TouchableOpacity onPress={() => navigation.navigate('AddTask')}>
+          <Ionicons name="add-circle" size={48} color="#ff6347" />
+        </TouchableOpacity>
+        <TouchableOpacity onPress={() => navigation.navigate('Task')}>
+          <Ionicons name="document-text" size={24} color="#fff" />
+        </TouchableOpacity>
+        <TouchableOpacity onPress={() => navigation.navigate('Message')}>
+          <Ionicons name="chatbubble" size={24} color="#fff" />
+        </TouchableOpacity>
+      </View>
+    </View>
+  );
+};
+
+const conversations = [
+  { name: 'Jonathan D. Dye', message: 'Hello', time: 'Now' },
+  { name: 'Charles L. Wenner', message: 'Its need urgently', time: '10:00 am' },
+  { name: 'Luther K. Cusack', message: 'Check this design', time: '04:00 pm' },
+  { name: 'Devignedge UI Design T.', message: 'Hello, Manik are you there?', time: 'Yesterday' },
+  { name: 'Gloria G. Johnson', message: 'Hi Nik', time: '3 day' },
+  { name: 'Madge T. Crews', message: 'Check it', time: '04 Sep' },
+  { name: 'Rosemary J. Strickland', message: '', time: '03 Sep' }
+];
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#f3f5fc'
+  },
+  header: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    paddingHorizontal: 20,
+    marginTop: 10
+  },
+  title: {
+    fontSize: 30,
+    fontWeight: 'bold',
+    color: '#0a1c2a'
+  },
+  userAvatar: {
+    width: 40,
+    height: 40,
+    borderRadius: 20
+  },
+  searchBar: {
+    margin: 16,
+    padding: 10,
+    borderWidth: 1,
+    borderColor: '#e0e0e0',
+    borderRadius: 8,
+    backgroundColor: '#fff'
+  },
+  messageList: {
+    flex: 1,
+    paddingHorizontal: 16
+  },
+  contactItem: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    padding: 16,
+    marginVertical: 8,
+    backgroundColor: '#fff',
+    borderRadius: 8,
+    elevation: 1
+  },
+  avatar: {
+    width: 48,
+    height: 48,
+    borderRadius: 24,
+    marginRight: 16
+  },
+  messageDetails: {
+    flex: 1
+  },
+  contactName: {
+    fontSize: 16,
+    fontWeight: 'bold',
+    color: '#0a1c2a'
+  },
+  messagePreview: {
+    fontSize: 14,
+    color: '#7a7e83'
+  },
+  messageTime: {
+    fontSize: 14,
+    color: '#7a7e83'
+  },
+  bottomNav: {
+    flexDirection: 'row',
+    justifyContent: 'space-around',
+    alignItems: 'center',
+    paddingVertical: 12,
+    backgroundColor: '#0a1c2a'
+  }
+});
+
+export default MessageScreen;

@@ -1,0 +1,87 @@
+import router from '@ohos.router';
+
+interface Album {
+  name: string;
+  artist: string;
+  songs: number;
+  cover: Resource;
+}
+
+@Entry
+@Component
+struct AlbumsPage {
+  @State albums: Album[] = [
+    { name: 'History', artist: 'Michael Jackson', songs: 10, cover: $r('app.media.template') },
+    { name: 'Thriller', artist: 'Michael Jackson', songs: 10, cover: $r('app.media.template') },
+    { name: "It Won't Be Soon..", artist: 'Maroon 5', songs: 10, cover: $r('app.media.template') },
+    { name: 'I Am... Yours', artist: 'Beyonce', songs: 10, cover: $r('app.media.template') }
+  ];
+
+  build() {
+    Column() {
+      Row() {
+        Text('09:41').fontSize(14).fontColor(Color.White)
+        Blank()
+        Image($r('app.media.template')).width(16).height(16) // Wi-Fi icon
+        Image($r('app.media.template')).width(16).height(16) // Signal bars icon
+      }.width('100%').padding(10).backgroundColor('#000000')
+
+      Row() {
+        Image($r('app.media.template')).width(24).height(24) // Menu button
+        Text('Songs').fontSize(20).fontWeight(FontWeight.Bold)
+        Blank()
+        Image($r('app.media.template')).width(24).height(24) // Search icon
+      }.width('100%').padding(10)
+
+      Row() {
+        ForEach(['All Songs', 'Playlists', 'Albums', 'Artists', 'Genre'], (tab: string) => {
+          Text(tab)
+            .fontSize(16)
+            .fontColor(tab === 'Albums' ? Color.Red : Color.Black)
+            .padding(10)
+        })
+      }.width('100%')
+
+      Grid() {
+        ForEach(this.albums, (album: Album) => {
+          GridItem() {
+            Column() {
+              Image(album.cover).width(150).height(150)
+              Text(album.name).fontSize(16)
+              Text(album.artist).fontSize(14)
+              Text(`${album.songs} Songs`).fontSize(12)
+            }.onClick(() => {
+              router.pushUrl({ url: 'pages/AlbumDetailsPage', params: { album: album } })
+            })
+          }
+        })
+      }.columnsTemplate('1fr 1fr').rowsGap(10).columnsGap(10).padding(10)
+
+      Row() {
+        Column() {
+          Image($r('app.media.template')).width(24).height(24)
+          Text('Home').fontSize(12)
+        }
+        Column() {
+          Image($r('app.media.template')).width(24).height(24)
+          Text('Songs').fontSize(12).fontColor(Color.Red)
+        }
+        Column() {
+          Image($r('app.media.template')).width(24).height(24)
+          Text('Settings').fontSize(12)
+        }
+      }.width('100%').justifyContent(FlexAlign.SpaceAround).position({ y: '100%' }).translate({ y: -60 })
+
+      Row() {
+        Image($r('app.media.template')).width(40).height(40)
+        Column() {
+          Text('Now Playing').fontSize(14)
+          Text('Artist - Song').fontSize(12)
+        }.layoutWeight(1)
+        Image($r('app.media.template')).width(24).height(24) // Backward button
+        Image($r('app.media.template')).width(24).height(24) // Play/Pause button
+        Image($r('app.media.template')).width(24).height(24) // Forward button
+      }.width('100%').height(60).padding(10).backgroundColor('#F0F0F0').position({ y: '100%' }).translate({ y: -60 })
+    }.width('100%').height('100%').backgroundColor('#FFFFFF')
+  }
+}

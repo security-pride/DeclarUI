@@ -1,0 +1,124 @@
+import router from '@ohos.router';
+
+interface NotificationItem {
+  icon: Resource;
+  title: string;
+  description: string;
+}
+
+@Entry
+@Component
+struct InboxPage {
+  @State currentActivity: string = 'All activity';
+  @State notifications: NotificationItem[] = [];
+
+  build() {
+    Column() {
+      // Status Bar
+      Row() {
+        Text('9:41').fontSize(14).fontColor(Color.Black)
+        Blank()
+        Row() {
+          Image($r('app.media.template')).width(16).height(16) // Signal strength icon
+          Image($r('app.media.template')).width(16).height(16) // Wi-Fi icon
+          Image($r('app.media.template')).width(24).height(24) // Battery status
+        }
+      }
+      .width('100%')
+      .height(24)
+      .padding({ left: 16, right: 16 })
+
+      // Header
+      Row() {
+        Row() {
+          Text(this.currentActivity)
+            .fontSize(16)
+            .fontWeight(FontWeight.Medium)
+          Image($r('app.media.template')).width(24).height(24) // Dropdown icon
+        }
+        .onClick(() => {
+          // Toggle dropdown menu
+        })
+
+        Blank()
+
+        Image($r('app.media.template'))
+          .width(24)
+          .height(24) // Message icon
+      }
+      .width('100%')
+      .height(48)
+      .padding({ left: 16, right: 16 })
+
+      // Main Content
+      Scroll() {
+        Column() {
+          if (this.notifications.length === 0) {
+            Column() {
+              Image($r('app.media.template'))
+                .width(48)
+                .height(48)
+                .margin({ bottom: 16 })
+              Text("Notifications aren't available")
+                .fontSize(18)
+                .fontWeight(FontWeight.Medium)
+                .margin({ bottom: 8 })
+              Text('Notifications about your account will appear here')
+                .fontSize(14)
+                .fontColor(Color.Gray)
+                .textAlign(TextAlign.Center)
+            }
+            .width('100%')
+            .justifyContent(FlexAlign.Center)
+            .margin({ top: 120 })
+          } else {
+            // Notifications list would go here
+          }
+        }
+        .width('100%')
+        .height('100%')
+      }
+      .layoutWeight(1)
+
+      // Bottom Navigation
+      Row() {
+        Column() {
+          Image($r('app.media.template')).width(24).height(24)
+          Text('Home').fontSize(12).fontColor(Color.Gray)
+        }
+        .onClick(() => {
+          router.pushUrl({ url: 'pages/HomePage' })
+        })
+
+        Column() {
+          Image($r('app.media.template')).width(24).height(24)
+          Text('Discover').fontSize(12).fontColor(Color.Gray)
+        }
+
+        Column() {
+          Image($r('app.media.template'))
+            .width(48)
+            .height(48)
+            .margin({ bottom: -16 })
+        }
+
+        Column() {
+          Image($r('app.media.template')).width(24).height(24)
+          Text('Inbox').fontSize(12).fontColor(Color.Black)
+        }
+
+        Column() {
+          Image($r('app.media.template')).width(24).height(24)
+          Text('Me').fontSize(12).fontColor(Color.Gray)
+        }
+      }
+      .width('100%')
+      .height(64)
+      .justifyContent(FlexAlign.SpaceAround)
+      .backgroundColor(Color.White)
+    }
+    .width('100%')
+    .height('100%')
+    .backgroundColor('#F8F8F8')
+  }
+}

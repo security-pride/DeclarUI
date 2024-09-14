@@ -1,0 +1,125 @@
+import router from '@ohos.router';
+
+interface UserProfile {
+  name: string;
+  avatar: Resource;
+}
+
+interface VideoContent {
+  description: string;
+  musicInfo: string;
+  likes: number;
+  comments: number;
+}
+
+@Entry
+@Component
+struct HomePage {
+  @State currentTab: number = 0;
+  @State userProfile: UserProfile = {
+    name: 'RomeoSmile',
+    avatar: $r('app.media.template')
+  };
+  @State videoContent: VideoContent = {
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fringilla ac a eu eras. Et augue amet id',
+    musicInfo: 'eyes blue like the atlantic',
+    likes: 4231,
+    comments: 644
+  };
+
+  build() {
+    Column() {
+      Row() {
+        Text('9:41').fontSize(12).fontColor(Color.White)
+      }.width('100%').height(20).backgroundColor('#000000')
+
+      Tabs({ barPosition: BarPosition.Start, index: this.currentTab }) {
+        TabContent() {
+          this.MainContent()
+        }.tabBar('For You')
+
+        TabContent() {
+          this.MainContent()
+        }.tabBar('Following')
+
+        TabContent() {
+          this.MainContent()
+        }.tabBar('Live')
+      }.onChange((index: number) => {
+        this.currentTab = index;
+      })
+
+      Row() {
+        Button() {
+          Image($r('app.media.template')).width(24).height(24)
+          Text('Home').fontSize(12)
+        }.onClick(() => {
+          // Already on home page
+        })
+
+        Button() {
+          Image($r('app.media.template')).width(24).height(24)
+          Text('Discover').fontSize(12)
+        }.onClick(() => {
+          router.pushUrl({ url: 'pages/discoverPage' })
+        })
+
+        Button() {
+          Image($r('app.media.template')).width(24).height(24)
+          Text('+').fontSize(24)
+        }.backgroundColor(Color.Transparent)
+
+        Button() {
+          Image($r('app.media.template')).width(24).height(24)
+          Text('Activity').fontSize(12)
+        }
+
+        Button() {
+          Image($r('app.media.template')).width(24).height(24)
+          Text('Profile').fontSize(12)
+        }
+      }.width('100%').height(60).justifyContent(FlexAlign.SpaceAround).backgroundColor(Color.Black)
+    }.width('100%').height('100%')
+  }
+
+  @Builder
+  MainContent() {
+    Stack({ alignContent: Alignment.BottomStart }) {
+      Image($r('app.media.template')).width('100%').height('100%')
+
+      Column() {
+        Row() {
+          Column() {
+            Image(this.userProfile.avatar).width(40).height(40).borderRadius(20)
+            Button('Follow', { type: ButtonType.Capsule, stateEffect: true })
+              .width(80).height(30).fontSize(14).margin({ top: 10 })
+          }
+
+          Column() {
+            Text(this.videoContent.description).fontSize(14).fontColor(Color.White).margin({ bottom: 10 })
+            Row() {
+              Image($r('app.media.template')).width(16).height(16)
+              Text(this.videoContent.musicInfo).fontSize(14).fontColor(Color.White)
+            }
+          }.margin({ left: 10 })
+        }.width('100%').padding(10)
+
+        Row() {
+          Column() {
+            Image($r('app.media.template')).width(32).height(32)
+            Text(this.videoContent.likes.toString()).fontSize(14).fontColor(Color.White)
+          }.onClick(() => {
+            // Handle like action
+          })
+
+          Column() {
+            Image($r('app.media.template')).width(32).height(32)
+            Text(this.videoContent.comments.toString()).fontSize(14).fontColor(Color.White)
+          }.onClick(() => {
+            router.pushUrl({ url: 'pages/commentsPage' })
+          }).margin({ top: 20 })
+        }.width(50).alignItems(HorizontalAlign.Center)
+      }.width('100%')
+    }.width('100%').height('100%')
+  }
+}

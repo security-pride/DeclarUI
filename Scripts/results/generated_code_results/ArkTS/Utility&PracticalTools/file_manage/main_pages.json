@@ -1,0 +1,10 @@
+{
+    "src": [
+        "pages/Cleaner",
+        "pages/CloudStorage",
+        "pages/CloudStorage-ListView",
+        "pages/Files",
+        "pages/HomePage",
+        "pages/StorageDetails"
+    ]
+}

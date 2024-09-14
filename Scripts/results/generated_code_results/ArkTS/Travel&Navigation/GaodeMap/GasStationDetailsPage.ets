@@ -1,0 +1,301 @@
+import router from '@ohos.router';
+
+
+
+interface PriceInfo {
+
+  discountPrice: string;
+
+  stationPrice: string;
+
+  standardPrice: string;
+
+}
+
+
+
+interface AmountOption {
+
+  amount: number;
+
+  savings: string;
+
+}
+
+
+
+@Entry
+
+@Component
+
+struct GasStationDetailsPage {
+
+  @State stationName: string = '供销石油加油站';
+
+  @State operatingHours: string = '周一至周日 00:00-24:00';
+
+  @State distance: string = '距你2.5公里';
+
+  @State drivingTime: string = '驾车6分钟';
+
+  @State area: string = '芝罘区';
+
+  @State address: string = '芝罘区二马路3号2单元内四号东山名郡路南';
+
+  @State prices: PriceInfo = {
+
+    discountPrice: '¥7.56/L',
+
+    stationPrice: '¥7.87/L',
+
+    standardPrice: '¥8.07/L'
+
+  };
+
+  @State selectedFuel: string = '92#';
+
+  @State amountOptions: AmountOption[] = [
+
+    { amount: 100, savings: '约 ¥ 3.93' },
+
+    { amount: 200, savings: '约 ¥ 7.87' },
+
+    { amount: 300, savings: '约 ¥ 11.81' }
+
+  ];
+
+
+
+  build() {
+
+    Column() {
+
+      // Header
+
+      Row() {
+
+        Image($r('app.media.template')).width(24).height(24)
+
+          .onClick(() => {
+
+            router.pushUrl({ url: 'pages/GasInformationPage' })
+
+          })
+
+        Text(this.stationName).fontSize(18).fontWeight(FontWeight.Bold)
+
+        Blank()
+
+        Image($r('app.media.template')).width(24).height(24)
+
+        Image($r('app.media.template')).width(24).height(24).margin({ left: 16 })
+
+      }.width('100%').height(56).padding({ left: 16, right: 16 })
+
+
+
+      // Image Carousel
+
+      Stack() {
+
+        Image($r('app.media.template')).width('100%').height(200)
+
+        Text('1/51').fontSize(14).fontColor(Color.White)
+
+          .position({ x: 16, y: 16 })
+
+      }.width('100%').height(200)
+
+
+
+      // Station Info
+
+      Column() {
+
+        Text(this.stationName).fontSize(20).fontWeight(FontWeight.Bold)
+
+        Text('加油站').fontSize(14).fontColor(Color.Gray).margin({ top: 4 })
+
+        Text(this.operatingHours).fontSize(14).fontColor(Color.Gray).margin({ top: 4 })
+
+        Row() {
+
+          Text(this.distance).fontSize(14)
+
+          Text(this.drivingTime).fontSize(14).margin({ left: 16 })
+
+        }.margin({ top: 8 })
+
+        Text(this.area).fontSize(14).margin({ top: 4 })
+
+        Text(this.address).fontSize(14).margin({ top: 4 })
+
+        Row() {
+
+          Button('地图').width(80).height(32)
+
+          Button('电话').width(80).height(32).margin({ left: 16 })
+
+        }.margin({ top: 16 })
+
+      }.width('100%').padding(16)
+
+
+
+      // Pricing
+
+      Row() {
+
+        Column() {
+
+          Text('优惠加油').fontSize(16).fontWeight(FontWeight.Bold)
+
+          Text(this.prices.discountPrice).fontSize(20).fontColor(Color.Red)
+
+        }
+
+        Column() {
+
+          Text('油站价').fontSize(14).fontColor(Color.Gray)
+
+          Text(this.prices.stationPrice).fontSize(14).fontColor(Color.Gray)
+
+        }.margin({ left: 16 })
+
+        Column() {
+
+          Text('国标价').fontSize(14).fontColor(Color.Gray)
+
+          Text(this.prices.standardPrice).fontSize(14).fontColor(Color.Gray)
+
+        }.margin({ left: 16 })
+
+        Image($r('app.media.template')).width(20).height(20).margin({ left: 16 })
+
+      }.width('100%').padding(16).backgroundColor('#F0F0F0')
+
+
+
+      // Fuel Selection
+
+      Row() {
+
+        Text('请选择油枪').fontSize(16)
+
+        Select([{ value: '92#' }, { value: '95#' }, { value: '98#' }])
+
+          .selected(0)
+
+          .value(this.selectedFuel)
+
+          .onSelect((index: number) => {
+
+            this.selectedFuel = ['92#', '95#', '98#'][index]
+
+          })
+
+      }.width('100%').padding(16).justifyContent(FlexAlign.SpaceBetween)
+
+
+
+      // Payment Section
+
+      Column() {
+
+        Text('先加油后付款 输入金额计算优惠').fontSize(14).fontColor(Color.Blue)
+
+        Row() {
+
+          ForEach(this.amountOptions, (option: AmountOption) => {
+
+            Button({ type: ButtonType.Capsule }) {
+
+              Text(`¥${option.amount}`).fontSize(16)
+
+              Text(option.savings).fontSize(12).margin({ top: 4 })
+
+            }.width('30%').height(60).margin({ right: 8 })
+
+          })
+
+        }.width('100%').margin({ top: 16 })
+
+        Row() {
+
+          Button('立减优惠').width('48%')
+
+          Button('优惠券').width('48%')
+
+        }.width('100%').margin({ top: 16 }).justifyContent(FlexAlign.SpaceBetween)
+
+      }.width('100%').padding(16)
+
+
+
+      // Terms and Conditions
+
+      Text('阅读并同意《信息服务用户服务条款》《汽车服务个人信息处理规则》')
+
+        .fontSize(12)
+
+        .fontColor(Color.Gray)
+
+        .width('100%')
+
+        .textAlign(TextAlign.Center)
+
+        .margin({ top: 16 })
+
+
+
+      // Feedback Section
+
+      Column() {
+
+        Text('油站印象').fontSize(16).fontWeight(FontWeight.Bold)
+
+        Text('加完油后，可以在订单详情页内留下你的感受哦~').fontSize(14).fontColor(Color.Gray)
+
+      }.width('100%').padding(16)
+
+
+
+      // Bottom Navigation
+
+      Row() {
+
+        Column() {
+
+          Image($r('app.media.template')).width(24).height(24)
+
+          Text('周边').fontSize(12)
+
+        }.layoutWeight(1)
+
+        Column() {
+
+          Image($r('app.media.template')).width(24).height(24)
+
+          Text('收藏').fontSize(12)
+
+        }.layoutWeight(1)
+
+        Column() {
+
+          Image($r('app.media.template')).width(24).height(24)
+
+          Text('分享').fontSize(12)
+
+        }.layoutWeight(1)
+
+        Button('导航').width('30%')
+
+        Button('路线').width('30%')
+
+      }.width('100%').height(64).padding({ left: 16, right: 16 })
+
+    }.width('100%').height('100%')
+
+  }
+
+}

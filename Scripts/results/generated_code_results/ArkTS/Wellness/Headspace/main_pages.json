@@ -1,0 +1,9 @@
+{
+    "src": [
+        "pages/CalmMethodsPage",
+        "pages/ExplorePage",
+        "pages/HomePage",
+        "pages/MovePage",
+        "pages/ProfilePage"
+    ]
+}

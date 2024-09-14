@@ -1,0 +1,153 @@
+import React from 'react';
+import { View, Text, Image, TouchableOpacity, StyleSheet, ScrollView } from 'react-native';
+import Icon from 'react-native-vector-icons/Ionicons';
+
+const GroupTravelScreen = () => {
+  return (
+    <ScrollView style={styles.container}>
+      {/* Header Image */}
+      <Image 
+        source={require('../assets/snack-icon.png')} 
+        style={styles.headerImage} 
+      />
+
+      {/* Navigation Bar */}
+      <View style={styles.navBar}>
+        <TouchableOpacity>
+          <Text style={[styles.navBarItem, styles.activeNavItem]}>国内跟团游</Text>
+        </TouchableOpacity>
+        <TouchableOpacity>
+          <Text style={styles.navBarItem}>国际跟团游</Text>
+        </TouchableOpacity>
+      </View>
+
+      {/* Trip Options */}
+      <View style={styles.tripOptions}>
+        <TouchableOpacity>
+          <Text style={styles.tripOptionText}>烟台出发</Text>
+        </TouchableOpacity>
+        <TouchableOpacity>
+          <Text style={styles.tripOptionText}>出发日期不限</Text>
+        </TouchableOpacity>
+        <TouchableOpacity>
+          <Text style={styles.tripOptionText}>2成人 0儿童</Text>
+        </TouchableOpacity>
+      </View>
+
+      {/* Search Button */}
+      <TouchableOpacity style={styles.searchButton}>
+        <Text style={styles.searchButtonText}>查询</Text>
+      </TouchableOpacity>
+
+      {/* Features */}
+      <View style={styles.features}>
+        <View style={styles.featureItem}>
+          <Text style={styles.featureText}>人气榜</Text>
+        </View>
+        <View style={styles.featureItem}>
+          <Text style={styles.featureText}>度假直播</Text>
+        </View>
+        <View style={styles.featureItem}>
+          <Text style={styles.featureText}>会员专享价</Text>
+        </View>
+      </View>
+
+      {/* Promotions */}
+      <View style={styles.promotions}>
+        <Text style={styles.promotionText}>暑期大促：精选</Text>
+        <View style={styles.tagContainer}>
+          <TouchableOpacity>
+            <Text style={styles.tag}>精选</Text>
+          </TouchableOpacity>
+          <TouchableOpacity>
+            <Text style={styles.tag}>云南</Text>
+          </TouchableOpacity>
+          <TouchableOpacity>
+            <Text style={styles.tag}>新疆</Text>
+          </TouchableOpacity>
+        </View>
+      </View>
+    </ScrollView>
+  );
+};
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+  },
+  headerImage: {
+    width: '100%',
+    height: 200,
+    resizeMode: 'cover',
+  },
+  navBar: {
+    flexDirection: 'row',
+    justifyContent: 'space-around',
+    padding: 10,
+    backgroundColor: '#f8f8f8',
+  },
+  navBarItem: {
+    fontSize: 16,
+    color: '#888',
+  },
+  activeNavItem: {
+    color: '#1E90FF',
+    fontWeight: 'bold',
+  },
+  tripOptions: {
+    flexDirection: 'row',
+    justifyContent: 'space-around',
+    marginVertical: 10,
+    paddingHorizontal: 20,
+  },
+  tripOptionText: {
+    fontSize: 16,
+  },
+  searchButton: {
+    marginHorizontal: 20,
+    backgroundColor: '#FFA500',
+    borderRadius: 8,
+    paddingVertical: 12,
+    alignItems: 'center',
+  },
+  searchButtonText: {
+    color: '#fff',
+    fontSize: 16,
+  },
+  features: {
+    flexDirection: 'row',
+    justifyContent: 'space-around',
+    marginVertical: 10,
+    paddingHorizontal: 20,
+  },
+  featureItem: {
+    alignItems: 'center',
+  },
+  featureText: {
+    fontSize: 14,
+    color: '#555',
+  },
+  promotions: {
+    margin: 20,
+    padding: 10,
+    backgroundColor: '#f8f8f8',
+    borderRadius: 8,
+  },
+  promotionText: {
+    fontSize: 18,
+    fontWeight: 'bold',
+  },
+  tagContainer: {
+    flexDirection: 'row',
+    marginTop: 10,
+  },
+  tag: {
+    padding: 5,
+    backgroundColor: '#eee',
+    marginHorizontal: 5,
+    borderRadius: 5,
+  },
+});
+
+export default GroupTravelScreen;

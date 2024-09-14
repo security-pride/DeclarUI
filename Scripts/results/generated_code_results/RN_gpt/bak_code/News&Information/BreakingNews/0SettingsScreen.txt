@@ -1,0 +1,157 @@
+import React from 'react';
+import { View, Text, StyleSheet, Image, Button, Switch, TouchableOpacity } from 'react-native';
+
+const SettingsScreen = ({ navigation }) => {
+  return (
+    <View style={styles.container}>
+      <View style={styles.topBar}>
+        <TouchableOpacity onPress={() => navigation.goBack()}>
+          <Image source={require('../assets/snack-icon.png')} style={styles.backIcon} />
+        </TouchableOpacity>
+        <Text style={styles.settingsLabel}>设置</Text>
+        <Image source={require('../assets/snack-icon.png')} style={styles.networkIcon} />
+      </View>
+
+      <View style={styles.profileSection}>
+        <Image source={require('../assets/snack-icon.png')} style={styles.profileImage} />
+        <Button title="注册" color="#FF3B30" onPress={() => navigation.navigate('LogIn')} />
+        <Text style={styles.loginText}>登录并加入该社群</Text>
+      </View>
+
+      <View style={styles.section}>
+        <Text style={styles.sectionHeader}>内容</Text>
+        <View style={styles.option}>
+          <Image source={require('../assets/snack-icon.png')} style={styles.icon} />
+          <Text style={styles.optionText}>改变国家</Text>
+          <TouchableOpacity onPress={() => {}}>
+            <Image source={require('../assets/snack-icon.png')} style={styles.arrowIcon} />
+          </TouchableOpacity>
+        </View>
+        <View style={styles.option}>
+          <Image source={require('../assets/snack-icon.png')} style={styles.icon} />
+          <Text style={styles.optionText}>话题</Text>
+          <TouchableOpacity onPress={() => {}}>
+            <Image source={require('../assets/snack-icon.png')} style={styles.arrowIcon} />
+          </TouchableOpacity>
+        </View>
+        <View style={styles.option}>
+          <Image source={require('../assets/snack-icon.png')} style={styles.icon} />
+          <Text style={styles.optionText}>来源管理</Text>
+          <TouchableOpacity onPress={() => {}}>
+            <Image source={require('../assets/snack-icon.png')} style={styles.arrowIcon} />
+          </TouchableOpacity>
+        </View>
+      </View>
+
+      <View style={styles.section}>
+        <Text style={styles.sectionHeader}>消息</Text>
+        <View style={styles.option}>
+          <Image source={require('../assets/snack-icon.png')} style={styles.icon} />
+          <Text style={styles.optionText}>通知声音</Text>
+          <Switch value={true} onValueChange={() => {}} />
+        </View>
+        <View style={styles.option}>
+          <Image source={require('../assets/snack-icon.png')} style={styles.icon} />
+          <Text style={styles.optionText}>震动提醒</Text>
+          <Switch value={true} onValueChange={() => {}} />
+        </View>
+        <View style={styles.option}>
+          <Image source={require('../assets/snack-icon.png')} style={styles.icon} />
+          <Text style={styles.optionText}>消息带图</Text>
+          <Switch value={true} onValueChange={() => {}} />
+        </View>
+        <View style={styles.option}>
+          <Image source={require('../assets/snack-icon.png')} style={styles.icon} />
+          <Text style={styles.optionText}>通知管理</Text>
+          <TouchableOpacity onPress={() => {}}>
+            <Image source={require('../assets/snack-icon.png')} style={styles.arrowIcon} />
+          </TouchableOpacity>
+        </View>
+      </View>
+
+      <View style={styles.bottomNav}>
+        <Text style={styles.bottomNavText}>Bottom Navigation - Placeholder</Text>
+      </View>
+    </View>
+  );
+};
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#FFFFFF',
+  },
+  topBar: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    padding: 10,
+  },
+  backIcon: {
+    width: 24,
+    height: 24,
+  },
+  settingsLabel: {
+    fontSize: 18,
+    fontWeight: 'bold',
+  },
+  networkIcon: {
+    width: 24,
+    height: 24,
+  },
+  profileSection: {
+    alignItems: 'center',
+    padding: 20,
+  },
+  profileImage: {
+    width: 60,
+    height: 60,
+    borderRadius: 30,
+    marginBottom: 10,
+  },
+  loginText: {
+    marginTop: 10,
+    color: '#808080',
+  },
+  section: {
+    paddingVertical: 10,
+    paddingHorizontal: 20,
+  },
+  sectionHeader: {
+    fontSize: 16,
+    color: '#808080',
+    marginBottom: 5,
+  },
+  option: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    paddingVertical: 15,
+  },
+  icon: {
+    width: 24,
+    height: 24,
+    marginRight: 10,
+  },
+  optionText: {
+    flex: 1,
+    fontSize: 16,
+  },
+  arrowIcon: {
+    width: 24,
+    height: 24,
+  },
+  bottomNav: {
+    position: 'absolute',
+    bottom: 0,
+    width: '100%',
+    backgroundColor: '#EEEEEE',
+    alignItems: 'center',
+    padding: 10,
+  },
+  bottomNavText: {
+    color: '#666666',
+  },
+});
+
+export default SettingsScreen;

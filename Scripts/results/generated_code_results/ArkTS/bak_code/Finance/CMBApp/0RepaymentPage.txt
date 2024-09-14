@@ -1,0 +1,127 @@
+import router from '@ohos.router';
+
+@Entry
+@Component
+struct RepaymentPage {
+  @State repaymentAmount: string = '';
+  @State isAutoRepayment: boolean = true;
+
+  build() {
+    Column() {
+      Row() {
+        Image($r('app.media.template'))
+          .width(24)
+          .height(24)
+          .onClick(() => {
+            router.pushUrl({ url: 'pages/CreditCardPage' })
+          })
+        Text('信用卡还款')
+          .fontSize(18)
+          .fontWeight(FontWeight.Bold)
+          .layoutWeight(1)
+        Image($r('app.media.template'))
+          .width(24)
+          .height(24)
+          .onClick(() => {
+            router.pushUrl({ url: 'pages/CustomServicePage' })
+          })
+      }
+      .width('100%')
+      .height(56)
+      .padding({ left: 16, right: 16 })
+
+      Column() {
+        Row() {
+          Image($r('app.media.template'))
+            .width(32)
+            .height(32)
+          Column() {
+            Text('个人消费账户')
+              .fontSize(16)
+            Text('自动还款')
+              .fontSize(12)
+              .fontColor(Color.Gray)
+          }
+          .alignItems(HorizontalAlign.Start)
+          .layoutWeight(1)
+        }
+        .width('100%')
+        .padding(16)
+
+        Text('无需还款 8月14日(27天后)出账')
+          .fontSize(14)
+          .fontColor(Color.Green)
+          .padding({ left: 16, bottom: 16 })
+      }
+      .width('100%')
+      .backgroundColor(Color.White)
+      .margin({ top: 16, bottom: 16 })
+
+      Column() {
+        Text('还款金额')
+          .fontSize(16)
+          .alignSelf(ItemAlign.Start)
+          .padding({ left: 16, top: 16 })
+
+        Row() {
+          Text('¥')
+            .fontSize(24)
+          TextInput({ placeholder: '请输入金额' })
+            .fontSize(24)
+            .layoutWeight(1)
+            .backgroundColor(Color.Transparent)
+            .onChange((value: string) => {
+              this.repaymentAmount = value
+            })
+        }
+        .width('100%')
+        .padding({ left: 16, right: 16 })
+
+        Divider().color(Color.Gray).opacity(0.2)
+
+        Row() {
+          Text('查看账单')
+            .fontSize(14)
+            .fontColor(Color.Blue)
+          Text('>')
+            .fontSize(14)
+            .fontColor(Color.Blue)
+        }
+        .width('100%')
+        .justifyContent(FlexAlign.End)
+        .padding({ right: 16, top: 8, bottom: 16 })
+      }
+      .width('100%')
+      .backgroundColor(Color.White)
+      .margin({ bottom: 16 })
+
+      Button('立即还款')
+        .width('90%')
+        .height(48)
+        .backgroundColor(Color.Pink)
+        .borderRadius(24)
+
+      Row() {
+        Text('还款说明')
+          .fontSize(14)
+          .fontColor(Color.Gray)
+        Text('填写推荐人')
+          .fontSize(14)
+          .fontColor(Color.Blue)
+      }
+      .width('100%')
+      .justifyContent(FlexAlign.SpaceBetween)
+      .padding({ left: 16, right: 16, top: 16 })
+
+      Blank()
+
+      Text('添加他人/他行卡')
+        .fontSize(14)
+        .fontColor(Color.Gray)
+        .padding({ bottom: 16 })
+    }
+    .width('100%')
+    .height('100%')
+    .backgroundColor('#F1F3F5')
+  }
+}

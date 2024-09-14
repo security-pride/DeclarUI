@@ -1,0 +1,9 @@
+{
+    "src": [
+        "pages/ChartsPage",
+        "pages/ObjectsPage",
+        "pages/QuoteAdvancedPage",
+        "pages/QuoteSimplePage",
+        "pages/SettingsPage"
+    ]
+}

@@ -1,0 +1,230 @@
+import React from 'react';
+import { View, Text, StyleSheet, Image, TextInput, Button, TouchableOpacity } from 'react-native';
+
+const DiscoverScreen = ({ navigation }) => {
+  return (
+    <View style={styles.container}>
+      <View style={styles.header}>
+        <Text style={styles.title}>Discover the best course that suits to you</Text>
+        <TouchableOpacity style={styles.notification}>
+          <Image source={require('../assets/bell-icon.png')} style={styles.icon} />
+          <View style={styles.notificationBadge}>
+            <Text style={styles.notificationCount}>9+</Text>
+          </View>
+        </TouchableOpacity>
+      </View>
+
+      <View style={styles.searchSection}>
+        <TextInput style={styles.searchBar} placeholder="Search course..." />
+        <Button title="Filter" onPress={() => {}} />
+      </View>
+
+      <View style={styles.section}>
+        <Text style={styles.sectionTitle}>Course of the weeks</Text>
+        <TouchableOpacity onPress={() => {}}>
+          <Text style={styles.seeAll}>See all</Text>
+        </TouchableOpacity>
+      </View>
+
+      <View style={styles.courseList}>
+        <View style={styles.courseCard}>
+          <Image source={require('../assets/snack-icon.png')} style={styles.courseImage} />
+          <Text style={styles.courseType}>GRAPHICS DESIGN</Text>
+          <Text style={styles.courseTitle}>How to make modern poster for Beginner</Text>
+          <View style={styles.courseRating}>
+            <Image source={require('../assets/star-icon.png')} style={styles.ratingIcon} />
+            <Text style={styles.ratingText}>4.9</Text>
+          </View>
+          <Text style={styles.coursePrice}>$12.00</Text>
+        </View>
+
+        <View style={styles.courseCard}>
+          <Image source={require('../assets/snack-icon.png')} style={styles.courseImage} />
+          <Text style={styles.courseType}>UI/UX DESIGN</Text>
+          <Text style={styles.courseTitle}>How to make Design system in easy waen</Text>
+          <View style={styles.courseRating}>
+            <Image source={require('../assets/star-icon.png')} style={styles.ratingIcon} />
+            <Text style={styles.ratingText}>4.9</Text>
+          </View>
+          <Text style={styles.coursePrice}>$12.00</Text>
+        </View>
+      </View>
+
+      <View style={styles.section}>
+        <Text style={styles.sectionTitle}>Suits to you</Text>
+        <TouchableOpacity onPress={() => {}}>
+          <Text style={styles.seeAll}>See all</Text>
+        </TouchableOpacity>
+      </View>
+
+      <View style={styles.courseList}>
+        <View style={styles.courseCard}>
+          <Image source={require('../assets/snack-icon.png')} style={styles.courseImage} />
+          <Text style={styles.courseType}>GRAPHICS DESIGN</Text>
+          <Text style={styles.courseTitle}>How to make modern poster</Text>
+          <View style={styles.courseRating}>
+            <Image source={require('../assets/star-icon.png')} style={styles.ratingIcon} />
+            <Text style={styles.ratingText}>4.9</Text>
+          </View>
+        </View>
+
+        <View style={styles.courseCard}>
+          <Image source={require('../assets/snack-icon.png')} style={styles.courseImage} />
+          <Text style={styles.courseType}>UI/UX DESIGN</Text>
+          <Text style={styles.courseTitle}>How to make Design system</Text>
+          <View style={styles.courseRating}>
+            <Image source={require('../assets/star-icon.png')} style={styles.ratingIcon} />
+            <Text style={styles.ratingText}>4.9</Text>
+          </View>
+        </View>
+      </View>
+
+      <View style={styles.bottomNav}>
+        <TouchableOpacity onPress={() => navigation.navigate('Home')}>
+          <Image source={require('../assets/home-icon.png')} style={styles.navIcon} />
+        </TouchableOpacity>
+        <TouchableOpacity onPress={() => navigation.navigate('Discover')}>
+          <Image source={require('../assets/discover-icon.png')} style={styles.navIcon} />
+        </TouchableOpacity>
+        <TouchableOpacity onPress={() => navigation.navigate('MyCourses')}>
+          <Image source={require('../assets/book-icon.png')} style={styles.navIcon} />
+        </TouchableOpacity>
+        <TouchableOpacity onPress={() => navigation.navigate('Profile')}>
+          <Image source={require('../assets/profile-icon.png')} style={styles.navIcon} />
+        </TouchableOpacity>
+      </View>
+    </View>
+  );
+};
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+    paddingHorizontal: 16,
+    paddingTop: 32,
+  },
+  header: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+  },
+  title: {
+    fontSize: 24,
+    fontWeight: 'bold',
+    flex: 1,
+  },
+  notification: {
+    position: 'relative',
+  },
+  notificationBadge: {
+    position: 'absolute',
+    top: -4,
+    right: -4,
+    backgroundColor: '#FF3D00',
+    borderRadius: 8,
+    padding: 2,
+    minWidth: 24,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  notificationCount: {
+    color: '#fff',
+    fontSize: 10,
+  },
+  icon: {
+    width: 24,
+    height: 24,
+    tintColor: '#333',
+  },
+  searchSection: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginVertical: 16,
+  },
+  searchBar: {
+    flex: 1,
+    borderColor: '#ccc',
+    borderWidth: 1,
+    borderRadius: 8,
+    paddingHorizontal: 16,
+    paddingVertical: 8,
+    marginRight: 8,
+  },
+  section: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginVertical: 8,
+  },
+  sectionTitle: {
+    fontSize: 18,
+    fontWeight: 'bold',
+  },
+  seeAll: {
+    fontSize: 14,
+    color: '#1E88E5',
+  },
+  courseList: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+  },
+  courseCard: {
+    flex: 1,
+    backgroundColor: '#f7f7f7',
+    borderRadius: 8,
+    padding: 8,
+    marginHorizontal: 4,
+  },
+  courseImage: {
+    width: '100%',
+    height: 100,
+    borderRadius: 8,
+  },
+  courseType: {
+    fontSize: 10,
+    color: '#555',
+    marginVertical: 4,
+  },
+  courseTitle: {
+    fontSize: 14,
+    fontWeight: 'bold',
+  },
+  courseRating: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginVertical: 4,
+  },
+  ratingIcon: {
+    width: 12,
+    height: 12,
+    tintColor: '#FFD700',
+  },
+  ratingText: {
+    fontSize: 12,
+    marginLeft: 4,
+  },
+  coursePrice: {
+    fontSize: 14,
+    fontWeight: 'bold',
+  },
+  bottomNav: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    position: 'absolute',
+    bottom: 0,
+    left: 0,
+    right: 0,
+    backgroundColor: '#fff',
+    paddingVertical: 16,
+    paddingHorizontal: 32,
+    borderTopWidth: 1,
+    borderTopColor: '#ccc',
+  },
+  navIcon: {
+    width: 24,
+    height: 24,
+  },
+});
+
+export default DiscoverScreen;

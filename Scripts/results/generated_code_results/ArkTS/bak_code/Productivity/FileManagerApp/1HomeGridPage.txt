@@ -1,0 +1,69 @@
+import router from '@ohos.router';
+
+interface MediaItem {
+  icon: Resource;
+  text: string;
+  count?: string;
+  date?: string;
+}
+
+@Entry
+@Component
+struct HomeGridPage {
+  @State mediaItems: MediaItem[] = [
+    { icon: $r('app.media.template'), text: 'Photos & videos', count: '3471 items' },
+    { icon: $r('app.media.template'), text: 'Favourite videos', count: '13 items' },
+    { icon: $r('app.media.template'), text: 'iTunes', count: '27 items' },
+    { icon: $r('app.media.template'), text: 'Recently deleted', count: '13 items' },
+    { icon: $r('app.media.template'), text: 'Plant photoshoot', date: '25.Feb 2020' }
+  ]
+
+  build() {
+    Column() {
+      Row() {
+        Image($r('app.media.template')).width(24).height(24)
+        Text('Home').fontSize(20).fontWeight(FontWeight.Bold).margin({ left: 8 })
+        Blank()
+        Image($r('app.media.template')).width(24).height(24)
+        Image($r('app.media.template')).width(24).height(24).margin({ left: 16 })
+        Image($r('app.media.template')).width(24).height(24).margin({ left: 16 })
+      }.width('100%').height(56).padding({ left: 16, right: 16 })
+
+      GridRow({ columns: 2, gutter: 16 }) {
+        ForEach(this.mediaItems, (item: MediaItem) => {
+          GridCol() {
+            Column() {
+              Image(item.icon).width(48).height(48)
+              Text(item.text).fontSize(16).margin({ top: 8 })
+              if (item.count) {
+                Text(item.count).fontSize(14).fontColor(Color.Gray)
+              } else if (item.date) {
+                Text(item.date).fontSize(14).fontColor(Color.Gray)
+              }
+            }.alignItems(HorizontalAlign.Start)
+            .width('100%').height(120).backgroundColor('#F1F3F5')
+            .padding(16).borderRadius(8)
+          }
+        })
+      }.width('100%').height('100%').padding(16)
+
+      Row() {
+        Image($r('app.media.template')).width(24).height(24).onClick(() => {
+          router.pushUrl({ url: 'pages/HomeGridPage' })
+        })
+        Image($r('app.media.template')).width(24).height(24).onClick(() => {
+          router.pushUrl({ url: 'pages/RecentsPage' })
+        })
+        Image($r('app.media.template')).width(24).height(24).onClick(() => {
+          router.pushUrl({ url: 'pages/HomeListPage' })
+        })
+        Image($r('app.media.template')).width(24).height(24).onClick(() => {
+          router.pushUrl({ url: 'pages/ConnectionsPage' })
+        })
+        Image($r('app.media.template')).width(24).height(24)
+      }.width('100%').justifyContent(FlexAlign.SpaceAround)
+      .position({ y: '100%' }).translate({ y: -56 }).height(56)
+      .backgroundColor(Color.White)
+    }.width('100%').height('100%')
+  }
+}

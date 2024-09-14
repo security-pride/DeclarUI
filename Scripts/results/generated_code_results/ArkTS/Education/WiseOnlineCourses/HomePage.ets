@@ -1,0 +1,303 @@
+import router from '@ohos.router';
+
+
+
+interface Course {
+
+  instructor: string;
+
+  title: string;
+
+  thumbnail: Resource;
+
+}
+
+
+
+interface PopularCourse extends Course {
+
+  id: string;
+
+}
+
+
+
+@Entry
+
+@Component
+
+struct HomePage {
+
+  @State newCourses: Course[] = [
+
+    { instructor: 'Mendy Santiago', title: 'Teach Effective and Authentic Communication', thumbnail: $r('app.media.template') },
+
+    { instructor: 'John Wiseberg', title: 'Teach Advertising and Creativity', thumbnail: $r('app.media.template') }
+
+  ];
+
+
+
+  @State popularCourses: PopularCourse[] = [
+
+    { id: '1', instructor: 'Masood El Toure', title: 'Teaches Creativity and Songwriting', thumbnail: $r('app.media.template') },
+
+    { id: '2', instructor: 'Sophie Asveld', title: 'Teaches Screenwriting', thumbnail: $r('app.media.template') },
+
+    { id: '3', instructor: 'Maria Trofimova', title: 'Building a Digital Brand', thumbnail: $r('app.media.template') },
+
+    { id: '4', instructor: 'Lucy Miller', title: '', thumbnail: $r('app.media.template') }
+
+  ];
+
+
+
+  @Builder
+
+  CourseItem(course: Course) {
+
+    Column() {
+
+      Image(course.thumbnail)
+
+        .width('100%')
+
+        .height(120)
+
+        .objectFit(ImageFit.Cover)
+
+      Text(course.instructor)
+
+        .fontSize(16)
+
+        .fontWeight(FontWeight.Bold)
+
+        .margin({ top: 8 })
+
+      Text(course.title)
+
+        .fontSize(14)
+
+        .opacity(0.6)
+
+        .margin({ top: 4 })
+
+    }
+
+    .width('48%')
+
+    .aspectRatio(0.75)
+
+    .backgroundColor(Color.White)
+
+    .borderRadius(8)
+
+    .onClick(() => {
+
+      router.pushUrl({ url: 'pages/CourseDetailPage' })
+
+    })
+
+  }
+
+
+
+  build() {
+
+    Column() {
+
+      Row() {
+
+        Text('Home')
+
+          .fontSize(20)
+
+          .fontWeight(FontWeight.Bold)
+
+        Blank()
+
+        Image($r('app.media.template'))
+
+          .width(40)
+
+          .height(40)
+
+          .borderRadius(20)
+
+      }
+
+      .width('100%')
+
+      .padding({ left: 16, right: 16, top: 16, bottom: 8 })
+
+
+
+      Tabs() {
+
+        TabContent() {
+
+          Scroll() {
+
+            Column() {
+
+              Text('New Courses')
+
+                .fontSize(18)
+
+                .fontWeight(FontWeight.Bold)
+
+                .alignSelf(ItemAlign.Start)
+
+                .margin({ top: 16, bottom: 8 })
+
+
+
+              Flex({ justifyContent: FlexAlign.SpaceBetween, wrap: FlexWrap.Wrap }) {
+
+                ForEach(this.newCourses, (course: Course) => {
+
+                  this.CourseItem(course)
+
+                })
+
+              }
+
+
+
+              Text('Popular Courses')
+
+                .fontSize(18)
+
+                .fontWeight(FontWeight.Bold)
+
+                .alignSelf(ItemAlign.Start)
+
+                .margin({ top: 24, bottom: 8 })
+
+
+
+              List() {
+
+                ForEach(this.popularCourses, (course: PopularCourse) => {
+
+                  ListItem() {
+
+                    Row() {
+
+                      Image(course.thumbnail)
+
+                        .width(60)
+
+                        .height(60)
+
+                        .borderRadius(30)
+
+                      Column() {
+
+                        Text(course.instructor)
+
+                          .fontSize(16)
+
+                          .fontWeight(FontWeight.Bold)
+
+                        Text(course.title)
+
+                          .fontSize(14)
+
+                          .opacity(0.6)
+
+                      }
+
+                      .alignItems(HorizontalAlign.Start)
+
+                      .margin({ left: 16 })
+
+                    }
+
+                    .width('100%')
+
+                    .height(80)
+
+                    .backgroundColor(Color.White)
+
+                    .borderRadius(8)
+
+                    .margin({ bottom: 8 })
+
+                    .onClick(() => {
+
+                      router.pushUrl({ url: 'pages/CourseDetailPage' })
+
+                    })
+
+                  }
+
+                })
+
+              }
+
+              .width('100%')
+
+            }
+
+            .width('100%')
+
+            .padding({ left: 16, right: 16 })
+
+          }
+
+          .scrollBar(BarState.Off)
+
+        }
+
+        .tabBar('Home')
+
+
+
+        TabContent() {
+
+          Text('My List Content')
+
+            .onClick(() => {
+
+              router.pushUrl({ url: 'pages/MyListPage' })
+
+            })
+
+        }
+
+        .tabBar('My List')
+
+
+
+        TabContent() {
+
+          Text('Downloads Content')
+
+            .onClick(() => {
+
+              router.pushUrl({ url: 'pages/DownloadsPage' })
+
+            })
+
+        }
+
+        .tabBar('Downloads')
+
+      }
+
+      .barMode(BarMode.Fixed)
+
+      .height('85%')
+
+    }
+
+    .width('100%')
+
+    .height('100%')
+
+    .backgroundColor('#F1F3F5')
+
+  }
+
+}

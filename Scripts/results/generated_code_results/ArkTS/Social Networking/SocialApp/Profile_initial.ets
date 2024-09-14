@@ -1,0 +1,251 @@
+import router from '@ohos.router';
+
+
+
+@Entry
+
+@Component
+
+struct ProfilePage {
+
+  @State currentTime: string = '9:41';
+
+  @State userName: string = 'Klee Gracia';
+
+  @State userAge: number = 24;
+
+  @State userBio: string = "Hi there! I'm Gracia ✨, a fun-loving adventurer looking for great connections.";
+
+  @State userInterests: string[] = ['Running', 'Outdoor', 'Anime'];
+
+  @State isLiked: boolean = false;
+
+
+
+  aboutToAppear() {
+
+    this.updateTime();
+
+  }
+
+
+
+  updateTime() {
+
+    this.currentTime = new Date().toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', hour12: false });
+
+  }
+
+
+
+  build() {
+
+    Stack({ alignContent: Alignment.Top }) {
+
+      Image($r('app.media.template'))
+
+        .width('100%')
+
+        .height('60%')
+
+        .objectFit(ImageFit.Cover)
+
+
+
+      Column() {
+
+        Row() {
+
+          Text(this.currentTime)
+
+            .fontSize(16)
+
+            .fontColor(Color.White)
+
+          Blank()
+
+          Row() {
+
+            Image($r('app.media.template')).width(20).height(20)
+
+            Image($r('app.media.template')).width(20).height(20)
+
+            Image($r('app.media.template')).width(20).height(20)
+
+          }
+
+        }
+
+        .width('100%')
+
+        .padding({ left: 16, right: 16, top: 8 })
+
+
+
+        Blank()
+
+
+
+        Column() {
+
+          Row() {
+
+            Text(this.userName)
+
+              .fontSize(28)
+
+              .fontWeight(FontWeight.Bold)
+
+              .fontColor(Color.White)
+
+            Text(`, ${this.userAge}`)
+
+              .fontSize(28)
+
+              .fontColor(Color.White)
+
+            Badge({ count: 1, maxCount: 99, style: { color: 0x3C9CFE } })
+
+              .width(16)
+
+              .height(16)
+
+              .margin({ left: 4 })
+
+          }
+
+
+
+          Row() {
+
+            ForEach(this.userInterests, (interest: string) => {
+
+              Text(interest)
+
+                .fontSize(14)
+
+                .fontColor(Color.White)
+
+                .backgroundColor('rgba(255, 255, 255, 0.2)')
+
+                .borderRadius(16)
+
+                .padding({ left: 12, right: 12, top: 6, bottom: 6 })
+
+                .margin({ right: 8 })
+
+            })
+
+          }
+
+          .margin({ top: 8, bottom: 8 })
+
+
+
+          Text(this.userBio)
+
+            .fontSize(16)
+
+            .fontColor(Color.White)
+
+            .margin({ bottom: 16 })
+
+
+
+          Row() {
+
+            Button({ type: ButtonType.Circle, stateEffect: true }) {
+
+              Image($r('app.media.template')).width(24).height(24)
+
+            }
+
+            .width(48)
+
+            .height(48)
+
+            .backgroundColor('#2A2A2A')
+
+            .margin({ right: 16 })
+
+            .onClick(() => router.back())
+
+
+
+            Button('Start Conversation', { type: ButtonType.Capsule })
+
+              .width('60%')
+
+              .height(48)
+
+              .backgroundColor('#2A2A2A')
+
+              .fontColor(Color.White)
+
+              .onClick(() => router.pushUrl({ url: 'pages/MessagesPage' }))
+
+
+
+            Button({ type: ButtonType.Circle, stateEffect: true }) {
+
+              Image(this.isLiked ? $r('app.media.template') : $r('app.media.template')).width(24).height(24)
+
+            }
+
+            .width(48)
+
+            .height(48)
+
+            .backgroundColor('#2A2A2A')
+
+            .margin({ left: 16 })
+
+            .onClick(() => {
+
+              this.isLiked = !this.isLiked;
+
+            })
+
+          }
+
+        }
+
+        .width('100%')
+
+        .padding(16)
+
+        .backgroundColor('rgba(0, 0, 0, 0.6)')
+
+        .borderRadius({ topLeft: 24, topRight: 24 })
+
+      }
+
+      .height('100%')
+
+      .justifyContent(FlexAlign.SpaceBetween)
+
+
+
+      Text('Potential Match!')
+
+        .fontSize(14)
+
+        .fontColor(Color.White)
+
+        .backgroundColor('#FFD700')
+
+        .borderRadius(16)
+
+        .padding({ left: 12, right: 12, top: 6, bottom: 6 })
+
+        .position({ x: 16, y: 100 })
+
+    }
+
+    .width('100%')
+
+    .height('100%')
+
+  }
+
+}

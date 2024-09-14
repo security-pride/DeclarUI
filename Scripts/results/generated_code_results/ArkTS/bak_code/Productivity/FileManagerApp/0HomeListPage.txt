@@ -1,0 +1,278 @@
+import router from '@ohos.router';
+
+@Entry
+@Component
+struct HomeListPage {
+  @State selectedTab: number = 0;
+
+  build() {
+    Column() {
+      // Header
+      Row() {
+        Image($r('app.media.template'))
+          .width(24).height(24)
+          .margin({ right: 16 })
+          .onClick(() => {
+            // Settings button functionality
+          })
+        Text('Home')
+          .fontSize(20)
+          .fontWeight(FontWeight.Bold)
+        Blank()
+        Row() {
+          Image($r('app.media.template'))
+            .width(24).height(24)
+            .margin({ right: 8 })
+          Text('Name')
+            .fontSize(16)
+          Image($r('app.media.template'))
+            .width(16).height(16)
+        }
+        .onClick(() => {
+          // Name dropdown functionality
+        })
+        Image($r('app.media.template'))
+          .width(24).height(24)
+          .margin({ left: 16 })
+          .onClick(() => {
+            // Search button functionality
+          })
+      }
+      .width('100%')
+      .padding(16)
+      .backgroundColor('#F1F3F5')
+
+      // List content
+      List() {
+        ListItem() {
+          Row() {
+            Image($r('app.media.template'))
+              .width(40).height(40)
+              .margin({ right: 16 })
+            Column() {
+              Text('Photos & video')
+                .fontSize(16)
+              Text('3471 items')
+                .fontSize(14)
+                .fontColor(Color.Gray)
+            }
+            Blank()
+            Image($r('app.media.template'))
+              .width(24).height(24)
+          }
+          .width('100%')
+          .padding(16)
+        }
+
+        ListItem() {
+          Row() {
+            Image($r('app.media.template'))
+              .width(40).height(40)
+              .margin({ right: 16 })
+            Column() {
+              Text('Recent videos')
+                .fontSize(16)
+              Text('13 items')
+                .fontSize(14)
+                .fontColor(Color.Gray)
+            }
+            Blank()
+            Image($r('app.media.template'))
+              .width(24).height(24)
+          }
+          .width('100%')
+          .padding(16)
+        }
+
+        ListItem() {
+          Row() {
+            Image($r('app.media.template'))
+              .width(40).height(40)
+              .margin({ right: 16 })
+            Column() {
+              Text('iTunes')
+                .fontSize(16)
+              Text('27 items')
+                .fontSize(14)
+                .fontColor(Color.Gray)
+            }
+            Blank()
+            Image($r('app.media.template'))
+              .width(24).height(24)
+          }
+          .width('100%')
+          .padding(16)
+        }
+
+        ListItem() {
+          Row() {
+            Image($r('app.media.template'))
+              .width(40).height(40)
+              .margin({ right: 16 })
+            Column() {
+              Text('Recently deleted')
+                .fontSize(16)
+              Text('13 items')
+                .fontSize(14)
+                .fontColor(Color.Gray)
+            }
+            Blank()
+            Image($r('app.media.template'))
+              .width(24).height(24)
+          }
+          .width('100%')
+          .padding(16)
+        }
+
+        ListItem() {
+          Row() {
+            Image($r('app.media.template'))
+              .width(40).height(40)
+              .margin({ right: 16 })
+            Column() {
+              Text('The Chainsmoker Closer')
+                .fontSize(16)
+              Text('28.Feb 2020')
+                .fontSize(14)
+                .fontColor(Color.Gray)
+            }
+            Blank()
+            Image($r('app.media.template'))
+              .width(24).height(24)
+          }
+          .width('100%')
+          .padding(16)
+        }
+
+        ListItem() {
+          Row() {
+            Image($r('app.media.template'))
+              .width(40).height(40)
+              .margin({ right: 16 })
+            Column() {
+              Text('Plant photoshoot')
+                .fontSize(16)
+              Text('25.Feb 2020')
+                .fontSize(14)
+                .fontColor(Color.Gray)
+            }
+            Blank()
+            Image($r('app.media.template'))
+              .width(24).height(24)
+          }
+          .width('100%')
+          .padding(16)
+        }
+
+        ListItem() {
+          Row() {
+            Image($r('app.media.template'))
+              .width(40).height(40)
+              .margin({ right: 16 })
+            Column() {
+              Text('Quotes')
+                .fontSize(16)
+              Text('25.Feb 2020')
+                .fontSize(14)
+                .fontColor(Color.Gray)
+            }
+            Blank()
+            Image($r('app.media.template'))
+              .width(24).height(24)
+          }
+          .width('100%')
+          .padding(16)
+        }
+
+        ListItem() {
+          Row() {
+            Image($r('app.media.template'))
+              .width(40).height(40)
+              .margin({ right: 16 })
+            Column() {
+              Text('Business management')
+                .fontSize(16)
+              Text('25.Feb 2020')
+                .fontSize(14)
+                .fontColor(Color.Gray)
+            }
+            Blank()
+            Image($r('app.media.template'))
+              .width(24).height(24)
+          }
+          .width('100%')
+          .padding(16)
+        }
+      }
+      .layoutWeight(1)
+
+      // Bottom Navigation
+      Row() {
+        Column() {
+          Image($r('app.media.template'))
+            .width(24).height(24)
+          Text('Home')
+            .fontSize(12)
+            .margin({ top: 4 })
+        }
+        .layoutWeight(1)
+        .onClick(() => {
+          router.pushUrl({ url: 'pages/HomeGridPage' })
+        })
+
+        Column() {
+          Image($r('app.media.template'))
+            .width(24).height(24)
+          Text('Recent')
+            .fontSize(12)
+            .margin({ top: 4 })
+        }
+        .layoutWeight(1)
+        .onClick(() => {
+          router.pushUrl({ url: 'pages/RecentsPage' })
+        })
+
+        Column() {
+          Image($r('app.media.template'))
+            .width(24).height(24)
+          Text('Add')
+            .fontSize(12)
+            .margin({ top: 4 })
+        }
+        .layoutWeight(1)
+        .onClick(() => {
+          // Add functionality
+        })
+
+        Column() {
+          Image($r('app.media.template'))
+            .width(24).height(24)
+          Text('Wi-Fi')
+            .fontSize(12)
+            .margin({ top: 4 })
+        }
+        .layoutWeight(1)
+        .onClick(() => {
+          router.pushUrl({ url: 'pages/ConnectionsPage' })
+        })
+
+        Column() {
+          Image($r('app.media.template'))
+            .width(24).height(24)
+          Text('Stats')
+            .fontSize(12)
+            .margin({ top: 4 })
+        }
+        .layoutWeight(1)
+        .onClick(() => {
+          // Stats functionality
+        })
+      }
+      .width('100%')
+      .padding(16)
+      .backgroundColor(Color.White)
+    }
+    .width('100%')
+    .height('100%')
+  }
+}

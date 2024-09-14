@@ -1,0 +1,124 @@
+import React from 'react';
+import { View, Text, StyleSheet, TouchableOpacity, TextInput } from 'react-native';
+import Icon from 'react-native-vector-icons/FontAwesome';
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+import { NavigationContainer } from '@react-navigation/native';
+
+const TrendsScreen = () => {
+  return (
+    <View style={styles.container}>
+      {/* Header */}
+      <View style={styles.header}>
+        <Icon name="circle" size={30} style={styles.icon} />
+        <TextInput placeholder="Search Twitter" style={styles.searchBar} />
+        <Icon name="cog" size={30} style={styles.icon} />
+      </View>
+      
+      {/* Trends Header */}
+      <Text style={styles.headerText}>Trends for you</Text>
+      
+      {/* Message */}
+      <View style={styles.messageContainer}>
+        <Text style={styles.noTrendsText}>No new trends for you</Text>
+        <Text style={styles.messageText}>
+          It seems like there’s not a lot to show you right now, but you can see trends for other areas
+        </Text>
+        <TouchableOpacity style={styles.changeLocationButton}>
+          <Text style={styles.buttonText}>Change location</Text>
+        </TouchableOpacity>
+      </View>
+      
+      {/* Floating Action Button */}
+      <TouchableOpacity style={styles.fab}>
+        <Icon name="feather" size={24} color="white" />
+      </TouchableOpacity>
+    </View>
+  );
+};
+
+const Tab = createBottomTabNavigator();
+
+export default function App() {
+  return (
+    <NavigationContainer>
+      <Tab.Navigator>
+        <Tab.Screen name="Home" component={HomeScreen} />
+        <Tab.Screen name="Search" component={SearchScreen} />
+        <Tab.Screen name="Trends" component={TrendsScreen} />
+        <Tab.Screen name="Notifications" component={NotificationsScreen} />
+        <Tab.Screen name="Messages" component={MessagesScreen} />
+      </Tab.Navigator>
+    </NavigationContainer>
+  );
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#E6EBEF',
+  },
+  header: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    backgroundColor: 'white',
+    paddingHorizontal: 10,
+    paddingVertical: 5,
+  },
+  icon: {
+    marginHorizontal: 10,
+  },
+  searchBar: {
+    flex: 1,
+    backgroundColor: '#F5F5F5',
+    borderRadius: 20,
+    marginHorizontal: 10,
+    paddingLeft: 15,
+    paddingVertical: 5,
+  },
+  headerText: {
+    padding: 15,
+    backgroundColor: 'white',
+    fontSize: 18,
+    fontWeight: 'bold',
+  },
+  messageContainer: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    padding: 20,
+    backgroundColor: '#E6EBEF',
+  },
+  noTrendsText: {
+    fontSize: 20,
+    fontWeight: 'bold',
+    marginBottom: 10,
+  },
+  messageText: {
+    fontSize: 16,
+    color: '#555',
+    textAlign: 'center',
+    marginBottom: 20,
+  },
+  changeLocationButton: {
+    backgroundColor: '#1DA1F2',
+    borderRadius: 20,
+    paddingVertical: 10,
+    paddingHorizontal: 20,
+  },
+  buttonText: {
+    color: 'white',
+    fontSize: 16,
+  },
+  fab: {
+    position: 'absolute',
+    bottom: 20,
+    right: 20,
+    backgroundColor: '#1DA1F2',
+    width: 50,
+    height: 50,
+    borderRadius: 25,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+});

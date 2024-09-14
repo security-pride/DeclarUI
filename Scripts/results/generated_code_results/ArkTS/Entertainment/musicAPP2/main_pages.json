@@ -1,0 +1,9 @@
+{
+    "src": [
+        "pages/ExplorePage",
+        "pages/NowPlayingPage",
+        "pages/PlaylistPage",
+        "pages/SearchPage",
+        "pages/TrendingPage"
+    ]
+}

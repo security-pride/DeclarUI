@@ -1,0 +1,122 @@
+import router from '@ohos.router';
+
+interface TimeRange {
+  label: string;
+  value: string;
+}
+
+interface NavItem {
+  name: string;
+  icon: string;
+  isActive: boolean;
+}
+
+@Entry
+@Component
+struct BitcoinPage {
+  @State currentPrice: string = '£ 49,283.16';
+  @State priceChange: string = '£ 311.81';
+  @State percentageChange: string = '0.62%';
+  @State selectedTimeRange: string = '24小时';
+  @State timeRanges: TimeRange[] = [
+    { label: '24小时', value: '24小时' },
+    { label: '1周', value: '1周' },
+    { label: '1月', value: '1月' },
+    { label: '1年', value: '1年' },
+    { label: '所有时间', value: '所有时间' }
+  ];
+  @State quickBuyOptions: string[] = ['$ 20', '$ 50', '$ 100', '$ 500'];
+  @State navItems: NavItem[] = [
+    { name: 'Home', icon: 'home', isActive: false },
+    { name: 'Crypto', icon: 'chart', isActive: true },
+    { name: 'Payments', icon: 'pound', isActive: false },
+    { name: 'Wallet', icon: 'wallet', isActive: false }
+  ];
+
+  build() {
+    Column() {
+      Row() {
+        Button() {
+          Image($r('app.media.template')).width(24).height(24)
+        }
+        .onClick(() => {
+          router.pushUrl({ url: 'pages/CryptoPage' })
+        })
+        .backgroundColor(Color.Transparent)
+
+        Text('Bitcoin').fontSize(20).fontWeight(FontWeight.Bold)
+      }
+      .width('100%')
+      .justifyContent(FlexAlign.SpaceBetween)
+      .padding({ top: 16, bottom: 16, left: 16, right: 16 })
+
+      Column() {
+        Text(this.currentPrice).fontSize(32).fontWeight(FontWeight.Bold)
+        Row() {
+          Image($r('app.media.template')).width(16).height(16)
+          Text(this.priceChange).fontSize(16).fontColor(Color.Red)
+          Text(`(${this.percentageChange})`).fontSize(16).fontColor(Color.Red)
+          Text('过去24小时').fontSize(16)
+        }.margin({ top: 8 })
+      }.alignItems(HorizontalAlign.Center)
+
+      Scroll() {
+        Column() {
+          Image($r('app.media.template'))
+            .width('100%')
+            .height(200)
+            .objectFit(ImageFit.Cover)
+
+          Row() {
+            ForEach(this.timeRanges, (item: TimeRange) => {
+              Text(item.label)
+                .fontSize(14)
+                .backgroundColor(item.value === this.selectedTimeRange ? Color.Blue : Color.Transparent)
+                .fontColor(item.value === this.selectedTimeRange ? Color.White : Color.Black)
+                .padding(8)
+                .borderRadius(4)
+                .onClick(() => {
+                  this.selectedTimeRange = item.value;
+                })
+            })
+          }
+          .width('100%')
+          .justifyContent(FlexAlign.SpaceBetween)
+          .padding({ top: 16, bottom: 16 })
+
+          Flex({ wrap: FlexWrap.Wrap, justifyContent: FlexAlign.SpaceBetween }) {
+            ForEach(this.quickBuyOptions, (option: string) => {
+              Button(option)
+                .width('48%')
+                .height(40)
+                .margin({ bottom: 8 })
+                .backgroundColor(Color.Gray)
+            })
+          }.width('100%').padding({ left: 16, right: 16 })
+
+          Button('购物')
+            .width('90%')
+            .height(48)
+            .backgroundColor(Color.Blue)
+            .margin({ top: 16 })
+        }
+      }
+      .layoutWeight(1)
+
+      Row() {
+        ForEach(this.navItems, (item: NavItem) => {
+          Column() {
+            Image($r('app.media.template')).width(24).height(24)
+            Text(item.name).fontSize(12)
+          }
+          .width('25%')
+          .alignItems(HorizontalAlign.Center)
+          .backgroundColor(item.isActive ? Color.Gray : Color.Transparent)
+        })
+      }
+      .width('100%')
+      .height(56)
+      .backgroundColor(Color.White)
+    }
+  }
+}

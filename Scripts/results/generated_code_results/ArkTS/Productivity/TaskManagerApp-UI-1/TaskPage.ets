@@ -1,0 +1,375 @@
+import router from '@ohos.router';
+
+
+
+interface Task {
+
+  status: string;
+
+  title: string;
+
+  description: string;
+
+  time: string;
+
+  participants: number;
+
+}
+
+
+
+@Entry
+
+@Component
+
+struct TaskPage {
+
+  @State tasks: Task[] = [
+
+    {
+
+      status: 'URGENT',
+
+      title: 'New Web UI Design Project',
+
+      description: 'Website UI Design for $500',
+
+      time: '10 - 11 AM',
+
+      participants: 2
+
+    },
+
+    {
+
+      status: 'RUNNING',
+
+      title: 'Application Design Meeting',
+
+      description: 'Website UI Design for $500',
+
+      time: '10 - 11 AM',
+
+      participants: 2
+
+    },
+
+    {
+
+      status: 'ONGOING',
+
+      title: 'Web Design Meeting',
+
+      description: '',
+
+      time: '',
+
+      participants: 0
+
+    }
+
+  ];
+
+
+
+  @State selectedDate: number = 14;
+
+
+
+  build() {
+
+    Column() {
+
+      Row() {
+
+        Text('Task')
+
+          .fontSize(24)
+
+          .fontWeight(FontWeight.Bold)
+
+        Blank()
+
+        Image($r('app.media.template'))
+
+          .width(40)
+
+          .height(40)
+
+          .borderRadius(20)
+
+        Button({ type: ButtonType.Normal, stateEffect: true }) {
+
+          Image($r('app.media.template')).width(24).height(24)
+
+          Text('Add Task').fontSize(16).fontColor(Color.White)
+
+        }
+
+        .onClick(() => {
+
+          router.pushUrl({ url: 'pages/AddTaskPage' })
+
+        })
+
+        .backgroundColor('#FF7754')
+
+        .borderRadius(8)
+
+        .padding(8)
+
+      }
+
+      .width('100%')
+
+      .padding({ left: 16, right: 16, top: 16, bottom: 8 })
+
+
+
+      Text('May 01, 2020')
+
+        .fontSize(16)
+
+        .fontColor(Color.Gray)
+
+        .padding({ left: 16, bottom: 8 })
+
+
+
+      Text('Today')
+
+        .fontSize(20)
+
+        .fontWeight(FontWeight.Bold)
+
+        .padding({ left: 16, bottom: 8 })
+
+
+
+      Row() {
+
+        ForEach(['MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT', 'SUN'], (day: string, index: number) => {
+
+          Column() {
+
+            Text(day).fontSize(14).fontColor(Color.Gray)
+
+            Text(`${index + 10}`).fontSize(16)
+
+              .fontColor(this.selectedDate === index + 10 ? Color.Blue : Color.Black)
+
+              .fontWeight(this.selectedDate === index + 10 ? FontWeight.Bold : FontWeight.Normal)
+
+          }
+
+          .width('14%')
+
+          .alignItems(HorizontalAlign.Center)
+
+          .padding(8)
+
+          .backgroundColor(this.selectedDate === index + 10 ? '#E6F2FF' : Color.White)
+
+          .borderRadius(8)
+
+          .onClick(() => {
+
+            this.selectedDate = index + 10
+
+          })
+
+        })
+
+      }
+
+      .width('100%')
+
+      .padding({ left: 16, right: 16, bottom: 16 })
+
+
+
+      List() {
+
+        ForEach(this.tasks, (task: Task) => {
+
+          ListItem() {
+
+            this.TaskItem(task)
+
+          }
+
+        })
+
+      }
+
+      .width('100%')
+
+      .layoutWeight(1)
+
+
+
+      Row() {
+
+        ForEach(['grid', 'checkmark', 'plus', 'document', 'chat'], (icon: string) => {
+
+          Image($r('app.media.template'))
+
+            .width(24)
+
+            .height(24)
+
+            .margin(16)
+
+            .onClick(() => {
+
+              switch (icon) {
+
+                case 'grid':
+
+                  router.pushUrl({ url: 'pages/BoardPage' })
+
+                  break
+
+                case 'checkmark':
+
+                  router.pushUrl({ url: 'pages/DashboardPage' })
+
+                  break
+
+                case 'plus':
+
+                  router.pushUrl({ url: 'pages/AddTaskPage' })
+
+                  break
+
+                case 'document':
+
+                  // Already on TaskPage
+
+                  break
+
+                case 'chat':
+
+                  router.pushUrl({ url: 'pages/MessagePage' })
+
+                  break
+
+              }
+
+            })
+
+        })
+
+      }
+
+      .width('100%')
+
+      .justifyContent(FlexAlign.SpaceAround)
+
+      .backgroundColor(Color.White)
+
+    }
+
+    .width('100%')
+
+    .height('100%')
+
+    .backgroundColor('#F8F8F8')
+
+  }
+
+
+
+  @Builder
+
+  TaskItem(task: Task) {
+
+    Column() {
+
+      Text(task.status)
+
+        .fontSize(12)
+
+        .fontColor(task.status === 'URGENT' ? Color.Red : (task.status === 'RUNNING' ? Color.Green : Color.Blue))
+
+        .padding({ left: 8, right: 8, top: 4, bottom: 4 })
+
+        .backgroundColor(task.status === 'URGENT' ? '#FFE5E5' : (task.status === 'RUNNING' ? '#E5FFE5' : '#E5E5FF'))
+
+        .borderRadius(4)
+
+        .margin({ bottom: 8 })
+
+
+
+      Text(task.title)
+
+        .fontSize(18)
+
+        .fontWeight(FontWeight.Bold)
+
+        .margin({ bottom: 4 })
+
+
+
+      if (task.description) {
+
+        Text(task.description)
+
+          .fontSize(14)
+
+          .fontColor(Color.Gray)
+
+          .margin({ bottom: 8 })
+
+      }
+
+
+
+      if (task.time || task.participants > 0) {
+
+        Row() {
+
+          if (task.time) {
+
+            Row() {
+
+              Image($r('app.media.template')).width(16).height(16)
+
+              Text(task.time).fontSize(14).fontColor(Color.Gray).margin({ left: 4 })
+
+            }
+
+          }
+
+          if (task.participants > 0) {
+
+            Row() {
+
+              Image($r('app.media.template')).width(16).height(16)
+
+              Text(`${task.participants} Persons`).fontSize(14).fontColor(Color.Gray).margin({ left: 4 })
+
+            }.margin({ left: 16 })
+
+          }
+
+        }
+
+      }
+
+    }
+
+    .width('100%')
+
+    .padding(16)
+
+    .backgroundColor(Color.White)
+
+    .borderRadius(8)
+
+    .margin({ bottom: 16 })
+
+  }
+
+}

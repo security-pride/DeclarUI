@@ -1,0 +1,9 @@
+{
+    "src": [
+        "pages/CreditCardPage",
+        "pages/CustomServicePage",
+        "pages/HomePage",
+        "pages/RepaymentPage",
+        "pages/SearchBranchPage"
+    ]
+}

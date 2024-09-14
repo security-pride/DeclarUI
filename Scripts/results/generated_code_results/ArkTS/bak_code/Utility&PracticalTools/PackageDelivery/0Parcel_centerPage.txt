@@ -1,0 +1,193 @@
+import router from '@ohos.router';
+
+interface ParcelCenter {
+  id: string;
+  address: string;
+  city: string;
+  state: string;
+  zipCode: string;
+  availability: string;
+  occupancy: string;
+}
+
+@Entry
+@Component
+struct ParcelCenterPage {
+  @State parcelCenters: ParcelCenter[] = [
+    {
+      id: 'NY0924',
+      address: '985 Meadow St.',
+      city: 'Staten Island',
+      state: 'NY',
+      zipCode: '10306',
+      availability: 'Available 24/7',
+      occupancy: 'Fully occupied'
+    },
+    {
+      id: 'NY0812',
+      address: '54 West Adams Court',
+      city: 'Rego Park',
+      state: 'NY',
+      zipCode: '11374',
+      availability: 'Available 24/7',
+      occupancy: 'Lots of empty space'
+    }
+  ];
+
+  build() {
+    Column() {
+      Row() {
+        Text('9:41')
+          .fontSize(16)
+          .fontWeight(FontWeight.Medium)
+        Blank()
+        Row() {
+          Image($r('app.media.template')).width(16).height(16)
+          Image($r('app.media.template')).width(16).height(16)
+          Image($r('app.media.template')).width(16).height(16)
+        }
+      }
+      .width('100%')
+      .height(56)
+      .padding({ left: 16, right: 16 })
+
+      Text('Parcel centers')
+        .fontSize(28)
+        .fontWeight(FontWeight.Bold)
+        .margin({ top: 16, bottom: 16, left: 16 })
+
+      Map()
+        .width('100%')
+        .height('40%')
+        .margin({ bottom: 16 })
+
+      Scroll() {
+        Column() {
+          ForEach(this.parcelCenters, (center: ParcelCenter) => {
+            Column() {
+              Row() {
+                Text(center.id)
+                  .fontSize(16)
+                  .fontWeight(FontWeight.Medium)
+                Blank()
+                Text(center.availability)
+                  .fontSize(14)
+                  .fontColor(Color.Gray)
+              }
+              .width('100%')
+
+              Text(`${center.address}`)
+                .fontSize(16)
+                .margin({ top: 4 })
+
+              Text(`${center.city}, ${center.state} ${center.zipCode}`)
+                .fontSize(16)
+                .margin({ top: 4 })
+
+              Text(center.occupancy)
+                .fontSize(14)
+                .fontColor(Color.Orange)
+                .margin({ top: 8 })
+
+              if (center.occupancy === 'Fully occupied') {
+                Progress({ value: 100, total: 100 })
+                  .color(Color.Orange)
+                  .height(8)
+                  .width('100%')
+                  .margin({ top: 4 })
+              } else {
+                Progress({ value: 30, total: 100 })
+                  .color(Color.Orange)
+                  .height(8)
+                  .width('100%')
+                  .margin({ top: 4 })
+              }
+            }
+            .width('100%')
+            .padding(16)
+            .backgroundColor(Color.White)
+            .borderRadius(8)
+            .margin({ bottom: 16 })
+          })
+        }
+        .width('100%')
+      }
+      .height('50%')
+
+      Row() {
+        Column() {
+          Image($r('app.media.template')).width(24).height(24)
+          Text('My parcels').fontSize(12).margin({ top: 4 })
+        }.layoutWeight(1).onClick(() => {
+          router.pushUrl({ url: 'pages/Home_Top_drawer_openPage' })
+        })
+
+        Column() {
+          Image($r('app.media.template')).width(24).height(24)
+          Text('Send parcel').fontSize(12).margin({ top: 4 })
+        }.layoutWeight(1).onClick(() => {
+          router.pushUrl({ url: 'pages/SendParcel_Delivery_methodPage' })
+        })
+
+        Column() {
+          Image($r('app.media.template')).width(24).height(24)
+          Text('Parcel center').fontSize(12).margin({ top: 4 })
+        }.layoutWeight(1)
+      }
+      .width('100%')
+      .height('10%')
+      .backgroundColor(Color.White)
+    }
+    .width('100%')
+    .height('100%')
+    .backgroundColor('#F5F5F5')
+  }
+}
+
+@Component
+struct Map {
+  build() {
+    Stack() {
+      Image($r('app.media.template'))
+        .width('100%')
+        .height('100%')
+        .objectFit(ImageFit.Cover)
+
+      Column() {
+        Image($r('app.media.template'))
+          .width(24)
+          .height(24)
+      }
+      .width(40)
+      .height(40)
+      .borderRadius(20)
+      .backgroundColor(Color.White)
+      .justifyContent(FlexAlign.Center)
+      .position({ x: '20%', y: '30%' })
+
+      Column() {
+        Image($r('app.media.template'))
+          .width(24)
+          .height(24)
+      }
+      .width(40)
+      .height(40)
+      .borderRadius(20)
+      .backgroundColor(Color.White)
+      .justifyContent(FlexAlign.Center)
+      .position({ x: '70%', y: '50%' })
+
+      Column() {
+        Image($r('app.media.template'))
+          .width(24)
+          .height(24)
+      }
+      .width(40)
+      .height(40)
+      .borderRadius(20)
+      .backgroundColor(Color.White)
+      .justifyContent(FlexAlign.Center)
+      .position({ x: '85%', y: '20%' })
+    }
+  }
+}

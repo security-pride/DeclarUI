@@ -1,0 +1,303 @@
+import router from '@ohos.router';
+
+
+
+interface ServiceItem {
+
+  icon: Resource;
+
+  label: string;
+
+}
+
+
+
+interface PromotionItem {
+
+  image: Resource;
+
+  title: string;
+
+  subtitle: string;
+
+}
+
+
+
+@Entry
+
+@Component
+
+struct HomePage {
+
+  @State searchText: string = '烟台百纳瑞汀酒店（第一海水浴场火车站店）';
+
+  @State categories: string[] = ['烟台', '威海', '蓬莱阁', '长岛', '武汉', '直播', '养马'];
+
+  @State services: ServiceItem[] = [
+
+    { icon: $r('app.media.template'), label: '酒店' },
+
+    { icon: $r('app.media.template'), label: '机票' },
+
+    { icon: $r('app.media.template'), label: '火车票' },
+
+    { icon: $r('app.media.template'), label: '旅游' },
+
+    { icon: $r('app.media.template'), label: '攻略/景点' },
+
+    { icon: $r('app.media.template'), label: '民宿/客栈' },
+
+    { icon: $r('app.media.template'), label: '机票+酒店' },
+
+    { icon: $r('app.media.template'), label: '汽车/船票' },
+
+    { icon: $r('app.media.template'), label: '门票/玩乐' },
+
+    { icon: $r('app.media.template'), label: '美食/购物' },
+
+    { icon: $r('app.media.template'), label: '酒店套餐' },
+
+    { icon: $r('app.media.template'), label: '接送机/包车' },
+
+    { icon: $r('app.media.template'), label: '租车' },
+
+    { icon: $r('app.media.template'), label: '签证/换外币' },
+
+    { icon: $r('app.media.template'), label: '借钱/分期' }
+
+  ];
+
+  @State promotions: PromotionItem[] = [
+
+    { image: $r('app.media.template'), title: '特价专区', subtitle: '烟台甄选特价' },
+
+    { image: $r('app.media.template'), title: '直播团购', subtitle: '好货超值购' },
+
+    { image: $r('app.media.template'), title: '口碑榜', subtitle: '美景酒店榜' },
+
+    { image: $r('app.media.template'), title: '旅行热点', subtitle: '烟台海水浴场' }
+
+  ];
+
+
+
+  build() {
+
+    Column() {
+
+      Row() {
+
+        TextInput({ text: this.searchText })
+
+          .width('80%')
+
+          .height(40)
+
+          .backgroundColor('#F5F5F5')
+
+          .margin({ right: 10 })
+
+        Button('搜索')
+
+          .width('15%')
+
+          .height(40)
+
+          .backgroundColor('#1E90FF')
+
+          .fontColor(Color.White)
+
+      }.padding(10)
+
+
+
+      Text('旅游地图')
+
+        .fontSize(14)
+
+        .fontColor('#1E90FF')
+
+        .alignSelf(ItemAlign.End)
+
+        .margin({ right: 10 })
+
+
+
+      Scroll() {
+
+        Column() {
+
+          Row() {
+
+            ForEach(this.categories, (category: string) => {
+
+              Text(category)
+
+                .fontSize(14)
+
+                .backgroundColor('#F0F0F0')
+
+                .borderRadius(15)
+
+                .padding(5)
+
+                .margin(5)
+
+            })
+
+          }.width('100%').height(50)
+
+
+
+          Grid() {
+
+            ForEach(this.services, (service: ServiceItem) => {
+
+              GridItem() {
+
+                Column() {
+
+                  Image(service.icon).width(40).height(40)
+
+                  Text(service.label).fontSize(12).margin({ top: 5 })
+
+                }
+
+              }.onClick(() => {
+
+                if (service.label === '旅游') {
+
+                  router.pushUrl({ url: 'pages/TravelPage' })
+
+                }
+
+              })
+
+            })
+
+          }.columnsTemplate('1fr 1fr 1fr 1fr 1fr')
+
+          .rowsTemplate('1fr 1fr 1fr')
+
+          .width('100%')
+
+          .height(200)
+
+
+
+          ForEach(this.promotions, (item: PromotionItem) => {
+
+            Row() {
+
+              Image(item.image).width(80).height(80).borderRadius(10)
+
+              Column() {
+
+                Text(item.title).fontSize(16).fontWeight(FontWeight.Bold)
+
+                Text(item.subtitle).fontSize(14).fontColor(Color.Gray)
+
+              }.alignItems(HorizontalAlign.Start).margin({ left: 10 })
+
+            }.width('100%').height(100).margin({ top: 10 })
+
+          })
+
+
+
+          Image($r('app.media.template'))
+
+            .width('100%')
+
+            .height(100)
+
+            .margin({ top: 10 })
+
+
+
+          Column() {
+
+            Row() {
+
+              Text('您有一段旅程').fontSize(16).fontWeight(FontWeight.Bold)
+
+              Text('更多 >').fontSize(14).fontColor('#1E90FF').margin({ left: 10 })
+
+            }.width('100%').justifyContent(FlexAlign.SpaceBetween)
+
+
+
+            Row() {
+
+              Image($r('app.media.template')).width(40).height(40)
+
+              Column() {
+
+                Text('烟台百纳瑞汀酒店（第一海水浴场火车站店）').fontSize(14)
+
+                Text('7月17日入住 - 3晚 - 7月20日离店').fontSize(12).fontColor(Color.Gray)
+
+                Text('瑞雅海景大床房 1间').fontSize(12).fontColor(Color.Gray)
+
+              }.alignItems(HorizontalAlign.Start).margin({ left: 10 })
+
+            }.width('100%').height(80).backgroundColor('#F5F5F5').borderRadius(10).padding(10)
+
+          }.margin({ top: 20 })
+
+        }.width('100%')
+
+      }.width('100%').height('80%')
+
+
+
+      Row() {
+
+        Column() {
+
+          Image($r('app.media.template')).width(25).height(25)
+
+          Text('首页').fontSize(12)
+
+        }.width('20%').height(60)
+
+        Column() {
+
+          Image($r('app.media.template')).width(25).height(25)
+
+          Text('社区').fontSize(12)
+
+        }.width('20%').height(60)
+
+        Column() {
+
+          Image($r('app.media.template')).width(25).height(25)
+
+          Text('消息').fontSize(12)
+
+        }.width('20%').height(60)
+
+        Column() {
+
+          Image($r('app.media.template')).width(25).height(25)
+
+          Text('行程').fontSize(12)
+
+        }.width('20%').height(60)
+
+        Column() {
+
+          Image($r('app.media.template')).width(25).height(25)
+
+          Text('我的').fontSize(12)
+
+        }.width('20%').height(60)
+
+      }.width('100%').height(60).position({ y: '92%' }).backgroundColor(Color.White)
+
+    }
+
+  }
+
+}

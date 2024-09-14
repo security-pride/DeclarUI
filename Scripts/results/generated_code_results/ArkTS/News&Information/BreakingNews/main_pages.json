@@ -1,0 +1,9 @@
+{
+    "src": [
+        "pages/MoreDetailsPage",
+        "pages/NoticePage",
+        "pages/LogInPage",
+        "pages/SettingsPage",
+        "pages/HomePage"
+    ]
+}

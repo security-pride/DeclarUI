@@ -1,0 +1,230 @@
+import React from 'react';
+import { View, Text, StyleSheet, Image, TouchableOpacity, ImageBackground, Button } from 'react-native';
+import { Ionicons, Feather } from 'react-native-vector-icons';
+
+const StatisticsScreen = ({ navigation }) => {
+  return (
+    <View style={styles.container}>
+      <View style={styles.header}>
+        <Text style={styles.time}>19:27</Text>
+        <Text style={styles.pageTitle}>Statistic</Text>
+        <Button 
+          onPress={() => navigation.navigate('Notifications')}
+          title=""
+          icon={<Ionicons name="notifications-outline" size={24} color="black" />}
+        />
+      </View>
+      
+      <View style={styles.learningProgressSection}>
+        <Text style={styles.learningProgressTitle}>Learning Progress</Text>
+        <TouchableOpacity style={styles.dropdown}>
+          <Text style={styles.dropdownText}>Weekly</Text>
+          <Ionicons name="chevron-down-outline" size={20} color="black" />
+        </TouchableOpacity>
+
+        <ImageBackground 
+          source={require('../assets/chart-placeholder.png')} 
+          style={styles.chartBackground}
+        >
+          <View style={styles.learningProgressChart}>
+            { /* Insert the bar chart here using custom bars or use a library like react-native-chart-kit */ }
+            <TouchableOpacity style={styles.barPopup}>
+              <Text style={styles.barPopupText}>3 Class</Text>
+            </TouchableOpacity>  
+          </View>
+        </ImageBackground>
+
+        <View style={styles.daysOfWeek}>
+          <Text style={styles.day}>Sun</Text>
+          <Text style={styles.day}>Mon</Text>
+          <Text style={styles.day}>Tue</Text>
+          <Text style={styles.day}>Wed</Text>
+          <Text style={styles.day}>Thu</Text>
+          <Text style={styles.day}>Fri</Text>
+          <Text style={styles.day}>Sat</Text>
+        </View>
+      </View>
+
+      <View style={styles.courseProgressSection}>
+        <Text style={styles.courseProgressTitle}>Course Progress (4)</Text>
+
+        <View style={styles.courseCard}>
+          <Image source={require('../assets/snack-icon.png')} style={styles.courseImage} />
+          <View style={styles.courseInfo}>
+            <Text style={styles.courseCategory}>Programing</Text>
+            <Text style={styles.courseTitle}>Bootstrapping Fundamental Principles</Text>
+            <Text style={styles.courseRating}>4.7 (1,242 Reviews)</Text>
+            <Text style={styles.courseProgress}>74%</Text>
+          </View>
+        </View>
+
+        <View style={styles.courseCard}>
+          <Image source={require('../assets/snack-icon.png')} style={styles.courseImage} />
+          <View style={styles.courseInfo}>
+            <Text style={styles.courseCategory}>Interface Design</Text>
+            <Text style={styles.courseTitle}>User interface for beginners</Text>
+          </View>
+        </View>
+      </View>
+
+      <View style={styles.bottomNav}>
+        <TouchableOpacity onPress={() => navigation.navigate('Home')} style={styles.navItem}>
+          <Ionicons name="home-outline" size={24} color="black" />
+          <Text style={styles.navLabel}>Home</Text>
+        </TouchableOpacity>
+        <TouchableOpacity onPress={() => navigation.navigate('Statistics')} style={styles.navItem}>
+          <Ionicons name="bar-chart-outline" size={24} color="black" />
+          <Text style={styles.navLabel}>Statistic</Text>
+        </TouchableOpacity>
+        <TouchableOpacity onPress={() => navigation.navigate('Favorites')} style={styles.navItem}>
+          <Ionicons name="heart-outline" size={24} color="black" />
+          <Text style={styles.navLabel}>Favorites</Text>
+        </TouchableOpacity>
+        <TouchableOpacity onPress={() => navigation.navigate('Profile')} style={styles.navItem}>
+          <Feather name="user" size={24} color="black" />
+          <Text style={styles.navLabel}>Profile</Text>
+        </TouchableOpacity>
+      </View>
+    </View>
+  );
+};
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#FFF',
+  },
+  header: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    padding: 16,
+  },
+  time: {
+    fontSize: 16,
+    color: '#000',
+  },
+  pageTitle: {
+    fontSize: 20,
+    fontWeight: 'bold',
+    color: '#000',
+  },
+  learningProgressSection: {
+    paddingHorizontal: 16,
+    marginBottom: 16,
+  },
+  learningProgressTitle: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: '#000',
+  },
+  dropdown: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: '#FFF',
+    borderRadius: 6,
+    paddingHorizontal: 12,
+    paddingVertical: 6,
+    alignSelf: 'flex-end',
+    marginTop: 8,
+  },
+  dropdownText: {
+    fontSize: 14,
+    color: '#000',
+  },
+  chartBackground: {
+    height: 200,
+    marginTop: 16,
+  },
+  learningProgressChart: {
+    position: 'relative',
+  },
+  barPopup: {
+    position: 'absolute',
+    top: 50,
+    left: 60,
+    backgroundColor: '#000',
+    borderRadius: 4,
+    padding: 4,
+  },
+  barPopupText: {
+    color: '#FFF',
+    fontSize: 12,
+  },
+  daysOfWeek: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    marginTop: 16,
+  },
+  day: {
+    fontSize: 14,
+    color: '#000',
+  },
+  courseProgressSection: {
+    paddingHorizontal: 16,
+  },
+  courseProgressTitle: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: '#000',
+    marginBottom: 16,
+  },
+  courseCard: {
+    flexDirection: 'row',
+    marginBottom: 16,
+    padding: 10,
+    backgroundColor: '#FFF',
+    borderRadius: 6,
+    shadowColor: '#000',
+    shadowOpacity: 0.1,
+    shadowOffset: { width: 0, height: 2 },
+    elevation: 4,
+  },
+  courseImage: {
+    width: 60,
+    height: 60,
+    borderRadius: 6,
+  },
+  courseInfo: {
+    marginLeft: 16,
+  },
+  courseCategory: {
+    fontSize: 14,
+    color: '#000',
+  },
+  courseTitle: {
+    fontSize: 16,
+    fontWeight: 'bold',
+    color: '#000',
+  },
+  courseRating: {
+    fontSize: 14,
+    color: '#000',
+  },
+  courseProgress: {
+    fontSize: 14,
+    color: '#000',
+  },
+  bottomNav: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-around',
+    position: 'absolute',
+    bottom: 0,
+    left: 0,
+    right: 0,
+    backgroundColor: '#FFF',
+    borderTopWidth: 1,
+    borderTopColor: '#DDD',
+    paddingVertical: 8,
+  },
+  navItem: {
+    alignItems: 'center',
+  },
+  navLabel: {
+    fontSize: 12,
+    color: '#000',
+  },
+});
+
+export default StatisticsScreen;

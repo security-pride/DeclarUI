@@ -1,0 +1,9 @@
+{
+    "src": [
+        "pages/CartPage",
+        "pages/HomePage",
+        "pages/LogisticsPage",
+        "pages/MessagePage",
+        "pages/ProfilePage"
+    ]
+}

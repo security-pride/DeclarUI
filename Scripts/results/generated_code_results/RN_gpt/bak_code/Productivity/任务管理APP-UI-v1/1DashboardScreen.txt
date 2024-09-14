@@ -1,0 +1,143 @@
+import React from 'react';
+import { View, Text, StyleSheet, Image, TouchableOpacity } from 'react-native';
+import Icon from 'react-native-vector-icons/Ionicons';
+import { useNavigation } from '@react-navigation/native';
+
+const DashboardScreen = () => {
+  const navigation = useNavigation();
+
+  return (
+    <View style={styles.container}>
+      <View style={styles.header}>
+        <Text style={styles.timeText}>9:41</Text>
+        <Text style={styles.titleText}>Dashboard</Text>
+        <Image source={require('../assets/snack-icon.png')} style={styles.avatar} />
+      </View>
+
+      <View style={styles.chartContainer}>
+        <Image source={require('../assets/snack-icon.png')} style={styles.chartImage} />
+      </View>
+
+      <View style={styles.statsContainer}>
+        <View style={styles.statItem}>
+          <Icon name="folder-outline" style={styles.statIcon} />
+          <Text style={styles.statText}>Total task</Text>
+          <Text style={styles.statValue}>55</Text>
+        </View>
+        
+        <View style={styles.statItem}>
+          <Icon name="checkmark-outline" style={styles.statIcon} />
+          <Text style={styles.statText}>Completed</Text>
+          <Text style={styles.statValue}>13</Text>
+        </View>
+        
+        <View style={styles.statItem}>
+          <Icon name="time-outline" style={styles.statIcon} />
+          <Text style={styles.statText}>Working on</Text>
+          <Text style={styles.statValue}>25</Text>
+        </View>
+        
+        <View style={styles.statItem}>
+          <Icon name="add-outline" style={styles.statIcon} />
+          <Text style={styles.statText}>Pending</Text>
+          <Text style={styles.statValue}>17</Text>
+        </View>
+      </View>
+
+      <View style={styles.bottomNav}>
+        <TouchableOpacity onPress={() => navigation.navigate('Board')}>
+          <Icon name="grid-outline" style={styles.navIcon} />
+        </TouchableOpacity>
+        <TouchableOpacity onPress={() => navigation.navigate('Task')}>
+          <Icon name="checkmark-done-outline" style={styles.navIcon} />
+        </TouchableOpacity>
+        <TouchableOpacity onPress={() => navigation.navigate('AddTask')}>
+          <Icon name="add-circle" style={styles.addButton} />
+        </TouchableOpacity>
+        <TouchableOpacity onPress={() => navigation.navigate('Message')}>
+          <Icon name="document-outline" style={styles.navIcon} />
+        </TouchableOpacity>
+        <TouchableOpacity onPress={() => navigation.navigate('Message')}>
+          <Icon name="chatbubble-outline" style={styles.navIcon} />
+        </TouchableOpacity>
+      </View>
+    </View>
+  );
+};
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#F0F4FF',
+  },
+  header: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    padding: 20,
+  },
+  timeText: {
+    fontSize: 16,
+    color: '#000',
+  },
+  titleText: {
+    fontSize: 24,
+    fontWeight: 'bold',
+    color: '#000',
+  },
+  avatar: {
+    width: 40,
+    height: 40,
+    borderRadius: 20,
+  },
+  chartContainer: {
+    alignItems: 'center',
+  },
+  chartImage: {
+    width: 200,
+    height: 200,
+  },
+  statsContainer: {
+    backgroundColor: '#fff',
+    borderRadius: 20,
+    margin: 20,
+    padding: 15,
+  },
+  statItem: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    padding: 10,
+  },
+  statIcon: {
+    fontSize: 28,
+    color: '#555',
+  },
+  statText: {
+    fontSize: 18,
+    color: '#333',
+    flex: 1,
+  },
+  statValue: {
+    fontSize: 18,
+    color: '#333',
+  },
+  bottomNav: {
+    flexDirection: 'row',
+    justifyContent: 'space-around',
+    alignItems: 'center',
+    backgroundColor: '#6C63FF',
+    paddingVertical: 10,
+  },
+  navIcon: {
+    fontSize: 28,
+    color: '#fff',
+  },
+  addButton: {
+    fontSize: 60,
+    color: '#FF6F61',
+    marginBottom: 10,
+  },
+});
+
+export default DashboardScreen;

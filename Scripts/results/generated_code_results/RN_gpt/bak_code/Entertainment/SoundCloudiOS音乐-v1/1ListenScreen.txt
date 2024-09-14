@@ -1,0 +1,178 @@
+import React from 'react';
+import { View, Text, Image, ImageBackground, StyleSheet, FlatList, TouchableOpacity } from 'react-native';
+import { useNavigation } from '@react-navigation/native';
+import Icon from 'react-native-vector-icons/Ionicons';
+
+const ListenScreen = () => {
+  const navigation = useNavigation();
+
+  const featuredPlaylists = [
+    { name: 'Summer Vibes', followers: '1,300,231' },
+    { name: 'Monday Party', followers: '650,231' },
+  ];
+
+  const recentCategories = [
+    { name: 'Ranking', isNew: true },
+    { name: 'Weekly featured' },
+    { name: 'Podcast' },
+    { name: 'Live' },
+    { name: 'Concerts' },
+  ];
+
+  const renderPlaylist = ({ item }) => (
+    <View style={styles.playlistContainer}>
+      <ImageBackground source={require('../assets/snack-icon.png')} style={styles.playlistImage}>
+        <View style={styles.overlay}>
+          <Text style={styles.playlistName}>{item.name}</Text>
+          <Text style={styles.followers}>{item.followers} FOLLOWERS</Text>
+        </View>
+      </ImageBackground>
+    </View>
+  );
+
+  const renderCategory = (item) => (
+    <TouchableOpacity style={styles.category}>
+      <Text style={styles.categoryName}>{item.name}</Text>
+      {item.isNew && <Text style={styles.newsBadge}>News</Text>}
+      <Icon name="chevron-forward-outline" size={24} color="gray" />
+    </TouchableOpacity>
+  );
+
+  return (
+    <View style={styles.container}>
+      <Text style={styles.header}>Hots now</Text>
+      <FlatList
+        horizontal
+        data={featuredPlaylists}
+        renderItem={renderPlaylist}
+        keyExtractor={(item) => item.name}
+        showsHorizontalScrollIndicator={false}
+        style={styles.playlistList}
+      />
+      <Text style={styles.subHeader}>Recents</Text>
+      <View>
+        {recentCategories.map((category) => renderCategory(category))}
+      </View>
+      <View style={styles.nowPlayingBar}>
+        <View style={styles.nowPlayingInfo}>
+          <Text style={styles.nowPlayingSong}>All Mine</Text>
+          <Text style={styles.nowPlayingArtist}>Kanye West</Text>
+        </View>
+        <Icon name="play-circle-outline" size={24} color="orange" />
+      </View>
+      <View style={styles.bottomNav}>
+        <TouchableOpacity onPress={() => navigation.navigate('Player')}>
+          <Icon name="ios-flash-outline" size={28} color="gray" />
+        </TouchableOpacity>
+        <Icon name="ios-headset-outline" size={28} color="orange" />
+        <TouchableOpacity onPress={() => navigation.navigate('Home')}>
+          <Icon name="ios-search-outline" size={28} color="gray" />
+        </TouchableOpacity>
+        <Icon name="ios-person-outline" size={28} color="gray" />
+      </View>
+    </View>
+  );
+};
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+    paddingHorizontal: 10,
+  },
+  header: {
+    fontSize: 24,
+    fontWeight: 'bold',
+    color: 'orange',
+  },
+  playlistList: {
+    marginVertical: 10,
+  },
+  playlistContainer: {
+    width: 150,
+    height: 150,
+    marginRight: 10,
+    borderRadius: 10,
+    overflow: 'hidden',
+  },
+  playlistImage: {
+    flex: 1,
+    justifyContent: 'flex-end',
+  },
+  overlay: {
+    backgroundColor: 'rgba(0,0,0,0.5)',
+    padding: 10,
+  },
+  playlistName: {
+    fontSize: 16,
+    color: '#fff',
+    fontWeight: 'bold',
+  },
+  followers: {
+    fontSize: 12,
+    color: '#fff',
+  },
+  subHeader: {
+    fontSize: 18,
+    marginVertical: 10,
+    fontWeight: 'bold',
+  },
+  category: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    paddingVertical: 10,
+    borderBottomWidth: 1,
+    borderBottomColor: '#dcdcdc',
+  },
+  categoryName: {
+    fontSize: 16,
+  },
+  newsBadge: {
+    backgroundColor: 'orange',
+    color: '#fff',
+    paddingHorizontal: 6,
+    paddingVertical: 2,
+    borderRadius: 10,
+    fontSize: 12,
+    marginRight: 10,
+  },
+  nowPlayingBar: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    padding: 10,
+    backgroundColor: '#f3f3f3',
+    borderRadius: 20,
+    position: 'absolute',
+    bottom: 60,
+    left: 10,
+    right: 10,
+  },
+  nowPlayingInfo: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  nowPlayingSong: {
+    fontWeight: 'bold',
+    fontSize: 14,
+    marginRight: 5,
+  },
+  nowPlayingArtist: {
+    fontSize: 14,
+    color: 'gray',
+  },
+  bottomNav: {
+    flexDirection: 'row',
+    justifyContent: 'space-around',
+    position: 'absolute',
+    bottom: 10,
+    left: 10,
+    right: 10,
+    padding: 10,
+    borderTopWidth: 1,
+    borderTopColor: '#f3f3f3',
+  },
+});
+
+export default ListenScreen;

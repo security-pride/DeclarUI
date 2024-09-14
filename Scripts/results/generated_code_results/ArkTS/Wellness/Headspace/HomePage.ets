@@ -1,0 +1,315 @@
+import router from '@ohos.router';
+
+
+
+@Entry
+
+@Component
+
+struct HomePage {
+
+  @State greeting: string = 'Good Evening, 子骼';
+
+
+
+  build() {
+
+    Column() {
+
+      Row() {
+
+        Text(this.greeting)
+
+          .fontSize(20)
+
+          .fontWeight(FontWeight.Bold)
+
+        Blank()
+
+        Image($r('app.media.template'))
+
+          .width(24)
+
+          .height(24)
+
+          .margin({ right: 8 })
+
+        Image($r('app.media.template'))
+
+          .width(24)
+
+          .height(24)
+
+      }
+
+      .width('100%')
+
+      .padding(16)
+
+
+
+      Text('Start your day')
+
+        .fontSize(18)
+
+        .fontWeight(FontWeight.Bold)
+
+        .alignSelf(ItemAlign.Start)
+
+        .margin({ top: 16, bottom: 8 })
+
+
+
+      Scroll() {
+
+        Column() {
+
+          this.DayStartCard('How to Headspace', 'Video', '2 min')
+
+          this.DayStartCard('Rooted in the Present', 'Mindful Activity', '2 min')
+
+          this.MeditationCard('Enjoying the Unknown', "Today's Meditation", '3-20 min', 327)
+
+
+
+          Text('Your afternoon lift')
+
+            .fontSize(18)
+
+            .fontWeight(FontWeight.Bold)
+
+            .alignSelf(ItemAlign.Start)
+
+            .margin({ top: 24, bottom: 8 })
+
+        }
+
+      }
+
+      .scrollable(ScrollDirection.Vertical)
+
+      .scrollBar(BarState.Off)
+
+      .height('85%')
+
+
+
+      Row() {
+
+        Column() {
+
+          Image($r('app.media.template'))
+
+            .width(24)
+
+            .height(24)
+
+          Text('Today')
+
+            .fontSize(12)
+
+        }
+
+        .layoutWeight(1)
+
+
+
+        Column() {
+
+          Image($r('app.media.template'))
+
+            .width(24)
+
+            .height(24)
+
+          Text('Explore')
+
+            .fontSize(12)
+
+        }
+
+        .layoutWeight(1)
+
+        .onClick(() => {
+
+          router.pushUrl({ url: 'pages/ExplorePage' })
+
+        })
+
+
+
+        Column() {
+
+          Image($r('app.media.template'))
+
+            .width(24)
+
+            .height(24)
+
+          Text('Profile')
+
+            .fontSize(12)
+
+        }
+
+        .layoutWeight(1)
+
+        .onClick(() => {
+
+          router.pushUrl({ url: 'pages/ProfilePage' })
+
+        })
+
+      }
+
+      .width('100%')
+
+      .padding({ top: 8, bottom: 8 })
+
+    }
+
+  }
+
+
+
+  @Builder
+
+  DayStartCard(title: string, type: string, duration: string) {
+
+    Row() {
+
+      Column() {
+
+        Text(title)
+
+          .fontSize(16)
+
+          .fontWeight(FontWeight.Bold)
+
+        Row() {
+
+          Image($r('app.media.template'))
+
+            .width(16)
+
+            .height(16)
+
+          Text(type)
+
+            .fontSize(14)
+
+            .margin({ left: 4 })
+
+        }
+
+        Text(duration)
+
+          .fontSize(14)
+
+      }
+
+      .alignItems(HorizontalAlign.Start)
+
+      .layoutWeight(1)
+
+
+
+      Image($r('app.media.template'))
+
+        .width(80)
+
+        .height(80)
+
+        .borderRadius(8)
+
+    }
+
+    .width('100%')
+
+    .padding(12)
+
+    .backgroundColor('#1E1E1E')
+
+    .borderRadius(12)
+
+    .margin({ bottom: 12 })
+
+  }
+
+
+
+  @Builder
+
+  MeditationCard(title: string, type: string, duration: string, meditatingCount: number) {
+
+    Row() {
+
+      Column() {
+
+        Text(title)
+
+          .fontSize(16)
+
+          .fontWeight(FontWeight.Bold)
+
+        Row() {
+
+          Image($r('app.media.template'))
+
+            .width(16)
+
+            .height(16)
+
+          Text(type)
+
+            .fontSize(14)
+
+            .margin({ left: 4 })
+
+        }
+
+        Text(duration)
+
+          .fontSize(14)
+
+      }
+
+      .alignItems(HorizontalAlign.Start)
+
+      .layoutWeight(1)
+
+
+
+      Column() {
+
+        Image($r('app.media.template'))
+
+          .width(80)
+
+          .height(80)
+
+          .borderRadius(8)
+
+        Text(`${meditatingCount} meditating`)
+
+          .fontSize(12)
+
+          .margin({ top: 4 })
+
+      }
+
+    }
+
+    .width('100%')
+
+    .padding(12)
+
+    .backgroundColor('#1E1E1E')
+
+    .borderRadius(12)
+
+    .margin({ bottom: 12 })
+
+  }
+
+}

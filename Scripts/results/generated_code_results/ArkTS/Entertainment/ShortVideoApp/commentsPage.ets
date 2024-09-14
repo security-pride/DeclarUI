@@ -1,0 +1,201 @@
+@Entry
+
+@Component
+
+struct CommentsPage {
+
+  @State commentList: CommentItem[] = [
+
+    { user: 'Babayaga', comment: 'Lorem ipsum dolor sit amet, elit poo consectetur adipiscing elit. Aenean sit.', likes: '1.2k', replies: 12 },
+
+    { user: 'LilKittt', comment: 'Lorem ipsum dolor sit amet, elit poo consectetur adipiscing elit.', likes: '1.8k', replies: 12 },
+
+    { user: 'Spiderman', comment: 'Lorem ipsum dolor sit amet, elit poo consectetur adipiscing elit.', likes: '1.8k', replies: 12 },
+
+    { user: 'Badli', comment: 'Lorem ipsum dolor sit amet, elit poo consectetur adipiscing elit.', likes: '1.8k', replies: 12 },
+
+    { user: 'Tung Tran', comment: 'Lorem ipsum dolor sit amet, elit poo consectetur adipiscing elit.', likes: '1.8k', replies: 12 }
+
+  ]
+
+
+
+  @State newComment: string = ''
+
+
+
+  build() {
+
+    Column() {
+
+      Row() {
+
+        Text('4231 Comments')
+
+          .fontSize(18)
+
+          .fontWeight(FontWeight.Bold)
+
+        Blank()
+
+        Image($r('app.media.template'))
+
+          .width(24)
+
+          .height(24)
+
+      }
+
+      .width('100%')
+
+      .padding({ left: 16, right: 16, top: 8, bottom: 8 })
+
+
+
+      List() {
+
+        ForEach(this.commentList, (item: CommentItem) => {
+
+          ListItem() {
+
+            this.CommentItem(item)
+
+          }
+
+        }, (item: CommentItem) => item.user)
+
+      }
+
+      .width('100%')
+
+      .layoutWeight(1)
+
+
+
+      Row() {
+
+        TextInput({ placeholder: 'Add Comment...', text: this.newComment })
+
+          .onChange((value: string) => {
+
+            this.newComment = value
+
+          })
+
+          .width('80%')
+
+        Button('Post')
+
+          .onClick(() => {
+
+            if (this.newComment.trim() !== '') {
+
+              // Add new comment logic here
+
+              this.newComment = ''
+
+            }
+
+          })
+
+      }
+
+      .width('100%')
+
+      .padding(16)
+
+    }
+
+    .width('100%')
+
+    .height('100%')
+
+  }
+
+
+
+  @Builder
+
+  CommentItem(item: CommentItem) {
+
+    Row() {
+
+      Image($r('app.media.template'))
+
+        .width(40)
+
+        .height(40)
+
+        .borderRadius(20)
+
+      Column() {
+
+        Text(item.user)
+
+          .fontSize(16)
+
+          .fontWeight(FontWeight.Bold)
+
+        Text(item.comment)
+
+          .fontSize(14)
+
+        Row() {
+
+          Image($r('app.media.template'))
+
+            .width(16)
+
+            .height(16)
+
+          Text(item.likes)
+
+            .fontSize(12)
+
+            .margin({ left: 4 })
+
+          Text(`View replies (${item.replies})`)
+
+            .fontSize(12)
+
+            .margin({ left: 16 })
+
+            .onClick(() => {
+
+              // View replies logic here
+
+            })
+
+        }
+
+        .margin({ top: 4 })
+
+      }
+
+      .layoutWeight(1)
+
+      .margin({ left: 12 })
+
+    }
+
+    .width('100%')
+
+    .padding(16)
+
+  }
+
+}
+
+
+
+interface CommentItem {
+
+  user: string
+
+  comment: string
+
+  likes: string
+
+  replies: number
+
+}

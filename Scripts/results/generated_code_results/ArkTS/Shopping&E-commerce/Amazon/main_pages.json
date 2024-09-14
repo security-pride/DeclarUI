@@ -1,0 +1,9 @@
+{
+    "src": [
+        "pages/Account",
+        "pages/Filter",
+        "pages/Home",
+        "pages/Orders",
+        "pages/Profile"
+    ]
+}

@@ -1,0 +1,197 @@
+import router from '@ohos.router';
+
+
+
+interface SocialButton {
+
+  icon: Resource;
+
+  text: string;
+
+}
+
+
+
+@Entry
+
+@Component
+
+struct CreateAccountPage {
+
+  @State email: string = '';
+
+
+
+  build() {
+
+    Column() {
+
+      Image($r('app.media.template'))
+
+        .width('100%')
+
+        .height('30%')
+
+        .objectFit(ImageFit.Cover)
+
+
+
+      Text('Hi, Welcome Back')
+
+        .fontSize(24)
+
+        .fontWeight(FontWeight.Bold)
+
+        .margin({ top: 20, bottom: 10 })
+
+
+
+      Text('Sign up or login into see what\'s happening near you.')
+
+        .fontSize(16)
+
+        .textAlign(TextAlign.Center)
+
+        .margin({ bottom: 20 })
+
+
+
+      TextInput({ placeholder: 'Email' })
+
+        .width('90%')
+
+        .height(50)
+
+        .margin({ bottom: 20 })
+
+        .onChange((value: string) => {
+
+          this.email = value;
+
+        })
+
+
+
+      Button('Continue with email')
+
+        .width('90%')
+
+        .height(50)
+
+        .backgroundColor('#000000')
+
+        .fontColor(Color.White)
+
+        .onClick(() => {
+
+          if (this.email) {
+
+            router.pushUrl({ url: 'pages/HomePage' })
+
+          }
+
+        })
+
+
+
+      Text('Or continue with')
+
+        .fontSize(14)
+
+        .margin({ top: 20, bottom: 20 })
+
+
+
+      Row({ space: 20 }) {
+
+        this.SocialLoginButton({ icon: $r('app.media.template'), text: 'Continue with Google' })
+
+        this.SocialLoginButton({ icon: $r('app.media.template'), text: 'Continue with Apple' })
+
+      }
+
+
+
+      this.SocialLoginButton({ icon: $r('app.media.template'), text: 'Continue with Facebook' })
+
+
+
+      Row() {
+
+        Text('Don\'t have an account?')
+
+          .fontSize(14)
+
+        Text('Sign up')
+
+          .fontSize(14)
+
+          .fontColor('#0000FF')
+
+          .onClick(() => {
+
+            router.pushUrl({ url: 'pages/HomePage' })
+
+          })
+
+      }
+
+      .margin({ top: 20 })
+
+    }
+
+    .width('100%')
+
+    .height('100%')
+
+    .backgroundColor('#FFFFFF')
+
+  }
+
+
+
+  @Builder
+
+  SocialLoginButton(btn: SocialButton) {
+
+    Button({ type: ButtonType.Normal }) {
+
+      Row() {
+
+        Image(btn.icon)
+
+          .width(24)
+
+          .height(24)
+
+          .margin({ right: 10 })
+
+        Text(btn.text)
+
+          .fontSize(14)
+
+          .fontColor('#000000')
+
+      }
+
+    }
+
+    .width('90%')
+
+    .height(50)
+
+    .backgroundColor('#FFFFFF')
+
+    .border({ width: 1, color: '#000000' })
+
+    .margin({ bottom: 10 })
+
+    .onClick(() => {
+
+      router.pushUrl({ url: 'pages/HomePage' })
+
+    })
+
+  }
+
+}

@@ -1,0 +1,12 @@
+import React from 'react';
+import { View, Text } from 'react-native';
+
+const ExpandedViewShowHistoryScreen = () => {
+  return (
+    <View>
+      <Text>Expanded View Show History Screen</Text>
+    </View>
+  );
+};
+
+export default ExpandedViewShowHistoryScreen;

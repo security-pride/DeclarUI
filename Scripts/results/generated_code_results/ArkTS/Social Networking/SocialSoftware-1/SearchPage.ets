@@ -1,0 +1,287 @@
+import router from '@ohos.router';
+
+
+
+interface UserInfo {
+
+  name: string;
+
+  fullName: string;
+
+  followers: string;
+
+}
+
+
+
+@Entry
+
+@Component
+
+struct SearchPage {
+
+  @State searchQuery: string = '';
+
+  @State users: UserInfo[] = [
+
+    { name: 'aura', fullName: 'Aura Brown', followers: '500 mil' },
+
+    { name: 'rick', fullName: 'Rick Wright', followers: '500 mil' },
+
+    { name: 'mike', fullName: 'Mike Torello', followers: '500 mil' },
+
+    { name: 'theodore', fullName: 'Theodore T.C. Calvin', followers: '500 mil' },
+
+    { name: 'kate', fullName: 'Kate Tanner', followers: '500 mil' },
+
+    { name: 'thomas', fullName: 'Thomas Magnum', followers: '500 mil' },
+
+    { name: 'april', fullName: 'April Curtis', followers: '500 mil' }
+
+  ];
+
+
+
+  build() {
+
+    Column() {
+
+      Row() {
+
+        Text('Search')
+
+          .fontSize(20)
+
+          .fontWeight(FontWeight.Bold)
+
+        Blank()
+
+        Image($r('app.media.template'))
+
+          .width(20)
+
+          .height(20)
+
+        Image($r('app.media.template'))
+
+          .width(20)
+
+          .height(20)
+
+      }
+
+      .width('100%')
+
+      .padding(10)
+
+
+
+      TextInput({ placeholder: 'Search' })
+
+        .width('100%')
+
+        .height(40)
+
+        .backgroundColor('#F0F0F0')
+
+        .padding({ left: 10 })
+
+        .margin({ top: 10, bottom: 10 })
+
+        .onChange((value: string) => {
+
+          this.searchQuery = value;
+
+        })
+
+
+
+      List() {
+
+        ForEach(this.users, (user: UserInfo) => {
+
+          ListItem() {
+
+            Row() {
+
+              Column() {
+
+                Text(user.name)
+
+                  .fontSize(16)
+
+                  .fontWeight(FontWeight.Bold)
+
+                Text(user.fullName)
+
+                  .fontSize(14)
+
+                  .fontColor(Color.Gray)
+
+                Text(user.followers + ' followers')
+
+                  .fontSize(12)
+
+                  .fontColor(Color.Gray)
+
+              }
+
+              .alignItems(HorizontalAlign.Start)
+
+
+
+              Blank()
+
+
+
+              Button('Follow')
+
+                .width(80)
+
+                .height(30)
+
+                .backgroundColor('#007AFF')
+
+                .fontColor(Color.White)
+
+            }
+
+            .width('100%')
+
+            .padding(10)
+
+          }
+
+          .onClick(() => {
+
+            router.pushUrl({ url: 'pages/UserProfilePage' })
+
+          })
+
+        })
+
+      }
+
+      .width('100%')
+
+      .layoutWeight(1)
+
+
+
+      Row() {
+
+        Column() {
+
+          Image($r('app.media.template'))
+
+            .width(24)
+
+            .height(24)
+
+          Text('Home')
+
+            .fontSize(12)
+
+        }
+
+        .onClick(() => {
+
+          router.pushUrl({ url: 'pages/FeedPage' })
+
+        })
+
+
+
+        Column() {
+
+          Image($r('app.media.template'))
+
+            .width(24)
+
+            .height(24)
+
+          Text('Search')
+
+            .fontSize(12)
+
+        }
+
+
+
+        Column() {
+
+          Image($r('app.media.template'))
+
+            .width(24)
+
+            .height(24)
+
+          Text('Create')
+
+            .fontSize(12)
+
+        }
+
+
+
+        Column() {
+
+          Image($r('app.media.template'))
+
+            .width(24)
+
+            .height(24)
+
+          Text('Likes')
+
+            .fontSize(12)
+
+        }
+
+        .onClick(() => {
+
+          router.pushUrl({ url: 'pages/ActivityPage' })
+
+        })
+
+
+
+        Column() {
+
+          Image($r('app.media.template'))
+
+            .width(24)
+
+            .height(24)
+
+          Text('Profile')
+
+            .fontSize(12)
+
+        }
+
+        .onClick(() => {
+
+          router.pushUrl({ url: 'pages/ProfilePage' })
+
+        })
+
+      }
+
+      .width('100%')
+
+      .justifyContent(FlexAlign.SpaceAround)
+
+      .padding(10)
+
+      .backgroundColor(Color.White)
+
+    }
+
+    .width('100%')
+
+    .height('100%')
+
+  }
+
+}

@@ -1,0 +1,273 @@
+import router from '@ohos.router';
+
+
+
+@Entry
+
+@Component
+
+struct ProfilePage {
+
+  @State userInfo: UserInfo = { name: '子骄 薛', joinDate: 'Joined in 2024' };
+
+
+
+  build() {
+
+    Column() {
+
+      Row() {
+
+        Image($r('app.media.template'))
+
+          .width(40)
+
+          .height(40)
+
+          .margin({ right: 16 })
+
+        Column() {
+
+          Text(this.userInfo.name)
+
+            .fontSize(18)
+
+            .fontWeight(FontWeight.Bold)
+
+          Text(this.userInfo.joinDate)
+
+            .fontSize(14)
+
+            .fontColor(Color.Gray)
+
+        }
+
+        Blank()
+
+        Image($r('app.media.template'))
+
+          .width(24)
+
+          .height(24)
+
+      }
+
+      .width('100%')
+
+      .padding(16)
+
+
+
+      Text('Welcome!')
+
+        .fontSize(24)
+
+        .fontWeight(FontWeight.Bold)
+
+        .margin({ top: 24, bottom: 16 })
+
+
+
+      Column() {
+
+        Row() {
+
+          Column() {
+
+            Text('Beginning meditation')
+
+              .fontSize(16)
+
+              .fontWeight(FontWeight.Medium)
+
+            Text('Learn the fundamental techniques of meditation.')
+
+              .fontSize(14)
+
+              .fontColor(Color.Gray)
+
+          }
+
+          Image($r('app.media.template'))
+
+            .width(40)
+
+            .height(40)
+
+        }
+
+        .width('100%')
+
+        .justifyContent(FlexAlign.SpaceBetween)
+
+        .padding(16)
+
+        .backgroundColor('#E8E8E8')
+
+        .borderRadius(8)
+
+
+
+        Column() {
+
+          Text('Headspace 30-Day Guest Pass')
+
+            .fontSize(16)
+
+            .fontWeight(FontWeight.Medium)
+
+          Text('Bring friends along the journey')
+
+            .fontSize(14)
+
+            .fontColor(Color.Gray)
+
+          Button('Send free access to new members')
+
+            .width('100%')
+
+            .height(40)
+
+            .margin({ top: 8 })
+
+            .backgroundColor('#FFA500')
+
+        }
+
+        .width('100%')
+
+        .padding(16)
+
+        .backgroundColor('#FFD700')
+
+        .borderRadius(8)
+
+        .margin({ top: 16 })
+
+      }
+
+      .width('100%')
+
+
+
+      Text('My progress')
+
+        .fontSize(18)
+
+        .fontWeight(FontWeight.Bold)
+
+        .alignSelf(ItemAlign.Start)
+
+        .margin({ top: 24, bottom: 8 })
+
+
+
+      Row() {
+
+        // Progress indicators would go here
+
+      }
+
+      .width('100%')
+
+      .height(60)
+
+      .backgroundColor('#F0F0F0')
+
+      .borderRadius(8)
+
+
+
+      Blank()
+
+
+
+      Row() {
+
+        Column() {
+
+          Image($r('app.media.template'))
+
+            .width(24)
+
+            .height(24)
+
+          Text('Today')
+
+            .fontSize(12)
+
+        }
+
+        .onClick(() => {
+
+          router.pushUrl({ url: 'pages/HomePage' })
+
+        })
+
+
+
+        Column() {
+
+          Image($r('app.media.template'))
+
+            .width(24)
+
+            .height(24)
+
+          Text('Explore')
+
+            .fontSize(12)
+
+        }
+
+
+
+        Column() {
+
+          Image($r('app.media.template'))
+
+            .width(24)
+
+            .height(24)
+
+          Text('Profile')
+
+            .fontSize(12)
+
+            .fontColor('#0000FF')
+
+        }
+
+      }
+
+      .width('100%')
+
+      .justifyContent(FlexAlign.SpaceAround)
+
+      .padding({ top: 8, bottom: 8 })
+
+      .backgroundColor(Color.White)
+
+    }
+
+    .width('100%')
+
+    .height('100%')
+
+    .backgroundColor('#F8F8FF')
+
+    .padding(16)
+
+  }
+
+}
+
+
+
+interface UserInfo {
+
+  name: string;
+
+  joinDate: string;
+
+}

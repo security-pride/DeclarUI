@@ -1,0 +1,407 @@
+import router from '@ohos.router';
+
+
+
+@Entry
+
+@Component
+
+struct SettingsPage {
+
+  @State newsNotification: boolean = true
+
+  @State message: boolean = true
+
+  @State readerMode: string = 'Auto'
+
+  @State picturelessMode: boolean = false
+
+  @State dataSaved: number = 0
+
+
+
+  build() {
+
+    Column() {
+
+      Row() {
+
+        Image($r('app.media.template'))
+
+          .width(24)
+
+          .height(24)
+
+          .margin({ right: 16 })
+
+          .onClick(() => {
+
+            router.back()
+
+          })
+
+        Text('Settings')
+
+          .fontSize(20)
+
+          .fontWeight(FontWeight.Bold)
+
+      }
+
+      .width('100%')
+
+      .height(56)
+
+      .padding({ left: 16, right: 16 })
+
+      .backgroundColor('#F5F5F5')
+
+
+
+      Scroll() {
+
+        Column() {
+
+          Text('Features')
+
+            .fontSize(16)
+
+            .fontColor('#666666')
+
+            .width('100%')
+
+            .padding({ left: 16, top: 16, bottom: 8 })
+
+
+
+          Column() {
+
+            Row() {
+
+              Text('News notification')
+
+                .fontSize(16)
+
+              Blank()
+
+              Toggle({ type: ToggleType.Switch, isOn: this.newsNotification })
+
+                .onChange((isOn: boolean) => {
+
+                  this.newsNotification = isOn
+
+                })
+
+            }
+
+            .width('100%')
+
+            .height(48)
+
+            .padding({ left: 16, right: 16 })
+
+
+
+            Text('News notification settings')
+
+              .fontSize(16)
+
+              .width('100%')
+
+              .padding({ left: 16, right: 16 })
+
+              .height(48)
+
+
+
+            Row() {
+
+              Text('Message')
+
+                .fontSize(16)
+
+              Blank()
+
+              Toggle({ type: ToggleType.Switch, isOn: this.message })
+
+                .onChange((isOn: boolean) => {
+
+                  this.message = isOn
+
+                })
+
+            }
+
+            .width('100%')
+
+            .height(48)
+
+            .padding({ left: 16, right: 16 })
+
+
+
+            Text('Messaging settings')
+
+              .fontSize(16)
+
+              .width('100%')
+
+              .padding({ left: 16, right: 16 })
+
+              .height(48)
+
+
+
+            Row() {
+
+              Text('Reader mode')
+
+                .fontSize(16)
+
+              Blank()
+
+              Text(this.readerMode)
+
+                .fontSize(16)
+
+                .fontColor('#666666')
+
+            }
+
+            .width('100%')
+
+            .height(48)
+
+            .padding({ left: 16, right: 16 })
+
+
+
+            Text('Clear cache')
+
+              .fontSize(16)
+
+              .width('100%')
+
+              .padding({ left: 16, right: 16 })
+
+              .height(48)
+
+          }
+
+          .backgroundColor(Color.White)
+
+          .borderRadius(8)
+
+          .margin({ left: 16, right: 16, top: 8 })
+
+
+
+          Text('Data')
+
+            .fontSize(16)
+
+            .fontColor('#666666')
+
+            .width('100%')
+
+            .padding({ left: 16, top: 16, bottom: 8 })
+
+
+
+          Column() {
+
+            Row() {
+
+              Text('Data Saving')
+
+                .fontSize(16)
+
+              Blank()
+
+              Text(`${this.dataSaved} B saved`)
+
+                .fontSize(14)
+
+                .fontColor('#666666')
+
+            }
+
+            .width('100%')
+
+            .height(48)
+
+            .padding({ left: 16, right: 16 })
+
+
+
+            Row() {
+
+              Text('Pictureless Mode')
+
+                .fontSize(16)
+
+              Blank()
+
+              Toggle({ type: ToggleType.Switch, isOn: this.picturelessMode })
+
+                .onChange((isOn: boolean) => {
+
+                  this.picturelessMode = isOn
+
+                })
+
+              Text(this.picturelessMode ? 'Enabled' : 'Disabled')
+
+                .fontSize(14)
+
+                .fontColor('#666666')
+
+                .margin({ left: 8 })
+
+            }
+
+            .width('100%')
+
+            .height(48)
+
+            .padding({ left: 16, right: 16 })
+
+          }
+
+          .backgroundColor(Color.White)
+
+          .borderRadius(8)
+
+          .margin({ left: 16, right: 16, top: 8 })
+
+
+
+          Text('Terms')
+
+            .fontSize(16)
+
+            .fontColor('#666666')
+
+            .width('100%')
+
+            .padding({ left: 16, top: 16, bottom: 8 })
+
+
+
+          Column() {
+
+            Text('End-user license agreement')
+
+              .fontSize(16)
+
+              .width('100%')
+
+              .padding({ left: 16, right: 16 })
+
+              .height(48)
+
+
+
+            Text('Privacy statement')
+
+              .fontSize(16)
+
+              .width('100%')
+
+              .padding({ left: 16, right: 16 })
+
+              .height(48)
+
+
+
+            Text('Delete my data')
+
+              .fontSize(16)
+
+              .width('100%')
+
+              .padding({ left: 16, right: 16 })
+
+              .height(48)
+
+          }
+
+          .backgroundColor(Color.White)
+
+          .borderRadius(8)
+
+          .margin({ left: 16, right: 16, top: 8 })
+
+        }
+
+      }
+
+      .layoutWeight(1)
+
+
+
+      Row() {
+
+        Column() {
+
+          Image($r('app.media.template'))
+
+            .width(24)
+
+            .height(24)
+
+          Text('Home')
+
+            .fontSize(12)
+
+            .margin({ top: 4 })
+
+        }
+
+        .layoutWeight(1)
+
+        .onClick(() => {
+
+          router.pushUrl({ url: 'pages/HomePage' })
+
+        })
+
+
+
+        Column() {
+
+          Image($r('app.media.template'))
+
+            .width(24)
+
+            .height(24)
+
+          Text('Me')
+
+            .fontSize(12)
+
+            .margin({ top: 4 })
+
+        }
+
+        .layoutWeight(1)
+
+        .onClick(() => {
+
+          router.pushUrl({ url: 'pages/MePage' })
+
+        })
+
+      }
+
+      .width('100%')
+
+      .height(56)
+
+      .backgroundColor(Color.White)
+
+    }
+
+  }
+
+}

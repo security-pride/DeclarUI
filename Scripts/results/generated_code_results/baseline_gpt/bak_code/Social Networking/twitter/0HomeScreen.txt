@@ -1,0 +1,149 @@
+```javascript
+import React from 'react';
+import { View, Text, Image, StyleSheet, FlatList, TouchableOpacity } from 'react-native';
+import { Ionicons } from '@expo/vector-icons';
+import { useNavigation } from '@react-navigation/native';
+
+const tweetsData = [
+  {
+    id: '1',
+    userName: 'Martha Craig',
+    userHandle: '@craig_love',
+    time: '12h',
+    content: 'UXR/UX: You can only bring one item to a remote island to assist your research...',
+    likes: 21,
+    retweets: 5,
+    comments: 28,
+  },
+  {
+    id: '2',
+    userName: 'Maximmilian',
+    userHandle: '@maxjacobson',
+    time: '3h',
+    content: 'Y\'all ready for this next post?',
+    likes: 363,
+    retweets: 18,
+    comments: 46,
+  },
+  {
+    id: '3',
+    userName: 'Tabitha Potter',
+    userHandle: '@mis_potter',
+    time: '14h',
+    content: 'Kobe’s passing is really sticking w/ me in a way I didn’t expect...',
+    likes: 11,
+    retweets: 1,
+    comments: 7,
+  },
+  {
+    id: '4',
+    userName: 'karen',
+    userHandle: '@karennne',
+    time: '10h',
+    content: 'Name a show where the lead character is the worst character on the show...',
+    likes: 7461,
+    retweets: 1249,
+    comments: 1906,
+  }
+];
+
+const HomeScreen = () => {
+  const navigation = useNavigation();
+
+  const renderItem = ({ item }) => (
+    <View style={styles.tweetContainer}>
+      <Image source={require('../assets/snack-icon.png')} style={styles.avatar} />
+      <View style={styles.tweetContent}>
+        <Text style={styles.userName}>{item.userName} <Text style={styles.userHandle}>{item.userHandle} · {item.time}</Text></Text>
+        <Text>{item.content}</Text>
+        <View style={styles.interaction}>
+          <Text><Ionicons name="chatbubble-outline" size={16} /> {item.comments}</Text>
+          <Text><Ionicons name="repeat-outline" size={16} /> {item.retweets}</Text>
+          <Text><Ionicons name="heart-outline" size={16} /> {item.likes}</Text>
+        </View>
+      </View>
+    </View>
+  );
+
+  return (
+    <View style={styles.container}>
+      <FlatList
+        data={tweetsData}
+        renderItem={renderItem}
+        keyExtractor={item => item.id}
+      />
+      <View style={styles.footer}>
+        <TouchableOpacity onPress={() => navigation.navigate('Home')}>
+          <Ionicons name="home-outline" size={32} color="blue" />
+        </TouchableOpacity>
+        <TouchableOpacity onPress={() => navigation.navigate('Search')}>
+          <Ionicons name="search-outline" size={32} />
+        </TouchableOpacity>
+        <TouchableOpacity onPress={() => navigation.navigate('Notifications')}>
+          <Ionicons name="notifications-outline" size={32} />
+        </TouchableOpacity>
+        <TouchableOpacity onPress={() => navigation.navigate('Messages')}>
+          <Ionicons name="mail-outline" size={32} />
+        </TouchableOpacity>
+      </View>
+      <TouchableOpacity style={styles.fab}>
+        <Ionicons name="create-outline" size={28} color="white" />
+      </TouchableOpacity>
+    </View>
+  );
+};
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: 'white',
+  },
+  tweetContainer: {
+    flexDirection: 'row',
+    padding: 10,
+    borderBottomWidth: 1,
+    borderBottomColor: '#eee',
+  },
+  avatar: {
+    width: 50,
+    height: 50,
+    borderRadius: 25,
+    marginRight: 10,
+  },
+  tweetContent: {
+    flex: 1,
+  },
+  userName: {
+    fontWeight: 'bold',
+  },
+  userHandle: {
+    color: 'gray',
+  },
+  interaction: {
+    flexDirection: 'row',
+    justifyContent: 'space-around',
+    marginTop: 5,
+  },
+  footer: {
+    flexDirection: 'row',
+    justifyContent: 'space-around',
+    padding: 10,
+    borderTopWidth: 1,
+    borderTopColor: '#eee',
+  },
+  fab: {
+    position: 'absolute',
+    bottom: 20,
+    right: 20,
+    width: 60,
+    height: 60,
+    borderRadius: 30,
+    backgroundColor: 'blue',
+    alignItems: 'center',
+    justifyContent: 'center',
+    elevation: 3,
+  },
+});
+
+export default HomeScreen;
+```

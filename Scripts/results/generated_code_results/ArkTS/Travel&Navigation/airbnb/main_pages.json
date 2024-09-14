@@ -1,0 +1,9 @@
+{
+    "src": [
+        "pages/Search",
+        "pages/SearchCategory",
+        "pages/Details",
+        "pages/Comments",
+        "pages/Reservation"
+    ]
+}

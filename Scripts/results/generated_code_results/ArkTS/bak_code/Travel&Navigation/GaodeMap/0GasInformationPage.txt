@@ -1,0 +1,128 @@
+import router from '@ohos.router';
+
+interface QuickAccessButton {
+  name: string;
+  icon: string;
+  badge?: string;
+}
+
+interface GasStation {
+  name: string;
+  distance: string;
+  price: string;
+  originalPrice: string;
+  discount: string;
+}
+
+@Entry
+@Component
+struct GasInformationPage {
+  @State quickAccessButtons: QuickAccessButton[] = [
+    { name: '新人专享', icon: 'gift' },
+    { name: '调价补贴', icon: 'tag', badge: '热' },
+    { name: '领券中心', icon: 'ticket' },
+    { name: '分享油礼', icon: 'share' },
+    { name: '油惠卡', icon: 'card', badge: '省' }
+  ];
+
+  @State gasStations: GasStation[] = [
+    { name: '供销石油加油站', distance: '3km', price: '¥7.56/L', originalPrice: '¥7.87/L', discount: '加200省8' },
+    { name: '烟台交运石油二马路金沟寨加油站', distance: '1.4公里', price: '¥7.56/L', originalPrice: '¥8.07/L', discount: '加200省13' },
+    { name: '中化石油安顺加油站(安顺站)', distance: '7.1公里', price: '¥6.86/L', originalPrice: '¥7.97/L', discount: '加200省28' }
+  ];
+
+  build() {
+    Column() {
+      // Header
+      Row() {
+        Image($r('app.media.template')).width(24).height(24)
+          .onClick(() => {
+            router.pushUrl({ url: 'pages/HomePage' })
+          })
+        Text('高德车服·加油').fontSize(18).fontWeight(FontWeight.Bold)
+        Blank()
+        Image($r('app.media.template')).width(24).height(24)
+      }.width('100%').height(56).padding({ left: 16, right: 16 })
+
+      // Quick Access Buttons
+      Row() {
+        ForEach(this.quickAccessButtons, (button: QuickAccessButton) => {
+          Column() {
+            Stack() {
+              Image($r('app.media.template')).width(24).height(24)
+              if (button.badge) {
+                Text(button.badge)
+                  .fontSize(10)
+                  .fontColor(Color.Red)
+                  .position({ x: 16, y: -8 })
+              }
+            }
+            Text(button.name).fontSize(12)
+          }.width('20%').height(60)
+        })
+      }.width('100%').height(80)
+
+      // Promo Section
+      Row() {
+        Column() {
+          Text("天天'油'惠").fontSize(16).fontWeight(FontWeight.Bold)
+          Text('单回本，单单省！').fontSize(12)
+        }
+        Blank()
+        Button('立即查看')
+          .height(32)
+          .backgroundColor(Color.Blue)
+          .fontColor(Color.White)
+      }.width('90%').height(60).margin({ top: 16, bottom: 16 })
+      .padding(16)
+      .backgroundColor('#F0F0F0')
+      .borderRadius(8)
+
+      // Main Content
+      Column() {
+        Row() {
+          Text('高德车服·加油').fontSize(18).fontWeight(FontWeight.Bold)
+          Text('站超多 巨划算').fontSize(12).margin({ left: 8 })
+        }
+
+        Text('高德红包 满200减8').fontSize(12).fontColor(Color.Red).margin({ top: 8 })
+
+        // Filter Options
+        Row() {
+          Text('推荐排序').fontSize(14)
+          Text('92#').fontSize(14).margin({ left: 16 })
+          Text('全部品牌').fontSize(14).margin({ left: 16 })
+        }.width('100%').margin({ top: 16, bottom: 16 })
+
+        // Gas Station List
+        List() {
+          ForEach(this.gasStations, (station: GasStation) => {
+            ListItem() {
+              Row() {
+                Image($r('app.media.template')).width(80).height(60)
+                Column() {
+                  Text(station.name).fontSize(16).fontWeight(FontWeight.Bold)
+                  Row() {
+                    Text(station.distance).fontSize(12)
+                    Text(station.price).fontSize(16).fontColor(Color.Red).margin({ left: 8 })
+                  }
+                  Row() {
+                    Text(station.originalPrice).fontSize(12).decoration({ type: TextDecorationType.LineThrough })
+                    Text(station.discount).fontSize(12).fontColor(Color.Red).margin({ left: 8 })
+                  }
+                }.layoutWeight(1).alignItems(HorizontalAlign.Start)
+                Button('立即加油')
+                  .height(32)
+                  .backgroundColor(Color.Blue)
+                  .fontColor(Color.White)
+                  .onClick(() => {
+                    router.pushUrl({ url: 'pages/GasStationDetailsPage' })
+                  })
+              }.width('100%').height(80).margin({ bottom: 16 })
+            }
+          })
+        }.width('100%')
+      }.width('90%').margin({ top: 16 })
+    }.width('100%').height('100%')
+  }
+}

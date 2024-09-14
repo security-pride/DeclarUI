@@ -1,0 +1,191 @@
+import router from '@ohos.router';
+
+
+
+interface Task {
+
+  status: string;
+
+  title: string;
+
+  description: string;
+
+  time: string;
+
+  participants: number;
+
+}
+
+
+
+@Entry
+
+@Component
+
+struct TaskPage {
+
+  @State currentDate: string = 'May 01, 2020'
+
+  @State selectedDay: number = 14
+
+  @State tasks: Task[] = [
+
+    { status: 'URGENT', title: 'New Web UI Design Project', description: 'Website UI Design for $500', time: '10 - 11 AM', participants: 2 },
+
+    { status: 'RUNNING', title: 'Application Design Meeting', description: 'Website UI Design for $500', time: '10 - 11 AM', participants: 2 },
+
+    { status: 'ONGOING', title: 'Web Design Meeting', description: '', time: '', participants: 0 }
+
+  ]
+
+
+
+  build() {
+
+    Column() {
+
+      Row() {
+
+        Text('Task').fontSize(24).fontWeight(FontWeight.Bold)
+
+        Blank()
+
+        Image($r('app.media.template')).width(40).height(40)
+
+      }.width('100%').padding({ left: 16, right: 16, top: 8, bottom: 8 })
+
+
+
+      Row() {
+
+        Column() {
+
+          Text(this.currentDate).fontSize(16).fontColor(Color.Gray)
+
+          Text('Today').fontSize(20).fontWeight(FontWeight.Bold)
+
+        }
+
+        Blank()
+
+        Button({ type: ButtonType.Capsule }) {
+
+          Row() {
+
+            Image($r('app.media.template')).width(20).height(20)
+
+            Text('Add Task').fontSize(16).fontColor(Color.White)
+
+          }
+
+        }.height(40).backgroundColor('#FF7F50')
+
+        .onClick(() => router.pushUrl({ url: 'pages/AddTaskPage' }))
+
+      }.width('100%').padding({ left: 16, right: 16, top: 8, bottom: 8 })
+
+
+
+      Row() {
+
+        ForEach(['MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT', 'SUN'], (day, index) => {
+
+          Column() {
+
+            Text(day).fontSize(12).fontColor(Color.Gray)
+
+            Text(`${10 + index}`).fontSize(16)
+
+              .fontColor(this.selectedDay === 10 + index ? Color.Blue : Color.Black)
+
+              .fontWeight(this.selectedDay === 10 + index ? FontWeight.Bold : FontWeight.Normal)
+
+          }.width('14%').alignItems(HorizontalAlign.Center)
+
+        })
+
+      }.width('100%').padding(16)
+
+
+
+      List() {
+
+        ForEach(this.tasks, (task: Task) => {
+
+          ListItem() {
+
+            Column() {
+
+              Text(task.status)
+
+                .fontSize(12)
+
+                .fontColor(task.status === 'URGENT' ? Color.Red : (task.status === 'RUNNING' ? Color.Green : Color.Blue))
+
+              Text(task.title).fontSize(18).fontWeight(FontWeight.Bold)
+
+              Text(task.description).fontSize(14).fontColor(Color.Gray)
+
+              Row() {
+
+                Row() {
+
+                  Image($r('app.media.template')).width(16).height(16)
+
+                  Text(task.time).fontSize(14).margin({ left: 4 })
+
+                }
+
+                Blank()
+
+                Row() {
+
+                  Image($r('app.media.template')).width(16).height(16)
+
+                  Text(`${task.participants} Persons`).fontSize(14).margin({ left: 4 })
+
+                }
+
+              }.width('100%').margin({ top: 8 })
+
+            }.width('100%').padding(16).backgroundColor(Color.White).borderRadius(8)
+
+          }.margin({ bottom: 16 })
+
+        })
+
+      }.width('100%').height('60%').margin({ top: 16 })
+
+
+
+      Row() {
+
+        Image($r('app.media.template')).width(24).height(24)
+
+          .onClick(() => router.pushUrl({ url: 'pages/BoardPage' }))
+
+        Image($r('app.media.template')).width(24).height(24)
+
+          .onClick(() => router.pushUrl({ url: 'pages/DashboardPage' }))
+
+        Image($r('app.media.template')).width(48).height(48)
+
+          .onClick(() => router.pushUrl({ url: 'pages/AddTaskPage' }))
+
+        Image($r('app.media.template')).width(24).height(24)
+
+          .onClick(() => router.pushUrl({ url: 'pages/TaskPage' }))
+
+        Image($r('app.media.template')).width(24).height(24)
+
+          .onClick(() => router.pushUrl({ url: 'pages/MessagePage' }))
+
+      }.width('100%').justifyContent(FlexAlign.SpaceEvenly)
+
+      .backgroundColor('#6750A4').padding({ top: 8, bottom: 8 })
+
+    }.width('100%').height('100%').backgroundColor('#F5F5F5')
+
+  }
+
+}

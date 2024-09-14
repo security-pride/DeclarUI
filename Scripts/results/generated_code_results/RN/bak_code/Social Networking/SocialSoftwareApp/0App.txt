@@ -1,0 +1,38 @@
+import React from 'react';
+import { NavigationContainer } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+
+import ChatsPage from './components/ChatsPage';
+import IntroPage from './components/IntroPage';
+import NewMessagePage from './components/NewMessagePage';
+import PeoplePage from './components/PeoplePage';
+import ProfilePage from './components/ProfilePage';
+
+const Stack = createStackNavigator();
+const Tab = createBottomTabNavigator();
+
+const MainTabs = () => {
+  return (
+    <Tab.Navigator>
+      <Tab.Screen name="Chats" component={ChatsPage} />
+      <Tab.Screen name="People" component={PeoplePage} />
+      <Tab.Screen name="Discover" component={ChatsPage} />
+    </Tab.Navigator>
+  );
+};
+
+const App = () => {
+  return (
+    <NavigationContainer>
+      <Stack.Navigator initialRouteName="Chats">
+        <Stack.Screen name="MainTabs" component={MainTabs} options={{ headerShown: false }} />
+        <Stack.Screen name="Intro" component={IntroPage} />
+        <Stack.Screen name="NewMessage" component={NewMessagePage} />
+        <Stack.Screen name="Profile" component={ProfilePage} />
+      </Stack.Navigator>
+    </NavigationContainer>
+  );
+};
+
+export default App;

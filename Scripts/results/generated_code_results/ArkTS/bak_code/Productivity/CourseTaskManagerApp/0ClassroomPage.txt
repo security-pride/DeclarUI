@@ -1,0 +1,152 @@
+import router from '@ohos.router';
+
+interface ClassInfo {
+  subject: string;
+  chapter: string;
+  instructor: string;
+  students: string;
+}
+
+@Entry
+@Component
+struct ClassroomPage {
+  @State currentDate: string = 'Today, 17 Sept';
+  @State classInfo: ClassInfo = {
+    subject: 'Physics',
+    chapter: 'Chapter 3: Force',
+    instructor: 'Alex Jesus',
+    students: '45 enrolled'
+  };
+  @State selectedTab: number = 0;
+  @State description: string = 'About this class\nForce: The push or pull on an object with mass that causes it to change its velocity.\n\nForce is a vector quantity capable of changing the state of rest or motion of a particular body.\nIt has a magnitude and a direction. The direction in which the force is applied is known as the direction of the force and the application of force is in a point where force is applied.';
+
+  build() {
+    Column() {
+      Row() {
+        Text(this.currentDate)
+          .fontSize(14)
+          .fontColor(Color.Gray)
+        Text('Classroom')
+          .fontSize(20)
+          .fontWeight(FontWeight.Bold)
+          .margin({ left: 8 })
+        Blank()
+        Button('+ Add Class')
+          .fontSize(14)
+          .backgroundColor(Color.Green)
+          .height(32)
+      }
+      .width('100%')
+      .padding({ left: 16, right: 16, top: 16, bottom: 8 })
+
+      Image($r('app.media.template'))
+        .width('100%')
+        .height(200)
+        .objectFit(ImageFit.Cover)
+
+      Column() {
+        Row() {
+          Column() {
+            Text(this.classInfo.subject)
+              .fontSize(18)
+              .fontWeight(FontWeight.Bold)
+            Text(this.classInfo.chapter)
+              .fontSize(14)
+              .fontColor(Color.Gray)
+          }
+          .alignItems(HorizontalAlign.Start)
+
+          Blank()
+
+          Column() {
+            Text(this.classInfo.instructor)
+              .fontSize(14)
+              .textAlign(TextAlign.End)
+            Text(this.classInfo.students)
+              .fontSize(12)
+              .fontColor(Color.Gray)
+              .textAlign(TextAlign.End)
+          }
+          .alignItems(HorizontalAlign.End)
+        }
+        .width('100%')
+        .padding({ left: 16, right: 16, top: 16, bottom: 8 })
+
+        Tabs() {
+          TabContent() {
+            Scroll() {
+              Text(this.description)
+                .fontSize(14)
+                .margin({ top: 8 })
+            }
+            .height('100%')
+          }.tabBar('Description')
+
+          TabContent() {
+            Text('Discussion content goes here')
+          }.tabBar('Discussion')
+
+          TabContent() {
+            Text('Resources content goes here')
+          }.tabBar('Resources')
+        }
+        .barMode(BarMode.Fixed)
+        .barWidth('100%')
+        .barHeight(48)
+        .animationDuration(300)
+        .onChange((index: number) => {
+          this.selectedTab = index;
+        })
+      }
+      .width('100%')
+      .layoutWeight(1)
+
+      Row() {
+        Column() {
+          Image($r('app.media.template'))
+            .width(24)
+            .height(24)
+          Text('Home')
+            .fontSize(12)
+        }
+        .onClick(() => {
+          router.pushUrl({ url: 'pages/HomePage' });
+        })
+
+        Column() {
+          Image($r('app.media.template'))
+            .width(24)
+            .height(24)
+          Text('Tasks')
+            .fontSize(12)
+        }
+
+        Column() {
+          Image($r('app.media.template'))
+            .width(24)
+            .height(24)
+          Text('Classroom')
+            .fontSize(12)
+            .fontColor(Color.Blue)
+        }
+
+        Column() {
+          Image($r('app.media.template'))
+            .width(24)
+            .height(24)
+          Text('Chat')
+            .fontSize(12)
+        }
+        .onClick(() => {
+          router.pushUrl({ url: 'pages/DiscussionPage' });
+        })
+      }
+      .width('100%')
+      .height(56)
+      .justifyContent(FlexAlign.SpaceAround)
+      .backgroundColor(Color.White)
+    }
+    .width('100%')
+    .height('100%')
+  }
+}

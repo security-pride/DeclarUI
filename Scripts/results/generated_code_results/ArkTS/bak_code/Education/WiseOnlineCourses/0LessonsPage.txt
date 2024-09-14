@@ -1,0 +1,122 @@
+import router from '@ohos.router';
+
+interface LessonInfo {
+  title: string;
+  duration: string;
+  description: string;
+}
+
+@Entry
+@Component
+struct LessonsPage {
+  @State lessons: LessonInfo[] = [
+    {
+      title: 'What is Advertising',
+      duration: '08:12',
+      description: 'Praesent facilisis dolor sapien, vel sodales augue mollis ut. Mauris venenatis magna eu tortor posuere luctus. Aenean tincidunt turpis sed dui aliquam vehicula.'
+    },
+    {
+      title: 'Working With Brands',
+      duration: '14:10',
+      description: 'Praesent facilisis dolor sapien, vel sodales augue mollis ut. Mauris venenatis magna eu tortor posuere luctus. Aenean tincidunt turpis sed dui aliquam vehicula.'
+    },
+    {
+      title: "10 things you shouldn't do!",
+      duration: '13:20',
+      description: 'Praesent facilisis dolor sapien, vel sodales augue mollis ut. Mauris venenatis magna eu tortor posuere luctus. Aenean tincidunt turpis sed dui aliquam vehicula.'
+    }
+  ]
+
+  build() {
+    Column() {
+      Row() {
+        Image($r('app.media.template'))
+          .width(24)
+          .height(24)
+          .margin({ left: 16 })
+          .onClick(() => {
+            router.back()
+          })
+        Text('Lessons')
+          .fontSize(20)
+          .fontWeight(FontWeight.Bold)
+          .margin({ left: 16 })
+        Blank()
+        Image($r('app.media.template'))
+          .width(24)
+          .height(24)
+          .margin({ right: 16 })
+      }
+      .width('100%')
+      .height(56)
+      .backgroundColor('#F1F3F5')
+
+      Tabs() {
+        TabContent() {
+          Text('About')
+            .fontSize(16)
+            .fontColor('#888888')
+        }.tabBar('About')
+
+        TabContent() {
+          List() {
+            ForEach(this.lessons, (lesson: LessonInfo) => {
+              ListItem() {
+                this.LessonItem(lesson)
+              }
+            }, (lesson: LessonInfo) => lesson.title)
+          }
+          .width('100%')
+        }.tabBar('Lessons')
+      }
+      .barMode(BarMode.Fixed)
+      .barWidth('100%')
+      .barHeight(56)
+    }
+  }
+
+  @Builder
+  LessonItem(lesson: LessonInfo) {
+    Column() {
+      Row() {
+        Image($r('app.media.template'))
+          .width(120)
+          .height(68)
+          .borderRadius(8)
+        Column() {
+          Text(lesson.title)
+            .fontSize(16)
+            .fontWeight(FontWeight.Bold)
+          Text(lesson.duration)
+            .fontSize(14)
+            .fontColor('#888888')
+        }
+        .alignItems(HorizontalAlign.Start)
+        .margin({ left: 16 })
+      }
+
+      Text(lesson.description)
+        .fontSize(14)
+        .fontColor('#888888')
+        .margin({ top: 8 })
+
+      Row() {
+        Text('DOWNLOAD')
+          .fontSize(14)
+          .fontWeight(FontWeight.Bold)
+        Image($r('app.media.template'))
+          .width(24)
+          .height(24)
+          .margin({ left: 8 })
+      }
+      .justifyContent(FlexAlign.End)
+      .width('100%')
+      .margin({ top: 16 })
+    }
+    .width('100%')
+    .padding(16)
+    .backgroundColor('#FFFFFF')
+    .borderRadius(8)
+    .margin({ bottom: 16 })
+  }
+}

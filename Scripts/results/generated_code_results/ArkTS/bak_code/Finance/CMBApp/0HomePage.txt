@@ -1,0 +1,136 @@
+import router from '@ohos.router';
+
+interface QuickAction {
+  icon: Resource;
+  label: string;
+}
+
+interface FinancialProduct {
+  name: string;
+  type: string;
+  annualizedReturn: string;
+  period: string;
+}
+
+interface Service {
+  icon: Resource;
+  label: string;
+}
+
+@Entry
+@Component
+struct HomePage {
+  @State search: string = '信用卡全家福';
+  @State quickActions: QuickAction[] = [
+    { icon: $r('app.media.template'), label: '朝朝宝' },
+    { icon: $r('app.media.template'), label: '借钱' },
+    { icon: $r('app.media.template'), label: '转账' },
+    { icon: $r('app.media.template'), label: '账户总览' }
+  ];
+  @State services: Service[] = [
+    { icon: $r('app.media.template'), label: '信用卡' },
+    { icon: $r('app.media.template'), label: '收支明细' },
+    { icon: $r('app.media.template'), label: '他行卡转入' },
+    { icon: $r('app.media.template'), label: '城市服务' },
+    { icon: $r('app.media.template'), label: '热门活动' },
+    { icon: $r('app.media.template'), label: '养老金融' },
+    { icon: $r('app.media.template'), label: 'M+会员' },
+    { icon: $r('app.media.template'), label: '外汇购汇' },
+    { icon: $r('app.media.template'), label: '银行卡' },
+    { icon: $r('app.media.template'), label: '全部' }
+  ];
+  @State notifications: string[] = ['小招有财: 您有一份2元现金红包待领取'];
+  @State financialProducts: FinancialProduct[] = [
+    { name: 'T+1到账', type: '日添利1号A', annualizedReturn: '2.92%', period: '7日年化' },
+    { name: '每季可赎', type: '季季宝', annualizedReturn: '3.25%', period: '成立以来年化' }
+  ];
+
+  build() {
+    Column() {
+      Row() {
+        Image($r('app.media.template')).width(24).height(24)
+        TextInput({ text: this.search })
+          .width('70%')
+          .height(40)
+          .backgroundColor('#F5F5F5')
+          .margin({ left: 10, right: 10 })
+        Image($r('app.media.template')).width(24).height(24)
+        Image($r('app.media.template')).width(24).height(24).margin({ left: 10 })
+      }.width('100%').padding(10)
+
+      Scroll() {
+        Column() {
+          Grid() {
+            ForEach(this.quickActions, (action: QuickAction) => {
+              GridItem() {
+                Column() {
+                  Image(action.icon).width(40).height(40)
+                  Text(action.label).fontSize(14).margin({ top: 5 })
+                }
+              }
+            })
+          }.columnsTemplate('1fr 1fr 1fr 1fr').rowsGap(10).columnsGap(10)
+
+          Grid() {
+            ForEach(this.services, (service: Service) => {
+              GridItem() {
+                Column() {
+                  Image(service.icon).width(40).height(40)
+                  Text(service.label).fontSize(14).margin({ top: 5 })
+                }
+              }.onClick(() => {
+                if (service.label === '信用卡') {
+                  router.pushUrl({ url: 'pages/CreditCardPage' })
+                }
+              })
+            })
+          }.columnsTemplate('1fr 1fr 1fr 1fr 1fr').rowsGap(10).columnsGap(10).margin({ top: 20 })
+
+          ForEach(this.notifications, (notification: string) => {
+            Text(notification).width('100%').textAlign(TextAlign.Center).margin({ top: 10 })
+          })
+
+          ForEach(this.financialProducts, (product: FinancialProduct) => {
+            Column() {
+              Row() {
+                Text(product.name).fontSize(16).fontWeight(FontWeight.Bold)
+                Text(product.type).fontSize(14).margin({ left: 10 })
+              }
+              Row() {
+                Text(product.annualizedReturn).fontSize(20).fontColor(Color.Red)
+                Text(product.period).fontSize(14).margin({ left: 10 })
+              }
+            }.width('100%').padding(10).backgroundColor(Color.White).margin({ top: 10 })
+          })
+        }.width('100%')
+      }.width('100%').height('80%')
+
+      Row() {
+        Column() {
+          Image($r('app.media.template')).width(24).height(24)
+          Text('首页').fontSize(12)
+        }.width('20%')
+
+        Column() {
+          Image($r('app.media.template')).width(24).height(24)
+          Text('一周回顾').fontSize(12)
+        }.width('20%')
+
+        Column() {
+          Image($r('app.media.template')).width(24).height(24)
+          Text('财富').fontSize(12)
+        }.width('20%')
+
+        Column() {
+          Image($r('app.media.template')).width(24).height(24)
+          Text('生活').fontSize(12)
+        }.width('20%')
+
+        Column() {
+          Image($r('app.media.template')).width(24).height(24)
+          Text('我的').fontSize(12)
+        }.width('20%')
+      }.width('100%').height('10%').position({ y: '90%' })
+    }
+  }
+}

@@ -1,0 +1,140 @@
+import React from 'react';
+import { View, Text, Image, ImageBackground, TouchableOpacity, StyleSheet, Button, Pressable } from 'react-native';
+
+const HomeGridScreen = () => {
+  return (
+    <View style={styles.container}>
+      <View style={styles.header}>
+        <Button title="⚙️" onPress={() => {}} />
+        <Text style={styles.headerText}>Home</Text>
+        <View style={styles.headerRight}>
+          <Button title="📋" onPress={() => {}} />
+          <Text>🔀 Name</Text>
+          <Text>Select</Text>
+          <TouchableOpacity onPress={() => {}}>
+            <View style={styles.searchButtonContainer}>
+              <Text>🔍</Text>
+            </View>
+          </TouchableOpacity>
+        </View>
+      </View>
+
+      <View style={styles.grid}>
+        <ImageBackground source={require('../assets/snack-icon.png')} style={styles.imageBackground}>
+          <Text style={styles.itemText}>Photos & videos</Text>
+          <Text style={styles.itemCount}>3471 Items</Text>
+          <Pressable onPress={() => {}}>
+            <Text>⋮</Text>
+          </Pressable>
+        </ImageBackground>
+
+        <ImageBackground source={require('../assets/snack-icon.png')} style={styles.imageBackground}>
+          <Text style={styles.itemText}>Favourite videos</Text>
+          <Text style={styles.itemCount}>13 Items</Text>
+          <Pressable onPress={() => {}}>
+            <Text>⋮</Text>
+          </Pressable>
+        </ImageBackground>
+
+        <ImageBackground source={require('../assets/snack-icon.png')} style={styles.imageBackground}>
+          <Text style={styles.itemText}>iTunes</Text>
+          <Text style={styles.itemCount}>27 Items</Text>
+          <Pressable onPress={() => {}}>
+            <Text>⋮</Text>
+          </Pressable>
+        </ImageBackground>
+
+        <ImageBackground source={require('../assets/snack-icon.png')} style={styles.imageBackground}>
+          <Text style={styles.itemText}>Recently deleted</Text>
+          <Text style={styles.itemCount}>13 Items</Text>
+          <Pressable onPress={() => {}}>
+            <Text>⋮</Text>
+          </Pressable>
+        </ImageBackground>
+
+        <ImageBackground source={require('../assets/snack-icon.png')} style={styles.imageBackgroundLarge}>
+          <Image source={require('../assets/snack-icon.png')} style={styles.image} />
+          <Text style={styles.itemText}>Plant photoshoot</Text>
+          <Text style={styles.itemDate}>25,Feb 2020</Text>
+        </ImageBackground>
+      </View>
+
+      <View style={styles.bottomNav}>
+        <Button title="🏠" onPress={() => {}} />
+        <Button title="⏰" onPress={() => {}} />
+        <Button title="➕" onPress={() => {}} />
+        <Button title="📶" onPress={() => {}} />
+        <Button title="📊" onPress={() => {}} />
+      </View>
+    </View>
+  );
+};
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    padding: 10,
+    backgroundColor: '#fff'
+  },
+  header: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    paddingVertical: 10
+  },
+  headerText: {
+    fontSize: 24,
+    fontWeight: 'bold'
+  },
+  headerRight: {
+    flexDirection: 'row',
+    alignItems: 'center'
+  },
+  searchButtonContainer: {
+    padding: 10,
+    borderRadius: 50,
+    backgroundColor: 'red'
+  },
+  grid: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    justifyContent: 'space-between'
+  },
+  imageBackground: {
+    width: '48%',
+    padding: 10,
+    borderRadius: 10,
+    overflow: 'hidden',
+    justifyContent: 'space-between',
+    marginBottom: 10
+  },
+  imageBackgroundLarge: {
+    width: '100%',
+    height: 200,
+    borderRadius: 10,
+    overflow: 'hidden',
+    justifyContent: 'space-between'
+  },
+  image: {
+    width: '100%',
+    height: '70%'
+  },
+  itemText: {
+    fontSize: 18,
+    fontWeight: 'bold'
+  },
+  itemCount: {
+    fontSize: 14,
+    color: 'gray'
+  },
+  itemDate: {
+    fontSize: 14
+  },
+  bottomNav: {
+    flexDirection: 'row',
+    justifyContent: 'space-around',
+    paddingVertical: 10
+  }
+});
+
+export default HomeGridScreen;

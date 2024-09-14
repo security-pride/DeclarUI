@@ -1,0 +1,82 @@
+import router from '@ohos.router';
+
+@Entry
+@Component
+struct TypeDetailsPage {
+  @State guestCount: number = 1
+  @State selectedBedOption: number = 0
+  @State bedOptions: string[] = ['无偏好', '2张单人床', '1张超大号双人床']
+  @State features: string[] = ['不可退款', '无需预付 - 到店付款', '2位成人的入住价格', '客房面积: 46平方米', '提供早餐 (到店付款)', '免费无线网络', '享有风景', '空调', '独立浴室', '平板电视', '迷你吧']
+
+  build() {
+    Column() {
+      Row() {
+        Image($r('app.media.template')).width(24).height(24).onClick(() => {
+          router.pushUrl({ url: 'pages/DetailsPage' })
+        })
+        Text('选择客房').fontSize(18).fontWeight(FontWeight.Bold)
+        Image($r('app.media.template')).width(24).height(24)
+      }.width('100%').justifyContent(FlexAlign.SpaceBetween).padding(16)
+
+      Text('烟台南山皇冠假日酒店').fontSize(20).fontWeight(FontWeight.Bold).margin({ top: 16, bottom: 8 })
+
+      Text('筛选条件').fontSize(16).fontWeight(FontWeight.Medium).margin({ top: 16, bottom: 8 })
+      Row() {
+        Text('包括早餐').fontSize(14).backgroundColor('#F0F0F0').padding(8).borderRadius(16)
+      }
+
+      Text('住客人数').fontSize(16).fontWeight(FontWeight.Medium).margin({ top: 16, bottom: 8 })
+      Row() {
+        Button('-').onClick(() => {
+          if (this.guestCount > 1) {
+            this.guestCount--
+          }
+        })
+        Text(`${this.guestCount}`).fontSize(16).margin({ left: 16, right: 16 })
+        Button('+').onClick(() => {
+          if (this.guestCount < 3) {
+            this.guestCount++
+          }
+        })
+      }.width('100%').justifyContent(FlexAlign.SpaceBetween)
+
+      Text('有17个选项符合你的筛选条件').fontSize(14).margin({ top: 16, bottom: 8 })
+
+      Scroll() {
+        Column() {
+          Text('标准间').fontSize(18).fontWeight(FontWeight.Bold).margin({ top: 16, bottom: 8 })
+          Image($r('app.media.template')).width('100%').height(200).objectFit(ImageFit.Cover)
+
+          ForEach(this.features, (feature: string) => {
+            Row() {
+              Image($r('app.media.template')).width(16).height(16)
+              Text(feature).fontSize(14).margin({ left: 8 })
+            }.margin({ top: 8 })
+          })
+
+          Text('床型选择').fontSize(16).fontWeight(FontWeight.Medium).margin({ top: 16, bottom: 8 })
+          ForEach(this.bedOptions, (option: string, index: number) => {
+            Row() {
+              Radio({ value: `${index}`, group: 'bedOptions' })
+                .checked(index === this.selectedBedOption)
+                .onChange(() => {
+                  this.selectedBedOption = index
+                })
+              Text(option).fontSize(14).margin({ left: 8 })
+            }.margin({ top: 8 })
+          })
+
+          Text('1晚房价 (7月18日 - 7月19日)').fontSize(16).fontWeight(FontWeight.Medium).margin({ top: 16, bottom: 8 })
+          Text('707元').fontSize(20).fontWeight(FontWeight.Bold).margin({ bottom: 8 })
+          Text('含税费及其他费用').fontSize(12).fontColor(Color.Gray)
+
+          Text('Booking.com上只剩1间房了').fontSize(14).fontColor(Color.Red).margin({ top: 16, bottom: 8 })
+
+          Button('选择并定制').width('100%').height(48).backgroundColor('#0077CC').fontColor(Color.White).onClick(() => {
+            router.pushUrl({ url: 'pages/ReservationPage' })
+          })
+        }.width('100%').padding(16)
+      }.height('80%')
+    }.width('100%')
+  }
+}

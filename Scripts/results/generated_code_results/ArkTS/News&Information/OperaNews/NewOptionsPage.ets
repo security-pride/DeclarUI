@@ -1,0 +1,255 @@
+import router from '@ohos.router';
+
+
+
+interface ChannelItem {
+
+  name: string;
+
+}
+
+
+
+@Entry
+
+@Component
+
+struct NewOptionsPage {
+
+  @State selectedCountry: string = 'United States - English';
+
+  @State myChannels: ChannelItem[] = [{ name: 'For you' }];
+
+  @State recommendedChannels: ChannelItem[] = [];
+
+
+
+  build() {
+
+    Column() {
+
+      Row() {
+
+        Image($r('app.media.template'))
+
+          .width(24)
+
+          .height(24)
+
+          .margin({ right: 16 })
+
+          .onClick(() => {
+
+            router.pushUrl({ url: 'pages/HomePage' });
+
+          })
+
+        Text('News options')
+
+          .fontSize(20)
+
+          .fontWeight(FontWeight.Medium)
+
+      }
+
+      .width('100%')
+
+      .height(56)
+
+      .padding({ left: 16, right: 16 })
+
+      .backgroundColor('#F1F3F5')
+
+
+
+      Column() {
+
+        Text('Country & language')
+
+          .fontSize(16)
+
+          .fontWeight(FontWeight.Medium)
+
+          .margin({ top: 16, bottom: 8 })
+
+
+
+        Row() {
+
+          Image($r('app.media.template'))
+
+            .width(24)
+
+            .height(16)
+
+            .margin({ right: 8 })
+
+          Text(this.selectedCountry)
+
+            .fontSize(16)
+
+          Blank()
+
+          Image($r('app.media.template'))
+
+            .width(24)
+
+            .height(24)
+
+        }
+
+        .width('100%')
+
+        .height(48)
+
+        .padding({ left: 16, right: 16 })
+
+        .backgroundColor(Color.White)
+
+        .borderRadius(8)
+
+
+
+        Text('My channels')
+
+          .fontSize(16)
+
+          .fontWeight(FontWeight.Medium)
+
+          .margin({ top: 24, bottom: 8 })
+
+
+
+        Row() {
+
+          Text('Long press to edit')
+
+            .fontSize(14)
+
+            .fontColor(Color.Gray)
+
+          Blank()
+
+          Button('Edit')
+
+            .fontSize(14)
+
+            .fontColor('#007DFF')
+
+            .backgroundColor(Color.Transparent)
+
+        }
+
+        .width('100%')
+
+        .margin({ bottom: 8 })
+
+
+
+        List() {
+
+          ForEach(this.myChannels, (channel: ChannelItem) => {
+
+            ListItem() {
+
+              Text(channel.name)
+
+                .fontSize(16)
+
+                .padding(16)
+
+                .backgroundColor(Color.White)
+
+                .borderRadius(8)
+
+                .width('100%')
+
+            }
+
+          }, (channel: ChannelItem) => channel.name)
+
+        }
+
+        .width('100%')
+
+
+
+        Text('Recommended')
+
+          .fontSize(16)
+
+          .fontWeight(FontWeight.Medium)
+
+          .margin({ top: 24, bottom: 8 })
+
+
+
+        Text('Click to add')
+
+          .fontSize(14)
+
+          .fontColor(Color.Gray)
+
+          .margin({ bottom: 8 })
+
+
+
+        if (this.recommendedChannels.length === 0) {
+
+          Text('No recommended channels')
+
+            .fontSize(16)
+
+            .padding(16)
+
+            .backgroundColor(Color.White)
+
+            .borderRadius(8)
+
+            .width('100%')
+
+        } else {
+
+          List() {
+
+            ForEach(this.recommendedChannels, (channel: ChannelItem) => {
+
+              ListItem() {
+
+                Text(channel.name)
+
+                  .fontSize(16)
+
+                  .padding(16)
+
+                  .backgroundColor(Color.White)
+
+                  .borderRadius(8)
+
+                  .width('100%')
+
+              }
+
+            }, (channel: ChannelItem) => channel.name)
+
+          }
+
+          .width('100%')
+
+        }
+
+      }
+
+      .padding({ left: 16, right: 16 })
+
+    }
+
+    .width('100%')
+
+    .height('100%')
+
+    .backgroundColor('#F1F3F5')
+
+  }
+
+}

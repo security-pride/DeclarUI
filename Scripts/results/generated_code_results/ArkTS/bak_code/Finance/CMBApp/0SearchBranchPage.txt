@@ -1,0 +1,81 @@
+import router from '@ohos.router';
+
+interface BranchInfo {
+  name: string;
+  address: string;
+  distance: string;
+  status: string;
+}
+
+@Entry
+@Component
+struct SearchBranchPage {
+  @State searchText: string = '';
+  @State currentDate: string = '07-18';
+  @State branchList: BranchInfo[] = [
+    { name: '烟台滨海支行', address: '烟台市芝罘区滨海景区47号', distance: '685m', status: '今日营业' },
+    { name: '烟台南大街支行', address: '烟台市芝罘区南大街303号国贸大厦1楼', distance: '864m', status: '今日营业' },
+    { name: '烟台海港路支行', address: '烟台市芝罘区海港路25-4（阳光10...', distance: '2.63km', status: '今日营业' },
+    { name: '烟台幸福路支行', address: '烟台市芝罘区幸福路46-1号', distance: '6.00km', status: '今日营业' },
+    { name: '烟台莱山支行', address: '山东省烟台市莱山区迎春大街133号', distance: '8.01km', status: '今日营业' }
+  ];
+
+  build() {
+    Column() {
+      Row() {
+        Image($r('app.media.template')).width(24).height(24)
+          .onClick(() => {
+            router.pushUrl({ url: 'pages/CustomServicePage' })
+          })
+        Text('选择网点').fontSize(18).fontWeight(FontWeight.Bold)
+        Blank()
+        Image($r('app.media.template')).width(24).height(24)
+        Image($r('app.media.template')).width(24).height(24)
+      }.width('100%').padding(16)
+
+      TextInput({ placeholder: '请输入网点名称、区划或街道搜索' })
+        .width('90%')
+        .height(40)
+        .margin({ top: 10, bottom: 10 })
+
+      Row() {
+        ForEach(['今天', '明天', '周六', '周日', '周一', '周二', '周三'], (day, index) => {
+          Text(day + (index === 0 ? ' ' + this.currentDate : ''))
+            .padding(10)
+            .backgroundColor(index === 0 ? '#E8F3FF' : Color.White)
+            .borderRadius(5)
+            .margin({ right: 10 })
+        })
+      }.width('100%').padding({ left: 16, right: 16 }).height(50).scrollable(ScrollDirection.Horizontal)
+
+      Column() {
+        Row() {
+          Text('全部网点')
+          Blank()
+          Text('筛选').fontColor(Color.Blue)
+        }.width('100%').padding(16)
+
+        List() {
+          ForEach(this.branchList, (branch: BranchInfo) => {
+            ListItem() {
+              Column() {
+                Row() {
+                  Column() {
+                    Text(branch.name).fontSize(16).fontWeight(FontWeight.Bold)
+                    Text(branch.address).fontSize(14).fontColor(Color.Gray)
+                  }.alignItems(HorizontalAlign.Start)
+                  Blank()
+                  Column() {
+                    Text(branch.status).fontColor(Color.Green)
+                    Text(branch.distance).fontColor(Color.Gray)
+                  }.alignItems(HorizontalAlign.End)
+                }
+                Divider().color(Color.Gray).opacity(0.2).margin({ top: 10, bottom: 10 })
+              }.width('100%').padding(16)
+            }
+          })
+        }.width('100%')
+      }.width('100%').height('80%')
+    }
+  }
+}

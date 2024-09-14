@@ -1,0 +1,9 @@
+{
+    "src": [
+        "pages/AccountPage",
+        "pages/DetailsPage",
+        "pages/MorePage",
+        "pages/SearchPage",
+        "pages/TermsPage"
+    ]
+}

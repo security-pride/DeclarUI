@@ -1,0 +1,9 @@
+{
+    "src": [
+        "pages/Home",
+        "pages/Listen",
+        "pages/Player",
+        "pages/Profile",
+        "pages/Search"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "src": [
+        "pages/DiseaseDetailPage",
+        "pages/HomePage",
+        "pages/ProfilePage",
+        "pages/SearchPage",
+        "pages/SearchMedicineDiseasePage"
+    ]
+}

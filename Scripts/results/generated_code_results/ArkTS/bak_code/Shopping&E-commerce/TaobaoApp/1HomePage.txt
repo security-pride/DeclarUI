@@ -1,0 +1,173 @@
+import router from '@ohos.router';
+
+interface QuickAccessItem {
+  name: string;
+  icon: Resource;
+}
+
+interface LiveStream {
+  streamer: string;
+  image: Resource;
+}
+
+interface FlashSaleProduct {
+  name: string;
+  price: string;
+  image: Resource;
+}
+
+interface FeaturedProduct {
+  name: string;
+  price: string;
+  salesCount?: string;
+  promotion?: string;
+  tag?: string;
+  image: Resource;
+}
+
+@Entry
+@Component
+struct HomePage {
+  @State searchQuery: string = 'team wang联名';
+  @State categories: string[] = ['关注', '推荐', '小时达', '狂暑季', '穿搭', '居家', '数码', '……'];
+  @State quickAccess: QuickAccessItem[] = [
+    { name: '飞猪旅行', icon: $r('app.media.template') },
+    { name: '百亿补贴', icon: $r('app.media.template') },
+    { name: '饿了么', icon: $r('app.media.template') },
+    { name: '芭芭农场', icon: $r('app.media.template') },
+    { name: '天猫国际', icon: $r('app.media.template') }
+  ];
+  @State liveStreams: LiveStream[] = [
+    { streamer: '觅橘官方', image: $r('app.media.template') },
+    { streamer: '吉杰', image: $r('app.media.template') },
+    { streamer: '李宁官方', image: $r('app.media.template') }
+  ];
+  @State flashSaleProducts: FlashSaleProduct[] = [
+    { name: '小竹', price: '¥2.01', image: $r('app.media.template') },
+    { name: '不锈钢清洁球', price: '¥2.96', image: $r('app.media.template') },
+    { name: '湿厕纸', price: '¥1.42', image: $r('app.media.template') }
+  ];
+  @State featuredProducts: FeaturedProduct[] = [
+    { name: '明日香EVA动漫水洗做旧', price: '¥536', salesCount: '87人付款', image: $r('app.media.template') },
+    { name: 'MEDMXEVA联名', price: '¥279', promotion: '每300减30', tag: '潮流男装 热卖好店上新', image: $r('app.media.template') }
+  ];
+
+  build() {
+    Column() {
+      Row() {
+        Search({ value: this.searchQuery, placeholder: 'Search' })
+          .width('80%')
+          .height(40)
+          .backgroundColor('#F5F5F5')
+          .placeholderColor(Color.Gray)
+          .placeholderFont({ size: 14 })
+          .textFont({ size: 14 })
+          .onChange((value: string) => {
+            this.searchQuery = value;
+          })
+        Image($r('app.media.template')).width(24).height(24).margin({ left: 10 })
+        Text('搜索').fontSize(16).fontColor('#FF6B00').margin({ left: 5 })
+      }.width('100%').padding(10).backgroundColor('#FF6B00')
+
+      Scroll() {
+        Column() {
+          Row() {
+            ForEach(this.categories, (category: string) => {
+              Text(category)
+                .fontSize(14)
+                .fontColor(Color.Black)
+                .margin({ right: 15 })
+            })
+          }.width('100%').padding(10)
+
+          Row() {
+            ForEach(this.quickAccess, (item: QuickAccessItem) => {
+              Column() {
+                Image(item.icon).width(40).height(40)
+                Text(item.name).fontSize(12).margin({ top: 5 })
+              }.width('20%').height(80)
+            })
+          }.width('100%').margin({ top: 10 })
+
+          Column() {
+            Text('淘宝直播').fontSize(16).fontWeight(FontWeight.Bold)
+            Text('爆款抽免单').fontSize(14).fontColor(Color.Gray)
+            Row() {
+              ForEach(this.liveStreams, (stream: LiveStream) => {
+                Image(stream.image).width(100).height(100).borderRadius(10)
+              })
+            }.width('100%').justifyContent(FlexAlign.SpaceBetween).margin({ top: 10 })
+          }.width('100%').margin({ top: 20 })
+
+          Column() {
+            Row() {
+              Text('淘宝秒杀').fontSize(16).fontWeight(FontWeight.Bold)
+              Text('22:35:11').fontSize(14).fontColor(Color.Red).margin({ left: 10 })
+            }
+            Row() {
+              ForEach(this.flashSaleProducts, (product: FlashSaleProduct) => {
+                Column() {
+                  Image(product.image).width(80).height(80)
+                  Text(product.name).fontSize(12)
+                  Text(product.price).fontSize(14).fontColor(Color.Red)
+                }.width('33%')
+              })
+            }.width('100%').margin({ top: 10 })
+          }.width('100%').margin({ top: 20 })
+
+          ForEach(this.featuredProducts, (product: FeaturedProduct) => {
+            Column() {
+              Image(product.image).width('100%').height(200)
+              Text(product.name).fontSize(16).margin({ top: 5 })
+              Row() {
+                Text(product.price).fontSize(18).fontColor(Color.Red)
+                if (product.salesCount) {
+                  Text(product.salesCount).fontSize(14).fontColor(Color.Gray).margin({ left: 10 })
+                }
+              }.width('100%').margin({ top: 5 })
+              if (product.promotion) {
+                Text(product.promotion).fontSize(14).fontColor(Color.Orange).margin({ top: 5 })
+              }
+              if (product.tag) {
+                Text(product.tag).fontSize(14).fontColor(Color.Blue).margin({ top: 5 })
+              }
+            }.width('100%').margin({ top: 20 }).padding(10).backgroundColor(Color.White)
+          })
+        }.width('100%')
+      }.height('85%')
+
+      Row() {
+        Column() {
+          Image($r('app.media.template')).width(24).height(24)
+          Text('首页').fontSize(12)
+        }.onClick(() => {})
+
+        Column() {
+          Image($r('app.media.template')).width(24).height(24)
+          Text('逛逛').fontSize(12)
+        }
+
+        Column() {
+          Image($r('app.media.template')).width(24).height(24)
+          Text('消息').fontSize(12)
+        }.onClick(() => {
+          router.pushUrl({ url: 'pages/MessagePage' })
+        })
+
+        Column() {
+          Image($r('app.media.template')).width(24).height(24)
+          Text('购物车').fontSize(12)
+        }.onClick(() => {
+          router.pushUrl({ url: 'pages/CartPage' })
+        })
+
+        Column() {
+          Image($r('app.media.template')).width(24).height(24)
+          Text('我的淘宝').fontSize(12)
+        }.onClick(() => {
+          router.pushUrl({ url: 'pages/ProfilePage' })
+        })
+      }.width('100%').justifyContent(FlexAlign.SpaceAround).height('10%').backgroundColor(Color.White)
+    }
+  }
+}

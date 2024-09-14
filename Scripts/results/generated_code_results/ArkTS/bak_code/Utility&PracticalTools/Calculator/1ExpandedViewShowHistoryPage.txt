@@ -1,0 +1,143 @@
+import router from '@ohos.router';
+
+@Entry
+@Component
+struct ExpandedViewShowHistoryPage {
+  @State theme: string = 'light';
+  @State currentValue: string = '1080';
+  @State operation: string = '45 × 24';
+  @State historyVisible: boolean = true;
+  @State history: string[] = ['45 × 24 = 1080', '25 × 2 = 50'];
+
+  @Builder
+  CalcButton(text: string, type: 'normal' | 'operation' | 'function' | 'equal' = 'normal') {
+    Button(text, { type: ButtonType.Normal, stateEffect: true })
+      .width('100%')
+      .height('100%')
+      .fontSize(18)
+      .fontColor(type === 'normal' ? (this.theme === 'dark' ? Color.White : Color.Black) : Color.White)
+      .backgroundColor(this.getButtonColor(type))
+      .onClick(() => this.handleButtonClick(text))
+  }
+
+  build() {
+    Column() {
+      Row() {
+        Toggle({ type: ToggleType.Switch, isOn: this.theme === 'dark' })
+          .selectedColor(this.theme === 'dark' ? '#007DFF' : '#E3E3E3')
+          .switchPointColor('#FFFFFF')
+          .onChange((isOn: boolean) => {
+            this.theme = isOn ? 'dark' : 'light';
+          })
+        Text('Switch to Dark')
+          .fontSize(14)
+          .fontColor(this.theme === 'dark' ? Color.White : Color.Black)
+      }
+      .width('100%')
+      .justifyContent(FlexAlign.SpaceBetween)
+      .padding({ left: 16, right: 16, top: 8, bottom: 8 })
+
+      Text(this.operation)
+        .fontSize(16)
+        .fontColor(Color.Gray)
+        .textAlign(TextAlign.End)
+        .width('100%')
+        .padding({ right: 16 })
+
+      Text(this.currentValue)
+        .fontSize(48)
+        .fontWeight(FontWeight.Bold)
+        .fontColor(this.theme === 'dark' ? Color.White : Color.Black)
+        .textAlign(TextAlign.End)
+        .width('100%')
+        .padding({ right: 16 })
+
+      if (this.historyVisible) {
+        Scroll() {
+          Column() {
+            ForEach(this.history, (item: string) => {
+              Text(item)
+                .fontSize(16)
+                .fontColor(this.theme === 'dark' ? Color.White : Color.Black)
+                .width('100%')
+                .textAlign(TextAlign.End)
+                .padding(8)
+            })
+          }
+        }
+        .height('30%')
+        .width('100%')
+        .margin({ top: 16, bottom: 16 })
+      }
+
+      Row() {
+        Image($r('app.media.template')).width(24).height(24)
+          .onClick(() => {
+            router.pushUrl({ url: 'pages/ShowHistoryPage' })
+          })
+        Button('Clear History', { type: ButtonType.Normal })
+          .onClick(() => {
+            this.history = [];
+          })
+        Image($r('app.media.template')).width(24).height(24)
+        Button(this.currentValue, { type: ButtonType.Normal })
+          .onClick(() => {
+            // Implement functionality
+          })
+        Image($r('app.media.template')).width(24).height(24)
+      }
+      .width('100%')
+      .justifyContent(FlexAlign.SpaceBetween)
+      .padding({ left: 16, right: 16 })
+
+      GridRow({
+        columns: 4,
+        gutter: { x: 5, y: 5 },
+        direction: GridRowDirection.Row
+      }) {
+        GridCol() { this.CalcButton('C', 'function') }
+        GridCol() { this.CalcButton('()', 'function') }
+        GridCol() { this.CalcButton('%', 'function') }
+        GridCol() { this.CalcButton('/', 'operation') }
+        GridCol() { this.CalcButton('7') }
+        GridCol() { this.CalcButton('8') }
+        GridCol() { this.CalcButton('9') }
+        GridCol() { this.CalcButton('×', 'operation') }
+        GridCol() { this.CalcButton('4') }
+        GridCol() { this.CalcButton('5') }
+        GridCol() { this.CalcButton('6') }
+        GridCol() { this.CalcButton('-', 'operation') }
+        GridCol() { this.CalcButton('1') }
+        GridCol() { this.CalcButton('2') }
+        GridCol() { this.CalcButton('3') }
+        GridCol() { this.CalcButton('+', 'operation') }
+        GridCol() { this.CalcButton('+/-', 'function') }
+        GridCol() { this.CalcButton('0') }
+        GridCol() { this.CalcButton('.') }
+        GridCol() { this.CalcButton('=', 'equal') }
+      }
+      .width('100%')
+      .height('50%')
+    }
+    .width('100%')
+    .height('100%')
+    .backgroundColor(this.theme === 'dark' ? Color.Black : Color.White)
+  }
+
+  private getButtonColor(type: string): Color {
+    switch (type) {
+      case 'operation':
+        return Color.Blue;
+      case 'function':
+        return Color.Orange;
+      case 'equal':
+        return Color.Red;
+      default:
+        return this.theme === 'dark' ? '#333333' : '#E0E0E0';
+    }
+  }
+
+  private handleButtonClick(text: string) {
+    // Implement button click logic here
+  }
+}

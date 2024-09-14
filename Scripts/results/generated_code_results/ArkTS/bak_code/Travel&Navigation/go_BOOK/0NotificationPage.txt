@@ -1,0 +1,153 @@
+import router from '@ohos.router';
+
+interface NotificationItem {
+  username: string;
+  action: string;
+  target: string;
+  timestamp: string;
+  avatar: Resource;
+  icon?: Resource;
+}
+
+@Entry
+@Component
+struct NotificationPage {
+  @State notifications: NotificationItem[] = [
+    {
+      username: 'Mohammad Reza',
+      action: 'commented on',
+      target: 'your UI/UX Designer',
+      timestamp: 'about 2 hours ago',
+      avatar: $r('app.media.template'),
+      icon: $r('app.media.template')
+    },
+    {
+      username: 'Sandra Redden',
+      action: 'like your',
+      target: 'Web UI Design Post',
+      timestamp: 'about 2 hours ago',
+      avatar: $r('app.media.template'),
+      icon: $r('app.media.template')
+    },
+    {
+      username: 'Merry Rose',
+      action: 'joined to',
+      target: 'Final Presentation',
+      timestamp: 'about 2 hours ago',
+      avatar: $r('app.media.template'),
+      icon: $r('app.media.template')
+    },
+    {
+      username: 'Adan Eslishth',
+      action: 'commented on',
+      target: 'your New shot',
+      timestamp: 'about 2 hours ago',
+      avatar: $r('app.media.template'),
+      icon: $r('app.media.template')
+    },
+    {
+      username: 'Michael Pinson',
+      action: 'want to',
+      target: 'follow you.',
+      timestamp: 'about 2 hours ago',
+      avatar: $r('app.media.template')
+    }
+  ]
+
+  build() {
+    Column() {
+      // Top bar
+      Row() {
+        Button() {
+          Image($r('app.media.template')).width(24).height(24)
+        }
+        .width(40).height(40).backgroundColor(Color.Transparent)
+        .onClick(() => {
+          router.back()
+        })
+
+        Text('Search').fontSize(20).fontWeight(FontWeight.Medium)
+
+        Button() {
+          Image($r('app.media.template')).width(24).height(24)
+        }
+        .width(40).height(40).backgroundColor(Color.Transparent)
+      }
+      .width('100%')
+      .justifyContent(FlexAlign.SpaceBetween)
+      .padding({ left: 16, right: 16, top: 8, bottom: 8 })
+
+      // Notification list
+      Scroll() {
+        Column() {
+          Text('Today').fontSize(16).fontWeight(FontWeight.Medium).alignSelf(ItemAlign.Start).margin({ left: 16, top: 16, bottom: 8 })
+
+          ForEach(this.notifications, (item: NotificationItem) => {
+            this.NotificationItem(item)
+          })
+
+          Text('Yesterday').fontSize(16).fontWeight(FontWeight.Medium).alignSelf(ItemAlign.Start).margin({ left: 16, top: 16, bottom: 8 })
+
+          this.NotificationItem(this.notifications[2])
+          this.NotificationItem(this.notifications[1])
+        }
+      }
+      .flexGrow(1)
+
+      // Bottom navigation
+      Row() {
+        this.NavItem($r('app.media.template'), 'Home', () => router.pushUrl({ url: 'pages/HomePage' }))
+        this.NavItem($r('app.media.template'), 'Notification', () => {})
+        this.NavItem($r('app.media.template'), 'Ticket', () => {})
+        this.NavItem($r('app.media.template'), 'History', () => {})
+        this.NavItem($r('app.media.template'), 'Setting', () => {})
+      }
+      .width('100%')
+      .height(56)
+      .justifyContent(FlexAlign.SpaceAround)
+      .backgroundColor(Color.White)
+    }
+  }
+
+  @Builder
+  NotificationItem(item: NotificationItem) {
+    Row() {
+      Image(item.avatar)
+        .width(40)
+        .height(40)
+        .borderRadius(20)
+
+      Column() {
+        Row() {
+          Text(item.username).fontWeight(FontWeight.Medium)
+          Text(' ' + item.action + ' ').fontColor(Color.Gray)
+          Text(item.target).fontWeight(FontWeight.Medium)
+        }
+        .fontSize(14)
+
+        Text(item.timestamp).fontSize(12).fontColor(Color.Gray)
+      }
+      .alignItems(HorizontalAlign.Start)
+      .layoutWeight(1)
+      .margin({ left: 12 })
+
+      if (item.icon) {
+        Image(item.icon)
+          .width(24)
+          .height(24)
+      }
+    }
+    .width('100%')
+    .padding(16)
+    .backgroundColor(Color.White)
+  }
+
+  @Builder
+  NavItem(icon: Resource, label: string, onClick: () => void) {
+    Column() {
+      Image(icon).width(24).height(24)
+      Text(label).fontSize(12).margin({ top: 4 })
+    }
+    .onClick(onClick)
+  }
+}

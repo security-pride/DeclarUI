@@ -1,0 +1,9 @@
+{
+    "src": [
+        "pages/Home_Top_drawer_openPage",
+        "pages/Home_Top_drawer_closePage",
+        "pages/SendParcel_Delivery_methodPage",
+        "pages/SendParcel_Parcel_sizePage",
+        "pages/Parcel_centerPage"
+    ]
+}

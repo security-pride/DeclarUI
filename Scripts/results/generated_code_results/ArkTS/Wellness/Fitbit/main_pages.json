@@ -1,0 +1,9 @@
+{
+    "src": [
+        "pages/Discovery",
+        "pages/EnvironmentSimulation",
+        "pages/FindFriend",
+        "pages/Friends",
+        "pages/Home"
+    ]
+}

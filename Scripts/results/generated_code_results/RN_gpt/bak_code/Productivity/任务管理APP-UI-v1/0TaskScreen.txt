@@ -1,0 +1,178 @@
+import React from 'react';
+import { View, Text, StyleSheet, TouchableOpacity, Image } from 'react-native';
+import Icon from 'react-native-vector-icons/Ionicons';
+
+const TaskScreen = () => {
+  return (
+    <View style={styles.container}>
+      <View style={styles.header}>
+        <Text style={styles.timeText}>9:41</Text>
+        <Text style={styles.title}>Task</Text>
+        <Image style={styles.avatar} source={require('../assets/snack-icon.png')} />
+      </View>
+      <Text style={styles.date}>May 01, 2020</Text>
+      <Text style={styles.todayText}>Today</Text>
+
+      <View style={styles.weekView}>
+        {['MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT', 'SUN'].map((day, index) => (
+          <View style={styles.day} key={index}>
+            <Text style={index === 4 ? styles.selectedDay : styles.weekDay}>{day}</Text>
+            <Text style={index === 4 ? styles.selectedDate : styles.dateNumber}>{10 + index}</Text>
+          </View>
+        ))}
+      </View>
+
+      <TouchableOpacity style={styles.addTaskButton}>
+        <Icon name="add" size={16} color="#fff" />
+        <Text style={styles.addTaskButtonText}>Add Task</Text>
+      </TouchableOpacity>
+
+      <View style={styles.taskCard}>
+        <Text style={styles.taskStatusUrgent}>URGENT</Text>
+        <Text style={styles.taskTitle}>New Web UI Design Project</Text>
+        <Text style={styles.taskDescription}>Website UI Design for $500</Text>
+        <View style={styles.taskDetails}>
+          <Icon name="time-outline" size={16} color="#000" />
+          <Text style={styles.taskTime}>10 - 11 AM</Text>
+          <Icon name="person-outline" size={16} color="#000" />
+          <Text style={styles.taskParticipants}>2 Persons</Text>
+        </View>
+      </View>
+
+      <View style={styles.bottomNav}>
+        <Icon name="grid-outline" size={24} color="#fff" />
+        <Icon name="checkmark-outline" size={24} color="#fff" />
+        <Icon name="add" size={24} color="#fff" />
+        <Icon name="document-outline" size={24} color="#fff" />
+        <Icon name="chatbubble-outline" size={24} color="#fff" />
+      </View>
+    </View>
+  );
+};
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#F6F6F6',
+    paddingHorizontal: 20,
+    paddingTop: 40,
+  },
+  header: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+  },
+  timeText: {
+    fontSize: 16,
+    color: '#333',
+  },
+  title: {
+    fontSize: 32,
+    fontWeight: 'bold',
+    color: '#333',
+  },
+  avatar: {
+    width: 40,
+    height: 40,
+    borderRadius: 20,
+  },
+  date: {
+    fontSize: 14,
+    color: '#555',
+  },
+  todayText: {
+    fontSize: 20,
+    fontWeight: 'bold',
+    color: '#333',
+    marginTop: 8,
+  },
+  weekView: {
+    flexDirection: 'row',
+    justifyContent: 'space-around',
+    marginTop: 16,
+    marginBottom: 16,
+  },
+  day: {
+    alignItems: 'center',
+  },
+  weekDay: {
+    fontSize: 14,
+    color: '#777',
+  },
+  dateNumber: {
+    fontSize: 14,
+    color: '#999',
+  },
+  selectedDay: {
+    fontSize: 14,
+    color: '#5A67F2',
+  },
+  selectedDate: {
+    fontSize: 14,
+    fontWeight: 'bold',
+    color: '#5A67F2',
+  },
+  addTaskButton: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: '#F85A40',
+    borderRadius: 25,
+    paddingVertical: 10,
+    paddingHorizontal: 20,
+    alignSelf: 'flex-end',
+  },
+  addTaskButtonText: {
+    color: '#fff',
+    marginLeft: 5,
+  },
+  taskCard: {
+    backgroundColor: '#fff',
+    borderRadius: 10,
+    padding: 16,
+    marginVertical: 8,
+  },
+  taskStatusUrgent: {
+    color: 'red',
+    fontSize: 12,
+    fontWeight: 'bold',
+  },
+  taskTitle: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: '#333',
+    marginVertical: 4,
+  },
+  taskDescription: {
+    fontSize: 14,
+    color: '#555',
+  },
+  taskDetails: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginTop: 8,
+  },
+  taskTime: {
+    fontSize: 12,
+    color: '#333',
+    marginLeft: 5,
+    marginRight: 15,
+  },
+  taskParticipants: {
+    fontSize: 12,
+    color: '#333',
+    marginLeft: 5,
+  },
+  bottomNav: {
+    flexDirection: 'row',
+    justifyContent: 'space-around',
+    position: 'absolute',
+    bottom: 10,
+    left: 20,
+    right: 20,
+    backgroundColor: '#5A67F2',
+    borderRadius: 35,
+    padding: 10,
+  },
+});
+
+export default TaskScreen;

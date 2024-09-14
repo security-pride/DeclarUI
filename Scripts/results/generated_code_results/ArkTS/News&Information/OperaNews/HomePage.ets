@@ -1,0 +1,217 @@
+import router from '@ohos.router';
+
+
+
+@Entry
+
+@Component
+
+struct HomePage {
+
+  @State connectionFailed: boolean = true;
+
+
+
+  build() {
+
+    Column() {
+
+      Row() {
+
+        Image($r('app.media.template'))
+
+          .width('10%')
+
+          .height('100%')
+
+          .objectFit(ImageFit.Contain)
+
+          .onClick(() => {
+
+            router.pushUrl({ url: 'pages/NewOptionsPage' })
+
+          })
+
+        Text('For you')
+
+          .fontSize(20)
+
+          .fontWeight(FontWeight.Bold)
+
+          .layoutWeight(1)
+
+        Image($r('app.media.template'))
+
+          .width('10%')
+
+          .height('100%')
+
+          .objectFit(ImageFit.Contain)
+
+        Image($r('app.media.template'))
+
+          .width('10%')
+
+          .height('100%')
+
+          .objectFit(ImageFit.Contain)
+
+      }
+
+      .width('100%')
+
+      .height('8%')
+
+      .backgroundColor('#F1F3F5')
+
+      .padding({ left: 16, right: 16 })
+
+
+
+      Scroll() {
+
+        Column() {
+
+          if (this.connectionFailed) {
+
+            Column() {
+
+              Text('Connection failed')
+
+                .fontSize(16)
+
+                .margin({ top: 20, bottom: 20 })
+
+              Image($r('app.media.template'))
+
+                .width('30%')
+
+                .height(100)
+
+                .objectFit(ImageFit.Contain)
+
+              Image($r('app.media.template'))
+
+                .width('30%')
+
+                .height(100)
+
+                .objectFit(ImageFit.Contain)
+
+              Image($r('app.media.template'))
+
+                .width('30%')
+
+                .height(100)
+
+                .objectFit(ImageFit.Contain)
+
+              Button('TRY AGAIN')
+
+                .width('80%')
+
+                .height(40)
+
+                .margin({ top: 20 })
+
+                .onClick(() => {
+
+                  // Implement retry logic here
+
+                })
+
+            }
+
+            .width('100%')
+
+            .alignItems(HorizontalAlign.Center)
+
+          } else {
+
+            // Content when connection is successful
+
+            Text('Your content goes here when connected')
+
+          }
+
+        }
+
+      }
+
+      .width('100%')
+
+      .layoutWeight(1)
+
+
+
+      Row() {
+
+        Column() {
+
+          Image($r('app.media.template'))
+
+            .width(24)
+
+            .height(24)
+
+          Text('Refresh')
+
+            .fontSize(12)
+
+        }
+
+        .onClick(() => {
+
+          // Implement refresh logic here
+
+        })
+
+
+
+        Column() {
+
+          Image($r('app.media.template'))
+
+            .width(24)
+
+            .height(24)
+
+          Text('Me')
+
+            .fontSize(12)
+
+        }
+
+        .onClick(() => {
+
+          router.pushUrl({ url: 'pages/MePage' })
+
+        })
+
+      }
+
+      .width('100%')
+
+      .height('8%')
+
+      .justifyContent(FlexAlign.SpaceAround)
+
+      .backgroundColor('#F1F3F5')
+
+    }
+
+    .width('100%')
+
+    .height('100%')
+
+  }
+
+
+
+  aboutToAppear() {
+
+    // Add logic to check connection status and update connectionFailed state
+
+  }
+
+}

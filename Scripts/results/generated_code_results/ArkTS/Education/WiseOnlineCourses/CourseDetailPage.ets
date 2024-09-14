@@ -1,0 +1,227 @@
+import router from '@ohos.router';
+
+
+
+interface InstructorInfo {
+
+  name: string;
+
+  title: string;
+
+}
+
+
+
+interface AboutSection {
+
+  title: string;
+
+  description: string;
+
+}
+
+
+
+@Entry
+
+@Component
+
+struct CourseDetailPage {
+
+  @State currentTab: number = 0;
+
+  @State instructorInfo: InstructorInfo = { name: 'John Wiseberg', title: 'Teach Advertising and Creativity' };
+
+  @State aboutSection: AboutSection = {
+
+    title: 'Create the big ideas',
+
+    description: 'Mauris dignissim semper mattis. Fusce porttitor a mi at suscipit. Praesent facilisis dolor sapien, vel sodales augue mollis ut. Mauris venenatis magna eu tortor posuere luctus. Aenean tincidunt turpis sed dui aliquam vehicula. Praesent nec elit non dolor consectetur tincidunt sed in felis donec elementum.'
+
+  };
+
+
+
+  build() {
+
+    Column() {
+
+      Row() {
+
+        Image($r('app.media.template'))
+
+          .width(24)
+
+          .height(24)
+
+          .margin({ left: 16 })
+
+          .onClick(() => {
+
+            router.back();
+
+          })
+
+        Text(this.instructorInfo.name)
+
+          .fontSize(20)
+
+          .fontWeight(FontWeight.Bold)
+
+          .margin({ left: 16 })
+
+        Blank()
+
+        Image($r('app.media.template'))
+
+          .width(24)
+
+          .height(24)
+
+          .margin({ right: 16 })
+
+      }
+
+      .width('100%')
+
+      .height(56)
+
+      .backgroundColor('#F1F3F5')
+
+
+
+      Column() {
+
+        Image($r('app.media.template'))
+
+          .width(120)
+
+          .height(120)
+
+          .borderRadius(60)
+
+          .margin({ top: 24 })
+
+
+
+        Text(this.instructorInfo.name)
+
+          .fontSize(24)
+
+          .fontWeight(FontWeight.Bold)
+
+          .margin({ top: 16 })
+
+
+
+        Text(this.instructorInfo.title)
+
+          .fontSize(16)
+
+          .fontColor('#666666')
+
+          .margin({ top: 8 })
+
+
+
+        Row() {
+
+          Text('About')
+
+            .fontSize(16)
+
+            .fontWeight(this.currentTab === 0 ? FontWeight.Bold : FontWeight.Normal)
+
+            .onClick(() => {
+
+              this.currentTab = 0;
+
+            })
+
+          Text('Lessons')
+
+            .fontSize(16)
+
+            .fontWeight(this.currentTab === 1 ? FontWeight.Bold : FontWeight.Normal)
+
+            .margin({ left: 24 })
+
+            .onClick(() => {
+
+              router.pushUrl({ url: 'pages/LessonsPage' });
+
+            })
+
+        }
+
+        .margin({ top: 24 })
+
+
+
+        if (this.currentTab === 0) {
+
+          Column() {
+
+            Text(this.aboutSection.title)
+
+              .fontSize(20)
+
+              .fontWeight(FontWeight.Bold)
+
+              .margin({ top: 24, bottom: 16 })
+
+            Text(this.aboutSection.description)
+
+              .fontSize(14)
+
+              .fontColor('#666666')
+
+              .lineHeight(20)
+
+            Text('Or buy a good UI Kit')
+
+              .fontSize(16)
+
+              .fontWeight(FontWeight.Bold)
+
+              .margin({ top: 24, bottom: 16 })
+
+            Text('Mauris dignissim semper mattis. Fusce porttitor a mi at suscipit. Praesent facilisis dolor sapien vel sodales augue mollis ut.')
+
+              .fontSize(14)
+
+              .fontColor('#666666')
+
+              .lineHeight(20)
+
+            Button('Play Lesson')
+
+              .width('100%')
+
+              .height(48)
+
+              .backgroundColor('#FFD700')
+
+              .margin({ top: 24 })
+
+          }
+
+          .padding({ left: 16, right: 16 })
+
+        }
+
+      }
+
+      .width('100%')
+
+    }
+
+    .width('100%')
+
+    .height('100%')
+
+    .backgroundColor('#FFFFFF')
+
+  }
+
+}

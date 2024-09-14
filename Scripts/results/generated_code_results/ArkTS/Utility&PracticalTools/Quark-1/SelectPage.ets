@@ -1,0 +1,417 @@
+import router from '@ohos.router';
+
+
+
+@Entry
+
+@Component
+
+struct OnlineStoragePage {
+
+  @State searchText: string = ''
+
+  @State isLoggedIn: boolean = false
+
+
+
+  build() {
+
+    Column() {
+
+      Column() {
+
+        Row() {
+
+          Text('夸克网盘')
+
+            .fontSize(20)
+
+            .fontWeight(FontWeight.Bold)
+
+          Blank()
+
+          Image($r('app.media.template'))
+
+            .width(24)
+
+            .height(24)
+
+            .margin({ right: 8 })
+
+          Image($r('app.media.template'))
+
+            .width(24)
+
+            .height(24)
+
+        }
+
+        .width('100%')
+
+        .padding(16)
+
+
+
+        TextInput({ placeholder: '搜索网盘文件' })
+
+          .width('90%')
+
+          .height(40)
+
+          .margin({ top: 8, bottom: 16 })
+
+          .onChange((value: string) => {
+
+            this.searchText = value
+
+          })
+
+
+
+        if (!this.isLoggedIn) {
+
+          Column() {
+
+            Text('登录夸克网盘')
+
+              .fontSize(18)
+
+              .margin({ bottom: 8 })
+
+            Text('登录后领取10G空间')
+
+              .fontSize(14)
+
+              .fontColor(Color.Gray)
+
+            Button('立即登录')
+
+              .width('80%')
+
+              .height(40)
+
+              .margin({ top: 16 })
+
+              .onClick(() => {
+
+                this.isLoggedIn = true
+
+              })
+
+          }
+
+          .width('100%')
+
+          .alignItems(HorizontalAlign.Center)
+
+          .margin({ top: 32 })
+
+        } else {
+
+          Scroll() {
+
+            Column() {
+
+              Row() {
+
+                Button({ type: ButtonType.Normal }) {
+
+                  Image($r('app.media.template')).width(24).height(24)
+
+                  Text('视频').fontSize(12)
+
+                }.flexGrow(1)
+
+                Button({ type: ButtonType.Normal }) {
+
+                  Image($r('app.media.template')).width(24).height(24)
+
+                  Text('相册').fontSize(12)
+
+                }.flexGrow(1)
+
+                Button({ type: ButtonType.Normal }) {
+
+                  Image($r('app.media.template')).width(24).height(24)
+
+                  Text('文档').fontSize(12)
+
+                }.flexGrow(1)
+
+                Button({ type: ButtonType.Normal }) {
+
+                  Image($r('app.media.template')).width(24).height(24)
+
+                  Text('音频').fontSize(12)
+
+                }.flexGrow(1)
+
+                Button({ type: ButtonType.Normal }) {
+
+                  Image($r('app.media.template')).width(24).height(24)
+
+                  Text('压缩包').fontSize(12)
+
+                }.flexGrow(1)
+
+              }.width('100%').padding({ top: 16, bottom: 16 })
+
+
+
+              Grid() {
+
+                GridItem() {
+
+                  Column() {
+
+                    Image($r('app.media.template')).width(40).height(40)
+
+                    Text('云收藏').fontSize(12)
+
+                  }
+
+                }
+
+                GridItem() {
+
+                  Column() {
+
+                    Image($r('app.media.template')).width(40).height(40)
+
+                    Text('加密空间').fontSize(12)
+
+                  }
+
+                }
+
+                GridItem() {
+
+                  Column() {
+
+                    Image($r('app.media.template')).width(40).height(40)
+
+                    Text('PDF转换').fontSize(12)
+
+                  }
+
+                }
+
+                GridItem() {
+
+                  Column() {
+
+                    Image($r('app.media.template')).width(40).height(40)
+
+                    Text('回收站').fontSize(12)
+
+                  }
+
+                }
+
+                GridItem() {
+
+                  Column() {
+
+                    Image($r('app.media.template')).width(40).height(40)
+
+                    Text('AI听记').fontSize(12)
+
+                  }
+
+                }
+
+                GridItem() {
+
+                  Column() {
+
+                    Image($r('app.media.template')).width(40).height(40)
+
+                    Text('群组').fontSize(12)
+
+                  }
+
+                }
+
+              }
+
+              .columnsTemplate('1fr 1fr 1fr')
+
+              .rowsTemplate('1fr 1fr')
+
+              .width('100%')
+
+              .height(160)
+
+
+
+              Column() {
+
+                Text('iPhone手机')
+
+                  .fontSize(16)
+
+                  .fontWeight(FontWeight.Bold)
+
+                  .alignSelf(ItemAlign.Start)
+
+                Text('本机备份未开启')
+
+                  .fontSize(14)
+
+                  .fontColor(Color.Gray)
+
+                  .alignSelf(ItemAlign.Start)
+
+                Button('立即开启')
+
+                  .width('100%')
+
+                  .height(40)
+
+                  .margin({ top: 8 })
+
+              }
+
+              .width('100%')
+
+              .padding(16)
+
+              .backgroundColor('#F0F0F0')
+
+              .borderRadius(8)
+
+              .margin({ top: 16 })
+
+
+
+              Column() {
+
+                Row() {
+
+                  Text('最近文件')
+
+                    .fontSize(16)
+
+                    .fontWeight(FontWeight.Bold)
+
+                  Blank()
+
+                  Image($r('app.media.template'))
+
+                    .width(20)
+
+                    .height(20)
+
+                }.width('100%')
+
+
+
+                Image($r('app.media.template'))
+
+                  .width(60)
+
+                  .height(60)
+
+                  .margin({ top: 16 })
+
+                Text('暂无内容')
+
+                  .fontSize(14)
+
+                  .fontColor(Color.Gray)
+
+                  .margin({ top: 8 })
+
+              }
+
+              .width('100%')
+
+              .padding(16)
+
+              .backgroundColor('#F0F0F0')
+
+              .borderRadius(8)
+
+              .margin({ top: 16 })
+
+            }
+
+          }
+
+          .scrollable(ScrollDirection.Vertical)
+
+          .scrollBar(BarState.Auto)
+
+          .edgeEffect(EdgeEffect.Spring)
+
+          .height('80%')
+
+        }
+
+      }
+
+      .width('100%')
+
+      .height('90%')
+
+      .backgroundColor('#F5F5F5')
+
+
+
+      Row() {
+
+        Column() {
+
+          Image($r('app.media.template')).width(24).height(24)
+
+          Text('首页').fontSize(12)
+
+        }.onClick(() => {
+
+          router.pushUrl({ url: 'pages/HomePage' })
+
+        })
+
+        Column() {
+
+          Image($r('app.media.template')).width(24).height(24)
+
+          Text('文件').fontSize(12)
+
+        }
+
+        Column() {
+
+          Image($r('app.media.template')).width(24).height(24)
+
+          Text('传输').fontSize(12)
+
+        }
+
+        Column() {
+
+          Image($r('app.media.template')).width(24).height(24)
+
+          Text('会员').fontSize(12)
+
+        }
+
+      }
+
+      .width('100%')
+
+      .height('10%')
+
+      .justifyContent(FlexAlign.SpaceAround)
+
+      .backgroundColor(Color.White)
+
+    }
+
+    .width('100%')
+
+    .height('100%')
+
+  }
+
+}

@@ -1,0 +1,231 @@
+import React from 'react';
+import { View, Text, Image, TouchableOpacity, StyleSheet } from 'react-native';
+
+const ProfileScreen = ({ navigation }) => {
+  return (
+    <View style={styles.container}>
+      <View style={styles.topNavBar}>
+        <Image source={require('../assets/snack-icon.png')} style={styles.logo} />
+        <View style={styles.topRightIcons}>
+          <Image source={require('../assets/snack-icon.png')} style={styles.icon} />
+          <Image source={require('../assets/snack-icon.png')} style={styles.icon} />
+          <Image source={require('../assets/snack-icon.png')} style={styles.icon} />
+        </View>
+      </View>
+      <View style={styles.greetingContainer}>
+        <Image source={require('../assets/snack-icon.png')} style={styles.avatar} />
+        <Text style={styles.greetingText}>Hello, ml296</Text>
+      </View>
+      <View style={styles.languageSelector}>
+        <Image source={require('../assets/snack-icon.png')} style={styles.languageFlagIcon} />
+        <Text style={styles.languageText}>EN</Text>
+      </View>
+      <View style={styles.quickAccessContainer}>
+        <TouchableOpacity style={styles.quickAccessButton} onPress={() => navigation.navigate('Orders')}>
+          <Text style={styles.quickAccessButtonText}>Your Orders</Text>
+        </TouchableOpacity>
+        <TouchableOpacity style={styles.quickAccessButton}>
+          <Text style={styles.quickAccessButtonText}>Buy Again</Text>
+        </TouchableOpacity>
+        <TouchableOpacity style={styles.quickAccessButton} onPress={() => navigation.navigate('Account')}>
+          <Text style={styles.quickAccessButtonText}>Your Account</Text>
+        </TouchableOpacity>
+        <TouchableOpacity style={styles.quickAccessButton}>
+          <Text style={styles.quickAccessButtonText}>Your Lists</Text>
+        </TouchableOpacity>
+      </View>
+    import React from 'react';
+import { View, Text, Image, TouchableOpacity, StyleSheet } from 'react-native';
+
+const ProfileScreen = ({ navigation }) => {
+  return (
+    <View style={styles.container}>
+      <View style={styles.topNavBar}>
+        <Image source={require('../assets/snack-icon.png')} style={styles.logo} />
+        <View style={styles.topRightIcons}>
+          <Image source={require('../assets/snack-icon.png')} style={styles.icon} />
+          <Image source={require('../assets/snack-icon.png')} style={styles.icon} />
+          <Image source={require('../assets/snack-icon.png')} style={styles.icon} />
+        </View>
+      </View>
+      <View style={styles.greetingContainer}>
+        <Image source={require('../assets/snack-icon.png')} style={styles.avatar} />
+        <Text style={styles.greetingText}>Hello, ml296</Text>
+      </View>
+      <View style={styles.languageSelector}>
+        <Image source={require('../assets/snack-icon.png')} style={styles.languageFlagIcon} />
+        <Text style={styles.languageText}>EN</Text>
+      </View>
+      <View style={styles.quickAccessContainer}>
+        <TouchableOpacity style={styles.quickAccessButton} onPress={() => navigation.navigate('Orders')}>
+          <Text style={styles.quickAccessButtonText}>Your Orders</Text>
+        </TouchableOpacity>
+        <TouchableOpacity style={styles.quickAccessButton}>
+          <Text style={styles.quickAccessButtonText}>Buy Again</Text>
+        </TouchableOpacity>
+        <TouchableOpacity style={styles.quickAccessButton} onPress={() => navigation.navigate('Account')}>
+          <Text style={styles.quickAccessButtonText}>Your Account</Text>
+        </TouchableOpacity>
+        <TouchableOpacity style={styles.quickAccessButton}>
+          <Text style={styles.quickAccessButtonText}>Your Lists</Text>
+        </TouchableOpacity>
+      </View>
+      <View style={styles.section}>
+        <Text style={styles.sectionTitle}>Your Orders</Text>
+        <TouchableOpacity onPress={() => { /* Navigate to "Your Orders" detail page*/ }}>
+          <Text style={styles.seeAllButton}>See all</Text>
+        </TouchableOpacity>
+        <View style={styles.orderItemsContainer}>
+          <Image source={require('../assets/snack-icon.png')} style={styles.orderItemImage} />
+          <Image source={require('../assets/snack-icon.png')} style={styles.orderItemImage} />
+        </View>
+      </View>
+      <View style={styles.section}>
+        <Text style={styles.sectionTitle}>Buy again</Text>
+        <TouchableOpacity onPress={() => { /* Navigate to "Buy again" detail page */ }}>
+          <Text style={styles.seeAllButton}>See all</Text>
+        </TouchableOpacity>
+        <View style={styles.buyAgainItemsContainer}>
+          <Image source={require('../assets/snack-icon.png')} style={styles.buyAgainItemImage} />
+          <Image source={require('../assets/snack-icon.png')} style={styles.buyAgainItemImage} />
+          <Image source={require('../assets/snack-icon.png')} style={styles.buyAgainItemImage} />
+          <Image source={require('../assets/snack-icon.png')} style={styles.buyAgainItemImage} />
+          <Image source={require('../assets/snack-icon.png')} style={styles.buyAgainItemImage} />
+          <Image source={require('../assets/snack-icon.png')} style={styles.buyAgainItemImage} />
+        </View>
+      </View>
+      <View style={styles.bottomNavBar}>
+        <TouchableOpacity onPress={() => navigation.navigate('Home')}>
+          <Image source={require('../assets/snack-icon.png')} style={styles.bottomNavIcon} />
+        </TouchableOpacity>
+        <TouchableOpacity onPress={() => { /* Navigate to Profile, already on this page */ }}>
+          <Image source={require('../assets/snack-icon.png')} style={[styles.bottomNavIcon, styles.activeIcon]} />
+        </TouchableOpacity>
+        <TouchableOpacity onPress={() => { /* Navigate to Cart page */ }}>
+          <Image source={require('../assets/snack-icon.png')} style={styles.bottomNavIcon} />
+        </TouchableOpacity>
+        <TouchableOpacity onPress={() => { /* Navigate to Menu page */ }}>
+          <Image source={require('../assets/snack-icon.png')} style={styles.bottomNavIcon} />
+        </TouchableOpacity>
+      </View>
+    </View>
+  );
+}};
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+  },
+  topNavBar: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    padding: 10,
+    backgroundColor: '#FFFFFF',
+  },
+  logo: {
+    width: 120,
+    height: 40,
+  },
+  topRightIcons: {
+    flexDirection: 'row',
+  },
+  icon: {
+    width: 25,
+    height: 25,
+    marginHorizontal: 10,
+  },
+  greetingContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    padding: 10,
+  },
+  avatar: {
+    width: 40,
+    height: 40,
+    borderRadius: 20,
+    marginRight: 10,
+  },
+  greetingText: {
+    fontSize: 18,
+    fontWeight: 'bold',
+  },
+  languageSelector: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'flex-end',
+    padding: 10,
+  },
+  languageFlagIcon: {
+    width: 20,
+    height: 20,
+    marginRight: 5,
+  },
+  languageText: {
+    fontSize: 16,
+  },
+  quickAccessContainer: {
+    flexDirection: 'row',
+    justifyContent: 'space-around',
+    paddingTop: 10,
+  },
+  quickAccessButton: {
+    padding: 10,
+    borderRadius: 5,
+    backgroundColor: '#EBEDEF',
+  },
+  quickAccessButtonText: {
+    fontSize: 14,
+  },
+  section: {
+    padding: 10,
+  },
+  sectionTitle: {
+    fontSize: 18,
+    fontWeight: 'bold',
+  },
+  seeAllButton: {
+    fontSize: 16,
+    color: '#007BFF',
+  },
+  orderItemsContainer: {
+    flexDirection: 'row',
+    justifyContent: 'space-around',
+    paddingVertical: 10,
+  },
+  orderItemImage: {
+    width: 100,
+    height: 100,
+  },
+  buyAgainItemsContainer: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    justifyContent: 'space-around',
+    paddingVertical: 10,
+  },
+  buyAgainItemImage: {
+    width: 80,
+    height: 80,
+    margin: 5,
+  },
+  bottomNavBar: {
+    flexDirection: 'row',
+    justifyContent: 'space-around',
+    paddingVertical: 10,
+    borderTopWidth: 1,
+    borderColor: '#D3D3D3',
+    position: 'absolute',
+    bottom: 0,
+    width: '100%',
+    backgroundColor: '#FFFFFF',
+  },
+  bottomNavIcon: {
+    width: 30,
+    height: 30,
+  },
+  activeIcon: {
+    tintColor: '#007BFF',
+  },
+});
+
+export default ProfileScreen;

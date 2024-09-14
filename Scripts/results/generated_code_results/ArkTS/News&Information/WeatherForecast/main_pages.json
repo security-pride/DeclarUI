@@ -1,0 +1,9 @@
+{
+    "src": [
+        "pages/DetailsPage",
+        "pages/SettingPage",
+        "pages/HomePage",
+        "pages/AddLocationsPage",
+        "pages/EditLocationPage"
+    ]
+}

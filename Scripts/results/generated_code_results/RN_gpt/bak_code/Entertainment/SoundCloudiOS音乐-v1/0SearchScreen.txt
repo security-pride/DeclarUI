@@ -1,0 +1,162 @@
+import React from 'react';
+import { View, Text, Image, TextInput, StyleSheet, ScrollView, TouchableOpacity } from 'react-native';
+import Icon from 'react-native-vector-icons/MaterialIcons';
+
+const songList = [
+  { title: 'Better Now', artist: 'Post Malone' },
+  { title: 'Kimberly Evans', artist: 'Calvin Harris, Dua Lipa' },
+  { title: 'I Like It', artist: 'Cardi B, Bad Bunny, J Balvin' },
+  { title: 'Girls Like You (feat Cardi B)', artist: 'Maroon 5' },
+  { title: 'Back To You', artist: 'Selena Gomez' },
+  { title: 'Lucid Dreams', artist: 'Juice WRLD' },
+  { title: 'No Tears Left To Cry', artist: 'Ariana Grande' },
+  { title: 'Nice For What', artist: 'Drake' },
+  { title: 'Youngblood', artist: '5 Seconds of Summer' }
+];
+
+const SearchScreen = () => {
+  return (
+    <View style={styles.container}>
+      <View style={styles.header}>
+        <Text style={styles.time}>9:41 AM</Text>
+        <Image source={require('../assets/snack-icon.png')} style={styles.logo} />
+      </View>
+
+      <View style={styles.searchBar}>
+        <TextInput
+          style={styles.searchInput}
+          placeholder="Search that song!"
+        />
+        <Icon name="search" size={28} color="#ccc" style={styles.searchIcon} />
+      </View>
+
+      <Text style={styles.recentsLabel}>Recents</Text>
+
+      <ScrollView>
+        {songList.map((song, index) => (
+          <View key={index} style={styles.songContainer}>
+            <Image source={require('../assets/snack-icon.png')} style={styles.coverImage} />
+            <View style={styles.songInfo}>
+              <Text style={styles.songTitle}>{song.title}</Text>
+              <Text style={styles.songArtist}>{song.artist}</Text>
+            </View>
+            <TouchableOpacity>
+              <Icon name="close" size={24} color="#ccc" />
+            </TouchableOpacity>
+          </View>
+        ))}
+      </ScrollView>
+
+      <View style={styles.nowPlaying}>
+        <Text style={styles.nowPlayingSong}>All Mine</Text>
+        <Text style={styles.nowPlayingArtist}>Kanye West</Text>
+      </View>
+
+      <View style={styles.bottomNav}>
+        <TouchableOpacity>
+          <Icon name="home" size={28} color="#000" />
+        </TouchableOpacity>
+        <TouchableOpacity>
+          <Icon name="headset" size={28} color="#000" />
+        </TouchableOpacity>
+        <TouchableOpacity>
+          <Icon name="search" size={28} color="#fc5c65" />
+        </TouchableOpacity>
+        <TouchableOpacity>
+          <Icon name="person" size={28} color="#000" />
+        </TouchableOpacity>
+      </View>
+    </View>
+  );
+};
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fff'
+  },
+  header: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    padding: 15
+  },
+  time: {
+    fontSize: 16,
+    color: '#000'
+  },
+  logo: {
+    width: 30,
+    height: 30
+  },
+  searchBar: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: '#f1f1f1',
+    borderRadius: 20,
+    margin: 15,
+    paddingHorizontal: 10
+  },
+  searchInput: {
+    flex: 1,
+    height: 40,
+    fontSize: 16,
+    paddingLeft: 10
+  },
+  searchIcon: {
+    marginLeft: 10
+  },
+  recentsLabel: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    paddingLeft: 15,
+    marginVertical: 10
+  },
+  songContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginVertical: 5,
+    marginHorizontal: 15
+  },
+  coverImage: {
+    width: 50,
+    height: 50,
+    borderRadius: 5
+  },
+  songInfo: {
+    flex: 1,
+    marginLeft: 10
+  },
+  songTitle: {
+    fontSize: 16,
+    color: '#000'
+  },
+  songArtist: {
+    fontSize: 14,
+    color: '#888'
+  },
+  nowPlaying: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    padding: 15,
+    backgroundColor: '#fcf8f5'
+  },
+  nowPlayingSong: {
+    fontSize: 16,
+    color: '#000'
+  },
+  nowPlayingArtist: {
+    fontSize: 14,
+    color: '#fc5c65'
+  },
+  bottomNav: {
+    flexDirection: 'row',
+    justifyContent: 'space-around',
+    padding: 10,
+    borderTopWidth: 1,
+    borderColor: '#eee'
+  }
+});
+
+export default SearchScreen;

@@ -1,0 +1,299 @@
+import router from '@ohos.router';
+
+
+
+@Entry
+
+@Component
+
+struct SearchPage {
+
+  @State searchText: string = ''
+
+
+
+  @State rewardOffers: Array<RewardOffer> = [
+
+    { logo: 'MOBILES.CO.UK', title: 'Free £50 Currys Voucher with Vodafone Pa...', type: 'Online Reward', expiryDate: 'Ends 20 Jul' },
+
+    { logo: 'DUNELM', title: 'Free £5 Amazon Voucher with Orders Over...', type: 'Online Reward', expiryDate: 'Ends today' },
+
+    { logo: 'EBAY', title: 'Free £5 Groceries Voucher with Orders Ove...', type: 'Online Reward', expiryDate: 'Ends 21 Jul' },
+
+    { logo: 'LG', title: 'Free £40 Amazon Voucher with Orders Ove...', type: 'Online Reward', expiryDate: 'Ends 1 Aug' },
+
+    { logo: 'ADIDAS', title: 'Free £10 Amazon Voucher with Orders Ove...', type: 'Online Reward', expiryDate: 'Ends today' }
+
+  ]
+
+
+
+  @State trendingNow: Array<TrendingItem> = [
+
+    { image: 'London Zoo', title: '2 for 1 Entry with National Rail' }
+
+  ]
+
+
+
+  build() {
+
+    Column() {
+
+      Row() {
+
+        Search({ value: this.searchText, placeholder: 'Start searching' })
+
+          .width('100%')
+
+          .height(40)
+
+          .backgroundColor('#F1F3F5')
+
+          .placeholderColor('#99182431')
+
+          .placeholderFont({ size: 16, weight: 400 })
+
+          .textFont({ size: 16, weight: 400 })
+
+          .onSubmit((value: string) => {
+
+            this.searchText = value
+
+          })
+
+      }.width('100%').padding({ left: 16, right: 16, top: 8, bottom: 8 })
+
+
+
+      Scroll() {
+
+        Column() {
+
+          Row() {
+
+            Text('Reward Offers')
+
+              .fontSize(20)
+
+              .fontWeight(FontWeight.Bold)
+
+            Blank()
+
+            Button('View More')
+
+              .fontSize(14)
+
+              .fontColor('#0000FF')
+
+              .backgroundColor(Color.Transparent)
+
+              .onClick(() => {
+
+                router.pushUrl({ url: 'pages/MorePage' })
+
+              })
+
+          }.width('100%').padding({ left: 16, right: 16, top: 16, bottom: 8 })
+
+
+
+          List() {
+
+            ForEach(this.rewardOffers, (offer: RewardOffer) => {
+
+              ListItem() {
+
+                Row() {
+
+                  Image($r('app.media.template'))
+
+                    .width(40)
+
+                    .height(40)
+
+                    .margin({ right: 12 })
+
+                  Column() {
+
+                    Text(offer.title)
+
+                      .fontSize(16)
+
+                      .maxLines(1)
+
+                      .textOverflow({ overflow: TextOverflow.Ellipsis })
+
+                    Text(`${offer.type} • ${offer.expiryDate}`)
+
+                      .fontSize(14)
+
+                      .fontColor(Color.Gray)
+
+                  }.layoutWeight(1)
+
+                }
+
+                .width('100%')
+
+                .padding(8)
+
+                .backgroundColor(Color.White)
+
+                .onClick(() => {
+
+                  router.pushUrl({ url: 'pages/DetailsPage' })
+
+                })
+
+              }
+
+            })
+
+          }.width('100%').padding({ left: 16, right: 16 })
+
+
+
+          Row() {
+
+            Text('Trending Now')
+
+              .fontSize(20)
+
+              .fontWeight(FontWeight.Bold)
+
+            Blank()
+
+            Button('View More')
+
+              .fontSize(14)
+
+              .fontColor('#0000FF')
+
+              .backgroundColor(Color.Transparent)
+
+          }.width('100%').padding({ left: 16, right: 16, top: 16, bottom: 8 })
+
+
+
+          List() {
+
+            ForEach(this.trendingNow, (item: TrendingItem) => {
+
+              ListItem() {
+
+                Column() {
+
+                  Image($r('app.media.template'))
+
+                    .width('100%')
+
+                    .height(120)
+
+                    .objectFit(ImageFit.Cover)
+
+                  Text(item.title)
+
+                    .fontSize(16)
+
+                    .padding(8)
+
+                }
+
+              }
+
+            })
+
+          }.width('100%').padding({ left: 16, right: 16 })
+
+        }
+
+      }.width('100%').layoutWeight(1)
+
+
+
+      Row() {
+
+        Column() {
+
+          Image($r('app.media.template')).width(24).height(24)
+
+          Text('Discover').fontSize(12)
+
+        }.layoutWeight(1).onClick(() => {})
+
+
+
+        Column() {
+
+          Image($r('app.media.template')).width(24).height(24)
+
+          Text('Search').fontSize(12)
+
+        }.layoutWeight(1).onClick(() => {})
+
+
+
+        Column() {
+
+          Image($r('app.media.template')).width(24).height(24)
+
+          Text('VIP').fontSize(12)
+
+        }.layoutWeight(1).onClick(() => {})
+
+
+
+        Column() {
+
+          Image($r('app.media.template')).width(24).height(24)
+
+          Text('Account').fontSize(12)
+
+        }.layoutWeight(1).onClick(() => {
+
+          router.pushUrl({ url: 'pages/AccountPage' })
+
+        })
+
+      }
+
+      .width('100%')
+
+      .height(56)
+
+      .backgroundColor(Color.White)
+
+      .position({ x: 0, y: '100%' })
+
+      .translate({ y: -56 })
+
+    }
+
+  }
+
+}
+
+
+
+interface RewardOffer {
+
+  logo: string;
+
+  title: string;
+
+  type: string;
+
+  expiryDate: string;
+
+}
+
+
+
+interface TrendingItem {
+
+  image: string;
+
+  title: string;
+
+}

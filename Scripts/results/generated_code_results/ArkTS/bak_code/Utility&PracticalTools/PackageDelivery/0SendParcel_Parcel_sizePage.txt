@@ -1,0 +1,127 @@
+import router from '@ohos.router';
+
+interface ParcelSize {
+  icon: Resource;
+  name: string;
+  dimensions: string;
+  description: string;
+}
+
+@Entry
+@Component
+struct SendParcelParcelSizePage {
+  @State parcelSizes: ParcelSize[] = [
+    {
+      icon: $r('app.media.template'),
+      name: 'Small',
+      dimensions: 'Max. 25 kg, 8 x 38 x 64 cm',
+      description: 'Fits in an envelope'
+    },
+    {
+      icon: $r('app.media.template'),
+      name: 'Medium',
+      dimensions: 'Max. 25 kg, 19 x 38 x 64 cm',
+      description: 'Fits in a shoe box'
+    },
+    {
+      icon: $r('app.media.template'),
+      name: 'Large',
+      dimensions: 'Max. 25 kg, 41 x 38 x 64 cm',
+      description: 'Fits in a cardboard box'
+    },
+    {
+      icon: $r('app.media.template'),
+      name: 'Custom',
+      dimensions: 'Max: 30kg or 300cm',
+      description: 'Fits on a skid'
+    }
+  ];
+
+  build() {
+    Column() {
+      Row() {
+        Text('9:41').fontSize(16).fontWeight(FontWeight.Regular)
+      }
+      .width('100%')
+      .justifyContent(FlexAlign.Center)
+      .margin({ top: 12, bottom: 12 })
+
+      Text('Send parcel')
+        .fontSize(24)
+        .fontWeight(FontWeight.Bold)
+        .alignSelf(ItemAlign.Start)
+        .margin({ bottom: 20 })
+
+      Text('Parcel size')
+        .fontSize(18)
+        .fontWeight(FontWeight.Medium)
+        .alignSelf(ItemAlign.Start)
+        .margin({ bottom: 10 })
+
+      List() {
+        ForEach(this.parcelSizes, (size: ParcelSize) => {
+          ListItem() {
+            Row() {
+              Image(size.icon)
+                .width(60)
+                .height(60)
+                .margin({ right: 16 })
+              Column() {
+                Text(size.name)
+                  .fontSize(16)
+                  .fontWeight(FontWeight.Medium)
+                Text(size.dimensions)
+                  .fontSize(14)
+                  .fontColor(Color.Black)
+                Text(size.description)
+                  .fontSize(14)
+                  .fontColor(Color.Gray)
+              }
+            }
+            .width('100%')
+            .padding(16)
+            .backgroundColor(Color.White)
+            .borderRadius(8)
+            .margin({ bottom: 10 })
+          }
+        })
+      }
+      .width('100%')
+      .layoutWeight(1)
+    }
+    .width('100%')
+    .height('100%')
+    .backgroundColor('#F5F5F5')
+    .padding({ left: 16, right: 16 })
+
+    Row() {
+      Column() {
+        Image($r('app.media.template')).width(24).height(24)
+        Text('My parcels').fontSize(12).fontColor(Color.Gray)
+      }.layoutWeight(1).onClick(() => {
+        router.pushUrl({ url: 'pages/Home_Top_drawer_openPage' })
+      })
+
+      Column() {
+        Image($r('app.media.template')).width(24).height(24)
+        Text('Send parcel').fontSize(12).fontColor(Color.Black)
+      }.layoutWeight(1)
+
+      Column() {
+        Image($r('app.media.template')).width(24).height(24)
+        Text('Parcel center').fontSize(12).fontColor(Color.Gray)
+      }.layoutWeight(1).onClick(() => {
+        router.pushUrl({ url: 'pages/Parcel_centerPage' })
+      })
+    }
+    .width('100%')
+    .height('8%')
+    .backgroundColor(Color.White)
+    .position({ x: 0, y: '92%' })
+  }
+
+  onBackPress() {
+    router.back()
+    return true
+  }
+}

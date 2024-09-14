@@ -1,0 +1,22 @@
+import React from 'react';
+import { NavigationContainer } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
+import DefaultViewScreen from './components/DefaultViewScreen';
+import ExpandedViewScreen from './components/ExpandedViewScreen';
+import ExpandedViewShowHistoryScreen from './components/ExpandedViewShowHistoryScreen'; // Fix: Corrected the import path
+import ShowHistoryScreen from './components/ShowHistoryScreen';
+
+const Stack = createStackNavigator();
+
+export default function App() {
+  return (
+    <NavigationContainer>
+      <Stack.Navigator initialRouteName="DefaultView">
+        <Stack.Screen name="DefaultView" component={DefaultViewScreen} />
+        <Stack.Screen name="ExpandedView" component={ExpandedViewScreen} />
+        <Stack.Screen name="ExpandedViewShowHistory" component={ExpandedViewShowHistoryScreen} />
+        <Stack.Screen name="ShowHistory" component={ShowHistoryScreen} />
+      </Stack.Navigator>
+    </NavigationContainer>
+  );
+}

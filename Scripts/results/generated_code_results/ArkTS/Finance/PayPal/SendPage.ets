@@ -1,0 +1,235 @@
+import router from '@ohos.router';
+
+
+
+interface Contact {
+
+  name: string;
+
+  initials?: string;
+
+  icon?: Resource;
+
+  color: string;
+
+}
+
+
+
+@Entry
+
+@Component
+
+struct SendPage {
+
+  @State searchText: string = '';
+
+  @State suggestedContacts: Contact[] = [
+
+    { name: 'Fang Zhou', initials: 'ZF', color: 'purple' },
+
+    { name: 'CURVE UK LIMITED', icon: $r('app.media.template'), color: 'black' }
+
+  ];
+
+
+
+  build() {
+
+    Column() {
+
+      Row() {
+
+        Image($r('app.media.template'))
+
+          .width(24)
+
+          .height(24)
+
+          .margin({ right: 16 })
+
+          .onClick(() => {
+
+            router.pushUrl({ url: 'pages/HomePage' })
+
+          })
+
+        
+
+        TextInput({ placeholder: '姓名、用户名、邮箱地址、手机号码' })
+
+          .width('80%')
+
+          .height(40)
+
+          .backgroundColor('#F5F5F5')
+
+          .borderRadius(8)
+
+        
+
+        Image($r('app.media.template'))
+
+          .width(24)
+
+          .height(24)
+
+          .margin({ left: 16 })
+
+      }
+
+      .width('100%')
+
+      .padding({ left: 16, right: 16, top: 8, bottom: 8 })
+
+
+
+      Row() {
+
+        Image($r('app.media.template'))
+
+          .width(24)
+
+          .height(24)
+
+          .margin({ right: 16 })
+
+        Text('跨境汇款至银行账户、现金领取点等')
+
+          .fontSize(14)
+
+      }
+
+      .width('100%')
+
+      .padding(16)
+
+      .backgroundColor('#F0F8FF')
+
+
+
+      Text('建议联系人')
+
+        .fontSize(16)
+
+        .fontWeight(FontWeight.Bold)
+
+        .width('100%')
+
+        .padding({ left: 16, top: 16, bottom: 8 })
+
+
+
+      List() {
+
+        ForEach(this.suggestedContacts, (contact: Contact) => {
+
+          ListItem() {
+
+            Row() {
+
+              if (contact.initials) {
+
+                Text(contact.initials)
+
+                  .width(40)
+
+                  .height(40)
+
+                  .borderRadius(20)
+
+                  .backgroundColor(contact.color)
+
+                  .textAlign(TextAlign.Center)
+
+                  .fontSize(18)
+
+                  .fontColor(Color.White)
+
+              } else if (contact.icon) {
+
+                Image(contact.icon)
+
+                  .width(40)
+
+                  .height(40)
+
+              }
+
+              Text(contact.name)
+
+                .fontSize(16)
+
+                .margin({ left: 16 })
+
+              Blank()
+
+              Image($r('app.media.template'))
+
+                .width(24)
+
+                .height(24)
+
+            }
+
+            .width('100%')
+
+            .padding(16)
+
+          }
+
+        })
+
+      }
+
+      .width('100%')
+
+
+
+      Button() {
+
+        Row() {
+
+          Image($r('app.media.template'))
+
+            .width(24)
+
+            .height(24)
+
+            .margin({ right: 8 })
+
+          Text('启用您的联系人')
+
+            .fontSize(16)
+
+            .fontColor(Color.Blue)
+
+        }
+
+      }
+
+      .width('90%')
+
+      .height(48)
+
+      .margin({ top: 16 })
+
+      .backgroundColor(Color.White)
+
+      .borderRadius(24)
+
+      .borderWidth(1)
+
+      .borderColor(Color.Blue)
+
+    }
+
+    .width('100%')
+
+    .height('100%')
+
+    .backgroundColor(Color.White)
+
+  }
+
+}

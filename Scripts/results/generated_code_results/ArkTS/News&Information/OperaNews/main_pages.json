@@ -1,0 +1,9 @@
+{
+    "src": [
+        "pages/OfflineReadingPage",
+        "pages/NewOptionsPage",
+        "pages/HomePage",
+        "pages/MePage",
+        "pages/SettingsPage"
+    ]
+}

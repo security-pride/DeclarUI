@@ -1,0 +1,117 @@
+import React from 'react';
+import { View, TextInput, Text, Image, TouchableOpacity, FlatList, StyleSheet } from 'react-native';
+import Icon from 'react-native-vector-icons/Ionicons';
+
+const recentSearches = [
+  { id: '1', name: 'Sab Khas...', handle: '@s_khasan...', image: require('../assets/snack-icon.png') },
+  { id: '2', name: 'Martha Cr...', handle: '@craig_love', image: require('../assets/snack-icon.png') },
+  { id: '3', name: 'Tibitha P...', handle: '@mis_potter', image: require('../assets/snack-icon.png') },
+  { id: '4', name: 'Figma', handle: '@figmadesig...', image: require('../assets/snack-icon.png') },
+  { id: '5', name: 'Figma', handle: '@Figm', image: require('../assets/snack-icon.png') }
+];
+
+const SearchScreen = ({ navigation }) => {
+  return (
+    <View style={styles.container}>
+      <View style={styles.searchBarContainer}>
+        <Icon name="search" size={20} color="#aaa" style={styles.searchIcon} />
+        <TextInput placeholder="Search Twitter" style={styles.searchInput} />
+        <TouchableOpacity>
+          <Text style={styles.cancelButtonText}>Cancel</Text>
+        </TouchableOpacity>
+      </View>
+      <View style={styles.recentSearchesContainer}>
+        <Text style={styles.recentSearchesText}>Recent searches</Text>
+        <TouchableOpacity>
+          <Icon name="close-circle-outline" size={20} color="#aaa" />
+        </TouchableOpacity>
+      </View>
+      <FlatList 
+        data={recentSearches}
+        keyExtractor={item => item.id}
+        horizontal
+        renderItem={({ item }) => (
+          <View style={styles.recentSearchItem}>
+            <Image source={item.image} style={styles.recentSearchImage} />
+            <Text style={styles.recentSearchName}>{item.name}</Text>
+            <Text style={styles.recentSearchHandle}>{item.handle}</Text>
+          </View>
+        )}
+        style={styles.recentSearchesList}
+      />
+      <TextInput placeholder="skhasanov" style={styles.searchInputInList} />
+    </View>
+  );
+};
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fff'
+  },
+  searchBarContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    padding: 10,
+    borderBottomWidth: 1,
+    borderBottomColor: '#eee',
+  },
+  searchIcon: {
+    marginLeft: 10
+  },
+  searchInput: {
+    flex: 1,
+    padding: 5,
+    paddingLeft: 10,
+  },
+  cancelButtonText: {
+    color: 'blue',
+    margin: 10
+  },
+  recentSearchesContainer: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    padding: 10,
+    paddingLeft: 20,
+    paddingRight: 20,
+    borderBottomWidth: 1,
+    borderBottomColor: '#eee',
+  },
+  recentSearchesText: {
+    fontWeight: 'bold',
+  },
+  recentSearchesList: {
+    paddingLeft: 20,
+    paddingRight: 20,
+    marginTop: 10
+  },
+  recentSearchItem: {
+    alignItems: 'center',
+    marginRight: 20
+  },
+  recentSearchImage: {
+    width: 40,
+    height: 40,
+    borderRadius: 20,
+    marginBottom: 5,
+  },
+  recentSearchName: {
+    fontWeight: 'bold',
+    fontSize: 12,
+  },
+  recentSearchHandle: {
+    color: '#aaa',
+    fontSize: 12
+  },
+  searchInputInList: {
+    marginTop: 10,
+    marginLeft: 20,
+    marginRight: 20,
+    padding: 10,
+    borderWidth: 1,
+    borderColor: '#eee',
+    borderRadius: 5
+  }
+});
+
+export default SearchScreen;

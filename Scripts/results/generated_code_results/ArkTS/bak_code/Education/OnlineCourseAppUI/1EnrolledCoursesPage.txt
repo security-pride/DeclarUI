@@ -1,0 +1,131 @@
+import router from '@ohos.router';
+
+class CourseInfo {
+  title: string
+  lessonsCount: number
+  progress: number
+  image: Resource
+
+  constructor(title: string, lessonsCount: number, progress: number, image: Resource) {
+    this.title = title;
+    this.lessonsCount = lessonsCount;
+    this.progress = progress;
+    this.image = image;
+  }
+}
+
+@Entry
+@Component
+struct EnrolledCoursesPage {
+  @State courses: CourseInfo[] = [
+    new CourseInfo('3D Design Basic', 24, 25, $r('app.media.template')),
+    new CourseInfo('3D Abstract Design', 18, 50, $r('app.media.template')),
+    new CourseInfo('Characters Animation', 22, 75, $r('app.media.template')),
+    new CourseInfo('Game Design', 25, 100, $r('app.media.template')),
+    new CourseInfo('Product Design', 23, 100, $r('app.media.template'))
+  ]
+
+  @Builder
+  Header() {
+    Row() {
+      Text('My Enrolled Courses')
+        .fontSize(20)
+        .fontWeight(FontWeight.Bold)
+    }
+    .width('100%')
+    .height(56)
+    .padding({ left: 16, right: 16 })
+    .backgroundColor('#FFFFFF')
+  }
+
+  @Builder
+  FilterTabs() {
+    Row({ space: 8 }) {
+      ForEach(['Medium', 'Medium', 'Medium'], (item: string) => {
+        Button(item) {
+          Text(item)
+            .fontSize(14)
+            .fontColor('#FFFFFF')
+        }
+        .backgroundColor('#6750A4')
+        .borderRadius(16)
+        .height(32)
+      })
+    }
+    .width('100%')
+    .padding({ left: 16, right: 16, top: 8, bottom: 8 })
+  }
+
+  @Builder
+  CourseItem(course: CourseInfo) {
+    Row() {
+      Image(course.image)
+        .width(60)
+        .height(60)
+        .borderRadius(8)
+        .margin({ right: 16 })
+      Column() {
+        Text(course.title)
+          .fontSize(16)
+          .fontWeight(FontWeight.Medium)
+        Text(`${course.lessonsCount} lessons`)
+          .fontSize(14)
+          .fontColor('#666666')
+          .margin({ top: 4 })
+        Progress({ value: course.progress, total: 100 })
+          .width('100%')
+          .height(4)
+          .margin({ top: 8 })
+      }
+      .layoutWeight(1)
+      Text(`${course.progress}%`)
+        .fontSize(14)
+        .fontColor('#6750A4')
+    }
+    .width('100%')
+    .padding(16)
+    .backgroundColor('#FFFFFF')
+    .borderRadius(8)
+    .margin({ bottom: 8 })
+    .onClick(() => {
+      router.pushUrl({ url: 'pages/CourseDetailPage' })
+    })
+  }
+
+  build() {
+    Column() {
+      this.Header()
+      this.FilterTabs()
+      List() {
+        ForEach(this.courses, (course: CourseInfo) => {
+          ListItem() {
+            this.CourseItem(course)
+          }
+        })
+      }
+      .layoutWeight(1)
+      .margin({ top: 16 })
+
+      Row() {
+        ForEach(['Home', 'Course', 'Chat', 'Profile'], (item: string) => {
+          Column() {
+            Image($r('app.media.template'))
+              .width(24)
+              .height(24)
+            Text(item)
+              .fontSize(12)
+              .margin({ top: 4 })
+          }
+          .width('25%')
+          .height(56)
+          .justifyContent(FlexAlign.Center)
+        })
+      }
+      .width('100%')
+      .backgroundColor('#FFFFFF')
+    }
+    .width('100%')
+    .height('100%')
+    .backgroundColor('#F1F1F1')
+  }
+}

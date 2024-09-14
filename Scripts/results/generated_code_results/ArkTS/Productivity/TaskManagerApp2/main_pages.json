@@ -1,0 +1,9 @@
+{
+    "src": [
+        "pages/Home",
+        "pages/AddTask",
+        "pages/Statistics",
+        "pages/Profile",
+        "pages/Calendar"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "src": [
+        "pages/Chats",
+        "pages/Intro",
+        "pages/NewMessage",
+        "pages/People",
+        "pages/Profile"
+    ]
+}

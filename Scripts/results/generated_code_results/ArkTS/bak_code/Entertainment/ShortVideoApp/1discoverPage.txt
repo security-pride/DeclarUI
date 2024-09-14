@@ -1,0 +1,120 @@
+import router from '@ohos.router';
+
+interface VideoItem {
+  views: string;
+}
+
+interface SectionData {
+  title: string;
+  videos: VideoItem[];
+}
+
+@Entry
+@Component
+struct DiscoverPage {
+  @State searchText: string = '';
+  @State categories: string[] = ['All', 'Challenge', 'Entertainment', 'Dance'];
+  @State sections: SectionData[] = [
+    {
+      title: 'Hot',
+      videos: [{ views: '420.8K' }, { views: '316.0K' }, { views: '180.6K' }]
+    },
+    {
+      title: 'Featured',
+      videos: [{}, {}, {}]
+    }
+  ];
+
+  build() {
+    Column() {
+      Row() {
+        Image($r('app.media.template')).width(24).height(24)
+        TextInput({ placeholder: 'Search' })
+          .width('80%')
+          .height(40)
+          .backgroundColor('#F1F3F5')
+          .onChange((value: string) => {
+            this.searchText = value;
+          })
+          .onClick(() => {
+            router.pushUrl({ url: 'pages/searchPage' });
+          })
+      }.width('100%').justifyContent(FlexAlign.SpaceBetween).padding(10)
+
+      Scroll() {
+        Column() {
+          Image($r('app.media.template'))
+            .width('100%')
+            .height(200)
+            .objectFit(ImageFit.Cover)
+          Text('Camp day').fontSize(24).fontWeight(FontWeight.Bold)
+          Button('Join now')
+            .width(120)
+            .height(40)
+            .backgroundColor('#87CEEB')
+            .margin({ top: 10 })
+
+          Row() {
+            ForEach(this.categories, (category: string) => {
+              Button(category)
+                .height(40)
+                .backgroundColor(category === 'All' ? '#FF6B6B' : '#4CAF50')
+                .margin({ right: 10 })
+            })
+          }.width('100%').margin({ top: 20, bottom: 20 })
+
+          ForEach(this.sections, (section: SectionData) => {
+            Column() {
+              Row() {
+                Text(section.title).fontSize(20).fontWeight(FontWeight.Bold)
+                Text('>')
+              }.width('100%').justifyContent(FlexAlign.SpaceBetween)
+
+              Flex({ wrap: FlexWrap.Wrap, justifyContent: FlexAlign.SpaceBetween }) {
+                ForEach(section.videos, (video: VideoItem, index: number) => {
+                  Column() {
+                    Image($r('app.media.template'))
+                      .width(110)
+                      .height(150)
+                      .objectFit(ImageFit.Cover)
+                    if (video.views) {
+                      Text(video.views).fontSize(12).margin({ top: 5 })
+                    }
+                  }.width('30%').margin({ bottom: 10 })
+                })
+              }.width('100%')
+            }.margin({ bottom: 20 })
+          })
+        }.width('100%').padding(10)
+      }.width('100%').height('85%')
+
+      Row() {
+        Column() {
+          Image($r('app.media.template')).width(24).height(24)
+          Text('Home').fontSize(12)
+        }.onClick(() => {
+          router.pushUrl({ url: 'pages/homePage' });
+        })
+
+        Column() {
+          Image($r('app.media.template')).width(24).height(24)
+          Text('Discover').fontSize(12)
+        }
+
+        Column() {
+          Image($r('app.media.template')).width(40).height(40)
+        }
+
+        Column() {
+          Image($r('app.media.template')).width(24).height(24)
+          Text('Activity').fontSize(12)
+        }
+
+        Column() {
+          Image($r('app.media.template')).width(24).height(24)
+          Text('Profile').fontSize(12)
+        }
+      }.width('100%').justifyContent(FlexAlign.SpaceAround).height('15%')
+    }
+  }
+}

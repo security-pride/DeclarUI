@@ -1,0 +1,9 @@
+{
+    "src": [
+        "pages/AddTaskPage",
+        "pages/BoardPage",
+        "pages/DashboardPage",
+        "pages/MessagePage",
+        "pages/TaskPage"
+    ]
+}

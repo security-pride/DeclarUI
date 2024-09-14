@@ -1,0 +1,9 @@
+{
+    "src": [
+        "pages/ActivityPage",
+        "pages/FeedPage",
+        "pages/ProfilePage",
+        "pages/SearchPage",
+        "pages/UserProfilePage"
+    ]
+}

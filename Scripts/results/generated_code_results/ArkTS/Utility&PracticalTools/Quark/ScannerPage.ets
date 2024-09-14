@@ -1,0 +1,261 @@
+import router from '@ohos.router';
+
+
+
+@Entry
+
+@Component
+
+struct ScannerPage {
+
+  @State isLoggedIn: boolean = false;
+
+
+
+  build() {
+
+    Column() {
+
+      Row() {
+
+        Text('夸克扫描王').fontSize(20).fontWeight(FontWeight.Bold)
+
+        Blank()
+
+        Image($r('app.media.template')).width(24).height(24)
+
+        Image($r('app.media.template')).width(24).height(24)
+
+      }.width('100%').padding(10).justifyContent(FlexAlign.SpaceBetween)
+
+
+
+      Scroll() {
+
+        Column() {
+
+          Row() {
+
+            Image($r('app.media.template')).width(40).height(40)
+
+            Column() {
+
+              Text('登录查看扫描件').fontSize(16)
+
+              Button('立即登录', { type: ButtonType.Capsule })
+
+                .width(100)
+
+                .height(30)
+
+                .fontSize(14)
+
+                .onClick(() => {
+
+                  this.isLoggedIn = true;
+
+                })
+
+            }.alignItems(HorizontalAlign.Start).margin({ left: 10 })
+
+          }.width('100%').padding(10)
+
+
+
+          Grid() {
+
+            GridItem() {
+
+              Column() {
+
+                Image($r('app.media.template')).width(50).height(50)
+
+                Text('万能扫描').fontSize(14)
+
+              }
+
+            }
+
+            GridItem() {
+
+              Column() {
+
+                Image($r('app.media.template')).width(50).height(50)
+
+                Text('提取文字').fontSize(14)
+
+              }
+
+            }
+
+            GridItem() {
+
+              Column() {
+
+                Image($r('app.media.template')).width(50).height(50)
+
+                Text('转Word').fontSize(14)
+
+              }
+
+            }
+
+            GridItem() {
+
+              Column() {
+
+                Image($r('app.media.template')).width(50).height(50)
+
+                Text('拍照翻译').fontSize(14)
+
+              }
+
+            }
+
+          }.columnsTemplate('1fr 1fr 1fr 1fr').rowsTemplate('1fr').height(100)
+
+
+
+          Grid() {
+
+            ForEach(['提取表格', '拍证件照', '扫描证件', '寸照换底色', '会议记录', '取词翻译', '去手写', '文档变高清', '图像矫正', '万物识别', '图片转PDF', '图片转Excel', '图片转TXT', '记录屏幕', '更多'], (item: string) => {
+
+              GridItem() {
+
+                Column() {
+
+                  Image($r('app.media.template')).width(50).height(50)
+
+                  Text(item).fontSize(14)
+
+                }
+
+              }
+
+            })
+
+          }.columnsTemplate('1fr 1fr 1fr 1fr 1fr').rowsTemplate('1fr 1fr 1fr').height(300)
+
+
+
+          Text('选择导入方式，快速发起扫描').fontSize(14).margin({ top: 20, bottom: 10 })
+
+
+
+          Row() {
+
+            Button({ type: ButtonType.Capsule }) {
+
+              Row() {
+
+                Image($r('app.media.template')).width(24).height(24)
+
+                Text('文档导入').fontSize(14)
+
+              }
+
+            }.height(40).backgroundColor(Color.Grey).margin({ right: 10 })
+
+            Button({ type: ButtonType.Capsule }) {
+
+              Row() {
+
+                Image($r('app.media.template')).width(24).height(24)
+
+                Text('相册导入').fontSize(14)
+
+              }
+
+            }.height(40).backgroundColor(Color.Grey).margin({ right: 10 })
+
+            Button({ type: ButtonType.Capsule }) {
+
+              Row() {
+
+                Image($r('app.media.template')).width(24).height(24)
+
+                Text('微信导入').fontSize(14)
+
+              }
+
+            }.height(40).backgroundColor(Color.Grey)
+
+          }.width('100%').justifyContent(FlexAlign.Center)
+
+
+
+          Column() {
+
+            Text('最近使用').fontSize(16).fontWeight(FontWeight.Bold).margin({ top: 20, bottom: 10 })
+
+            Row() {
+
+              Image($r('app.media.template')).width(60).height(60)
+
+              Column() {
+
+                Text('夸克扫描王操作手册').fontSize(14)
+
+                Text('2024-07-16 11:30 · 8MB').fontSize(12).fontColor(Color.Grey)
+
+              }.alignItems(HorizontalAlign.Start).margin({ left: 10 })
+
+            }.width('100%')
+
+          }.alignItems(HorizontalAlign.Start)
+
+        }.width('100%').padding(10)
+
+      }.height('80%')
+
+
+
+      Row() {
+
+        Column() {
+
+          Image($r('app.media.template')).width(24).height(24)
+
+          Text('首页').fontSize(12)
+
+        }.layoutWeight(1).onClick(() => router.pushUrl({ url: 'pages/HomePage' }))
+
+        Column() {
+
+          Image($r('app.media.template')).width(24).height(24)
+
+          Text('文件管理').fontSize(12)
+
+        }.layoutWeight(1)
+
+        Column() {
+
+          Image($r('app.media.template')).width(24).height(24)
+
+          Text('全部工具').fontSize(12)
+
+        }.layoutWeight(1)
+
+        Column() {
+
+          Image($r('app.media.template')).width(24).height(24)
+
+          Text('扫描会员').fontSize(12)
+
+        }.layoutWeight(1)
+
+      }.width('100%').height(60).position({ y: '92%' })
+
+
+
+      Button({ type: ButtonType.Circle, stateEffect: true }) {
+
+        Image($r('app.media.template')).width(30).height(30)
+
+      }.width(60).height(60).position({ x: '50%', y: '87%' }).translate({ x: -30 }).backgroundColor(Color.Blue)
+
+    }.width('100%').height('100%')
+
+  }
+
+}

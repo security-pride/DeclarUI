@@ -1,0 +1,119 @@
+```javascript
+import React from 'react';
+import { View, Text, StyleSheet, Image, TouchableOpacity, ScrollView } from 'react-native';
+import { useNavigation } from '@react-navigation/native';
+import Icon from 'react-native-vector-icons/Ionicons';
+
+const MenuScreen = () => {
+  const navigation = useNavigation();
+
+  return (
+    <ScrollView style={styles.container}>
+      <View style={styles.header}>
+        <Image source={require('../assets/snack-icon.png')} style={styles.profileImage} />
+        <View style={styles.stats}>
+          <Text style={styles.name}>Pixsellz</Text>
+          <Text style={styles.username}>@pixslz</Text>
+          <Text style={styles.followInfo}>
+            216 <Text style={styles.followLabel}>Following</Text>  117 <Text style={styles.followLabel}>Followers</Text>
+          </Text>
+        </View>
+        <View style={styles.moreInfo}>
+          <Image source={require('../assets/snack-icon.png')} style={styles.additionalImages} />
+          <Image source={require('../assets/snack-icon.png')} style={styles.additionalImages} />
+          <Image source={require('../assets/snack-icon.png')} style={styles.additionalImages} />
+          <Icon name="ellipsis-horizontal-circle-outline" size={24} color="#333" />
+        </View>
+      </View>
+
+      <View style={styles.menuItems}>
+        <MenuItem icon="person-outline" label="Profile" onPress={() => navigation.navigate('Profile')} />
+        <MenuItem icon="list-outline" label="Lists" onPress={() => {}} />
+        <MenuItem icon="chatbubble-outline" label="Topics" onPress={() => {}} />
+        <MenuItem icon="bookmark-outline" label="Bookmarks" onPress={() => {}} />
+        <MenuItem icon="flash-outline" label="Moments" onPress={() => {}} />
+      </View>
+
+      <View style={styles.settingsSection}>
+        <Text style={styles.settingsItem}>Settings and privacy</Text>
+        <Text style={styles.settingsItem}>Help Center</Text>
+      </View>
+    </ScrollView>
+  );
+};
+
+const MenuItem = ({ icon, label, onPress }) => (
+  <TouchableOpacity style={styles.menuItem} onPress={onPress}>
+    <Icon name={icon} size={24} color="#333" />
+    <Text style={styles.menuText}>{label}</Text>
+  </TouchableOpacity>
+);
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+  },
+  header: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    padding: 16,
+  },
+  profileImage: {
+    width: 48,
+    height: 48,
+    borderRadius: 24,
+    marginRight: 16,
+  },
+  stats: {
+    flex: 1,
+  },
+  name: {
+    fontWeight: 'bold',
+    fontSize: 16,
+  },
+  username: {
+    color: 'gray',
+  },
+  followInfo: {
+    marginTop: 8,
+    color: '#333',
+  },
+  followLabel: {
+    fontWeight: 'bold',
+  },
+  moreInfo: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  additionalImages: {
+    width: 24,
+    height: 24,
+    borderRadius: 12,
+    marginHorizontal: 4,
+  },
+  menuItems: {
+    marginVertical: 20,
+    borderBottomWidth: 0.5,
+    borderBottomColor: '#d3d3d3',
+  },
+  menuItem: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    padding: 16,
+  },
+  menuText: {
+    marginLeft: 16,
+    fontSize: 16,
+  },
+  settingsSection: {
+    padding: 16,
+  },
+  settingsItem: {
+    paddingVertical: 12,
+    fontSize: 16,
+  },
+});
+
+export default MenuScreen;
+```

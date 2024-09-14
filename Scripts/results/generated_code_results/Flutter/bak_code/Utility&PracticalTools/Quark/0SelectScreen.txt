@@ -1,0 +1,185 @@
+import 'package:flutter/material.dart';
+
+class SelectScreen extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('精选'),
+        actions: [
+          IconButton(
+            icon: Icon(Icons.refresh),
+            onPressed: () {},
+          ),
+          IconButton(
+            icon: Icon(Icons.close),
+            onPressed: () {
+              Navigator.pushNamed(context, 'Home');
+            },
+          ),
+        ],
+      ),
+      body: Column(
+        children: [
+          _buildSearchBar(),
+          Expanded(
+            child: SingleChildScrollView(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  _buildCommonlyUsed(),
+                  _buildTodayDiscoveries(),
+                  _buildQuarkTreasureFunctions(),
+                  _buildHotTopicsUpdate(),
+                ],
+              ),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
+  Widget _buildSearchBar() {
+    return Padding(
+      padding: const EdgeInsets.all(8.0),
+      child: TextField(
+        decoration: InputDecoration(
+          hintText: '输入网址或网站名，网站访问一触即达',
+          prefixIcon: Icon(Icons.search),
+          border: OutlineInputBorder(
+            borderRadius: BorderRadius.circular(30),
+          ),
+        ),
+      ),
+    );
+  }
+
+  Widget _buildCommonlyUsed() {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: Text('常用', style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
+        ),
+        SingleChildScrollView(
+          scrollDirection: Axis.horizontal,
+          child: Row(
+            children: [
+              _buildIconButton('书签', Icons.bookmark),
+              _buildIconButton('微博', Icons.web),
+              _buildIconButton('腾讯', Icons.chat),
+              _buildIconButton('网易', Icons.music_note),
+              _buildIconButton('新浪网', Icons.public),
+            ],
+          ),
+        ),
+      ],
+    );
+  }
+
+  Widget _buildTodayDiscoveries() {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: Text('今日新发现', style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
+        ),
+        GridView.count(
+          shrinkWrap: true,
+          physics: NeverScrollableScrollPhysics(),
+          crossAxisCount: 4,
+          children: [
+            _buildGridItem('夸克热搜', 'assets/images/template.png'),
+            _buildGridItem('夸克高考', 'assets/images/template.png'),
+            _buildGridItem('携程旅行', 'assets/images/template.png'),
+            _buildGridItem('天天领现金', 'assets/images/template.png'),
+            _buildGridItem('梦幻西游', 'assets/images/template.png'),
+            _buildGridItem('微博热搜', 'assets/images/template.png'),
+            _buildGridItem('腾讯动漫', 'assets/images/template.png'),
+            _buildGridItem('新浪微博', 'assets/images/template.png'),
+          ],
+        ),
+      ],
+    );
+  }
+
+  Widget _buildQuarkTreasureFunctions() {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: Text('夸克宝藏功能', style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
+        ),
+        GridView.count(
+          shrinkWrap: true,
+          physics: NeverScrollableScrollPhysics(),
+          crossAxisCount: 4,
+          children: [
+            _buildGridItem('AI听记', 'assets/images/template.png'),
+            _buildGridItem('捷径', 'assets/images/template.png'),
+            _buildGridItem('夸克日报', 'assets/images/template.png'),
+            _buildGridItem('夸克扫描王', 'assets/images/template.png'),
+            _buildGridItem('夸克网盘', 'assets/images/template.png'),
+            _buildGridItem('书签', 'assets/images/template.png'),
+            _buildGridItem('实用工具', 'assets/images/template.png'),
+            _buildGridItem('夸克文档', 'assets/images/template.png'),
+          ],
+        ),
+      ],
+    );
+  }
+
+  Widget _buildHotTopicsUpdate() {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: Text('全网热点实时更新', style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
+        ),
+        ListView.builder(
+          shrinkWrap: true,
+          physics: NeverScrollableScrollPhysics(),
+          itemCount: 3,
+          itemBuilder: (context, index) {
+            return ListTile(
+              leading: Image.asset('assets/images/template.png', width: 40, height: 40),
+              title: Text('热点标题 ${index + 1}'),
+              subtitle: Text('热点描述 ${index + 1}'),
+            );
+          },
+        ),
+      ],
+    );
+  }
+
+  Widget _buildIconButton(String label, IconData icon) {
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 8.0),
+      child: Column(
+        children: [
+          IconButton(
+            icon: Icon(icon),
+            onPressed: () {},
+          ),
+          Text(label),
+        ],
+      ),
+    );
+  }
+
+  Widget _buildGridItem(String label, String imageAsset) {
+    return Column(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+        Image.asset(imageAsset, width: 40, height: 40),
+        SizedBox(height: 4),
+        Text(label, textAlign: TextAlign.center),
+      ],
+    );
+  }
+}

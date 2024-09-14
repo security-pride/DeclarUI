@@ -1,0 +1,285 @@
+import router from '@ohos.router';
+
+
+
+interface Sentence {
+
+  original: string;
+
+  translation: string;
+
+  explanation: string;
+
+}
+
+
+
+interface Author {
+
+  name: string;
+
+  subscribers: string;
+
+  subscribeStatus: string;
+
+}
+
+
+
+interface PracticeSection {
+
+  title: string;
+
+  sentence: string;
+
+  translation: string;
+
+}
+
+
+
+@Entry
+
+@Component
+
+struct LessonDetailPage {
+
+  @State currentTime: string = '9:41';
+
+  @State isEnglish: boolean = true;
+
+  @State sentence: Sentence = {
+
+    original: "NBD, let's keep going.",
+
+    translation: 'Không có gì to tát cả, tiếp tục nào.',
+
+    explanation: 'NBD: (no big deal) không có gì to tát cả.'
+
+  };
+
+  @State author: Author = {
+
+    name: 'Ellen Jacobs',
+
+    subscribers: '3.7k Subscriber',
+
+    subscribeStatus: 'Subscribed'
+
+  };
+
+  @State practiceSection: PracticeSection = {
+
+    title: 'Practice Speaking !',
+
+    sentence: "It's just a scratch.",
+
+    translation: 'Chỉ xước nhẹ thôi ý mà.'
+
+  };
+
+
+
+  build() {
+
+    Column() {
+
+      Row() {
+
+        Image($r('app.media.template')).width(24).height(24).onClick(() => {
+
+          router.back()
+
+        })
+
+        Blank()
+
+        Toggle({ type: ToggleType.Switch, isOn: this.isEnglish })
+
+          .selectedColor(Color.Blue)
+
+          .switchPointColor(Color.White)
+
+          .onChange((isOn: boolean) => {
+
+            this.isEnglish = isOn;
+
+          })
+
+        Text(this.isEnglish ? 'EN' : 'VN').fontSize(16).fontColor(Color.Gray)
+
+      }.width('100%').padding(16)
+
+
+
+      Video({
+
+        src: 'https://example.com/video.mp4',
+
+        previewUri: $r('app.media.template'),
+
+        controller: new VideoController()
+
+      }).width('100%').height('30%')
+
+
+
+      Scroll() {
+
+        Column() {
+
+          Row() {
+
+            Text('6').fontSize(20).fontWeight(FontWeight.Bold)
+
+            Text('/12').fontSize(16).fontColor(Color.Gray)
+
+          }.width('100%').padding(16)
+
+
+
+          Text("Tap to see word in dictionary").fontSize(14).fontColor(Color.Orange).padding(16)
+
+
+
+          Row() {
+
+            Text("NBD, let").fontSize(18)
+
+            Text("'s kee").fontSize(18).fontColor(Color.Blue)
+
+            Text("going.").fontSize(18)
+
+          }.width('100%').padding({ left: 16, right: 16 })
+
+
+
+          Text(this.sentence.translation).fontSize(16).padding(16)
+
+
+
+          Text(this.sentence.explanation).fontSize(14).fontColor(Color.Gray).padding(16)
+
+
+
+          Row() {
+
+            Button({ type: ButtonType.Circle, stateEffect: true }) {
+
+              Image($r('app.media.template')).width(24).height(24)
+
+            }.width(48).height(48).backgroundColor(Color.Gray.opacity(0.2))
+
+
+
+            Button('Drill').onClick(() => {}).margin({ left: 16 })
+
+            Text('1x').fontSize(16).margin({ left: 16 })
+
+            Button({ type: ButtonType.Circle, stateEffect: true }) {
+
+              Image($r('app.media.template')).width(24).height(24)
+
+            }.width(48).height(48).backgroundColor(Color.Gray.opacity(0.2)).margin({ left: 16 })
+
+          }.width('100%').padding(16)
+
+
+
+          Divider().color(Color.Gray.opacity(0.2)).margin({ top: 16, bottom: 16 })
+
+
+
+          Row() {
+
+            Image($r('app.media.template')).width(48).height(48).borderRadius(24)
+
+            Column() {
+
+              Text(this.author.name).fontSize(16).fontWeight(FontWeight.Bold)
+
+              Text(this.author.subscribers).fontSize(14).fontColor(Color.Gray)
+
+            }.layoutWeight(1).margin({ left: 16 })
+
+            Button(this.author.subscribeStatus)
+
+              .backgroundColor(this.author.subscribeStatus === 'Subscribed' ? Color.Gray : Color.Blue)
+
+              .fontColor(Color.White)
+
+          }.width('100%').padding(16)
+
+
+
+          Column() {
+
+            Text(this.practiceSection.title).fontSize(20).fontWeight(FontWeight.Bold)
+
+            Text(this.practiceSection.sentence).fontSize(18).margin({ top: 16 })
+
+            Text(this.practiceSection.translation).fontSize(16).fontColor(Color.Gray).margin({ top: 8 })
+
+            Button({ type: ButtonType.Circle, stateEffect: true }) {
+
+              Image($r('app.media.template')).width(24).height(24)
+
+            }.width(48).height(48).backgroundColor(Color.Blue).margin({ top: 16 })
+
+          }.width('100%').padding(16).backgroundColor(Color.Gray.opacity(0.1)).borderRadius(16)
+
+
+
+          Row() {
+
+            Column() {
+
+              Image($r('app.media.template')).width(24).height(24)
+
+              Text('62').fontSize(12).fontColor(Color.Gray)
+
+            }.layoutWeight(1)
+
+            Column() {
+
+              Image($r('app.media.template')).width(24).height(24)
+
+              Text('3').fontSize(12).fontColor(Color.Gray)
+
+            }.layoutWeight(1)
+
+            Column() {
+
+              Image($r('app.media.template')).width(24).height(24)
+
+              Text('Bookmark').fontSize(12).fontColor(Color.Gray)
+
+            }.layoutWeight(1)
+
+            Column() {
+
+              Image($r('app.media.template')).width(24).height(24)
+
+              Text('Share').fontSize(12).fontColor(Color.Gray)
+
+            }.layoutWeight(1)
+
+            Column() {
+
+              Image($r('app.media.template')).width(24).height(24)
+
+              Text('More').fontSize(12).fontColor(Color.Gray)
+
+            }.layoutWeight(1)
+
+          }.width('100%').padding(16)
+
+        }
+
+      }.height('60%')
+
+    }
+
+  }
+
+}

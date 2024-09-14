@@ -1,0 +1,128 @@
+import router from '@ohos.router';
+
+@Entry
+@Component
+struct CourseDetailPage {
+  @State students_count: number = 4569
+  @State rating: number = 4.9
+  @State badge: string = 'Best Seller'
+  @State course_description: string = 'In this course you will learn how to build a space to a 3-dimensional product. There are 24 premium learning videos for you.'
+  @State lessons_count: number = 24
+  @State total_duration: string = '20 hours'
+  @State first_lesson_title: string = 'Introduction to 3D'
+  @State first_lesson_duration: string = '20 mins'
+  @State first_lesson_completed: boolean = true
+
+  build() {
+    Column() {
+      Row() {
+        Image($r('app.media.template'))
+          .width(24)
+          .height(24)
+          .margin({ left: 16 })
+          .onClick(() => {
+            router.back()
+          })
+        Text('3D Design Basic')
+          .fontSize(20)
+          .fontWeight(FontWeight.Bold)
+          .margin({ left: 16 })
+      }
+      .width('100%')
+      .height(56)
+      .backgroundColor('#FFFFFF')
+
+      Scroll() {
+        Column() {
+          Image($r('app.media.template'))
+            .width('100%')
+            .height(200)
+            .objectFit(ImageFit.Cover)
+
+          Row() {
+            Text(this.students_count.toString())
+              .fontSize(14)
+              .fontColor('#666666')
+            Blank()
+            Text(this.rating.toString())
+              .fontSize(14)
+              .fontColor('#666666')
+            Blank()
+            Text(this.badge)
+              .fontSize(14)
+              .fontColor('#FFFFFF')
+              .backgroundColor('#007AFF')
+              .padding(4)
+              .borderRadius(4)
+          }
+          .width('100%')
+          .padding({ left: 16, right: 16, top: 8, bottom: 8 })
+
+          Text('3D Design Basic')
+            .fontSize(24)
+            .fontWeight(FontWeight.Bold)
+            .margin({ top: 16, bottom: 8, left: 16, right: 16 })
+
+          Text(this.course_description)
+            .fontSize(16)
+            .margin({ left: 16, right: 16, bottom: 16 })
+
+          Row() {
+            Text(`${this.lessons_count} Lessons (${this.total_duration})`)
+              .fontSize(16)
+              .fontWeight(FontWeight.Bold)
+            Blank()
+            Text('See all')
+              .fontSize(16)
+              .fontColor('#007AFF')
+              .onClick(() => {
+                // Navigate to lessons list
+              })
+          }
+          .width('100%')
+          .padding({ left: 16, right: 16, top: 8, bottom: 8 })
+
+          Row() {
+            Image($r('app.media.template'))
+              .width(80)
+              .height(80)
+              .borderRadius(8)
+            Column() {
+              Text(this.first_lesson_title)
+                .fontSize(16)
+                .fontWeight(FontWeight.Bold)
+              Text(this.first_lesson_duration)
+                .fontSize(14)
+                .fontColor('#666666')
+            }
+            .alignItems(HorizontalAlign.Start)
+            .margin({ left: 16 })
+            Blank()
+            Image($r('app.media.template'))
+              .width(24)
+              .height(24)
+              .margin({ right: 16 })
+          }
+          .width('100%')
+          .padding(16)
+          .backgroundColor('#F5F5F5')
+          .borderRadius(8)
+          .margin({ left: 16, right: 16, bottom: 16 })
+
+          Button('Large Button')
+            .width('90%')
+            .height(48)
+            .backgroundColor('#007AFF')
+            .fontColor('#FFFFFF')
+            .margin({ top: 16, bottom: 16 })
+        }
+      }
+      .scrollBar(BarState.Off)
+      .edgeEffect(EdgeEffect.Spring)
+      .height('85%')
+    }
+    .width('100%')
+    .height('100%')
+    .backgroundColor('#FFFFFF')
+  }
+}

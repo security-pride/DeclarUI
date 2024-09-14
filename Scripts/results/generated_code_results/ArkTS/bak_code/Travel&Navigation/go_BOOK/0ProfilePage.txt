@@ -1,0 +1,128 @@
+import router from '@ohos.router';
+
+interface ProfileOption {
+  icon: Resource;
+  title: string;
+  link?: string;
+}
+
+@Entry
+@Component
+struct ProfilePage {
+  @State profileOptions: ProfileOption[] = [
+    { icon: $r('app.media.template'), title: 'Edit Profile', link: 'pages/ProfilePage' },
+    { icon: $r('app.media.template'), title: 'Notification', link: 'pages/NotificationPage' },
+    { icon: $r('app.media.template'), title: 'Payment Method' },
+    { icon: $r('app.media.template'), title: 'Bookmarks' },
+    { icon: $r('app.media.template'), title: 'Security' },
+    { icon: $r('app.media.template'), title: 'Settings', link: 'pages/SettingPage' }
+  ]
+
+  build() {
+    Column() {
+      Row() {
+        Image($r('app.media.template'))
+          .width(24)
+          .height(24)
+          .onClick(() => {
+            router.back()
+          })
+        Text('Profile')
+          .fontSize(20)
+          .fontWeight(FontWeight.Bold)
+          .layoutWeight(1)
+        Image($r('app.media.template'))
+          .width(24)
+          .height(24)
+      }
+      .width('100%')
+      .height(56)
+      .padding({ left: 16, right: 16 })
+
+      Column() {
+        Stack() {
+          Image($r('app.media.template'))
+            .width(100)
+            .height(100)
+            .borderRadius(50)
+          Image($r('app.media.template'))
+            .width(24)
+            .height(24)
+            .position({ x: 76, y: 76 })
+        }
+        .margin({ top: 24, bottom: 8 })
+
+        Text('Mosarraf Hossain')
+          .fontSize(20)
+          .fontWeight(FontWeight.Bold)
+        Text('Product Designer')
+          .fontSize(14)
+          .fontColor(Color.Gray)
+          .margin({ top: 4, bottom: 24 })
+
+        List() {
+          ForEach(this.profileOptions, (option: ProfileOption) => {
+            ListItem() {
+              Row() {
+                Image(option.icon)
+                  .width(24)
+                  .height(24)
+                  .margin({ right: 16 })
+                Text(option.title)
+                  .fontSize(16)
+                  .layoutWeight(1)
+                Image($r('app.media.template'))
+                  .width(24)
+                  .height(24)
+              }
+              .width('100%')
+              .height(56)
+              .onClick(() => {
+                if (option.link) {
+                  router.pushUrl({ url: option.link })
+                }
+              })
+            }
+          })
+        }
+        .divider({ strokeWidth: 1, color: '#E0E0E0' })
+      }
+      .padding({ left: 16, right: 16 })
+
+      Blank()
+
+      Row() {
+        Column() {
+          Image($r('app.media.template')).width(24).height(24)
+          Text('Home').fontSize(12)
+        }.width('20%').onClick(() => router.pushUrl({ url: 'pages/HomePage' }))
+
+        Column() {
+          Image($r('app.media.template')).width(24).height(24)
+          Text('Notification').fontSize(12)
+        }.width('20%').onClick(() => router.pushUrl({ url: 'pages/NotificationPage' }))
+
+        Column() {
+          Image($r('app.media.template')).width(24).height(24)
+          Text('Ticket').fontSize(12)
+        }.width('20%')
+
+        Column() {
+          Image($r('app.media.template')).width(24).height(24)
+          Text('History').fontSize(12)
+        }.width('20%')
+
+        Column() {
+          Image($r('app.media.template')).width(24).height(24)
+          Text('Setting').fontSize(12)
+        }.width('20%').onClick(() => router.pushUrl({ url: 'pages/SettingPage' }))
+      }
+      .width('100%')
+      .height(56)
+      .backgroundColor(Color.White)
+    }
+    .width('100%')
+    .height('100%')
+    .backgroundColor('#F5F5F5')
+  }
+}

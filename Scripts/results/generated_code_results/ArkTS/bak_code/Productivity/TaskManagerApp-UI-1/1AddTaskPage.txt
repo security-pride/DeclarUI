@@ -1,0 +1,188 @@
+import router from '@ohos.router';
+
+interface TeamMember {
+  name: string;
+  avatar: Resource;
+  selected: boolean;
+}
+
+interface BoardOption {
+  label: string;
+  value: string;
+}
+
+@Entry
+@Component
+struct AddTaskPage {
+  @State taskName: string = '';
+  @State selectedDate: string = 'May 01, 2020';
+  @State startTime: string = '10:00 AM';
+  @State endTime: string = '01:00 PM';
+  @State description: string = '';
+  @State selectedBoard: string = 'RUNNING';
+
+  @State teamMembers: TeamMember[] = [
+    { name: 'John', avatar: $r('app.media.template'), selected: false },
+    { name: 'Ranak', avatar: $r('app.media.template'), selected: false },
+    { name: 'Parkao', avatar: $r('app.media.template'), selected: true },
+    { name: 'Mahmud', avatar: $r('app.media.template'), selected: false },
+  ];
+
+  @State boardOptions: BoardOption[] = [
+    { label: 'URGENT', value: 'URGENT' },
+    { label: 'RUNNING', value: 'RUNNING' },
+    { label: 'ONGOING', value: 'ONGOING' },
+  ];
+
+  build() {
+    Column() {
+      Row() {
+        Image($r('app.media.template')).width(24).height(24).margin({ right: 16 })
+        Text('Add Task').fontSize(20).fontWeight(FontWeight.Bold)
+        Blank()
+        Image($r('app.media.template')).width(16).height(16)
+        Image($r('app.media.template')).width(16).height(16).margin({ left: 8 })
+      }.width('100%').height(56).padding({ left: 16, right: 16 })
+
+      Scroll() {
+        Column() {
+          this.inputSection('TASK NAME', this.taskName, (value: string) => this.taskName = value)
+          this.teamMemberSection()
+          this.dateSection()
+          this.timeSection()
+          this.inputSection('DESCRIPTION', this.description, (value: string) => this.description = value)
+          this.boardSection()
+        }.padding(16)
+      }.layoutWeight(1)
+
+      Button('Done')
+        .width('90%')
+        .height(50)
+        .backgroundColor('#7054FF')
+        .borderRadius(25)
+        .margin({ bottom: 16 })
+        .onClick(() => {
+          // Handle task submission
+        })
+
+      Row() {
+        ForEach(['grid', 'checkmark', 'plus', 'document', 'chat'], (icon: string) => {
+          Image($r('app.media.template'))
+            .width(24)
+            .height(24)
+            .margin({ left: 16, right: 16 })
+            .onClick(() => {
+              switch (icon) {
+                case 'grid':
+                  router.pushUrl({ url: 'pages/BoardPage' })
+                  break
+                case 'checkmark':
+                  router.pushUrl({ url: 'pages/DashboardPage' })
+                  break
+                case 'document':
+                  router.pushUrl({ url: 'pages/TaskPage' })
+                  break
+                case 'chat':
+                  router.pushUrl({ url: 'pages/MessagePage' })
+                  break
+              }
+            })
+        })
+      }.width('100%').height(56).justifyContent(FlexAlign.SpaceAround)
+    }
+  }
+
+  @Builder
+  inputSection(label: string, value: string, onChange: (value: string) => void) {
+    Column() {
+      Text(label).fontSize(14).fontColor(Color.Gray).margin({ bottom: 8 })
+      TextInput({ text: value })
+        .width('100%')
+        .height(40)
+        .onChange(onChange)
+    }.alignItems(HorizontalAlign.Start).width('100%').margin({ bottom: 16 })
+  }
+
+  @Builder
+  teamMemberSection() {
+    Column() {
+      Text('TEAM MEMBER').fontSize(14).fontColor(Color.Gray).margin({ bottom: 8 })
+      Row() {
+        ForEach(this.teamMembers, (member: TeamMember) => {
+          Column() {
+            Stack() {
+              Image(member.avatar)
+                .width(40)
+                .height(40)
+                .borderRadius(20)
+              if (member.selected) {
+                Circle({ width: 16, height: 16 })
+                  .fill(Color.Blue)
+                  .position({ x: 30, y: 30 })
+              }
+            }
+            Text(member.name).fontSize(12).margin({ top: 4 })
+          }.margin({ right: 16 })
+        })
+        Image($r('app.media.template')).width(40).height(40)
+      }
+    }.alignItems(HorizontalAlign.Start).width('100%').margin({ bottom: 16 })
+  }
+
+  @Builder
+  dateSection() {
+    Column() {
+      Text('DATE').fontSize(14).fontColor(Color.Gray).margin({ bottom: 8 })
+      Row() {
+        Text(this.selectedDate).fontSize(16)
+        Blank()
+        Image($r('app.media.template')).width(24).height(24)
+      }.width('100%').height(40).border({ width: 1, color: Color.Gray, radius: 4 }).padding(8)
+    }.alignItems(HorizontalAlign.Start).width('100%').margin({ bottom: 16 })
+  }
+
+  @Builder
+  timeSection() {
+    Row() {
+      Column() {
+        Text('START TIME').fontSize(14).fontColor(Color.Gray).margin({ bottom: 8 })
+        Row() {
+          Text(this.startTime).fontSize(16)
+          Blank()
+          Image($r('app.media.template')).width(24).height(24)
+        }.width('100%').height(40).border({ width: 1, color: Color.Gray, radius: 4 }).padding(8)
+      }.layoutWeight(1).margin({ right: 8 })
+
+      Column() {
+        Text('END TIME').fontSize(14).fontColor(Color.Gray).margin({ bottom: 8 })
+        Row() {
+          Text(this.endTime).fontSize(16)
+          Blank()
+          Image($r('app.media.template')).width(24).height(24)
+        }.width('100%').height(40).border({ width: 1, color: Color.Gray, radius: 4 }).padding(8)
+      }.layoutWeight(1).margin({ left: 8 })
+    }.width('100%').margin({ bottom: 16 })
+  }
+
+  @Builder
+  boardSection() {
+    Column() {
+      Text('BOARD').fontSize(14).fontColor(Color.Gray).margin({ bottom: 8 })
+      Row() {
+        ForEach(this.boardOptions, (option: BoardOption) => {
+          Text(option.label)
+            .fontSize(14)
+            .fontColor(this.selectedBoard === option.value ? Color.White : Color.Black)
+            .backgroundColor(this.selectedBoard === option.value ? '#7054FF' : Color.White)
+            .padding(8)
+            .borderRadius(16)
+            .borderWidth(1)
+            .borderColor(this.selectedBoard === option.value ? '#7054FF' : Color.Gray)
+            .margin({ right: 8 })
+            .onClick(() => this.selectedBoard = option.value)
+        })
+        Image($r('app.media.template')).width(24).height(24)
+      }
+    }.alignItems(HorizontalAlign.Start).width('100%').margin({ bottom: 16 })
+  }
+}

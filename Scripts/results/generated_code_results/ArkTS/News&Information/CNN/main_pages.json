@@ -1,0 +1,9 @@
+{
+    "src": [
+        "pages/CreateAccont",
+        "pages/LogIn",
+        "pages/Elections",
+        "pages/Home",
+        "pages/Settings"
+    ]
+}

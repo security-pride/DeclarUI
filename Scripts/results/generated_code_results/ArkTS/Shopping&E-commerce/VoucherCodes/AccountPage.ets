@@ -1,0 +1,191 @@
+import router from '@ohos.router';
+
+
+
+interface MenuItem {
+
+  icon: string;
+
+  title: string;
+
+  badge?: string;
+
+}
+
+
+
+@Entry
+
+@Component
+
+struct AccountPage {
+
+  @State menuItems: MenuItem[] = [
+
+    { icon: 'person', title: 'Personal details' },
+
+    { icon: 'heart', title: 'Favourite brands' },
+
+    { icon: 'envelope', title: 'Communication preferences' },
+
+    { icon: 'star', title: 'VIP rewards tracker', badge: 'New' },
+
+    { icon: 'money', title: 'Track transaction status' },
+
+    { icon: 'gift', title: 'Gift card wallet' },
+
+    { icon: 'code', title: 'Submit a code' }
+
+  ];
+
+
+
+  build() {
+
+    Column() {
+
+      Text('Tailor your offers and access exciting rewards')
+
+        .fontSize(20)
+
+        .fontWeight(FontWeight.Bold)
+
+        .margin({ top: 20, bottom: 10 })
+
+
+
+      Button('Sign In')
+
+        .width('90%')
+
+        .height(50)
+
+        .backgroundColor('#FFFF00')
+
+        .fontColor(Color.Black)
+
+        .margin({ bottom: 20 })
+
+
+
+      List() {
+
+        ForEach(this.menuItems, (item: MenuItem) => {
+
+          ListItem() {
+
+            Row() {
+
+              Image($r('app.media.template'))
+
+                .width(24)
+
+                .height(24)
+
+                .margin({ right: 10 })
+
+              Text(item.title)
+
+                .fontSize(16)
+
+              if (item.badge) {
+
+                Text(item.badge)
+
+                  .fontSize(12)
+
+                  .backgroundColor('#FFFF00')
+
+                  .borderRadius(10)
+
+                  .padding(5)
+
+                  .margin({ left: 10 })
+
+              }
+
+              Blank()
+
+              Image($r('app.media.template'))
+
+                .width(24)
+
+                .height(24)
+
+            }
+
+            .width('100%')
+
+            .height(60)
+
+            .padding({ left: 20, right: 20 })
+
+          }
+
+        })
+
+      }
+
+      .layoutWeight(1)
+
+
+
+      Row() {
+
+        Column() {
+
+          Image($r('app.media.template')).width(24).height(24)
+
+          Text('Discover').fontSize(12)
+
+        }.layoutWeight(1).alignItems(HorizontalAlign.Center)
+
+
+
+        Column() {
+
+          Image($r('app.media.template')).width(24).height(24)
+
+          Text('Search').fontSize(12)
+
+        }.layoutWeight(1).alignItems(HorizontalAlign.Center)
+
+        .onClick(() => {
+
+          router.pushUrl({ url: 'pages/SearchPage' })
+
+        })
+
+
+
+        Column() {
+
+          Image($r('app.media.template')).width(24).height(24)
+
+          Text('VIP').fontSize(12)
+
+        }.layoutWeight(1).alignItems(HorizontalAlign.Center)
+
+
+
+        Column() {
+
+          Image($r('app.media.template')).width(24).height(24)
+
+          Text('Account').fontSize(12)
+
+        }.layoutWeight(1).alignItems(HorizontalAlign.Center)
+
+      }
+
+      .width('100%')
+
+      .height(60)
+
+      .backgroundColor(Color.White)
+
+    }
+
+  }
+
+}

@@ -1,0 +1,9 @@
+{
+    "src": [
+        "pages/ConnectionsPage",
+        "pages/ConnectToComputerPage",
+        "pages/HomeGridPage",
+        "pages/HomeListPage",
+        "pages/RecentsPage"
+    ]
+}
