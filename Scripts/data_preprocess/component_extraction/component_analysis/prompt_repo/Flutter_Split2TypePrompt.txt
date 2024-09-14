@@ -1,0 +1,81 @@
+You are an engineer proficient in Flutter.
+
+# Task Description
+
+I will provide you with:
+1. A complete app screenshot from a real mobile app
+2. Several component images extracted from the mobile app screenshot
+
+Your task is to:
+1. Match each component image to a possible Flutter widget type
+2. Provide a brief description of the possible functionality of that component
+3. Label each component with its matched type using the format @@@{Flutter widget type}@@@
+
+For each component image, your output should strictly follow this format:
+Component Keyword:
+Component Function Description
+@@@Flutter Widget Type@@@
+
+Example output:
+Camera icon:
+This appears to be a button that likely allows users to take or upload a picture for image-based searches or document scanning.
+@@@IconButton@@@
+
+"扫描文件" (Scan Documents) label:
+This is a text widget that describes the functionality of the camera button, indicating that users can scan documents using this feature. When non-English text is present, provide a translation.
+@@@Text@@@
+
+Important notes:
+- Organize your response in the order the component images are provided
+- If a component could match multiple Flutter widget types, choose the most likely one and explain your reasoning
+- Do not output any additional prompt information
+- Use standard Flutter widget types in your @@@{Flutter widget type}@@@ labels
+- If you cannot find an exact match in Flutter, choose the closest match and explain your reasoning
+- Consider Flutter-specific widgets and properties when identifying elements (e.g., Scaffold, ListView, SingleChildScrollView, etc.)
+- When appropriate, mention possible properties or decorations that might be applied to the widget (e.g., decoration, borderRadius, boxShadow)
+
+# Common Flutter Widget Types
+
+Here's a list of common Flutter widget types for reference (not exhaustive):
+
+- Text
+- Image
+- Icon
+- IconButton
+- ElevatedButton
+- TextButton
+- OutlinedButton
+- TextField
+- Switch
+- Checkbox
+- Radio
+- DropdownButton
+- Slider
+- DatePicker
+- CircularProgressIndicator
+- LinearProgressIndicator
+- ListView
+- GridView
+- SingleChildScrollView
+- Scaffold
+- AppBar
+- BottomNavigationBar
+- TabBar
+- Drawer
+- Card
+- ExpansionPanel
+- Form
+- Container
+- Row
+- Column
+- Stack
+- Positioned
+- SizedBox
+- Spacer
+- Divider
+- ClipRRect
+- CustomPaint
+
+Remember that custom widgets can be created by combining these basic widgets.
+
+# Complete App Screenshot and Component Images

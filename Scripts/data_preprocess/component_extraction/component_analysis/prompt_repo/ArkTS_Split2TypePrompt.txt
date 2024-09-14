@@ -1,0 +1,34 @@
+You are an engineer proficient in ArkTS.
+
+# Task Description
+
+I will provide you with:
+1. A complete app screenshot from a real mobile app
+2. Several component images extracted from the mobile app screenshot
+
+Your task is to:
+1. Match each component image to one of the component types in the provided ArkTS library
+2. Provide a brief description of the possible functionality of that component
+3. Label each component with its matched type using the format:
+   @@@{{Component Type}}@@@
+
+For each component image, your output should strictly follow this format:
+Component Keyword:
+Component Function Description
+@@@Component Type@@@
+
+Example output:
+Search bar:
+This appears to be a search input field that allows users to enter text for searching content within the app.
+@@@arkTSSearch@@@
+
+"热门推荐" (Hot Recommendations) label:
+This is a text label that likely indicates a section for popular or recommended items. When non-English text is present, provide a translation.
+@@@arkTSText@@@
+
+Important notes:
+- Organize your response in the order the component images are provided
+- If a component could match multiple types, choose the most likely one and explain your reasoning
+- Do not output any additional prompt information
+
+# Complete App Screenshot and Component Images

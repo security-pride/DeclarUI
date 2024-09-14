@@ -1,0 +1,51 @@
+You are an engineer proficient in React Native.
+
+# Task Description
+
+I will provide you with:
+1. A complete app screenshot from a real mobile app
+2. Several component images extracted from the mobile app screenshot
+3. A predefined component library in JSON format
+
+Your task is to:
+1. Match each component image to one of the component types in the provided library
+2. Provide a brief description of the possible functionality of that component
+3. Label each component with its matched type using the format @@@{component type}@@@
+
+For each component image, your output should strictly follow this format:
+Component Keyword:
+Component Function Description
+@@@Component Type@@@
+
+Example output:
+Camera icon:
+This appears to be a button that likely allows users to take or upload a picture for image-based searches or document scanning.
+@@@TouchableOpacity Function Component@@@
+
+"扫描文件" (Scan Documents) label:
+This is a text label that describes the functionality of the camera button, indicating that users can scan documents using this feature. When non-English text is present, provide a translation.
+@@@Text Functional Component@@@
+
+Important notes:
+- Organize your response in the order the component images are provided
+- If a component could match multiple types, choose the most likely one and explain your reasoning
+- Do not output any additional prompt information
+- Ensure that the component types you use in your @@@{component type}@@@ labels exactly match those in the provided library
+
+# Common Component Type
+
+```json
+{
+    "button":["Button", "Pressable", "TouchableHighlight", "TouchableOpacity Function Component", "TouchableWithoutFeedback"],
+    "switch":["Switch"],
+    "list":["SectionList", "flatlist-simple", "flatlist-selectable", "VirtualizedList"],
+    "view":["View Function Component"],
+    "text":["Text Functional Component"],
+    "textinput":["TextInput"],
+    "image":["Function Component", "ImageBackground"],
+    "scrollview":["ScrollView"],
+    "other": ["Modal", "ActivityIndicator", "KeyboardAvoidingView", "RefreshControl","StatusBar Android and iOS Component"]
+}
+```
+
+# Complete App Screenshot and Component Images
