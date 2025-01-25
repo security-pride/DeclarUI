@@ -48,19 +48,3 @@ To generate UI code, run the following command:
 cd Scripts/code_generation/code_generate_scripts
 python code_generate_declarUI.py
 ```
-
-### Evaluation
-We calculate CLIP score and SSIM score to evaluate the visual similarity between the generated UI code and the app screenshots, run the following command:
-```bash
-cd Scripts/evaluations/visual_similarity
-python visual_score.py
-```
-For user study, we use Git to track code modifications, run the following command to get the code modifications:
-```bash
-cd Scripts/evaluations/rq3_userstudy
-python count_edit_lines.py
-```
-
-## Others
-:)
-We thank all the reviewers for the valuable feedback!
