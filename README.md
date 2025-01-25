@@ -16,7 +16,7 @@ Ensure you have the following prerequisites installed:
 ### Installation
 Clone the repository to your local machine:
 ```bash
-git clone https://anonymous.4open.science/r/DeclarUI-3438
+git clone ...
 cd DeclarUI
 ```
 
