@@ -1,9 +1,0 @@
-{
-    "src": [
-        "pages/ChatPage",
-        "pages/ContactsPage",
-        "pages/MessagesPage",
-        "pages/ProfilePage",
-        "pages/SearchPage"
-    ]
-}

@@ -1,9 +1,0 @@
-{
-    "src": [
-        "pages/SelectPage",
-        "pages/NewsPage",
-        "pages/ScannerPage",
-        "pages/OnlineStoragePage",
-        "pages/HomePage"
-    ]
-}

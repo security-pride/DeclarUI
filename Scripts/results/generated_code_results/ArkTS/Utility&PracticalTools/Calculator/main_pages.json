@@ -1,9 +1,0 @@
-{
-    "src": [
-        "pages/ClearHistoryPage",
-        "pages/DefaultViewPage",
-        "pages/ExpandedViewPage",
-        "pages/ExpandedViewShowHistoryPage",
-        "pages/ShowHistoryPage"
-    ]
-}

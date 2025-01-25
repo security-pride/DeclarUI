@@ -1,9 +1,0 @@
-{
-    "src": [
-        "pages/AlbumsPage",
-        "pages/AlbumsDetailsPage",
-        "pages/HomePage",
-        "pages/PlaySongPage",
-        "pages/SongsPage"
-    ]
-}

@@ -1,9 +1,0 @@
-{
-    "src": [
-        "pages/HomePage",
-        "pages/DiscoverPage",
-        "pages/CourseDetailPage",
-        "pages/MyCoursesPage",
-        "pages/SearchPage"
-    ]
-}

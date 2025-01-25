@@ -1,9 +1,0 @@
-{
-    "src": [
-        "pages/HistoryPage",
-        "pages/HomePage",
-        "pages/ItemPage",
-        "pages/ProfilePage",
-        "pages/SearchPage"
-    ]
-}

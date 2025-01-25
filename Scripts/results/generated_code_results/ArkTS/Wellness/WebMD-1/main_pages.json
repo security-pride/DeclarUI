@@ -1,9 +1,0 @@
-{
-    "src": [
-        "pages/HomePage",
-        "pages/IdentifyResultPage",
-        "pages/PillIdentifierPage",
-        "pages/ReminderPage",
-        "pages/ResultDetailPage"
-    ]
-}

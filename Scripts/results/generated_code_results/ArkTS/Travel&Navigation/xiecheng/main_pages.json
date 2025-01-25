@@ -1,9 +1,0 @@
-{
-    "src": [
-        "pages/TravelPage",
-        "pages/GroupDetailsPage",
-        "pages/GroupTravelPage",
-        "pages/GroupTravelSearchResultPage",
-        "pages/HomePage"
-    ]
-}

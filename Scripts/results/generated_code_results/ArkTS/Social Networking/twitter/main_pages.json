@@ -1,9 +1,0 @@
-{
-    "src": [
-        "pages/HomePage",
-        "pages/MenuPage",
-        "pages/ProfilePage",
-        "pages/SearchPage",
-        "pages/TrendsPage"
-    ]
-}

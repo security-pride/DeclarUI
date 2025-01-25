@@ -1,9 +1,0 @@
-{
-    "src": [
-        "pages/StorePage",
-        "pages/HomePage",
-        "pages/ProfilePage",
-        "pages/SearchSportsPage",
-        "pages/SportsPage"
-    ]
-}

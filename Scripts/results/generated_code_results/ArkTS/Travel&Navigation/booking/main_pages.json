@@ -1,9 +1,0 @@
-{
-    "src": [
-        "pages/DetailsPage",
-        "pages/ReservationPage",
-        "pages/SearchPage",
-        "pages/SurroundingsPage",
-        "pages/TypeDetailsPage"
-    ]
-}

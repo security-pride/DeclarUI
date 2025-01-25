@@ -1,9 +1,0 @@
-{
-    "src": [
-        "pages/homePage",
-        "pages/morePage",
-        "pages/searchPage",
-        "pages/selectPage",
-        "pages/sortPage"
-    ]
-}

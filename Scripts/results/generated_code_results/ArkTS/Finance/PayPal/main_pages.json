@@ -1,9 +1,0 @@
-{
-    "src": [
-        "pages/BitcoinPage",
-        "pages/CryptoPage",
-        "pages/HomePage",
-        "pages/SendPage",
-        "pages/WalletPage"
-    ]
-}

@@ -1,9 +1,0 @@
-{
-    "src": [
-        "pages/HomePage",
-        "pages/ProfilePage",
-        "pages/TicketsPage",
-        "pages/TradePage",
-        "pages/UtilityBillsPage"
-    ]
-}

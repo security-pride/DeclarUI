@@ -1,9 +1,0 @@
-{
-    "src": [
-        "pages/HomePage",
-        "pages/LessonDetailPage",
-        "pages/SearchPage",
-        "pages/SpeakPage",
-        "pages/ConversationPage"
-    ]
-}

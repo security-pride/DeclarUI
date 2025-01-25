@@ -1,9 +1,0 @@
-{
-    "src": [
-        "pages/HomepagePage",
-        "pages/ProfilePage",
-        "pages/MessagesPage",
-        "pages/OnboardingPage",
-        "pages/SearchResultPage"
-    ]
-}

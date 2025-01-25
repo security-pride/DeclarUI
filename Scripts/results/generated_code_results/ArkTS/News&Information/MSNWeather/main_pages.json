@@ -1,9 +1,0 @@
-{
-    "src": [
-        "pages/AppsPage",
-        "pages/HomePage",
-        "pages/SettingsPage",
-        "pages/PersonalCentralPage",
-        "pages/NewsPage"
-    ]
-}

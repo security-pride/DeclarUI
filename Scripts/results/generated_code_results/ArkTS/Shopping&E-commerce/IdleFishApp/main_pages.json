@@ -1,9 +1,0 @@
-{
-    "src": [
-        "pages/CategoriesPage",
-        "pages/HomePage",
-        "pages/JewelryCategoryPage",
-        "pages/SellPage",
-        "pages/UploadPage"
-    ]
-}

@@ -1,9 +1,0 @@
-{
-    "src": [
-        "pages/HomePage",
-        "pages/AddTaskPage",
-        "pages/AllTasksPage",
-        "pages/TaskDetailsPage",
-        "pages/CalendarPage"
-    ]
-}

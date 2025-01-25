@@ -1,9 +1,0 @@
-{
-    "src": [
-        "pages/HomePage",
-        "pages/InboxPage",
-        "pages/CommentsPage",
-        "pages/SharePage",
-        "pages/ProfilePage"
-    ]
-}

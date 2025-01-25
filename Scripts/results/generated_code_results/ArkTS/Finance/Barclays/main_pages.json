@@ -1,9 +1,0 @@
-{
-    "src": [
-        "pages/Cards",
-        "pages/Help",
-        "pages/Home",
-        "pages/More",
-        "pages/StatementsandDocuments"
-    ]
-}
